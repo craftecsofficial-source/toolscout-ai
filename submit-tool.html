@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Submit a Tool – ToolScout AI</title>
+<meta name="description" content="Submit your AI tool to be listed on ToolScout AI.">
+<meta property="og:title" content="Submit a Tool – ToolScout AI">
+<meta property="og:description" content="Submit your AI tool to be listed on ToolScout AI.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@1,400;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+
+</head>
+<body>
+
+<div class="cursor-ring" id="cursorRing"></div>
+<header class="site-header" id="siteHeader">
+  <div class="container nav-wrap">
+    <a class="logo" href="index.html">ToolScout<span class="dot">.AI</span></a>
+    <nav class="main-nav" id="mainNav">
+      <a href="index.html">Home</a>
+      <a href="all-tools.html">All Tools</a>
+      <a href="submit-tool.html">Submit a Tool</a>
+      <a href="about.html">About</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">&#9776;</button>
+  </div>
+</header>
+
+<main>
+
+<section class="container section narrow page-hero">
+  <div class="kicker reveal">Get listed</div>
+  <h1 class="reveal" style="transition-delay:.08s">Submit your tool</h1>
+  <p class="muted reveal" style="transition-delay:.16s">Get your AI tool in front of people actively comparing tools in your category. Fill out the form below and our team will review your submission.</p>
+  <form class="submit-form reveal" style="transition-delay:.24s" onsubmit="alert('Thanks! This demo form is not yet connected to a backend — hook it up to Netlify Forms, Formspree or a Google Form when you deploy.'); return false;">
+    <label>Tool name<input type="text" required placeholder="e.g. Acme AI"></label>
+    <label>Website URL<input type="url" required placeholder="https://"></label>
+    <label>Category
+      <select required>
+        <option value="">Select a category</option>
+        <option value="writing-content">Writing & Content</option><option value="image-generation">Image Generation</option><option value="video-generation">Video Generation</option><option value="coding-development">Coding & Development</option><option value="productivity-automation">Productivity & Automation</option><option value="marketing-seo">Marketing & SEO</option><option value="chatbots-assistants">Chatbots & Assistants</option><option value="audio-voice">Audio & Voice</option>
+      </select>
+    </label>
+    <label>Short description<textarea required placeholder="What does your tool do, in 1-2 sentences?"></textarea></label>
+    <label>Pricing summary<input type="text" placeholder="e.g. Free tier available; paid from $19/mo"></label>
+    <label>Contact email<input type="email" required placeholder="you@company.com"></label>
+    <button type="submit" class="btn btn-primary magnetic">Submit for review <span class="arrow">&rarr;</span></button>
+  </form>
+</section>
+
+</main>
+
+<footer class="site-footer reveal">
+  <div class="container footer-grid">
+    <div>
+      <div class="logo">ToolScout<span class="dot">.AI</span></div>
+      <p class="muted">ToolScout AI is a directory that helps you discover, compare and choose the best AI tools for writing, images, video, coding, productivity, marketing, chatbots and audio.</p>
+    </div>
+    <div>
+      <h4>Categories</h4>
+      <div class="footer-links"><a href="categories/writing-content.html">Writing & Content</a>
+<a href="categories/image-generation.html">Image Generation</a>
+<a href="categories/video-generation.html">Video Generation</a>
+<a href="categories/coding-development.html">Coding & Development</a>
+<a href="categories/productivity-automation.html">Productivity & Automation</a>
+<a href="categories/marketing-seo.html">Marketing & SEO</a>
+<a href="categories/chatbots-assistants.html">Chatbots & Assistants</a>
+<a href="categories/audio-voice.html">Audio & Voice</a></div>
+    </div>
+    <div>
+      <h4>Site</h4>
+      <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="submit-tool.html">Submit a Tool</a>
+      </div>
+    </div>
+  </div>
+  <div class="container disclosure">
+    <p class="muted small">Affiliate disclosure: some links on ToolScout AI are affiliate links. We may earn a commission if you sign up through them, at no extra cost to you. This never affects which tools we choose to list.</p>
+    <p class="muted small">&copy; 2026 ToolScout AI. All product names and logos are property of their respective owners.</p>
+  </div>
+</footer>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
