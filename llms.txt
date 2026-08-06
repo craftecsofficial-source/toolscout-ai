@@ -1,0 +1,71 @@
+# ToolScout AI
+
+> ToolScout AI is a directory that helps you discover, compare and choose the best AI tools for writing, images, video, coding, productivity, marketing, chatbots and audio.
+
+ToolScout AI is an independently researched directory of AI tools, organized by category, with comprehensive reviews covering pricing, features, pros and cons, and real user sentiment sourced from G2, Capterra and Reddit. Every tool page includes a quick-facts summary, detailed feature breakdown, full pricing tiers, and an FAQ section.
+
+## Categories
+
+- [Writing & Content](https://toolscout-ai-nu.vercel.app/categories/writing-content.html): Draft, edit and scale blog posts, ads and marketing copy with AI.
+- [Image Generation](https://toolscout-ai-nu.vercel.app/categories/image-generation.html): Turn text prompts into original art, product shots and illustrations.
+- [Video Generation](https://toolscout-ai-nu.vercel.app/categories/video-generation.html): Create video, avatars and B-roll from text or a script.
+- [Coding & Development](https://toolscout-ai-nu.vercel.app/categories/coding-development.html): Pair-program, autocomplete and ship code faster with AI.
+- [Productivity & Automation](https://toolscout-ai-nu.vercel.app/categories/productivity-automation.html): Automate busywork and organize your work with AI.
+- [Marketing & SEO](https://toolscout-ai-nu.vercel.app/categories/marketing-seo.html): Research keywords, optimize content and track rankings with AI.
+- [Chatbots & Assistants](https://toolscout-ai-nu.vercel.app/categories/chatbots-assistants.html): General-purpose AI assistants for research, writing and everyday questions.
+- [Audio & Voice](https://toolscout-ai-nu.vercel.app/categories/audio-voice.html): Generate voiceovers, clone voices and edit audio with AI.
+
+## Tools
+
+### Writing & Content
+- [Jasper](https://toolscout-ai-nu.vercel.app/tools/jasper.html): AI content platform built for marketing teams — Pro from $59/mo per seat (billed yearly); Business custom-priced. No free plan.
+- [Copy.ai](https://toolscout-ai-nu.vercel.app/tools/copy-ai.html): AI copywriting and GTM workflow automation — Free tier available; Chat plan from $24/mo (billed annually); Growth/Enterprise plans from $1,000/mo+
+- [Grammarly](https://toolscout-ai-nu.vercel.app/tools/grammarly.html): AI writing assistant for grammar, tone and clarity — Free tier available; Pro from $12/mo (billed annually; $30/mo billed monthly)
+- [Writesonic](https://toolscout-ai-nu.vercel.app/tools/writesonic.html): AI Search Visibility (GEO) platform with SEO content tools — 7-day free trial, no credit card required; plans from $79/mo billed annually
+
+### Image Generation
+- [Midjourney](https://toolscout-ai-nu.vercel.app/tools/midjourney.html): AI art generator known for painterly, high-detail images — From $10/mo (Basic); no free trial; annual billing saves 20%
+- [DALL-E 3](https://toolscout-ai-nu.vercel.app/tools/dall-e-3.html): OpenAI's retired image generator, formerly built into ChatGPT — Retired May 12, 2026; was included with ChatGPT Plus ($20/mo) or ~$0.04-0.08/image via API — succeeded by GPT Image 2
+- [Adobe Firefly](https://toolscout-ai-nu.vercel.app/tools/adobe-firefly.html): Commercially safe AI image generation inside Adobe apps — Free tier available; paid plans from $9.99/mo (Standard)
+- [Ideogram](https://toolscout-ai-nu.vercel.app/tools/ideogram.html): AI image generator with strong text-in-image rendering — Free tier available; paid plans from $20/mo (Plus)
+
+### Video Generation
+- [Runway](https://toolscout-ai-nu.vercel.app/tools/runway.html): Generative video and editing suite for creators — Free tier (125 one-time credits); paid plans from $12/mo billed yearly ($15/mo monthly)
+- [Synthesia](https://toolscout-ai-nu.vercel.app/tools/synthesia.html): AI avatar videos for training and corporate content — Free tier (10 min/mo, watermarked); Starter from $18/mo billed yearly ($29/mo monthly)
+- [HeyGen](https://toolscout-ai-nu.vercel.app/tools/heygen.html): AI avatar and localization tool for marketing video — Free tier (3 videos/mo, 1 min each); paid plans from $29/mo (Creator, billed monthly)
+- [Kling AI](https://toolscout-ai-nu.vercel.app/tools/kling-ai.html): AI video generator known for realistic motion — Free tier (daily credit allowance); paid plans from ~$10/mo (Standard) — pricing changes frequently, verify at checkout
+
+### Coding & Development
+- [GitHub Copilot](https://toolscout-ai-nu.vercel.app/tools/github-copilot.html): AI pair programmer built into major IDEs — Free tier available (2,000 completions/mo); Pro $10/mo, Pro+ $39/mo, Business $19/user/mo
+- [Cursor](https://toolscout-ai-nu.vercel.app/tools/cursor.html): AI-first code editor built for agentic coding — Free tier (Hobby) available; Pro $20/mo, Pro+ $60/mo, Ultra $200/mo, Teams $40/user/mo
+- [Claude Code](https://toolscout-ai-nu.vercel.app/tools/claude-code.html): Anthropic's agentic coding tool for the terminal — Included with Claude Pro ($17-20/mo), Max ($100-200/mo), Team Premium and Enterprise plans; usage-based API pricing also available
+- [Replit AI](https://toolscout-ai-nu.vercel.app/tools/replit-ai.html): AI app builder inside a browser-based dev environment — Free (Starter) tier available; Core plan $20/mo billed annually ($25/mo monthly)
+
+### Productivity & Automation
+- [Notion AI](https://toolscout-ai-nu.vercel.app/tools/notion-ai.html): AI writing, Q&A and agent built into your Notion workspace — Free plan available; paid plans from $10/mo per seat (Plus); full Notion AI bundled into Business at $20/mo per seat
+- [Zapier](https://toolscout-ai-nu.vercel.app/tools/zapier.html): No-code automation connecting thousands of apps — Free plan (100 tasks/mo); paid plans from $19.99/mo (Professional, 750 tasks); Team from $69/mo; Enterprise custom
+- [Motion](https://toolscout-ai-nu.vercel.app/tools/motion.html): AI calendar and task planner — Individual plans from $19/seat/mo (Pro AI, billed annually) or $29/seat/mo (Business AI); no free plan
+- [ClickUp AI](https://toolscout-ai-nu.vercel.app/tools/clickup-ai.html): AI features layered on a project management platform — Free tier available; ClickUp Brain AI add-on from $9/seat/mo (annual) on top of a paid plan; Everything AI tier at $28/seat/mo
+
+### Marketing & SEO
+- [Surfer SEO](https://toolscout-ai-nu.vercel.app/tools/surfer-seo.html): AI-guided on-page content optimization — From $49/mo (Discovery), billed annually — plans up to $299/mo, Enterprise custom
+- [HubSpot AI Tools](https://toolscout-ai-nu.vercel.app/tools/hubspot-ai-tools.html): AI features (Breeze) across HubSpot's marketing and CRM suite — Free CRM tier; Starter from ~$15-20/mo per seat, Pro/Enterprise scale into hundreds-thousands/mo
+- [Semrush](https://toolscout-ai-nu.vercel.app/tools/semrush.html): All-in-one SEO, competitive research and AI-search platform — No full free plan (limited free account only); paid plans from $139.95/mo, or $117.33/mo billed annually
+- [Otterly AI](https://toolscout-ai-nu.vercel.app/tools/otterly-ai.html): Tracks how brands appear in AI search answers — Plans from $29/mo (Lite), or $25/mo billed annually
+
+### Chatbots & Assistants
+- [ChatGPT](https://toolscout-ai-nu.vercel.app/tools/chatgpt.html): OpenAI's general-purpose AI assistant — Free tier available; Go from $8/mo, Plus from $20/mo, Pro from $200/mo
+- [Claude](https://toolscout-ai-nu.vercel.app/tools/claude.html): Anthropic's AI assistant, known for careful, high-quality writing — Free tier available; Pro from $20/mo
+- [Perplexity](https://toolscout-ai-nu.vercel.app/tools/perplexity.html): AI answer engine with real-time, cited web search — Free tier available; Pro from $20/mo, Max at $200/mo
+- [Google Gemini](https://toolscout-ai-nu.vercel.app/tools/google-gemini.html): Google's AI assistant integrated across Workspace — Free tier available; AI Pro from $19.99/mo (AI Plus from $4.99/mo)
+
+### Audio & Voice
+- [ElevenLabs](https://toolscout-ai-nu.vercel.app/tools/elevenlabs.html): Widely used AI voice generation and cloning platform — Free tier (10k credits/mo, no commercial rights); Starter from $6/mo ($5/mo billed yearly)
+- [Descript](https://toolscout-ai-nu.vercel.app/tools/descript.html): Edit audio and video by editing a text transcript — Free tier available; Hobbyist from $16/mo (billed yearly), Creator (most popular) from $24/mo (billed yearly)
+- [Murf AI](https://toolscout-ai-nu.vercel.app/tools/murf-ai.html): AI voiceover studio for presentations and e-learning — Free plan (no credit card, 10 min voice generation, no commercial rights); paid plans from $19/mo billed yearly ($29/mo billed monthly)
+- [WellSaid Labs](https://toolscout-ai-nu.vercel.app/tools/wellsaid-labs.html): Enterprise-grade AI voices for brand-consistent audio — Free trial available; Starter from $10/mo billed yearly ($19/mo billed monthly)
+
+## Other pages
+
+- [About](https://toolscout-ai-nu.vercel.app/about.html): How ToolScout AI researches and selects tools.
+- [Submit a Tool](https://toolscout-ai-nu.vercel.app/submit-tool.html): Get an AI tool listed on ToolScout AI.
