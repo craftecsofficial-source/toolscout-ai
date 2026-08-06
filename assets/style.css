@@ -155,6 +155,35 @@ a:hover .arrow, button:hover .arrow { transform: translateX(4px); }
 .alt-card:hover { border-color: var(--gold); transform: translateY(-4px); }
 .alt-card p { font-size: 0.85rem; margin: 4px 0 12px; }
 
+/* rating chips */
+.rating-row { display: flex; gap: 10px; margin-top: 14px; flex-wrap: wrap; }
+.rating-chip { font-size: 0.85rem; background: var(--tint); padding: 6px 14px; border-radius: 999px; color: var(--muted-2); }
+.rating-chip strong { color: var(--ink); }
+
+/* detailed feature rows */
+.feat-list { display: grid; gap: 22px; max-width: 760px; }
+.feat-row { display: flex; gap: 18px; align-items: flex-start; }
+.feat-num { font-family: 'Fraunces', serif; font-style: italic; color: var(--gold-dark); font-size: 1rem; min-width: 28px; }
+.feat-row h4 { margin-bottom: 4px; font-size: 1rem; }
+.feat-row p { margin: 0; font-size: 0.92rem; }
+
+/* pricing plan cards */
+.plan-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; }
+.plan-card { background: var(--surface); border: 1px solid var(--line); border-radius: 4px; padding: 26px; }
+.plan-card h4 { font-size: 1.05rem; margin-bottom: 8px; }
+.plan-price { font-family: 'Fraunces', serif; font-size: 1.6rem; margin-bottom: 4px; }
+.plan-billing { font-size: 0.8rem; margin-bottom: 16px; }
+.plan-card ul { margin: 0; padding-left: 18px; font-size: 0.88rem; color: var(--muted-2); }
+.plan-card li { margin-bottom: 8px; }
+
+/* review sentiment */
+.pc-neutral { color: var(--ink) !important; }
+
+/* faq */
+.faq-list { display: flex; flex-direction: column; gap: 22px; }
+.faq-item h4 { font-size: 0.98rem; margin-bottom: 6px; }
+.faq-item p { margin: 0; font-size: 0.92rem; }
+
 /* all tools toolbar */
 .toolbar { margin: 28px 0 0; display: flex; flex-direction: column; gap: 18px; }
 #toolSearch { padding: 12px 4px; border: none; border-bottom: 1px solid var(--ink); background: transparent; font-size: 1rem; max-width: 360px; font-family: inherit; outline: none; }
