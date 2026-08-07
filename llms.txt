@@ -14,6 +14,7 @@ ToolScout AI is an independently researched directory of AI tools, organized by 
 - [Marketing & SEO](https://toolscout-ai-nu.vercel.app/categories/marketing-seo.html): Research keywords, optimize content and track rankings with AI.
 - [Chatbots & Assistants](https://toolscout-ai-nu.vercel.app/categories/chatbots-assistants.html): General-purpose AI assistants for research, writing and everyday questions.
 - [Audio & Voice](https://toolscout-ai-nu.vercel.app/categories/audio-voice.html): Generate voiceovers, clone voices and edit audio with AI.
+- [AEO Tools](https://toolscout-ai-nu.vercel.app/categories/aeo-tools.html): Track and improve how your brand appears in ChatGPT, Perplexity and other AI answers.
 
 ## Tools
 
@@ -64,6 +65,15 @@ ToolScout AI is an independently researched directory of AI tools, organized by 
 - [Descript](https://toolscout-ai-nu.vercel.app/tools/descript.html): Edit audio and video by editing a text transcript — Free tier available; Hobbyist from $16/mo (billed yearly), Creator (most popular) from $24/mo (billed yearly)
 - [Murf AI](https://toolscout-ai-nu.vercel.app/tools/murf-ai.html): AI voiceover studio for presentations and e-learning — Free plan (no credit card, 10 min voice generation, no commercial rights); paid plans from $19/mo billed yearly ($29/mo billed monthly)
 - [WellSaid Labs](https://toolscout-ai-nu.vercel.app/tools/wellsaid-labs.html): Enterprise-grade AI voices for brand-consistent audio — Free trial available; Starter from $10/mo billed yearly ($19/mo billed monthly)
+
+### AEO Tools
+- [Profound](https://toolscout-ai-nu.vercel.app/tools/profound.html): Enterprise-grade analytics for AI search visibility — No free tier; plans from $99/mo (Starter, ChatGPT-only) to $399/mo (Growth, 3 engines); custom Enterprise pricing
+- [Scrunch AI](https://toolscout-ai-nu.vercel.app/tools/scrunch-ai.html): AI visibility monitoring plus hallucination detection — No free tier; 7-day free trial; plans from $250/mo (Starter) to $417/mo (Growth), billed annually; custom Enterprise pricing
+- [AthenaHQ](https://toolscout-ai-nu.vercel.app/tools/athenahq.html): Free-to-start AI search visibility and action platform — Free Essential tier (credit-based); Starter from $295/mo (3,600 credits/mo); custom Enterprise pricing
+- [PageLens.ai](https://toolscout-ai-nu.vercel.app/tools/pagelens-ai.html): AI visibility tracking that ships content to your domain — Plans from $49/mo (Monitor); Optimize $199/mo; Growth (done-for-you content) $699/mo; Enterprise custom; agency plans from $49/mo
+- [Adobe LLM Optimizer](https://toolscout-ai-nu.vercel.app/tools/adobe-llm-optimizer.html): Adobe's enterprise engine for AI-search brand visibility — Custom enterprise pricing; prompt-based packages with a 1,000-prompt/year minimum, contact sales
+- [Conductor](https://toolscout-ai-nu.vercel.app/tools/conductor.html): Enterprise AEO and SEO platform built on a unified data engine — Custom enterprise pricing across three usage-based tiers (Essentials, Growth, Enterprise); contact sales
+- [BrightEdge](https://toolscout-ai-nu.vercel.app/tools/brightedge.html): Enterprise SEO platform with AI Hyper Cube for AI search — Custom enterprise, credit-based pricing (high five-figures to six-figures annually); contact sales
 
 ## Other pages
 

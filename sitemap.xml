@@ -61,6 +61,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://toolscout-ai-nu.vercel.app/categories/aeo-tools.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://toolscout-ai-nu.vercel.app/tools/jasper.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -217,6 +222,41 @@
   </url>
   <url>
     <loc>https://toolscout-ai-nu.vercel.app/tools/wellsaid-labs.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://toolscout-ai-nu.vercel.app/tools/profound.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://toolscout-ai-nu.vercel.app/tools/scrunch-ai.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://toolscout-ai-nu.vercel.app/tools/athenahq.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://toolscout-ai-nu.vercel.app/tools/pagelens-ai.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://toolscout-ai-nu.vercel.app/tools/adobe-llm-optimizer.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://toolscout-ai-nu.vercel.app/tools/conductor.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://toolscout-ai-nu.vercel.app/tools/brightedge.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
