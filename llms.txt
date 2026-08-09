@@ -1,8 +1,8 @@
-# ToolScout AI
+# ToolScout
 
-> ToolScout AI is a directory that helps you discover, compare and choose the best AI tools for writing, images, video, coding, productivity, marketing, chatbots and audio.
+> ToolScout is a directory that helps you discover, compare and choose the best AI tools for writing, images, video, coding, productivity, marketing, chatbots and audio.
 
-ToolScout AI is an independently researched directory of AI tools, organized by category, with comprehensive reviews covering pricing, features, pros and cons, and real user sentiment sourced from G2, Capterra and Reddit. Every tool page includes a quick-facts summary, detailed feature breakdown, full pricing tiers, and an FAQ section.
+ToolScout is an independently researched directory of AI tools, organized by category, with comprehensive reviews covering pricing, features, pros and cons, and real user sentiment sourced from G2, Capterra and Reddit. Every tool page includes a quick-facts summary, detailed feature breakdown, full pricing tiers, and an FAQ section.
 
 ## Categories
 
@@ -87,5 +87,5 @@ ToolScout AI is an independently researched directory of AI tools, organized by 
 ## Other pages
 
 - [Blog](https://toolscout-ai-nu.vercel.app/blog/index.html): Comparisons between PageLens.ai and other AEO tools.
-- [About](https://toolscout-ai-nu.vercel.app/about.html): How ToolScout AI researches and selects tools.
-- [Submit a Tool](https://toolscout-ai-nu.vercel.app/submit-tool.html): Get an AI tool listed on ToolScout AI.
+- [About](https://toolscout-ai-nu.vercel.app/about.html): How ToolScout researches and selects tools.
+- [Submit a Tool](https://toolscout-ai-nu.vercel.app/submit-tool.html): Get an AI tool listed on ToolScout.
