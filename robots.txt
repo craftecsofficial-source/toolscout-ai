@@ -52,4 +52,4 @@ Allow: /
 User-agent: Bytespider
 Allow: /
 
-Sitemap: https://toolscout-ai-nu.vercel.app/sitemap.xml
+Sitemap: https://www.toolscout.in/sitemap.xml
