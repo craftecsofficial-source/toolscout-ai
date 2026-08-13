@@ -1,0 +1,20 @@
+name: Fix Logo
+on:
+  workflow_dispatch:
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Remove .AI span from logo
+        run: find . -name "*.html" -type f -exec sed -i 's|<span class="dot">.AI</span>||g' {} +
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "Remove .AI span from logo across all pages"
+          git push
