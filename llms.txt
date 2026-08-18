@@ -6,86 +6,106 @@ ToolScout is an independently researched directory of AI tools, organized by cat
 
 ## Categories
 
-- [Writing & Content](https://toolscout-ai-nu.vercel.app/categories/writing-content.html): Draft, edit and scale blog posts, ads and marketing copy with AI.
-- [Image Generation](https://toolscout-ai-nu.vercel.app/categories/image-generation.html): Turn text prompts into original art, product shots and illustrations.
-- [Video Generation](https://toolscout-ai-nu.vercel.app/categories/video-generation.html): Create video, avatars and B-roll from text or a script.
-- [Coding & Development](https://toolscout-ai-nu.vercel.app/categories/coding-development.html): Pair-program, autocomplete and ship code faster with AI.
-- [Productivity & Automation](https://toolscout-ai-nu.vercel.app/categories/productivity-automation.html): Automate busywork and organize your work with AI.
-- [Marketing & SEO](https://toolscout-ai-nu.vercel.app/categories/marketing-seo.html): Research keywords, optimize content and track rankings with AI.
-- [Chatbots & Assistants](https://toolscout-ai-nu.vercel.app/categories/chatbots-assistants.html): General-purpose AI assistants for research, writing and everyday questions.
-- [Audio & Voice](https://toolscout-ai-nu.vercel.app/categories/audio-voice.html): Generate voiceovers, clone voices and edit audio with AI.
-- [AEO Tools](https://toolscout-ai-nu.vercel.app/categories/aeo-tools.html): Track and improve how your brand appears in ChatGPT, Perplexity and other AI answers.
+- [Writing & Content](https://www.toolscout.in/categories/writing-content.html): Draft, edit and scale blog posts, ads and marketing copy with AI.
+- [Image Generation](https://www.toolscout.in/categories/image-generation.html): Turn text prompts into original art, product shots and illustrations.
+- [Video Generation](https://www.toolscout.in/categories/video-generation.html): Create video, avatars and B-roll from text or a script.
+- [Coding & Development](https://www.toolscout.in/categories/coding-development.html): Pair-program, autocomplete and ship code faster with AI.
+- [Productivity & Automation](https://www.toolscout.in/categories/productivity-automation.html): Automate busywork and organize your work with AI.
+- [Marketing & SEO](https://www.toolscout.in/categories/marketing-seo.html): Research keywords, optimize content and track rankings with AI.
+- [Chatbots & Assistants](https://www.toolscout.in/categories/chatbots-assistants.html): General-purpose AI assistants for research, writing and everyday questions.
+- [Audio & Voice](https://www.toolscout.in/categories/audio-voice.html): Generate voiceovers, clone voices and edit audio with AI.
+- [AEO Tools](https://www.toolscout.in/categories/aeo-tools.html): Track and improve how your brand appears in ChatGPT, Perplexity and other AI answers.
 
 ## Tools
 
 ### Writing & Content
-- [Jasper](https://toolscout-ai-nu.vercel.app/tools/jasper.html): AI content platform built for marketing teams — Pro from $59/mo per seat (billed yearly); Business custom-priced. No free plan.
-- [Copy.ai](https://toolscout-ai-nu.vercel.app/tools/copy-ai.html): AI copywriting and GTM workflow automation — Free tier available; Chat plan from $24/mo (billed annually); Growth/Enterprise plans from $1,000/mo+
-- [Grammarly](https://toolscout-ai-nu.vercel.app/tools/grammarly.html): AI writing assistant for grammar, tone and clarity — Free tier available; Pro from $12/mo (billed annually; $30/mo billed monthly)
-- [Writesonic](https://toolscout-ai-nu.vercel.app/tools/writesonic.html): AI Search Visibility (GEO) platform with SEO content tools — 7-day free trial, no credit card required; plans from $79/mo billed annually
+- [Jasper](https://www.toolscout.in/tools/jasper.html): AI content platform built for marketing teams — Pro from $59/mo per seat (billed yearly); Business custom-priced. No free plan.
+- [Copy.ai](https://www.toolscout.in/tools/copy-ai.html): AI copywriting and GTM workflow automation — Free tier available; Chat plan from $24/mo (billed annually); Growth/Enterprise plans from $1,000/mo+
+- [Grammarly](https://www.toolscout.in/tools/grammarly.html): AI writing assistant for grammar, tone and clarity — Free tier available; Pro from $12/mo (billed annually; $30/mo billed monthly)
+- [Writesonic](https://www.toolscout.in/tools/writesonic.html): AI Search Visibility (GEO) platform with SEO content tools — 7-day free trial, no credit card required; plans from $79/mo billed annually
+- [SummarizingTool](https://www.toolscout.in/tools/summarizingtool.html): AI summaries for text, documents, and video — plus rewriting, paraphrasing, and AI detection — Free tier available; Monthly plan from $4.99/mo
+- [GoZen Content AI](https://www.toolscout.in/tools/gozen-content-ai.html): AI writing and image generation for SEO blogs, social posts, and ads — Free tier (2,000 AI words + 10 AI images/mo); paid plans start around $9/mo
 
 ### Image Generation
-- [Midjourney](https://toolscout-ai-nu.vercel.app/tools/midjourney.html): AI art generator known for painterly, high-detail images — From $10/mo (Basic); no free trial; annual billing saves 20%
-- [DALL-E 3](https://toolscout-ai-nu.vercel.app/tools/dall-e-3.html): OpenAI's retired image generator, formerly built into ChatGPT — Retired May 12, 2026; was included with ChatGPT Plus ($20/mo) or ~$0.04-0.08/image via API — succeeded by GPT Image 2
-- [Adobe Firefly](https://toolscout-ai-nu.vercel.app/tools/adobe-firefly.html): Commercially safe AI image generation inside Adobe apps — Free tier available; paid plans from $9.99/mo (Standard)
-- [Ideogram](https://toolscout-ai-nu.vercel.app/tools/ideogram.html): AI image generator with strong text-in-image rendering — Free tier available; paid plans from $20/mo (Plus)
+- [Midjourney](https://www.toolscout.in/tools/midjourney.html): AI art generator known for painterly, high-detail images — From $10/mo (Basic); no free trial; annual billing saves 20%
+- [DALL-E 3](https://www.toolscout.in/tools/dall-e-3.html): OpenAI's retired image generator, formerly built into ChatGPT — Retired May 12, 2026; was included with ChatGPT Plus ($20/mo) or ~$0.04-0.08/image via API — succeeded by GPT Image 2
+- [Adobe Firefly](https://www.toolscout.in/tools/adobe-firefly.html): Commercially safe AI image generation inside Adobe apps — Free tier available; paid plans from $9.99/mo (Standard)
+- [Ideogram](https://www.toolscout.in/tools/ideogram.html): AI image generator with strong text-in-image rendering — Free tier available; paid plans from $20/mo (Plus)
+- [ImgGen AI](https://www.toolscout.in/tools/imggen-ai.html): Free, watermark-free AI text-to-image generator with 120+ styles — Free (50 one-time credits, no card); Starter $9.99/mo (400 credits/mo); Pro $29.99/mo (1,400 credits/mo); custom Enterprise
+- [Stable Fast 3D](https://www.toolscout.in/tools/stable-fast-3d.html): Single image to a UV-unwrapped 3D mesh in about half a second — Free for non-commercial use and commercial use up to $1M annual revenue (Stability AI Community License); Enterprise License required above that threshold; also usable via paid Stability AI Platform API credits
+- [Modelia](https://www.toolscout.in/tools/modelia.html): AI fashion model generator for e-commerce product photography — Free Starter tier (20 credits/mo, watermarked); Project $12 one-time (50 credits); Basic $35/mo; Pro $85/mo; Business $300/mo — 20% off with annual billing
 
 ### Video Generation
-- [Runway](https://toolscout-ai-nu.vercel.app/tools/runway.html): Generative video and editing suite for creators — Free tier (125 one-time credits); paid plans from $12/mo billed yearly ($15/mo monthly)
-- [Synthesia](https://toolscout-ai-nu.vercel.app/tools/synthesia.html): AI avatar videos for training and corporate content — Free tier (10 min/mo, watermarked); Starter from $18/mo billed yearly ($29/mo monthly)
-- [HeyGen](https://toolscout-ai-nu.vercel.app/tools/heygen.html): AI avatar and localization tool for marketing video — Free tier (3 videos/mo, 1 min each); paid plans from $29/mo (Creator, billed monthly)
-- [Kling AI](https://toolscout-ai-nu.vercel.app/tools/kling-ai.html): AI video generator known for realistic motion — Free tier (daily credit allowance); paid plans from ~$10/mo (Standard) — pricing changes frequently, verify at checkout
+- [Runway](https://www.toolscout.in/tools/runway.html): Generative video and editing suite for creators — Free tier (125 one-time credits); paid plans from $12/mo billed yearly ($15/mo monthly)
+- [Synthesia](https://www.toolscout.in/tools/synthesia.html): AI avatar videos for training and corporate content — Free tier (10 min/mo, watermarked); Starter from $18/mo billed yearly ($29/mo monthly)
+- [HeyGen](https://www.toolscout.in/tools/heygen.html): AI avatar and localization tool for marketing video — Free tier (3 videos/mo, 1 min each); paid plans from $29/mo (Creator, billed monthly)
+- [Kling AI](https://www.toolscout.in/tools/kling-ai.html): AI video generator known for realistic motion — Free tier (daily credit allowance); paid plans from ~$10/mo (Standard) — pricing changes frequently, verify at checkout
+- [Shai](https://www.toolscout.in/tools/shai.html): AI pre-production for film and advertising — script to storyboard in seconds — Not publicly disclosed; platform access is currently via waitlist/early access, no self-serve pricing page
+- [RepliQ](https://www.toolscout.in/tools/repliq.html): Personalized video, image, and text outreach at scale — Free plan with 30 videos; Monthly plan from $39/mo (200 personalized videos/images/sentences); Annual plan from $19/mo billed annually
 
 ### Coding & Development
-- [GitHub Copilot](https://toolscout-ai-nu.vercel.app/tools/github-copilot.html): AI pair programmer built into major IDEs — Free tier available (2,000 completions/mo); Pro $10/mo, Pro+ $39/mo, Business $19/user/mo
-- [Cursor](https://toolscout-ai-nu.vercel.app/tools/cursor.html): AI-first code editor built for agentic coding — Free tier (Hobby) available; Pro $20/mo, Pro+ $60/mo, Ultra $200/mo, Teams $40/user/mo
-- [Claude Code](https://toolscout-ai-nu.vercel.app/tools/claude-code.html): Anthropic's agentic coding tool for the terminal — Included with Claude Pro ($17-20/mo), Max ($100-200/mo), Team Premium and Enterprise plans; usage-based API pricing also available
-- [Replit AI](https://toolscout-ai-nu.vercel.app/tools/replit-ai.html): AI app builder inside a browser-based dev environment — Free (Starter) tier available; Core plan $20/mo billed annually ($25/mo monthly)
+- [GitHub Copilot](https://www.toolscout.in/tools/github-copilot.html): AI pair programmer built into major IDEs — Free tier available (2,000 completions/mo); Pro $10/mo, Pro+ $39/mo, Business $19/user/mo
+- [Cursor](https://www.toolscout.in/tools/cursor.html): AI-first code editor built for agentic coding — Free tier (Hobby) available; Pro $20/mo, Pro+ $60/mo, Ultra $200/mo, Teams $40/user/mo
+- [Claude Code](https://www.toolscout.in/tools/claude-code.html): Anthropic's agentic coding tool for the terminal — Included with Claude Pro ($17-20/mo), Max ($100-200/mo), Team Premium and Enterprise plans; usage-based API pricing also available
+- [Replit AI](https://www.toolscout.in/tools/replit-ai.html): AI app builder inside a browser-based dev environment — Free (Starter) tier available; Core plan $20/mo billed annually ($25/mo monthly)
+- [Sofy](https://www.toolscout.in/tools/sofy.html): AI testing agents that write, run, and fix tests across mobile, web, API, and enterprise apps — AI Agent plans from $49/mo (100 tests/mo); Pro $249/mo (500 tests/mo); Enterprise custom. Separate real-device testing plans (Automate/Live) start at $749/mo billed annually
+- [Factory](https://www.toolscout.in/tools/factory.html): Agent-native software development — autonomous Droids for the full SDLC — Pro $20/mo; Plus $100/mo; Max $200/mo; Business and Enterprise are custom, contact-sales only
+- [Zeedle AI](https://www.toolscout.in/tools/zeedle-ai.html): AI agents that generate, test, and optimize your code end-to-end — Free Starter tier (100 AI code-generation requests/mo, 1 project); Pro $19/mo (1,000 requests/mo, 10 projects); Enterprise custom. All paid plans include a 14-day free trial, no credit card required
 
 ### Productivity & Automation
-- [Notion AI](https://toolscout-ai-nu.vercel.app/tools/notion-ai.html): AI writing, Q&A and agent built into your Notion workspace — Free plan available; paid plans from $10/mo per seat (Plus); full Notion AI bundled into Business at $20/mo per seat
-- [Zapier](https://toolscout-ai-nu.vercel.app/tools/zapier.html): No-code automation connecting thousands of apps — Free plan (100 tasks/mo); paid plans from $19.99/mo (Professional, 750 tasks); Team from $69/mo; Enterprise custom
-- [Motion](https://toolscout-ai-nu.vercel.app/tools/motion.html): AI calendar and task planner — Individual plans from $19/seat/mo (Pro AI, billed annually) or $29/seat/mo (Business AI); no free plan
-- [ClickUp AI](https://toolscout-ai-nu.vercel.app/tools/clickup-ai.html): AI features layered on a project management platform — Free tier available; ClickUp Brain AI add-on from $9/seat/mo (annual) on top of a paid plan; Everything AI tier at $28/seat/mo
+- [Notion AI](https://www.toolscout.in/tools/notion-ai.html): AI writing, Q&A and agent built into your Notion workspace — Free plan available; paid plans from $10/mo per seat (Plus); full Notion AI bundled into Business at $20/mo per seat
+- [Zapier](https://www.toolscout.in/tools/zapier.html): No-code automation connecting thousands of apps — Free plan (100 tasks/mo); paid plans from $19.99/mo (Professional, 750 tasks); Team from $69/mo; Enterprise custom
+- [Motion](https://www.toolscout.in/tools/motion.html): AI calendar and task planner — Individual plans from $19/seat/mo (Pro AI, billed annually) or $29/seat/mo (Business AI); no free plan
+- [ClickUp AI](https://www.toolscout.in/tools/clickup-ai.html): AI features layered on a project management platform — Free tier available; ClickUp Brain AI add-on from $9/seat/mo (annual) on top of a paid plan; Everything AI tier at $28/seat/mo
+- [Microsoft Translator](https://www.toolscout.in/tools/microsoft-translator.html): Microsoft's free-to-enterprise machine translation service for text, speech, and documents. — Free consumer apps and free Azure tier (2M characters/month); paid Azure tiers billed per million characters; on-premises enterprise edition from ~$310,000/year
+- [Ishi](https://www.toolscout.in/tools/ishi.html): The on-device architect that bridges local files to your cloud AI agents. — Free tier (BYOK); one-time lifetime Pro license $49 during public beta (list price $99) — no subscription
 
 ### Marketing & SEO
-- [Surfer SEO](https://toolscout-ai-nu.vercel.app/tools/surfer-seo.html): AI-guided on-page content optimization — From $49/mo (Discovery), billed annually — plans up to $299/mo, Enterprise custom
-- [HubSpot AI Tools](https://toolscout-ai-nu.vercel.app/tools/hubspot-ai-tools.html): AI features (Breeze) across HubSpot's marketing and CRM suite — Free CRM tier; Starter from ~$15-20/mo per seat, Pro/Enterprise scale into hundreds-thousands/mo
-- [Semrush](https://toolscout-ai-nu.vercel.app/tools/semrush.html): All-in-one SEO, competitive research and AI-search platform — No full free plan (limited free account only); paid plans from $139.95/mo, or $117.33/mo billed annually
-- [Otterly AI](https://toolscout-ai-nu.vercel.app/tools/otterly-ai.html): Tracks how brands appear in AI search answers — Plans from $29/mo (Lite), or $25/mo billed annually
+- [Surfer SEO](https://www.toolscout.in/tools/surfer-seo.html): AI-guided on-page content optimization — From $49/mo (Discovery), billed annually — plans up to $299/mo, Enterprise custom
+- [HubSpot AI Tools](https://www.toolscout.in/tools/hubspot-ai-tools.html): AI features (Breeze) across HubSpot's marketing and CRM suite — Free CRM tier; Starter from ~$15-20/mo per seat, Pro/Enterprise scale into hundreds-thousands/mo
+- [Semrush](https://www.toolscout.in/tools/semrush.html): All-in-one SEO, competitive research and AI-search platform — No full free plan (limited free account only); paid plans from $139.95/mo, or $117.33/mo billed annually
+- [Otterly AI](https://www.toolscout.in/tools/otterly-ai.html): Tracks how brands appear in AI search answers — Plans from $29/mo (Lite), or $25/mo billed annually
+- [PilotScribe](https://www.toolscout.in/tools/pilotscribe.html): Your SEO, on autopilot — keyword research, writing, publishing, and rewriting, unattended. — Starter $39/mo; Pro $99/mo (most popular); Agency $299/mo — billed monthly, cancel anytime
+- [Lovart](https://www.toolscout.in/tools/lovart.html): The AI design agent that turns a brief into a complete, on-brand campaign. — Free tier with daily credits; paid plans roughly $16-$109/month billed annually (Starter/Basic/Pro/Ultimate), higher on monthly billing
+- [SmartlyQ](https://www.toolscout.in/tools/smartlyq.html): The all-in-one AI marketing platform for content, social, chatbots, and publishing automation. — Pro from €97/month; Business €297/month; Enterprise €497/month (or custom); 20% off on annual billing; 30-day money-back guarantee
 
 ### Chatbots & Assistants
-- [ChatGPT](https://toolscout-ai-nu.vercel.app/tools/chatgpt.html): OpenAI's general-purpose AI assistant — Free tier available; Go from $8/mo, Plus from $20/mo, Pro from $200/mo
-- [Claude](https://toolscout-ai-nu.vercel.app/tools/claude.html): Anthropic's AI assistant, known for careful, high-quality writing — Free tier available; Pro from $20/mo
-- [Perplexity](https://toolscout-ai-nu.vercel.app/tools/perplexity.html): AI answer engine with real-time, cited web search — Free tier available; Pro from $20/mo, Max at $200/mo
-- [Google Gemini](https://toolscout-ai-nu.vercel.app/tools/google-gemini.html): Google's AI assistant integrated across Workspace — Free tier available; AI Pro from $19.99/mo (AI Plus from $4.99/mo)
+- [ChatGPT](https://www.toolscout.in/tools/chatgpt.html): OpenAI's general-purpose AI assistant — Free tier available; Go from $8/mo, Plus from $20/mo, Pro from $200/mo
+- [Claude](https://www.toolscout.in/tools/claude.html): Anthropic's AI assistant, known for careful, high-quality writing — Free tier available; Pro from $20/mo
+- [Perplexity](https://www.toolscout.in/tools/perplexity.html): AI answer engine with real-time, cited web search — Free tier available; Pro from $20/mo, Max at $200/mo
+- [Google Gemini](https://www.toolscout.in/tools/google-gemini.html): Google's AI assistant integrated across Workspace — Free tier available; AI Pro from $19.99/mo (AI Plus from $4.99/mo)
+- [Dapta AI](https://www.toolscout.in/tools/dapta-ai.html): All-in-one AI voice and text agents built for SMB sales automation — Free tier (2K credits); paid plans from $99/mo, up to $1,499/mo for enterprise-scale credits and support
+- [Leadster](https://www.toolscout.in/tools/leadster.html): The conversational marketing chatbot built to turn website traffic into qualified leads. — Plans from $47/month up to $1,000/month; free tier with limited functionality; 14-day free trial on paid plans
+- [NewMode (Algomo)](https://www.toolscout.in/tools/newmode-algomo.html): Turns anonymous website traffic into identified, qualified sales pipeline. — Plans start at $200/month (Growth tier); custom Enterprise pricing; no per-seat pricing; contact sales for a demo
 
 ### Audio & Voice
-- [ElevenLabs](https://toolscout-ai-nu.vercel.app/tools/elevenlabs.html): Widely used AI voice generation and cloning platform — Free tier (10k credits/mo, no commercial rights); Starter from $6/mo ($5/mo billed yearly)
-- [Descript](https://toolscout-ai-nu.vercel.app/tools/descript.html): Edit audio and video by editing a text transcript — Free tier available; Hobbyist from $16/mo (billed yearly), Creator (most popular) from $24/mo (billed yearly)
-- [Murf AI](https://toolscout-ai-nu.vercel.app/tools/murf-ai.html): AI voiceover studio for presentations and e-learning — Free plan (no credit card, 10 min voice generation, no commercial rights); paid plans from $19/mo billed yearly ($29/mo billed monthly)
-- [WellSaid Labs](https://toolscout-ai-nu.vercel.app/tools/wellsaid-labs.html): Enterprise-grade AI voices for brand-consistent audio — Free trial available; Starter from $10/mo billed yearly ($19/mo billed monthly)
+- [ElevenLabs](https://www.toolscout.in/tools/elevenlabs.html): Widely used AI voice generation and cloning platform — Free tier (10k credits/mo, no commercial rights); Starter from $6/mo ($5/mo billed yearly)
+- [Descript](https://www.toolscout.in/tools/descript.html): Edit audio and video by editing a text transcript — Free tier available; Hobbyist from $16/mo (billed yearly), Creator (most popular) from $24/mo (billed yearly)
+- [Murf AI](https://www.toolscout.in/tools/murf-ai.html): AI voiceover studio for presentations and e-learning — Free plan (no credit card, 10 min voice generation, no commercial rights); paid plans from $19/mo billed yearly ($29/mo billed monthly)
+- [WellSaid Labs](https://www.toolscout.in/tools/wellsaid-labs.html): Enterprise-grade AI voices for brand-consistent audio — Free trial available; Starter from $10/mo billed yearly ($19/mo billed monthly)
+- [AI Phone](https://www.toolscout.in/tools/ai-phone.html): Real-time AI call translator that lets you speak your language while they hear theirs. — Free to start; in-app subscription/credit-based paid plans on iOS and Android (exact tier pricing set via App Store/Google Play)
+- [MIDI Agent](https://www.toolscout.in/tools/midi-agent.html): The AI MIDI generator plugin that turns text prompts into editable notes inside your DAW. — $49 lifetime license (50% off regular $99); optional MIDI Agent Pro subscription at $20/month for managed AI access
 
 ### AEO Tools
-- [Profound](https://toolscout-ai-nu.vercel.app/tools/profound.html): Enterprise-grade analytics for AI search visibility — No free tier; plans from $99/mo (Starter, ChatGPT-only) to $399/mo (Growth, 3 engines); custom Enterprise pricing
-- [Scrunch AI](https://toolscout-ai-nu.vercel.app/tools/scrunch-ai.html): AI visibility monitoring plus hallucination detection — No free tier; 7-day free trial; plans from $250/mo (Starter) to $417/mo (Growth), billed annually; custom Enterprise pricing
-- [AthenaHQ](https://toolscout-ai-nu.vercel.app/tools/athenahq.html): Free-to-start AI search visibility and action platform — Free Essential tier (credit-based); Starter from $295/mo (3,600 credits/mo); custom Enterprise pricing
-- [PageLens.ai](https://toolscout-ai-nu.vercel.app/tools/pagelens-ai.html): AI visibility tracking that ships content to your domain — Plans from $49/mo (Monitor); Optimize $199/mo; Growth (done-for-you content) $699/mo; Enterprise custom; agency plans from $49/mo
-- [Adobe LLM Optimizer](https://toolscout-ai-nu.vercel.app/tools/adobe-llm-optimizer.html): Adobe's enterprise engine for AI-search brand visibility — Custom enterprise pricing; prompt-based packages with a 1,000-prompt/year minimum, contact sales
-- [Conductor](https://toolscout-ai-nu.vercel.app/tools/conductor.html): Enterprise AEO and SEO platform built on a unified data engine — Custom enterprise pricing across three usage-based tiers (Essentials, Growth, Enterprise); contact sales
-- [BrightEdge](https://toolscout-ai-nu.vercel.app/tools/brightedge.html): Enterprise SEO platform with AI Hyper Cube for AI search — Custom enterprise, credit-based pricing (high five-figures to six-figures annually); contact sales
+- [Profound](https://www.toolscout.in/tools/profound.html): Enterprise-grade analytics for AI search visibility — No free tier; plans from $99/mo (Starter, ChatGPT-only) to $399/mo (Growth, 3 engines); custom Enterprise pricing
+- [Scrunch AI](https://www.toolscout.in/tools/scrunch-ai.html): AI visibility monitoring plus hallucination detection — No free tier; 7-day free trial; plans from $250/mo (Starter) to $417/mo (Growth), billed annually; custom Enterprise pricing
+- [AthenaHQ](https://www.toolscout.in/tools/athenahq.html): Free-to-start AI search visibility and action platform — Free Essential tier (credit-based); Starter from $295/mo (3,600 credits/mo); custom Enterprise pricing
+- [PageLens.ai](https://www.toolscout.in/tools/pagelens-ai.html): AI visibility tracking that ships content to your domain — Plans from $49/mo (Monitor); Optimize $199/mo; Growth (done-for-you content) $699/mo; Enterprise custom; agency plans from $49/mo
+- [Adobe LLM Optimizer](https://www.toolscout.in/tools/adobe-llm-optimizer.html): Adobe's enterprise engine for AI-search brand visibility — Custom enterprise pricing; prompt-based packages with a 1,000-prompt/year minimum, contact sales
+- [Conductor](https://www.toolscout.in/tools/conductor.html): Enterprise AEO and SEO platform built on a unified data engine — Custom enterprise pricing across three usage-based tiers (Essentials, Growth, Enterprise); contact sales
+- [BrightEdge](https://www.toolscout.in/tools/brightedge.html): Enterprise SEO platform with AI Hyper Cube for AI search — Custom enterprise, credit-based pricing (high five-figures to six-figures annually); contact sales
 
 ## Blog
 
-- [Profound vs PageLens.ai: Which AI Visibility Platform Should You Choose in 2026?](https://toolscout-ai-nu.vercel.app/blog/profound-vs-pagelens-ai.html): Profound is built for enterprise teams with big budgets and dedicated analysts. PageLens.ai is built for teams who want to start tracking AI visibility today and ship citation-ready content this week.
-- [Scrunch AI vs PageLens.ai: Comparing Price, Features and Fit in 2026](https://toolscout-ai-nu.vercel.app/blog/scrunch-ai-vs-pagelens-ai.html): Scrunch AI brings dedicated hallucination detection and a Sitecore-backed roadmap. PageLens.ai brings a lower entry price, faster setup, and content that actually gets published.
-- [AthenaHQ vs PageLens.ai: Free Tier, Pricing and Content Engine Compared](https://toolscout-ai-nu.vercel.app/blog/athenahq-vs-pagelens-ai.html): AthenaHQ and PageLens.ai are the two most startup-friendly AEO tools on the market — here's how their free tiers, engine coverage and content capabilities actually differ.
-- [Adobe LLM Optimizer vs PageLens.ai: Enterprise Suite or Self-Serve Startup?](https://toolscout-ai-nu.vercel.app/blog/adobe-llm-optimizer-vs-pagelens-ai.html): Adobe LLM Optimizer plugs AI-search visibility into Adobe Experience Cloud for six-figure enterprise budgets. PageLens.ai gets any team tracking and publishing in minutes.
-- [Conductor vs PageLens.ai: All-in-One Enterprise Suite or Focused AEO Tool?](https://toolscout-ai-nu.vercel.app/blog/conductor-vs-pagelens-ai.html): Conductor bundles a decade of SEO data with a new AEO layer for large enterprise teams. PageLens.ai is a focused tool built for AI visibility and content, and nothing else.
-- [BrightEdge vs PageLens.ai: Legacy SEO Data Depth or Modern AEO Simplicity?](https://toolscout-ai-nu.vercel.app/blog/brightedge-vs-pagelens-ai.html): BrightEdge extends nearly two decades of proprietary search data into AI visibility. PageLens.ai was built for the AI-answer era from day one.
+- [Profound vs PageLens.ai: Which AI Visibility Platform Should You Choose in 2026?](https://www.toolscout.in/blog/profound-vs-pagelens-ai.html): Profound is built for enterprise teams with big budgets and dedicated analysts. PageLens.ai is built for teams who want to start tracking AI visibility today and ship citation-ready content this week.
+- [Scrunch AI vs PageLens.ai: Comparing Price, Features and Fit in 2026](https://www.toolscout.in/blog/scrunch-ai-vs-pagelens-ai.html): Scrunch AI brings dedicated hallucination detection and a Sitecore-backed roadmap. PageLens.ai brings a lower entry price, faster setup, and content that actually gets published.
+- [AthenaHQ vs PageLens.ai: Free Tier, Pricing and Content Engine Compared](https://www.toolscout.in/blog/athenahq-vs-pagelens-ai.html): AthenaHQ and PageLens.ai are the two most startup-friendly AEO tools on the market — here's how their free tiers, engine coverage and content capabilities actually differ.
+- [Adobe LLM Optimizer vs PageLens.ai: Enterprise Suite or Self-Serve Startup?](https://www.toolscout.in/blog/adobe-llm-optimizer-vs-pagelens-ai.html): Adobe LLM Optimizer plugs AI-search visibility into Adobe Experience Cloud for six-figure enterprise budgets. PageLens.ai gets any team tracking and publishing in minutes.
+- [Conductor vs PageLens.ai: All-in-One Enterprise Suite or Focused AEO Tool?](https://www.toolscout.in/blog/conductor-vs-pagelens-ai.html): Conductor bundles a decade of SEO data with a new AEO layer for large enterprise teams. PageLens.ai is a focused tool built for AI visibility and content, and nothing else.
+- [BrightEdge vs PageLens.ai: Legacy SEO Data Depth or Modern AEO Simplicity?](https://www.toolscout.in/blog/brightedge-vs-pagelens-ai.html): BrightEdge extends nearly two decades of proprietary search data into AI visibility. PageLens.ai was built for the AI-answer era from day one.
 
 ## Other pages
 
-- [Blog](https://toolscout-ai-nu.vercel.app/blog/index.html): Comparisons between PageLens.ai and other AEO tools.
-- [About](https://toolscout-ai-nu.vercel.app/about.html): How ToolScout researches and selects tools.
-- [Submit a Tool](https://toolscout-ai-nu.vercel.app/submit-tool.html): Get an AI tool listed on ToolScout.
+- [Blog](https://www.toolscout.in/blog/index.html): Comparisons between PageLens.ai and other AEO tools.
+- [About](https://www.toolscout.in/about.html): How ToolScout researches and selects tools.
+- [Submit a Tool](https://www.toolscout.in/submit-tool.html): Get an AI tool listed on ToolScout.
