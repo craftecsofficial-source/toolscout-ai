@@ -71,6 +71,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://www.toolscout.in/categories/customer-support.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.toolscout.in/tools/jasper.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -97,6 +102,31 @@
   </url>
   <url>
     <loc>https://www.toolscout.in/tools/gozen-content-ai.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/wordtune.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/originality-ai.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/koala-ai.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/languagetool.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/sapling.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -136,6 +166,31 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://www.toolscout.in/tools/topaz-labs.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/meshy.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/pebblely.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/photopacks-ai.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/scenario.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://www.toolscout.in/tools/runway.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -162,6 +217,31 @@
   </url>
   <url>
     <loc>https://www.toolscout.in/tools/repliq.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/luma-dream-machine.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/rask-ai.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/vyond.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/fliki.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/sendspark.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -201,6 +281,36 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://www.toolscout.in/tools/windsurf.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/supermaven.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/ollama.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/cohere.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/fireworks-ai.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/langflow.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://www.toolscout.in/tools/notion-ai.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -227,6 +337,36 @@
   </url>
   <url>
     <loc>https://www.toolscout.in/tools/ishi.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/trevor-ai.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/sheetsavvy-ai.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/notta.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/11x.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/octolane.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/tubeonai.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -266,6 +406,36 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://www.toolscout.in/tools/simplified.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/mutiny.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/wordlift.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/clearscope.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/marketmuse.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/frase.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://www.toolscout.in/tools/chatgpt.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -301,6 +471,31 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://www.toolscout.in/tools/poe.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/harpa-ai.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/bardeen.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/superwhisper.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/memoryplugin.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://www.toolscout.in/tools/elevenlabs.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -327,6 +522,31 @@
   </url>
   <url>
     <loc>https://www.toolscout.in/tools/midi-agent.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/suno.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/krisp.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/otter-ai.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/kits-ai.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/landr.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -362,6 +582,41 @@
   </url>
   <url>
     <loc>https://www.toolscout.in/tools/brightedge.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/gorgias.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/liveperson.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/ultimate.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/kommunicate.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/chatling.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/docsbot-ai.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/wonderchat.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>

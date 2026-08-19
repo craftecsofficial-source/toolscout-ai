@@ -15,6 +15,7 @@ ToolScout is an independently researched directory of AI tools, organized by cat
 - [Chatbots & Assistants](https://www.toolscout.in/categories/chatbots-assistants.html): General-purpose AI assistants for research, writing and everyday questions.
 - [Audio & Voice](https://www.toolscout.in/categories/audio-voice.html): Generate voiceovers, clone voices and edit audio with AI.
 - [AEO Tools](https://www.toolscout.in/categories/aeo-tools.html): Track and improve how your brand appears in ChatGPT, Perplexity and other AI answers.
+- [Customer Support](https://www.toolscout.in/categories/customer-support.html): Automate customer service conversations, tickets and support workflows with AI.
 
 ## Tools
 
@@ -25,6 +26,11 @@ ToolScout is an independently researched directory of AI tools, organized by cat
 - [Writesonic](https://www.toolscout.in/tools/writesonic.html): AI Search Visibility (GEO) platform with SEO content tools — 7-day free trial, no credit card required; plans from $79/mo billed annually
 - [SummarizingTool](https://www.toolscout.in/tools/summarizingtool.html): AI summaries for text, documents, and video — plus rewriting, paraphrasing, and AI detection — Free tier available; Monthly plan from $4.99/mo
 - [GoZen Content AI](https://www.toolscout.in/tools/gozen-content-ai.html): AI writing and image generation for SEO blogs, social posts, and ads — Free tier (2,000 AI words + 10 AI images/mo); paid plans start around $9/mo
+- [Wordtune](https://www.toolscout.in/tools/wordtune.html): AI rewriting and tone assistant for confident writing — Free tier available; Unlimited plan from $6.99/mo billed annually ($9.99/mo monthly)
+- [Originality.ai](https://www.toolscout.in/tools/originality-ai.html): AI content and plagiarism detector for publishers — Pro from $12.95/mo billed annually ($14.95/mo monthly), 2,000 credits/mo; Enterprise from $136.58/mo billed annually ($179/mo monthly)
+- [Koala AI](https://www.toolscout.in/tools/koala-ai.html): SEO-optimized article generator powered by GPT-5.2 and Claude 4.5 — Plans from $9/mo (Essentials, 15,000 words); Professional $49/mo is most popular; higher-volume plans up to $2,000/mo; annual billing saves 20%
+- [LanguageTool](https://www.toolscout.in/tools/languagetool.html): Multilingual grammar and style checker for 30+ languages — Free tier available; Premium from about $4.16/mo billed every 2 years (€99.90) up to €19.90/mo billed monthly; Team plans from €56.90/user/year
+- [Sapling](https://www.toolscout.in/tools/sapling.html): Real-time AI language suggestions for enterprise support teams — Free browser extension; Pro $25/mo ($12/mo billed annually); Enterprise from $15/seat/mo (10-seat minimum, custom quote); metered API from a $5 minimum
 
 ### Image Generation
 - [Midjourney](https://www.toolscout.in/tools/midjourney.html): AI art generator known for painterly, high-detail images — From $10/mo (Basic); no free trial; annual billing saves 20%
@@ -34,6 +40,11 @@ ToolScout is an independently researched directory of AI tools, organized by cat
 - [ImgGen AI](https://www.toolscout.in/tools/imggen-ai.html): Free, watermark-free AI text-to-image generator with 120+ styles — Free (50 one-time credits, no card); Starter $9.99/mo (400 credits/mo); Pro $29.99/mo (1,400 credits/mo); custom Enterprise
 - [Stable Fast 3D](https://www.toolscout.in/tools/stable-fast-3d.html): Single image to a UV-unwrapped 3D mesh in about half a second — Free for non-commercial use and commercial use up to $1M annual revenue (Stability AI Community License); Enterprise License required above that threshold; also usable via paid Stability AI Platform API credits
 - [Modelia](https://www.toolscout.in/tools/modelia.html): AI fashion model generator for e-commerce product photography — Free Starter tier (20 credits/mo, watermarked); Project $12 one-time (50 credits); Basic $35/mo; Pro $85/mo; Business $300/mo — 20% off with annual billing
+- [Topaz Labs](https://www.toolscout.in/tools/topaz-labs.html): AI upscaling and repair for photos, video, and AI-generated media — No free tier; single apps from $19/mo (Gigapixel, billed annually) up to $39/mo (Video AI); Studio bundle (all apps) from $45/mo annual or $69/mo monthly; Pro tier $799/yr
+- [Meshy](https://www.toolscout.in/tools/meshy.html): Generate textured, rigged 3D models from text or images in minutes — Free plan with 100 credits/mo; paid plans from $20/mo (Pro) up to $100/mo (Ultra); Studio team plan from $70/mo; Enterprise custom
+- [Pebblely](https://www.toolscout.in/tools/pebblely.html): Turn product photos into studio-quality scenes in seconds — Free plan available (limited monthly images, no card required); paid plans from $9/mo (Lite) up to $39/mo (Pro), with 2+ months free on annual billing
+- [PhotoPacks.AI](https://www.toolscout.in/tools/photopacks-ai.html): Studio-quality AI headshots from a handful of selfies — One-time payment, no subscription; $24 for a headshot package (40+ images); custom bulk pricing for Teams
+- [Scenario](https://www.toolscout.in/tools/scenario.html): Train custom AI models for consistent, on-brand game assets — Free tier (50 daily credits, no card required); paid plans from $15/mo (Starter) to $75/mo (Max); Enterprise custom, annual billing saves 33%
 
 ### Video Generation
 - [Runway](https://www.toolscout.in/tools/runway.html): Generative video and editing suite for creators — Free tier (125 one-time credits); paid plans from $12/mo billed yearly ($15/mo monthly)
@@ -42,6 +53,11 @@ ToolScout is an independently researched directory of AI tools, organized by cat
 - [Kling AI](https://www.toolscout.in/tools/kling-ai.html): AI video generator known for realistic motion — Free tier (daily credit allowance); paid plans from ~$10/mo (Standard) — pricing changes frequently, verify at checkout
 - [Shai](https://www.toolscout.in/tools/shai.html): AI pre-production for film and advertising — script to storyboard in seconds — Not publicly disclosed; platform access is currently via waitlist/early access, no self-serve pricing page
 - [RepliQ](https://www.toolscout.in/tools/repliq.html): Personalized video, image, and text outreach at scale — Free plan with 30 videos; Monthly plan from $39/mo (200 personalized videos/images/sentences); Annual plan from $19/mo billed annually
+- [Luma Dream Machine](https://www.toolscout.in/tools/luma-dream-machine.html): Cinematic AI video and image generation from a single prompt — No permanent free tier; Plus from $25/mo (billed yearly), Pro $75/mo, Ultra $250/mo
+- [Rask AI](https://www.toolscout.in/tools/rask-ai.html): Dub your videos into 130+ languages in your own voice — 3-minute free trial; Creator from $33/mo (billed yearly), Creator Pro from $78/mo, Business from $500/mo
+- [Vyond](https://www.toolscout.in/tools/vyond.html): Animated and photorealistic AI video without a production crew — No free tier; Starter from $58/mo (billed annually), Professional from $100/mo (billed annually)
+- [Fliki](https://www.toolscout.in/tools/fliki.html): Turn scripts and ideas into narrated video in minutes — Free forever plan; Standard from $14/mo (billed yearly), Premium from $44/mo (billed yearly)
+- [Sendspark](https://www.toolscout.in/tools/sendspark.html): Record one video, AI personalizes it for thousands of prospects — 7-day free trial; Solo from $49/mo, Growth from $99/mo, Team from $299/mo, Business from $699/mo
 
 ### Coding & Development
 - [GitHub Copilot](https://www.toolscout.in/tools/github-copilot.html): AI pair programmer built into major IDEs — Free tier available (2,000 completions/mo); Pro $10/mo, Pro+ $39/mo, Business $19/user/mo
@@ -51,6 +67,12 @@ ToolScout is an independently researched directory of AI tools, organized by cat
 - [Sofy](https://www.toolscout.in/tools/sofy.html): AI testing agents that write, run, and fix tests across mobile, web, API, and enterprise apps — AI Agent plans from $49/mo (100 tests/mo); Pro $249/mo (500 tests/mo); Enterprise custom. Separate real-device testing plans (Automate/Live) start at $749/mo billed annually
 - [Factory](https://www.toolscout.in/tools/factory.html): Agent-native software development — autonomous Droids for the full SDLC — Pro $20/mo; Plus $100/mo; Max $200/mo; Business and Enterprise are custom, contact-sales only
 - [Zeedle AI](https://www.toolscout.in/tools/zeedle-ai.html): AI agents that generate, test, and optimize your code end-to-end — Free Starter tier (100 AI code-generation requests/mo, 1 project); Pro $19/mo (1,000 requests/mo, 10 projects); Enterprise custom. All paid plans include a 14-day free trial, no credit card required
+- [Windsurf](https://www.toolscout.in/tools/windsurf.html): The agentic IDE that codes alongside you — Free tier available; Pro $20/mo, Max $200/mo, Teams $80/mo + $40/user/mo
+- [Supermaven](https://www.toolscout.in/tools/supermaven.html): The fastest AI code completion, built for huge codebases — Free tier available; Pro $10/mo, Team $10/user/mo
+- [Ollama](https://www.toolscout.in/tools/ollama.html): Run large language models on your own computer — Free and open-source for local use; optional Cloud from $20/mo (Pro), $100/mo (Max), Team from $125/mo
+- [Cohere](https://www.toolscout.in/tools/cohere.html): Secure, enterprise-grade LLMs built for the real business world — Free evaluation API key; pay-as-you-go production API by token; Model Vault dedicated instances from $2,500/mo; Enterprise custom pricing
+- [Fireworks AI](https://www.toolscout.in/tools/fireworks-ai.html): Fast, affordable inference for open-source AI models — No free tier ($1 in starter credits); serverless pay-per-token; on-demand GPUs from $7/hr; Enterprise custom
+- [Langflow](https://www.toolscout.in/tools/langflow.html): Visual drag-and-drop builder for LangChain AI agents — Free and open-source (self-hosted); free Cloud sandbox tier; usage-based production hosting; Enterprise/Premier Support at custom pricing
 
 ### Productivity & Automation
 - [Notion AI](https://www.toolscout.in/tools/notion-ai.html): AI writing, Q&A and agent built into your Notion workspace — Free plan available; paid plans from $10/mo per seat (Plus); full Notion AI bundled into Business at $20/mo per seat
@@ -59,6 +81,12 @@ ToolScout is an independently researched directory of AI tools, organized by cat
 - [ClickUp AI](https://www.toolscout.in/tools/clickup-ai.html): AI features layered on a project management platform — Free tier available; ClickUp Brain AI add-on from $9/seat/mo (annual) on top of a paid plan; Everything AI tier at $28/seat/mo
 - [Microsoft Translator](https://www.toolscout.in/tools/microsoft-translator.html): Microsoft's free-to-enterprise machine translation service for text, speech, and documents. — Free consumer apps and free Azure tier (2M characters/month); paid Azure tiers billed per million characters; on-premises enterprise edition from ~$310,000/year
 - [Ishi](https://www.toolscout.in/tools/ishi.html): The on-device architect that bridges local files to your cloud AI agents. — Free tier (BYOK); one-time lifetime Pro license $49 during public beta (list price $99) — no subscription
+- [Trevor AI](https://www.toolscout.in/tools/trevor-ai.html): Turns your to-do list into a time-blocked daily plan — Free tier for personal use; Pro from $5/mo billed annually ($6/mo billed monthly)
+- [SheetSavvy AI](https://www.toolscout.in/tools/sheetsavvy-ai.html): AI formulas and automation inside Excel and Google Sheets — Free plan with limited monthly requests (GPT-3.5); paid Pro/Premium/Ultimate tiers from around $9.99/mo unlock GPT-4 and higher limits
+- [Notta](https://www.toolscout.in/tools/notta.html): AI meeting transcription and notes in 58+ languages — Free plan with 120 min/mo; Pro from $8.17/mo billed annually, Business from $16.67/seat/mo, custom Enterprise (51+ seats)
+- [11x](https://www.toolscout.in/tools/11x.html): AI digital workers that prospect, call, and qualify leads — Alice (outbound) from $3,750/mo billed annually; Julian (inbound) from $2,417/mo chat or $5,333/mo voice; Pro and Enterprise tiers custom-quoted
+- [Octolane](https://www.toolscout.in/tools/octolane.html): The AI CRM that updates itself and drafts your follow-ups — Best Friend plan from $1,000/mo; Enterprise custom pricing
+- [TubeOnAI](https://www.toolscout.in/tools/tubeonai.html): Turn videos, podcasts, and documents into instant summaries — Free tier (400 credits); Essential $9/mo; Pro $19/mo; Enterprise $29/mo (annual billing available at a discount)
 
 ### Marketing & SEO
 - [Surfer SEO](https://www.toolscout.in/tools/surfer-seo.html): AI-guided on-page content optimization — From $49/mo (Discovery), billed annually — plans up to $299/mo, Enterprise custom
@@ -68,6 +96,12 @@ ToolScout is an independently researched directory of AI tools, organized by cat
 - [PilotScribe](https://www.toolscout.in/tools/pilotscribe.html): Your SEO, on autopilot — keyword research, writing, publishing, and rewriting, unattended. — Starter $39/mo; Pro $99/mo (most popular); Agency $299/mo — billed monthly, cancel anytime
 - [Lovart](https://www.toolscout.in/tools/lovart.html): The AI design agent that turns a brief into a complete, on-brand campaign. — Free tier with daily credits; paid plans roughly $16-$109/month billed annually (Starter/Basic/Pro/Ultimate), higher on monthly billing
 - [SmartlyQ](https://www.toolscout.in/tools/smartlyq.html): The all-in-one AI marketing platform for content, social, chatbots, and publishing automation. — Pro from €97/month; Business €297/month; Enterprise €497/month (or custom); 20% off on annual billing; 30-day money-back guarantee
+- [Simplified](https://www.toolscout.in/tools/simplified.html): One AI agent team for content, social, and campaigns — Free plan available; Starter from $79/mo (campaign-based); Enterprise custom
+- [Mutiny](https://www.toolscout.in/tools/mutiny.html): AI agent for personalized B2B website and deal content — Free plan; Business from $50/mo; Enterprise custom, starting around $30k/yr
+- [WordLift](https://www.toolscout.in/tools/wordlift.html): AI knowledge graphs that make brands discoverable to AI — Business+ from $879/mo (billed yearly); Enterprise custom
+- [Clearscope](https://www.toolscout.in/tools/clearscope.html): Data-driven content grading for SEO and AI search — 14-day free trial; Essentials $129/mo, Business $399/mo, Enterprise custom
+- [MarketMuse](https://www.toolscout.in/tools/marketmuse.html): AI-powered content inventory and topic authority planning — Free plan with 10 queries/mo; paid Optimize, Research, and Strategy tiers are quote-based (contact sales)
+- [Frase](https://www.toolscout.in/tools/frase.html): The content operating system for Google and AI search — 7-day free trial; Starter from $39/mo (billed yearly), Professional $103/mo, Scale $239/mo, custom Enterprise
 
 ### Chatbots & Assistants
 - [ChatGPT](https://www.toolscout.in/tools/chatgpt.html): OpenAI's general-purpose AI assistant — Free tier available; Go from $8/mo, Plus from $20/mo, Pro from $200/mo
@@ -77,6 +111,11 @@ ToolScout is an independently researched directory of AI tools, organized by cat
 - [Dapta AI](https://www.toolscout.in/tools/dapta-ai.html): All-in-one AI voice and text agents built for SMB sales automation — Free tier (2K credits); paid plans from $99/mo, up to $1,499/mo for enterprise-scale credits and support
 - [Leadster](https://www.toolscout.in/tools/leadster.html): The conversational marketing chatbot built to turn website traffic into qualified leads. — Plans from $47/month up to $1,000/month; free tier with limited functionality; 14-day free trial on paid plans
 - [NewMode (Algomo)](https://www.toolscout.in/tools/newmode-algomo.html): Turns anonymous website traffic into identified, qualified sales pipeline. — Plans start at $200/month (Growth tier); custom Enterprise pricing; no per-seat pricing; contact sales for a demo
+- [Poe](https://www.toolscout.in/tools/poe.html): One subscription, every major AI chatbot in one app — Free tier with daily limits; paid plans from $4.99/mo up to $249.99/mo based on monthly compute points
+- [HARPA AI](https://www.toolscout.in/tools/harpa-ai.html): Turn your browser into an AI automation agent — Free demo tier; paid plans from $12/mo (billed annually) up to $19/mo, plus a $240 lifetime option
+- [Bardeen](https://www.toolscout.in/tools/bardeen.html): AI automation that scrapes the web and fills your pipeline — Free credits to start; Basic $10/mo, Premium $50/mo (or $480/yr), Enterprise custom
+- [superwhisper](https://www.toolscout.in/tools/superwhisper.html): Speak naturally, get polished text in any app — Free tier available; Pro from $8.49/mo, $84.99/yr, or $249.99 lifetime
+- [MemoryPlugin](https://www.toolscout.in/tools/memoryplugin.html): One shared memory across ChatGPT, Claude, and 21+ AI tools — 7-day free trial; Core $89/yr, Pro $180/yr, Lifetime $400 one-time
 
 ### Audio & Voice
 - [ElevenLabs](https://www.toolscout.in/tools/elevenlabs.html): Widely used AI voice generation and cloning platform — Free tier (10k credits/mo, no commercial rights); Starter from $6/mo ($5/mo billed yearly)
@@ -85,6 +124,11 @@ ToolScout is an independently researched directory of AI tools, organized by cat
 - [WellSaid Labs](https://www.toolscout.in/tools/wellsaid-labs.html): Enterprise-grade AI voices for brand-consistent audio — Free trial available; Starter from $10/mo billed yearly ($19/mo billed monthly)
 - [AI Phone](https://www.toolscout.in/tools/ai-phone.html): Real-time AI call translator that lets you speak your language while they hear theirs. — Free to start; in-app subscription/credit-based paid plans on iOS and Android (exact tier pricing set via App Store/Google Play)
 - [MIDI Agent](https://www.toolscout.in/tools/midi-agent.html): The AI MIDI generator plugin that turns text prompts into editable notes inside your DAW. — $49 lifetime license (50% off regular $99); optional MIDI Agent Pro subscription at $20/month for managed AI access
+- [Suno](https://www.toolscout.in/tools/suno.html): Generate full songs with vocals from a text prompt — Free tier (50 credits/day); Pro from $8/mo; Premier from $24/mo (billed annually)
+- [Krisp](https://www.toolscout.in/tools/krisp.html): AI noise cancellation and meeting assistant for any app — Free plan (60 min/day); Pro from $8/mo; Business from $10/mo (billed annually)
+- [Otter.ai](https://www.toolscout.in/tools/otter-ai.html): AI meeting notetaker that transcribes, summarizes, remembers — Free tier (300 min/mo); Pro from $8.33/mo billed annually; Business from $19.99/user/mo annually
+- [Kits.AI](https://www.toolscout.in/tools/kits-ai.html): Studio-grade AI voice cloning and vocal tools for musicians — Free plan available (15 conversion min); Starter $10/mo, Producer $30/mo, Professional $60/mo
+- [Landr](https://www.toolscout.in/tools/landr.html): AI mastering and distribution built for independent musicians — Pay-per-track from $9.99; subscriptions from $4/mo (Basic) up to $25/mo (Pro), with unlimited mastering and distribution
 
 ### AEO Tools
 - [Profound](https://www.toolscout.in/tools/profound.html): Enterprise-grade analytics for AI search visibility — No free tier; plans from $99/mo (Starter, ChatGPT-only) to $399/mo (Growth, 3 engines); custom Enterprise pricing
@@ -94,6 +138,15 @@ ToolScout is an independently researched directory of AI tools, organized by cat
 - [Adobe LLM Optimizer](https://www.toolscout.in/tools/adobe-llm-optimizer.html): Adobe's enterprise engine for AI-search brand visibility — Custom enterprise pricing; prompt-based packages with a 1,000-prompt/year minimum, contact sales
 - [Conductor](https://www.toolscout.in/tools/conductor.html): Enterprise AEO and SEO platform built on a unified data engine — Custom enterprise pricing across three usage-based tiers (Essentials, Growth, Enterprise); contact sales
 - [BrightEdge](https://www.toolscout.in/tools/brightedge.html): Enterprise SEO platform with AI Hyper Cube for AI search — Custom enterprise, credit-based pricing (high five-figures to six-figures annually); contact sales
+
+### Customer Support
+- [Gorgias](https://www.toolscout.in/tools/gorgias.html): AI-powered customer service built natively for Shopify ecommerce — Starter $10/mo (50 tickets) up to Advanced $900/mo (5,000 tickets); AI Agent billed separately at $0.90-$1.00 per resolution; Enterprise custom
+- [LivePerson](https://www.toolscout.in/tools/liveperson.html): Enterprise conversational AI for customer service and messaging — Custom quotes only across Bronze, Silver, and Gold tiers; enterprise contracts commonly range from roughly $40K to $110K+ per year
+- [Ultimate](https://www.toolscout.in/tools/ultimate.html): Enterprise AI agents for support, now part of Zendesk — No public self-serve pricing; custom enterprise quotes via Zendesk, billed per automated resolution ($1.50-$2.00) on top of a Zendesk Suite subscription
+- [Kommunicate](https://www.toolscout.in/tools/kommunicate.html): Controllable AI customer service across every channel — 30-day free trial; Starter $40/mo, Professional $200/mo, custom Enterprise (annual billing saves roughly 15-20%)
+- [Chatling](https://www.toolscout.in/tools/chatling.html): No-code AI agents for web, WhatsApp, and Instagram — Free tier (200 AI credits); Starter $25/mo, Growth $75/mo, Scale $295/mo (monthly; ~15-17% cheaper billed annually)
+- [DocsBot AI](https://www.toolscout.in/tools/docsbot-ai.html): Turn your documentation into an AI support and sales agent — Free plan; Personal $49/mo, Standard $149/mo ($124/mo billed annually), Business $499/mo ($299/mo billed annually), custom Enterprise
+- [Wonderchat](https://www.toolscout.in/tools/wonderchat.html): AI agents that answer only from your own content — Free tier (~10 resolutions/mo); Basic $124/mo, Scale $417/mo (billed annually), Enterprise from $1,499/mo
 
 ## Blog
 
