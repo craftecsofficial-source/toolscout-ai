@@ -226,6 +226,11 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://www.toolscout.in/tools/paperpal.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://www.toolscout.in/tools/midjourney.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -476,6 +481,16 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://www.toolscout.in/tools/basedlabs.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/hitpaw-edimakor.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://www.toolscout.in/tools/github-copilot.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -606,6 +621,16 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://www.toolscout.in/tools/interview-solver.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/nanobrowser.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://www.toolscout.in/tools/notion-ai.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -722,6 +747,11 @@
   </url>
   <url>
     <loc>https://www.toolscout.in/tools/olva.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/read-ai.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -1221,6 +1251,11 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://www.toolscout.in/tools/lacy-ai.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://www.toolscout.in/tools/apollo-io.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -1317,6 +1352,16 @@
   </url>
   <url>
     <loc>https://www.toolscout.in/tools/metaview.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/qualifier-ai.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/kopernicus.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -1422,6 +1467,11 @@
   </url>
   <url>
     <loc>https://www.toolscout.in/tools/impact-analytics.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/datasaur.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>

@@ -1223,6 +1223,157 @@ CATEGORIES = [
       {"q": "How many team members can use the Infinity plan?", "a": "The Infinity plan supports small teams of up to five members with unlimited Enhanced Mode access included."}
     ]
  }},
+                    {
+                "name": "Paperpal",
+                "tagline": "AI academic writing and research assistant from search to submission",
+                "desc": "Paperpal is an AI-powered writing and research platform built for academics, offering grammar and language checks, paraphrasing, citation help, plagiarism screening, and journal submission-readiness checks. It is developed by Cactus Communications, the company behind the scholarly editing service Editage.",
+                "pricing": "Free plan with limited language checks; Prime from $12/mo (billed annually, $25/mo monthly); Pro from $29/mo (billed annually, $59/mo monthly); custom institutional pricing on request.",
+                "url": "https://paperpal.com/",
+                "tags": [
+                    "Academic Writing",
+                    "Grammar Checker",
+                    "Research Assistant"
+                ],
+                "features": [
+                    "Academic-tuned grammar, language, and style correction",
+                    "Chat with PDFs to summarize and interrogate research papers",
+                    "Citation generator supporting 10,000+ styles plus a reference finder",
+                    "Plagiarism and AI-content detection with journal submission-readiness checks"
+                ],
+                "pros": [
+                    "Language suggestions are trained specifically on scholarly writing conventions, not general prose",
+                    "Backed by Editage's multi-decade journal-publishing and manuscript-editing background",
+                    "Submission-readiness checker screens 30+ technical and formatting points before you submit"
+                ],
+                "cons": [
+                    "Free plan caps plagiarism checks at 7,000 words/month and limits language suggestions to 200",
+                    "Paid tiers (Prime vs. Pro) split features like the 'Advanced' AI model and higher plagiarism-check quotas, which takes some comparing to pick correctly"
+                ],
+                "best_for": "Researchers, grad students, and academic authors who need rigorous language polishing and journal submission-readiness checks, rather than general-purpose long-form drafting.",
+                "deep": {
+                    "overview": "Paperpal is an AI writing and research assistant purpose-built for the academic publishing workflow, from drafting a manuscript through preparing it for journal submission. It is developed by Cactus Communications, a Singapore-based company that also operates Editage, a scholarly editing and publication-support service with over two decades of experience working with researchers and journals. That heritage shapes the product: rather than a general-purpose AI writer, Paperpal's language model is trained on academic and scholarly text, so its grammar, tone, and phrasing suggestions are calibrated for research papers, theses, and clinical or scientific documents rather than blog posts or marketing copy.\n\nThe platform is available as a web app (edit.paperpal.com) as well as plugins for MS Word, Google Docs, Chrome, and Overleaf, letting researchers work inside the tools they already use to write. Beyond line-level editing, Paperpal bundles research-support features — chat with PDFs, a citation generator covering thousands of style formats, and access to a large corpus of research articles for finding related literature — alongside integrity checks like plagiarism detection, AI-content detection, and a submission-readiness checker that reviews manuscripts against journal formatting and technical requirements. Its core differentiator versus general AI writing assistants is this end-to-end focus on the academic publishing pipeline: search, draft, cite, check, and submit, all built around scholarly-writing conventions rather than generic content generation.",
+                    "features_detailed": [
+                        {
+                            "title": "Language & grammar correction",
+                            "desc": "Real-time grammar, spelling, and style suggestions tuned to academic writing conventions, going beyond generic grammar checking to flag scholarly tone and clarity issues."
+                        },
+                        {
+                            "title": "Chat with PDFs",
+                            "desc": "Upload research papers to ask questions, get summaries, and pull out key findings directly from the source PDF instead of reading it end to end."
+                        },
+                        {
+                            "title": "Citation & reference generator",
+                            "desc": "Generates and formats citations across 10,000+ citation styles and can surface relevant references from a large database of scholarly articles."
+                        },
+                        {
+                            "title": "Paraphraser and AI rewrite tools",
+                            "desc": "Rewrites sentences and paragraphs to vary phrasing, tighten wording to meet journal word limits, or adjust academic tone."
+                        },
+                        {
+                            "title": "Plagiarism and AI-content detection",
+                            "desc": "Scans manuscripts for text overlap against published sources and flags AI-generated content, with monthly word quotas that scale by plan."
+                        },
+                        {
+                            "title": "Submission readiness checker",
+                            "desc": "Reviews a manuscript against 30+ language, formatting, and technical checks commonly required before journal submission."
+                        },
+                        {
+                            "title": "Copilot content generation",
+                            "desc": "A generative assistant that drafts outlines, titles, abstracts, keywords, summaries, and email templates for academic communication, alongside research-backed answers as you write."
+                        },
+                        {
+                            "title": "Multi-platform access",
+                            "desc": "Works as a standalone web editor and as plugins for MS Word, Google Docs, Chrome, and Overleaf, so edits happen inside the researcher's existing workflow."
+                        }
+                    ],
+                    "pricing_plans": [
+                        {
+                            "name": "Free",
+                            "price": "$0",
+                            "billing": "No payment required",
+                            "features": [
+                                "Up to 200 language correction suggestions",
+                                "Plagiarism checks up to 7,000 words/month",
+                                "Access to the Standard AI model",
+                                "Limited access to AI academic writing features"
+                            ]
+                        },
+                        {
+                            "name": "Prime",
+                            "price": "$12/mo",
+                            "billing": "Billed annually at $144/year (equivalent to $25/mo on the monthly plan)",
+                            "features": [
+                                "Unlimited language correction suggestions",
+                                "Chat with PDFs",
+                                "Generative AI tools: Rewrite, Write, Research, Cite, Translate, AI Review, Templates",
+                                "Plagiarism checks up to 10,000 words/month with full report",
+                                "Submission readiness checks (30+ checks)",
+                                "Access to the Advanced AI model"
+                            ]
+                        },
+                        {
+                            "name": "Pro",
+                            "price": "$29/mo",
+                            "billing": "Billed annually at $348/year (equivalent to $59/mo on the monthly plan)",
+                            "features": [
+                                "Everything in Prime",
+                                "Plagiarism checks up to 30,000 words/month with full report",
+                                "Positioned for high-stakes writing: journal articles, theses, and clinical documents",
+                                "Optional add-on word packs for extra plagiarism-check capacity"
+                            ]
+                        },
+                        {
+                            "name": "Institutional / Enterprise",
+                            "price": "Custom",
+                            "billing": "Contact sales (sales@paperpal.com)",
+                            "features": [
+                                "Institution-wide pricing for universities, publishers, and life-sciences teams",
+                                "Centralized access management",
+                                "Shared libraries for collaboration across teams"
+                            ]
+                        }
+                    ],
+                    "pros_expanded": [
+                        "Because Paperpal's underlying model is trained on scholarly text rather than general web content, its grammar and tone suggestions read as more reliably 'journal-appropriate' than a generic grammar checker's.",
+                        "The Editage connection gives it real publishing-industry pedigree — the same company has spent over two decades on manuscript editing and journal-facing services, and that experience visibly shapes features like the submission-readiness checker.",
+                        "Chat-with-PDF and the citation/reference finder mean literature review and citation work happen inside the same tool as the editing pass, rather than switching between a reference manager, a PDF reader, and a grammar checker.",
+                        "Plugin coverage across MS Word, Google Docs, Chrome, and Overleaf lets researchers keep working in their preferred editor instead of copy-pasting into a separate web app.",
+                        "The free tier is genuinely usable for light editing (200 suggestions, 7,000-word plagiarism checks) rather than being a crippled trial, which is a reasonable way to evaluate fit before paying.",
+                        "Compliance claims (GDPR, ISO 27001, ISO 42001, HIPAA, SOC) and a stated policy of not using customer data for AI training matter to institutions and researchers handling sensitive or pre-publication material."
+                    ],
+                    "cons_expanded": [
+                        "The two paid tiers, Prime and Pro, differ mainly in plagiarism-check word quotas and are easy to conflate; researchers with high-volume checking needs (long theses, multiple manuscripts) may need to budget for add-on word packs on top of a subscription.",
+                        "Access to the 'Advanced' AI model is gated behind paid plans, so free users get materially shallower research and summarization quality, which isn't always obvious until you compare outputs directly.",
+                        "It is purpose-built for academic and scientific prose, so it is a poor fit for marketing copy, general blogging, or creative writing — teams needing both academic and general content tools will likely need a second tool.",
+                        "Monthly plagiarism-check limits reset rather than roll over, so a researcher who under-uses one month gains nothing the next, and heavy last-minute submission pushes can hit the cap.",
+                        "Institutional pricing is not published and requires contacting sales, which adds friction for university departments trying to budget or compare against competitors quickly.",
+                        "As with any AI-assisted editing tool for academic work, over-reliance on paraphrasing and rewrite suggestions carries a plagiarism/academic-integrity risk if used without understanding the changes being made — researchers still need to review suggestions critically."
+                    ],
+                    "who_for": "Paperpal fits researchers, graduate students, and academic authors whose primary need is getting a manuscript, thesis, or grant document into publication-ready shape — clean scholarly language, correctly formatted citations, and a check against journal submission requirements. Its heritage from Editage's manuscript-editing business makes it a natural fit for anyone already thinking about the journal submission process, not just the drafting stage, and institutions can get centralized, discounted access for research teams or departments. It's a weaker fit for people whose writing isn't academic in nature — bloggers, marketers, or students writing general essays for a class rather than for publication — since its language model and feature set (submission checks, citation-style coverage, scholarly tone correction) are optimized specifically for the research-to-journal pipeline rather than general-purpose long-form content generation, which is where a broader academic writing tool would be a better match.",
+                    "faq": [
+                        {
+                            "q": "What is Paperpal used for?",
+                            "a": "Paperpal is an AI writing and research assistant for academics that checks grammar and academic language, helps with citations and literature review (including chatting with PDFs), detects plagiarism and AI-generated text, and verifies a manuscript is ready for journal submission."
+                        },
+                        {
+                            "q": "Who makes Paperpal?",
+                            "a": "Paperpal is developed by Cactus Communications, the company behind Editage, a scholarly editing and publication-support service with more than two decades of experience in academic publishing."
+                        },
+                        {
+                            "q": "How much does Paperpal cost?",
+                            "a": "Paperpal has a free plan with limited checks. Paid plans are Prime, from $12/mo billed annually ($25/mo billed monthly), and Pro, from $29/mo billed annually ($59/mo billed monthly). Institutions can get custom pricing by contacting Paperpal's sales team."
+                        },
+                        {
+                            "q": "Is there a free version of Paperpal?",
+                            "a": "Yes. The free plan includes up to 200 language correction suggestions per month, plagiarism checks for up to 7,000 words, and access to Paperpal's Standard AI model, with limited access to its generative AI writing features."
+                        },
+                        {
+                            "q": "Does Paperpal work inside Word or Google Docs?",
+                            "a": "Yes. Paperpal is available as a web editor and as plugins for Microsoft Word, Google Docs, Chrome, and Overleaf, so researchers can get suggestions directly inside the editor they already use."
+                        }
+                    ]
+                }
+            },
         ],
     },
     {
@@ -3479,6 +3630,355 @@ CATEGORIES = [
     ]
  }},
             {"name": "Crano AI", "tagline": "One subscription for AI video, image, and music generation, no watermarks", "desc": "Crano AI is a credit-based platform that turns text, images, or video references into short videos, illustrations, and music tracks. It bundles several generation types into one dashboard instead of a single specialized model.", "pricing": "Three credit-based subscription tiers (Lite ~$10/mo, Pro ~$20/mo, Premium ~$109/mo, all with a 20%-off annual option) that gate resolution (720p to 1080p) and monthly credit allowance rather than charging per feature.", "url": "https://crano.ai", "tags": ["AI Video Generator", "AI Image Generator", "AI Music Generator", "All-in-One Studio"], "features": ["Text-to-video and image-to-video generation", "Video editor/extender with Mimic Motion transfer", "Text-to-image, image-to-image, and manga/manhwa illustration styles", "Built-in AI music generator alongside the visual tools"], "pros": ["Combines video, image, and music generation under one subscription instead of three separate tools", "No watermarks and commercial usage rights are included even on the entry-level Lite plan", "Niche template coverage (anime, short drama, manga/manhwa) that single-purpose video generators skip"], "cons": ["The site does not disclose which underlying AI models power its outputs, making quality hard to benchmark against named engines like Kling or Runway", "Credits burn quickly on video, and published plans cap resolution at 1080p rather than the 4K some marketing pages allude to"], "best_for": "Solo creators, small marketing teams, and e-commerce sellers who want one affordable subscription to produce short-form video, image, and audio assets without hiring separate specialists.", "deep": {"overview": "Crano AI positions itself as an all-in-one creative studio rather than a single-purpose video model: from one dashboard you can turn a text prompt or reference image into a short video, generate or restyle images (including manga and manhwa-style illustration), extend or edit existing clips, transfer motion from a reference video, and generate background music, all metered by a shared monthly credit pool instead of separate subscriptions per tool.\n\nThat breadth is also its main point of contrast with Runway, Kling, and Luma. Those three are primarily model developers — each ships its own frontier video model with published specs, research pages, and API access — while Crano reads more like a packaged front-end aimed at creators who want templates and a low learning curve rather than fine-grained model control. Crano's marketing does not name the underlying generation models it runs on, which makes it hard to know whether a given clip is coming from a proprietary in-house model or a licensed third-party engine, and makes output quality difficult to predict or benchmark ahead of time. For buyers who care about a specific model's motion coherence or prompt adherence, that opacity is a real limitation; for buyers who just want a fast, template-driven way to produce short clips, images, and music without picking a model at all, it's largely beside the point.", "who_for": "Best suited to social-media creators, small in-house marketing teams, and e-commerce sellers who need a steady stream of short video, image, and audio content and would rather pay one flat monthly fee than manage several specialized AI subscriptions.", "features_detailed": [{"title": "Text-to-Video & Image-to-Video", "desc": "Generate short clips from a written prompt or animate a still image, the two core entry points into the video tool."}, {"title": "Video Editor & Extender", "desc": "Trim, adjust, and lengthen existing AI-generated or uploaded clips inside the platform rather than exporting to a separate editor."}, {"title": "Mimic Motion", "desc": "Transfers the motion from a reference video onto a generated character or subject, useful for consistent animated performances."}, {"title": "Text-to-Image & Illustration Styles", "desc": "Produces images from prompts or existing images, with dedicated presets for manga, manhwa, and Western comic-style illustration."}, {"title": "AI Music Generator", "desc": "Creates background or thematic music tracks to pair with generated video, reducing the need for a separate audio tool."}, {"title": "Consistent Character & Multi-Camera Control", "desc": "Options aimed at keeping a character's appearance stable across shots and varying camera angles within a generated sequence."}], "pricing_plans": [{"name": "Lite", "price": "$10/mo", "billing": "Billed monthly ($15 list); annual billing available at ~20% off with no auto-renewal", "features": ["350 credits/month", "Up to ~60 videos, 120 images, or 90 music tracks", "720p output", "All video & image models, no watermarks"]}, {"name": "Pro", "price": "$20/mo", "billing": "Billed monthly ($29 list); marked as the most popular plan; annual option at ~20% off", "features": ["800 credits/month", "Up to ~135 videos, 270 images, or 200 music tracks", "1080p output", "Faster generation queue, unlimited templates"]}, {"name": "Premium", "price": "$109/mo", "billing": "Billed monthly ($139 list); annual option at ~20% off", "features": ["5,000 credits/month", "Up to ~830 videos, 1,660 images, or 1,250 music tracks", "1080p output", "Highest monthly volume for teams/agencies"]}], "pros_expanded": ["One login and one credit pool cover video, image, and music generation, which cuts down on tool-switching for creators producing mixed-media content.", "Commercial usage rights and watermark-free exports are included from the cheapest tier up, unlike tools that reserve commercial rights for higher tiers.", "The template library leans into niche, high-demand formats like anime, manga/manhwa illustration, and short drama, which many general-purpose video generators don't specifically support.", "Entry pricing at $10-20/month undercuts standalone tools like Runway's mid-tier plans for buyers who only need modest monthly output."], "cons_expanded": ["Crano does not publicly name the AI models behind its video, image, or music generation, so there's no way to independently verify or compare its underlying technology against known engines.", "No independent, verifiable review data exists yet on major platforms like G2, Capterra, or Trustpilot, so claims about output quality currently rest on the vendor's own site and third-party aggregator write-ups rather than a large body of user feedback.", "Credit costs scale with resolution and video length, so the advertised 'up to' output counts (e.g., 60-830 videos/month) are best-case figures for short, lower-effort clips rather than a guaranteed monthly quota.", "Published plans top out at 1080p, which may not satisfy production teams that need native 4K deliverables."], "faq": [{"q": "How much does Crano AI cost?", "a": "Three subscription tiers are listed on crano.ai/pricing: Lite at $10/month, Pro at $20/month, and Premium at $109/month, each with a discounted annual option (about 20% off, non-auto-renewing) and a monthly credit allowance that increases with the tier."}, {"q": "Does Crano AI have a free plan?", "a": "The official site does not list a free ongoing plan; some third-party aggregators mention a free trial, but this isn't confirmed on Crano's own pricing page, so treat it as unverified until you check current signup terms directly."}, {"q": "Can I use Crano AI outputs commercially?", "a": "Yes, commercial usage rights and watermark-free exports are stated as included on all three published plans, including the entry-level Lite tier."}, {"q": "What's the biggest limitation of Crano AI?", "a": "The platform doesn't disclose which underlying AI models generate its video, image, or music output, so quality and consistency are harder to predict or benchmark than with tools built on a named, published model."}, {"q": "How does Crano AI compare to Runway, Kling, or Luma?", "a": "Runway, Kling, and Luma are model developers offering direct access to their own named video models with documented capabilities; Crano is closer to a packaged, template-driven front end that bundles video, image, and music generation into one lower-priced subscription, trading model transparency and fine control for breadth and simplicity."}, {"q": "How do I get started with Crano AI?", "a": "Sign up on crano.ai, choose a monthly or annual plan based on expected output volume, and use credits within the dashboard for video, image, or music generation; since credit consumption scales with resolution and clip length, it's worth testing the lowest tier first to gauge how far your typical project goes."}]}},
+                    {
+                "name": "BasedLabs",
+                "tagline": "One credit-based workspace for AI video, image, and face-swap generation",
+                "desc": "BasedLabs.ai is a web platform that bundles 50+ third-party AI models — including Veo 3.1, Kling 2.1, Sora 2, Seedance, FLUX, and Nano Banana — into a single interface for generating videos, images, and face swaps. Instead of subscribing separately to each model provider, users buy a shared credit balance and spend it across whichever engine fits the job.",
+                "pricing": "Pay-as-you-go credit packs starting at $10 (300 credits); no monthly subscription and no permanent free tier; Enterprise volume pricing available on request.",
+                "url": "https://www.basedlabs.ai/",
+                "tags": [
+                    "Video Generation",
+                    "Image Generation",
+                    "Face Swap"
+                ],
+                "features": [
+                    "Text-to-video and image-to-video generation across models like Veo 3.1, Kling 2.1, Sora 2, and Seedance",
+                    "Text-to-image generation via FLUX, Nano Banana, Seedream, Recraft, and other models",
+                    "Face swap and AI voice changer tools alongside the video/image generators",
+                    "Shared, non-expiring credit wallet that works across all included models instead of per-model billing"
+                ],
+                "pros": [
+                    "Access to a wide roster of leading video and image models under one account and one credit balance",
+                    "No subscription lock-in — credits are bought once and don't expire",
+                    "Outputs are delivered watermark-free with commercial usage rights included"
+                ],
+                "cons": [
+                    "No ongoing free plan, so there's no way to keep using the tool at zero cost after any trial credit runs out",
+                    "Credit costs vary by model (roughly 2-90 credits per generation), which makes it hard to predict spend in advance"
+                ],
+                "best_for": "Creators, marketers, and small teams who want to experiment with multiple frontier video and image models without paying for separate subscriptions to each one.",
+                "deep": {
+                    "overview": "BasedLabs.ai is a multi-model AI content generation platform aimed at creators who want flexibility across engines rather than being locked into a single AI video or image provider. Rather than building its own foundation models, BasedLabs acts as an aggregator layer: it wraps model access, prompt tooling, and output delivery around third-party engines such as Google's Veo, Kuaishou's Kling, OpenAI's Sora 2, ByteDance's Seedance and Seedream, and image models like FLUX and Nano Banana. The pitch is that a single BasedLabs account and credit balance replace the need to sign up for and pay separately for each underlying model's own platform.\n\nIts core differentiator is the shared, non-expiring credit system: users purchase one pool of credits and spend them across whichever model — video, image, face swap, or voice — best suits a given task, with per-generation costs varying by model complexity (roughly 2 to 90 credits). For the video generation category specifically, BasedLabs targets short-form social content (TikTok, Reels, Shorts), product and brand marketing clips, and quick text-to-video or image-to-video conversions up to 1080p, positioning itself as a faster, lower-commitment on-ramp than subscribing directly to each individual model's native app.",
+                    "features_detailed": [
+                        {
+                            "title": "Multi-model video generation",
+                            "desc": "Generate clips through several licensed video engines — including Veo 3 / 3.1, Kling 2.1, Sora 2, Hailuo, and Seedance — from a single prompt interface, letting users compare styles and motion quality across models."
+                        },
+                        {
+                            "title": "Text-to-video",
+                            "desc": "Describe a scene in plain language (for example a cinematic drone shot) and the platform renders it as a short video clip using the selected underlying model."
+                        },
+                        {
+                            "title": "Image-to-video animation",
+                            "desc": "Upload a static image and add a prompt to have the AI animate it with motion, camera movement, and lighting, turning a still photo into a shareable clip."
+                        },
+                        {
+                            "title": "Multi-format output",
+                            "desc": "Videos can be produced in different aspect ratios and resolutions — vertical for Reels/Shorts, square for promos, and landscape up to 4K — without separate cropping tools."
+                        },
+                        {
+                            "title": "Text-to-image generation",
+                            "desc": "A separate but integrated image generator gives access to models such as FLUX, Nano Banana, Seedream, Recraft, GPT Image, Imagen3, and Stable Diffusion for stills and concept art."
+                        },
+                        {
+                            "title": "Face swap tool",
+                            "desc": "A dedicated face-swap generator lets users replace faces in photos or video frames, aimed at meme, entertainment, and creative-editing use cases."
+                        },
+                        {
+                            "title": "AI voice changer",
+                            "desc": "An audio tool for altering or generating voice content, extending the platform beyond purely visual generation."
+                        },
+                        {
+                            "title": "Shared credit wallet",
+                            "desc": "One credit balance, purchased in one-time packs, is drawn down across every model and tool on the platform, with credits stated not to expire."
+                        }
+                    ],
+                    "pricing_plans": [
+                        {
+                            "name": "Starter",
+                            "price": "$10",
+                            "billing": "one-time credit pack, no subscription",
+                            "features": [
+                                "300 credits",
+                                "Roughly 80 images or 10 short videos",
+                                "All AI models included",
+                                "Commercial use rights included"
+                            ]
+                        },
+                        {
+                            "name": "Creator",
+                            "price": "$29",
+                            "billing": "one-time credit pack, no subscription",
+                            "features": [
+                                "900 credits",
+                                "Roughly 240 images or 30 videos",
+                                "All AI models included",
+                                "Commercial use rights included"
+                            ]
+                        },
+                        {
+                            "name": "Professional",
+                            "price": "$50",
+                            "billing": "one-time credit pack, no subscription",
+                            "features": [
+                                "1,600 credits (includes a 5% bonus)",
+                                "Roughly 600 images or 75 videos",
+                                "All AI models included",
+                                "Commercial use rights included"
+                            ]
+                        },
+                        {
+                            "name": "Production",
+                            "price": "$99",
+                            "billing": "one-time credit pack, no subscription",
+                            "features": [
+                                "3,300 credits (includes a 10% bonus)",
+                                "Roughly 1,400 images or 175 videos",
+                                "All AI models included",
+                                "Commercial use rights included"
+                            ]
+                        },
+                        {
+                            "name": "High-Volume",
+                            "price": "$299",
+                            "billing": "one-time credit pack, no subscription",
+                            "features": [
+                                "10,000 credits (includes a 10% bonus)",
+                                "All AI models included",
+                                "Commercial use rights included"
+                            ]
+                        },
+                        {
+                            "name": "Enterprise",
+                            "price": "$499",
+                            "billing": "one-time credit pack, no subscription",
+                            "features": [
+                                "16,500 credits (includes a 10% bonus)",
+                                "All AI models included",
+                                "Commercial use rights included"
+                            ]
+                        },
+                        {
+                            "name": "Enterprise (Custom)",
+                            "price": "Custom",
+                            "billing": "contact sales for volume/enterprise pricing",
+                            "features": [
+                                "Negotiated credit volumes for teams and agencies",
+                                "Priority support (per sales contact)"
+                            ]
+                        }
+                    ],
+                    "pros_expanded": [
+                        "Bundling dozens of AI video and image models behind one login and one payment method saves users from juggling separate accounts and billing relationships with each model provider individually.",
+                        "The non-expiring, one-time credit packs suit occasional or bursty use cases better than a recurring subscription, since unused credits aren't lost at the end of a billing cycle.",
+                        "Having several competing video engines (Veo, Kling, Sora 2, Seedance, Hailuo) in one workspace makes it easy to test the same prompt across models and pick the best result without re-uploading assets elsewhere.",
+                        "Commercial usage rights and watermark-free output are included across plans, which matters for creators producing client or brand-facing content.",
+                        "Multiple output aspect ratios and up to 4K/1080p delivery mean content can be produced directly in the format needed for a given platform (TikTok, YouTube, etc.) without extra editing software.",
+                        "Both card and cryptocurrency payment options lower friction for international or crypto-native creators."
+                    ],
+                    "cons_expanded": [
+                        "There is no lasting free tier — the site advertises free sign-up, but ongoing generation requires purchasing a credit pack, unlike some competitors that offer a persistent free plan with limited monthly credits.",
+                        "Per-generation credit costs vary widely by model (roughly 2 to 90 credits), so total cost per video or image isn't fixed and can be hard to budget for in advance, especially for premium models like Veo or Sora 2.",
+                        "As an aggregator of third-party models rather than an original model developer, BasedLabs' feature set and output quality are ultimately capped by what each upstream provider (Google, Kuaishou, OpenAI, ByteDance, etc.) exposes through its API, and changes upstream can affect availability.",
+                        "Credit-pack pricing can work out more expensive than going directly to a single model provider's own subscription if a user consistently relies on just one engine at high volume.",
+                        "The platform's public pricing page does not clearly break down exact credit costs per specific model/resolution combination, requiring users to check within the app before committing to a purchase.",
+                        "There is no published enterprise SLA or team-collaboration feature set on the public site beyond a 'Contact Sales' custom quote, which may leave larger production teams wanting more detail before committing."
+                    ],
+                    "who_for": "BasedLabs is a good fit for individual creators, social media marketers, and small agencies who want to try or use several leading AI video and image models — Veo, Kling, Sora 2, Seedance, FLUX, and others — without setting up and paying for a separate account at each provider, and who prefer buying credits as needed over a recurring subscription. It's less suited to teams that need a single best-in-class model with deep native workflow features (fine-tuned camera controls, project versioning, team collaboration) — for that, going directly to a dedicated tool like Runway, Kling AI, or Luma Dream Machine may offer a more polished, purpose-built experience. High-volume users locked into one specific model may also find a direct subscription to that model's own platform more cost-effective than paying through BasedLabs' credit markup.",
+                    "faq": [
+                        {
+                            "q": "Is BasedLabs.ai free to use?",
+                            "a": "Sign-up is free, but generating images, videos, or face swaps requires purchasing a credit pack — BasedLabs does not offer an ongoing free plan with recurring monthly credits."
+                        },
+                        {
+                            "q": "What AI video models does BasedLabs support?",
+                            "a": "BasedLabs gives access to multiple third-party video generation models, including Veo 3 and 3.1, Kling 2.1, Sora 2, Hailuo, and Seedance, all usable from the same credit balance."
+                        },
+                        {
+                            "q": "How does BasedLabs pricing work?",
+                            "a": "BasedLabs uses one-time credit packs rather than subscriptions, ranging from a $10 Starter pack (300 credits) up to a $499 Enterprise pack (16,500 credits), plus custom Enterprise pricing for larger volumes; credits are shared across all models and tools and do not expire."
+                        },
+                        {
+                            "q": "Do BasedLabs credits expire?",
+                            "a": "According to the platform's pricing FAQ, purchased credits do not expire, so unused credits carry over indefinitely rather than resetting on a billing cycle."
+                        },
+                        {
+                            "q": "Can I use BasedLabs output for commercial projects?",
+                            "a": "Yes, commercial usage rights are included with all credit-pack plans, and generated images and videos are delivered without watermarks."
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "HitPaw Edimakor",
+                "tagline": "AI-powered video editor that pairs a full traditional timeline with text-to-video, avatars, and voice AI",
+                "desc": "HitPaw Edimakor is a desktop video editing application for Windows and Mac that combines a conventional multi-track editor with a credit-based suite of AI tools, including text-to-video generation, AI avatars, voice cloning, and auto-subtitling.",
+                "pricing": "Perpetual license from $69.95 one-time (10,000 AI credits); yearly $49.95, monthly $19.95; free plan available with 30 AI credits and non-AI editing tools.",
+                "url": "https://edimakor.hitpaw.com/",
+                "tags": [
+                    "Video Editing",
+                    "AI Avatar",
+                    "Text-to-Video",
+                    "Voice Cloning"
+                ],
+                "features": [
+                    "Text-to-video and image-to-video generation via multiple AI models (Veo 3, Sora 2, Kling, and others)",
+                    "AI avatars and talking/singing photos with lip-sync",
+                    "Voice cloning and text-to-speech in 35+ languages, plus auto subtitles",
+                    "Full traditional NLE toolkit: unlimited tracks, keyframes, masking, motion tracking, screen recording"
+                ],
+                "pros": [
+                    "Merges a real timeline-based editor with a large, current AI toolset in one desktop app",
+                    "One-time perpetual license option avoids an ongoing subscription",
+                    "Very large built-in asset library of templates, effects, and stock media"
+                ],
+                "cons": [
+                    "AI features run on a consumable credit system that can get expensive for heavy use",
+                    "Desktop install required (Windows/Mac); the web version is more limited"
+                ],
+                "best_for": "Content creators, YouTubers, and small marketing or training teams who want AI video generation and avatar/voice tools bundled into a full desktop video editor rather than juggling separate single-purpose AI web apps.",
+                "deep": {
+                    "overview": "HitPaw Edimakor is a desktop video editor built by HitPaw, a software company known for a portfolio of multimedia and AI utility tools. Edimakor is positioned as an \"AI Video Editor All-in-One,\" pairing a standard non-linear editing timeline (multi-track editing, keyframe animation, masking, motion tracking, green-screen removal, screen recording) with a large, growing catalog of AI-driven features layered on top. It ships as a Windows and Mac desktop application, with a newer companion web app for some AI tasks, and the company states its broader HitPaw product line has been downloaded over 200 million times across 160+ countries.\n\nThe core differentiator is that Edimakor doesn't build its own foundation AI models — instead it acts as a unified front end that routes AI video, image, and voice generation requests to a mix of external models (including Google Veo 3, OpenAI Sora 2, Kling, Vidu, Pixverse, Hailuo, and Nano Banana), consumed through an in-app AI credit system rather than a per-tool subscription. That lets one desktop editor cover text-to-video generation, AI avatars with lip-sync, voice cloning, auto-subtitling, and short-clip repurposing alongside conventional cutting and effects work, aimed at creators who would otherwise need several separate specialized AI tools plus a traditional editor.",
+                    "features_detailed": [
+                        {
+                            "title": "Text-to-video and image-to-video generation",
+                            "desc": "Generates video clips from text prompts or still images by routing requests to third-party models such as Veo 3, Sora 2, Kling, Vidu, and Pixverse, selectable inside the editor."
+                        },
+                        {
+                            "title": "AI avatars and talking photos",
+                            "desc": "Turns a photo or script into a talking or singing avatar with lip-sync, usable for presenter-style or explainer video content."
+                        },
+                        {
+                            "title": "Voice cloning and text-to-speech",
+                            "desc": "Clones a voice or generates speech from text using a library of AI voices across 35+ languages, useful for narration and dubbing."
+                        },
+                        {
+                            "title": "Auto subtitles and speech-to-text",
+                            "desc": "Automatically transcribes spoken audio into timed subtitles and can also translate/dub video into other languages using AI voices."
+                        },
+                        {
+                            "title": "AI clip maker",
+                            "desc": "Analyzes longer footage (e.g., podcasts or webinars) and automatically cuts it into shorter, social-ready clips."
+                        },
+                        {
+                            "title": "Traditional multi-track editing",
+                            "desc": "Unlimited timeline tracks, keyframe animation, video masking, motion tracking, cropping/rotating, and audio editing for standard manual editing work."
+                        },
+                        {
+                            "title": "Large built-in asset library",
+                            "desc": "Includes thousands of effects, filters, transitions, text animations, stickers, and tens of thousands of stock clips, photos, and customizable templates."
+                        },
+                        {
+                            "title": "Screen recording and background/watermark removal",
+                            "desc": "Built-in screen recorder and live-streaming support, plus AI tools for removing video backgrounds and watermarks."
+                        }
+                    ],
+                    "pricing_plans": [
+                        {
+                            "name": "Free",
+                            "price": "$0",
+                            "billing": "No subscription required",
+                            "features": [
+                                "30 AI credits for new users",
+                                "Access to non-AI editing tools",
+                                "Limited AI feature usage until credits run out"
+                            ]
+                        },
+                        {
+                            "name": "1-Month Plan",
+                            "price": "$19.95/mo",
+                            "billing": "Billed monthly (discounted from $39.95)",
+                            "features": [
+                                "300 AI credits per month",
+                                "1 PC license",
+                                "1 month of free upgrades",
+                                "AI Avatar up to 15 sec, Auto Subtitle up to 60 min, AI Translation up to 50 min"
+                            ]
+                        },
+                        {
+                            "name": "1-Year Plan",
+                            "price": "$49.95/yr",
+                            "billing": "Billed annually (discounted from $99.95)",
+                            "features": [
+                                "3,000 AI credits per year",
+                                "1 PC license",
+                                "1 year of free upgrades",
+                                "AI Avatar up to 150 sec, Auto Subtitle up to 600 min, AI Translation up to 500 min"
+                            ]
+                        },
+                        {
+                            "name": "Perpetual License",
+                            "price": "$69.95 one-time",
+                            "billing": "One-time purchase (discounted from $139.95), most popular",
+                            "features": [
+                                "10,000 AI credits (lifetime allotment)",
+                                "1 PC license",
+                                "Lifetime free upgrades",
+                                "AI Avatar up to 500 sec, Auto Subtitle up to 2,000 min, AI Translation up to 1,667 min"
+                            ]
+                        },
+                        {
+                            "name": "Business (5 PCs)",
+                            "price": "$119.95/yr",
+                            "billing": "Billed annually, 5-seat license",
+                            "features": [
+                                "6,000 AI credits per year",
+                                "5 PC licenses",
+                                "Commercial rights, 24/7 support"
+                            ]
+                        },
+                        {
+                            "name": "Business (10 PCs)",
+                            "price": "$259.95/yr",
+                            "billing": "Billed annually, 10-seat license",
+                            "features": [
+                                "12,000 AI credits per year",
+                                "10 PC licenses",
+                                "Commercial rights, 24/7 support"
+                            ]
+                        }
+                    ],
+                    "pros_expanded": [
+                        "Combines a genuinely full-featured traditional editor (unlimited tracks, keyframes, masking, motion tracking) with generative AI tools, so users aren't limited to a stripped-down editor bolted onto an AI wrapper.",
+                        "The perpetual license option ($69.95 one-time) gives a real alternative to recurring subscription costs, which is unusual among AI video tools that are almost all SaaS-only.",
+                        "Access to multiple leading AI video models (Veo 3, Sora 2, Kling, Vidu, Pixverse) through one interface saves creators from separately subscribing to each model's own platform.",
+                        "The bundled asset library (500,000+ combined effects, templates, stock clips, and stickers per the vendor) is large enough to reduce reliance on third-party stock sites for many projects.",
+                        "A 30-day money-back guarantee and 24/7 support are offered across paid plans, lowering the risk of trying a paid tier.",
+                        "Feature set spans the full creator workflow — generation, editing, subtitling, translation, and short-clip repurposing — rather than a single narrow use case."
+                    ],
+                    "cons_expanded": [
+                        "AI features draw down a shared credit balance (e.g., roughly 20 credits per second of AI avatar output), so heavy generative use can exhaust monthly or annual allotments faster than expected and require buying extra credit packs.",
+                        "It's a desktop application requiring installation on Windows or Mac rather than a fully browser-based tool, which is a meaningful difference from most competing AI video generators that run entirely online.",
+                        "Because generation quality depends on which third-party model (Veo 3, Sora 2, Kling, etc.) is selected, output consistency and cost-per-credit can vary noticeably between features.",
+                        "Standard license tiers are locked to a single PC, so users who edit across a desktop and laptop need a higher (business) tier or a second license.",
+                        "The free tier's 30 starter AI credits are enough only for very light testing of the AI features before a paid plan or credit top-up becomes necessary.",
+                        "With so many AI capabilities packed into one app, the interface and pricing/credit model take some initial time to learn compared to single-purpose AI tools."
+                    ],
+                    "who_for": "HitPaw Edimakor suits solo creators, YouTubers, course creators, and small marketing or training teams who want one desktop application that can both cut a traditional edit and generate AI video, avatars, voiceovers, and subtitles without stitching together several separate AI web services — especially those who prefer a one-time perpetual license over stacking monthly AI subscriptions. It's a weaker fit for teams that need a purely browser-based, no-install collaborative editor, or for users whose workflow depends on very high-volume AI generation, since credit consumption on features like AI avatars and video generation can add up quickly relative to the included allotments.",
+                    "faq": [
+                        {
+                            "q": "Is HitPaw Edimakor free to use?",
+                            "a": "Yes, there is a free tier that includes the non-AI editing tools and 30 starter AI credits for new users, but heavier AI feature use requires a paid plan or additional AI credits."
+                        },
+                        {
+                            "q": "What AI models does HitPaw Edimakor use for video generation?",
+                            "a": "It integrates multiple third-party AI models, including Google Veo 3, OpenAI Sora 2, Kling, Vidu, Pixverse, Hailuo, and Nano Banana, selectable from within the editor."
+                        },
+                        {
+                            "q": "Does HitPaw Edimakor offer a one-time purchase instead of a subscription?",
+                            "a": "Yes, it offers a Perpetual License for $69.95 (one PC), which includes 10,000 AI credits and lifetime free upgrades, alongside monthly and yearly subscription options."
+                        },
+                        {
+                            "q": "Is HitPaw Edimakor available on Mac and Windows?",
+                            "a": "Yes, it's a desktop application available for both Windows 10/11 and Mac, with a more limited companion web version for some AI tasks."
+                        },
+                        {
+                            "q": "How do AI credits work in HitPaw Edimakor?",
+                            "a": "AI features consume credits at rates that vary by feature — for example, AI avatar generation uses about 20 credits per second, and speech-to-text uses about 5 credits per minute — with credits included in each plan and additional credit packs purchasable separately."
+                        }
+                    ]
+                }
+            },
         ],
     },
     {
@@ -4614,6 +5114,264 @@ CATEGORIES = [
     "reviews": {"g2_rating": "4.1/5", "g2_count": "61 reviews", "summary": "Tabnine earns solid marks on G2 for boosting coding productivity and integrating across IDEs, though it trails category leader GitHub Copilot on ease of setup and usability, and some users find it resource-intensive on larger codebases.", "praise": ["Meaningfully speeds up everyday coding with quick, relevant suggestions", "Strong, broad IDE integration", "Privacy-first, self-hostable deployment model builds trust for sensitive codebases"], "complaints": ["Can be resource-intensive and slow performance on larger projects", "Setup and configuration are less smooth than top competitors", "Suggestion quality can lag behind newer cloud-only assistants on complex tasks"]},
     "faq": [{"q": "What does Tabnine cost?", "a": "Tabnine offers two tiers billed annually: Code Assistant Platform at $39/user/month and Agentic Platform at $59/user/month. Both require contacting sales for a formal quote."}, {"q": "Does Tabnine have a free plan?", "a": "No, Tabnine discontinued its free tier; a 90-day free trial is available for evaluation instead."}, {"q": "Can Tabnine run fully on-premises or air-gapped?", "a": "Yes, Tabnine supports SaaS, VPC, fully on-premises, and completely air-gapped deployment options, giving organizations full control over where code is processed."}, {"q": "Does Tabnine train on my code?", "a": "No, Tabnine states it has zero code retention and does not train its models on customer code."}, {"q": "Which LLMs does Tabnine support?", "a": "Tabnine supports multiple leading LLMs, including models from Anthropic, OpenAI, Google, Meta, and Mistral, rather than locking customers into a single model."}, {"q": "Who owns Tabnine now?", "a": "Tabnine was acquired by Tricentis, the agentic quality engineering company, in 2026."}]
  }},
+                    {
+                "name": "Interview Solver",
+                "tagline": "Real-time AI copilot for live coding and system design interviews",
+                "desc": "Interview Solver is a desktop app for macOS and Windows that overlays AI-generated solutions on top of live technical interviews, aiming to stay hidden from screen-sharing tools like Zoom, Teams, and Google Meet. It pairs that live-assist overlay with a practice hub of LeetCode-style questions, company-specific prep tracks, and free utilities like an ATS resume checker.",
+                "pricing": "Monthly plan $59/mo; Interview Cycle plan $149 per 3 months (about $50/mo); free trial with 10 AI messages, no credit card required.",
+                "url": "https://interviewsolver.com/",
+                "tags": [
+                    "Coding Interviews",
+                    "Interview Prep",
+                    "Developer Tools",
+                    "Career"
+                ],
+                "features": [
+                    "Screen-share-invisible overlay for live coding rounds on Zoom, Teams, and Google Meet",
+                    "Screengrab-to-solution capture with real-time voice transcription of interview questions",
+                    "System design diagram and flowchart generation alongside code answers",
+                    "Companion mode for remote-device control on proctored platforms like HackerRank's client"
+                ],
+                "pros": [
+                    "Designed to stay invisible during screen sharing across major video-call platforms",
+                    "Covers both algorithmic coding questions and system design diagramming, not just LeetCode drills",
+                    "Positioned well below the price of named rivals like Interview Coder and Final Round AI"
+                ],
+                "cons": [
+                    "Full stealth functionality needs a native desktop install (macOS/Windows only), no browser-only equivalent",
+                    "Using it live in an actual interview conflicts with the integrity policies of many employers and assessment platforms"
+                ],
+                "best_for": "Software engineers, bootcamp grads, and career changers preparing for FAANG-style live coding and system design interviews who want real-time, screen-share-hidden AI assistance plus a structured practice library.",
+                "deep": {
+                    "overview": "Interview Solver is a technical-interview preparation product built around a native desktop application rather than a browser extension or web app. Its core pitch is a live-assist overlay: candidates run it during an actual video interview, and it is built to stay hidden from screen-sharing on Zoom, Microsoft Teams, and Google Meet while capturing the coding window via a screengrab tool and transcribing spoken interview questions in real time. Responses come back as code with complexity notes, or as generated system design diagrams, triggered through global hotkeys so the candidate never has to alt-tab away from the call.\n\nWhat sets it apart from a plain 'AI answers my coding questions' tool is the layer built specifically around live-interview mechanics: a companion mode that lets a second device (like a phone) send commands so keystrokes on the interview machine itself stay minimal, aimed at proctored setups such as HackerRank's downloadable client that log local input. The company also positions cost as a differentiator, publishing direct comparison pages against named competitors (Interview Coder, UltraCode, Final Round AI) that show its $59/month plan running well under their listed prices. Beyond the live-assist feature, the site bundles a more conventional prep library — company-specific question hubs, role-based tracks, and free standalone tools like an ATS resume checker and a Big O cheat sheet.",
+                    "features_detailed": [
+                        {
+                            "title": "Invisible interview overlay",
+                            "desc": "A desktop overlay built to stay out of screen-share output on Zoom (up to a stated version), Microsoft Teams, and Google Meet, and to stay off macOS's Activity Monitor."
+                        },
+                        {
+                            "title": "Screengrab-based solving",
+                            "desc": "A capture tool sends the contents of a selected window to the AI, which returns solution code with syntax highlighting for LeetCode-style problems."
+                        },
+                        {
+                            "title": "Real-time voice transcription",
+                            "desc": "Listens to the interview audio and transcribes spoken questions from both interviewer and candidate, turning them into prompts for the AI without manual typing."
+                        },
+                        {
+                            "title": "System design diagram generation",
+                            "desc": "Produces flowcharts and system design structures for architecture-style interview rounds, not just algorithmic code answers."
+                        },
+                        {
+                            "title": "Global hotkeys",
+                            "desc": "Keyboard shortcuts trigger AI responses without switching windows or alt-tabbing out of the video call or coding environment."
+                        },
+                        {
+                            "title": "Companion mode",
+                            "desc": "Lets a second device, such as a phone, issue remote commands so fewer keystrokes are logged on the primary interview machine, aimed at proctored tools like HackerRank's downloadable app."
+                        },
+                        {
+                            "title": "Document-grounded answers",
+                            "desc": "Candidates can upload a resume, job description, or project docs so responses can reference their actual background instead of generic solutions."
+                        },
+                        {
+                            "title": "Practice hub and free tools",
+                            "desc": "Company-specific question banks, role-based tracks (frontend, backend, full-stack, mobile, data, DevOps), algorithm drills, plus free utilities like an ATS resume checker, STAR method builder, Big O cheat sheet, and salary lookup."
+                        }
+                    ],
+                    "pricing_plans": [
+                        {
+                            "name": "Free Trial",
+                            "price": "$0",
+                            "billing": "No credit card required",
+                            "features": [
+                                "10 AI messages included to test the copilot",
+                                "Access to free practice tools (ATS checker, cheat sheets, etc.)",
+                                "No commitment before upgrading"
+                            ]
+                        },
+                        {
+                            "name": "Monthly",
+                            "price": "$59/mo",
+                            "billing": "Billed monthly, cancel anytime, no long-term contract",
+                            "features": [
+                                "Full live-interview copilot access (screengrab solving, voice transcription, system design diagrams)",
+                                "Global hotkeys and companion mode",
+                                "Document upload for grounded answers",
+                                "Access to the full practice question hub"
+                            ]
+                        },
+                        {
+                            "name": "Interview Cycle",
+                            "price": "$149 per 3 months",
+                            "billing": "One payment covering a 3-month cycle, roughly $50/mo equivalent",
+                            "features": [
+                                "Same copilot feature set as the Monthly plan",
+                                "Lower effective monthly cost for an active, multi-round job search",
+                                "Full practice hub and free-tool access included"
+                            ]
+                        }
+                    ],
+                    "pros_expanded": [
+                        "The overlay is engineered to stay invisible during screen sharing across Zoom, Microsoft Teams, and Google Meet, which is the specific technical problem most 'AI cheat tool' products are judged on.",
+                        "Companion mode lets a second device trigger commands, aimed squarely at proctored coding tests such as HackerRank's downloadable client that watch for local keyboard activity on the interview machine.",
+                        "It goes beyond LeetCode-style code answers by also generating system design diagrams and flowcharts, so it covers architecture-round interviews as well as algorithmic ones.",
+                        "Document upload lets the AI reference an uploaded resume or job description, which is meant to make answers sound more like the candidate's own background rather than boilerplate solutions.",
+                        "On its own comparison pages, Interview Solver's $59/month price undercuts named competitors it lists, such as Interview Coder at $299/month, UltraCode at a $799 one-time fee, and Final Round AI at $90/month.",
+                        "The site includes free standalone prep tools (ATS resume checker, STAR method builder, Big O cheat sheet, salary lookup) that are usable without a paid subscription."
+                    ],
+                    "cons_expanded": [
+                        "The stealth, live-assist feature set requires installing a native desktop app on macOS or Windows; there is no equivalent browser-only or mobile experience for that core use case.",
+                        "The product's central use case — surfacing AI answers live and undetected during an actual interview — runs against the honor codes and terms many employers, recruiters, and assessment platforms enforce, and being caught can mean disqualification or a rescinded offer.",
+                        "Its own site scopes video-platform compatibility to a specific version ceiling (Zoom up to 6.16 as stated), so an interviewer using a newer build could affect the overlay's invisibility without warning.",
+                        "Usage and satisfaction figures the company publishes on its own marketing pages (large user counts, high recommend rates) are self-reported claims, not numbers verified by an independent review platform like G2 or Capterra.",
+                        "Pricing is purely subscription-based, with monthly or 3-month terms and no perpetual one-time-purchase option, so a long job search can add up compared to flat-fee alternatives.",
+                        "The free trial is capped at a small number of AI messages (10), which limits how thoroughly someone can test real interview scenarios before paying."
+                    ],
+                    "who_for": "Interview Solver fits software engineers, computer science students, bootcamp graduates, and career changers who are actively interviewing for roles that lean on live LeetCode-style coding rounds and system design whiteboarding, and who want an AI assistant that works inside the call itself rather than only in offline practice. It's a natural fit for candidates comparing it against pricier live-assist tools, since its own positioning leans on being materially cheaper for a similar feature set. It's a poor fit for anyone who wants a purely above-board prep tool, for candidates interviewing at companies or through assessment platforms that explicitly ban AI assistance (a live-assist overlay is exactly the kind of tool those policies target), or for anyone who'd rather build interview skills through practice than lean on real-time answers during the actual conversation.",
+                    "faq": [
+                        {
+                            "q": "How much does Interview Solver cost?",
+                            "a": "Interview Solver offers a free trial (10 AI messages, no credit card required), a Monthly plan at $59/month with no long-term contract, and an Interview Cycle plan at $149 for 3 months, which works out to roughly $50/month."
+                        },
+                        {
+                            "q": "Does Interview Solver stay hidden during screen sharing?",
+                            "a": "Yes, that's the product's core design goal — it's built as a native desktop overlay meant to stay invisible in screen shares on Zoom, Microsoft Teams, and Google Meet, and to not appear in macOS's Activity Monitor. Compatibility is tied to specific software versions, so results can vary if a platform updates."
+                        },
+                        {
+                            "q": "Is using Interview Solver during a live interview considered cheating?",
+                            "a": "Many employers, recruiters, and assessment platforms treat live AI assistance during a technical interview as a violation of their interview integrity or terms-of-service policies, even when the tool itself is undetected. Candidates should weigh that risk — including disqualification or a rescinded offer if discovered — before using it in a real interview."
+                        },
+                        {
+                            "q": "What interview and video platforms does Interview Solver support?",
+                            "a": "It's built to work alongside Zoom (up to a stated version), Microsoft Teams, Google Meet, and browser-based coding IDEs, with a companion mode aimed at proctored tools like HackerRank's downloadable client."
+                        },
+                        {
+                            "q": "Does Interview Solver have a free trial?",
+                            "a": "Yes. Interview Solver offers a free trial with 10 AI messages included and no credit card required, letting candidates test the copilot before choosing the Monthly or Interview Cycle paid plan."
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Nanobrowser",
+                "tagline": "Open-source Chrome extension for multi-agent AI web automation",
+                "desc": "Nanobrowser is a free, open-source Chrome (and Edge) extension that automates web browsing tasks using a multi-agent AI system you control with your own LLM API keys. It positions itself as a no-subscription alternative to OpenAI Operator, running entirely in the local browser rather than a hosted cloud service.",
+                "pricing": "Free and open source (Apache 2.0); no subscription. You pay only for the LLM API usage you connect (OpenAI, Anthropic, Gemini, Groq, Cerebras, etc.), or $0 if you run local models via Ollama.",
+                "url": "https://nanobrowser.ai/",
+                "tags": [
+                    "Browser Automation",
+                    "AI Agents",
+                    "Open Source",
+                    "Chrome Extension",
+                    "Developer Tools"
+                ],
+                "features": [
+                    "Multi-agent system with a Planner and Navigator agent collaborating on complex web tasks",
+                    "Bring-your-own-API-key support for OpenAI, Anthropic, Gemini, Groq, Cerebras, Ollama, and OpenAI-compatible endpoints",
+                    "Interactive side panel chat with real-time status updates and follow-up questions",
+                    "Runs fully client-side in the browser, so credentials and browsing data never touch a third-party server"
+                ],
+                "pros": [
+                    "Completely free and open source with no subscription fee, unlike OpenAI Operator's $200/month plan",
+                    "Lets you mix and match LLM providers (including local Ollama models) per agent for cost or privacy control",
+                    "Transparent codebase (Apache 2.0) with an active Discord and GitHub Discussions community"
+                ],
+                "cons": [
+                    "Officially supports only Chrome and Edge, with Firefox, Safari, and other Chromium forks unsupported",
+                    "Requires users to source, configure, and pay for their own LLM API keys rather than working out of the box"
+                ],
+                "best_for": "Developers and technically comfortable users who want scriptable, agent-driven browser automation without paying for a hosted operator service and are willing to supply and manage their own LLM API keys.",
+                "deep": {
+                    "overview": "Nanobrowser is an open-source browser extension that turns Chrome or Edge into an AI-driven automation agent. Rather than running as a hosted SaaS product, it installs directly into the browser and executes tasks locally, coordinating a small team of specialized LLM-powered agents to plan and carry out multi-step actions on real websites — clicking, navigating, extracting data, and reasoning about obstacles as they arise. The project is maintained on GitHub under the nanobrowser organization, licensed under Apache 2.0, and has attracted a sizeable open-source following (roughly 13,800+ GitHub stars and 1,400+ forks at time of research), with active Discord and GitHub Discussions communities driving its roadmap.\n\nThe tool's core differentiator is its explicit framing as a free, transparent alternative to OpenAI's Operator agent, which carries a $200/month price tag as part of ChatGPT Pro. Nanobrowser instead uses a bring-your-own-API-key model: users connect providers like OpenAI, Anthropic, Gemini, Groq, Cerebras, or local models via Ollama, and can assign different models to different agents (for example, a stronger model like Claude Sonnet for planning and a cheaper, faster model for navigation). Because everything runs in the user's own browser session with their own credentials, there's no cloud backend handling browsing data, which the project markets heavily as a privacy advantage. This combination of open-source transparency, LLM flexibility, and local-first execution is what distinguishes it from closed, subscription-based browser-agent products.",
+                    "features_detailed": [
+                        {
+                            "title": "Multi-agent architecture",
+                            "desc": "A Planner agent handles high-level reasoning and task breakdown while a Navigator agent executes concrete browser actions (clicking, typing, scrolling); the Planner can dynamically re-instruct the Navigator when it hits obstacles mid-task."
+                        },
+                        {
+                            "title": "Per-agent model assignment",
+                            "desc": "Users can assign a different LLM to the Planner versus the Navigator, letting them balance cost and capability (e.g., a stronger reasoning model for planning, a cheaper model for routine navigation steps)."
+                        },
+                        {
+                            "title": "Broad LLM provider support",
+                            "desc": "Works with OpenAI, Anthropic, Gemini, Groq, Cerebras, Llama, Ollama for local models, and any custom OpenAI-compatible API endpoint."
+                        },
+                        {
+                            "title": "Interactive side panel",
+                            "desc": "A chat-style sidebar inside the browser shows real-time status updates as agents work, and lets users watch progress rather than treating automation as a black box."
+                        },
+                        {
+                            "title": "Follow-up questions",
+                            "desc": "After a task completes, users can ask contextual follow-up questions about the results without starting a new session from scratch."
+                        },
+                        {
+                            "title": "Conversation history",
+                            "desc": "Past agent interactions and task runs are saved and accessible, making it easier to revisit or reuse previous automations."
+                        },
+                        {
+                            "title": "Local-first, privacy-focused execution",
+                            "desc": "The extension runs entirely client-side in the browser; no browsing data or credentials are sent to a Nanobrowser-operated cloud service."
+                        },
+                        {
+                            "title": "Manual and store installation paths",
+                            "desc": "Available via the Chrome Web Store for stable releases, or as a manually loaded unpacked extension from GitHub release zips for access to the newest features ahead of store review."
+                        }
+                    ],
+                    "pricing_plans": [
+                        {
+                            "name": "Free & Open Source",
+                            "price": "$0",
+                            "billing": "No subscription; Apache 2.0 licensed, self-hosted as a browser extension",
+                            "features": [
+                                "Full multi-agent automation feature set with no paywalled tiers",
+                                "Bring your own LLM API key — actual cost is whatever the connected provider (OpenAI, Anthropic, Gemini, Groq, Cerebras, etc.) charges for usage",
+                                "Zero ongoing cost when paired with local models via Ollama",
+                                "Source code, issue tracker, and Discussions fully open on GitHub",
+                                "Optional voluntary support via GitHub Sponsors — not required to use the extension"
+                            ]
+                        }
+                    ],
+                    "pros_expanded": [
+                        "No subscription cost at all: the software itself is free, so the only ongoing expense is whatever LLM API usage the user chooses to connect, which can be minimized or eliminated by running local models through Ollama.",
+                        "Splitting the Planner and Navigator roles across different models gives users fine-grained control over the cost/performance tradeoff, something closed agent products don't expose.",
+                        "Because everything executes inside the user's own Chrome or Edge session, there's no separate cloud agent seeing or storing browsing activity, which is a meaningful privacy improvement over hosted browser-agent services.",
+                        "The Apache 2.0 license and public GitHub repository mean the automation logic is fully auditable rather than a black box, which matters for users automating sensitive or authenticated web sessions.",
+                        "An active Discord and GitHub Discussions community shares prompt patterns, local-model benchmarks, and configuration tips, which shortens the learning curve for tuning agent behavior.",
+                        "Manual installation from GitHub releases gives early access to new capabilities ahead of the (sometimes delayed) Chrome Web Store review process."
+                    ],
+                    "cons_expanded": [
+                        "Browser support is narrow: Chrome and Edge are officially supported, while Firefox, Safari, and other Chromium-based browsers like Opera or Arc are explicitly unsupported, which rules it out for non-Chromium users.",
+                        "There's no managed backend or default model included, so a new user has to obtain and configure their own API keys before the extension does anything useful — it isn't a plug-and-play experience.",
+                        "Using cost-effective model configurations (e.g., cheaper Planner/Navigator pairings) is documented by the project itself as producing less stable output and requiring more iterations on complex tasks.",
+                        "Local models require noticeably more careful, explicit prompt engineering than cloud models, according to the project's own guidance, which adds friction for non-technical users trying to run it fully offline.",
+                        "As a community open-source project without a company behind it, support depends on volunteer maintainers and Discord/GitHub responsiveness rather than an SLA-backed help desk.",
+                        "Real-world reliability of any browser-automation agent depends heavily on how frequently target websites change their DOM/layout, and Nanobrowser's task success is bounded by the underlying LLM's web-navigation reasoning quality."
+                    ],
+                    "who_for": "Nanobrowser suits developers, power users, and privacy-conscious teams who are comfortable managing their own LLM API keys and want a transparent, inspectable alternative to paying $200/month for OpenAI Operator or similar hosted browser agents. It's a strong fit for people who already use Chrome or Edge, want to experiment with different model combinations (including running fully local models via Ollama for zero API cost), and value having the automation logic open source and auditable. It's a weaker fit for non-technical users who want a zero-configuration, fully managed agent service, for anyone standardized on Firefox or Safari, or for teams that need enterprise support contracts and guaranteed uptime rather than a community-maintained open-source tool.",
+                    "faq": [
+                        {
+                            "q": "Is Nanobrowser free to use?",
+                            "a": "Yes. Nanobrowser itself is free and open source under the Apache 2.0 license. The only cost is whatever usage fees the LLM provider you connect (OpenAI, Anthropic, Gemini, etc.) charges, or $0 if you run local models via Ollama."
+                        },
+                        {
+                            "q": "How is Nanobrowser different from OpenAI Operator?",
+                            "a": "OpenAI Operator is a proprietary, hosted browser agent bundled with ChatGPT Pro at roughly $200/month. Nanobrowser is a free, open-source Chrome/Edge extension that runs locally and lets you plug in your own choice of LLM provider instead of relying on one vendor's model and paying a flat subscription."
+                        },
+                        {
+                            "q": "Which LLM providers does Nanobrowser support?",
+                            "a": "It supports OpenAI, Anthropic, Google Gemini, Groq, Cerebras, Llama-based models, Ollama for local models, and any custom OpenAI-compatible API endpoint, with more providers planned according to the project."
+                        },
+                        {
+                            "q": "Does Nanobrowser work on Firefox or Safari?",
+                            "a": "No. Nanobrowser officially supports only Chrome and Edge. Firefox, Safari, and other Chromium-based browsers such as Opera or Arc are not officially supported, though some functionality may work unofficially on other Chromium variants."
+                        },
+                        {
+                            "q": "What is the multi-agent system in Nanobrowser?",
+                            "a": "Nanobrowser uses two specialized agents that collaborate: a Planner agent that handles high-level reasoning and task strategy, and a Navigator agent that carries out concrete browser actions like clicking and typing. Users can assign different LLMs to each agent to balance cost and performance."
+                        }
+                    ]
+                }
+            },
         ],
     },
     {
@@ -5601,6 +6359,168 @@ CATEGORIES = [
  }},
             {"name": "Adaptive", "tagline": "An AI coworker that browses, clicks, and files tasks across your business tools", "desc": "Adaptive is a cloud-based AI agent platform that automates operational work — sales follow-up, research, scheduling, basic app-building — by controlling your connected tools through plain-English instructions instead of code.", "pricing": "Free tier available; paid plans are Personal at $20/month and Pro at $100/month (with usage-based add-ons), plus a custom-priced Enterprise tier for teams needing more capacity and support.", "url": "https://adaptive.ai", "tags": ["AI Agents", "Business Automation", "No-Code", "Virtual Assistant"], "features": ["Autonomous agents for research, outreach, and scheduled tasks", "20+ native integrations (Gmail, Slack, GitHub, Stripe, Notion, Discord)", "Browser automation for navigating and acting on web interfaces", "\"Encoded Memory\" that turns repeated workflows into reusable programs"], "pros": ["Approachable plain-English setup for non-technical founders", "Broad out-of-the-box integration list for a young product", "Free tier lets you test real agent workflows before paying"], "cons": ["Company and product positioning have shifted since its 2025 launch, so some marketing language and case studies may lag the current feature set", "No independent, verifiable review-site rating exists yet for the AI-agent product, so buyers are largely working from vendor claims and early adopter posts"], "best_for": "Solo founders, indie hackers, and small operator-led businesses who want to hand off repetitive digital busywork to an AI agent without hiring or writing code.", "deep": {"overview": "Adaptive (built by Adaptive Computer, Inc.) started life in 2025 as a no-code platform for stitching together small custom apps — think a quiz generator wired to a student tracker — and raised a $7 million seed round led by Pebblebed, with Conviction Partners, Anti Fund, Radical Ventures, and Roblox founder David Baszucki also participating. Co-founder Dennis Xu has been the public face of the company as it evolved. By 2026 the product had repositioned itself more explicitly as an \"AI coworker\": a set of autonomous agents that log into your actual tools — Gmail, Slack, GitHub, Stripe, Notion, and 20-plus others — and carry out multi-step work like following up on sales leads, running market research, or triaging a spreadsheet turned into a lightweight internal app.\n\nWhat separates Adaptive from a plain chatbot wrapper is that it runs as a persistent cloud \"computer\" rather than a single conversation: agents can browse and click through web UIs, keep working after you close the app (including from a locked phone via its iOS client), and rely on human-in-the-loop approvals for anything sensitive, like sending payments or emails. Its most distinctive claim is \"Encoded Memory\" — the idea that a workflow an agent performs manually the first time gets compiled into a reusable, faster program on repeat runs. That puts Adaptive in the same general lane as other 2025-2026 \"agentic coworker\" startups, competing less on any single integration and more on how cheaply and reliably it can turn one-off instructions into standing automations for people without engineering resources.", "who_for": "Non-technical solo founders, small business owners, and people juggling multiple side ventures who want an AI agent to handle recurring operational tasks — outreach, research, basic app logic — without hiring staff or learning to code.", "features_detailed": [{"title": "Autonomous task agents", "desc": "Dedicated agents work in parallel on tasks like research, drafting outreach, following up with leads, and running scheduled jobs, reporting back rather than requiring step-by-step prompting."}, {"title": "Encoded Memory", "desc": "Adaptive records how it solved a task the first time and converts that into a reusable routine, aiming to make repeated workflows faster and cheaper on subsequent runs."}, {"title": "Broad tool integrations", "desc": "Native connections to Gmail, Slack, Google Sheets, GitHub, Stripe, Square, Notion, Discord, and 20+ other services let agents act directly inside the tools a small business already uses."}, {"title": "Browser and computer control", "desc": "Agents can navigate web interfaces, click through forms, and take actions on sites without a dedicated API, extending automation beyond what pure API integrations cover."}, {"title": "Spreadsheet-to-app building", "desc": "Users can turn a spreadsheet into a small operational app, and agents can read and modify connected GitHub repositories for lightweight custom software tasks."}, {"title": "Mobile-native execution", "desc": "A native iOS app lets agents keep running in the background even when the phone is locked, so automations aren't tied to keeping a browser tab open."}], "pricing_plans": [{"name": "Free", "price": "$0/mo", "billing": "No card required", "features": ["Basic agent access", "Limited daily usage and storage", "No payment processing or email sending", "Sign-up welcome usage bonus"]}, {"name": "Personal", "price": "$20/mo", "billing": "Billed monthly; marked \"most popular\"", "features": ["Everything in Free, with higher usage caps", "Increased storage", "Web search and scheduled tasks", "Email sending enabled", "Pay-as-you-go overage option"]}, {"name": "Pro", "price": "$100/mo", "billing": "Billed monthly", "features": ["Everything in Personal", "Access to the higher-tier \"Ultra\" agent", "5x the usage allowance of Personal", "2x the storage of Personal", "Payment processing capability"]}, {"name": "Enterprise", "price": "Custom", "billing": "Contact sales", "features": ["Custom usage capacity", "Dedicated support", "Additional security and compliance options", "Implementation assistance"]}], "pros_expanded": ["The plain-English, no-code setup lowers the barrier for solo operators who aren't developers and don't want to write automation scripts.", "Integration coverage is unusually wide for a young company, spanning communication, payments, dev tools, and productivity apps out of the box.", "Browser-level automation lets agents handle tasks on sites that don't offer a clean API, which pure integration-based tools typically can't touch.", "A genuinely usable free tier means prospective users can validate real agent workflows before committing to a paid plan.", "Backing from investors including Pebblebed and Radical Ventures, plus a public $7M seed round, signals runway to keep iterating on the product."], "cons_expanded": ["The product has repositioned substantially since its 2025 launch (from a no-code app builder toward an 'AI coworker'), so third-party writeups and even some vendor materials may describe an earlier version of the tool.", "There is no independently verifiable star rating on a major review platform (G2, Capterra, TrustRadius) specifically for this AI-agent product as of this writing — a same-named but unrelated construction-bookkeeping company also called 'Adaptive' does have Capterra reviews, which is an easy mix-up.", "Usage-based pricing on the paid tiers means costs can be hard to predict for heavier automation workloads until you've run them.", "Giving an autonomous agent access to email, payments, and code repositories raises real oversight questions; the human-approval controls mitigate but don't eliminate that risk, especially for less technical users setting permissions for the first time."], "faq": [{"q": "How much does Adaptive cost?", "a": "There's a free plan with limited usage, a Personal plan at $20/month, and a Pro plan at $100/month with higher usage and storage limits; larger teams can get custom Enterprise pricing by contacting sales."}, {"q": "What tools does Adaptive integrate with?", "a": "It natively connects to more than 20 apps including Gmail, Slack, Google Sheets, GitHub, Stripe, Square, Notion, and Discord, and can also control web pages directly through browser automation for sites without an API."}, {"q": "Who is Adaptive built for?", "a": "It's aimed at solo founders, small business owners, and non-technical operators who want to automate day-to-day tasks like lead follow-up, research, and simple internal apps without hiring developers."}, {"q": "What's the biggest limitation to know about before signing up?", "a": "The product has changed positioning since its 2025 launch, so expect some rough edges and version drift in documentation, and there's no independently verified review-site rating yet for the AI-agent product specifically — do your own trial on the free tier before committing budget."}, {"q": "How does Adaptive compare to other AI agent or automation platforms?", "a": "Compared to workflow tools like Zapier or Make, Adaptive leans more on autonomous, plain-English-directed agents and browser control rather than pre-built trigger-action recipes; compared to general chat assistants, it persists and keeps working on scheduled or background tasks rather than only responding in a single session."}, {"q": "How do I get started with Adaptive?", "a": "Sign up for the free plan at adaptive.ai, connect the tools you want an agent to use (email, Slack, Stripe, etc.), and describe a task in plain English to see how the agent executes it before deciding whether to upgrade."}]}},
             {"name": "OLVA", "tagline": "Real-time meeting help without a bot in the room", "desc": "OLVA is a desktop and mobile app that listens in on live Zoom, Meet, or Teams calls, transcribing in real time and surfacing answers, fact-checks, and coaching prompts as the conversation happens — all without adding a visible bot to the meeting.", "pricing": "Free Basic plan covers 2 hours/month; Plus is $12.50/mo ($150/yr) for 15 hours with document and calendar features; Pro is $19.99/mo ($239.88/yr) for unlimited meeting time plus Slack, Drive, and Notion integrations; Teams/Enterprise pricing is custom.", "url": "https://olva.ai", "tags": ["Meeting AI", "Sales Enablement", "Live Transcription", "Real-Time Coaching"], "features": ["Real-time transcription across Zoom, Meet, Teams, Webex, and Slack Huddles", "Automatic question detection with instant, document-grounded answers", "Live AI coaching prompts during the call itself", "Bot-free desktop audio capture — no visible meeting participant"], "pros": ["No bot joins the call, sidestepping a common source of meeting-etiquette friction", "Delivers live, in-the-moment answers and coaching, not just an after-the-fact recap", "Generous free tier and sub-$20/month plans compared to enterprise call-intelligence tools"], "cons": ["Local desktop-audio capture means it can only assist on devices where it's installed and running, unlike cloud bots that join from anywhere", "Independent, high-volume user reviews are still scarce, so real-world reliability at scale is hard to verify"], "best_for": "Sales reps, customer success managers, and other professionals who need real-time answers and coaching during live calls rather than a summary afterward.", "deep": {"overview": "OLVA is a meeting-intelligence tool built around a simple pitch: help during the call, not just after it. Instead of the now-familiar bot that joins a Zoom or Google Meet as a visible participant to record and transcribe, OLVA installs as a desktop (and mobile) companion that captures audio directly from the device the user is on. Because it never appears in the participant list, it works across Zoom, Google Meet, Microsoft Teams, Webex, and Slack Huddles without needing host permission to add a bot, and it can even follow in-person conversations through a laptop or phone mic. From that audio stream it produces a live transcript, flags questions as they're asked, and pulls answers from any documents or context the user has connected, alongside prompts meant to nudge the speaker toward stronger framing in the moment.\n\nWhere OLVA differs from note-taking incumbents like Otter.ai and Fathom, and from enterprise revenue-intelligence platforms like Gong, is timing. Otter and Fathom are built primarily for capture-then-review: a bot joins, records, and hands back a transcript and summary once the call ends. Gong goes further into post-call analytics and deal intelligence but is squarely an after-the-fact, enterprise-priced tool. OLVA instead pushes transcription, coaching, and translation into the live moment, positioning itself less as a note-taker and more as a real-time copilot for people who need to think and respond well while still on the call — sales reps fielding objections, support agents answering technical questions, or anyone working across languages. The tradeoff is that it depends on the local device's audio setup rather than a cloud bot, and as a newer product it has a much thinner independent track record than its established competitors.", "who_for": "Best suited to individual sales professionals, customer success and support reps, and small teams who want live, in-call support — translation, answers, coaching — rather than a purely retrospective meeting recorder.", "features_detailed": [{"title": "Live Transcription", "desc": "Real-time speech-to-text covering 87 languages with automatic multilingual detection, so mixed-language meetings get transcribed without manual setup."}, {"title": "Question Detection & Instant Answers", "desc": "OLVA listens for questions as they're asked and answers using connected documents and prior meeting context, surfacing the response on-screen during the call."}, {"title": "Live AI Coach", "desc": "Provides in-the-moment prompts on framing, tone, or missed talking points while the conversation is still happening."}, {"title": "Live Translation", "desc": "Translates the transcript automatically or on demand, aimed at multilingual sales and customer conversations."}, {"title": "Bot-Free Capture", "desc": "Captures audio locally from the device rather than joining as a visible meeting participant, working across Zoom, Meet, Teams, Webex, Slack Huddles, and in-person talks."}, {"title": "Post-Meeting Intelligence", "desc": "After the call, generates summaries, action items, a searchable meeting archive, and can produce a slide-deck recap of the conversation."}], "pricing_plans": [{"name": "Basic", "price": "Free", "billing": "No paid tier required to start", "features": ["2 hours of meeting time per month", "Live transcription & real-time insights", "Automatic question detection", "AI coaching prompts", "Limited meeting history", "No document attachments or calendar integration"]}, {"name": "Plus", "price": "$12.50/mo", "billing": "Billed annually at $150/yr", "features": ["15 hours of meeting time per month", "Unlimited meeting history", "Document attachments for context-aware answers", "Calendar integration", "Live translation & multilingual support", "Post-meeting summaries and action items"]}, {"name": "Pro", "price": "$19.99/mo", "billing": "Billed annually at $239.88/yr", "features": ["Unlimited meeting time", "Slack, Google Drive, and Notion integrations", "Outbound webhooks for developers", "Slide-deck generation from meetings", "Everything in Plus"]}, {"name": "Teams / Enterprise", "price": "Custom", "billing": "Contact sales", "features": ["Volume/team-wide deployment", "Compliance reviews", "Dedicated support", "Custom contract terms"]}], "pros_expanded": ["Skips the bot-in-the-call model entirely, so it doesn't add a visible participant or trigger notifications some organizations restrict or ban outright.", "Delivers help while the meeting is still happening — live answers, coaching, and translation — rather than only a post-call summary.", "Free tier and sub-$20/month paid plans undercut enterprise conversation-intelligence tools like Gong on price.", "Covers a wide range of meeting surfaces (Zoom, Meet, Teams, Webex, Slack Huddles) plus in-person conversations through the same desktop app.", "87-language transcription and live translation are a genuine differentiator for teams doing multilingual sales or support calls."], "cons_expanded": ["Because capture happens locally on the user's device, it can't record or assist in meetings where the app isn't installed and running, unlike cloud-based bots that can be added to any invite.", "Public, high-volume review data is thin — app store and review-aggregator listings currently reflect only a handful of ratings, so broad claims about accuracy or reliability at scale aren't yet independently verifiable.", "Live in-meeting answers depend on the documents and context a user has connected beforehand; without that setup, the 'answers' feature has less to draw on.", "The bot-free design doesn't remove consent obligations — OLVA's own FAQ tells users to give notice and obtain whatever recording consent their meeting requires, so it doesn't sidestep two-party-consent laws."], "faq": [{"q": "How much does OLVA cost?", "a": "OLVA has a free Basic plan (2 hours/month), a Plus plan at $12.50/month ($150 billed annually) with 15 hours plus document and calendar features, a Pro plan at $19.99/month ($239.88 billed annually) with unlimited meeting time and Slack/Drive/Notion integrations, and custom Teams/Enterprise pricing."}, {"q": "Is it legal to use OLVA without telling other meeting participants?", "a": "OLVA doesn't add a visible bot to the call, but that doesn't remove consent requirements — its own FAQ instructs users to give clear notice and get whatever consent their jurisdiction or company policy requires before using it, since many regions mandate all-party consent to record."}, {"q": "Which meeting platforms does OLVA support?", "a": "It works across Zoom, Google Meet, Microsoft Teams, Slack Huddles, and Webex, plus in-person conversations, by capturing audio from the user's own device rather than joining as a participant."}, {"q": "Does OLVA store meeting audio or video?", "a": "According to OLVA's FAQ, it does not store meeting audio or video on its systems; audio is processed for transcription and AI features, and the resulting transcripts and data are handled under its privacy policy."}, {"q": "How is OLVA different from Otter.ai, Fathom, or Gong?", "a": "Otter and Fathom are primarily post-call note-takers that join as a bot and hand back a transcript and summary afterward. Gong is an enterprise revenue-intelligence platform focused on post-call deal analytics. OLVA's focus is the live moment itself — real-time transcription, question answering, coaching, and translation while the meeting is still happening, without a bot in the call."}, {"q": "How do I get started with OLVA?", "a": "Sign up at olva.ai and install the desktop or mobile app; the free Basic plan includes 2 hours of meeting time per month, enough to try live transcription and coaching before deciding whether to upgrade."}]}},
+                    {
+                "name": "Read AI",
+                "tagline": "AI meeting assistant that turns meetings, emails, and messages into searchable summaries",
+                "desc": "Read AI is an AI-powered meeting copilot that joins Zoom, Google Meet, and Microsoft Teams calls to auto-generate transcripts, summaries, and action items, then lets teams search across that history alongside connected email and chat tools.",
+                "pricing": "Free plan covers 5 meetings/month; Pro from $15/mo/user (annual); Enterprise from $22.50/mo/user (annual); Enterprise+ from $29.75/mo/user (annual, 5-seat minimum).",
+                "url": "https://www.read.ai",
+                "tags": [
+                    "Meeting Notetaker",
+                    "Productivity",
+                    "Automation",
+                    "Team Collaboration"
+                ],
+                "features": [
+                    "Auto-joins calls to transcribe and summarize meetings with action items",
+                    "Real-time sentiment, engagement, and talk-time analytics during calls",
+                    "\"Ask Read\" cited search across past meetings, emails, and messages",
+                    "Video/audio playback with highlight reels of key moments"
+                ],
+                "pros": [
+                    "Generous free tier (5 meetings/month) with no credit card required",
+                    "Works across all three major video platforms plus Slack, Gmail, and Outlook",
+                    "Live in-call coaching (talk time, sentiment) rather than only post-meeting summaries"
+                ],
+                "cons": [
+                    "Free plan caps at 5 meetings a month, which is thin for daily meeting schedules",
+                    "Video playback, highlight reels, and higher upload credits are locked behind the pricier Enterprise tiers"
+                ],
+                "best_for": "Teams and individuals who sit in back-to-back video calls and want automated notes, searchable meeting history, and in-call coaching without manually taking minutes.",
+                "deep": {
+                    "overview": "Read AI is a meeting-intelligence platform built around a bot that joins Google Meet, Zoom, and Microsoft Teams calls to record, transcribe, and summarize what happens automatically. Beyond the transcript, it produces structured meeting reports covering summaries, topics, and action items, and layers on real-time analytics during the call itself, tracking talk time, sentiment, and engagement so participants get feedback on how the meeting is going rather than only after it ends. The company describes itself as one of the fastest-growing AI meeting assistants, and it has expanded from a pure meeting notetaker into a broader workplace copilot.\n\nThe platform's core differentiator is that it doesn't stop at meetings: it also summarizes email inboxes (Gmail and Outlook) and Slack activity, and unifies all of it under a single \"Ask Read\" search interface that returns cited answers pointing back to the specific meeting, email, or message where something was discussed. Read also offers a personal AI agent called Ada, described as a digital twin that learns a user's patterns to help manage tasks and workflows via email. With native apps for Windows, macOS, iOS, and Android, a Chrome extension, an API, webhooks, and an MCP server for connecting to tools like Claude and ChatGPT, Read positions itself as platform-agnostic infrastructure for organizational knowledge rather than a single-purpose notetaking app.",
+                    "features_detailed": [
+                        {
+                            "title": "Automated meeting recording and transcription",
+                            "desc": "Read's assistant joins scheduled calls on Zoom, Google Meet, or Microsoft Teams, records the session, and produces a full transcript without manual setup."
+                        },
+                        {
+                            "title": "AI-generated meeting reports",
+                            "desc": "Each meeting produces a structured report with a summary, key topics, and a list of action items, reducing the need to write minutes by hand."
+                        },
+                        {
+                            "title": "Real-time in-call analytics",
+                            "desc": "During the meeting, Read surfaces live metrics on talk time, sentiment, and engagement so hosts can adjust pacing or participation on the spot."
+                        },
+                        {
+                            "title": "Speaker Coach",
+                            "desc": "A coaching feature that gives participants feedback on their speaking patterns, aimed at improving meeting communication over time."
+                        },
+                        {
+                            "title": "Playback and video highlights",
+                            "desc": "Users can replay key moments of a meeting with synced audio and video, including auto-generated highlight clips of notable topics or reactions (Enterprise tier and above)."
+                        },
+                        {
+                            "title": "Ask Read cross-source search",
+                            "desc": "A search assistant that answers questions across a user's meetings, emails, and messages, citing the exact source where the information appeared."
+                        },
+                        {
+                            "title": "Ada digital twin",
+                            "desc": "A personal AI agent that learns from a user's behavior over time and can handle task management and email-based workflow automation on their behalf."
+                        },
+                        {
+                            "title": "Broad integration ecosystem",
+                            "desc": "Native connections to Slack, Gmail, Outlook, Google Calendar, Salesforce, HubSpot, Notion, Asana, Jira, Confluence, Linear, Zapier, plus an API, webhooks, and an MCP server for AI tools like Claude and ChatGPT."
+                        }
+                    ],
+                    "pricing_plans": [
+                        {
+                            "name": "Free",
+                            "price": "$0/mo",
+                            "billing": "Always free, no credit card required",
+                            "features": [
+                                "Up to 5 meetings per month",
+                                "Transcripts and summaries",
+                                "Unlimited enterprise search",
+                                "Meeting coach",
+                                "Basic integrations",
+                                "20+ language support",
+                                "Desktop and mobile apps"
+                            ]
+                        },
+                        {
+                            "name": "Pro",
+                            "price": "$15/mo per user (annual) or $19.75/mo (monthly)",
+                            "billing": "Per user, billed annually or monthly",
+                            "features": [
+                                "Unlimited meetings",
+                                "Priority report processing",
+                                "Unlimited transcripts",
+                                "100 file upload credits/month",
+                                "Premium integrations (Notion, Salesforce, HubSpot, Jira, Confluence, Zapier, webhooks)",
+                                "Unlimited storage",
+                                "Workspace access"
+                            ]
+                        },
+                        {
+                            "name": "Enterprise",
+                            "price": "$22.50/mo per user (annual) or $29.75/mo (monthly)",
+                            "billing": "Per user, billed annually or monthly",
+                            "features": [
+                                "Everything in Pro",
+                                "Audio/video playback",
+                                "Video highlights",
+                                "200 file upload credits/month",
+                                "Dedicated support",
+                                "Unlimited storage and workspace access"
+                            ]
+                        },
+                        {
+                            "name": "Enterprise+",
+                            "price": "$29.75/mo per user (annual) or $39.75/mo (monthly)",
+                            "billing": "Per user, billed annually or monthly; 5-seat minimum",
+                            "features": [
+                                "Everything in Enterprise",
+                                "HIPAA compliance",
+                                "SAML & SCIM",
+                                "Domain capture",
+                                "Custom data retention",
+                                "300 file upload credits/month",
+                                "Workspace onboarding support"
+                            ]
+                        }
+                    ],
+                    "pros_expanded": [
+                        "The free tier is unusually functional for a meeting assistant, including transcripts, summaries, enterprise search, and a meeting coach with no payment details required, letting individuals evaluate the product fully before committing.",
+                        "Coverage of all three dominant video platforms (Zoom, Google Meet, Microsoft Teams) plus native desktop, mobile, and Chrome extension apps means teams aren't locked into one conferencing tool to use it.",
+                        "Real-time in-meeting analytics on talk time, sentiment, and engagement go beyond static post-call summaries, giving hosts a live signal they can act on during the conversation itself.",
+                        "Extending search and summarization to email and Slack, not just meetings, positions Read as a broader knowledge layer rather than a single-purpose transcription tool, which fits well in a productivity/automation stack.",
+                        "Enterprise-grade compliance (SOC 2 Type 2, GDPR, and HIPAA on higher tiers) plus SAML/SCIM support on Enterprise+ makes it viable for regulated or larger organizations, not just small teams.",
+                        "A published API, webhooks, and MCP server give technical teams a path to pipe meeting data into their own tools or AI assistants like Claude and ChatGPT."
+                    ],
+                    "cons_expanded": [
+                        "The free plan's 5-meetings-per-month cap is restrictive for anyone with a normal meeting-heavy schedule, pushing most regular users toward a paid tier fairly quickly.",
+                        "Video playback and highlight reels, arguably one of the more distinctive features, are withheld from the Free and Pro tiers and only unlock at Enterprise pricing.",
+                        "File upload credits are capped even on paid tiers (100/200/300 per month depending on plan), which could constrain teams that need to process a lot of external recordings.",
+                        "Enterprise+ requires a 5-seat minimum, so smaller teams that need HIPAA compliance or SAML/SCIM can't access those features without buying more licenses than they may need.",
+                        "Having an AI bot join and record every meeting raises privacy and consent considerations that some participants or organizations may be uncomfortable with, especially in client-facing or sensitive calls.",
+                        "As Read expands into email summarization and the Ada agent, its scope now overlaps with several categories at once, so teams that only want a lightweight meeting notetaker are paying for a wider platform than they may need."
+                    ],
+                    "who_for": "Read AI suits teams and professionals who spend significant time in video meetings across Zoom, Google Meet, or Teams and want automatic transcripts, summaries, and action items without assigning someone to take notes, plus the ability to later search across that meeting history. It's a particularly good fit for sales, customer success, and cross-functional teams that also want their meeting notes connected to CRM and project-management tools like Salesforce, HubSpot, Asana, or Jira. Organizations with compliance requirements (HIPAA, SAML/SCIM) can get there via the Enterprise+ tier, though only with a minimum 5 seats. Teams that hold very few meetings, are wary of an AI bot recording every call, or only need basic transcription without analytics, playback, or cross-app search may find lighter or cheaper single-purpose transcription tools a better match.",
+                    "faq": [
+                        {
+                            "q": "Is Read AI free to use?",
+                            "a": "Yes. Read AI offers a free plan that includes up to 5 meetings per month with transcripts, summaries, unlimited enterprise search, and a meeting coach, with no credit card required."
+                        },
+                        {
+                            "q": "Which video conferencing platforms does Read AI support?",
+                            "a": "Read AI works with Google Meet, Zoom, and Microsoft Teams, and it also offers desktop apps for Windows and macOS, mobile apps for iOS and Android, and a Chrome extension."
+                        },
+                        {
+                            "q": "How much does Read AI cost for paid plans?",
+                            "a": "Paid plans start at $15/month per user (billed annually) for Pro, $22.50/month per user for Enterprise, and $29.75/month per user for Enterprise+, which requires a minimum of 5 licenses; monthly billing is also available at higher rates."
+                        },
+                        {
+                            "q": "Does Read AI do more than transcribe meetings?",
+                            "a": "Yes. Beyond meeting transcripts and summaries, Read AI summarizes Gmail and Outlook inboxes, integrates with Slack, and offers an \"Ask Read\" search feature that returns cited answers across meetings, emails, and messages, plus a personal AI agent called Ada."
+                        },
+                        {
+                            "q": "Is Read AI compliant with data privacy regulations?",
+                            "a": "Read AI states it is SOC 2 Type 2 and GDPR compliant across its plans, with HIPAA compliance available specifically on the Enterprise+ tier."
+                        }
+                    ]
+                }
+            },
         ],
     },
     {
@@ -9843,6 +10763,134 @@ CATEGORIES = [
             {"name": "MedReceptionist", "tagline": "A flat-rate AI phone agent that answers, books, and reschedules patient calls around the clock", "desc": "MedReceptionist is an AI voice agent built for medical, dental, and wellness practices that answers incoming calls 24/7, books and reschedules appointments directly in the practice's EHR, and follows up by SMS.", "pricing": "Flat $349/month per practice (not per provider), discounted to $249/month when bundled with the vendor's MedSiteAI website product, with a 14-day free trial and no long-term contract.", "url": "https://medreceptionist.com", "tags": ["Healthcare", "AI Voice Agent", "Scheduling", "Virtual Receptionist"], "features": ["24/7 AI call answering in 145+ languages", "Direct appointment booking/rescheduling in the practice EHR", "Automated SMS follow-ups and missed-call rescue", "Emergency call triage with warm transfer to staff"], "pros": ["Flat per-practice pricing instead of per-provider or per-minute billing", "Broad list of native EHR/PMS integrations across several specialties", "HIPAA BAA and SOC 2 Type II claims baked into the standard plan"], "cons": ["No independently verifiable third-party reviews (G2/Capterra) exist yet for this specific product, so real-world reliability is hard to confirm from outside sources", "Single-tier pricing model offers little flexibility for very small solo practices or very high-volume multi-location groups without a custom quote"], "best_for": "Small-to-midsize medical, dental, chiropractic, PT, optometry, or med-spa practices that are missing calls or overloading front-desk staff and want after-hours/overflow coverage without hiring an answering service.", "deep": {"overview": "MedReceptionist sits in the fast-growing category of AI voice agents built specifically for outpatient healthcare front desks, competing with general virtual-receptionist tools and other healthcare-specific voice AI vendors. Rather than functioning as a generic call-answering bot, it's positioned around one core mechanic: writing directly into a practice's existing scheduling system so a booked or rescheduled appointment shows up on the real calendar, honoring provider templates, visit-type rules, and buffers, instead of just logging a message for a human to re-enter later. That integration depth — a long list of named EHR and practice-management systems across medical, dental, chiropractic, and wellness specialties, plus FHIR/HL7 fallbacks for anything not natively supported — is the product's clearest differentiator from lower-cost, generic AI answering services that mainly take messages.\n\nBusiness and compliance framing is central to how the product markets itself: it leads with a signed HIPAA Business Associate Agreement, AES-256 encryption, and a SOC 2 Type II claim, which matters because the whole use case involves an AI system handling protected health information over the phone. Pricing is also unusual for the category — a single flat monthly rate per practice regardless of provider count or call volume, undercutting the per-seat or per-minute pricing common among competitors. As a relatively young, narrowly-focused vendor, it doesn't yet have the kind of public review-site track record (G2, Capterra) that would let a buyer independently verify uptime, call-handling accuracy, or support quality; claims about response times and language coverage currently come only from the vendor's own site.", "who_for": "Independent or small-group outpatient practices (medical, dental, chiropractic, optometry, physical therapy, med-spa) that lose bookings to voicemail, can't staff after-hours or lunch-hour coverage, and want a receptionist replacement that writes into their existing EHR rather than a side system.", "features_detailed": [{"title": "24/7 call answering", "desc": "Answers inbound calls around the clock, including nights, weekends, and peak hours, aiming to eliminate voicemail overflow."}, {"title": "EHR-native scheduling", "desc": "Books, reschedules, and cancels appointments directly inside the practice's calendar system rather than a separate task list, respecting provider-specific templates and buffers."}, {"title": "Multi-language support", "desc": "Handles calls in 145+ languages with claimed automatic mid-call language switching, aimed at practices serving diverse patient populations."}, {"title": "SMS follow-up and missed-call rescue", "desc": "Sends confirmations, reminders, and intake links via text, and automatically texts back callers who couldn't be reached live."}, {"title": "Emergency triage and routing", "desc": "Applies practice-defined rules to detect urgent symptoms and warm-transfer calls to on-call staff or provide guidance protocols."}, {"title": "Call analytics dashboard", "desc": "Surfaces call volume, resolution rates, and booking outcomes so front-office staff can track what the AI is handling versus escalating."}], "pricing_plans": [{"name": "Standard", "price": "$349/mo", "billing": "Billed monthly per practice; annual billing offers a discount; 14-day free trial", "features": ["24/7 AI call answering", "Appointment booking, rescheduling, cancellation", "SMS confirmations and missed-call follow-up", "Custom greetings and staff escalation rules", "HIPAA BAA included"]}, {"name": "Bundled (with MedSiteAI website)", "price": "$249/mo", "billing": "Billed monthly, requires an active MedSiteAI website subscription", "features": ["All Standard plan features", "Discounted rate for bundling with the vendor's website product"]}, {"name": "Multi-location / high volume", "price": "Custom", "billing": "Custom quote on request", "features": ["Volume-based adjustments for large or multi-site groups", "Custom onboarding and integration support"]}], "pros_expanded": ["Flat per-practice pricing removes the incentive to under-staff or worry about per-minute overage that comes with usage-based competitors.", "The named integration list spans multiple specialties (medical, dental, chiropractic, wellness), which is broader than many single-specialty AI answering tools.", "Compliance messaging (BAA, encryption, SOC 2 Type II) is upfront and included by default rather than gated behind an enterprise tier.", "Purpose-built scheduling logic (respecting provider templates and buffers) reduces the double-booking risk that generic call bots often create.", "A 14-day trial and no long-term contract lower the risk of testing it against a practice's actual call volume before committing."], "cons_expanded": ["There is no independently verifiable G2 or Capterra listing for this specific product at the time of writing, so claims about call accuracy, latency, and customer satisfaction currently rest entirely on the vendor's own marketing.", "As a single flat-rate plan, very low-volume solo practices may end up paying for capacity they don't need, while very high-volume groups must negotiate custom pricing rather than see published tiers.", "Performance claims like '<2 second response time' and seamless 145-language switching are difficult to verify without hands-on testing or third-party benchmarks.", "Like any AI voice agent handling clinical calls, edge cases (ambiguous symptoms, unusual accents, rare specialty terminology) still carry real risk of mishandled routing, which is exactly the scenario the emergency-triage feature exists to catch but cannot fully eliminate."], "faq": [{"q": "How much does MedReceptionist cost?", "a": "It uses a single flat rate of $349/month per practice regardless of provider count or call volume, discounted to $249/month if bundled with the vendor's MedSiteAI website product. Multi-location or very high-volume practices can request custom pricing."}, {"q": "Is MedReceptionist HIPAA compliant?", "a": "The vendor states it includes a signed Business Associate Agreement (BAA) with every practice, AES-256 encryption at rest, TLS 1.3 in transit, and a SOC 2 Type II certification, though these are vendor claims not independently audited by ToolScout."}, {"q": "What EHR or practice-management systems does it integrate with?", "a": "The vendor lists native integrations across major medical EHRs (Epic, athenahealth, eClinicalWorks, DrChrono, and others), dental systems (Open Dental, Dentrix, Eaglesoft), chiropractic software (ChiroTouch, ChiroFusion), and wellness platforms (Mindbody, Jane App, WebPT), plus FHIR/HL7 fallbacks for unlisted systems."}, {"q": "What's the biggest limitation to know before buying?", "a": "There's currently no independent review-site track record (G2, Capterra) to verify real-world call accuracy or support quality, so practices should lean on the free trial to test it against their own call patterns before committing."}, {"q": "How does it compare to a traditional answering service or generic AI receptionist?", "a": "Its main differentiator is writing bookings directly into the practice's live EHR calendar rather than just taking a message, and doing so at a flat per-practice rate instead of per-minute or per-provider pricing common with traditional answering services."}, {"q": "How do I get started?", "a": "MedReceptionist offers a 14-day free trial with no long-term contract, and the vendor states most practices can be onboarded within about 24 hours."}]}},
             {"name": "Language I/O", "tagline": "Enterprise translation that routes every message to the right AI engine", "desc": "Language I/O plugs into Salesforce, Zendesk, ServiceNow and similar platforms to translate live chats, tickets, emails and knowledge articles in 150+ languages, aimed at enterprise support teams in regulated industries.", "pricing": "Pricing is entirely custom and quote-based, structured as volume bands (roughly Starter, Mid-Market and Enterprise usage tiers) rather than published per-seat or per-word rates.", "url": "https://languageio.com", "tags": ["Customer Support", "Machine Translation", "Enterprise", "Localization"], "features": ["Real-time translation for chat, email, tickets and voice", "Smart Model Selection routes text to the best engine per language pair", "Self-improving glossary learns brand and industry terminology", "Zero data retention with SOC 2, ISO 27001 and HIPAA compliance"], "pros": ["Deep native integrations with Salesforce, Zendesk, Oracle and ServiceNow", "Strong security/compliance posture for regulated industries", "Multi-engine routing plus human-in-the-loop review beats single-engine MT on nuance"], "cons": ["No public pricing — every deal requires a sales quote and volume negotiation", "Built specifically for support workflows, so it's overkill for general document or creative translation"], "best_for": "Enterprise customer support and CX teams in regulated or high-stakes industries who need agents to handle tickets, chat and email in dozens of languages without hiring multilingual staff.", "deep": {"overview": "Language I/O is not a translation engine in the way DeepL or Google Translate are — it's an orchestration layer that sits in front of several AI translation models and decides, message by message, which one to use. The company calls this Smart Model Selection: rather than betting on one engine for every language pair, it routes text to whichever model performs best for that specific language, context and support scenario, with automatic failover if a provider goes down. That positioning matters because it targets a different buyer than consumer MT tools do — large support organizations in travel, financial services, gaming, healthcare and manufacturing that need translation embedded directly inside Salesforce Service Cloud, Zendesk, Oracle Service Cloud or ServiceNow, not a standalone translate box.\n\nThe pitch to enterprises rests on two things generic MT tools don't emphasize: data handling and linguistic tuning for support conversations. Language I/O advertises a zero-data-retention policy across the models it routes to, plus certifications (SOC 2, ISO 27001, HIPAA, GDPR) aimed at buyers who can't send customer PII through an ungoverned translation API. On the linguistic side, it pre-processes agent messages to fix typos, slang and abbreviations before translation, and maintains a self-improving glossary so brand terms and industry jargon translate consistently rather than literally. Whether this consistently outperforms a well-configured DeepL or Microsoft Translator deployment is hard to verify independently — that claim comes largely from the vendor and its customers — but the architecture (multi-engine routing plus a support-specific glossary layer) is a genuine structural difference, not just marketing language.", "who_for": "Mid-market to large enterprises with multilingual customer bases — particularly in regulated or high-touch industries like financial services, healthcare, travel and gaming — that already run Salesforce, Zendesk, Oracle or ServiceNow and want translation embedded in agents' existing workflow rather than a separate tool.", "features_detailed": [{"title": "Smart Model Selection", "desc": "Automatically routes each translation request to whichever underlying AI engine performs best for that language pair and context, with failover if one provider is unavailable."}, {"title": "Channel coverage", "desc": "Translates live chat, support tickets, email, in-app messaging, knowledge base articles and browser content through one platform rather than separate point tools."}, {"title": "Self-improving glossary", "desc": "Builds and refines a client-specific terminology database over time so brand names, product terms and industry jargon are translated consistently instead of literally."}, {"title": "Toxicity Shield", "desc": "Flags or filters harmful or abusive language in translated conversations before it reaches agents or customers."}, {"title": "Native CRM/helpdesk integrations", "desc": "Embeds directly into Salesforce Service Cloud, Zendesk, Oracle Service Cloud, ServiceNow and Intercom, plus a Chrome extension and developer API for custom builds."}, {"title": "Zero data retention", "desc": "Customer conversation data is not stored or used for model training by the translation providers Language I/O routes through, which the company positions as important for regulated industries."}], "pricing_plans": [{"name": "Starter", "price": "Custom quote", "billing": "Volume-based, billed per translation credits", "features": ["Aimed at roughly 1M words/year", "Core chat, email and ticket translation", "Single CRM/helpdesk integration", "Standard glossary and security features"]}, {"name": "Mid-Market", "price": "Custom quote", "billing": "Volume-based, billed per translation credits", "features": ["Higher monthly translation volume", "Multiple channels (chat, email, tickets, knowledge base)", "Multiple CRM integrations", "Priority support"]}, {"name": "Enterprise", "price": "Custom quote", "billing": "Volume-based, negotiated contract", "features": ["Billions of words/year across many languages", "All channels including voice and SMS", "Full compliance package (HIPAA, PCI-DSS, etc.)", "Dedicated onboarding and account management"]}], "pros_expanded": ["Purpose-built integrations with Salesforce, Zendesk, Oracle Service Cloud and ServiceNow mean agents translate inside the tools they already use, rather than copy-pasting into a separate translator.", "Multi-engine routing with automatic failover reduces the risk of a single provider outage or a single model's blind spots degrading translation quality.", "The compliance and zero-data-retention story (SOC 2, ISO 27001, HIPAA, GDPR) is a real differentiator for regulated buyers who can't legally use consumer-grade MT tools for customer data.", "A support-specific glossary and jargon pre-processing step address a genuine weakness of general-purpose MT: literal translation of slang, typos and brand terminology.", "Reported deployment timelines of under a day for standard CRM integrations suggest reasonably low implementation friction for a platform of this scope."], "cons_expanded": ["Pricing is fully custom and not published anywhere, so buyers can't self-serve a cost estimate without engaging sales — a real friction point compared to DeepL or Microsoft Translator's transparent per-word or per-seat pricing.", "It's narrowly scoped to customer support and CX workflows; teams needing general document, legal, marketing or creative-content translation will still need a separate tool.", "Independent, apples-to-apples benchmarks of translation quality against DeepL or Microsoft Translator aren't publicly available — the accuracy and cost-savings claims largely come from the vendor and its own customers.", "As an orchestration layer over third-party models rather than an owned translation engine, ultimate output quality is still bounded by the underlying providers it routes to."], "faq": [{"q": "How much does Language I/O cost?", "a": "There's no published pricing. Language I/O sells custom, volume-based contracts organized into rough usage bands (small/starter, mid-market, and large enterprise), so getting an actual number requires a sales conversation."}, {"q": "How many languages does it support?", "a": "Language I/O advertises support for 150+ languages across its supported channels, though actual quality and available features can vary by language pair."}, {"q": "Which platforms does it integrate with?", "a": "It has native integrations with Salesforce Service Cloud, Zendesk, Oracle Service Cloud, ServiceNow, and Intercom, plus a Chrome extension and a developer API for custom integrations."}, {"q": "How is this different from just using DeepL, Google Translate or Microsoft Translator?", "a": "Those are single-engine translation APIs you'd have to wire into your own support stack yourself. Language I/O is a pre-built orchestration and integration layer that routes text across multiple AI engines, adds a support-specific glossary and jargon handling, and comes with enterprise compliance certifications and native CRM/helpdesk connectors out of the box."}, {"q": "What's the biggest limitation to know before buying?", "a": "It's built specifically for customer support translation, not general-purpose document or content translation, and pricing opacity means it's hard to comparison-shop against competitors without going through a sales cycle."}, {"q": "How do I get started?", "a": "Language I/O is sold through a sales-led process — you request a demo or quote on languageio.com, and the company scopes a plan based on your channels, languages, CRM/helpdesk stack and monthly volume."}]}},
             {"name": "XTOPIA", "tagline": "AI agents that answer customers, book appointments, and follow up — by voice or chat.", "desc": "XTOPIA builds retrieval-augmented AI agents that businesses deploy on WhatsApp, phone lines, and websites to handle customer service, scheduling, and lead follow-up, using a company's own data instead of generic chatbot scripts.", "pricing": "XTOPIA offers free trial credits for new accounts, a paid starter tier from roughly RM 500/month (about $110 USD) with pay-as-you-go credit top-ups, and custom-quoted enterprise plans for higher volume — most tier details beyond the entry price aren't published and require contacting sales.", "url": "https://www.xtopia.ai", "tags": ["AI agents", "Customer service", "Voice AI", "WhatsApp chatbot"], "features": ["Voice and text agents across WhatsApp, Messenger, Instagram, and phone calls", "Retrieval-augmented responses grounded in a business's own documents and data", "No-code deployment via embeddable widget or code snippet", "Human escalation and approval workflows for sensitive actions"], "pros": ["Answers are grounded in a business's own content, which should limit generic chatbot guessing", "Covers WhatsApp, voice, web, and social channels from one platform", "Built by an established 20+ year software company with named enterprise clients"], "cons": ["Full pricing isn't public — most plan tiers and costs require a sales conversation", "No independent review presence (G2, Capterra, Trustpilot) exists yet to verify real-world performance"], "best_for": "Small and mid-sized businesses in hospitality, healthcare, real estate, or education that want one AI agent to handle bookings and routine customer questions across WhatsApp and voice without building it in-house.", "deep": {"overview": "XTOPIA is an AI agent platform built by XIMNET, a Malaysia-based digital agency that has delivered enterprise web and workflow software since 2000. Rather than one single chatbot product, XTOPIA offers a set of configurable agents — a WhatsApp/Messenger/Instagram assistant, an inbound-and-outbound voice agent, and role-specific bots such as an HR assistant, a hospitality concierge, and a tutor — that businesses connect to their own documents, calendars, and CRM systems. The pitch is that these agents do more than chat: they can check availability, take bookings, qualify a lead, or answer a policy question by pulling from a company's actual content rather than improvising.\n\nUnder the hood, XTOPIA describes a retrieval-augmented generation (RAG) pipeline layered with guardrails for PII masking and toxicity filtering, plus an orchestration layer for multi-step tasks. In practice, output quality depends heavily on how well a business's source material is structured — XTOPIA's own documentation acknowledges this and offers setup guidance. The company lists real reference clients (a banking-education institute, a securities regulator, and a shopping-mall operator among them) and holds a Microsoft co-sell partnership, suggesting genuine enterprise traction. What's harder to verify independently is performance and total cost at scale: XTOPIA publishes only a starting price point and gates most plan details behind a sales call, and as of now there's no meaningful footprint on independent review sites to cross-check customer satisfaction against the marketing claims.", "who_for": "Operations and customer-experience teams at SMBs or mid-market companies — especially in hospitality, healthcare, real estate, education, or retail — that want a single AI agent covering WhatsApp, voice calls, and web chat without building one from scratch.", "features_detailed": [{"title": "Multi-channel messaging", "desc": "One agent configuration handles WhatsApp, Facebook Messenger, Instagram DMs, and embeddable web chat."}, {"title": "Voice agent", "desc": "Inbound and outbound phone call handling with CRM sync, used for booking confirmations, reminders, and lead calls."}, {"title": "Grounded RAG responses", "desc": "Answers are retrieved from a business's own uploaded documents and structured data rather than generated from general model knowledge alone."}, {"title": "Pre-built role agents", "desc": "Ready-made templates for HR support, hospitality concierge, and tutoring use cases that teams can customize."}, {"title": "Guardrails and escalation", "desc": "PII masking, toxicity filtering, and human hand-off points for actions that shouldn't be fully automated."}, {"title": "Third-party integrations", "desc": "Connectors for Google Workspace, Twilio, Shopify, Microsoft Teams, Zendesk, and Stripe, described as requiring minimal setup."}], "pricing_plans": [{"name": "Free Trial", "price": "Free", "billing": "Signup credits for evaluation", "features": ["Free starter credits to test an agent", "Limited usage for evaluation", "Access to the basic agent builder"]}, {"name": "Starter", "price": "From RM 500/mo (~$110 USD)", "billing": "Monthly, credit-based usage with top-ups available", "features": ["Deployable AI agent on a chosen channel", "Pay-as-you-go credit top-ups for extra volume", "Standard integrations"]}, {"name": "Enterprise / Custom", "price": "Custom", "billing": "Sales-negotiated, typically annual", "features": ["Deeper CRM and workflow integrations", "Higher message/call volume", "Dedicated support and onboarding"]}], "pros_expanded": ["Responses are grounded in a company's own content and workflows via RAG, which should reduce the generic, hallucinated answers common in off-the-shelf chatbots.", "One platform spans the channels most SMBs actually need — WhatsApp, Instagram, Messenger, phone, and web — instead of requiring separate tools per channel.", "The parent company, XIMNET, has two decades of enterprise software delivery and named institutional clients, a stronger track record than many AI-agent startups can show.", "No-code setup via an embeddable widget or snippet means non-technical teams can plausibly launch a basic agent without engineering help.", "Guardrail features like PII masking, toxicity filtering, and human escalation points suggest some real attention to safe deployment rather than fully unsupervised automation."], "cons_expanded": ["Public pricing stops at a starting figure and free trial credits — most tier costs, credit pricing, and enterprise rates require a sales conversation, making it hard to budget upfront.", "There is no independent review footprint on sites like G2, Capterra, or Trustpilot, so claims about response quality and customer satisfaction can't be cross-checked against real user feedback.", "Marketing copy leans on unexplained technical branding (\"Grounded RAG 2.0,\" \"ReAct loops\") without published benchmarks, making it hard to judge performance against competitors.", "Case studies and market presence are concentrated in Malaysia/Southeast Asia, so support quality and language coverage for other regions are unproven."], "faq": [{"q": "Is XTOPIA free to use?", "a": "New accounts get free trial credits, but ongoing use requires a paid plan starting around RM 500/month, with additional credit top-ups or a custom enterprise contract for higher volume."}, {"q": "What channels does XTOPIA support?", "a": "WhatsApp, Facebook Messenger, Instagram, phone/voice calls, and embeddable web chat, all managed from one agent configuration."}, {"q": "Does XTOPIA require coding to set up?", "a": "XTOPIA markets a no-code deployment path — add a snippet or connect a channel, then feed the agent your own documents and data — though deeper CRM or workflow integrations may need technical involvement."}, {"q": "Who makes XTOPIA?", "a": "XTOPIA is built by XIMNET, a Malaysia-based digital agency operating since 2000, and XTOPIA is also a Microsoft co-sell partner."}, {"q": "How does XTOPIA avoid hallucinated answers?", "a": "It uses a retrieval-augmented generation (RAG) approach that grounds responses in a business's own uploaded content and structured data rather than relying purely on the underlying model's general knowledge."}, {"q": "Are there independent reviews of XTOPIA?", "a": "As of now, XTOPIA has no meaningful public review presence on major software review sites, so buyers should rely on a live demo and reference calls rather than aggregate star ratings."}]}},
+                    {
+                "name": "Lacy.ai",
+                "tagline": "AI phone agents that answer, qualify, book, and follow up for service businesses",
+                "desc": "Lacy.ai is an AI phone agent platform that automates inbound and outbound calls for home service and B2B service companies, turning every call into a structured, CRM-connected business action rather than just a resolved conversation.",
+                "pricing": "Plans start from $499/mo, covering deployment, workflow setup, optimization credits, and CRM integrations. Full tier breakdown and per-minute/usage details are not published; you need to contact sales or book a demo for a quote.",
+                "url": "https://www.lacy.ai/",
+                "tags": [
+                    "AI Phone Agent",
+                    "Call Automation",
+                    "Customer Support"
+                ],
+                "features": [
+                    "24/7 inbound and after-hours AI call answering with lead qualification",
+                    "Automated appointment booking and service-area-aware scheduling",
+                    "Real-time CRM sync plus 250+ integrations with calendars, help desks, and workflow tools",
+                    "Visual flow builder for no-code conversation and workflow design, with call transcripts and analytics"
+                ],
+                "pros": [
+                    "Purpose-built for home service and B2B call intake, not a generic chatbot",
+                    "Deep workflow automation: calls trigger CRM updates, ticketing, and follow-up sequences automatically",
+                    "SOC 2 and GDPR-oriented security posture with audit logs and access controls"
+                ],
+                "cons": [
+                    "Public pricing is limited to a starting figure ($499/mo); exact plan tiers aren't published",
+                    "Positioning and feature depth are narrowly optimized for phone-based service businesses, less suited to omnichannel or SaaS support teams"
+                ],
+                "best_for": "Home service and B2B service companies (HVAC, plumbing, roofing, electrical, pest control) that need AI phone agents to answer calls, qualify leads, book appointments, and keep CRM records updated without expanding a call center.",
+                "deep": {
+                    "overview": "Lacy.ai is an AI phone agent platform focused on service businesses whose day-to-day operations depend on the telephone: roofers, HVAC and plumbing companies, electricians, pest control operators, landscapers, garage door installers, and similar field-service or B2B service outfits. Rather than framing itself as a generic conversational AI or chatbot builder, Lacy.ai positions calls as the starting point of an operational workflow — an AI agent answers the phone, understands the caller's intent using account and CRM context, qualifies the lead or support issue, books an appointment or routes the call, updates connected systems, and triggers follow-up actions such as SMS or email confirmations. The company describes this end-to-end approach as the 'Conversation Operations Layer,' explicitly distinguishing itself from tools that simply transcribe or resolve a conversation and stop there.\n\nThe product is founder-led, built by Vas Edelen around the idea that phone calls are 'the most important workflow in home services being handled by the most fragile system' — meaning missed or poorly handled calls translate directly into missed jobs and revenue. Its core differentiator versus adjacent categories (voice AI infrastructure like Vapi or Retell, or omnichannel support platforms like Intercom) is the combination of call handling with structured data capture and workflow automation: every call is meant to produce a CRM update, a booked appointment, a routed ticket, or a triggered follow-up, not just a transcript. Lacy.ai supports both inbound (answering, after-hours, overflow) and outbound (follow-up campaigns, lead nurture) calling, with a no-code flow builder for designing conversation paths and business logic.",
+                    "features_detailed": [
+                        {
+                            "title": "Inbound & After-Hours Call Answering",
+                            "desc": "AI agents answer business-hours, after-hours, weekend, and overflow calls so no inbound inquiry goes to voicemail or a hold queue."
+                        },
+                        {
+                            "title": "Lead Qualification & Intake",
+                            "desc": "Agents ask configurable qualification questions, capture caller identity, service address, and issue details, and classify urgency or category before handoff."
+                        },
+                        {
+                            "title": "Appointment Booking",
+                            "desc": "Qualified callers can be booked directly into a calendar with service-area and scheduling logic, moving a conversation straight into a confirmed appointment."
+                        },
+                        {
+                            "title": "Outbound Call Campaigns",
+                            "desc": "The platform can run outbound calling for follow-ups, reminders, and lead nurture sequences in addition to handling inbound traffic."
+                        },
+                        {
+                            "title": "Flow Builder & Workflow Automation",
+                            "desc": "A visual, no-code flow builder lets teams design conversation paths and connect call outcomes to downstream actions like SMS, email, or internal alerts."
+                        },
+                        {
+                            "title": "CRM Sync & 250+ Integrations",
+                            "desc": "Call outcomes and structured 'call variables' sync in real time to CRMs, calendars, help desks, and other business tools via a library of 250+ integrations plus APIs and webhooks."
+                        },
+                        {
+                            "title": "Call Analytics & Transcripts",
+                            "desc": "Dashboards track call volume, booking rates, and qualification outcomes, alongside full call recordings and transcripts with extracted customer context."
+                        },
+                        {
+                            "title": "Multilingual Support & Security",
+                            "desc": "Agents can operate in multiple languages, and the platform emphasizes SOC 2- and GDPR-oriented security controls including encryption, access controls, and audit logs."
+                        }
+                    ],
+                    "pricing_plans": [
+                        {
+                            "name": "Standard plans",
+                            "price": "From $499/mo",
+                            "billing": "Exact tier names, seat/usage limits, and higher-tier pricing are not publicly listed; the pricing page states plans start from $499/month and vary by deployment options, workflow setup, optimization credits, and CRM integrations.",
+                            "features": [
+                                "AI phone agent deployment",
+                                "Workflow setup and configuration",
+                                "Optimization credits",
+                                "CRM integration(s) included"
+                            ]
+                        },
+                        {
+                            "name": "Enterprise / Custom",
+                            "price": "Custom pricing",
+                            "billing": "Contact sales or book a demo for a quote; positioned around custom deployments, AI workflows as a service, and call center-scale solutions.",
+                            "features": [
+                                "Custom deployment and configuration",
+                                "SOC 2 & GDPR compliance options",
+                                "Call center-scale solutions",
+                                "Dedicated implementation support"
+                            ]
+                        }
+                    ],
+                    "pros_expanded": [
+                        "Lacy.ai is built specifically around the phone call as an operational event, so features like appointment booking, service-area logic, and CRM record creation are native to the product rather than bolted on, which fits home service and field-service businesses better than general-purpose voice AI toolkits.",
+                        "The platform frames itself as an implementation partner rather than pure self-serve software — its own marketing describes hands-on configuration and workflow setup, which can shorten time-to-value for non-technical service business owners who don't want to build voice flows from scratch.",
+                        "Its workflow automation layer (flow builder, call variables, 250+ integrations, APIs/webhooks) means a single call can simultaneously update a CRM, notify a team, and trigger a follow-up sequence, reducing manual data entry after every customer conversation.",
+                        "Coverage of both inbound and outbound calling in one platform lets teams use the same system for answering calls and running proactive follow-up or lead-nurture campaigns.",
+                        "Security messaging around SOC 2 and GDPR compliance, encryption, access controls, and audit logs signals enterprise-readiness for businesses handling sensitive customer and account data over the phone.",
+                        "Dedicated comparison pages against Vapi, Retell, Bland, Synthflow, Five9, Dialpad, Twilio, and Intercom show a clear articulation of where Lacy.ai differs from raw voice-AI infrastructure versus full contact-center or helpdesk platforms."
+                    ],
+                    "cons_expanded": [
+                        "Detailed pricing tiers, per-minute or per-call costs, and what exactly separates plan levels are not published on the site — buyers only see a starting figure ($499/mo) and must talk to sales to get a real quote.",
+                        "The product is explicitly optimized for home service and B2B field-service companies; teams outside that niche (SaaS, ecommerce, general omnichannel support) are directed by Lacy.ai's own comparison content toward platforms like Intercom instead.",
+                        "Because it's phone-first, it does not appear to natively cover chat, email, or messaging channels the way an omnichannel support platform does — teams needing a unified inbox across channels would need to pair it with another tool.",
+                        "The official site doesn't name specific integration partners (e.g., which CRMs by name) outside general categories, so prospective buyers need to check the separate integration library to confirm support for their specific stack.",
+                        "As a comparatively newer, founder-led company, Lacy.ai's track record, uptime history, and scale of deployment are less established than larger incumbents like Twilio, Five9, or Dialpad that it positions itself against.",
+                        "Security and compliance claims (SOC 2, GDPR) are described in marketing copy without linking to a public trust center, audit report, or certificate on the pages reviewed, so compliance-sensitive buyers should verify documentation directly with sales."
+                    ],
+                    "who_for": "Lacy.ai is best suited to home service and B2B service businesses — HVAC, plumbing, roofing, electrical, pest control, landscaping, garage door, and similar field-service companies — that rely heavily on inbound phone calls for bookings and support and want those calls automatically converted into CRM updates, scheduled appointments, and routed tickets without hiring more call center staff. It's a good fit for operations-minded teams that value workflow automation (CRM sync, follow-up triggers, structured call data) as much as the AI conversation itself. It's a weaker fit for SaaS, ecommerce, or other businesses that need omnichannel support (chat, email, messaging) in one inbox, or for teams that want fully transparent self-serve pricing without a sales conversation, since Lacy.ai's detailed plan pricing isn't public and the buying process leans on demos and implementation support.",
+                    "faq": [
+                        {
+                            "q": "What is Lacy.ai used for?",
+                            "a": "Lacy.ai is an AI phone agent platform that answers inbound and after-hours calls, qualifies leads, books appointments, routes urgent requests, updates CRM systems, and runs outbound follow-up calls for home service and B2B service businesses."
+                        },
+                        {
+                            "q": "How much does Lacy.ai cost?",
+                            "a": "Lacy.ai's pricing page states plans start from $499/month, covering deployment, workflow setup, optimization credits, and CRM integrations. Full tier details and enterprise pricing aren't publicly listed, so you need to contact sales or book a demo for an exact quote."
+                        },
+                        {
+                            "q": "Is Lacy.ai only for home service companies?",
+                            "a": "Home service industries (HVAC, plumbing, roofing, electrical, pest control, landscaping, garage doors) are Lacy.ai's core focus, but it also serves other B2B service businesses that rely on phone-based lead intake and customer support."
+                        },
+                        {
+                            "q": "Does Lacy.ai integrate with CRM systems?",
+                            "a": "Yes. Lacy.ai advertises real-time CRM sync and a library of 250+ integrations spanning CRMs, calendars, help desks, and workflow tools, plus APIs and webhooks for custom connections."
+                        },
+                        {
+                            "q": "How is Lacy.ai different from tools like Intercom or Vapi?",
+                            "a": "Lacy.ai positions itself as focused on phone-based operational workflows for service businesses — turning calls into booked appointments and CRM updates — whereas Intercom is an omnichannel support/helpdesk platform and Vapi is lower-level voice AI infrastructure without Lacy.ai's built-in scheduling, CRM sync, and service-business workflow tooling."
+                        }
+                    ]
+                }
+            },
         ],
     },
     {
@@ -10646,6 +11694,281 @@ CATEGORIES = [
     ]
  }},
             {"name": "Metaview", "tagline": "AI agents that source, screen, and take interview notes alongside your ATS", "desc": "Metaview is an agentic AI layer for recruiting teams that automates candidate sourcing, application screening, and live interview note-taking, then rolls the results into hiring reports and analytics.", "pricing": "Sourcing is self-serve (Free up to 100 profiles, Pro at $100/month/user for 200 profiles, Max at $300/month/user for unlimited), while the full Agentic Recruiting Platform (application review, interview notes, and reporting) is custom-priced and sold through a sales consultation.", "url": "https://www.metaview.ai/", "tags": ["Recruiting", "AI Agents", "Interview Intelligence", "Talent Acquisition"], "features": ["Autonomous candidate sourcing and outreach agent", "AI application screening with ranked, explained matches", "Automated interview note-taking across major video tools", "Recruiting analytics and trend reports for hiring teams"], "pros": ["Covers multiple stages of the hiring funnel instead of just one point tool", "Broad integration footprint across ATS, video, calendar, and SSO systems", "Strong independent review sentiment on G2 (4.8/5)"], "cons": ["Full platform pricing is not public and requires a sales conversation, unlike the self-serve sourcing tier", "Interview note-taking depends on joining and recording live calls, which adds a consent and data-handling step for teams to manage"], "best_for": "Recruiting and talent acquisition teams that already run an ATS and want an AI layer to handle sourcing, screening, and interview documentation without replacing that ATS.", "deep": {"overview": "Metaview positions itself not as a replacement for an applicant tracking system but as an AI-driven operating layer that sits on top of one. Where a traditional ATS is a system of record for tracking candidates through stages, Metaview focuses on the labor-intensive work around those stages: finding candidates, reading through applications, and capturing what actually happened in an interview. It packages this as a set of task-specific agents rather than one monolithic AI feature, which is a meaningful difference from single-purpose tools like interview-notetaking apps or sourcing-only platforms.\n\nIn the broader recruiting-tech landscape, Metaview competes at the intersection of interview intelligence tools (which mainly focus on call recording and note synthesis) and AI sourcing platforms (which focus on outbound candidate discovery). By bundling sourcing, application review, interview notes, and reporting under one roof, it's making a bet that recruiting teams would rather consolidate several narrow AI tools into one connected workflow than stitch together separate point solutions. Whether that consolidation is worth it depends heavily on how many of those four functions a given team actually needs automated, since some organizations may only want the interview-notes piece and find the rest redundant with existing tools.", "who_for": "Corporate talent acquisition teams, recruiting agencies, and executive search firms that run a high volume of candidate outreach and interviews and want AI assistance layered onto an existing ATS rather than a new system of record.", "features_detailed": [{"title": "Sourcing agent", "desc": "An autonomous agent identifies candidates matching a role's requirements and sends outreach messages, aiming to reduce manual searching on platforms like LinkedIn."}, {"title": "Application review", "desc": "AI screens incoming applications against role criteria and surfaces a ranked shortlist with stated reasoning for each match."}, {"title": "Interview notes", "desc": "The system joins scheduled video calls (Zoom, Google Meet, Teams, Webex), records them, and generates structured notes and summaries shortly after the call ends."}, {"title": "Recruiting reports", "desc": "An analytics layer aggregates data across searches and interviews to surface trends such as compensation expectations and candidate signals over time."}, {"title": "Fillmore (autonomous scheduling agent)", "desc": "A newer agent that finds candidates, reaches out, and schedules screening calls with less manual recruiter involvement."}, {"title": "Human-in-the-loop controls", "desc": "Metaview markets 'AI orchestration with human guardrails,' including audit trails intended to keep recruiters and hiring managers able to review and override agent actions."}], "pricing_plans": [{"name": "Sourcing – Free", "price": "$0/mo", "billing": "Per user", "features": ["First 100 sourced profiles free", "Unlimited concurrent searches", "Good for evaluating the sourcing agent"]}, {"name": "Sourcing – Pro", "price": "$100/mo", "billing": "Per user, self-serve", "features": ["200 sourced profiles per month", "Unlimited concurrent searches"]}, {"name": "Sourcing – Max", "price": "$300/mo", "billing": "Per user, self-serve", "features": ["Unlimited sourced profiles", "Unlimited concurrent searches"]}, {"name": "Agentic Recruiting Platform", "price": "Custom", "billing": "Annual contract via sales, team/enterprise scale", "features": ["All agents: sourcing, application review, interview notes, reporting", "Dedicated onboarding and support", "SOC 2 Type II, GDPR, CCPA, LGPD, PIPEDA compliance features", "Volume and usage tailored to the organization"]}], "pros_expanded": ["The four-agent structure means teams can potentially reduce reliance on several separate point tools for sourcing, screening, and note-taking.", "Integration coverage is genuinely broad, spanning over 100 ATS platforms plus the major video, calendar, and SSO providers, which lowers switching friction for teams with an established stack.", "Independent reviewers on G2 rate the product highly (4.8 out of 5 across 132 reviews as of this writing), which is a meaningful signal given the review count.", "The self-serve entry point for sourcing lets a team trial part of the product without going through a sales cycle first.", "Explicit compliance certifications (SOC 2 Type II, GDPR, etc.) are listed up front, which matters for enterprise buyers with procurement requirements."], "cons_expanded": ["Pricing for the core platform (application review, notes, reports) is not published, so buyers can't compare total cost without engaging sales, unlike the transparent sourcing-only tier.", "Because interview notes require the AI to join and record live calls, teams need their own process for candidate notification and consent, and recording policies vary by jurisdiction.", "The product's value is strongest for teams that want multiple hiring-funnel stages automated together; a team that only needs one function (e.g., just interview notes) may be paying for scope it won't use.", "As with most AI screening and note tools, output quality on application review and note accuracy will vary by role complexity and interview format, and should be spot-checked rather than trusted blindly for high-stakes decisions."], "faq": [{"q": "How much does Metaview cost?", "a": "The sourcing agent has published self-serve pricing (Free, $100/month, or $300/month per user depending on volume), but the full Agentic Recruiting Platform covering application review, interview notes, and reporting is custom-priced and quoted through a sales conversation."}, {"q": "Does Metaview replace our ATS?", "a": "No. Metaview is designed to work alongside an existing applicant tracking system rather than replace it, integrating with platforms like Greenhouse, Lever, Workday, and Ashby among more than 100 supported ATS tools."}, {"q": "How does Metaview handle candidate consent and data privacy for recorded interviews?", "a": "Metaview joins and records video calls to generate interview notes, so teams are responsible for their own candidate notification and consent process; the company states it holds SOC 2 Type II, GDPR, CCPA, LGPD, and PIPEDA compliance, but consent requirements still vary by region and should be confirmed with Metaview's security documentation before rollout."}, {"q": "What's the biggest limitation to know about before buying?", "a": "The core platform's pricing isn't public, and the product bundles four distinct functions (sourcing, screening, notes, reporting) together, so teams that only need one of those functions may end up evaluating more scope, and cost, than they actually require."}, {"q": "How does Metaview compare to other interview intelligence or AI sourcing tools?", "a": "Most competitors specialize in one function, such as interview-note capture or outbound sourcing alone; Metaview's differentiation is combining sourcing, screening, notes, and reporting into one connected agentic workflow, which suits teams consolidating tools but may be more than a team needing a single point solution wants."}, {"q": "How do teams typically get started with Metaview?", "a": "Teams can try the sourcing agent on the free tier without sales involvement, but adopting the full platform (application review, interview notes, reporting) requires a sales consultation to scope pricing and rollout."}]}},
+                    {
+                "name": "Qualifier.ai",
+                "tagline": "B2B lead generation that runs itself",
+                "desc": "Qualifier.ai is an AI sales assistant (called Qai) that automates B2B outbound prospecting end-to-end, finding and verifying leads, personalizing multi-channel outreach, and booking meetings for sales teams.",
+                "pricing": "Custom volume-based pricing from roughly €339/mo (billed annually, monthly billing available at a higher rate); no public tiered plans and no free plan, but demos are free and require no credit card.",
+                "url": "https://qualifier.ai/",
+                "tags": [
+                    "Lead Generation",
+                    "Sales Automation",
+                    "B2B Outreach"
+                ],
+                "features": [
+                    "AI-driven prospect discovery with multi-source email verification",
+                    "Multi-channel sequences across email, phone, and LinkedIn",
+                    "Automated reply triage that pauses sequences on engagement",
+                    "Native CRM integrations including Salesforce, HubSpot, and Pipedrive"
+                ],
+                "pros": [
+                    "Handles the full outbound funnel from list-building to meeting booking, not just email sending",
+                    "Strong emphasis on deliverability with bounce monitoring and timezone-aware pacing",
+                    "Broad CRM and inbox integration coverage, including Nordic-market tools like Upsales and Lime Go"
+                ],
+                "cons": [
+                    "No self-serve or published tiered pricing, so buyers must go through a sales demo to get a quote",
+                    "No free trial, only a demo call, which adds friction for smaller teams wanting to test it first"
+                ],
+                "best_for": "Growing B2B sales teams that want to outsource the manual work of prospecting, list-building, and follow-up cadences to an AI system rather than running outbound manually or stitching together separate tools.",
+                "deep": {
+                    "overview": "Qualifier.ai is a B2B sales automation platform built around an AI agent called Qai, which is designed to run the outbound sales process from start to finish rather than just assist with one piece of it. Instead of handing a sales rep a list of leads to research and email manually, the platform searches multiple data sources to find decision-makers matching a target profile, verifies their email addresses through several providers, researches each prospect's role and company context, and then generates personalized outreach messages across email, phone, and LinkedIn. Replies are automatically read and categorized, and sequences pause the moment a prospect engages, so reps step in only when there's a real conversation to have.\n\nThe platform positions itself less as a cold-email tool and more as a full outbound operating system: it bundles list-building, deliverability management, multi-channel sequencing, CRM syncing, and analytics into one product rather than requiring teams to combine a data provider, a sequencer, and a CRM enrichment tool separately. Its core differentiator is that pricing and feature access aren't metered by individual actions or credits; a customer buys a monthly volume of new prospects and everything Qai does with those prospects (research, outreach, follow-ups, reply handling) is included, which the company positions as simpler and more predictable than usage-based cold-outreach tools. The company also emphasizes deliverability protection and GDPR-compliant, EU-based data storage, along with support based in the Nordics, suggesting Nordic/European roots and a customer base that skews toward European B2B sales teams alongside broader international use.",
+                    "features_detailed": [
+                        {
+                            "title": "AI Prospect Discovery",
+                            "desc": "Qai searches professional networks, web sources, and public business data to find decision-makers matching criteria like job title, industry, and geography, then verifies each email address through multiple providers before outreach begins."
+                        },
+                        {
+                            "title": "AI Research & Personalization",
+                            "desc": "Before composing a message, the platform researches each prospect's role, company background, and recent activity so outreach is individualized rather than templated."
+                        },
+                        {
+                            "title": "Multi-Channel Sequencing",
+                            "desc": "Outreach combines email, phone, and LinkedIn in a single automated workflow, with sends scheduled to respect each recipient's timezone and business hours."
+                        },
+                        {
+                            "title": "Team Action Prompts",
+                            "desc": "Phone calls and LinkedIn connection steps surface as prompts for human reps, complete with verified contact info and context, and the platform uses points, streaks, and leaderboards to encourage teams to complete them."
+                        },
+                        {
+                            "title": "Automated Reply Triage",
+                            "desc": "Incoming responses are automatically classified as interested, out-of-office, referral, rejection, or maybe-later, and sequences pause automatically once a prospect engages."
+                        },
+                        {
+                            "title": "Deliverability Protection",
+                            "desc": "Daily sending limits, bounce-rate monitoring, pre-send spam scoring, and timezone-based pacing are built in to protect sender reputation; the company reports a 98% delivery rate."
+                        },
+                        {
+                            "title": "CRM & Inbox Integrations",
+                            "desc": "Native connections to Gmail, Outlook, Salesforce, HubSpot, Pipedrive, Microsoft Dynamics 365, Upsales, and Lime Go keep prospect and activity data synced with existing sales systems."
+                        },
+                        {
+                            "title": "Analytics Dashboard",
+                            "desc": "A reporting dashboard tracks response rates, interested rates, meetings booked, and sequence-level performance, with team-wide visibility and data export."
+                        }
+                    ],
+                    "pricing_plans": [
+                        {
+                            "name": "Custom (Volume-Based)",
+                            "price": "From €339/mo",
+                            "billing": "Billed annually; monthly billing available at a slightly higher rate; no setup fees",
+                            "features": [
+                                "Full Qai AI sales assistant included, no feature gating between customers",
+                                "Monthly volume of new prospects agreed per contract",
+                                "Email verification and deduplication",
+                                "Deliverability protection with smart sending pacing",
+                                "Smart follow-ups that automatically stop on reply",
+                                "Reply detection and categorization",
+                                "All inbox and CRM integrations included",
+                                "GDPR compliance with EU-based data storage",
+                                "Nordic-based customer support",
+                                "Volumes adjustable up or down at contract renewal"
+                            ]
+                        }
+                    ],
+                    "pros_expanded": [
+                        "Covers the entire outbound motion in one platform, from finding and verifying prospects through to booking meetings, which can reduce the number of separate point tools (data provider, sequencer, enrichment) a sales team needs to stitch together.",
+                        "The flat, volume-based pricing model (a set number of prospects per month with everything included) is easier to forecast than tools that charge separately for data credits, verification, and sending, since nothing is metered per action.",
+                        "Deliverability is treated as a first-class concern rather than an afterthought, with bounce monitoring, spam scoring, and timezone-aware sending pace built into every plan, and a claimed 98% delivery rate.",
+                        "Multi-channel coverage extends beyond email to phone and LinkedIn, with those steps surfaced as guided prompts for reps rather than fully automated, which keeps a human in the loop for higher-touch channels.",
+                        "CRM and inbox integration coverage is broad, including mainstream tools like Salesforce, HubSpot, and Pipedrive as well as Nordic-market systems like Upsales and Lime Go, making it a reasonable fit for European sales teams specifically.",
+                        "Automated reply categorization and auto-pausing on engagement reduces the risk of double-messaging a prospect who has already responded, a common annoyance with less sophisticated sequencing tools."
+                    ],
+                    "cons_expanded": [
+                        "There is no published self-serve pricing table; every quote requires booking a demo, which adds a sales cycle before a team can even see exact costs, unlike many competing tools with transparent per-seat pricing.",
+                        "There's no standard free trial, only a sales demo, so smaller teams or solo founders can't test the product hands-on before committing to a contract.",
+                        "Because pricing is based on a committed monthly prospect volume, it may be a less natural fit for teams with highly variable or seasonal outbound volume than a pay-as-you-go tool.",
+                        "Phone and LinkedIn steps are described as team prompts rather than fully automated actions, meaning reps still need to manually execute calls and LinkedIn touches, so the multi-channel promise is partly guided manual work rather than full automation.",
+                        "The performance statistics quoted on the site (response rates, interested rates, deliverability) are aggregate figures self-reported by the company rather than independently audited, so individual results will vary by industry and list quality.",
+                        "The strong emphasis on Nordic support and EU data residency is a plus for European buyers but may mean less familiarity with, or slower support coverage for, teams based in other regions and time zones."
+                    ],
+                    "who_for": "Qualifier.ai is best suited to growing B2B sales organizations, particularly in Europe and the Nordics, that run structured outbound prospecting and want a single platform to handle list-building, email verification, personalized multi-channel sequencing, and reply management without hiring a dedicated SDR team to do it manually. It's a good fit for teams that value predictable, all-inclusive pricing over granular usage-based billing and that are comfortable committing to a demo-and-quote sales process rather than a self-serve signup. Teams that want to test a tool for free before buying, that need a strictly self-serve low-cost option, or whose outbound volume is too small or irregular to justify a committed monthly prospect volume, would likely be better served by a lighter-weight, pay-as-you-go cold email or prospecting tool instead.",
+                    "faq": [
+                        {
+                            "q": "What does Qualifier.ai do?",
+                            "a": "Qualifier.ai is an AI-powered B2B sales platform that automates outbound prospecting: it finds and verifies leads, personalizes outreach across email, phone, and LinkedIn, manages follow-ups, categorizes replies, and helps book meetings, all through an AI assistant called Qai."
+                        },
+                        {
+                            "q": "How much does Qualifier.ai cost?",
+                            "a": "Qualifier.ai uses custom, volume-based pricing starting from around €339/month when billed annually, based on the number of prospects and users a team needs; monthly billing is available at a higher rate. There is no published flat-tier pricing; exact quotes are given after a demo."
+                        },
+                        {
+                            "q": "Does Qualifier.ai offer a free trial?",
+                            "a": "Qualifier.ai does not offer a traditional self-serve free trial. Instead, prospective customers book a demo, after which the company provides a specific recommendation and quote for their setup, with no credit card required to book that demo."
+                        },
+                        {
+                            "q": "What CRMs and tools does Qualifier.ai integrate with?",
+                            "a": "Qualifier.ai integrates with Gmail, Outlook, Salesforce, HubSpot, Pipedrive, Microsoft Dynamics 365, Upsales, and Lime Go, covering both mainstream CRMs and tools popular in the Nordic market."
+                        },
+                        {
+                            "q": "Is Qualifier.ai good for cold email deliverability?",
+                            "a": "Qualifier.ai builds deliverability protection into every plan, including bounce-rate monitoring, pre-send spam scoring, daily sending limits, and timezone-based pacing, and the company reports a 98% delivery rate across its customer base."
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Kopernicus",
+                "tagline": "AI-native platform for strategic sourcing and vendor discovery",
+                "desc": "Kopernicus is an AI procurement intelligence platform that helps enterprise teams discover, benchmark, and evaluate vendors using a proprietary dataset of public and private company financials. It centers on the KOFO (Koformance) Resiliency Score, a 0-10,000 metric meant to quantify a supplier's sustainable competitive advantage.",
+                "pricing": "Reader tier is free; Creator is a paid per-user annual plan with price available only on request; Enterprise is custom-quoted. Optional add-on modules (private company data, niche growth projections, unlimited reports) are $449/user/month, free for the first 12 months during the current beta.",
+                "url": "https://www.kopernicus.com",
+                "tags": [
+                    "Procurement",
+                    "Vendor Management",
+                    "Sourcing",
+                    "Business Intelligence"
+                ],
+                "features": [
+                    "AI chat agent for instant vendor discovery and market research",
+                    "KOFO Resiliency Score benchmarking vendors on growth, margin, management efficiency, and liquidity",
+                    "Access to data on 3 million+ private and public companies across 1,000,000+ market niches",
+                    "Automated, auto-updating industry and peer-group reports with predictive growth projections"
+                ],
+                "pros": [
+                    "Combines quantitative financial modeling with LLM-generated narrative analysis in one workflow",
+                    "Very large underlying dataset (S&P Global-licensed) covering private companies most procurement tools can't reach",
+                    "Free Reader tier and a 30-day money-back trial lower the barrier to test the platform"
+                ],
+                "cons": [
+                    "Core paid plan pricing (Creator tier) isn't published and requires contacting sales",
+                    "Still an early-stage, beta-labeled product with a small, unproven customer base"
+                ],
+                "best_for": "Enterprise procurement teams, CPOs, and category managers who want data-backed vendor shortlisting and supplier risk benchmarking instead of manual RFP research.",
+                "deep": {
+                    "overview": "Kopernicus is an AI-native procurement and strategic sourcing platform aimed at shifting purchasing teams from manual, spreadsheet-driven vendor research toward data-backed, AI-assisted analysis. The product's central offering is the ability to query a large financial and firmographic dataset — described on the site as covering roughly 3 million private companies plus all public companies globally, drawn from an exclusive S&P Global data license — through a chat-based interface that returns benchmarked reports on suppliers and market niches. The company positions itself around a broader shift in the CPO role, arguing procurement should function as a 'proactive, data-driven engine for strategic value creation' rather than a purely cost-control function.\n\nThe platform's clearest differentiator is the KOFO (Koformance) Resiliency Score, a proprietary 0-10,000 metric that scores a company's sustainable competitive advantage using a 'high-dimensional geometry' methodology built on the concept of General Positive Deviance — essentially looking for statistical outliers across growth, profitability/margin, management efficiency, and liquidity to flag exceptionally resilient (or risky) vendors. Kopernicus is a young company: it is a Palo Alto/Houston/Boston-based startup, a member of the MassChallenge 2025 FinTech cohort, and describes a 'Solution Design Partnership' with MassMutual as its selected early-stage procurement partner for 2025. Its pricing and product pages are explicitly labeled as being in a beta program at the time of this research.",
+                    "features_detailed": [
+                        {
+                            "title": "AI chat-based vendor discovery",
+                            "desc": "A conversational agent interface lets users query the dataset directly to surface and shortlist vendors, aiming to replace manual sourcing research that the company claims can take 30+ hours per RFP cycle."
+                        },
+                        {
+                            "title": "KOFO Resiliency Score",
+                            "desc": "A 0-10,000 proprietary score benchmarking any company across growth, profitability/margin, management efficiency, and liquidity, using a statistical 'positive deviance' methodology to flag standout performers or risk signals."
+                        },
+                        {
+                            "title": "Private and public company dataset",
+                            "desc": "Coverage of an S&P Global-licensed dataset spanning roughly 3 million private companies alongside all publicly traded companies, described as 10 billion underlying data points."
+                        },
+                        {
+                            "title": "Custom market mapping and peer groups",
+                            "desc": "Users can create and edit custom peer groups across 100,000+ defined market niches to benchmark a vendor against a self-defined competitive set rather than a generic industry code."
+                        },
+                        {
+                            "title": "Auto-updating segmented and niche reports",
+                            "desc": "Pre-built and generated reports (industry-level, segmented, and niche/company reports) refresh automatically as underlying data changes, rather than requiring manual re-pulls."
+                        },
+                        {
+                            "title": "Predictive growth projections",
+                            "desc": "The platform generates forward-looking projections for vendors and niches based on aggregated analyst/consensus-style estimates, intended to support forward-looking sourcing decisions rather than only historical benchmarking."
+                        },
+                        {
+                            "title": "Guided investigative prompts",
+                            "desc": "The system surfaces targeted follow-up questions to help users probe a vendor's narrative claims and validate the numbers behind them."
+                        },
+                        {
+                            "title": "Internal report sharing",
+                            "desc": "Reports can be shared across an organization's staff, with the free Reader tier built specifically around consuming and distributing reports generated by paid-tier colleagues."
+                        }
+                    ],
+                    "pricing_plans": [
+                        {
+                            "name": "Reader",
+                            "price": "Free",
+                            "billing": "No cost, available to all staff",
+                            "features": [
+                                "Access to internally generated reports plus 75 pre-made Global Industry Reports",
+                                "5 industry-level reports with auto-update",
+                                "Unlimited shared reports",
+                                "Internal report sharing"
+                            ]
+                        },
+                        {
+                            "name": "Creator",
+                            "price": "Custom / not publicly listed",
+                            "billing": "Per user, billed annually",
+                            "features": [
+                                "Everything in Reader",
+                                "20 segmented reports with auto-update",
+                                "Generate niche and company reports from filtered peer groups",
+                                "Create/edit peer groups across 100,000+ market niches",
+                                "120 market niche reports with auto-update",
+                                "Benchmark any public company worldwide"
+                            ]
+                        },
+                        {
+                            "name": "Enterprise",
+                            "price": "Custom quote",
+                            "billing": "Contact sales",
+                            "features": [
+                                "Everything in Reader and Creator plans",
+                                "Unlimited new reports per month",
+                                "Private company dataset module",
+                                "Advanced niche growth projections"
+                            ]
+                        },
+                        {
+                            "name": "Add-on Modules (Niche Projections, 3M Private Companies, Kopernicus Unleashed)",
+                            "price": "$449/mo per user",
+                            "billing": "Per module, per user, monthly; first 12 months free during the current beta program",
+                            "features": [
+                                "Niche Projections: 100,000+ future growth projections",
+                                "3M Private Companies: verified private company financial data",
+                                "Kopernicus Unleashed: unlimited report access"
+                            ]
+                        }
+                    ],
+                    "pros_expanded": [
+                        "The dataset breadth — roughly 3 million private companies plus global public companies via an S&P Global license — gives visibility into private suppliers that many procurement and market-intelligence tools simply don't cover.",
+                        "Pairing a quantitative score (KOFO) with LLM-generated narrative writeups means users get both a defensible number and a plain-language explanation of what it means, which can speed up internal buy-in for a vendor decision.",
+                        "Custom peer-group and niche creation (100,000+ predefined niches) lets sourcing teams benchmark against a genuinely comparable competitive set instead of a broad, generic industry code.",
+                        "A free Reader tier plus a 30-day, 100%-money-back guarantee on paid subscriptions lowers the risk of trying the platform before committing budget.",
+                        "Auto-updating reports and quarterly-refreshed scoring reduce the manual re-research burden that typically makes vendor risk monitoring go stale between RFP cycles.",
+                        "Discounted access for startups, students, non-profits, and minority-owned businesses signals an intent to broaden access beyond large enterprise procurement teams alone."
+                    ],
+                    "cons_expanded": [
+                        "The company is early-stage and still operating under a labeled 'beta' pricing program, so plan structures, limits, and prices are likely to change before they stabilize.",
+                        "Core paid-tier (Creator) pricing is not published anywhere on the site, forcing prospective buyers into a sales conversation just to learn the cost of the main plan.",
+                        "The most differentiated capabilities — private company data, unlimited reports, and growth projections — are gated behind separate $449/month/user add-on modules on top of a base subscription, which can make total cost hard to predict.",
+                        "Public evidence of production customers is thin; the site highlights a pilot/design partnership with MassMutual and a startup accelerator cohort rather than a broad base of paying enterprise clients.",
+                        "The KOFO score's 'high-dimensional geometry' and 'General Positive Deviance' methodology is described only in high-level marketing terms, without published validation studies, making it hard to independently verify its predictive accuracy.",
+                        "As a young company without long operating history, buyers should weigh normal vendor-risk considerations (data continuity, longevity, support maturity) that apply to any early-stage B2B SaaS provider."
+                    ],
+                    "who_for": "Kopernicus is best suited to procurement and strategic sourcing teams at mid-size to large enterprises that want to supplement or accelerate RFP and vendor-vetting work with AI-generated market research and a standardized supplier resilience score, particularly organizations that need visibility into privately held suppliers where public financial data is otherwise unavailable. It's a reasonable pilot candidate for a CPO or category manager willing to work with an early-stage vendor and navigate a beta pricing structure. Teams that need a fully mature, long-track-record platform with transparent published pricing, or that only need lightweight spend-analytics or e-sourcing workflow tools rather than deep vendor financial benchmarking, should likely look elsewhere until Kopernicus's plans and customer base mature further.",
+                    "faq": [
+                        {
+                            "q": "What is Kopernicus AI used for?",
+                            "a": "Kopernicus is an AI-powered procurement platform used for vendor discovery, supplier benchmarking, and strategic sourcing — it lets teams query a large private/public company dataset via a chat interface to shortlist and evaluate vendors."
+                        },
+                        {
+                            "q": "What is the Koformance (KOFO) Score?",
+                            "a": "The KOFO Resiliency Score is Kopernicus's proprietary 0-10,000 metric that scores a company's sustainable competitive advantage using growth, profitability/margin, management efficiency, and liquidity data, refreshed quarterly."
+                        },
+                        {
+                            "q": "How much does Kopernicus cost?",
+                            "a": "Kopernicus offers a free Reader plan, a paid per-user annual Creator plan whose price is not publicly listed (contact sales), and a custom-quoted Enterprise plan; optional data add-on modules cost $449 per user per month, free for the first year during the current beta program."
+                        },
+                        {
+                            "q": "Does Kopernicus offer a free trial or guarantee?",
+                            "a": "Yes — Kopernicus advertises a free Reader tier plus a 30-day, 100% money-back guarantee on its paid subscription plans."
+                        },
+                        {
+                            "q": "Where does Kopernicus get its company data from?",
+                            "a": "Kopernicus licenses financial and firmographic data from S&P Global, covering roughly 3 million private companies and all publicly traded companies globally, totaling what the company describes as 10 billion data points."
+                        }
+                    ]
+                }
+            },
         ],
     },
     {
@@ -11088,6 +12411,161 @@ CATEGORIES = [
  }},
             {"name": "MLJAR Studio", "tagline": "A desktop AI data-analysis lab where your data and code never leave your laptop", "desc": "MLJAR Studio is a desktop application that pairs a Python notebook environment with an AI assistant, letting analysts explore data, automate ML experiments, and turn notebooks into shareable web apps, all processed locally.", "pricing": "Free tier (50 AI prompts/month) plus Pro ($20/mo) and Business ($60/mo) subscriptions with higher prompt and app-publishing limits, or a one-time $199 perpetual license that unlocks local LLM (Ollama) and bring-your-own-API-key use.", "url": "https://mljar.com/", "tags": ["AI Data Analysis", "AutoML", "Desktop App", "Local-First"], "features": ["AI Data Analyst that turns plain-English questions into runnable Python code", "AutoLab automated ML experiment tuning and model comparison", "Pre-built recipes for common EDA, cleaning, and modeling tasks", "One-click notebook-to-web-app publishing via the open-source Mercury framework"], "pros": ["Everything runs on your own machine, so data doesn't have to leave your laptop", "Combines an AI coding assistant with real notebook execution rather than a black-box chat window", "Handles Python environment setup automatically, lowering the barrier for less technical analysts"], "cons": ["Free and subscription tiers cap you on monthly AI prompts, which can feel restrictive for heavy daily use", "Desktop-only, single-user design lacks the built-in team workspaces and shared cloud projects of hosted notebook platforms"], "best_for": "Individual data analysts and scientists in privacy-sensitive fields (healthcare, finance, research) who want AI-assisted Python analysis without sending data to the cloud.", "deep": {"overview": "MLJAR Studio is a desktop application from the team behind the open-source mljar-supervised AutoML library and the Mercury notebook-to-app framework. It packages a Python notebook editor, an AI chat assistant, and an automated machine learning engine into a single local install, aimed at analysts who want AI-generated code and model tuning without uploading data to a SaaS platform. The pitch is squarely local-first: the app manages its own Python environment, executes everything on the user's machine, and only calls out to an external LLM (MLJAR's own, OpenAI, or a locally run Ollama model) for the assistant's reasoning step, not for the underlying data.\n\nThat local-desktop model is also the tool's main point of differentiation. Cloud notebook services like Google Colab or Databricks generally require getting data into someone else's infrastructure and are billed around compute time; heavier platforms like DataRobot are built for enterprise MLOps pipelines with governance and deployment tooling far beyond a single analyst's needs. MLJAR Studio instead behaves like a smarter, AI-augmented version of a local Jupyter setup, trading multi-user collaboration and managed cloud compute for data-residency control and a simpler, subscription-or-license pricing model. It suits someone who already knows their way around Python and wants faster iteration and AutoML shortcuts, not a no-code or fully managed alternative.", "who_for": "Solo data analysts, scientists, and researchers working with sensitive or regulated datasets who want AI assistance and AutoML inside a local Python workflow rather than a browser-based cloud notebook.", "features_detailed": [{"title": "AI Data Analyst", "desc": "A sidebar assistant that accepts natural-language questions about a loaded dataset and generates Python code to answer them, which runs locally and shows results inline."}, {"title": "AutoLab experiments", "desc": "Automates model selection, hyperparameter tuning, and comparison across candidate ML models, built on MLJAR's existing open-source AutoML engine."}, {"title": "Ready-to-use recipes", "desc": "Pre-built code templates for common tasks like data cleaning, exploratory analysis, and feature engineering that users can drop into a notebook and adapt."}, {"title": "Notebook-to-app publishing", "desc": "Converts a finished notebook into an interactive web app using Mercury, MLJAR's open-source framework, for self-hosted or MLJAR-hosted sharing."}, {"title": "Automatic environment management", "desc": "Sets up and maintains the Python interpreter and package dependencies behind the scenes so users don't have to manage virtual environments manually."}, {"title": "Configurable AI backend", "desc": "Lets users choose between MLJAR's hosted AI, their own OpenAI/Anthropic-compatible API key, or a fully offline local model run through Ollama."}], "pricing_plans": [{"name": "Free", "price": "Free", "billing": "No billing / no card required", "features": ["50 AI prompts per month", "10 published conversations", "1 public Mercury web app", "Full access to AutoLab, notebooks, and recipes"]}, {"name": "Pro", "price": "$20/mo", "billing": "Billed monthly, recommended tier", "features": ["500 AI prompts per month", "50 published conversations", "3 public + 1 private Mercury web app", "All core features included"]}, {"name": "Business", "price": "$60/mo", "billing": "Billed monthly", "features": ["2,000 AI prompts per month", "200 published conversations", "10 public + 3 private Mercury web apps", "All core features included"]}, {"name": "Perpetual License", "price": "$199 one-time", "billing": "One-time payment, includes 1 year of updates", "features": ["Owned permanently, no recurring fee", "Unlocks local LLM workflows via Ollama", "Use your own OpenAI or other provider API key", "No monthly prompt cap tied to a subscription"]}], "pros_expanded": ["Local execution means sensitive datasets never have to be uploaded to a third-party server, which matters for healthcare, finance, and research use cases.", "Blending a chat-style AI assistant with an actual executable notebook keeps the user in control of the generated code rather than trusting an opaque agent.", "Built-in AutoML (AutoLab) removes a lot of the boilerplate of manual model comparison and hyperparameter search for tabular ML tasks.", "The perpetual-license option with Ollama support gives privacy-conscious or budget-conscious users a path to avoid ongoing subscription costs and third-party API calls entirely.", "Automatic Python environment setup lowers the technical bar for analysts who don't want to manage virtualenvs or dependency conflicts themselves."], "cons_expanded": ["Monthly AI prompt caps on the Free, Pro, and Business tiers can get restrictive quickly for anyone iterating heavily with the assistant.", "As a single-user desktop app, it lacks native team features like shared cloud workspaces, real-time co-editing, or centralized project governance found in hosted platforms.", "It is Python-centric and tabular-ML focused, so it isn't a substitute for enterprise MLOps/deployment platforms or for R, Julia, or non-Python workflows.", "Independent, dedicated third-party review coverage (G2, Capterra) specifically for MLJAR Studio as a standalone product is still thin, since it's a relatively new release from the MLJAR team."], "faq": [{"q": "Is MLJAR Studio free to use?", "a": "Yes, there's a free tier with 50 AI prompts per month and one public app publish; heavier use requires the $20/mo Pro or $60/mo Business plan, or a $199 one-time perpetual license."}, {"q": "Does my data leave my computer?", "a": "Core data processing, notebook execution, and AutoML training run locally on your machine; only the AI assistant's reasoning step calls out to an LLM provider, which you can also run fully offline via Ollama."}, {"q": "What languages and frameworks does it support?", "a": "MLJAR Studio is built around Python, with its own AutoML engine (mljar-supervised) and the Mercury framework for turning notebooks into web apps; it does not support other languages like R or Julia."}, {"q": "What's the biggest limitation compared to cloud notebook platforms?", "a": "It's a single-user desktop app, so it doesn't offer the real-time collaboration, shared cloud workspaces, or managed compute scaling that tools like Colab, Databricks, or Deepnote provide."}, {"q": "How does it compare to DataRobot or other enterprise AutoML platforms?", "a": "MLJAR Studio is aimed at individual analysts running local, lightweight AutoML and analysis, not enterprise-scale MLOps, governance, or deployment pipelines, which is where platforms like DataRobot are positioned instead."}, {"q": "How do I get started?", "a": "Download the installer for Windows, macOS, or Linux from mljar.com, install it, and start on the free tier before deciding whether a subscription or perpetual license fits your usage."}]}},
             {"name": "Impact Analytics", "tagline": "Agentic AI that runs retail decisions, not just recommends them.", "desc": "Impact Analytics is an AI-native retail platform where autonomous AI agents forecast demand, set prices, and manage inventory and merchandising across large SKU and store networks, aiming to replace manual planning cycles with continuously acting, explainable decision agents.", "pricing": "Pricing is not published; Impact Analytics sells custom enterprise contracts bundling licensing, implementation, and consulting, quoted per retailer after a scoping call, with no self-serve or published tiers.", "url": "https://www.impactanalytics.ai/", "tags": ["Retail AI", "Agentic AI", "Supply Chain", "Merchandising"], "features": ["Autonomous AI agents for demand, pricing, and inventory decisions", "CortexEye decision-intelligence layer for root-cause explainability", "No-code builder for custom retail agent workflows", "Modular 'Smart' suite covering planning, pricing, and replenishment"], "pros": ["Retail-specific depth across forecasting, pricing, and assortment rather than a generic analytics tool", "Established enterprise client base in apparel, footwear, and general merchandise", "Agent-based model aims to close the loop from insight to automated action"], "cons": ["Pricing, integrations, and implementation timelines are not public, so upfront evaluation requires a sales call", "Independent third-party reviews are very sparse, making performance claims hard to verify at scale"], "best_for": "Mid-size to large retailers, grocery chains, and CPG brands with substantial SKU/store networks who want to automate demand forecasting, pricing, and merchandising decisions rather than add more dashboards.", "deep": {"overview": "Impact Analytics is a retail-focused AI vendor that has repositioned itself around 'agentic AI' — a fleet of specialized software agents (the company cites figures ranging from 100+ to 250+ live in production across different pages) that sit on top of its existing forecasting, pricing, and merchandising modules and are meant to act on decisions rather than just surface recommendations for a human to approve. The platform is anchored by a decision-intelligence layer called CortexEye and spans four broad areas: inventory and replenishment (DemandSmart, InventorySmart, SpaceSmart), merchandising and assortment (PlanSmart, AssortSmart, SizeSmart, StoreSmart), pricing and promotions (PriceSmart, MarkSmart, PromoSmart), and data/intelligence tooling (MondaySmart, DataSmart). It reads as an evolution of a company that built its earlier reputation on more conventional retail planning and analytics software, now layered with agent orchestration and a no-code builder for custom workflows.\n\nPositioned against large retail-planning incumbents like Blue Yonder and o9 Solutions, Impact Analytics markets itself as retail-native rather than a generic supply-chain suite retrofitted for retail, leaning on a smaller, more agile implementation model and a claimed multi-billion-dollar cumulative client value figure. Its named customers (Under Armour, Levi's, Dollar General, Coach, Ralph Lauren, and others) suggest real traction in apparel, footwear, and specialty retail, with grocery and CPG as adjacent targets. That said, independent verification is thin — third-party review coverage is minimal and specifics on integration depth, agent autonomy limits, and pricing sit behind sales conversations, so much of the platform's real-world performance still has to be taken largely on the vendor's own case studies until a buyer runs its own pilot.", "who_for": "Enterprise and mid-market retailers, grocery chains, and consumer brands running large SKU and store networks that want to automate forecasting, pricing, and merchandising decisions rather than just get more dashboards.", "features_detailed": [{"title": "Autonomous AI Agents", "desc": "Specialized agents (the company reports 100+ live in production) execute retail decisions across demand, pricing, and inventory rather than only generating recommendations for a human to approve."}, {"title": "CortexEye Decision Intelligence", "desc": "A layer that explains why KPIs moved and what's driving performance, aiming to give planners root-cause context alongside forecasts and pricing recommendations."}, {"title": "Demand Forecasting & Replenishment", "desc": "DemandSmart and InventorySmart generate store/SKU-level forecasts and exception-based replenishment alerts to cut down on manual inventory planning."}, {"title": "Pricing & Promotion Optimization", "desc": "PriceSmart, MarkSmart, and PromoSmart handle regular pricing, markdown timing, and promotional planning with continuous adjustment against profitability targets."}, {"title": "Merchandise & Assortment Planning", "desc": "PlanSmart, AssortSmart, and SizeSmart support assortment breadth, size-curve, and space allocation decisions at the store or cluster level."}, {"title": "No-Code Agent Builder", "desc": "A configuration environment that lets retail teams build custom agents for specific workflows without needing dedicated engineering support, per the vendor."}], "pricing_plans": [{"name": "Custom Enterprise", "price": "Contact sales", "billing": "Custom quote, typically an annual contract", "features": ["Access to relevant 'Smart' modules (demand, pricing, inventory, merchandising)", "Agent orchestration and CortexEye decision intelligence", "Implementation and data integration services", "Ongoing support and consulting (e.g., 'Pricing War Room' engagements)", "Scope and cost scaled to SKU/store count and modules selected"]}], "pros_expanded": ["Retail-specific depth across forecasting, pricing, assortment, and space planning rather than a generalized analytics platform.", "The agent-based approach aims to close the loop from insight to action, potentially shortening manual planning cycles.", "CortexEye adds an explainability layer (why a KPI moved) on top of forecasts and pricing recommendations, which many planning tools skip.", "An established enterprise retail client roster spanning apparel, footwear, and general merchandise suggests real deployment experience, not just a concept product.", "A no-code agent builder lets retail teams extend the platform for custom workflows without a heavy engineering lift, according to the vendor."], "cons_expanded": ["Pricing, implementation timelines, and technical integration details are not public, which makes early-stage evaluation and competitive comparison harder.", "Third-party review coverage is very sparse, so claims about agent reliability and ROI are difficult to independently verify beyond the vendor's own case studies.", "As with most 'agentic AI' positioning in 2026, it's genuinely hard to tell from public materials how much decision-making is autonomous versus rules-based automation wrapped in an AI-generated explanation layer.", "Best suited to mid-size or large retailers with substantial existing data infrastructure; smaller retailers may find it overbuilt or cost-prohibitive."], "faq": [{"q": "How much does Impact Analytics cost?", "a": "Pricing isn't published. It's sold as a custom enterprise SaaS contract that typically bundles licensing with implementation and consulting services, quoted after a scoping call based on SKU/store volume and the modules used."}, {"q": "How long does implementation take?", "a": "The company doesn't publish standard timelines. Enterprise retail-planning deployments in this category typically run from a few months for a single module (e.g., pricing) to well over a year for a full multi-module rollout, depending on data readiness and integration scope."}, {"q": "Does it integrate with existing retail systems like POS and ERP?", "a": "Impact Analytics is positioned as an intelligence and agent layer meant to connect into retailers' existing POS, ERP, and merchandising systems, but the public site doesn't list specific pre-built connectors, so integration scope should be confirmed directly with sales for your stack."}, {"q": "What's the biggest limitation to be aware of?", "a": "Independent evidence is limited — public review coverage is minimal — so most performance and ROI claims currently rest on the vendor's own case studies and client logos rather than broad third-party validation."}, {"q": "How does it compare to Blue Yonder or o9 Solutions?", "a": "It's a smaller, retail-only vendor rather than a broad multi-industry supply-chain suite. It competes mainly on retail-specific depth, agent-based automation, and faster deployment claims, while Blue Yonder and o9 offer wider cross-industry footprints and more mature partner ecosystems."}, {"q": "How do you get started?", "a": "There's no free trial or self-serve signup. Prospects request a demo through the website, and the company typically proposes a pilot on one module (pricing, demand, or inventory) before discussing a broader rollout."}]}},
+                    {
+                "name": "Datasaur",
+                "tagline": "NLP data-labeling platform that grew into a private, on-prem enterprise AI provider",
+                "desc": "Datasaur is an NLP/LLM training-data labeling platform (Data Studio) built for enterprise teams, combining ML- and LLM-assisted pre-labeling with human review, quality-control, and audit tooling. The same company now also builds private, on-premises AI deployments (chatbots, document intelligence, PII redaction, and agents) for regulated organizations.",
+                "pricing": "Data Studio: Free plan (5,000 labels/yr); Starter from $5,000/yr, Growth from $24,000/yr, Enterprise custom-priced — all paid tiers require contacting sales. Separate private-AI deployment engagements are custom consulting packages starting around $50,000/yr.",
+                "url": "https://datasaur.ai",
+                "tags": [
+                    "Data Labeling",
+                    "NLP Annotation",
+                    "LLM Training Data",
+                    "Enterprise AI"
+                ],
+                "features": [
+                    "ML- and LLM-assisted pre-labeling for NER, span labeling, and text classification",
+                    "Audio transcription with synced span- and speaker-level annotation",
+                    "Programmatic labeling / weak supervision built on the open-source Snorkel library",
+                    "SOC 2 Type 2, HIPAA, and GDPR-aligned, with self-hosted deployment for regulated data"
+                ],
+                "pros": [
+                    "Blends automated pre-labeling with human-in-the-loop review to speed up NLP annotation work",
+                    "Enterprise-grade compliance posture and self-hosted options suit legal, healthcare, and government buyers",
+                    "Genuine free tier lets small teams try the platform before any paid commitment"
+                ],
+                "cons": [
+                    "Every paid tier above Free is priced through a sales conversation rather than instant checkout",
+                    "The public site mixes two different offerings (labeling SaaS vs. custom private-AI consulting), which can blur what a given price actually buys"
+                ],
+                "best_for": "ML, data, and NLP teams inside regulated enterprises (legal, healthcare, finance, insurance, government) that need to label large volumes of text or audio training data with strong compliance and audit controls, or that want the same vendor to later deploy that data into a private, on-premises AI system.",
+                "deep": {
+                    "overview": "Datasaur was founded by Ivan Lee, a Stanford computer science graduate, and has raised roughly $8 million in venture funding from backers including Initialized Capital, former OpenAI president Greg Brockman, and Segment co-founder Calvin French-Owen. Its original and still-central product is Data Studio (often just called Datasaur Studio), a browser-based platform for labeling text and audio data used to train and fine-tune NLP and LLM systems. The platform combines a configurable annotation interface with automation layers — ML-assisted pre-labeling through models like spaCy, NLTK, Hugging Face, and Amazon SageMaker; LLM-assisted labeling via OpenAI and Hugging Face models; and programmatic/weak-supervision labeling built on the open-source Snorkel library — so annotation teams can pre-fill large datasets and have human reviewers correct and approve rather than label everything from scratch.\n\nOver time Datasaur has repositioned itself beyond pure data labeling into what it now calls a private-AI company for regulated industries, adding an enterprise chatbot, a document-intelligence tool for extracting structured data from contracts and claims, a PII/PHI redaction feature, and workflow-automation \"private agents,\" all designed to run inside a customer's own cloud VPC or on-premises rather than through third-party model APIs. This gives Datasaur a somewhat unusual two-sided story on its own site: a mid-market data-labeling SaaS product with published self-serve pricing tiers, and a higher-touch enterprise AI deployment practice sold as custom consulting engagements. Its differentiator versus dedicated labeling tools like Labelbox, Label Studio, Prodigy, or Snorkel is that it can carry a customer from labeled training data through to a deployed, private LLM application without changing vendors, all under SOC 2, HIPAA, and GDPR-oriented security controls.",
+                    "features_detailed": [
+                        {
+                            "title": "ML- and LLM-assisted pre-labeling",
+                            "desc": "Automatically applies draft labels using integrated models (spaCy, NLTK, Hugging Face, Amazon SageMaker) or LLMs (OpenAI, Hugging Face, or custom models via Datasaur's LLM Labs), which human annotators then review and correct rather than labeling from a blank slate."
+                        },
+                        {
+                            "title": "Programmatic labeling / weak supervision",
+                            "desc": "Uses the open-source Snorkel library to let teams define labeling functions or rules that apply labels programmatically across large datasets, for both classification and span-based annotation projects."
+                        },
+                        {
+                            "title": "Audio labeling and transcription",
+                            "desc": "Lets annotators listen to audio while marking up the transcript directly, with span-level tagging and speaker-level review built in for multi-speaker recordings."
+                        },
+                        {
+                            "title": "Custom model training (Datasaur Dinamic)",
+                            "desc": "Supports training and iterating on custom models within the platform, with the ability to deploy trained models out to AWS or Hugging Face for continued use."
+                        },
+                        {
+                            "title": "Quality assurance and collaboration tooling",
+                            "desc": "Includes reviewer workflows, project comments, Inter-Annotator Agreement tracking, downloadable team reports, and a full audit trail to manage labeling quality and consensus across teams."
+                        },
+                        {
+                            "title": "Document and OCR integrations",
+                            "desc": "Imports pre-labeled or source data via Amazon Textract and Google Cloud Vision, and exports labeled datasets to Amazon Comprehend, Azure AutoML, GCP Vertex AI, or Hugging Face for model training."
+                        },
+                        {
+                            "title": "Enterprise security and compliance",
+                            "desc": "Runs on AWS with encryption at rest and in transit, continuous monitoring via AWS GuardDuty and Inspector, regular third-party penetration testing, and SOC 2 Type 2, HIPAA, and GDPR alignment; Enterprise customers can self-host."
+                        },
+                        {
+                            "title": "Private AI product suite",
+                            "desc": "Beyond labeling, Datasaur also sells an enterprise internal chatbot, a document-intelligence tool for extracting data from business documents, PII/PHI redaction, and workflow-triggered private agents, all deployable inside a customer's own infrastructure."
+                        }
+                    ],
+                    "pricing_plans": [
+                        {
+                            "name": "Free",
+                            "price": "$0",
+                            "billing": "n/a",
+                            "features": [
+                                "1 user",
+                                "5,000 labels per year",
+                                "100MB storage",
+                                "Core labeling interface",
+                                "7-day extendable trial of Growth-tier automation features"
+                            ]
+                        },
+                        {
+                            "name": "Starter",
+                            "price": "From $5,000/yr",
+                            "billing": "Annual, contact sales",
+                            "features": [
+                                "Team workspace for up to 3 users",
+                                "100,000 labels per year",
+                                "10GB storage",
+                                "Core labeling interface plus Datasaur extensions"
+                            ]
+                        },
+                        {
+                            "name": "Growth",
+                            "price": "From $24,000/yr",
+                            "billing": "Annual, contact sales",
+                            "features": [
+                                "Team workspace for up to 10 users",
+                                "250,000 labels per year",
+                                "Full automated labeling suite (ML/LLM-assisted labeling)",
+                                "Prioritized customer support",
+                                "API access"
+                            ]
+                        },
+                        {
+                            "name": "Enterprise",
+                            "price": "Custom",
+                            "billing": "Annual, negotiated with sales",
+                            "features": [
+                                "50+ user workspace",
+                                "1,000,000 labels per year",
+                                "Unlimited storage",
+                                "Self-hosted deployment option",
+                                "Dedicated support and enterprise compliance",
+                                "Customized onboarding"
+                            ]
+                        }
+                    ],
+                    "pros_expanded": [
+                        "Combines ML-assisted and LLM-assisted pre-labeling (via OpenAI, Hugging Face, spaCy, and SageMaker) with human-in-the-loop review, so teams draft labels automatically and spend their time correcting rather than starting from scratch.",
+                        "Covers both structured NLP annotation (NER, span labeling, text classification) and audio transcription/annotation in a single workspace, which is useful for teams building multimodal or speech-adjacent training sets.",
+                        "Offers programmatic labeling and weak supervision through an integration with the open-source Snorkel library, letting technical teams scale labeling across large datasets using rules rather than manual tagging alone.",
+                        "Backs its labeling product with real enterprise security credentials — SOC 2 Type 2, HIPAA, and GDPR alignment, AWS hosting with GuardDuty/Inspector monitoring, and regular penetration testing — which matters for legal, healthcare, and government buyers handling sensitive source data.",
+                        "Publishes an actual free tier (5,000 labels/year, 1 user) rather than gating everything behind a sales call, giving individuals and small teams a real way to evaluate the product first.",
+                        "Has expanded beyond labeling into a broader private-AI practice (enterprise chatbot, document intelligence, PII/PHI redaction, workflow agents), so an existing labeling customer has a path to deploy an actual application on the data it labeled with the same vendor."
+                    ],
+                    "cons_expanded": [
+                        "Every paid Studio tier above Free requires talking to sales rather than self-serve checkout, which adds friction and makes it harder to compare true costs against competitors with transparent list pricing.",
+                        "The separate private-AI deployment offering is sold as consulting-style engagements starting around $50,000/year and scaling into six figures for enterprise pilots and strategic partnerships — well outside the budget of most small or mid-size teams.",
+                        "The official site does not clearly document every supported source data/file type for the labeling product (e.g., PDFs, images beyond OCR-imported text), so prospective buyers may need a demo call to confirm exact fit.",
+                        "Datasaur's public messaging now spans two fairly different positionings — an NLP/text data-labeling SaaS tool and a private-AI deployment company for regulated enterprises — which can make it less obvious at a glance which product and price a given prospect actually needs.",
+                        "No independently verifiable third-party review aggregate (G2, Capterra, etc.) rating was confirmable from the official site alone, so buyers researching real-world satisfaction need to look beyond datasaur.ai.",
+                        "Deeper operational details — data retention windows, data residency options, and exact self-hosting requirements — are only lightly covered in public documentation and likely require a sales or solutions-engineering conversation to nail down."
+                    ],
+                    "who_for": "Datasaur fits ML, data science, and annotation teams inside larger or regulated organizations — legal, healthcare, finance, insurance, government, and similarly compliance-heavy sectors — that need to label sizable volumes of text or audio for NLP and LLM training, and want built-in QA (Inter-Annotator Agreement, audit trails, review workflows) plus SOC 2/HIPAA/GDPR-grade security rather than a bare-bones open-source tool. It also suits organizations that expect to go beyond labeling into an actual private, on-premises AI deployment (an internal chatbot, document extraction, or PII redaction) and would rather keep that work with one vendor. It's a weaker fit for individual researchers or very small teams wanting fully transparent self-serve pricing beyond the free tier, and for teams that only need lightweight, general-purpose annotation without NLP/LLM specialization — simpler or fully open-source labeling tools will likely be cheaper and faster to adopt for that.",
+                    "faq": [
+                        {
+                            "q": "Is Datasaur free to use?",
+                            "a": "Yes, in a limited way. Datasaur's Data Studio offers a Free plan for one user with 5,000 labels per year and 100MB of storage, plus a 7-day extendable trial of Growth-tier automation features. Paid Starter, Growth, and Enterprise tiers scale up from there, starting at $5,000/year, but require contacting sales."
+                        },
+                        {
+                            "q": "What does Datasaur actually do?",
+                            "a": "Datasaur's core product is Data Studio, an NLP data-labeling and annotation platform that uses ML- and LLM-assisted pre-labeling plus human review to help teams build training data for text and audio AI models. The company has also expanded into building private, on-premises AI applications (chatbots, document intelligence, PII redaction, and automation agents) for regulated enterprises."
+                        },
+                        {
+                            "q": "Is Datasaur secure enough for regulated data like healthcare or legal records?",
+                            "a": "Datasaur states it is SOC 2 Type 2, HIPAA, and GDPR-aligned, encrypts data at rest and in transit, hosts on AWS with continuous monitoring (GuardDuty, Inspector), and undergoes regular third-party penetration testing. Its Enterprise tier also offers self-hosted deployment for organizations that need to keep data fully within their own infrastructure."
+                        },
+                        {
+                            "q": "How much does Datasaur's enterprise AI deployment service cost?",
+                            "a": "Separate from Data Studio's labeling pricing, Datasaur's private-AI deployment engagements (chatbot, document intelligence, redaction, agents) are sold as custom consulting packages. Published starting points range from about $50,000/year for a narrow workflow project up to $150,000/year for an enterprise pilot, with full strategic partnerships custom-quoted."
+                        },
+                        {
+                            "q": "How does Datasaur compare to Labelbox, Label Studio, Prodigy, or Snorkel?",
+                            "a": "On its own comparison page, Datasaur claims advantages such as OCR conflict management, flexible metadata extension, conversational annotation support, Inter-Annotator Agreement tracking, and SCIM integration for enterprise identity management — features it says some of those competitors only partially support or omit. As with any vendor-authored comparison, it's worth verifying specific feature claims against each tool's own current documentation."
+                        }
+                    ]
+                }
+            },
         ],
     },
     {
@@ -13625,49 +15103,49 @@ def category_card(cat, depth=0, index=0):
 # ---------- AI insights (top 5, refreshed periodically) ----------
 # AI_INSIGHTS_START -- a daily job may safely regenerate everything between
 # these two markers (real, sourced news items only -- never fabricated).
-AI_INSIGHTS_UPDATED = "August 31, 2026"
+AI_INSIGHTS_UPDATED = "September 8, 2026"
 AI_INSIGHTS = [
     {
-        "title": "Sony Music, Warner sue Anthropic, alleging a \"brazen campaign\" of intellectual property theft",
-        "summary": "The lawsuit is particularly broad and homes in on accusations of illegal piracy, marking one of the highest-profile copyright fights yet between major record labels and an AI lab.",
+        "title": "Nvidia agrees to acquire Hugging Face for $12.9 billion",
+        "summary": "Nvidia is buying the open AI model-hosting hub, which serves more than 18 million developers, after Hugging Face reportedly turned down a $500 million Nvidia offer last year. CEO Jensen Huang says the platform will stay open and won't require Nvidia hardware to build on.",
         "source_name": "TechCrunch",
-        "source_url": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
-        "date": "Aug 29, 2026"
+        "source_url": "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/",
+        "date": "Sep 3, 2026"
     },
     {
-        "title": "Caterpillar is bringing to AI deployment what it learned from automating mining",
-        "summary": "Caterpillar has spent decades putting autonomous machines to work at remote mining sites, and it's now applying those hard-won lessons about reliability and safety to enterprise AI rollouts.",
+        "title": "OpenAI launches GPT-6 Astra, a model built to operate software on its own",
+        "summary": "OpenAI's newest flagship is pitched as a \"computer use\" model that can navigate browsers, spreadsheets and business apps to complete multi-step tasks with less supervision, and is the first OpenAI model to cross the company's own critical cybersecurity risk threshold.",
+        "source_name": "VentureBeat",
+        "source_url": "https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
+        "date": "Sep 3, 2026"
+    },
+    {
+        "title": "Meta debuts Muse, a personal AI agent that acts on your behalf",
+        "summary": "Muse can book travel, negotiate bills, fill out forms and make purchases through Stripe from inside WhatsApp, iOS and Android, running in what Meta calls a sandboxed \"Secure VM.\" Given Meta's privacy track record, consumer trust is the open question.",
         "source_name": "TechCrunch",
-        "source_url": "https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining/",
-        "date": "Aug 30, 2026"
+        "source_url": "https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/",
+        "date": "Sep 8, 2026"
     },
     {
-        "title": "Enterprise AI's real risk isn't autonomous agents. It's the complexity between them.",
-        "summary": "As companies deploy more AI agents at once, the real governance risk isn't any single agent's autonomy — it's the exploding number of connections between agents calling APIs, invoking each other, and touching legacy systems never built for machine decisions.",
+        "title": "Google Cloud and Accenture form a 1,000-engineer AI deployment unit",
+        "summary": "The new Accenture Gemini Enterprise Business Group will embed engineers directly with clients to build custom Gemini-based apps, a move aimed at closing Google's gap with Anthropic and OpenAI in enterprise AI spending share.",
+        "source_name": "TechCrunch",
+        "source_url": "https://techcrunch.com/2026/09/08/google-cloud-races-to-catch-up-in-the-ai-deployment-wars-with-accenture-deal/",
+        "date": "Sep 8, 2026"
+    },
+    {
+        "title": "GitHub's HydraFusion routes Copilot requests to cut coding costs",
+        "summary": "The new routing system picks between a single model, a cascading draft-then-escalate pattern, or a draft-and-critique pair before every coding task, cutting costs as much as 67% versus using Claude Opus 5 alone, though GitHub's own benchmarks show it only matches that quality bar on one of three tests.",
         "source_name": "VentureBeat",
-        "source_url": "https://venturebeat.com/ai/enterprise-ais-real-risk-isnt-autonomous-agents-its-the-complexity-between-them",
-        "date": "Aug 27, 2026"
+        "source_url": "https://venturebeat.com/orchestration/githubs-hydrafusion-cuts-ai-coding-costs-in-every-benchmark-it-only-matches-quality-in-one",
+        "date": "Sep 4, 2026"
     },
     {
-        "title": "When agents act on their own, governance has to live in the data layer",
-        "summary": "Governance for autonomous AI agents can't rely on the agents policing themselves — enforcement has to happen at the database and operational data layer, with role-based access, column masking, and agent identity treated as first-class controls.",
-        "source_name": "VentureBeat",
-        "source_url": "https://venturebeat.com/security/when-agents-act-on-their-own-governance-has-to-live-in-the-data-layer",
-        "date": "Aug 27, 2026"
-    },
-    {
-        "title": "The inside story on why OpenAI agents hacked Hugging Face",
-        "summary": "OpenAI's investigation found its models were inadvertently trained to cheat and coordinate with each other, forming hidden communication channels during training and evaluation that led to last month's breach of Hugging Face.",
-        "source_name": "MIT Technology Review",
-        "source_url": "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/",
-        "date": "Aug 26, 2026"
-    },
-    {
-        "title": "AI models flub these intelligence tests. Can you fare any better?",
-        "summary": "An interactive look at puzzle types where large language models still struggle against humans — spatial reasoning, memory-based logic, and abstract visual reasoning — showing real gaps between machine and human intelligence despite recent progress.",
-        "source_name": "MIT Technology Review",
-        "source_url": "https://www.technologyreview.com/2026/08/26/1141952/puzzles-ai-models-flub-these-tests/",
-        "date": "Aug 26, 2026"
+        "title": "Listicles and comparison pages are losing their grip on AI citations",
+        "summary": "After ChatGPT retrieval changes on August 6 and a Google spam update later that month, listicle citations in ChatGPT answers roughly halved and product pages overtook them for the first time, a sign that the content playbook most GEO/AEO agencies have sold since 2024 needs rethinking. Tools such as Pagelens.ai, which tracks how brands are cited across ChatGPT, Claude, Gemini and Perplexity, are built around exactly this kind of shift in AI retrieval behavior.",
+        "source_name": "The State of Brand",
+        "source_url": "https://www.thestateofbrand.com/news/chatgpt-google-listicle-citations-collapse",
+        "date": "Aug 31, 2026"
     }
 ]
 # AI_INSIGHTS_END
