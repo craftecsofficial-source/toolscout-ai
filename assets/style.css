@@ -283,7 +283,26 @@ a:hover .arrow, button:hover .arrow { transform: translateX(4px); }
 .disclosure { border-top: 1px solid #2A2A32; padding: 22px 24px 36px; }
 .disclosure p { margin: 4px 0; font-size: 0.8rem; }
 
+/* reviews */
+.review-hero-shot { margin: 0 0 8px; background: var(--surface); border: 1px solid var(--line); border-radius: 4px; padding: 8px; }
+.review-hero-shot img { display: block; width: 100%; height: auto; border-radius: 2px; }
+.review-hero-shot figcaption { padding: 12px 6px 4px; font-size: 0.8rem; }
+.review-hero-shot figcaption a { color: var(--gold-dark); font-weight: 600; }
+.review-verdict { display: flex; gap: 24px; align-items: flex-start; }
+.review-score-badge { flex-shrink: 0; display: flex; align-items: baseline; gap: 2px; background: var(--ink); color: #fff; border-radius: 4px; padding: 14px 16px; font-family: 'Fraunces', serif; }
+.review-score-num { font-size: 2rem; font-weight: 500; line-height: 1; }
+.review-score-badge .muted { color: #C9C9CE; font-size: 0.9rem; }
+.rating-table .rt-score { font-weight: 700; color: var(--ink); white-space: nowrap; }
+.review-banner { display: flex; align-items: center; gap: 18px; background: var(--tint); border: 1px solid var(--line); border-radius: 4px; padding: 18px 22px; transition: border-color .25s var(--ease), transform .25s var(--ease); }
+.review-banner:hover { border-color: var(--gold); transform: translateY(-2px); }
+.review-banner-score { flex-shrink: 0; font-family: 'Fraunces', serif; font-size: 1.4rem; color: var(--gold-dark); font-weight: 500; }
+.review-banner-score .muted { font-size: 0.85rem; }
+.review-banner-text { flex: 1; font-size: 0.92rem; color: var(--muted-2); }
+.review-banner-text strong { color: var(--ink); display: block; margin-bottom: 2px; }
+
 @media (max-width: 720px) {
+  .review-verdict { flex-direction: column; }
+  .review-banner { flex-wrap: wrap; }
   .main-nav { position: absolute; top: 68px; left: 0; right: 0; background: var(--surface); flex-direction: column; padding: 18px 24px; border-bottom: 1px solid var(--line); display: none; gap: 16px; }
   .main-nav.open { display: flex; }
   .nav-toggle { display: block; }

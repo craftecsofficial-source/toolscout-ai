@@ -400,6 +400,10 @@ ToolScout is an independently researched directory of AI tools, organized by cat
 ### Inventory Management
 - [Arka Inventory](https://www.toolscout.in/tools/arka-inventory.html): Native Salesforce inventory, purchasing and warehouse management — Inventory $39/user/mo; Inventory + MRP $49/user/mo; Inventory + MRP + Warehouse Management $59/user/mo. Free trial available on all tiers.
 
+## Reviews
+
+- [DeepSolv Review: The Creative Intelligence Platform Turning Guesswork Into a Ranked Test Plan](https://www.toolscout.in/reviews/deepsolv.html): DeepSolv (Adam) helps performance marketing and creative teams turn competitor ads, customer signals, and past performance into a ranked weekly test plan. Here's what makes it work, who it's for, and where it falls short.
+
 ## Blog
 
 - [Jasper vs Copy.ai vs Writesonic: Which Writing & Content Tool Should You Choose in 2026?](https://www.toolscout.in/blog/jasper-vs-copy-ai-vs-writesonic.html): Jasper, Copy.ai and Writesonic all solve writing & content problems, but in different ways. Here's how their pricing, features and ideal users actually compare.
@@ -441,6 +445,7 @@ ToolScout is an independently researched directory of AI tools, organized by cat
 
 ## Other pages
 
+- [Reviews](https://www.toolscout.in/reviews/index.html): In-depth, independently researched reviews of the brands listed on ToolScout.
 - [Blog](https://www.toolscout.in/blog/index.html): AI tool comparisons across every category, plus PageLens.ai vs other AEO tools.
 - [Compare Tools](https://www.toolscout.in/compare.html): Interactive tool to compare up to 3 AI tools side by side.
 - [About](https://www.toolscout.in/about.html): How ToolScout researches and selects tools.

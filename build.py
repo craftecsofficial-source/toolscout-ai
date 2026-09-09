@@ -7,8 +7,10 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 CAT_DIR = os.path.join(ROOT, "categories")
 TOOLS_DIR = os.path.join(ROOT, "tools")
 ASSETS_DIR = os.path.join(ROOT, "assets")
+ASSETS_IMG_DIR = os.path.join(ROOT, "assets", "images")
 BLOG_DIR = os.path.join(ROOT, "blog")
-for d in (ROOT, CAT_DIR, TOOLS_DIR, ASSETS_DIR, BLOG_DIR):
+REVIEWS_DIR = os.path.join(ROOT, "reviews")
+for d in (ROOT, CAT_DIR, TOOLS_DIR, ASSETS_DIR, ASSETS_IMG_DIR, BLOG_DIR, REVIEWS_DIR):
     os.makedirs(d, exist_ok=True)
 
 SITE_NAME = "ToolScout"
@@ -15420,6 +15422,97 @@ def stagger(i, cap=8, step=0.06):
 
 TOOLS_BY_NAME = {t["name"]: t for t in ALL_TOOLS}
 
+# ---------- in-depth brand reviews (editorial, one per brand, richer than a tool profile) ----------
+# Each entry pairs with an existing ALL_TOOLS record via "tool_name". Add a new dict here to
+# publish another brand review -- everything else (page generation, nav cross-links, sitemap,
+# llms.txt, the reviews index and the homepage teaser) picks it up automatically.
+
+REVIEWS = [
+    {
+        "slug": "deepsolv",
+        "tool_name": "Deepsolv",
+        "meta_title": "DeepSolv Review: The AI Creative Intelligence Platform Behind 500+ Brands' Meta Ads",
+        "meta_description": "DeepSolv (Adam) helps performance marketing and creative teams turn competitor ads, customer signals, and past performance into a ranked weekly test plan. Here's what makes it work, who it's for, and where it falls short.",
+        "headline": "DeepSolv Review: The Creative Intelligence Platform Turning Guesswork Into a Ranked Test Plan",
+        "subheadline": "Built by Flipkart alumni who've already taken one startup to a successful exit, DeepSolv's AI system — Adam — helps performance marketing teams at 500+ brands know exactly which Meta ad to test next, and why.",
+        "date": "2026-09-09",
+        "hero_image": "deepsolv-hero.jpg",
+        "hero_image_alt": "Screenshot of the DeepSolv homepage hero section: 'Know what to test next before you spend on it.'",
+        "overall_rating": 4.6,
+        "verdict": "DeepSolv solves a problem every performance marketer knows well: you can see that an ad is winning or losing, but rarely why. Its AI system, Adam, pulls together competitor activity, customer signals, and a brand's own historical ad performance to explain what's working, why it's working, and what to test next — turning a scattered creative process into a prioritised, execution-ready plan. It's already trusted by 500+ brands and agencies, including recognisable D2C names like Pilgrim, mCaffeine's Ghar, and Hair Originals.",
+        "rating_factors": [
+            {"factor": "Founder credibility", "rating": 4.8, "why": "Built by Flipkart alumni; co-founder Sachit Sharma previously built and exited Sign3.ai."},
+            {"factor": "Product depth", "rating": 4.6, "why": "Competitor tracking, hook/format analysis, customer-signal analysis, and ranked test ideas — not just a dashboard of stats."},
+            {"factor": "Ease of entry", "rating": 4.5, "why": "A free Attention Heatmap tool and a 7-day free trial mean you can see real value before committing."},
+            {"factor": "Client traction", "rating": 4.5, "why": "500+ brands and agencies, with named case studies showing measurable creative-testing wins."},
+        ],
+        "best_for": "Performance marketing, growth, and creative teams running Meta ads at scale — and agencies that need to manage creative intelligence across multiple client accounts at once.",
+        "sections": [
+            {
+                "h2": "What Is DeepSolv?",
+                "paragraphs": [
+                    "DeepSolv is a creative intelligence platform built around Adam, an AI system designed to do the thinking that performance marketers usually have to do by hand: watching what competitors are running, reading customer signals like comments and reviews, and cross-referencing a brand's own ad history to figure out what's actually driving results. Instead of leaving a creative team to guess at their next test, Adam turns all of that into a ranked, prioritised list of test ideas — complete with execution-ready briefs — so teams can move from scattered data to clear decisions.",
+                    "The company was founded in 2023 by Sachit Sharma and Purby Lohia, both Flipkart alumni. Sachit's path to DeepSolv is a genuinely compelling one: he'd already built and exited a prior startup, Sign3.ai, which reached roughly $500K in ARR before its acquisition. DeepSolv itself started by helping D2C brands manage the explosive engagement — comments, DMs, and social conversations — that comes with running successful campaigns, and has since evolved into a full creative intelligence platform focused on Meta ads, after enterprise customers made clear they'd pay for exactly this kind of deeper, ad-performance-focused intelligence. That evolution has taken the company all the way up to landing one of the world's leading marketing agencies as a customer. Today, DeepSolv runs as a lean, focused team of around a dozen people out of India, with an active funding round underway to support its next phase of growth.",
+                ],
+            },
+            {
+                "h2": "What Adam Actually Does",
+                "paragraphs": [
+                    "Adam is built around four core capabilities, all aimed at the same goal: telling creative and growth teams exactly what to do next, not just what already happened.",
+                ],
+                "items": [
+                    {"title": "A ranked weekly test plan", "desc": "Instead of an open-ended backlog of creative ideas, Adam prioritises what to test next based on real signal, so teams spend their production time on the ideas most likely to move the needle."},
+                    {"title": "Creative performance reasoning", "desc": "Adam doesn't just report that an ad is winning or losing; it explains the why behind the performance, connecting results back to specific hooks, formats, and angles."},
+                    {"title": "Audience-driven angles", "desc": "Recommendations are shaped by what a brand's actual customers are responding to, not just generic best practices."},
+                    {"title": "Kill/stop signals", "desc": "Just as important as knowing what to test next is knowing what to stop spending on, and Adam flags underperforming creative early."},
+                ],
+                "paragraphs_after": [
+                    "Underpinning all of this is what DeepSolv calls its Brand Brain — a growing, structured understanding of a brand's own creative history, competitors, and customer signals that gets sharper the longer Adam is in use. For teams who want a taste of this before committing to a full platform, DeepSolv also offers a free Attention Heatmap tool that visualises where viewers' eyes are drawn in an ad creative, plus a 7-day free trial of the full platform.",
+                ],
+            },
+            {
+                "h2": "Results That Back It Up",
+                "paragraphs": [
+                    "DeepSolv's case studies show the platform working in real, specific scenarios rather than abstract claims. The haircare brand Hair Originals used DeepSolv to bring structure to its Meta ad creative testing — moving from ad-hoc experimentation to a data-backed process for deciding what to produce next. In another case study, DeepSolv documents how a lean three-person marketing team was able to run a creative testing operation that would typically require a much larger team, by leaning on Adam to do the heavy lifting of analysis and prioritisation.",
+                    "That efficiency story is echoed at the top end of DeepSolv's client base too: the platform has been trusted by one of the world's leading marketing agencies to bring creative intelligence to campaigns run across multiple client accounts — a strong signal for any agency evaluating whether DeepSolv can handle real scale, not just single-brand use cases. As with any vendor-published case study, treat the specific figures as directional rather than independently audited, but the range of brands citing similar outcomes is a reasonable proxy for real traction.",
+                ],
+            },
+            {
+                "h2": "Who's Using It",
+                "paragraphs": [
+                    "DeepSolv's client roster spans some of India's most recognisable D2C brands, including Pilgrim, Ghar (by mCaffeine), The Pant Project, Hair Originals, and NexTen Brands — part of a base of 500+ brands and agencies now running their Meta ad creative strategy through the platform. The mix of high-growth D2C names and multi-brand agency accounts reflects the two audiences DeepSolv is explicitly built for: in-house performance and creative teams who need to move faster, and agencies who need one system to manage creative intelligence across every client they run.",
+                ],
+            },
+            {
+                "h2": "Who It's Built For",
+                "paragraphs": [
+                    "DeepSolv is designed for three distinct kinds of teams, and its own positioning is refreshingly specific about who benefits most. Performance and growth teams get a clearer read on what's actually driving results, so budget and testing decisions are based on evidence rather than gut feel. Creative teams get direction — a ranked plan of what to produce next, backed by reasoning, rather than an open brief with no clear starting point. Agencies get a way to manage creative intelligence and recommendations consistently across multiple client accounts at once, rather than rebuilding the same analysis manually for every brand they serve.",
+                ],
+            },
+            {
+                "h2": "Where DeepSolv Falls Short",
+                "paragraphs": [
+                    "No review is complete without the caveats. DeepSolv doesn't publish pricing anywhere on its site — you'll need to book a demo and share ad spend and team size before you know what it costs, which makes it harder to shortlist against competitors up front. It's also purpose-built for Meta advertising specifically; brands running significant budget on Google, TikTok, or programmatic channels will still need separate tooling for those. And as a newer entrant, DeepSolv doesn't yet have a public track record on review platforms like G2 or Capterra, so independent, at-scale validation is still thinner than the case studies alone suggest.",
+                ],
+            },
+        ],
+        "faq": [
+            {"q": "What is DeepSolv?", "a": "DeepSolv is a creative intelligence platform for Meta ads, built around an AI system called Adam that analyses competitor activity, customer signals, and a brand's own ad performance to recommend what to test next."},
+            {"q": "Who founded DeepSolv?", "a": "Sachit Sharma and Purby Lohia, both Flipkart alumni, founded DeepSolv in 2023. Sachit previously built and exited another startup, Sign3.ai."},
+            {"q": "Who is DeepSolv built for?", "a": "Performance marketing, growth, and creative teams running Meta ads at scale, as well as agencies managing creative strategy across multiple client accounts."},
+            {"q": "Can I try DeepSolv before committing?", "a": "Yes — DeepSolv offers a free Attention Heatmap tool to test immediately, plus a 7-day free trial of the full platform."},
+            {"q": "Does DeepSolv work for agencies managing multiple brands?", "a": "Yes — it's explicitly built to help agencies manage creative intelligence and recommendations across multiple client accounts from one place, and it's already used by one of the world's leading marketing agencies."},
+            {"q": "How much does DeepSolv cost?", "a": "DeepSolv doesn't publish pricing. The company demos the product and quotes based on ad spend and team size, and there's no self-serve free plan — only the free Attention Heatmap tool and the 7-day trial."},
+            {"q": "How is DeepSolv different from a standard ad-analytics dashboard?", "a": "Rather than just reporting metrics, Adam explains the reasoning behind creative performance and turns that into a ranked, execution-ready test plan — moving teams from data to decisions rather than leaving that translation up to them."},
+        ],
+        "bottom_line": "DeepSolv brings a rare combination to the ad-tech space: founders with real prior startup success (a Flipkart pedigree and an exited company behind them), a product that goes beyond dashboards into genuine reasoning and prioritisation, and a client list that already spans hundreds of brands and agencies — including one of the world's largest marketing agencies. For any performance marketing or creative team tired of guessing which ad to test next, DeepSolv's Adam offers a genuinely differentiated way to turn competitor data, customer signals, and past performance into a clear, ranked plan of action.",
+    },
+]
+
+for _rev in REVIEWS:
+    _rev["tool"] = TOOLS_BY_NAME[_rev["tool_name"]]
+REVIEWS_BY_SLUG = {_rev["tool"]["slug"]: _rev for _rev in REVIEWS}
+
 def rating_display(t):
     r = t.get("deep", {}).get("reviews")
     if not r:
@@ -15531,6 +15624,7 @@ def nav(depth=0):
     <nav class="main-nav" id="mainNav">
       <a href="{prefix}index.html">Home</a>
       <a href="{prefix}all-tools.html">All Tools</a>
+      <a href="{prefix}reviews/index.html">Reviews</a>
       <a href="{prefix}blog/index.html">Blog</a>
       <a href="{prefix}submit-tool.html">Submit a Tool</a>
       <a href="{prefix}about.html">About</a>
@@ -15565,6 +15659,7 @@ def footer(depth=0):
     <div>
       <h4>Site</h4>
       <div class="footer-links">
+        <a href="{prefix}reviews/index.html">Reviews</a>
         <a href="{prefix}blog/index.html">Blog</a>
         <a href="{prefix}about.html">About</a>
         <a href="{prefix}submit-tool.html">Submit a Tool</a>
@@ -15711,6 +15806,30 @@ tool_names_marquee = " &middot; ".join(t["name"] for t in ALL_TOOLS)
 # as more tools are added, instead of a fixed duration making the strip race by.
 marquee_duration = max(38, round(len(ALL_TOOLS) * 0.55))
 
+_home_review_cards = "".join(
+    f'''<article class="tool-card reveal tilt" style="transition-delay:{stagger(i)}s">
+  <div class="tool-card-top">
+    <h3><a href="reviews/{r['slug']}.html">{r['tool']['name']}</a></h3>
+    <span class="cat-label">{r['overall_rating']}/5</span>
+  </div>
+  <p class="tool-tagline">{r['tool']['tagline']}</p>
+  <p class="tool-desc">{r['subheadline']}</p>
+  <div class="card-actions">
+    <a class="btn btn-primary magnetic" href="reviews/{r['slug']}.html">Read review <span class="arrow">&rarr;</span></a>
+  </div>
+</article>'''
+    for i, r in enumerate(REVIEWS)
+)
+_home_reviews_section = f'''<section class="container section">
+  <div class="insights-head reveal">
+    <h2>In-depth brand reviews</h2>
+    <a class="text-link" href="reviews/index.html">All reviews <span class="arrow">&rarr;</span></a>
+  </div>
+  <div class="tool-grid">
+    {_home_review_cards}
+  </div>
+</section>''' if REVIEWS else ''
+
 home_body = f"""
 <section class="hero">
   <div class="container">
@@ -15760,6 +15879,8 @@ home_body = f"""
     </div>
   </div>
 </section>
+
+{_home_reviews_section}
 
 <section class="container section">
   <h2 class="reveal">Why {SITE_NAME}</h2>
@@ -15904,6 +16025,19 @@ def tool_detail_body(t, cat, depth=1):
 </section>
 """
 
+    _rev = REVIEWS_BY_SLUG.get(t["slug"])
+    review_banner = ""
+    if _rev:
+        review_banner = f"""
+<section class="container section narrow" style="padding-top:0;">
+  <a class="review-banner reveal" href="{prefix}reviews/{_rev['slug']}.html">
+    <span class="review-banner-score">{_rev['overall_rating']}<span class="muted">/5</span></span>
+    <span class="review-banner-text"><strong>Read our in-depth {t['name']} review</strong><span class="muted"> &mdash; founder background, results, pricing caveats and FAQ.</span></span>
+    <span class="arrow">&rarr;</span>
+  </a>
+</section>
+"""
+
     best_for_short = t['best_for'] if not d else d['who_for'].split('. ')[0].strip().rstrip('.') + '.'
     quick_facts = f"""
 <section class="container section narrow" style="padding-top:0;">
@@ -15946,7 +16080,7 @@ def tool_detail_body(t, cat, depth=1):
   </div>
 </section>
 """
-        return hero + quick_facts + body + f"""
+        return hero + quick_facts + review_banner + body + f"""
 <section class="container section" style="padding-top:0;">
   <h2 class="reveal">Alternatives to {t['name']}</h2>
   <div class="alt-grid">{alt_html}</div>
@@ -16054,7 +16188,7 @@ def tool_detail_body(t, cat, depth=1):
   <a href="{t['url']}" target="_blank" rel="noopener sponsored" class="btn btn-primary magnetic">Visit {t['name']} <span class="arrow">&rarr;</span></a>
 </section>
 """
-    return hero + quick_facts + body
+    return hero + quick_facts + review_banner + body
 
 for cat in CATEGORIES:
     for t in cat["tools"]:
@@ -16736,6 +16870,203 @@ blog_index_html = blog_index_body(depth=1)
 with open(os.path.join(BLOG_DIR, "index.html"), "w") as f:
     f.write(page(f"Blog – {SITE_NAME} Comparisons", f"In-depth, fact-checked AI tool comparisons across every category, plus how each AEO tool compares to PageLens.ai.", blog_index_html, depth=1, url_path="blog/index.html"))
 
+# ---------- reviews: in-depth single-brand editorial reviews ----------
+
+def review_jsonld(rev):
+    t = rev["tool"]
+    page_url = f"{SITE_URL}/reviews/{rev['slug']}.html"
+    review_schema = {
+        "@context": "https://schema.org", "@type": "Review",
+        "name": rev["headline"],
+        "url": page_url,
+        "datePublished": rev["date"], "dateModified": rev["date"],
+        "itemReviewed": {
+            "@type": "SoftwareApplication",
+            "name": t["name"], "url": t["url"],
+            "applicationCategory": t["category"],
+            "description": t["desc"],
+        },
+        "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": rev["overall_rating"], "bestRating": "5", "worstRating": "1",
+        },
+        "author": {"@type": "Organization", "name": SITE_NAME, "url": f"{SITE_URL}/index.html"},
+        "publisher": {"@type": "Organization", "name": SITE_NAME},
+    }
+    graph_scripts = [_script(review_schema)]
+    if rev.get("faq"):
+        faqpage = {
+            "@context": "https://schema.org", "@type": "FAQPage",
+            "mainEntity": [
+                {"@type": "Question", "name": qa["q"], "acceptedAnswer": {"@type": "Answer", "text": qa["a"]}}
+                for qa in rev["faq"]
+            ],
+        }
+        graph_scripts.append(_script(faqpage))
+    breadcrumb = {
+        "@context": "https://schema.org", "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Home", "item": f"{SITE_URL}/index.html"},
+            {"@type": "ListItem", "position": 2, "name": "Reviews", "item": f"{SITE_URL}/reviews/index.html"},
+            {"@type": "ListItem", "position": 3, "name": rev["headline"], "item": page_url},
+        ],
+    }
+    graph_scripts.append(_script(breadcrumb))
+    return "\n".join(graph_scripts)
+
+def review_body(rev, depth=1):
+    prefix = "../" if depth else ""
+    t = rev["tool"]
+    tool_link = f'{prefix}tools/{t["slug"]}.html'
+
+    hero_image_html = ""
+    if rev.get("hero_image"):
+        hero_image_html = f"""
+<section class="container section narrow" style="padding-top:0;">
+  <figure class="review-hero-shot reveal">
+    <img src="{prefix}assets/images/{rev['hero_image']}" alt="{rev.get('hero_image_alt', t['name'] + ' website screenshot')}" loading="lazy" width="1400" height="762">
+    <figcaption class="muted small">{t['name']}'s website &mdash; <a href="{t['url']}" target="_blank" rel="noopener sponsored">visit {t['name']} <span class="arrow">&rarr;</span></a></figcaption>
+  </figure>
+</section>
+"""
+
+    factor_rows = "".join(
+        f'<tr><td>{rf["factor"]}</td><td class="rt-score">{rf["rating"]}/5</td><td>{rf["why"]}</td></tr>'
+        for rf in rev["rating_factors"]
+    )
+
+    sections_html = ""
+    for s in rev["sections"]:
+        sections_html += f'<h2 class="reveal">{s["h2"]}</h2>'
+        sections_html += "".join(f'<p class="reveal">{p}</p>' for p in s["paragraphs"])
+        if s.get("items"):
+            sections_html += '<div class="feat-list">' + "".join(
+                f'<div class="feat-row reveal" style="transition-delay:{stagger(i,6,0.05)}s"><div class="feat-num">{str(i+1).zfill(2)}</div><div><h4>{it["title"]}</h4><p class="muted">{it["desc"]}</p></div></div>'
+                for i, it in enumerate(s["items"])
+            ) + '</div>'
+        if s.get("paragraphs_after"):
+            sections_html += "".join(f'<p class="reveal">{p}</p>' for p in s["paragraphs_after"])
+
+    faq_html = "".join(
+        f'<div class="faq-item reveal" style="transition-delay:{stagger(i,6,0.05)}s"><h4>{qa["q"]}</h4><p class="muted">{qa["a"]}</p></div>'
+        for i, qa in enumerate(rev["faq"])
+    )
+
+    other_reviews = [r for r in REVIEWS if r["slug"] != rev["slug"]]
+    other_html = "".join(
+        f'<a class="alt-card reveal tilt" href="{prefix}reviews/{r["slug"]}.html" style="transition-delay:{stagger(i)}s">'
+        f'<h4>{r["tool"]["name"]} review</h4><p class="muted">{r["tool"]["tagline"]}</p><span class="text-link">Read review <span class="arrow">&rarr;</span></span></a>'
+        for i, r in enumerate(other_reviews)
+    )
+
+    return f"""
+<section class="container section narrow page-hero">
+  <div class="breadcrumb reveal">
+    <a href="{prefix}index.html">Home</a> <span>/</span>
+    <a href="{prefix}reviews/index.html">Reviews</a> <span>/</span>
+    <span>{t['name']}</span>
+  </div>
+  <div class="kicker reveal">Review</div>
+  <h1 class="reveal" style="transition-delay:.08s">{rev['headline']}</h1>
+  <p class="hero-sub-left reveal" style="transition-delay:.16s">{rev['subheadline']}</p>
+</section>
+
+{hero_image_html}
+
+<section class="container section narrow" style="padding-top:0;">
+  <div class="verdict-box review-verdict reveal">
+    <div class="review-score-badge"><span class="review-score-num">{rev['overall_rating']}</span><span class="muted">/5</span></div>
+    <div>
+      <span class="winner-tag">Our verdict</span>
+      <p>{rev['verdict']}</p>
+    </div>
+  </div>
+</section>
+
+<section class="container section" style="padding-top:0;">
+  <h2 class="reveal">{t['name']} rating breakdown</h2>
+  <div class="table-wrap reveal">
+    <table class="compare-table rating-table">
+      <thead><tr><th>Factor</th><th>Rating</th><th>Why</th></tr></thead>
+      <tbody>{factor_rows}</tbody>
+    </table>
+  </div>
+</section>
+
+<section class="container section narrow" style="padding-top:0;">
+  <div class="callout reveal">
+    <div class="callout-label">Best for</div>
+    <p>{rev['best_for']}</p>
+  </div>
+</section>
+
+<section class="container section narrow" style="padding-top:0;">
+  {sections_html}
+</section>
+
+<section class="container section narrow" style="padding-top:0;">
+  <h2 class="reveal">Frequently asked questions</h2>
+  <div class="faq-list">{faq_html}</div>
+</section>
+
+<section class="container section narrow" style="padding-top:0;">
+  <div class="verdict-box reveal">
+    <span class="winner-tag">Bottom line</span>
+    <p>{rev['bottom_line']}</p>
+  </div>
+</section>
+
+{f'''<section class="container section" style="padding-top:0;">
+  <h2 class="reveal">More brand reviews</h2>
+  <div class="alt-grid">{other_html}</div>
+</section>''' if other_html else ''}
+
+<section class="container section cta-band reveal">
+  <h2>Try {t['name']} yourself</h2>
+  <p class="muted">{rev['best_for']}</p>
+  <a href="{t['url']}" target="_blank" rel="noopener sponsored" class="btn btn-primary magnetic">Visit {t['name']} <span class="arrow">&rarr;</span></a>
+  <p class="muted small" style="margin-top:16px;">See the full <a href="{tool_link}">{t['name']} listing</a> on {SITE_NAME}, including pricing and alternatives.</p>
+</section>
+"""
+
+for rev in REVIEWS:
+    body = review_body(rev, depth=1)
+    with open(os.path.join(REVIEWS_DIR, f"{rev['slug']}.html"), "w") as f:
+        f.write(page(f"{rev['meta_title']} – {SITE_NAME}", rev["meta_description"], body, depth=1, extra_head=review_jsonld(rev), url_path=f"reviews/{rev['slug']}.html"))
+
+def reviews_index_body(depth=1):
+    prefix = "../" if depth else ""
+    cards = "".join(
+        f'''<article class="tool-card reveal tilt" style="transition-delay:{stagger(i)}s">
+  <div class="tool-card-top">
+    <h3><a href="{prefix}reviews/{r['slug']}.html">{r['tool']['name']}</a></h3>
+    <span class="cat-label">{r['overall_rating']}/5</span>
+  </div>
+  <p class="tool-tagline">{r['tool']['tagline']}</p>
+  <p class="tool-desc">{r['subheadline']}</p>
+  <div class="card-actions">
+    <a class="btn btn-primary magnetic" href="{prefix}reviews/{r['slug']}.html">Read review <span class="arrow">&rarr;</span></a>
+    <a class="text-link" href="{r['tool']['url']}" target="_blank" rel="noopener sponsored">Visit site <span class="arrow">&rarr;</span></a>
+  </div>
+</article>'''
+        for i, r in enumerate(REVIEWS)
+    )
+    return f"""
+<section class="container section narrow page-hero">
+  <div class="kicker reveal">Reviews</div>
+  <h1 class="reveal" style="transition-delay:.08s">In-depth brand reviews</h1>
+  <p class="hero-sub-left reveal" style="transition-delay:.16s">Independently researched, detailed reviews of the brands and tools listed on {SITE_NAME} &mdash; founder background, what the product actually does, real results, pricing caveats, and an honest verdict.</p>
+</section>
+
+<section class="container section" style="padding-top:0;">
+  <div class="tool-grid">{cards}</div>
+</section>
+"""
+
+reviews_index_html = reviews_index_body(depth=1)
+with open(os.path.join(REVIEWS_DIR, "index.html"), "w") as f:
+    f.write(page(f"Reviews – In-Depth Brand Reviews – {SITE_NAME}", f"Independently researched, in-depth reviews of the brands and AI tools listed on {SITE_NAME}, with honest verdicts, ratings and pricing caveats.", reviews_index_html, depth=1, url_path="reviews/index.html"))
+
 # ---------- about page ----------
 
 about_body = f"""
@@ -17266,7 +17597,26 @@ a:hover .arrow, button:hover .arrow { transform: translateX(4px); }
 .disclosure { border-top: 1px solid #2A2A32; padding: 22px 24px 36px; }
 .disclosure p { margin: 4px 0; font-size: 0.8rem; }
 
+/* reviews */
+.review-hero-shot { margin: 0 0 8px; background: var(--surface); border: 1px solid var(--line); border-radius: 4px; padding: 8px; }
+.review-hero-shot img { display: block; width: 100%; height: auto; border-radius: 2px; }
+.review-hero-shot figcaption { padding: 12px 6px 4px; font-size: 0.8rem; }
+.review-hero-shot figcaption a { color: var(--gold-dark); font-weight: 600; }
+.review-verdict { display: flex; gap: 24px; align-items: flex-start; }
+.review-score-badge { flex-shrink: 0; display: flex; align-items: baseline; gap: 2px; background: var(--ink); color: #fff; border-radius: 4px; padding: 14px 16px; font-family: 'Fraunces', serif; }
+.review-score-num { font-size: 2rem; font-weight: 500; line-height: 1; }
+.review-score-badge .muted { color: #C9C9CE; font-size: 0.9rem; }
+.rating-table .rt-score { font-weight: 700; color: var(--ink); white-space: nowrap; }
+.review-banner { display: flex; align-items: center; gap: 18px; background: var(--tint); border: 1px solid var(--line); border-radius: 4px; padding: 18px 22px; transition: border-color .25s var(--ease), transform .25s var(--ease); }
+.review-banner:hover { border-color: var(--gold); transform: translateY(-2px); }
+.review-banner-score { flex-shrink: 0; font-family: 'Fraunces', serif; font-size: 1.4rem; color: var(--gold-dark); font-weight: 500; }
+.review-banner-score .muted { font-size: 0.85rem; }
+.review-banner-text { flex: 1; font-size: 0.92rem; color: var(--muted-2); }
+.review-banner-text strong { color: var(--ink); display: block; margin-bottom: 2px; }
+
 @media (max-width: 720px) {
+  .review-verdict { flex-direction: column; }
+  .review-banner { flex-wrap: wrap; }
   .main-nav { position: absolute; top: 68px; left: 0; right: 0; background: var(--surface); flex-direction: column; padding: 18px 24px; border-bottom: 1px solid var(--line); display: none; gap: 16px; }
   .main-nav.open { display: flex; }
   .nav-toggle { display: block; }
@@ -17503,6 +17853,7 @@ _sitemap_entries = [
     _sitemap_url(f"{SITE_URL}/index.html", "1.0", "weekly"),
     _sitemap_url(f"{SITE_URL}/all-tools.html", "0.9", "weekly"),
     _sitemap_url(f"{SITE_URL}/blog/index.html", "0.7", "weekly"),
+    _sitemap_url(f"{SITE_URL}/reviews/index.html", "0.8", "weekly"),
     _sitemap_url(f"{SITE_URL}/about.html", "0.5", "monthly"),
     _sitemap_url(f"{SITE_URL}/submit-tool.html", "0.5", "monthly"),
     _sitemap_url(f"{SITE_URL}/compare.html", "0.7", "monthly"),
@@ -17515,6 +17866,8 @@ for post in BLOG_POSTS:
     _sitemap_entries.append(_sitemap_url(f"{SITE_URL}/blog/{post['slug']}.html", "0.7", "monthly"))
 for comp in MULTI_COMPARISONS:
     _sitemap_entries.append(_sitemap_url(f"{SITE_URL}/blog/{comp['slug']}.html", "0.7", "monthly"))
+for rev in REVIEWS:
+    _sitemap_entries.append(_sitemap_url(f"{SITE_URL}/reviews/{rev['slug']}.html", "0.9", "monthly"))
 
 sitemap_xml = f"""<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -17543,13 +17896,17 @@ for cat in CATEGORIES:
     for t in cat["tools"]:
         _llms_lines.append(f"- [{t['name']}]({SITE_URL}/tools/{t['slug']}.html): {t['tagline']} — {t['pricing']}")
     _llms_lines.append("")
-_llms_lines += ["## Blog", ""]
+_llms_lines += ["## Reviews", ""]
+for rev in REVIEWS:
+    _llms_lines.append(f"- [{rev['headline']}]({SITE_URL}/reviews/{rev['slug']}.html): {rev['meta_description']}")
+_llms_lines += ["", "## Blog", ""]
 for comp in MULTI_COMPARISONS:
     _llms_lines.append(f"- [{comp['title']}]({SITE_URL}/blog/{comp['slug']}.html): {comp['dek']}")
 for post in BLOG_POSTS:
     _llms_lines.append(f"- [{post['title']}]({SITE_URL}/blog/{post['slug']}.html): {post['dek']}")
 _llms_lines += [
     "", "## Other pages", "",
+    f"- [Reviews]({SITE_URL}/reviews/index.html): In-depth, independently researched reviews of the brands listed on {SITE_NAME}.",
     f"- [Blog]({SITE_URL}/blog/index.html): AI tool comparisons across every category, plus PageLens.ai vs other AEO tools.",
     f"- [Compare Tools]({SITE_URL}/compare.html): Interactive tool to compare up to 3 AI tools side by side.",
     f"- [About]({SITE_URL}/about.html): How {SITE_NAME} researches and selects tools.",
