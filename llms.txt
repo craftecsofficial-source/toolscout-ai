@@ -21,6 +21,7 @@ ToolScout is an independently researched directory of AI tools, organized by cat
 - [Design](https://www.toolscout.in/categories/design.html): Generate logos, graphics, UI mockups, and visual assets faster with AI-powered design tools.
 - [No-code/Low-code](https://www.toolscout.in/categories/nocode-lowcode.html): Build apps, websites, backends, and automations without writing code, powered by AI.
 - [Presentations](https://www.toolscout.in/categories/presentations.html): Generate polished slide decks, pitch decks, and infographics from a prompt or outline with AI.
+- [Inventory Management](https://www.toolscout.in/categories/inventory-management.html): Track stock, manage warehouses and automate purchasing with AI-powered inventory tools.
 
 ## Tools
 
@@ -168,6 +169,7 @@ ToolScout is an independently researched directory of AI tools, organized by cat
 - [Diffit](https://www.toolscout.in/tools/diffit.html): Turn any lesson topic into ready-to-teach materials in minutes — Free Basic plan for individual teachers with core generation and export tools (recent resources only); paid Diffit for Schools is a flat-rate annual subscription priced by student enrollment and unlocks unlimited resource history, an admin dashboard, and full export integrations; district-wide licensing is available via custom quote, and free accounts get a temporary trial of premium features.
 
 ### Marketing & SEO
+- [Deepsolv](https://www.toolscout.in/tools/deepsolv.html): Creative decision intelligence for Meta advertising growth teams — Pricing is not published; the company demos and quotes based on ad spend and team size. No self-serve free plan.
 - [Surfer SEO](https://www.toolscout.in/tools/surfer-seo.html): AI-guided on-page content optimization — From $49/mo (Discovery), billed annually — plans up to $299/mo, Enterprise custom
 - [HubSpot AI Tools](https://www.toolscout.in/tools/hubspot-ai-tools.html): AI features (Breeze) across HubSpot's marketing and CRM suite — Free CRM tier; Starter from ~$15-20/mo per seat, Pro/Enterprise scale into hundreds-thousands/mo
 - [Semrush](https://www.toolscout.in/tools/semrush.html): All-in-one SEO, competitive research and AI-search platform — No full free plan (limited free account only); paid plans from $139.95/mo, or $117.33/mo billed annually
@@ -261,6 +263,7 @@ ToolScout is an independently researched directory of AI tools, organized by cat
 - [BrightEdge](https://www.toolscout.in/tools/brightedge.html): Enterprise SEO platform with AI Hyper Cube for AI search — Custom enterprise, credit-based pricing (high five-figures to six-figures annually); contact sales
 
 ### Customer Support
+- [TalkEasy](https://www.toolscout.in/tools/talkeasy.html): AI business calling app with virtual numbers, call summaries and CRM sync — Pro ₹999/month + GST, including 3 hours of daily talktime (additional hours ₹49/hour); Enterprise custom pricing with unlimited talktime and integrations.
 - [Gorgias](https://www.toolscout.in/tools/gorgias.html): AI-powered customer service built natively for Shopify ecommerce — Starter $10/mo (50 tickets) up to Advanced $900/mo (5,000 tickets); AI Agent billed separately at $0.90-$1.00 per resolution; Enterprise custom
 - [LivePerson](https://www.toolscout.in/tools/liveperson.html): Enterprise conversational AI for customer service and messaging — Custom quotes only across Bronze, Silver, and Gold tiers; enterprise contracts commonly range from roughly $40K to $110K+ per year
 - [Ultimate](https://www.toolscout.in/tools/ultimate.html): Enterprise AI agents for support, now part of Zendesk — No public self-serve pricing; custom enterprise quotes via Zendesk, billed per automated resolution ($1.50-$2.00) on top of a Zendesk Suite subscription
@@ -280,6 +283,7 @@ ToolScout is an independently researched directory of AI tools, organized by cat
 - [Lacy.ai](https://www.toolscout.in/tools/lacy-ai.html): AI phone agents that answer, qualify, book, and follow up for service businesses — Plans start from $499/mo, covering deployment, workflow setup, optimization credits, and CRM integrations. Full tier breakdown and per-minute/usage details are not published; you need to contact sales or book a demo for a quote.
 
 ### Business & Sales
+- [GrowEasy](https://www.toolscout.in/tools/groweasy.html): AI-powered lead generation, WhatsApp marketing and CRM built for Indian businesses — Starter ₹999/mo billed annually; Professional ₹9,999/mo billed quarterly; Enterprise ₹99,999/mo billed monthly - plus a managed-marketing fee (5-20% of ad spend depending on tier).
 - [Apollo.io](https://www.toolscout.in/tools/apollo-io.html): Sales intelligence and engagement platform built around a massive B2B contact database — Free plan available; paid plans start around $49/user/month (Basic), with Professional and Custom/Organization tiers adding advanced data, automation, and admin controls.
 - [Ava (by Artisan)](https://www.toolscout.in/tools/ava-by-artisan.html): AI BDR agent that automates prospecting, personalized outreach, and meeting booking — Custom subscription pricing based on outbound volume and features; Artisan does not publish self-serve pricing and sells primarily through sales-assisted annual contracts.
 - [Chorus.ai](https://www.toolscout.in/tools/chorus-ai.html): AI conversation intelligence platform that records and analyzes sales calls for coaching and insights — Custom quote-based pricing, sold as part of ZoomInfo's platform bundles or as an add-on module; not available self-serve
@@ -392,6 +396,9 @@ ToolScout is an independently researched directory of AI tools, organized by cat
 - [SlidesPilot](https://www.toolscout.in/tools/slidespilot.html): AI PowerPoint generator that turns PDFs, Word docs, links, and videos into structured decks — Free tier with signup credits to try the generator; Pro plan around $8/month; Business plan around $20/month per user; exact tiers and page/credit limits are shown on their in-app pricing page.
 - [Text2Infographic](https://www.toolscout.in/tools/text2infographic.html): AI infographic generator that turns text, blogs, or files into shareable visuals in minutes — Free to try with a few signup credits (2 free credits); primary offer is a one-time lifetime access pass for unlimited infographics (around $70, discounted from $120) rather than a recurring subscription.
 - [Business Pitch](https://www.toolscout.in/tools/business-pitch.html): Turn a one-line idea into an investor-ready pitch deck — Freemium: a free plan gives you 3 pitch generations per week, no card required. A paid "Plan" tier exists behind login but the site does not publish its price or feature limits anywhere on the public pages, so budget-conscious users should check current pricing after signing up.
+
+### Inventory Management
+- [Arka Inventory](https://www.toolscout.in/tools/arka-inventory.html): Native Salesforce inventory, purchasing and warehouse management — Inventory $39/user/mo; Inventory + MRP $49/user/mo; Inventory + MRP + Warehouse Management $59/user/mo. Free trial available on all tiers.
 
 ## Blog
 

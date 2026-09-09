@@ -15207,6 +15207,203 @@ CATEGORIES = [
 
 # ---------- data wiring ----------
 
+
+# ---------- Mayank-requested manual additions (Sept 9, 2026) ----------
+# Inserted before the slugify loop so these get slug/cat_slug/category assigned
+# automatically, and inserted at index 0 of their category so they show first.
+
+_DEEPSOLV_TOOL = {"name": "Deepsolv", "tagline": "Creative decision intelligence for Meta advertising growth teams", "desc": "Deepsolv analyzes a brand's own ad performance, competitor creative, and customer feedback to generate ranked weekly test plans for Meta ad campaigns, so growth teams always know which creative to test next instead of guessing.", "pricing": "Pricing is not published; the company demos and quotes based on ad spend and team size. No self-serve free plan.", "url": "https://deepsolv.ai",
+ "tags": ["Ad Creative", "Meta Ads", "Marketing Analytics"],
+ "features": ["Ranked weekly creative test plans based on performance data", "Ad performance analysis across CTR, CPC, ROAS and audience fatigue", "Continuous competitor ad tracking - hooks, offers and formats", "Customer insight mining from reviews, DMs, comments and Reddit", "\"Brand Brain\" memory of past creative tests and outcomes", "Test / iterate / stop recommendations for each active creative"],
+ "pros": ["Turns scattered ad, competitor and customer data into one ranked action list instead of a raw dashboard", "Competitor tracking and customer-insight mining go beyond standard ad-performance reporting", "Reports 500+ brands on the platform, including known D2C names such as Pilgrim and The Pant Project"],
+ "cons": ["No public pricing, so cost has to be requested before evaluating fit", "Purpose-built for Meta advertising rather than a cross-platform (Google, TikTok) creative tool", "Limited independent third-party review coverage so far"],
+ "best_for": "Meta-focused D2C brands and performance-marketing agencies running frequent creative tests that want a ranked, data-backed plan for what to test next instead of guessing.",
+ "deep": {
+    "overview": "Deepsolv is a creative decision intelligence platform built specifically for teams running paid growth on Meta (Facebook and Instagram). Rather than another analytics dashboard that shows what already happened, it is built to answer the question growth teams actually face next - what to test - by combining a brand's own ad performance history with continuously updated competitor creative data and aggregated customer feedback pulled from reviews, DMs, comments and forums like Reddit.\n\nIts \"Brand Brain\" keeps a running memory of what a brand has already tried and what worked or failed, so recommendations build on a brand's own testing history rather than generic best practices. The company reports over 500 brands use the platform, with case studies citing results such as 4.5x+ ROAS and a 38% increase in ad spend efficiency for clients including Pilgrim, Ghar Soaps, The Pant Project, Hair Originals and NexTen Brands.",
+    "features_detailed": [
+      {"title": "Ranked Weekly Test Plans", "desc": "Surfaces the highest-confidence creative experiments to run next, ranked by expected impact rather than left as an unprioritized backlog."},
+      {"title": "Performance Analysis", "desc": "Continuously evaluates live and past ad performance - CTR, CPC, ROAS, conversion rate and audience fatigue - to flag which creatives are winning, plateauing or declining."},
+      {"title": "Competitor Ad Tracking", "desc": "Monitors competitor Meta ads on an ongoing basis, surfacing their hooks, offers, formats and messaging changes as they happen."},
+      {"title": "Customer Insight Mining", "desc": "Aggregates reviews, DMs, comments and Reddit discussions into concrete creative angles and messaging ideas grounded in real customer language."},
+      {"title": "Brand Brain", "desc": "Retains a history of a brand's own past creative tests and outcomes so new recommendations build on what has already been learned rather than repeating dead ends."},
+      {"title": "Test / Iterate / Stop Recommendations", "desc": "Classifies each active creative as worth testing further, worth iterating on, or worth stopping, turning raw performance data into a clear next action."}
+    ],
+    "pricing_plans": [
+      {"name": "Custom", "price": "Not publicly disclosed", "billing": "Book a demo; pricing quoted based on ad spend and team size", "features": ["Ranked weekly creative test plans", "Ad performance and competitor tracking", "Customer insight mining", "Brand Brain historical memory"]}
+    ],
+    "pros_expanded": [
+      "Consolidates ad performance, competitor creative and customer-feedback research into one ranked action list, cutting down the manual analyst work growth teams usually do across spreadsheets and separate tools",
+      "The Brand Brain concept means recommendations account for a specific brand's own testing history rather than repeating generic creative advice",
+      "Customer-insight mining from reviews, DMs and Reddit is a differentiator most Meta ad-analytics tools don't offer",
+      "Case studies citing 4.5x+ ROAS and a 38% spend-efficiency increase, plus 500+ brands on the platform, suggest real traction with D2C advertisers"
+    ],
+    "cons_expanded": [
+      "Pricing is fully custom and not published anywhere on the site, making it harder to shortlist against competitors without booking a call",
+      "Focused specifically on Meta; brands running significant budget on Google, TikTok or programmatic will need separate tools for those channels",
+      "As a newer entrant, it doesn't yet have a public track record on review platforms like G2 or Capterra to independently verify satisfaction at scale",
+      "Case-study results (ROAS, spend efficiency) are self-reported by the company rather than independently audited"
+    ],
+    "who_for": "Deepsolv is built for Meta growth teams at D2C and consumer brands, and the agencies managing paid social for several such brands, particularly once ad spend is high enough that manual creative-testing decisions become a bottleneck. It's a weaker fit for brands without an active Meta ad program, or teams that need one tool covering creative intelligence across multiple ad platforms rather than Meta specifically.",
+    "faq": [
+      {"q": "What exactly does Deepsolv do?", "a": "It analyzes a brand's Meta ad performance, competitor ads and customer feedback, then produces a ranked weekly plan of which creatives to test, iterate on, or stop."},
+      {"q": "Does Deepsolv create the ad creative itself?", "a": "Deepsolv is focused on the decision layer - what to test and why - based on data, rather than being a generative ad-creative production tool."},
+      {"q": "How much does Deepsolv cost?", "a": "Pricing isn't published; the company quotes based on ad spend and team size after a demo."},
+      {"q": "Which platforms does Deepsolv cover?", "a": "Deepsolv is purpose-built for Meta advertising (Facebook and Instagram); it does not currently cover Google, TikTok or other ad platforms."},
+      {"q": "Who uses Deepsolv?", "a": "The company reports 500+ brands on the platform, including D2C names such as Pilgrim, Ghar Soaps and The Pant Project, plus performance-marketing agencies."}
+    ],
+    "reviews": {"summary": "Deepsolv has not yet built up a public review base on major platforms like G2 or Capterra. What's available is company-published: brand logos and case-study figures (such as 4.5x+ ROAS and a 38% spend-efficiency increase) from clients including Pilgrim, Ghar Soaps and The Pant Project, cited on Deepsolv's own site rather than an independent review platform.", "praise": ["Vendor-reported case studies citing 4.5x+ ROAS and 38% ad spend efficiency gains", "500+ brands reported on the platform, including recognizable D2C names"], "complaints": ["No independent G2, Capterra or Trustpilot rating volume found to verify satisfaction at scale", "Pricing is not disclosed, so cost-to-value can't be assessed before a sales conversation"]}
+ }}
+
+_GROWEASY_TOOL = {"name": "GrowEasy", "tagline": "AI-powered lead generation, WhatsApp marketing and CRM built for Indian businesses", "desc": "GrowEasy is an all-in-one growth platform combining lead-generation ad management, WhatsApp Business API marketing, AI voice calling and a lightweight CRM, built for small and mid-size businesses across India.", "pricing": "Starter ₹999/mo billed annually; Professional ₹9,999/mo billed quarterly; Enterprise ₹99,999/mo billed monthly - plus a managed-marketing fee (5-20% of ad spend depending on tier).", "url": "https://groweasy.ai",
+ "tags": ["Lead Generation", "WhatsApp Marketing", "CRM"],
+ "features": ["Lead-generation ad management, on GrowEasy ad accounts or your own", "WhatsApp Business API campaigns and automated messaging on every plan", "Built-in CRM for tracking and managing lead records", "AI voice agents for calling and lead follow-up (Professional tier and above)", "Telephony / virtual business number add-ons for sales teams", "AI-generated UGC-style ad videos (Professional tier and above)"],
+ "pros": ["Bundles lead-gen ads, WhatsApp marketing, calling and CRM into one subscription instead of several separate tools", "Managed ad-spend fee drops from 20% to 5% as customers move up tiers, rewarding scale", "Serves 2,000+ businesses across India, per the company, with pricing built around Indian SMB budgets"],
+ "cons": ["Entry Starter plan excludes AI agents and UGC videos, and caps the CRM at 1,000 lead records", "Managed marketing carries an ad-spend-based fee on top of the subscription price, which needs separate budgeting", "No independent G2/Capterra rating volume found yet to verify satisfaction at scale"],
+ "best_for": "Small and mid-size Indian businesses - real estate, clinics, dealerships and local services - that want lead generation, WhatsApp outreach, AI calling and a CRM in one subscription instead of stitching together separate tools.",
+ "deep": {
+    "overview": "GrowEasy positions itself as an AI-powered lead generation and automation platform for the Indian SMB market, reporting over 2,000 businesses on the platform. Rather than selling ad management, WhatsApp marketing, calling and a CRM as separate products, GrowEasy bundles them into tiered plans so a business can run its whole lead-to-conversion funnel from one dashboard - a lead comes in through an ad, is logged in GrowEasy's CRM, followed up over WhatsApp Business API, and, on higher tiers, called and summarized by an AI voice agent.\n\nThe product's calling layer runs under its own brand, TalkEasy (talk.groweasy.ai), which can be used as part of a GrowEasy subscription or evaluated as a standalone virtual-number and AI-calling product. GrowEasy's pricing is structured around the Indian market specifically, with plans quoted in rupees and a managed-marketing fee that scales down as a business's ad spend and plan tier increase.",
+    "features_detailed": [
+      {"title": "Lead Generation Ad Management", "desc": "Runs and manages lead-generation ad campaigns, on GrowEasy's own ad accounts (Starter) or a business's connected accounts (Professional and up)."},
+      {"title": "WhatsApp Business API Marketing", "desc": "Sends WhatsApp campaigns and automated follow-up messages through the official WhatsApp Business API, included on every plan."},
+      {"title": "Built-in CRM", "desc": "Tracks and manages lead records in one place, scaling from 1,000 records on Starter up to 500,000 on Enterprise."},
+      {"title": "AI Voice Agents", "desc": "Automates lead follow-up calls and qualification with AI agents, available from the Professional plan upward."},
+      {"title": "Telephony / TalkEasy Add-on", "desc": "Adds a virtual business number, call handling and call analytics through GrowEasy's TalkEasy product, available as an add-on across plans."},
+      {"title": "AI UGC Video Ads", "desc": "Generates UGC-style ad video content (billed per video) for use in ad campaigns, available on Professional and Enterprise plans."}
+    ],
+    "pricing_plans": [
+      {"name": "Starter", "price": "₹999/mo", "billing": "Billed annually", "features": ["1,000 CRM lead records", "Unlimited users", "WhatsApp Business API included", "Managed marketing at 20% of ad spend", "GrowEasy ad accounts only", "Telephony available as an add-on"]},
+      {"name": "Professional", "price": "₹9,999/mo", "billing": "Billed quarterly", "features": ["25,000 CRM lead records", "AI voice agents included", "UGC ad videos (₹6,000/video)", "Managed marketing at 15% of ad spend", "Connect your own ad accounts", "Telephony available as an add-on"]},
+      {"name": "Enterprise", "price": "₹99,999/mo", "billing": "Billed monthly", "features": ["500,000 CRM lead records", "AI voice agents included", "UGC ad videos (₹6,000/video)", "Managed marketing at 5% of ad spend", "Custom configuration add-on available", "Telephony available as an add-on"]}
+    ],
+    "pros_expanded": [
+      "Consolidates the full lead-to-conversion loop - ads, CRM, WhatsApp, calling - into one platform and one bill, which is attractive for SMBs that don't want to manage several vendor relationships",
+      "Managed ad-spend fee scales down from 20% at Starter to 5% at Enterprise, so the platform gets proportionally cheaper as a business grows its ad budget",
+      "Unlimited users on every tier removes a common SaaS friction point (per-seat pricing) for growing sales teams",
+      "Rupee-denominated pricing and India-specific positioning (real estate, clinics, dealerships) make it easier to budget against than dollar-priced global tools"
+    ],
+    "cons_expanded": [
+      "The Starter plan is fairly limited - no AI agents, no UGC videos, and a 1,000-record CRM cap - so many businesses will need Professional to get the AI features that differentiate GrowEasy",
+      "The ad-spend-based managed marketing fee (5-20%) is a variable cost on top of the flat subscription and needs separate budgeting versus flat-fee competitors",
+      "GrowEasy shows no filed reviews yet on SourceForge and no independent G2/Capterra rating volume, so third-party validation is limited",
+      "Customization is only available as a paid add-on, and only from the Enterprise tier"
+    ],
+    "who_for": "GrowEasy is built for small and mid-size businesses in India - particularly real estate, clinics, dealerships and local-service businesses - that want lead generation, WhatsApp follow-up, AI calling and a CRM without hiring a martech team or integrating several separate SaaS tools. It's a weaker fit for businesses outside India (pricing and WhatsApp API positioning are India-specific) or teams that already have a mature CRM and just need one point solution.",
+    "faq": [
+      {"q": "What does GrowEasy actually do?", "a": "It's an all-in-one platform for lead-generation ads, WhatsApp Business API marketing, AI voice calling and a CRM, aimed at Indian SMBs."},
+      {"q": "How much does GrowEasy cost?", "a": "Plans run from ₹999/month (Starter) to ₹99,999/month (Enterprise), plus a managed-marketing fee of 5-20% of ad spend depending on tier."},
+      {"q": "Is there a free plan?", "a": "No free plan is listed; the Starter plan is the entry-level paid tier."},
+      {"q": "What is TalkEasy and how does it relate to GrowEasy?", "a": "TalkEasy (talk.groweasy.ai) is GrowEasy's dedicated AI calling and virtual-number product, offered as part of GrowEasy or usable on its own."},
+      {"q": "Do I need my own ad accounts?", "a": "On the Starter plan, campaigns run through GrowEasy's own ad accounts; from Professional upward, you can connect your own ad accounts."},
+      {"q": "How many businesses use GrowEasy?", "a": "The company reports over 2,000 businesses across India use the platform."}
+    ],
+    "reviews": {"summary": "GrowEasy has not yet built up a public review base - its SourceForge listing shows no reviews filed, and no independent G2 or Capterra rating volume was found at the time of this listing. The company's own site cites 2,000+ businesses on the platform, but that figure has not been independently verified through a third-party review platform.", "praise": ["Vendor-reported adoption of 2,000+ Indian businesses", "Bundled pricing that consolidates ads, WhatsApp, calling and CRM into one subscription"], "complaints": ["No filed reviews yet on SourceForge, and no independent G2/Capterra rating volume to verify satisfaction at scale", "Managed marketing fee (percentage of ad spend) is an added variable cost beyond the flat subscription"]}
+ }}
+
+_TALKEASY_TOOL = {"name": "TalkEasy", "tagline": "AI business calling app with virtual numbers, call summaries and CRM sync", "desc": "TalkEasy is GrowEasy's dedicated calling product - a virtual business phone number with AI call handling, automatic call summaries, missed-call automation and a team call-performance dashboard, built for sales teams that don't want to mix personal and business calls.", "pricing": "Pro ₹999/month + GST, including 3 hours of daily talktime (additional hours ₹49/hour); Enterprise custom pricing with unlimited talktime and integrations.", "url": "https://talk.groweasy.ai",
+ "tags": ["Business Calling", "Virtual Number", "Call Analytics"],
+ "features": ["Virtual business number, set up in under 2 minutes, no hardware required", "AI call handling - automated answering and routing, 24/7", "Automatic AI-generated call summaries after every conversation", "Call recording with a team performance dashboard", "Missed-call automation with automatic callbacks and follow-up actions", "Unlimited team members with centralized call visibility and CRM sync"],
+ "pros": ["Live in under 2 minutes with no telephony hardware to buy or configure", "AI call summaries and CRM sync remove manual note-taking after every sales or support call", "Unlimited team members on every plan, unusual for a business-calling product at this price point"],
+ "cons": ["Talktime is metered even on the paid Pro plan (3 hours/day included, then ₹49/hour)", "Enterprise pricing (unlimited talktime, integrations) isn't published and requires a sales conversation", "Early-stage app - limited public review volume on the Google Play Store to independently verify at scale"],
+ "best_for": "Small business, real estate, clinic and dealership sales teams who want a dedicated business number with AI call summaries and CRM-ready call data, without buying separate telephony hardware.",
+ "deep": {
+    "overview": "TalkEasy is the calling product inside the GrowEasy family, built by the same team behind groweasy.ai, and focused specifically on business phone communication rather than the broader lead-gen/CRM/WhatsApp stack GrowEasy sells. Its pitch is straightforward: a professional virtual business number that separates work calls from a personal phone, set up in minutes, with AI doing the busywork around each call - answering when no one's available, summarizing what was discussed, and logging it for the team.\n\nOn the Google Play Store, TalkEasy is listed as \"TalkEasy AI Biz Number, Dialer,\" describing itself as a tool to track sales calls, auto-update CRM and boost team productivity with AI, and it targets small businesses, real estate companies, clinics, dealerships and sales teams specifically. It can be used as a standalone calling app or as the telephony layer inside a full GrowEasy subscription.",
+    "features_detailed": [
+      {"title": "Virtual Business Number", "desc": "Provisions a professional business phone number without any hardware, claimed to be ready to use in under 2 minutes."},
+      {"title": "AI Call Handling", "desc": "Automatically answers and routes calls around the clock, so incoming calls aren't missed when the team is unavailable."},
+      {"title": "AI Call Summaries", "desc": "Generates a concise summary automatically after every conversation, saving reps from manual post-call note-taking."},
+      {"title": "Call Recording & Analytics Dashboard", "desc": "Records calls automatically and surfaces team performance metrics - call volume, duration and outcomes - in a dashboard."},
+      {"title": "Missed-Call Automation", "desc": "Triggers automatic callbacks and follow-up actions when a call is missed, so leads aren't lost to an unanswered phone."},
+      {"title": "Team Management & CRM Sync", "desc": "Supports unlimited team members with centralized call visibility, and auto-updates CRM records from call activity."}
+    ],
+    "pricing_plans": [
+      {"name": "Pro", "price": "₹999/month + GST", "billing": "Monthly", "features": ["3 hours of daily talktime included", "Additional talktime at ₹49/hour", "AI call handling and summaries", "Call recording and analytics dashboard", "Unlimited team members"]},
+      {"name": "Enterprise", "price": "Custom pricing", "billing": "Contact sales", "features": ["Unlimited talktime", "Included integrations", "Priority support", "Custom onboarding for larger sales teams"]}
+    ],
+    "pros_expanded": [
+      "Removes the usual friction of business telephony - no SIM cards, hardware or IT setup required to get a working business number",
+      "AI call summaries plus automatic CRM updates cut down real time reps otherwise spend on manual call logging",
+      "Missed-call automation with automatic callbacks directly addresses a common lead-leakage point for small sales teams",
+      "Unlimited team members on the Pro plan keeps cost predictable as a sales team grows, unlike per-seat calling tools"
+    ],
+    "cons_expanded": [
+      "Talktime is metered on the Pro plan (3 hours/day pooled, then billed per hour), so high-call-volume teams need to budget for overage or move to Enterprise",
+      "Enterprise pricing is not published, so businesses needing unlimited talktime have to go through a sales conversation to get a quote",
+      "As a newer app (100+ installs on Google Play at time of writing), it doesn't yet have a large independent review base to validate reliability at scale",
+      "Tightest fit is with businesses already in or considering the GrowEasy ecosystem; using it purely standalone means missing the ads/WhatsApp/CRM integration that makes the bundle compelling"
+    ],
+    "who_for": "TalkEasy suits small businesses, real estate teams, clinics, dealerships and sales teams that want a dedicated, professional business number with AI-handled overflow calls and automatic call summaries, without buying a separate telephony system. It's a natural add-on for anyone already using GrowEasy for lead generation and CRM, and can also be evaluated as a standalone calling app.",
+    "faq": [
+      {"q": "What is TalkEasy?", "a": "TalkEasy is an AI-powered business calling app - a virtual phone number with automated call handling, AI call summaries and a team analytics dashboard."},
+      {"q": "How is TalkEasy related to GrowEasy?", "a": "TalkEasy is GrowEasy's dedicated calling product, built by the same team and available either as a GrowEasy telephony add-on or as a standalone app."},
+      {"q": "How much does TalkEasy cost?", "a": "The Pro plan is ₹999/month plus GST with 3 hours of daily talktime included (₹49/hour beyond that); Enterprise plans with unlimited talktime are custom-priced."},
+      {"q": "How quickly can I set up a business number?", "a": "The company states a virtual business number can be set up in under 2 minutes, with no additional hardware required."},
+      {"q": "Does TalkEasy work with a CRM?", "a": "Yes, TalkEasy auto-updates CRM records from call activity and syncs with GrowEasy's built-in CRM."}
+    ],
+    "reviews": {"summary": "TalkEasy is early-stage on public review platforms: its Google Play listing (\"TalkEasy AI Biz Number, Dialer\") shows over 100 installs but no visible aggregate star rating or review count yet, and no independent G2/Capterra coverage was found. The app description's core claims - AI call handling, automatic call summaries and CRM sync - match what's described on the talk.groweasy.ai site.", "praise": ["AI call summaries and automatic CRM updates save manual post-call work", "Fast setup with no telephony hardware needed"], "complaints": ["Limited public review volume so far (100+ Google Play installs, no visible rating), making it hard to independently verify reliability at scale", "Talktime is metered on the paid Pro plan rather than unlimited"]}
+ }}
+
+_ARKA_TOOL = {"name": "Arka Inventory", "tagline": "Native Salesforce inventory, purchasing and warehouse management", "desc": "Arka Inventory is a Salesforce-native app for managing stock, purchasing, warehouse operations and manufacturing costs, giving businesses that already run on Salesforce a single system for real-time, multi-location inventory visibility.", "pricing": "Inventory $39/user/mo; Inventory + MRP $49/user/mo; Inventory + MRP + Warehouse Management $59/user/mo. Free trial available on all tiers.", "url": "https://www.arkainventory.com",
+ "tags": ["Inventory Management", "Salesforce", "Warehouse Management"],
+ "features": ["Real-time inventory visibility throughout the sales cycle", "Commit inventory to reserve stock against specific orders", "Automated inventory alerts for low stock and other issues", "Bill of Materials for products built from multiple components", "Lot and serial number tracking with expiry dates", "Manufacturing and kitting workflows", "Forecasting and automated purchase order generation", "Multi-location warehouse management", "Landed cost tracking and custom reports/dashboards"],
+ "pros": ["4.9/5 rating on Salesforce AppExchange (10 reviews), with reviewers highlighting fast, low-friction adoption", "Deep native integration with Salesforce rather than a bolt-on connector or separate system to reconcile", "Modular pricing ladder covers inventory, MRP/manufacturing and warehouse management under one platform"],
+ "cons": ["Only useful to businesses already running on Salesforce as their core system", "AppExchange review volume is still small (10 reviews), so the 4.9/5 rating should be read with that in mind", "Reviewers note Bill of Material setup and PDF/report formatting could be more intuitive"],
+ "best_for": "Growing businesses already built on Salesforce that need multi-location inventory, purchasing, manufacturing and warehouse management without leaving their CRM for a separate ERP system.",
+ "deep": {
+    "overview": "Arka Inventory is an inventory and warehouse management application built natively on the Salesforce platform, aimed at businesses that already run their sales, service or operations through Salesforce and want inventory control in the same system rather than a separate ERP integration. It covers the full stock lifecycle - visibility, commitment, alerts, purchasing, manufacturing and warehousing - through a single, modular product.\n\nThe product is sold in three tiers that layer on capability: a base Inventory tier for stock visibility and operations, an Inventory + MRP tier that adds purchase planning and requisitions for manufacturing-style businesses, and a full Inventory + MRP + Warehouse Management (WHM) tier that adds landed cost visibility and multi-location warehouse operations. It's listed on Salesforce AppExchange, where it holds a 4.9/5 rating, with customer testimonials describing week-long implementation timelines and strong customization support.",
+    "features_detailed": [
+      {"title": "Inventory Visibility", "desc": "Tracks inventory levels and movement throughout the sales cycle, so stock data stays current inside Salesforce rather than a separate system."},
+      {"title": "Commit Inventory", "desc": "Lets teams reserve stock against specific orders to prevent overselling of limited inventory."},
+      {"title": "Inventory Alerts", "desc": "Sends automated notifications when stock hits thresholds or other inventory issues need attention."},
+      {"title": "Bill of Materials", "desc": "Defines products that are assembled from multiple component materials, supporting manufacturing and kitting use cases."},
+      {"title": "Lot & Serial Tracking", "desc": "Tracks inventory by batch/lot, expiry date and individual serial number for traceability and compliance."},
+      {"title": "Forecasting & Purchase Automation", "desc": "Uses demand forecasting to help automate and time purchase orders, reducing manual reordering work."},
+      {"title": "Warehouse Management", "desc": "Supports multi-location warehouse operations, part of the top Inventory + MRP + WHM tier."},
+      {"title": "Landed Cost Tracking", "desc": "Gives full cost visibility on inventory, including freight and other landed costs, alongside custom reports and dashboards."}
+    ],
+    "pricing_plans": [
+      {"name": "Inventory", "price": "$39/user/month", "billing": "Free trial available", "features": ["Inventory visibility and alerts", "Commit inventory to orders", "Barcoding", "Accounting integration"]},
+      {"name": "Inventory + MRP", "price": "$49/user/month", "billing": "Free trial available", "features": ["Everything in Inventory", "Purchase planning", "Requisitions and purchase orders", "Bill of Materials and manufacturing support"]},
+      {"name": "Inventory + MRP + WHM", "price": "$59/user/month", "billing": "Free trial available", "features": ["Everything in Inventory + MRP", "Landed cost tracking", "Multi-location warehouse management", "Custom reports and dashboards"]}
+    ],
+    "pros_expanded": [
+      "Living natively inside Salesforce means inventory data sits alongside sales, service and customer records instead of requiring a separate ERP integration or nightly sync",
+      "A 4.9/5 AppExchange rating and testimonials describing a roughly one-week implementation suggest a comparatively low-friction rollout for a Salesforce-native inventory system",
+      "Modular tiers ($39 to $59/user/month) let businesses start with basic inventory visibility and add manufacturing (MRP) or warehouse management only when they need it",
+      "Covers lot/serial tracking, Bill of Materials and landed cost together, which typically requires stitching multiple point tools outside the Salesforce ecosystem"
+    ],
+    "cons_expanded": [
+      "It's a Salesforce-only solution - businesses running a different CRM/ERP core would need to switch platforms or integrate separately to use it",
+      "The AppExchange review base is still small (10 reviews), so while the 4.9/5 rating is strong, it's based on a limited sample compared to larger inventory platforms",
+      "Reviewers flag that Bill of Material setup takes real training time and isn't fully intuitive out of the box",
+      "Per-user monthly pricing across a larger warehouse or operations team can add up compared to flat-fee inventory tools"
+    ],
+    "who_for": "Arka Inventory is best suited to growing businesses that already run their operations on Salesforce and need real inventory, purchasing, manufacturing or warehouse control without bolting on a separate ERP system. It's a weaker fit for businesses not on Salesforce, or very small operations that don't need multi-location or manufacturing-grade inventory features and would be over-served by the MRP/WHM tiers.",
+    "faq": [
+      {"q": "Does Arka Inventory require Salesforce?", "a": "Yes, Arka Inventory is built natively on the Salesforce platform and is distributed through Salesforce AppExchange."},
+      {"q": "How much does Arka Inventory cost?", "a": "Plans run $39/user/month (Inventory), $49/user/month (Inventory + MRP), and $59/user/month (Inventory + MRP + Warehouse Management), with a free trial on all tiers."},
+      {"q": "What is Arka Inventory's AppExchange rating?", "a": "It holds a 4.9/5 rating from 10 reviews on Salesforce AppExchange at the time of this listing."},
+      {"q": "Does Arka Inventory support manufacturing businesses?", "a": "Yes - the Inventory + MRP tier and above add Bill of Materials, purchase planning and manufacturing/kitting support."},
+      {"q": "Can Arka Inventory manage multiple warehouse locations?", "a": "Yes, multi-location warehouse management is included in the top Inventory + MRP + WHM tier."}
+    ],
+    "reviews": {"summary": "Arka Inventory holds a 4.9/5 rating from 10 reviews on Salesforce AppExchange. Reviewers highlight real-time inventory tracking, seamless integration with tools like E-Way Bill and E-invoicing, responsive customer support, and an interface usable by both technical and non-technical staff. Testimonials from Andrew Bauer (Operations Manager) and the HCPL Hexmoto Manufacturing operations team specifically praise fast, low-friction adoption and strong customization.", "praise": ["Real-time inventory tracking that helps optimize stock levels and reduce wastage", "Seamless integration with E-Way Bill and E-invoicing", "Responsive customer support frequently called out by reviewers", "Adopted effectively within about a week per customer testimonials"], "complaints": ["Bill of Material training can be time-consuming and not very intuitive", "Tedious tab-switching during invoicing workflows", "Requests for improved PDF formatting and more detailed reporting", "Review volume (10 on AppExchange) is still small relative to larger inventory platforms"]}
+ }}
+
+_INVENTORY_CATEGORY = {
+    "slug": "inventory-management",
+    "name": "Inventory Management",
+    "icon": "&#128230;",
+    "short": "Track stock, manage warehouses and automate purchasing with AI-powered inventory tools.",
+    "tools": [_ARKA_TOOL],
+}
+
+_cat_by_slug_for_insert = {c["slug"]: c for c in CATEGORIES}
+_cat_by_slug_for_insert["marketing-seo"]["tools"].insert(0, _DEEPSOLV_TOOL)
+_cat_by_slug_for_insert["business-sales"]["tools"].insert(0, _GROWEASY_TOOL)
+_cat_by_slug_for_insert["customer-support"]["tools"].insert(0, _TALKEASY_TOOL)
+CATEGORIES.append(_INVENTORY_CATEGORY)
+# ---------- end Mayank-requested manual additions ----------
+
+
 def slugify(s):
     return re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
 
