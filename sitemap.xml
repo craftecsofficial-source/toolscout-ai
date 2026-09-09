@@ -631,6 +631,16 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://www.toolscout.in/tools/evosuite.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/summer-engine.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://www.toolscout.in/tools/notion-ai.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -752,6 +762,11 @@
   </url>
   <url>
     <loc>https://www.toolscout.in/tools/read-ai.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/diffit.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -886,6 +901,11 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://www.toolscout.in/tools/chronicle.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://www.toolscout.in/tools/chatgpt.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -1012,6 +1032,11 @@
   </url>
   <url>
     <loc>https://www.toolscout.in/tools/thetawise.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/legesgpt.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -1366,6 +1391,21 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://www.toolscout.in/tools/ideatwister.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/prospectoo.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/vea-ai.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://www.toolscout.in/tools/akkio.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -1472,6 +1512,11 @@
   </url>
   <url>
     <loc>https://www.toolscout.in/tools/datasaur.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/webscrape-ai.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -1747,6 +1792,11 @@
   </url>
   <url>
     <loc>https://www.toolscout.in/tools/text2infographic.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/business-pitch.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
