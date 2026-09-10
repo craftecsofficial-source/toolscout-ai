@@ -35,6 +35,82 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
+  /* hero cursor-reactive particle field (homepage only) */
+  var heroCanvas = document.getElementById('heroCanvas');
+  if (heroCanvas && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    var heroSection = heroCanvas.closest('.hero');
+    var hctx = heroCanvas.getContext('2d');
+    var hParticles = [];
+    var hPointer = { x: 0, y: 0, active: false };
+    var hW = 0, hH = 0, hDPR = Math.min(window.devicePixelRatio || 1, 2);
+    var hCoarse = !window.matchMedia('(pointer: fine)').matches;
+
+    function heroResize() {
+      var rect = heroSection.getBoundingClientRect();
+      hW = rect.width; hH = rect.height;
+      heroCanvas.width = Math.round(hW * hDPR);
+      heroCanvas.height = Math.round(hH * hDPR);
+      heroCanvas.style.width = hW + 'px';
+      heroCanvas.style.height = hH + 'px';
+      hctx.setTransform(hDPR, 0, 0, hDPR, 0, 0);
+      var count = Math.min(90, Math.max(30, Math.round((hW * hH) / 9000)));
+      hParticles = [];
+      for (var i = 0; i < count; i++) {
+        var x = Math.random() * hW, y = Math.random() * hH;
+        hParticles.push({
+          hx: x, hy: y, x: x, y: y,
+          r: 1 + Math.random() * 1.6,
+          phase: Math.random() * Math.PI * 2,
+          speed: 0.006 + Math.random() * 0.008
+        });
+      }
+    }
+
+    if (!hCoarse) {
+      window.addEventListener('mousemove', function (e) {
+        var rect = heroSection.getBoundingClientRect();
+        hPointer.x = e.clientX - rect.left;
+        hPointer.y = e.clientY - rect.top;
+        hPointer.active = hPointer.x >= 0 && hPointer.x <= hW && hPointer.y >= 0 && hPointer.y <= hH;
+      }, { passive: true });
+      heroSection.addEventListener('mouseleave', function () { hPointer.active = false; });
+    }
+
+    var hT = 0;
+    function heroDraw() {
+      hT += 1;
+      hctx.clearRect(0, 0, hW, hH);
+      for (var i = 0; i < hParticles.length; i++) {
+        var p = hParticles[i];
+        var driftX = Math.sin(hT * p.speed + p.phase) * 7;
+        var driftY = Math.cos(hT * p.speed * 0.8 + p.phase) * 7;
+        var tx = p.hx + driftX, ty = p.hy + driftY;
+        if (hPointer.active) {
+          var dx = hPointer.x - p.hx, dy = hPointer.y - p.hy;
+          var dist = Math.sqrt(dx * dx + dy * dy);
+          var radius = 220;
+          if (dist < radius) {
+            var pull = (1 - dist / radius) * 28;
+            var ang = Math.atan2(dy, dx);
+            tx += Math.cos(ang) * pull;
+            ty += Math.sin(ang) * pull;
+          }
+        }
+        p.x += (tx - p.x) * 0.08;
+        p.y += (ty - p.y) * 0.08;
+        hctx.beginPath();
+        hctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+        hctx.fillStyle = 'rgba(176,141,87,0.4)';
+        hctx.fill();
+      }
+      requestAnimationFrame(heroDraw);
+    }
+
+    heroResize();
+    window.addEventListener('resize', heroResize);
+    requestAnimationFrame(heroDraw);
+  }
+
   /* magnetic buttons */
   document.querySelectorAll('.magnetic').forEach(function (el) {
     el.addEventListener('mousemove', function (e) {
