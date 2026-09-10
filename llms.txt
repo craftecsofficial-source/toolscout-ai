@@ -414,6 +414,7 @@ ToolScout is an independently researched directory of AI tools, organized by cat
 
 - [DeepSolv Review: The Creative Intelligence Platform Turning Guesswork Into a Ranked Test Plan](https://www.toolscout.in/reviews/deepsolv.html): DeepSolv (Adam) helps performance marketing and creative teams turn competitor ads, customer signals, and past performance into a ranked weekly test plan. Here's what makes it work, who it's for, and where it falls short.
 - [TalkEasy Review: The AI Business Phone App That Turns Every Call Into a Tracked, Summarized Business Asset](https://www.toolscout.in/reviews/talkeasy.html): TalkEasy gives businesses a virtual number, AI call summaries, and team call analytics in one app — built by the team behind GrowEasy's AI CRM. Here's what makes it work.
+- [PageLens Review: The AI Search Platform That Doesn't Just Track Your Visibility — It Fixes It](https://www.toolscout.in/reviews/pagelens-ai.html): PageLens tracks how ChatGPT, Claude, Gemini, and Perplexity describe your brand — then writes, publishes, and pitches the content needed to change the answer. Here's what makes it work.
 
 ## Blog
 
