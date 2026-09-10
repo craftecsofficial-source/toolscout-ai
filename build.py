@@ -15507,6 +15507,91 @@ REVIEWS = [
         ],
         "bottom_line": "DeepSolv brings a rare combination to the ad-tech space: founders with real prior startup success (a Flipkart pedigree and an exited company behind them), a product that goes beyond dashboards into genuine reasoning and prioritisation, and a client list that already spans hundreds of brands and agencies — including one of the world's largest marketing agencies. For any performance marketing or creative team tired of guessing which ad to test next, DeepSolv's Adam offers a genuinely differentiated way to turn competitor data, customer signals, and past performance into a clear, ranked plan of action.",
     },
+    {
+        "slug": "talkeasy",
+        "tool_name": "TalkEasy",
+        "meta_title": "TalkEasy Review: The AI Business Phone App Built for Growing Sales Teams",
+        "meta_description": "TalkEasy gives businesses a virtual number, AI call summaries, and team call analytics in one app — built by the team behind GrowEasy's AI CRM. Here's what makes it work.",
+        "headline": "TalkEasy Review: The AI Business Phone App That Turns Every Call Into a Tracked, Summarized Business Asset",
+        "subheadline": "Built by the team behind GrowEasy's AI CRM, TalkEasy gives growing businesses a virtual number, AI call summaries, and full team call visibility — already trusted by 2,500+ businesses.",
+        "date": "2026-09-10",
+        "hero_image": "talkeasy-hero.jpg",
+        "hero_image_alt": "Screenshot of the TalkEasy homepage hero section",
+        "overall_rating": 4.5,
+        "verdict": "TalkEasy tackles a problem every growing business runs into: customer calls scattered across personal phones, with no recording, no tracking, and no way to know what actually happened on a call. It replaces that chaos with a single AI-powered business phone app — a virtual number, automatic call summaries, recordings, and real-time team analytics — all set up in under two minutes. It's built by GrowEasy, an AI CRM platform already trusted by 2,000+ businesses across India, which shows in how tightly TalkEasy is designed around how Indian sales and support teams actually work.",
+        "rating_factors": [
+            {"factor": "Founder & company credibility", "rating": 4.7, "why": "Built by GrowEasy, backed by StartupLift, Build3 Impact Accelerator, and the IIM Lucknow-linked Mediatech Accelerator; founders are alumni of INDmoney, 5paisa, ShopClues, Goibibo, and Oracle."},
+            {"factor": "Product depth", "rating": 4.5, "why": "Virtual numbers, AI call summaries, call recording, missed-call automation, and AI voice agents — not just a dialer."},
+            {"factor": "Ease of setup", "rating": 4.6, "why": "Live in under 2 minutes, no hardware, no IT team, transparent pricing with no hidden charges."},
+            {"factor": "Team visibility", "rating": 4.4, "why": "One dashboard for call recordings, transcripts, and real-time performance analytics across the whole team."},
+        ],
+        "best_for": "Sales and support teams — real estate firms, coaching institutes, clinics, dealerships, and service businesses — that want every customer call captured, recorded, and turned into a usable business record instead of living and dying on someone's personal phone.",
+        "sections": [
+            {
+                "h2": "What Is TalkEasy?",
+                "paragraphs": [
+                    "TalkEasy is an AI-powered business phone app and virtual number platform built for growing businesses that can't afford to lose track of a customer call. It's the calling-focused product from GrowEasy, an AI CRM platform already trusted by 2,000+ businesses across India for lead generation, WhatsApp marketing, and sales automation — so TalkEasy inherits a team that has already spent years solving business-communication problems for Indian sales teams.",
+                    "The pitch is straightforward: give every team member a professional virtual business number instead of using their personal phone, then let AI do the busywork — call summaries, recordings, missed-call follow-ups, and performance analytics — automatically, in one dashboard. TalkEasy is already handling 5,000+ business calls daily, with 24×7 AI call handling and 100% business call tracking, and is trusted by 2,500+ businesses.",
+                ],
+            },
+            {
+                "h2": "The Team Behind It",
+                "paragraphs": [
+                    "TalkEasy is built by GrowEasy (operated by AUTOTME Software Private Limited), co-founded by Tej Pandya (CEO), previously at INDmoney, 5paisa, and ShopClues, and Varun Kumar (CTO), previously at INDmoney, Goibibo, and Oracle. That's a founding team with direct experience scaling consumer fintech and e-commerce platforms — exactly the kind of high-volume, operationally demanding environments that make a product like TalkEasy work reliably at scale.",
+                    "GrowEasy has been backed by StartupLift, the Build3 Impact Accelerator, and the Mediatech Accelerator — a joint initiative by IIM Lucknow and Graphisads — and has been featured in the press for securing fresh investment from StartupLift to expand its AI-driven marketing and sales automation platform. That combination of operator pedigree and accelerator backing gives real weight to a product built, as TalkEasy is, for the unglamorous but essential job of making sure no customer call ever falls through the cracks.",
+                ],
+            },
+            {
+                "h2": "What TalkEasy Actually Does",
+                "paragraphs": [
+                    "TalkEasy is built around solving three problems every growing business hits eventually: missed customer calls that quietly go to competitors, no visibility into how the team is actually performing on calls, and no centralized record of what was even said. Its feature set is built directly around fixing all three:",
+                ],
+                "items": [
+                    {"title": "Virtual Business Number", "desc": "A professional business number without expensive hardware or complicated setup."},
+                    {"title": "AI Call Summaries", "desc": "A concise summary generated automatically after every call, so nobody has to write call notes by hand."},
+                    {"title": "Call Recording", "desc": "Every conversation automatically recorded for quality assurance, training, and compliance."},
+                    {"title": "Team Management", "desc": "Invite your team, assign permissions, and monitor performance from one centralized dashboard."},
+                    {"title": "AI Voice Agents", "desc": "Automatically answer calls, collect customer information, and respond around the clock."},
+                    {"title": "Sales Call Analytics", "desc": "Real-time dashboards tracking call volume, duration, response rates, and missed calls."},
+                    {"title": "Missed Call Automation", "desc": "Automatic callbacks, notifications, or follow-up actions the moment a call is missed."},
+                    {"title": "Shared Business Inbox", "desc": "Every customer conversation managed from one place instead of scattered across personal phones."},
+                ],
+                "paragraphs_after": [
+                    "Getting started is deliberately simple: buy a business number, add your team, start receiving calls, and let TalkEasy's AI handle the summaries, analytics, recordings, and performance insights from there — a process the platform says takes under two minutes to set up.",
+                ],
+            },
+            {
+                "h2": "What Customers Say",
+                "paragraphs": [
+                    "TalkEasy's own customers point to the same two things again and again: time saved on manual call review, and leads that no longer slip through the cracks.",
+                    "“The AI summaries and analytics help us coach our team better. We save 10+ hours every week on call reviews.” — Rohit Sharma, Business Owner",
+                    "“We stopped losing leads to missed calls. Every enquiry now gets a callback the same day, automatically.” — Priya Mehta, Business Owner",
+                    "“Setting up numbers for the whole sales floor took an afternoon. The shared inbox alone was worth it.” — Nidhi Singh, Business Owner",
+                ],
+            },
+            {
+                "h2": "Pricing",
+                "paragraphs": [
+                    "TalkEasy keeps its pricing transparent and straightforward, with two tiers built for different stages of growth. TalkEasy Pro is ₹999 + GST/month, built for startups and growing businesses looking to scale communication — it includes 3 hours/day of talktime (with additional talktime at ₹49 + GST/hour), unlimited contacts, AI call assist, call recording and history, team management, an analytics dashboard, and unlimited users. TalkEasy Enterprise is custom-priced for established businesses and high call-volume teams, and includes everything in Pro plus unlimited talktime and custom CRM integration for teams that need TalkEasy woven directly into their existing systems.",
+                    "Both plans come with no hidden charges, enterprise-grade secure cloud calling, the ability to scale talktime up or down as the business grows, and no long-term lock-in — you can cancel anytime.",
+                ],
+            },
+            {
+                "h2": "Where TalkEasy Falls Short",
+                "paragraphs": [
+                    "No review is complete without the caveats. TalkEasy's Pro plan meters talktime at 3 hours a day, with overage billed by the hour — fine for most sales floors, but a team running heavy outbound volume will likely need to size up to Enterprise sooner than the ₹999 headline price suggests, and Enterprise pricing isn't published. The customer quotes above are vendor-selected rather than independently sourced, and TalkEasy doesn't offer a self-serve free trial, so you can't test the AI summaries or call quality without committing to a paid plan first. It's also squarely built for the Indian market — UPI/card/netbanking billing and India-specific call-recording consent rules — so it's not a fit for businesses operating primarily outside India.",
+                ],
+            },
+        ],
+        "faq": [
+            {"q": "What is a virtual business number?", "a": "A virtual business number is a cloud phone number that works on the TalkEasy app instead of a SIM card or desk phone. Your team makes and receives calls on it from anywhere, and every call is tracked, recorded, and reported in one dashboard."},
+            {"q": "How does AI call summary work?", "a": "After a call ends, TalkEasy transcribes the recording and generates a short summary with the key points, customer intent, and suggested follow-up. Summaries appear in the call details screen within a couple of minutes, so nobody has to write call notes by hand."},
+            {"q": "Can I add unlimited team members?", "a": "Yes. All paid plans include unlimited team members. Invite anyone from the Team Centre, assign them a role, and set call routing rules so incoming calls reach the right person."},
+            {"q": "Is call recording legal?", "a": "Call recording is legal in India when callers are informed that the call is being recorded. TalkEasy plays an announcement at the start of every recorded call, and recordings are stored encrypted with access limited to the admins you choose."},
+            {"q": "How do I buy talktime?", "a": "Open Buy Talktime in the app, choose a pack, and pay by UPI, card, or netbanking. Talktime is credited instantly and an invoice is saved to your account."},
+        ],
+        "bottom_line": "TalkEasy brings something genuinely useful to a problem most growing businesses underestimate: how much revenue quietly leaks away through missed calls and untracked conversations. Backed by GrowEasy's team — founders with real operating experience at INDmoney, 5paisa, ShopClues, Goibibo, and Oracle, and accelerator backing from StartupLift and IIM Lucknow's Mediatech program — TalkEasy turns every business call into a tracked, recorded, AI-summarized asset instead of a conversation that lives and dies on someone's personal phone. With transparent pricing, a two-minute setup, and 2,500+ businesses already relying on it to handle 5,000+ calls a day, it's a strong, well-built choice for any sales or support team ready to stop losing leads to missed calls.",
+    },
 ]
 
 for _rev in REVIEWS:
