@@ -14,6 +14,7 @@ for d in (ROOT, CAT_DIR, TOOLS_DIR, ASSETS_DIR, ASSETS_IMG_DIR, BLOG_DIR, REVIEW
     os.makedirs(d, exist_ok=True)
 
 SITE_NAME = "ToolScout"
+LOGO_TEXT = "ToolScout.in"
 SITE_TAGLINE = "The quiet way to find the right AI tool"
 SITE_DESC = "ToolScout is a directory that helps you discover, compare and choose the best AI tools for writing, images, video, coding, productivity, marketing, chatbots and audio."
 SITE_URL = "https://www.toolscout.in"
@@ -27,6 +28,7 @@ CATEGORIES = [
         "short": "Draft, edit and scale blog posts, ads and marketing copy with AI.",
         "tools": [
             {"name": "EmailWritr", "tagline": "AI-built email sequences for turning a list into recurring sales", "desc": "EmailWritr is an AI writing tool focused specifically on marketing email sequences rather than one-off messages. It walks a user through their niche, offer, and audience, then assembles a multi-day sequence (welcome flows, launches, promotions, re-engagement, and more) drawing on templated copywriting frameworks instead of a blank AI prompt. The tool is aimed at affiliates, course creators, and online business owners who want sales-oriented email content without hiring a copywriter.", "pricing": "EmailWritr is sold as a subscription with multiple paid tiers (third-party listings document a roughly $29-$49/month Premium/Expert/Enterprise structure) and has also been sold as a one-time lifetime-access deal via AppSumo, which is currently sold out; live tier pricing was not directly visible on the current site during this review, so prospective buyers should confirm current rates on the official pricing page.", "url": "https://emailwritr.com",
+ "hero_image": "emailwritr-hero.jpg", "hero_image_alt": "Screenshot of the EmailWritr homepage hero section",
  "tags": ["Writing", "Email Marketing", "AI Copywriting"],
  "features": ["Generates full multi-day (roughly 5-9 email) marketing sequences from a single setup flow", "Large library of prebuilt templates spanning dozens of industries and niches", "Covers 100+ distinct email types, including welcome series, product launches, promotions, and re-engagement/win-back campaigns", "Multi-language output for reaching non-English-speaking audiences", "Reusable custom templates and saved brand/voice inputs so future sequences stay on-message", "Project dashboard plus integrations with marketing platforms such as VBOUT and Pabbly Connect"],
  "pros": ["Produces structured, framework-based sequences aimed at conversion rather than generic open-ended AI text", "Broad template and email-type coverage reduces the need to write common campaigns from scratch", "Built specifically for affiliates, course creators, and online sellers rather than general-purpose writing"],
@@ -93,6 +95,7 @@ CATEGORIES = [
     ]
  }},
             {"name": "Jasper", "tagline": "AI content platform built for marketing teams", "desc": "Jasper focuses on brand voice and campaign consistency, letting whole marketing teams generate on-brand blog posts, ads and social copy from shared templates.", "pricing": "Pro from $59/mo per seat (billed yearly); Business custom-priced. No free plan.", "url": "https://www.jasper.ai",
+ "hero_image": "jasper-hero.jpg", "hero_image_alt": "Screenshot of the Jasper homepage hero section",
              "tags": ["Content", "Marketing", "Teams"],
              "features": ["Brand voice engine for consistent tone across a team", "Campaign templates for blog, ads and social", "Content workflow and approval tools for marketing teams", "Integrates with Google Docs, WordPress and Surfer SEO"],
              "pros": ["Best for teams needing consistent brand voice at scale", "Strong long-form and SEO content templates", "Deep workflow and collaboration features for marketing orgs"],
@@ -1451,6 +1454,7 @@ CATEGORIES = [
         "short": "Turn text prompts into original art, product shots and illustrations.",
         "tools": [
             {"name": "Xinva", "tagline": "AI-generated artwork for print-on-demand sellers", "desc": "Xinva turns short text prompts into ready-to-print artwork aimed at print-on-demand sellers, with dedicated generators for t-shirts, stickers, patterns, tattoos, and furry-style art. It bundles a background remover and an upscaler so a single prompt can go from concept to a high-resolution, sellable file. The tool is built around commercial licensing and rapid iteration rather than general-purpose fine-art image generation.", "pricing": "Xinva offers a free tier (5 credits/month), one-time credit packs (250 credits for $29, 500 credits for $55, no expiry), and a Premium subscription ($39/month or $239/year) with unlimited v1 credits plus 500 (monthly) or 6,500 (yearly) v2 credits; custom credit packages are available by contacting the Xinva team.", "url": "https://xinva.ai",
+ "hero_image": "xinva-hero.jpg", "hero_image_alt": "Screenshot of the Xinva homepage hero section",
  "tags": ["Image Generation", "Print-on-Demand Design", "T-Shirt & Merch AI"],
  "features": ["Text-to-design generation for print-ready artwork", "Automatic background removal", "Resolution upscaling for high-res print output", "Regenerate function for producing design variations", "Niche-specific generators (t-shirts, stickers, patterns, tattoos, furry art)", "Commercial-use licensing included on paid plans"],
  "pros": ["Purpose-built for print-on-demand workflows (Redbubble, Printify, Printful, Merch by Amazon)", "Free tier with no card required to try before buying", "Commercial usage rights bundled into paid and free plans", "Specialized tools (background remover, upscaler, niche generators) reduce need for extra software"],
@@ -1486,6 +1490,7 @@ CATEGORIES = [
     ]
  }},
             {"name": "Midjourney", "tagline": "AI art generator known for painterly, high-detail images", "desc": "Midjourney is widely regarded as the most visually striking image generator, popular with designers and artists for concept art, illustration and mood boards.", "pricing": "From $10/mo (Basic); no free trial; annual billing saves 20%", "url": "https://www.midjourney.com",
+ "hero_image": "midjourney-hero.jpg", "hero_image_alt": "Screenshot of the Midjourney homepage hero section",
              "tags": ["Art", "Design"],
              "features": ["Painterly, high-detail image generation via Discord or web app", "Version 8.2 model with improved anatomy and prompt coherence", "Image-to-image remix and stealth mode on higher tiers", "Commercial usage rights on all paid plans"],
              "pros": ["Widely regarded as the highest visual quality among image generators", "Deep community and prompt-sharing ecosystem", "Strong for concept art, illustration and mood boards"],
@@ -2556,6 +2561,7 @@ CATEGORIES = [
         "short": "Create video, avatars and B-roll from text or a script.",
         "tools": [
             {"name": "simpleshow", "tagline": "Turn scripts and slides into animated explainer videos with AI", "desc": "simpleshow is an AI-driven video creation platform that converts written content, scripts, or slide decks into short animated explainer videos, complete with automated illustrations, voiceover, and timing. It targets corporate teams handling training, internal communications, sales enablement, HR, and compliance content who need polished explainer videos without production or animation skills. The platform combines a text-to-video engine, AI avatars, and voice-cloning tools with enterprise features like SSO, branding controls, and compliance certifications.", "pricing": "Free plan available with limited monthly renderings and watermarked/non-commercial output; paid Business and Pro tiers unlock commercial use, more avatars, and unlimited/HD rendering (annual billing advertised at 34% and 20% savings respectively, but exact monthly dollar prices are not published on the site and require checkout to view); a free Classroom plan exists for up to 50 students; Enterprise pricing is custom, by quote.", "url": "https://simpleshow.com",
+ "hero_image": "simpleshow-hero.jpg", "hero_image_alt": "Screenshot of the simpleshow homepage hero section",
  "tags": ["Video Generation", "AI Avatar", "Explainer Video"],
  "features": ["Text-to-video script analysis that turns long-form content into a short explainer video script", "AI-generated video scripts from a short questionnaire (Story Generator)", "Automatic illustration and scene selection matched to script content", "AI avatar presenters with voice imitation/cloning across 20+ languages", "PowerPoint slide-to-video conversion with narrated AI avatar overlay", "Corporate branding automation (colors, fonts, logos) plus team collaboration and approval workflows"],
  "pros": ["Low learning curve for producing explainer videos without animation or editing experience", "Strong enterprise controls (SSO, ISO 27001/SOC 2 mentions, branding, custom video builder)", "Multilingual support with one-click translation and voice replication across 40+ languages"],
@@ -2591,6 +2597,7 @@ CATEGORIES = [
     ]
  }},
             {"name": "Runway", "tagline": "Generative video and editing suite for creators", "desc": "Runway's Gen model line produces cinematic video clips from text or images, alongside a full suite of AI-assisted editing tools for creative teams, and also bundles access to third-party models like Veo and Kling.", "pricing": "Free tier (125 one-time credits); paid plans from $12/mo billed yearly ($15/mo monthly)", "url": "https://runwayml.com",
+ "hero_image": "runway-hero.jpg", "hero_image_alt": "Screenshot of the Runway homepage hero section",
              "tags": ["Video", "Editing"],
              "features": ["Multi-model access: Gen-4.5 plus Google Veo 3.1 and Kling 3.0", "Aleph video-to-video editing and Act-Two performance capture", "Motion Brush and Director Mode for precise camera control", "Full editing suite plus API access"],
              "pros": ["Access to multiple leading video models under one subscription", "Preferred for indie film, advertising and enterprise production", "Aleph enables genuine video-editing, not just generation"],
@@ -4126,6 +4133,7 @@ CATEGORIES = [
         "short": "Pair-program, autocomplete and ship code faster with AI.",
         "tools": [
             {"name": "GitHub Copilot", "tagline": "AI pair programmer built into major IDEs", "desc": "Copilot autocompletes code and answers questions directly inside VS Code, JetBrains and other editors, backed by GitHub's deep integration with pull requests and repos.", "pricing": "Free tier available (2,000 completions/mo); Pro $10/mo, Pro+ $39/mo, Business $19/user/mo", "url": "https://github.com/features/copilot",
+ "hero_image": "github-copilot-hero.jpg", "hero_image_alt": "Screenshot of the GitHub Copilot homepage hero section",
              "tags": ["IDE", "Autocomplete"],
              "features": ["Inline autocomplete across VS Code, JetBrains and more", "Agent mode for multi-step, autonomous code changes", "Converts GitHub issues directly into pull requests via cloud agent", "Multi-model access: OpenAI, Anthropic, Google and xAI models"],
              "pros": ["Most accessible entry point at $10/month for unlimited completions", "Works inside almost any major IDE", "Best choice for enterprise teams standardized on GitHub"],
@@ -4184,6 +4192,7 @@ CATEGORIES = [
                 ],
              }},
             {"name": "Cursor", "tagline": "AI-first code editor built for agentic coding", "desc": "Cursor is a fork of VS Code redesigned around AI-driven editing, letting developers describe changes in natural language across an entire codebase.", "pricing": "Free tier (Hobby) available; Pro $20/mo, Pro+ $60/mo, Ultra $200/mo, Teams $40/user/mo", "url": "https://www.cursor.com",
+ "hero_image": "cursor-hero.jpg", "hero_image_alt": "Screenshot of the Cursor homepage hero section",
              "tags": ["IDE", "Agentic"],
              "features": ["Agent Mode plans and executes multi-file edits autonomously, up to 8 in parallel", "Composer interface for fast, reviewable multi-file changes", "Tab completion predicts entire next edits, not just single lines", "Bugbot for automated AI code review on pull requests"],
              "pros": ["Most cohesive daily-driver AI coding experience in developer testing", "Multi-file agentic task quality rated above Copilot's by most reviewers", "Fast iteration loop for feature work"],
@@ -5588,6 +5597,7 @@ CATEGORIES = [
         "short": "Automate busywork and organize your work with AI.",
         "tools": [
             {"name": "Odin AI", "tagline": "Enterprise AI agents that automate cross-system business workflows", "desc": "Odin AI is an enterprise automation platform that lets teams build AI-driven agents (marketed as \"AI employees\") to handle repetitive, multi-step work across departments. Its Autopilot builder turns plain-language instructions into working automations without requiring code, and connects to a large library of business applications to move data and trigger actions between them. The platform is aimed at larger organizations that need automation layered on top of complex, already-existing enterprise software stacks rather than individual users automating personal tasks.", "pricing": "A self-serve Pro plan costs $20 per seat/month; beyond that, Odin AI sells one-time \"Accelerator\" implementation packages ($15,000 for Growth, $30,000 for Scale) and custom enterprise engagements that the site indicates can range roughly from $150,000 to $500,000+, so full pricing generally requires a custom quote.", "url": "https://getodin.ai",
+ "hero_image": "odin-ai-hero.jpg", "hero_image_alt": "Screenshot of the Odin AI homepage hero section",
  "tags": ["Automation", "AI Agents", "Workflow Automation"],
  "features": ["No-code Autopilot builder that turns natural-language prompts into automated workflows", "200+ native integrations with enterprise systems (e.g. Salesforce, SAP, Oracle, ServiceNow, Slack, Microsoft Teams)", "Multi-step, multi-department workflow orchestration across hybrid environments", "Access to multiple underlying AI models with automatic routing and custom LLM configuration", "Shared organizational knowledge base with enterprise search", "SAML/SSO, team-wide privacy controls, and audit logging for enterprise governance"],
  "pros": ["Broad pre-built integration library reduces custom setup work for common enterprise tools", "No-code workflow builder lowers the technical bar for creating automations", "Enterprise-focused security and compliance posture (SOC 2 Type II, HIPAA, GDPR, ISO 27001 referenced)"],
@@ -5622,6 +5632,7 @@ CATEGORIES = [
     ]
  }},
             {"name": "Notion AI", "tagline": "AI writing, Q&A and agent built into your Notion workspace", "desc": "Notion AI drafts, summarizes and answers questions using the content already inside your workspace, and its Notion Agent can complete multi-step tasks grounded in your team's real notes, docs and connected apps.", "pricing": "Free plan available; paid plans from $10/mo per seat (Plus); full Notion AI bundled into Business at $20/mo per seat", "url": "https://www.notion.so/product/ai",
+ "hero_image": "notion-ai-hero.jpg", "hero_image_alt": "Screenshot of the Notion AI homepage hero section",
              "tags": ["Notes", "Workspace"],
              "features": ["Notion Agent completes multi-step tasks using workspace and connected-app context", "AI writing, summarization and Q&A across your workspace", "Enterprise Search across Slack, GitHub, Jira and more (beta)", "AI Meeting Notes without a separate notetaking bot"],
              "pros": ["AI is grounded in your team's real content, not a context-free chatbot", "Notion Agent executes tasks, not just drafts text", "Strong value when bundled with a Notion subscription a team already needs"],
@@ -6922,6 +6933,7 @@ CATEGORIES = [
                 ],
              }},
             {"name": "Semrush", "tagline": "All-in-one SEO, competitive research and AI-search platform", "desc": "Semrush combines keyword research, backlink analysis and competitor tracking with AI-assisted content and site-audit tools in one dashboard, now extending into AI/LLM visibility tracking under its 'Semrush One' positioning.", "pricing": "No full free plan (limited free account only); paid plans from $139.95/mo, or $117.33/mo billed annually", "url": "https://www.semrush.com",
+ "hero_image": "semrush-hero.jpg", "hero_image_alt": "Screenshot of the Semrush homepage hero section",
              "tags": ["SEO", "Competitive research"],
              "features": ["Proprietary database of 25B+ keywords and 43T+ backlinks", "AI Visibility tracking across ChatGPT, Gemini and Perplexity", "Site Audit flagging 140+ technical SEO issues", "Content Marketing Toolkit and competitive traffic estimation"],
              "pros": ["Most comprehensive all-in-one SEO and competitive research platform", "Deep historical data most competitors can't match", "Actively expanding into AI-search visibility tracking (Semrush One)"],
@@ -8053,6 +8065,7 @@ CATEGORIES = [
         "short": "General-purpose AI assistants for research, writing and everyday questions.",
         "tools": [
             {"name": "ChatGPT", "tagline": "OpenAI's general-purpose AI assistant", "desc": "ChatGPT remains the most widely used AI assistant, valued for its versatility across writing, coding, research and image generation in one chat interface.", "pricing": "Free tier available; Go from $8/mo, Plus from $20/mo, Pro from $200/mo", "url": "https://chatgpt.com",
+ "hero_image": "chatgpt-hero.jpg", "hero_image_alt": "Screenshot of the ChatGPT homepage hero section",
              "tags": ["General", "Popular"],
              "features": ["Broadest consumer feature set: Memory, Projects, Custom GPTs, Canvas, Tasks", "Native image generation with an optional 'thinking' mode", "Advanced Voice with live video and Deep Research", "Codex coding agent and largest Custom GPT ecosystem"],
              "pros": ["Highest G2 rating and largest review volume among general assistants", "Most versatile all-in-one feature set: chat, image, voice and coding", "Huge ecosystem of custom GPTs and integrations"],
@@ -9220,6 +9233,7 @@ CATEGORIES = [
         "short": "Generate voiceovers, clone voices and edit audio with AI.",
         "tools": [
             {"name": "CrystalSound", "tagline": "AI noise cancellation and meeting intelligence for cleaner calls", "desc": "CrystalSound is a desktop audio utility that strips background noise from both sides of a call using on-device deep-learning processing, then layers on screen/audio recording and automatic meeting summaries. It installs as a virtual microphone so it can sit in front of Zoom, Google Meet, Teams, Discord, Slack, Loom, OBS, and other apps without needing per-platform integration. A dedicated mode can isolate a single speaker's voice while muting everyone and everything else picked up by the mic.", "pricing": "Offers a free/starter tier plus a paid Premium plan (billed monthly or yearly per user, exact price not published in page content, with a 7-day free trial and a 30-day money-back guarantee), a custom-quote Enterprise tier, and an upcoming Elite tier listed at $228/user/year (pre-signup discount advertised).", "url": "https://crystalsound.ai",
+ "hero_image": "crystalsound-hero.jpg", "hero_image_alt": "Screenshot of the CrystalSound homepage hero section",
  "tags": ["Voice & Audio", "Noise Cancellation", "Meeting Assistant"],
  "features": ["Bi-directional AI noise cancellation using deep neural network audio processing", "\"My Voice Only\" mode that isolates the primary speaker and filters out other participants", "Works as a universal virtual microphone across Zoom, Meet, Teams, Discord, Slack, Skype, Loom, and OBS", "On-device audio processing designed to avoid sending call audio off the local machine", "Screen and bidirectional call recording for meetings", "Automatic meeting summaries, keyword extraction, and performance analytics on paid tiers"],
  "pros": ["Platform-agnostic — works underneath essentially any app that accepts a microphone input rather than requiring native plugins", "On-device processing model appeals to privacy-conscious teams who don't want raw call audio leaving the machine", "Free/starter tier plus a trial on Premium let users test noise cancellation before paying", "Bundles noise cleanup with recording and meeting-insight features instead of solving only one problem"],
@@ -9254,6 +9268,7 @@ CATEGORIES = [
     ]
  }},
             {"name": "ElevenLabs", "tagline": "Widely used AI voice generation and cloning platform", "desc": "ElevenLabs is considered one of the most realistic text-to-speech and voice-cloning tools available, used for audiobooks, dubbing, voiceovers and increasingly conversational voice agents.", "pricing": "Free tier (10k credits/mo, no commercial rights); Starter from $6/mo ($5/mo billed yearly)", "url": "https://elevenlabs.io",
+ "hero_image": "elevenlabs-hero.jpg", "hero_image_alt": "Screenshot of the ElevenLabs homepage hero section",
              "tags": ["Voice cloning", "TTS"],
              "features": ["Wide, emotionally expressive voice library across 30+ languages", "Instant and Professional Voice Cloning with commercial rights from Starter", "ElevenAgents for low-latency, voice-to-voice conversational AI", "Dubbing Studio, sound effects and music generation"],
              "pros": ["Best entry price (~$6/mo) for professional-grade voice generation", "Excels at emotional range and voice realism", "Single platform spans TTS, cloning, dubbing, sound effects and voice agents"],
@@ -10099,6 +10114,7 @@ CATEGORIES = [
         "short": "Track and improve how your brand appears in ChatGPT, Perplexity and other AI answers.",
         "tools": [
             {"name": "Profound", "tagline": "Enterprise-grade analytics for AI search visibility", "desc": "Profound is an AI answer engine optimization platform that tracks how brands appear across ChatGPT, Perplexity, Google AI Overviews, and other AI engines, then uses AI agents to help create and optimize content in response. It is built primarily for enterprise marketing teams and Fortune 500 brands.", "pricing": "No free tier; plans from $99/mo (Starter, ChatGPT-only) to $399/mo (Growth, 3 engines); custom Enterprise pricing", "url": "https://www.tryprofound.com",
+ "hero_image": "profound-hero.jpg", "hero_image_alt": "Screenshot of the Profound homepage hero section",
              "tags": ["AEO", "AI Visibility", "Enterprise"],
              "features": ["Multi-engine AI visibility tracking (Answer Engine Insights)", "AI content agents for optimization and creation", "Agent Analytics for AI-crawler and AI-referral traffic", "Prompt Volumes search-demand research"],
              "pros": ["Deepest data and widest engine coverage in the category", "Powerful AI Agents that turn insights directly into content", "Strong enterprise support, SSO/SOC2, and Fortune 500 track record"],
@@ -10266,6 +10282,7 @@ CATEGORIES = [
                 ],
              }},
             {"name": "PageLens.ai", "tagline": "AI visibility tracking that ships content to your domain", "desc": "PageLens.ai tracks how ChatGPT, Claude, Gemini and Perplexity describe your brand, then writes and publishes citation-ready content directly to your own domain via a dedicated /feed subdomain.", "pricing": "Plans from $49/mo (Monitor); Optimize $199/mo; Growth (done-for-you content) $699/mo; Enterprise custom; agency plans from $49/mo", "url": "https://pagelens.ai",
+ "hero_image": "pagelens-hero.jpg", "hero_image_alt": "Screenshot of the PageLens.ai homepage hero section",
              "tags": ["AEO", "Content Engine", "Startup-Friendly"],
              "features": ["Daily multi-engine prompt tracking across ChatGPT, Claude, Gemini and Perplexity", "Share-of-voice and sentiment analysis against named competitors", "Citation-source tracking showing exactly which pages models trust", "Done-for-you content engine that publishes to your own domain via a /feed subdomain"],
              "pros": ["Only tool in this set that ships finished, citation-ready content to your own domain rather than just a dashboard", "Free 30-second AI visibility audit for any domain with no signup", "Transparent, published pricing starting at $49/mo, no mandatory sales call for entry tiers"],
@@ -12563,6 +12580,7 @@ CATEGORIES = [
         "short": "Analyze data, build predictive models, and surface insights with AI-powered analytics platforms.",
         "tools": [
             {"name": "Akkio", "tagline": "No-code AI platform for building predictive analytics and machine learning models fast", "desc": "Akkio is a no-code AI and predictive analytics platform that lets business users and analysts build, train, and deploy machine learning models by connecting existing data sources without writing code. It focuses on practical business use cases like sales forecasting, churn prediction, and lead scoring, aiming to make predictive AI accessible to non-data-scientists.", "pricing": "Tiered subscription plans (including a free trial) that scale with data volume and features, plus custom enterprise pricing for larger organizations; exact rates are available on akkio.com and subject to change.", "url": "https://www.akkio.com",
+ "hero_image": "akkio-hero.jpg", "hero_image_alt": "Screenshot of the Akkio homepage hero section",
  "tags": ["Data Analysis", "Predictive Analytics", "No-Code AI"],
  "features": ["No-code model building from uploaded or connected datasets", "Pre-built use case templates (churn prediction, lead scoring, forecasting)", "One-click model deployment via API or integrations", "Integrations with CRMs and business tools such as HubSpot and Salesforce", "Automated data cleaning and feature engineering", "Explainable AI outputs showing key drivers behind predictions"],
  "pros": ["Enables non-technical teams to build predictive models quickly", "Pre-built templates speed up common business forecasting use cases", "Integrates directly with popular CRM and business tools for actionable predictions"],
@@ -13196,6 +13214,7 @@ CATEGORIES = [
         "short": "Generate logos, graphics, UI mockups, and visual assets faster with AI-powered design tools.",
         "tools": [
             {"name": "NewTattoo.ai", "tagline": "AI-generated tattoo concepts you can preview on your own skin before committing", "desc": "NewTattoo.ai is a browser-based design tool that turns text descriptions into original tattoo artwork and then maps that artwork onto a photo of the user's body for a realistic size-and-placement preview. It pairs an AI image generator with a virtual try-on renderer, plus a lettering tool for custom text-based tattoos, so people can iterate on an idea before ever sitting in a chair. The tool targets both first-time tattoo seekers researching ideas and working artists who want a faster way to mock up client concepts.", "pricing": "Free tier lets users generate and try on a limited number of designs; a Pro plan unlocks unlimited generations, HD downloads, and extra tools starting at $9.99/month, with quarterly ($19.99) and annual ($47.99) billing options that lower the effective monthly cost.", "url": "https://newtattoo.ai",
+ "hero_image": "newtattoo-ai-hero.jpg", "hero_image_alt": "Screenshot of the NewTattoo.ai homepage hero section",
  "tags": ["Design", "AI Image Generation", "Tattoo Design"],
  "features": ["Text-to-design AI tattoo generator across styles like blackwork, geometric, realism, and traditional", "3D-style virtual try-on that overlays a generated design onto an uploaded body photo", "Adjustable sizing and placement for previewing a design on different body areas", "Custom tattoo lettering/font generator for text-based pieces", "Reference image upload to steer the AI toward a specific look", "Private design storage plus a public community gallery for inspiration"],
  "pros": ["Lets people see a realistic on-body preview before committing to a permanent tattoo", "Covers the full concept-to-visualization workflow in one browser-based tool, no app install needed", "Free tier is usable enough to test the core generation and try-on features before paying"],
@@ -14069,6 +14088,7 @@ CATEGORIES = [
         "short": "Build apps, websites, backends, and automations without writing code, powered by AI.",
         "tools": [
             {"name": "Appified", "tagline": "Turn any OpenAI Assistant into a shareable, embeddable web app without writing code.", "desc": "Appified.ai is a no-code tool that wraps an existing OpenAI Assistant in a ready-to-use web application, so creators can embed it on a website, share it via a link, or sell it as a standalone product. It removes the front-end engineering work of building a chat interface, letting users go from an OpenAI Assistant configuration to a live, brandable app in minutes.", "pricing": "Freemium — a free tier lets you connect an OpenAI Assistant and launch a basic hosted app; paid plans unlock custom branding, custom domains, and higher usage limits (see appified.ai for current tier pricing).", "url": "https://www.appified.ai/",
+ "hero_image": "appified-hero.jpg", "hero_image_alt": "Screenshot of the Appified homepage hero section",
  "tags": ["No-code/Low-code", "AI App Builder", "Chatbot/Assistant Tools"],
  "features": ["Convert an existing OpenAI Assistant into a hosted web app in a few clicks", "No-code setup — connect via OpenAI API key and Assistant ID, no front-end coding needed", "Shareable public link for the generated assistant app", "Embeddable widget to drop the assistant into any existing website", "Customizable chat UI (branding, colors, welcome message)", "Option to package and sell access to the assistant as a paid product"],
  "pros": ["Fastest path from an OpenAI Assistant to a usable web front-end", "No developer or design resources required to launch", "Good monetization angle for creators who already have a working GPT assistant"],
@@ -14891,6 +14911,7 @@ CATEGORIES = [
         "short": "Generate polished slide decks, pitch decks, and infographics from a prompt or outline with AI.",
         "tools": [
             {"name": "AiPPT", "tagline": "AI tool that generates full PowerPoint decks instantly from a topic or outline", "desc": "AiPPT is an AI-powered presentation generator that turns a simple topic, keyword, or outline into a complete, formatted PowerPoint deck within minutes. It offers a large library of design templates and can also convert existing documents or long-form text into slide decks, targeting students, marketers, and business users who need decks fast.", "pricing": "Free plan with limited exports/credits; paid monthly and annual subscription tiers unlock unlimited downloads and premium templates", "url": "https://www.aippt.com/",
+ "hero_image": "aippt-hero.jpg", "hero_image_alt": "Screenshot of the AiPPT homepage hero section",
  "tags": ["Presentations", "AI Slide Generator", "Productivity"],
  "features": ["Generate a full deck from a single topic or keyword prompt", "Convert Word documents, PDFs, or long text into slides", "Large library of ready-made presentation templates and themes", "AI-suggested outline editing before final slide generation", "One-click re-styling/theme switching across an entire deck", "Export to PowerPoint (.pptx) and PDF formats"],
  "pros": ["Very fast turnaround from prompt to a full, presentable deck", "Large template variety across business, education, and creative styles", "Simple, low-friction interface good for non-designers"],
@@ -15549,6 +15570,7 @@ CATEGORIES = [
 # automatically, and inserted at index 0 of their category so they show first.
 
 _DEEPSOLV_TOOL = {"name": "Deepsolv", "tagline": "Creative decision intelligence for Meta advertising growth teams", "desc": "Deepsolv analyzes a brand's own ad performance, competitor creative, and customer feedback to generate ranked weekly test plans for Meta ad campaigns, so growth teams always know which creative to test next instead of guessing.", "pricing": "Pricing is not published; the company demos and quotes based on ad spend and team size. No self-serve free plan.", "url": "https://deepsolv.ai",
+ "hero_image": "deepsolv-hero.jpg", "hero_image_alt": "Screenshot of the DeepSolv homepage hero section: 'Know what to test next before you spend on it.'",
  "tags": ["Ad Creative", "Meta Ads", "Marketing Analytics"],
  "features": ["Ranked weekly creative test plans based on performance data", "Ad performance analysis across CTR, CPC, ROAS and audience fatigue", "Continuous competitor ad tracking - hooks, offers and formats", "Customer insight mining from reviews, DMs, comments and Reddit", "\"Brand Brain\" memory of past creative tests and outcomes", "Test / iterate / stop recommendations for each active creative"],
  "pros": ["Turns scattered ad, competitor and customer data into one ranked action list instead of a raw dashboard", "Competitor tracking and customer-insight mining go beyond standard ad-performance reporting", "Reports 500+ brands on the platform, including known D2C names such as Pilgrim and The Pant Project"],
@@ -15591,6 +15613,7 @@ _DEEPSOLV_TOOL = {"name": "Deepsolv", "tagline": "Creative decision intelligence
  }}
 
 _GROWEASY_TOOL = {"name": "GrowEasy", "tagline": "AI-powered lead generation, WhatsApp marketing and CRM built for Indian businesses", "desc": "GrowEasy is an all-in-one growth platform combining lead-generation ad management, WhatsApp Business API marketing, AI voice calling and a lightweight CRM, built for small and mid-size businesses across India.", "pricing": "Starter ₹999/mo billed annually; Professional ₹9,999/mo billed quarterly; Enterprise ₹99,999/mo billed monthly - plus a managed-marketing fee (5-20% of ad spend depending on tier).", "url": "https://groweasy.ai",
+ "hero_image": "groweasy-hero.jpg", "hero_image_alt": "Screenshot of the GrowEasy homepage hero section",
  "tags": ["Lead Generation", "WhatsApp Marketing", "CRM"],
  "features": ["Lead-generation ad management, on GrowEasy ad accounts or your own", "WhatsApp Business API campaigns and automated messaging on every plan", "Built-in CRM for tracking and managing lead records", "AI voice agents for calling and lead follow-up (Professional tier and above)", "Telephony / virtual business number add-ons for sales teams", "AI-generated UGC-style ad videos (Professional tier and above)"],
  "pros": ["Bundles lead-gen ads, WhatsApp marketing, calling and CRM into one subscription instead of several separate tools", "Managed ad-spend fee drops from 20% to 5% as customers move up tiers, rewarding scale", "Serves 2,000+ businesses across India, per the company, with pricing built around Indian SMB budgets"],
@@ -15636,6 +15659,7 @@ _GROWEASY_TOOL = {"name": "GrowEasy", "tagline": "AI-powered lead generation, Wh
  }}
 
 _TALKEASY_TOOL = {"name": "TalkEasy", "tagline": "AI business calling app with virtual numbers, call summaries and CRM sync", "desc": "TalkEasy is GrowEasy's dedicated calling product - a virtual business phone number with AI call handling, automatic call summaries, missed-call automation and a team call-performance dashboard, built for sales teams that don't want to mix personal and business calls.", "pricing": "Pro ₹999/month + GST, including 3 hours of daily talktime (additional hours ₹49/hour); Enterprise custom pricing with unlimited talktime and integrations.", "url": "https://talk.groweasy.ai",
+ "hero_image": "talkeasy-hero.jpg", "hero_image_alt": "Screenshot of the TalkEasy homepage hero section",
  "tags": ["Business Calling", "Virtual Number", "Call Analytics"],
  "features": ["Virtual business number, set up in under 2 minutes, no hardware required", "AI call handling - automated answering and routing, 24/7", "Automatic AI-generated call summaries after every conversation", "Call recording with a team performance dashboard", "Missed-call automation with automatic callbacks and follow-up actions", "Unlimited team members with centralized call visibility and CRM sync"],
  "pros": ["Live in under 2 minutes with no telephony hardware to buy or configure", "AI call summaries and CRM sync remove manual note-taking after every sales or support call", "Unlimited team members on every plan, unusual for a business-calling product at this price point"],
@@ -15679,6 +15703,7 @@ _TALKEASY_TOOL = {"name": "TalkEasy", "tagline": "AI business calling app with v
  }}
 
 _ARKA_TOOL = {"name": "Arka Inventory", "tagline": "Native Salesforce inventory, purchasing and warehouse management", "desc": "Arka Inventory is a Salesforce-native app for managing stock, purchasing, warehouse operations and manufacturing costs, giving businesses that already run on Salesforce a single system for real-time, multi-location inventory visibility.", "pricing": "Inventory $39/user/mo; Inventory + MRP $49/user/mo; Inventory + MRP + Warehouse Management $59/user/mo. Free trial available on all tiers.", "url": "https://www.arkainventory.com",
+ "hero_image": "arka-inventory-hero.jpg", "hero_image_alt": "Screenshot of the Arka Inventory homepage hero section",
  "tags": ["Inventory Management", "Salesforce", "Warehouse Management"],
  "features": ["Real-time inventory visibility throughout the sales cycle", "Commit inventory to reserve stock against specific orders", "Automated inventory alerts for low stock and other issues", "Bill of Materials for products built from multiple components", "Lot and serial number tracking with expiry dates", "Manufacturing and kitting workflows", "Forecasting and automated purchase order generation", "Multi-location warehouse management", "Landed cost tracking and custom reports/dashboards"],
  "pros": ["4.9/5 rating on Salesforce AppExchange (10 reviews), with reviewers highlighting fast, low-friction adoption", "Deep native integration with Salesforce rather than a bolt-on connector or separate system to reconcile", "Modular pricing ladder covers inventory, MRP/manufacturing and warehouse management under one platform"],
@@ -16129,7 +16154,7 @@ def nav(depth=0):
 <div class="cursor-ring" id="cursorRing"></div>
 <header class="site-header" id="siteHeader">
   <div class="container nav-wrap">
-    <a class="logo" href="{prefix}index.html">{SITE_NAME}</a>
+    <a class="logo" href="{prefix}index.html">{LOGO_TEXT}</a>
     <nav class="main-nav" id="mainNav">
       <a href="{prefix}index.html">Home</a>
       <a href="{prefix}all-tools.html">All Tools</a>
@@ -16152,7 +16177,7 @@ def footer(depth=0):
 <footer class="site-footer reveal">
   <div class="container footer-grid">
     <div>
-      <div class="logo">{SITE_NAME}</div>
+      <div class="logo">{LOGO_TEXT}</div>
       <p class="muted">{SITE_DESC}</p>
     </div>
     <div>
@@ -16341,6 +16366,7 @@ _home_reviews_section = f'''<section class="container section">
 
 home_body = f"""
 <section class="hero">
+  <canvas class="hero-canvas" id="heroCanvas" aria-hidden="true"></canvas>
   <div class="container">
     <div class="kicker reveal">{len(ALL_TOOLS)}+ curated AI tools</div>
     <h1 class="reveal" style="transition-delay:.08s">The quiet way to find <em>the right</em> AI tool</h1>
@@ -16489,7 +16515,7 @@ for cat in CATEGORIES:
 def tool_detail_body(t, cat, depth=1):
     prefix = "../" if depth else ""
     d = t.get("deep")
-    others = [o for o in cat["tools"] if o["slug"] != t["slug"]]
+    others = [o for o in cat["tools"] if o["slug"] != t["slug"]][:3]
     alt_html = "".join(
         f'<a class="alt-card reveal tilt" href="{prefix}tools/{o["slug"]}.html" style="transition-delay:{stagger(i)}s">'
         f'<h4>{o["name"]}</h4><p class="muted">{o["tagline"]}</p><span class="text-link">Compare <span class="arrow">&rarr;</span></span></a>'
@@ -16531,6 +16557,17 @@ def tool_detail_body(t, cat, depth=1):
       <a class="btn btn-primary magnetic" href="{t['url']}" target="_blank" rel="noopener sponsored">Visit {t['name']} <span class="arrow">&rarr;</span></a>
     </div>
   </div>
+</section>
+"""
+
+    hero_image_html = ""
+    if t.get("hero_image"):
+        hero_image_html = f"""
+<section class="container section narrow" style="padding-top:0;">
+  <figure class="review-hero-shot reveal">
+    <img src="{prefix}assets/images/{t['hero_image']}" alt="{t.get('hero_image_alt', t['name'] + ' website screenshot')}" loading="lazy" width="1400" height="762">
+    <figcaption class="muted small">{t['name']}'s website &mdash; <a href="{t['url']}" target="_blank" rel="noopener sponsored">visit {t['name']} <span class="arrow">&rarr;</span></a></figcaption>
+  </figure>
 </section>
 """
 
@@ -16589,7 +16626,7 @@ def tool_detail_body(t, cat, depth=1):
   </div>
 </section>
 """
-        return hero + quick_facts + review_banner + body + f"""
+        return hero + hero_image_html + quick_facts + review_banner + body + f"""
 <section class="container section" style="padding-top:0;">
   <h2 class="reveal">Alternatives to {t['name']}</h2>
   <div class="alt-grid">{alt_html}</div>
@@ -16697,7 +16734,7 @@ def tool_detail_body(t, cat, depth=1):
   <a href="{t['url']}" target="_blank" rel="noopener sponsored" class="btn btn-primary magnetic">Visit {t['name']} <span class="arrow">&rarr;</span></a>
 </section>
 """
-    return hero + quick_facts + review_banner + body
+    return hero + hero_image_html + quick_facts + review_banner + body
 
 for cat in CATEGORIES:
     for t in cat["tools"]:
