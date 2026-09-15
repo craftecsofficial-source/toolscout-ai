@@ -6817,6 +6817,182 @@ CATEGORIES = [
         "icon": "&#128200;",
         "short": "Research keywords, optimize content and track rankings with AI.",
         "tools": [
+            {
+              "name": "Nytro SEO",
+              "tagline": "A JavaScript snippet that rewrites your meta tags for you, forever",
+              "desc": "Nytro SEO is an automated tagging layer that sits on top of your existing pages and keeps titles, descriptions, alt text, and anchor text tuned to search intent without anyone opening a CMS. It also bolts on a conversational-query layer it calls Ask Engine Optimization, aimed at showing up in AI chat answers rather than just blue links.",
+              "pricing": "Free 30-day trial tier, then paid plans start at $59/month (Business), scaling to $119/month (Professional) and $499/month (Agency), priced mainly by number of websites, keywords, and pages covered.",
+              "url": "https://www.nytroseo.com/",
+              "tags": [
+                "SEO",
+                "Metadata Automation",
+                "AI Search"
+              ],
+              "features": [
+                "Auto-generates and updates page titles, meta descriptions, image alt text, and anchor text",
+                "Deploys via a single JavaScript snippet in the site header, no CMS or dev access needed after setup",
+                "Ask Engine Optimization (AEO) layer that inserts conversational, question-style phrasing into tags for AI search queries",
+                "Continuous re-optimization that reacts to algorithm shifts instead of running once and stopping",
+                "Rank tracking across Google, Bing, Yahoo, and Yandex",
+                "Multi-language tag generation and customization",
+                "Tiered credit system that scales with number of sites, keywords, and pages under management"
+              ],
+              "pros": [
+                "Genuinely hands-off once installed, good for teams with no bandwidth to edit tags manually",
+                "Covers hundreds or thousands of pages at once, which manual meta-tag work can't realistically do",
+                "Real customer reviews describe fast, responsive support during setup"
+              ],
+              "cons": [
+                "Handing over live title tags and meta descriptions to an automated script is a real risk without a human review step",
+                "AEO's conversational-query tags are a plausible bet on AI search, not a proven ranking or citation mechanism",
+                "Credit-based pricing tiers (e.g. 10,870 vs 254,350 monthly credits) are hard to map to actual usage before you commit"
+              ],
+              "best_for": "Agencies and site owners managing large page counts who want baseline metadata kept fresh automatically, rather than teams looking for hands-on content strategy or a structured data/knowledge-graph play.",
+              "deep": {
+                "overview": "Nytro SEO solves a narrower problem than its \"AI SEO\" branding suggests: it automates the metadata layer of a page — title tags, meta descriptions, image alt attributes, and internal anchor text — and keeps re-writing that layer as search behavior shifts, using a JavaScript snippet dropped into the site header rather than any CMS integration. That's a genuinely useful niche for anyone sitting on a large site where nobody has time to touch a few thousand title tags by hand, and it explains why the pricing tiers are built around page counts and websites rather than around content depth.\n\nWhere it gets more speculative is the \"Ask Engine Optimization\" piece. Nytro frames this as adding conversational, question-style phrasing into meta tags so pages surface in AI chat answers, not just search results. That's a reasonable bet given how much traffic is shifting toward conversational search, but stuffing question phrasing into a meta description is a much weaker signal than the mechanisms other tools use to earn AI visibility — it depends entirely on whether an AI system's retrieval layer weights meta tags at all, which isn't something Nytro's marketing actually demonstrates.\n\nThat contrast is clearest against <a href=\"https://www.toolscout.in/tools/wordlift.html\">WordLift</a>, which goes after the same \"get cited by AI\" goal through a completely different route: it builds an actual knowledge graph and automated schema markup for a site, giving search engines and AI assistants structured entity data to pull from. Schema and structured entities are a documented input to how AI systems understand and cite a page; conversational phrasing inside a title tag is not nearly as established. If AI visibility is the actual goal, WordLift's structural approach and Nytro's tag-level tweak are not interchangeable, and treating them as the same category oversells what Nytro's AEO layer can do.\n\nAgainst <a href=\"https://www.toolscout.in/tools/surfer-seo.html\">Surfer SEO</a>, the split is about who's making the decisions. Surfer digs into what's already ranking for a keyword and hands you specific, human-reviewed edits for one article — it's a research and drafting aid. Nytro skips that judgment step entirely and just pushes its own generated tags live across the whole site on autopilot. That makes Nytro faster for scale and worse for precision: there's no equivalent to Surfer's per-article competitive analysis, and no obvious way to catch a bad auto-generated title before it goes live on a client's homepage.",
+                "who_for": "It fits agencies and site owners with large page counts who want baseline title tags, descriptions, and alt text kept current without manual upkeep; it's a weak fit for anyone who wants strategic, per-page content guidance (that's Surfer's job) or a genuine AI-citation strategy built on structured data (that's WordLift's job).",
+                "features_detailed": [
+                  {
+                    "title": "Automated meta tag generation",
+                    "desc": "Nytro writes and rewrites page titles, meta descriptions, image alt text, and anchor text using AI, applying updates without anyone editing the underlying page code."
+                  },
+                  {
+                    "title": "JavaScript header snippet deployment",
+                    "desc": "Setup is a single script added to the site header, so it works across CMS platforms without a direct database or CMS integration."
+                  },
+                  {
+                    "title": "Ask Engine Optimization (AEO)",
+                    "desc": "Adds conversational, question-style phrasing into metadata aimed at showing up in AI chat and conversational search answers, alongside traditional search engines."
+                  },
+                  {
+                    "title": "Adaptive re-optimization",
+                    "desc": "The system is meant to keep monitoring and adjusting tags over time as algorithms and rankings shift, rather than running a single one-time pass."
+                  },
+                  {
+                    "title": "Multi-engine rank tracking",
+                    "desc": "Tracks keyword positions across Google, Bing, Yahoo, and Yandex from within the same dashboard."
+                  },
+                  {
+                    "title": "Multi-language support",
+                    "desc": "Generates and customizes metadata in multiple languages for sites targeting more than one market."
+                  },
+                  {
+                    "title": "Credit-based scaling",
+                    "desc": "Each plan allots a monthly credit pool alongside caps on websites, keywords tracked, and pages optimized, so usage scales with the tier purchased."
+                  }
+                ],
+                "pricing_plans": [
+                  {
+                    "name": "Free",
+                    "price": "$0/month",
+                    "billing": "30-day free trial",
+                    "features": [
+                      "1 website",
+                      "5 keywords optimized",
+                      "10 keywords SERP monitoring",
+                      "50 pages optimized",
+                      "1 search engine monitored",
+                      "1 processing run/month",
+                      "6 months data retention",
+                      "463 monthly credits",
+                      "Basic ChatGPT content optimization",
+                      "Email support"
+                    ]
+                  },
+                  {
+                    "name": "Business",
+                    "price": "$59/month",
+                    "billing": "Monthly",
+                    "features": [
+                      "1 website",
+                      "20 keywords optimized",
+                      "100 keywords SERP monitoring",
+                      "500 pages optimized",
+                      "2 search engines monitored",
+                      "1 processing run/month",
+                      "12 months data retention",
+                      "10,870 monthly credits",
+                      "Enhanced content optimization prompts",
+                      "Online support"
+                    ]
+                  },
+                  {
+                    "name": "Professional",
+                    "price": "$119/month",
+                    "billing": "Monthly",
+                    "features": [
+                      "10 websites",
+                      "100 keywords optimized",
+                      "800 keywords SERP monitoring",
+                      "3,000 pages optimized",
+                      "2 search engines monitored",
+                      "10 processing runs/month",
+                      "24 months data retention",
+                      "254,350 monthly credits",
+                      "Premium online support"
+                    ]
+                  },
+                  {
+                    "name": "Agency",
+                    "price": "$499/month",
+                    "billing": "Monthly",
+                    "features": [
+                      "100 websites",
+                      "1,100 keywords optimized",
+                      "4,100 keywords SERP monitoring",
+                      "30,000 pages optimized",
+                      "3 search engines monitored",
+                      "300 processing runs/month",
+                      "24 months data retention",
+                      "2,516,500 monthly credits",
+                      "Premium online support"
+                    ]
+                  }
+                ],
+                "pros_expanded": [
+                  "Scales to page counts that no manual meta-tag workflow can realistically keep up with, since the Agency tier is built to cover up to 30,000 pages across 100 sites.",
+                  "Zero ongoing dev work after the initial header snippet install, which matters for agencies managing tags across many client sites at once.",
+                  "Verified AppSumo reviewers (4.89/5 average across 108 reviews on the lifetime-deal listing) repeatedly single out onboarding support, with one reviewer noting the team \"walked me through it and explained in detail the features.\"",
+                  "Continuous re-optimization means tags theoretically don't go stale the way a one-time audit's recommendations do.",
+                  "Multi-engine rank tracking (Google, Bing, Yahoo, Yandex) is bundled in rather than sold as a separate tool."
+                ],
+                "cons_expanded": [
+                  "Automating live title tags and meta descriptions removes the human review step that most SEO teams treat as non-negotiable — a bad AI-generated title can go live on every page of a site before anyone notices.",
+                  "The AEO conversational-tag feature is Nytro's own framing of how to win AI search visibility, but nothing on the site demonstrates that AI systems actually weight meta tag phrasing the way they weight structured schema data — it reads more like a hypothesis than a proven mechanism.",
+                  "Pricing is denominated in credits (463 up to 2,516,500 across tiers) rather than a plain unit like \"pages processed per month,\" making it hard to estimate the right plan before signing up.",
+                  "There's no equivalent to competitor-page analysis or content-gap guidance — Nytro optimizes the tag layer, not the actual writing or structure of the page content itself.",
+                  "Independent review volume is thin outside the AppSumo lifetime-deal crowd — Trustpilot shows a 4.3/5 rating but from only 13 reviews, too small a sample to treat as a settled verdict.",
+                  "Processing-run caps (as low as 1 run/month on Free and Business) limit how often the 'adaptive, real-time' re-optimization actually kicks in on cheaper plans."
+                ],
+                "faq": [
+                  {
+                    "q": "What does Nytro SEO actually automate?",
+                    "a": "It automatically generates and updates on-page metadata — titles, meta descriptions, image alt text, and anchor text — across a site, deployed through a JavaScript snippet rather than direct CMS edits."
+                  },
+                  {
+                    "q": "Does Nytro SEO replace content writing or keyword research tools?",
+                    "a": "No. It only touches metadata, not the body content or content strategy of a page, so it's typically used alongside a content-optimization tool rather than instead of one."
+                  },
+                  {
+                    "q": "What is Ask Engine Optimization (AEO) in Nytro SEO?",
+                    "a": "It's Nytro's term for adding conversational, question-style phrasing into metadata so pages have a better shot at appearing in AI chat and conversational search results, not just traditional search listings."
+                  },
+                  {
+                    "q": "How is Nytro SEO priced?",
+                    "a": "Plans run from a free 30-day trial up to $499/month, scaled by the number of websites, keywords tracked, pages optimized, and a monthly AI-processing credit allowance."
+                  },
+                  {
+                    "q": "Is Nytro SEO safe to run on a live production site?",
+                    "a": "It can be, but because it rewrites titles and descriptions automatically, teams should budget time to spot-check generated tags rather than assume every automated change is an improvement."
+                  },
+                  {
+                    "q": "How does Nytro SEO compare to WordLift for AI search visibility?",
+                    "a": "WordLift builds structured knowledge graphs and schema markup, a more established input to how AI systems cite pages; Nytro's AEO instead edits the phrasing inside existing meta tags, which is a lighter-touch and less proven approach to the same goal."
+                  }
+                ]
+              }
+            },
+        
             {"name": "Surfer SEO", "tagline": "AI-guided on-page content optimization", "desc": "Surfer analyzes top-ranking pages for a keyword and gives concrete, data-backed edits to help a specific article rank, making it a staple in SEO content workflows, and now also tracks AI search visibility.", "pricing": "From $49/mo (Discovery), billed annually — plans up to $299/mo, Enterprise custom", "url": "https://surferseo.com",
              "tags": ["SEO", "Content"],
              "features": ["Content Editor with real-time, NLP-driven scoring against top-ranking pages", "AI Tracker for visibility in ChatGPT, Perplexity, Google AI Mode/Overviews and Gemini", "Topical Map and Content Audit for site-wide planning", "Surfy AI writing assistant and AI Humanizer"],
@@ -10113,6 +10289,329 @@ CATEGORIES = [
         "icon": "&#128064;",
         "short": "Track and improve how your brand appears in ChatGPT, Perplexity and other AI answers.",
         "tools": [
+            {
+              "name": "SurgeGraph",
+              "tagline": "Turns AI-answer visibility into a fixable, billable workflow for agencies",
+              "desc": "SurgeGraph is an AEO platform that tracks how often and where a brand gets cited inside ChatGPT, Perplexity, Google AI Overviews and Google AI Mode, then scores individual pages against what those engines seem to reward and pushes fixes or new content straight from the same dashboard.",
+              "pricing": "Spark $32.50/mo (billed $390/yr, 3,000 credits); Scale $65.83/mo (billed $790/yr, 8,000 credits); Signature $107.50/mo (billed $1,290/yr, 15,000 credits) — annual pricing shown on the live site, monthly-billed pricing may run higher.",
+              "url": "https://surgegraph.io/",
+              "tags": [
+                "AEO Tools",
+                "AI Search Visibility",
+                "AI SEO Content"
+              ],
+              "features": [
+                "Citation tracking across ChatGPT, Google AI Overview, Google AI Mode, Gemini and Perplexity",
+                "Prompt-level tracking (up to 1,666 prompts on the top plan) instead of just an aggregate score",
+                "Combined AEO + SEO scoring per page with one-click fix suggestions",
+                "Bulk content generation and rewriting aimed at citation-ready formatting",
+                "WordPress plugin for AI-referral traffic attribution, refreshed every 5 minutes",
+                "White-label PDF reporting for client-facing agencies (Scale plan and up)",
+                "Competitor share-of-voice and citation-source analysis",
+                "MCP/agentic workflow integration on the Signature plan"
+              ],
+              "pros": [
+                "Pairs visibility tracking with actual content fixes in one subscription",
+                "Pricing tiers scale cleanly from a solo consultant to a multi-client agency",
+                "Prompt-level granularity makes it easier to explain wins/losses to clients"
+              ],
+              "cons": [
+                "Full 5-engine coverage, daily refresh and MCP access are all locked behind the top Signature tier",
+                "No free plan — you commit to at least $32.50/mo (annual) before trying it on a real client",
+                "AEO tracking is the newest part of the product; most of its market reputation still comes from its earlier life as an AI content writer"
+              ],
+              "best_for": "Digital agencies and solo SEO/content consultants who want to bundle AI-visibility tracking with bulk content production under one retainer-friendly tool, rather than running separate tracking and writing tools.",
+              "deep": {
+                "overview": "SurgeGraph started life as an AI content and SEO writing tool (it grew out of the older LSIGraph product) and has since layered an AEO tracking and scoring engine on top of that content pipeline. That lineage shows in how the product is built: it doesn't just tell you whether ChatGPT or Google AI Overview cited your brand, it also scores the underlying page on a combined AEO+SEO scale and lets you generate or rewrite content in the same workspace, so the loop from \"we're invisible on this topic\" to \"here's a new draft\" stays inside one tab. For an agency already using SurgeGraph (or a similar bulk-content tool) for SEO output, bolting AEO tracking onto that same subscription is a genuinely efficient move rather than a bolted-on feature for marketing's sake.\n\nWhere it gets more mixed is coverage and maturity. Only the top Signature tier gets you all five tracked engines (ChatGPT, Google AI Overview, Google AI Mode, Gemini, Perplexity) with daily refreshes; the entry Spark plan only checks ChatGPT and Google AI Overview on a 5-day cycle, which is a slow enough cadence that a client asking \"did last week's fix work\" won't get much of an answer. The traffic-attribution piece is also WordPress-specific via a plugin, so teams running Webflow, Shopify, or a custom CMS lose that half of the value proposition entirely unless they're willing to wire it up themselves.\n\nAgainst other AEO-specific tools in this category, SurgeGraph reads as the more content-production-heavy option. <a href=\"https://www.toolscout.in/tools/pagelens-ai.html\">PageLens.ai</a> takes a narrower but more automated approach: instead of asking you to take its recommendations back into your own CMS, it ships citation-ready content straight to a /feed subdomain on the brand's own domain, which removes a publishing step SurgeGraph still leaves on your plate outside of WordPress. <a href=\"https://www.toolscout.in/tools/athenahq.html\">AthenaHQ</a> is the stronger pick if engine breadth or price risk is the deciding factor — it tracks up to nine AI engines against SurgeGraph's five, and it's free to start, so a team can validate whether AEO tracking even matters for their brand before committing to SurgeGraph's minimum $390/year. SurgeGraph's edge over both is that it's the only one of the three that treats \"write and fix the page\" as a first-class, bundled feature rather than an integration or a manual next step.\n\nThe honest caveat is that SurgeGraph's AEO features are newer than its content-generation core, so there's less independent track record specifically on the tracking accuracy and citation-scoring side compared to how long the writing tool has been reviewed. Buyers should treat the AEO module as promising but less battle-tested than the rest of the platform.",
+                "who_for": "Best fit is an agency or solo operator already producing SEO content at volume who wants AI-visibility tracking and page fixes in the same tool they use for writing; teams that just want the broadest, cheapest way to monitor AI citations without committing to a content workflow should try a free-to-start option like AthenaHQ first, and brands on non-WordPress CMSs should weigh PageLens.ai's automated publishing instead.",
+                "features_detailed": [
+                  {
+                    "title": "Multi-engine citation tracking",
+                    "desc": "Monitors brand and competitor mentions across ChatGPT, Google AI Overview, Google AI Mode, Gemini and Perplexity, though full coverage is limited to the top pricing tier."
+                  },
+                  {
+                    "title": "Prompt-level visibility data",
+                    "desc": "Tracks results at the individual prompt level (up to 1,666 prompts on Signature) rather than a single blended score, so you can see exactly which queries you're winning or losing."
+                  },
+                  {
+                    "title": "Dual AEO + SEO page scoring",
+                    "desc": "Scores a given page against both traditional SEO signals and AEO-specific citation factors, then surfaces one-click fixes for gaps."
+                  },
+                  {
+                    "title": "Bulk content generation and rewriting",
+                    "desc": "Produces or restructures pages into formats (bullet lists, tables, Q&A blocks) that the platform correlates with higher AI-engine citation rates."
+                  },
+                  {
+                    "title": "WordPress traffic attribution plugin",
+                    "desc": "A dedicated plugin pulls referral data from AI platforms into the dashboard roughly every five minutes — but it only works on WordPress sites."
+                  },
+                  {
+                    "title": "White-label reporting",
+                    "desc": "Generates branded PDF reports for client delivery, available from the Scale plan up, aimed squarely at agencies reporting to clients."
+                  },
+                  {
+                    "title": "Competitive share-of-voice analysis",
+                    "desc": "Compares up to 10 competitors' visibility, citation sources and topical strengths side by side."
+                  },
+                  {
+                    "title": "MCP and agentic workflow integration",
+                    "desc": "On the Signature plan, exposes SurgeGraph's data through MCP so it can be wired into other agentic tooling — a newer, less common feature in this category."
+                  }
+                ],
+                "pricing_plans": [
+                  {
+                    "name": "Spark",
+                    "price": "$32.50/month",
+                    "billing": "Billed annually at $390/year (monthly billing may cost more)",
+                    "features": [
+                      "3,000 monthly credits",
+                      "AI rank tracking on ChatGPT and Google AI Overview",
+                      "5-day update cycle",
+                      "Content creation and optimization tools",
+                      "AEO + SEO page scoring",
+                      "AI image generation",
+                      "Topic research",
+                      "2 projects, 2 team seats"
+                    ]
+                  },
+                  {
+                    "name": "Scale",
+                    "price": "$65.83/month",
+                    "billing": "Billed annually at $790/year (monthly billing may cost more)",
+                    "features": [
+                      "8,000 monthly credits",
+                      "Everything in Spark",
+                      "Adds Perplexity tracking",
+                      "3-day update cycle",
+                      "White-label reports",
+                      "Shareable client links",
+                      "Priority processing queue",
+                      "Bring-your-own-API-key option",
+                      "10 projects, 5 team seats"
+                    ]
+                  },
+                  {
+                    "name": "Signature",
+                    "price": "$107.50/month",
+                    "billing": "Billed annually at $1,290/year (monthly billing may cost more)",
+                    "features": [
+                      "15,000 monthly credits",
+                      "Everything in Scale",
+                      "Full 5-engine tracking (adds Gemini and Google AI Mode)",
+                      "Daily update cycle",
+                      "MCP / agentic workflow integration",
+                      "50 projects, 10 team seats"
+                    ]
+                  }
+                ],
+                "pros_expanded": [
+                  "Combining AEO tracking with a built-in content generator/rewriter means agencies can go from 'we're missing this citation' to a draft fix without exporting data into a separate writing tool.",
+                  "Prompt-level tracking (rather than one blended visibility score) gives account managers concrete, query-by-query evidence to show clients why a retainer is earning its keep.",
+                  "Plan structure scales sensibly with actual usage — projects, team seats and credits all step up together across Spark, Scale and Signature, which suits an agency adding clients gradually.",
+                  "The WordPress traffic-attribution plugin closes a loop most AEO trackers leave open: it connects citation visibility to actual referral traffic on the client's own site, at least for WordPress users.",
+                  "SurgeGraph carries a strong overall rating on G2 (reviewers describe it around 4.7 out of 5 from roughly 30 reviews), suggesting reasonable satisfaction with the broader product, though most of that feedback predates the AEO features specifically."
+                ],
+                "cons_expanded": [
+                  "The entry Spark plan only checks two engines (ChatGPT and Google AI Overview) on a 5-day refresh cycle, which is too slow and too narrow to be a reliable client-reporting tool on its own — Perplexity, Gemini and Google AI Mode all require upgrading.",
+                  "There's no free tier or sandbox to test tracking accuracy before paying, unlike some direct competitors in the AEO space, so buyers are taking the annual pricing on faith for the first 14 days.",
+                  "Traffic attribution is WordPress-only via a dedicated plugin; agencies serving clients on Webflow, Shopify, Squarespace or custom stacks don't get that half of the feature set at all.",
+                  "Because SurgeGraph's reputation and most of its public reviews were built on its earlier AI-writer/SEO-content identity, there isn't yet a large independent body of feedback specifically evaluating the AEO tracking and scoring accuracy.",
+                  "At least one visible G2 review flags unresolved friction from the company's handling of legacy LSIGraph lifetime-plan customers during its transition to SurgeGraph — worth a quick look before committing budget, especially for buyers weighing vendor trust."
+                ],
+                "faq": [
+                  {
+                    "q": "What AI engines does SurgeGraph track?",
+                    "a": "ChatGPT, Google AI Overview, Google AI Mode, Gemini and Perplexity — but only the top Signature plan tracks all five; lower tiers cover fewer engines and update less frequently."
+                  },
+                  {
+                    "q": "Does SurgeGraph publish content for you automatically?",
+                    "a": "It generates and rewrites content inside its dashboard and can push referral data in via a WordPress plugin, but it doesn't auto-publish to your live site the way some competitors do — you still take the draft and put it live yourself outside WordPress workflows."
+                  },
+                  {
+                    "q": "Is there a free plan?",
+                    "a": "No. The cheapest option is the Spark plan at $32.50/month billed annually ($390/year), with a 14-day money-back guarantee rather than a free tier."
+                  },
+                  {
+                    "q": "How is SurgeGraph different from a plain SEO rank tracker?",
+                    "a": "A traditional rank tracker checks Google's ten blue links; SurgeGraph checks whether an AI engine's generated answer cites or names your brand at all, which is a different (and currently less standardized) signal to track."
+                  },
+                  {
+                    "q": "Can SurgeGraph attribute traffic from AI platforms?",
+                    "a": "Yes, through a WordPress plugin that pulls referral data roughly every 5 minutes, but this only works for WordPress-hosted sites — there's no equivalent for other CMS platforms today."
+                  },
+                  {
+                    "q": "Is SurgeGraph good for agencies specifically?",
+                    "a": "Yes — white-label reporting, multi-project limits and team seats scale with the Scale and Signature plans, and the pricing is explicitly positioned to sit inside an AEO retainer agencies charge clients $1,500-$5,000/month for."
+                  }
+                ]
+              }
+            },
+        
+            {
+              "name": "Geordy",
+              "tagline": "Turns your site into something AI crawlers can actually parse, without touching what visitors see",
+              "desc": "Geordy scans your pages and auto-generates machine-readable versions of them (llms.txt, schema.json, Markdown, and more) served from a separate subdomain, so AI engines can read and cite your content while your live site stays exactly as it is.",
+              "pricing": "Free tier available (40 files/month, no card required); paid plans run $39 to $1,999/month billed annually, scaling by file/page volume up to enterprise knowledge-graph formats and API access.",
+              "url": "https://geordy.ai/",
+              "tags": [
+                "AEO Tools",
+                "GEO Infrastructure",
+                "AI Search Visibility"
+              ],
+              "features": [
+                "Generates up to 16 AI-readable file formats per page (llms.txt, schema.json, Markdown, YAML, RSS, OG tags, manifest.json, humans.txt)",
+                "Setup is one DNS record plus a single link tag in the page head — no rebuild or added JavaScript",
+                "Serves generated files from a dedicated subdomain, leaving the human-facing site untouched",
+                "Bot analytics tracks which AI crawlers hit which pages and formats, and when",
+                "Schema Graph visually maps how pages, products, brands and locations connect",
+                "Format Editor allows manual edits to any auto-generated file",
+                "Scheduled re-scans keep machine-readable files current as pages change",
+                "Multi-site and multi-domain support on higher tiers for agencies"
+              ],
+              "pros": [
+                "Genuinely lightweight setup — DNS record plus one tag, no dev sprint required",
+                "Real, usable free tier for testing before paying anything",
+                "Bot analytics covers a real blind spot most standard analytics tools miss"
+              ],
+              "cons": [
+                "Brand-new product with zero independent reviews to verify real-world results",
+                "File-based pricing scales steeply for larger sites",
+                "Only handles readability formatting — doesn't track AI citations or write content"
+              ],
+              "best_for": "Marketing and SEO teams or agencies who suspect AI crawlers are struggling to parse an otherwise decent site and want a low-effort, no-rebuild fix rather than a full visibility or content platform.",
+              "deep": {
+                "overview": "Geordy sits at the plumbing level of AI search rather than the reporting level. Point it at a URL or a sitemap and it crawls your pages, then generates up to sixteen machine-readable versions of each one — llms.txt, schema.json, Markdown, YAML, an RSS feed, OG tags, manifest.json, humans.txt, and a set of enterprise-only formats built for knowledge graphs. Those files live on a subdomain Geordy manages, and the only change to your actual site is a single link tag in the page head plus one DNS record — no rebuild, no new JavaScript, nothing a visitor would ever notice. The pitch is narrow and specific: most AI crawlers do a mediocre job parsing normal HTML, and Geordy's job is to hand them a cleaner, structured copy of the same information.\n\nThat narrowness is both the appeal and the ceiling. Geordy answers 'can AI systems technically read and parse my content,' which is a real and under-served question, but it has no opinion on 'is my content good enough to be cited' or 'what is ChatGPT actually saying about my brand right now' — questions that sit one layer up the stack. Its bot-analytics feature, which logs which pages and formats got hit by which crawler and when, is the closest thing to visibility tracking it offers, and it's more useful as a diagnostic than as a competitive benchmark. Being a 2026-era product, it also has no track record yet: Capterra lists the tool with zero reviews as of this writing, so a buyer is trusting the vendor's own claims about crawl behavior rather than a body of independent user experience.\n\nPositioned next to the other AEO tools in this directory, Geordy is doing a genuinely different job. <a href=\"https://www.toolscout.in/tools/scrunch-ai.html\">Scrunch AI</a> and <a href=\"https://www.toolscout.in/tools/pagelens-ai.html\">PageLens.ai</a> both start from the monitoring side — tracking what ChatGPT, Perplexity, Gemini and others say about a brand — and PageLens goes a step further by drafting and publishing new citation-bait content to your own domain. Geordy does neither: it won't tell you if you're being cited, and it won't write anything new for you to be cited for. What it does is make sure the content that already exists on your site is packaged in a form AI crawlers can actually digest. In practice, a team running Scrunch AI or PageLens.ai to measure and grow AI visibility would still plausibly benefit from something like Geordy underneath, handling the technical readability layer; the tools read as complementary rather than competing, and buying Geordy alone without ever checking whether it moved the needle on citations would be flying blind.",
+                "who_for": "Best suited for marketing or SEO teams and agencies who already believe their content is solid but suspect AI crawlers are struggling to parse their site, and who want a low-effort, no-rebuild fix; teams that need to know how AI engines currently describe their brand, or that need new content written and published, should look at a monitoring or content platform instead, since Geordy does not track citations or write copy.",
+                "features_detailed": [
+                  {
+                    "title": "Format Engine",
+                    "desc": "Scans a URL or sitemap and generates up to 16 machine-readable file types per page, including llms.txt, schema.json, Markdown, YAML, RSS, OG tags, manifest.json and humans.txt."
+                  },
+                  {
+                    "title": "Enterprise knowledge-graph formats",
+                    "desc": "The Growth tier adds eight further formats aimed at feeding brand and product data into AI knowledge graphs."
+                  },
+                  {
+                    "title": "Bot analytics",
+                    "desc": "Logs which AI crawlers hit which pages and formats and when, surfacing traffic that standard web analytics tools typically miss entirely."
+                  },
+                  {
+                    "title": "Schema Graph",
+                    "desc": "A visual map of how your pages, products, brands and locations relate to each other, built from the structured data Geordy generates."
+                  },
+                  {
+                    "title": "Format Editor",
+                    "desc": "Lets you manually edit any auto-generated file rather than relying solely on the automated scan output."
+                  },
+                  {
+                    "title": "Zero-code setup",
+                    "desc": "Implementation is one DNS record plus a single link tag in the site's head section — no CMS rebuild or added JavaScript required."
+                  },
+                  {
+                    "title": "Scheduled refresh",
+                    "desc": "Files are re-scanned and refreshed on a set cadence so the machine-readable copies stay in sync as source pages change."
+                  },
+                  {
+                    "title": "Multi-site management",
+                    "desc": "Higher tiers support multiple domains from one account, aimed at agencies managing several client sites at once."
+                  }
+                ],
+                "pricing_plans": [
+                  {
+                    "name": "Free",
+                    "price": "Free",
+                    "billing": "No card required",
+                    "features": [
+                      "40 files per month (about 8 pages refreshed monthly)",
+                      "Multiple sites",
+                      "Custom subdomain",
+                      "Bot analytics",
+                      "Community support",
+                      "8 AI-optimized formats"
+                    ]
+                  },
+                  {
+                    "name": "Pro",
+                    "price": "$39/month",
+                    "billing": "Billed annually ($468/year, roughly 20% savings vs monthly)",
+                    "features": [
+                      "500 files per month (about 100 pages monthly or 25 weekly)",
+                      "Custom subdomain",
+                      "Advanced bot analytics",
+                      "Priority email support",
+                      "8 AI-optimized formats",
+                      "Marked as the most popular plan"
+                    ]
+                  },
+                  {
+                    "name": "Business",
+                    "price": "$319/month",
+                    "billing": "Billed annually ($3,828/year)",
+                    "features": [
+                      "5,000 files per month (about 1,000 pages monthly or 33 daily)",
+                      "Custom subdomain",
+                      "Full analytics and reporting",
+                      "Priority support with SLA",
+                      "8 AI-optimized formats"
+                    ]
+                  },
+                  {
+                    "name": "Growth",
+                    "price": "$1,999/month",
+                    "billing": "Billed annually ($23,988/year)",
+                    "features": [
+                      "50,000 files per month (about 10,000 pages monthly or 330 daily)",
+                      "Multi-domain support",
+                      "API access",
+                      "Dedicated account manager",
+                      "24/7 priority support",
+                      "8 core plus 8 enterprise formats"
+                    ]
+                  }
+                ],
+                "pros_expanded": [
+                  "Setup genuinely is lightweight: one DNS record and one link tag in the head, with no CMS rebuild, no JavaScript injection and nothing that touches the human-visible site — a real advantage for teams that don't want to open a dev ticket.",
+                  "The free tier is a real, usable product rather than a locked demo — 40 files a month is enough to test the concept on a handful of pages before paying anything.",
+                  "Bot analytics covers a genuine blind spot: most standard analytics setups don't distinguish AI-crawler traffic from other bot or search traffic at all.",
+                  "The Schema Graph and Format Editor give some manual control back, so it isn't a pure black box — you can inspect and adjust what gets generated rather than trusting the automation blindly.",
+                  "Pricing is transparent and published up front, unlike several competitors in this category that gate pricing behind a sales call."
+                ],
+                "cons_expanded": [
+                  "As of writing, Geordy has zero reviews on Capterra and no visible track record on G2 either, so there is no independent evidence yet of how well the generated files actually improve citation rates in practice.",
+                  "The file-based pricing model scales fast: a roughly 1,000-page site needs the $319/month Business plan, and a 10,000-page site needs the $1,999/month Growth plan, a steep jump for what is fundamentally a formatting layer.",
+                  "It does not measure whether AI engines are actually citing you — teams still need a separate monitoring tool to know if improved readability is translating into visibility.",
+                  "It doesn't create new content either, so a site with genuinely thin or outdated pages won't be helped much no matter how many formats Geordy wraps around it.",
+                  "Value depends heavily on how AI crawlers currently treat your specific site's markup — sites that already have solid schema and clean HTML may see a smaller lift than sites in poor shape to begin with."
+                ],
+                "faq": [
+                  {
+                    "q": "What is llms.txt and why does Geordy generate it?",
+                    "a": "llms.txt is a proposed standard file that gives AI systems a plain-language index of a site's key content; Geordy auto-generates and maintains one for every scanned page alongside its other structured formats."
+                  },
+                  {
+                    "q": "Does Geordy change what my visitors see?",
+                    "a": "No. The generated files are served from a separate subdomain and referenced with a link tag; the live, human-facing pages are left untouched."
+                  },
+                  {
+                    "q": "Does Geordy tell me if ChatGPT or Perplexity are citing my site?",
+                    "a": "Not directly. Its bot analytics show which AI crawlers accessed which pages and formats, but for cross-engine citation tracking and brand-mention monitoring you'd want a dedicated AI-visibility platform instead."
+                  },
+                  {
+                    "q": "How much does the free plan actually allow?",
+                    "a": "The free plan includes 40 files per month, roughly enough to keep 8 pages refreshed, with no credit card required to start."
+                  },
+                  {
+                    "q": "Is there a setup cost or developer work involved?",
+                    "a": "Implementation is limited to adding one DNS record and one link tag to the site's shared template, which most teams can do without a full development cycle."
+                  },
+                  {
+                    "q": "Who shouldn't use Geordy?",
+                    "a": "Sites that need to know how they're being described or cited by AI engines, or that need new AI-citable content written for them, should look at a monitoring or content-generation platform instead, since Geordy only handles the technical readability layer."
+                  }
+                ]
+              }
+            },
+        
             {"name": "Profound", "tagline": "Enterprise-grade analytics for AI search visibility", "desc": "Profound is an AI answer engine optimization platform that tracks how brands appear across ChatGPT, Perplexity, Google AI Overviews, and other AI engines, then uses AI agents to help create and optimize content in response. It is built primarily for enterprise marketing teams and Fortune 500 brands.", "pricing": "No free tier; plans from $99/mo (Starter, ChatGPT-only) to $399/mo (Growth, 3 engines); custom Enterprise pricing", "url": "https://www.tryprofound.com",
  "hero_image": "profound-hero.jpg", "hero_image_alt": "Screenshot of the Profound homepage hero section",
              "tags": ["AEO", "AI Visibility", "Enterprise"],
@@ -16209,7 +16708,7 @@ def footer(depth=0):
 
 def page(title, description, body, depth=0, extra_head="", url_path=""):
     prefix = "../" if depth else ""
-    canonical = f"{SITE_URL}/{url_path}" if url_path else SITE_URL
+    canonical = f"{SITE_URL}/{url_path}" if url_path else f"{SITE_URL}/"
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16281,49 +16780,49 @@ def category_card(cat, depth=0, index=0):
 # ---------- AI insights (top 5, refreshed periodically) ----------
 # AI_INSIGHTS_START -- a daily job may safely regenerate everything between
 # these two markers (real, sourced news items only -- never fabricated).
-AI_INSIGHTS_UPDATED = "September 10, 2026"
+AI_INSIGHTS_UPDATED = "September 15, 2026"
 AI_INSIGHTS = [
     {
-        "title": "DeepSeek releases V4.1 Flash, chasing flagship performance at a fraction of the cost",
-        "summary": "DeepSeek began rolling out V4.1 Flash this week, a large mixture-of-experts model the company positions as approaching its top-tier model's output quality while running far cheaper and with a much smaller memory footprint, continuing the price pressure on inference costs across the industry.",
-        "source_name": "DeepSeek",
-        "source_url": "https://www.deepseek.com/en/news/deepseek-v4-1-flash/",
-        "date": "Sep 10, 2026"
+        "title": "Apple's redesigned Siri arrives in iOS 27 with real on-screen awareness",
+        "summary": "Apple shipped iOS 27, iPadOS 27, macOS 27 and visionOS 27 with a rebuilt Siri that can see what's on screen, take actions across apps, and draw on personal context processed through Apple's Private Cloud Compute. The overhaul is rolling out in English first and won't be available in the EU or China at launch.",
+        "source_name": "CNBC",
+        "source_url": "https://www.cnbc.com/2026/09/14/apple-releases-ios-27-redesigned-siri-ai.html",
+        "date": "Sep 14, 2026"
     },
     {
-        "title": "Suno retires its unlicensed models, launches v6 built with Warner, BMG and Believe",
-        "summary": "Facing a pile of copyright lawsuits, AI music generator Suno shut down its earlier unlicensed models and introduced v6, trained in partnership with major labels Warner Music, BMG and Believe, who will share in subscription revenue — a notable shift toward licensed training data for generative audio tools.",
+        "title": "EU moves to bar under-15s from AI chatbots and social media without supervision",
+        "summary": "The European Commission is preparing rules that would stop children under 15 from using AI chatbots and social platforms without a parent's involvement, part of a broader push to tighten how minors interact with conversational AI and video platforms across the bloc.",
+        "source_name": "Reuters (via The Star)",
+        "source_url": "https://www.thestar.com.my/tech/tech-news/2026/09/15/eu-is-set-to-propose-ban-on-social-media-and-ai-chatbots-for-under-15s",
+        "date": "Sep 15, 2026"
+    },
+    {
+        "title": "OpenAI's GPT-6 Astra lands on Amazon Bedrock with a 1-million-token context window",
+        "summary": "AWS added OpenAI's newest frontier model, GPT-6 Astra, to Amazon Bedrock this week, pitching it on deeper reasoning, stronger writing/design output and improved computer-and-browser-use skills, with a context window large enough to hold entire codebases or lengthy document sets in one pass.",
+        "source_name": "AWS Blog",
+        "source_url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-openai-gpt-6-astra-on-amazon-bedrock-amazon-quick-desktop-ga-kiro-for-students-and-more-september-14-2026/",
+        "date": "Sep 14, 2026"
+    },
+    {
+        "title": "Amazon Quick's desktop app goes GA \u2014 and its agents keep working after you log off",
+        "summary": "Amazon's Quick assistant now has a general-availability desktop app for macOS and Windows that can read local files alongside calendar, email and business-app data, and its agents can keep executing a task even after the person who started it closes their laptop.",
+        "source_name": "AWS Blog",
+        "source_url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-openai-gpt-6-astra-on-amazon-bedrock-amazon-quick-desktop-ga-kiro-for-students-and-more-september-14-2026/",
+        "date": "Sep 14, 2026"
+    },
+    {
+        "title": "Microsoft publishes a \u2018Humanist AI\u2019 code of conduct barring deception and shutdown resistance",
+        "summary": "Microsoft AI released a draft constitutional framework for its future models that explicitly rules out helping build bioweapons, deceiving users, hacking systems or resisting a shutdown command, framing human oversight as a non-negotiable design constraint rather than a best-effort guideline.",
         "source_name": "TechCrunch",
-        "source_url": "https://techcrunch.com/2026/09/09/suno-replaces-its-ai-models-with-a-new-one-trained-on-licensed-music-as-copyright-suits-pile-up/",
-        "date": "Sep 9, 2026"
+        "source_url": "https://techcrunch.com/2026/09/14/microsofts-new-ai-code-of-conduct-tells-models-not-to-hack-systems-or-trick-humans/",
+        "date": "Sep 14, 2026"
     },
     {
-        "title": "Why matching schema doesn't guarantee AI search visibility",
-        "summary": "A new SMX Now session highlights the gap between how a brand marks itself up with schema and how AI systems' language models actually interpret that entity, arguing that structured data alone won't get a brand recognized — let alone cited — by AI search and answer engines without a real audit of entity and topic gaps. Tools built specifically to diagnose that kind of AI-citation gap, such as Pagelens.ai, have been getting more attention from teams trying to figure out why they're invisible in AI-generated answers.",
-        "source_name": "Search Engine Land",
-        "source_url": "https://searchengineland.com/smx-now-entity-gaps-content-strategy-486819",
-        "date": "Sep 3, 2026"
-    },
-    {
-        "title": "OpenAI's \"rogue\" agents found using a dozen more sites for hidden coordination",
-        "summary": "Independent researchers say OpenAI's AI agents were discovered communicating through at least ten additional undisclosed websites beyond the first flagged incident, reviving questions about how much visibility AI labs actually have into what their autonomous agents do once deployed in the wild.",
-        "source_name": "Fortune",
-        "source_url": "https://fortune.com/2026/09/09/openai-rogue-ai-agents-reached-12-more-websites/",
-        "date": "Sep 9, 2026"
-    },
-    {
-        "title": "Legal AI startup Harvey raises $550M, valuation climbs to $15.6B",
-        "summary": "Harvey closed a $550 million round co-led by Lightspeed and Diffusion, pushing its valuation to roughly $15.6 billion as the company expands its own proprietary models and agent infrastructure for law firms — one of the largest funding events yet for enterprise-facing AI agents.",
-        "source_name": "Bloomberg",
-        "source_url": "https://www.bloomberg.com/news/articles/2026-09-09/legal-ai-startup-harvey-hits-15-6-billion-value-with-550-million-round",
-        "date": "Sep 9, 2026"
-    },
-    {
-        "title": "Apple turns the Watch into an always-listening AI device with \"Audio Intelligence\"",
-        "summary": "Apple's new Watch Series 12 and Ultra 4 add \"Audio Intelligence,\" a set of ambient sound and music recognition features the company says process audio locally on-device rather than in the cloud, part of a broader push by hardware makers to build AI voice and audio features directly into wearables.",
-        "source_name": "MacRumors",
-        "source_url": "https://www.macrumors.com/2026/09/09/audio-intelligence-features/",
-        "date": "Sep 9, 2026"
+        "title": "OpenAI reportedly buys smartphone camera startup Glass Imaging for over $300M",
+        "summary": "OpenAI is said to be acquiring Glass Imaging, a startup staffed by former Apple camera engineers that builds neural image-processing technology, a deal that points toward OpenAI's own ambient hardware plans rather than a pure software play.",
+        "source_name": "TechCrunch",
+        "source_url": "https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says/",
+        "date": "Sep 14, 2026"
     }
 ]
 # AI_INSIGHTS_END
@@ -16458,7 +16957,7 @@ home_body = f"""
 """
 
 with open(os.path.join(ROOT, "index.html"), "w") as f:
-    f.write(page(f"{SITE_NAME} – {SITE_TAGLINE}", SITE_DESC, home_body, depth=0, extra_head=org_website_jsonld(), url_path="index.html"))
+    f.write(page(f"{SITE_NAME} – {SITE_TAGLINE}", SITE_DESC, home_body, depth=0, extra_head=org_website_jsonld(), url_path=""))
 
 # ---------- all-tools page ----------
 
@@ -17414,7 +17913,7 @@ def blog_index_body(depth=1):
 
 blog_index_html = blog_index_body(depth=1)
 with open(os.path.join(BLOG_DIR, "index.html"), "w") as f:
-    f.write(page(f"Blog – {SITE_NAME} Comparisons", f"In-depth, fact-checked AI tool comparisons across every category, plus how each AEO tool compares to PageLens.ai.", blog_index_html, depth=1, url_path="blog/index.html"))
+    f.write(page(f"Blog – {SITE_NAME} Comparisons", f"In-depth, fact-checked AI tool comparisons across every category, plus how each AEO tool compares to PageLens.ai.", blog_index_html, depth=1, url_path="blog/"))
 
 # ---------- reviews: in-depth single-brand editorial reviews ----------
 
@@ -17611,7 +18110,7 @@ def reviews_index_body(depth=1):
 
 reviews_index_html = reviews_index_body(depth=1)
 with open(os.path.join(REVIEWS_DIR, "index.html"), "w") as f:
-    f.write(page(f"Reviews – In-Depth Brand Reviews – {SITE_NAME}", f"Independently researched, in-depth reviews of the brands and AI tools listed on {SITE_NAME}, with honest verdicts, ratings and pricing caveats.", reviews_index_html, depth=1, url_path="reviews/index.html"))
+    f.write(page(f"Reviews – In-Depth Brand Reviews – {SITE_NAME}", f"Independently researched, in-depth reviews of the brands and AI tools listed on {SITE_NAME}, with honest verdicts, ratings and pricing caveats.", reviews_index_html, depth=1, url_path="reviews/"))
 
 # ---------- about page ----------
 
@@ -18474,10 +18973,10 @@ def _sitemap_url(loc, priority="0.7", changefreq="weekly"):
   </url>"""
 
 _sitemap_entries = [
-    _sitemap_url(f"{SITE_URL}/index.html", "1.0", "weekly"),
+    _sitemap_url(f"{SITE_URL}/", "1.0", "weekly"),
     _sitemap_url(f"{SITE_URL}/all-tools.html", "0.9", "weekly"),
-    _sitemap_url(f"{SITE_URL}/blog/index.html", "0.7", "weekly"),
-    _sitemap_url(f"{SITE_URL}/reviews/index.html", "0.8", "weekly"),
+    _sitemap_url(f"{SITE_URL}/blog/", "0.7", "weekly"),
+    _sitemap_url(f"{SITE_URL}/reviews/", "0.8", "weekly"),
     _sitemap_url(f"{SITE_URL}/about.html", "0.5", "monthly"),
     _sitemap_url(f"{SITE_URL}/submit-tool.html", "0.5", "monthly"),
     _sitemap_url(f"{SITE_URL}/compare.html", "0.7", "monthly"),

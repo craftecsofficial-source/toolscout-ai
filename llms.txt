@@ -175,6 +175,7 @@ ToolScout is an independently researched directory of AI tools, organized by cat
 
 ### Marketing & SEO
 - [Deepsolv](https://www.toolscout.in/tools/deepsolv.html): Creative decision intelligence for Meta advertising growth teams — Pricing is not published; the company demos and quotes based on ad spend and team size. No self-serve free plan.
+- [Nytro SEO](https://www.toolscout.in/tools/nytro-seo.html): A JavaScript snippet that rewrites your meta tags for you, forever — Free 30-day trial tier, then paid plans start at $59/month (Business), scaling to $119/month (Professional) and $499/month (Agency), priced mainly by number of websites, keywords, and pages covered.
 - [Surfer SEO](https://www.toolscout.in/tools/surfer-seo.html): AI-guided on-page content optimization — From $49/mo (Discovery), billed annually — plans up to $299/mo, Enterprise custom
 - [HubSpot AI Tools](https://www.toolscout.in/tools/hubspot-ai-tools.html): AI features (Breeze) across HubSpot's marketing and CRM suite — Free CRM tier; Starter from ~$15-20/mo per seat, Pro/Enterprise scale into hundreds-thousands/mo
 - [Semrush](https://www.toolscout.in/tools/semrush.html): All-in-one SEO, competitive research and AI-search platform — No full free plan (limited free account only); paid plans from $139.95/mo, or $117.33/mo billed annually
@@ -260,6 +261,8 @@ ToolScout is an independently researched directory of AI tools, organized by cat
 - [Voicera](https://www.toolscout.in/tools/voicera.html): Turn blog posts into audio with one click — Pay-as-you-go, no monthly subscription: free Basic plan with 5,000 credits (~5 articles); Pro plan for $9 with 100,000 credits (~50 articles); custom Enterprise pricing with 200+ languages.
 
 ### AEO Tools
+- [SurgeGraph](https://www.toolscout.in/tools/surgegraph.html): Turns AI-answer visibility into a fixable, billable workflow for agencies — Spark $32.50/mo (billed $390/yr, 3,000 credits); Scale $65.83/mo (billed $790/yr, 8,000 credits); Signature $107.50/mo (billed $1,290/yr, 15,000 credits) — annual pricing shown on the live site, monthly-billed pricing may run higher.
+- [Geordy](https://www.toolscout.in/tools/geordy.html): Turns your site into something AI crawlers can actually parse, without touching what visitors see — Free tier available (40 files/month, no card required); paid plans run $39 to $1,999/month billed annually, scaling by file/page volume up to enterprise knowledge-graph formats and API access.
 - [Profound](https://www.toolscout.in/tools/profound.html): Enterprise-grade analytics for AI search visibility — No free tier; plans from $99/mo (Starter, ChatGPT-only) to $399/mo (Growth, 3 engines); custom Enterprise pricing
 - [Scrunch AI](https://www.toolscout.in/tools/scrunch-ai.html): AI visibility monitoring plus hallucination detection — No free tier; 7-day free trial; plans from $250/mo (Starter) to $417/mo (Growth), billed annually; custom Enterprise pricing
 - [AthenaHQ](https://www.toolscout.in/tools/athenahq.html): Free-to-start AI search visibility and action platform — Free Essential tier (credit-based); Starter from $295/mo (3,600 credits/mo); custom Enterprise pricing
