@@ -1445,6 +1445,182 @@ CATEGORIES = [
                     ]
                 }
             },
+            {
+              "name": "MailMaestro",
+              "tagline": "The AI sidebar that drafts, replies to, and triages your inbox inside Gmail, Outlook, and Teams — formerly known as Flowrite",
+              "desc": "MailMaestro is an AI email assistant that lives inside Gmail, Outlook, Microsoft Teams, and Word, drafting new emails, rewriting rough drafts, generating replies, and summarizing long threads on command. It's the rebranded continuation of Flowrite, after Maestro Labs (the company behind MailMaestro) acquired Flowrite's AI email-writing team and folded it into a broader product that also handles inbox triage, reusable \"Magic Templates,\" and keyword-based shortcuts.",
+              "pricing": "Free plan available (3 AI requests/week). Professional is $15/seat/month ($12/seat/month billed annually) and adds summarization, an AI-sorted priority inbox, meeting scheduling, and watermark removal. Team is priced the same per seat but adds shared templates, Teams integration, and admin/license management. Enterprise pricing is custom-quoted. A separate 'Maestro Duo' bundle (MailMaestro + TeamsMaestro Professional) runs $25/seat/month.",
+              "url": "https://www.maestrolabs.com/flowrite",
+              "tags": [
+                "AI email assistant",
+                "Outlook add-in",
+                "Gmail extension",
+                "email productivity",
+                "formerly Flowrite"
+              ],
+              "features": [
+                "AI email composition from a short prompt or bullet points, in multiple languages",
+                "One-click rewriting/tone editing of existing drafts",
+                "Context-aware reply generation from within an email thread",
+                "Thread and attachment summarization for long email chains",
+                "AI Priority Inbox that ranks and triages incoming mail",
+                "Magic Templates for saving and reusing common email structures",
+                "Keyword Shortcuts that auto-insert frequently used snippets or data",
+                "Native integration across Gmail, Outlook, Microsoft Teams, and Microsoft Word"
+              ],
+              "pros": [
+                "Works natively inside Gmail, Outlook, Teams, and Word instead of a separate app you tab over to",
+                "Covers the full email lifecycle — writing, replying, and summarizing, not just one of those",
+                "Free tier lets you try real usage before paying anything",
+                "Magic Templates and Keyword Shortcuts genuinely cut repetitive typing for recurring email types"
+              ],
+              "cons": [
+                "Free tier's 3-requests-per-week cap is too low to evaluate the tool for real daily use",
+                "Team and Professional are priced identically per seat, which makes the tier structure confusing to compare against competitors",
+                "No dedicated sales-outreach features (deliverability, reply-rate coaching) if that's your actual use case"
+              ],
+              "best_for": "Busy professionals, founders, and support/ops teams who write and answer a high volume of general business email and want one assistant that works the same way across Gmail, Outlook, Teams, and Word — not sales reps optimizing cold-email reply rates.",
+              "deep": {
+                "overview": "MailMaestro is what used to be Flowrite. Maestro Labs acquired Flowrite's AI email-writing team and merged it into MailMaestro, so if you remember Flowrite as \"the Chrome extension that turns bullet points into full emails,\" that's still the core of this product — it's just been rebuilt into a broader assistant that also summarizes threads, triages your inbox, and now reaches into Outlook, Gmail, Microsoft Teams, and Word rather than living as a single browser extension. Anyone searching for Flowrite in 2026 will land here, and that continuity is worth knowing before you go looking for a tool that no longer exists under its old name.\n\nThe honest question for a tool like this is whether it's still needed at all, given that Gmail (Gemini) and Outlook (Copilot) now ship their own AI drafting and summarization, and general assistants like ChatGPT or Claude can write a perfectly good email if you paste in context. MailMaestro's case rests on friction, not raw capability: it sits as a persistent sidebar or inline button inside the email you're already looking at, so you're not switching windows, copy-pasting subject lines and thread history, or re-explaining context to a chatbot that doesn't have your inbox open. The Magic Templates and Keyword Shortcuts features are the more interesting differentiator — they let you pre-build structures for the emails you send over and over (status updates, meeting follow-ups, client check-ins) so the AI isn't generating from scratch each time, it's filling in a pattern you've already approved. That's a genuinely different workflow than typing a prompt into ChatGPT, and it's the strongest reason to pay for a dedicated tool rather than rely on a general assistant or your inbox's built-in AI.\n\nThe closer, more useful comparison is against <a href=\"https://www.toolscout.in/tools/lavender.html\">Lavender</a>, which also lives as a sidebar in Gmail and Outlook and also does AI-assisted email writing — but the two tools are built for different jobs. Lavender is a real-time coaching layer specifically for outbound sales email: it scores your draft against what correlates with higher reply rates, flags spammy or low-deliverability language, and pushes you to rewrite for performance before you hit send. MailMaestro has no equivalent scoring or deliverability layer — it's a general-purpose writing and triage assistant meant for any professional's day-to-day email, not a sales-performance tool. If you're a rep whose job is measured in reply rates and meetings booked, Lavender's specialized coaching will do more for your actual metrics than MailMaestro's drafting will. If you're a founder, ops lead, or anyone drowning in a mixed bag of replies, summaries, and one-off drafts across Gmail, Outlook, and Teams, MailMaestro's broader coverage and cross-app consistency is the better fit.\n\nOur verdict: MailMaestro is worth paying for if you send enough repetitive or high-stakes email that a sidebar assistant saves you real minutes daily, and if you value having one consistent tool across Gmail, Outlook, Teams, and Word rather than learning each platform's native AI separately. It's not worth it if your email volume is light enough that Gmail's or Outlook's built-in AI already covers you for free, or if your real need is sales-specific coaching, in which case Lavender is the sharper tool for that job.",
+                "who_for": "Professionals and small teams handling a steady volume of general business correspondence — client communication, internal coordination, support-style replies — who want consistent AI drafting and triage across Gmail, Outlook, Teams, and Word rather than a sales-specific coaching tool.",
+                "features_detailed": [
+                  {
+                    "title": "AI Email Writer",
+                    "desc": "Turns a short prompt, bullet list, or rough draft into a full email in the sender's chosen tone and language, meant to replace staring at a blank compose window."
+                  },
+                  {
+                    "title": "AI Email Response",
+                    "desc": "Reads the thread you're viewing and drafts a context-aware reply, rather than requiring you to re-explain the conversation to a separate chatbot."
+                  },
+                  {
+                    "title": "AI Email Summary",
+                    "desc": "Condenses long threads and attachments into a short summary, aimed at people who inherit or triage long email chains."
+                  },
+                  {
+                    "title": "AI Priority Inbox / Triage",
+                    "desc": "Ranks and surfaces incoming mail by apparent importance, part of the Professional and higher tiers, targeted at high-volume inboxes."
+                  },
+                  {
+                    "title": "Magic Templates",
+                    "desc": "Saves reusable structures for recurring email types so the AI fills a pre-approved pattern instead of generating fresh copy every time."
+                  },
+                  {
+                    "title": "Keyword Shortcuts",
+                    "desc": "Lets users trigger insertion of frequently used snippets, links, or data via a keyword, cutting typing on repetitive replies."
+                  },
+                  {
+                    "title": "Cross-platform coverage",
+                    "desc": "Ships as extensions/add-ins for Gmail, Outlook, Microsoft Teams, and Microsoft Word, so the same assistant follows you across the apps you actually write in."
+                  },
+                  {
+                    "title": "Team sharing and admin controls",
+                    "desc": "Team and Enterprise tiers add shared template libraries, license management, and enterprise security controls for rolling the tool out beyond a single user."
+                  }
+                ],
+                "pricing_plans": [
+                  {
+                    "name": "Free",
+                    "price": "$0/seat",
+                    "billing": "monthly",
+                    "features": [
+                      "3 AI requests per week",
+                      "Compose, reply, and improve emails",
+                      "Magic Templates",
+                      "Access to underlying models (e.g. GPT-4o, Claude 3.5)"
+                    ]
+                  },
+                  {
+                    "name": "Professional",
+                    "price": "$15/seat/month (or $12/seat/month billed annually)",
+                    "billing": "monthly or annual",
+                    "features": [
+                      "Everything in Free, unlimited usage",
+                      "Email and attachment summarization",
+                      "Smart meeting scheduling",
+                      "AI Priority Inbox",
+                      "Email reminders",
+                      "Watermark removal"
+                    ]
+                  },
+                  {
+                    "name": "Team",
+                    "price": "$15/seat/month (discounted bundle available on annual billing)",
+                    "billing": "monthly or annual",
+                    "features": [
+                      "Everything in Professional",
+                      "Shared/template libraries across the team",
+                      "Microsoft Teams email integration",
+                      "Enterprise-grade security",
+                      "Team dashboard and license management"
+                    ]
+                  },
+                  {
+                    "name": "Enterprise",
+                    "price": "Custom quote",
+                    "billing": "custom",
+                    "features": [
+                      "Everything in Team",
+                      "Custom data retention policies",
+                      "Dedicated onboarding and training",
+                      "Dedicated support",
+                      "Custom integrations and infosec assistance"
+                    ]
+                  },
+                  {
+                    "name": "Maestro Duo (bundle)",
+                    "price": "$25/seat/month",
+                    "billing": "monthly",
+                    "features": [
+                      "MailMaestro Professional features",
+                      "TeamsMaestro Professional features",
+                      "Single combined subscription"
+                    ]
+                  }
+                ],
+                "pros_expanded": [
+                  "Because it's embedded directly in the compose and reading pane rather than a separate chat window, it removes the copy-paste round-trip that makes using ChatGPT or Claude for individual emails feel clunky in practice.",
+                  "Covering writing, replying, summarizing, and triage in one tool means you're not stacking three separate AI add-ons across your inbox, which matters more once you're also running Copilot or Gemini for other tasks.",
+                  "Magic Templates plus Keyword Shortcuts is a real productivity lever for anyone who sends the same type of email dozens of times a week — it's closer to automation than pure generation, which is a meaningfully different value than a general chatbot offers.",
+                  "Reaching into Outlook, Gmail, Teams, and Word with one account means you're not relearning a different AI assistant's quirks in every Microsoft vs Google surface you touch.",
+                  "The free tier, though limited, is a legitimate way to test whether the drafting quality and workflow fit before committing a team budget to it.",
+                  "Team and Enterprise tiers add the admin/license controls that make it plausible to actually deploy across a company rather than staying a single-user habit."
+                ],
+                "cons_expanded": [
+                  "The free plan's 3-requests-per-week ceiling is stingy enough that it functions more as a demo than a usable trial — you'll hit the wall before you've formed a real opinion of the tool.",
+                  "Professional and Team list at the identical $15/seat/month monthly price, which makes the tier ladder harder to reason about than competitors with clearly stepped pricing, and buyers should read the feature lists closely rather than assume Team is simply 'more expensive.'",
+                  "It has no deliverability or reply-rate scoring layer at all, so any pitch that treats it as a Lavender substitute for sales outreach performance is misleading — the two tools solve different problems.",
+                  "As native AI drafting in Gmail (Gemini) and Outlook (Copilot) keeps improving for free, the ongoing case for paying separately for MailMaestro's core writing function specifically will keep narrowing to its templates/shortcuts/cross-app workflow rather than raw drafting quality alone.",
+                  "Rolling this out to a team adds another per-seat software line item and another tool to manage permissions for, on top of whatever AI features your email platform already bundles in.",
+                  "Its value is heavily use-case dependent: someone who writes only a handful of original emails a day is unlikely to feel $15/month is worth it over just asking a general AI assistant directly."
+                ],
+                "faq": [
+                  {
+                    "q": "Is MailMaestro the same as Flowrite?",
+                    "a": "Yes. Maestro Labs acquired Flowrite's AI email-writing team and rebuilt it into MailMaestro, which now covers writing, replying, summarizing, and inbox triage rather than just drafting."
+                  },
+                  {
+                    "q": "Is MailMaestro worth it compared to just using ChatGPT or Claude to write emails?",
+                    "a": "It depends on volume and friction tolerance. MailMaestro sits inside your inbox and reuses templates/shortcuts, saving the copy-paste step a general chatbot requires; if you only write a handful of original emails a week, a general assistant is probably free enough and flexible enough to skip a dedicated subscription."
+                  },
+                  {
+                    "q": "Is MailMaestro better than Lavender?",
+                    "a": "They solve different problems. Lavender is built specifically to score and coach outbound sales emails toward higher reply rates; MailMaestro is a general-purpose email assistant for writing, replying, summarizing, and triage across any professional's inbox. Sales reps chasing reply rates should lean toward Lavender; anyone managing general email volume should lean toward MailMaestro."
+                  },
+                  {
+                    "q": "Does MailMaestro have a free plan?",
+                    "a": "Yes, a free tier exists but is capped at roughly 3 AI requests per week, which is enough to test the interface but not enough for daily reliance."
+                  },
+                  {
+                    "q": "Which apps does MailMaestro work in?",
+                    "a": "Gmail, Outlook, Microsoft Teams, and Microsoft Word, via browser extension and add-ins, so the same assistant follows you across those surfaces."
+                  },
+                  {
+                    "q": "Does MailMaestro support teams, not just individuals?",
+                    "a": "Yes — Team and Enterprise tiers add shared template libraries, license management, enterprise security controls, and (at the Enterprise level) custom onboarding and integrations."
+                  }
+                ]
+              }
+            },
         ],
     },
     {
@@ -8378,6 +8554,159 @@ CATEGORIES = [
       ]
     }
 },
+            {
+              "name": "Blaze",
+              "tagline": "Marketing software you can run yourself, or hand to a team that runs it for you",
+              "desc": "Blaze is a marketing platform built around a content calendar, SEO and AI-answer (AEO) optimization, paid ad management, landing pages, review management, and lead follow-up in one dashboard. Its distinguishing move is offering that same toolset two ways: a self-serve software subscription, or a 'Done For You' tier where Blaze's own staff plans and executes the work for the client.",
+              "pricing": "Blaze Software (self-serve) from $79/month (Starter) and $149/month (Growth); Done For You (managed service, flat rate, unlimited execution) from $999/month.",
+              "url": "https://www.blaze.ai/",
+              "tags": [
+                "AI Marketing Platform",
+                "Done-For-You Marketing",
+                "SEO & AEO",
+                "Content Calendar",
+                "Small Business Marketing"
+              ],
+              "features": [
+                "Content calendar and yearly planning workflow for scheduling and organizing campaigns",
+                "SEO and AEO (AI-answer-engine optimization) tools aimed at both Google rankings and AI chatbot citations",
+                "Automated ad campaign management across Google and Meta",
+                "Landing page creation tied into the same content system",
+                "Review and reputation management, including automated review requests",
+                "AI SDR / lead qualification that follows up with inbound leads automatically",
+                "Brand-aligned AI content generation with an approval workflow before anything publishes",
+                "Optional Done For You tier where a dedicated Blaze team executes the entire marketing program"
+              ],
+              "pros": [
+                "Genuinely broad scope — content, SEO, ads, landing pages, reviews, and lead follow-up sit under one roof",
+                "The Done For You tier is a real off-ramp for businesses that don't want to run software at all, not just a support add-on",
+                "Entry-level Starter plan is priced for solo operators and small teams, not just agencies",
+                "AEO/AI-answer optimization is a forward-looking addition most competitors haven't built out yet"
+              ],
+              "cons": [
+                "A single all-in-one tool is unlikely to match specialist tools at any one job (ads, SEO, or design)",
+                "Generation-credit and posting-account caps on the Starter plan will feel tight for anyone posting daily across several channels",
+                "Done For You pricing starts at $999/month flat, which is a real commitment before you know if the output quality matches an agency"
+              ],
+              "best_for": "Small businesses and local service companies that want one system to plan, publish, and optimize marketing without stitching together five tools — and that are open to eventually paying Blaze's own team to run it for them rather than hiring an agency.",
+              "deep": {
+                "overview": "Blaze is easiest to understand as two products wearing one brand. The cheaper layer is a fairly conventional AI marketing suite: a content calendar, AI copy and post generation, SEO and the newer AEO (optimizing for being cited inside AI chatbot answers rather than just ranking in Google), automated Google/Meta ad campaigns, landing pages, and review management, all gated behind an approval step before anything goes live. The more distinctive layer is 'Done For You,' where instead of logging in and running the software yourself, a Blaze staffer plans and executes the whole program on your behalf — strategy, content, ads, landing pages, reviews, and lead follow-up included, for a flat $999/month with no separate line items.\n\nThat second tier is the part worth scrutinizing rather than taking at face value. Compared to hiring a freelance marketer or a small agency, $999/month for unlimited execution across content, paid ads, SEO, and reputation management is competitive on paper — an agency retainer covering that same scope would typically run higher. But 'unlimited execution' inside a flat-rate managed service also means Blaze controls the pace and depth of work to protect its own margins; a business that needs aggressive, hands-on ad optimization or fast-turnaround content will likely get a more templated cadence than a dedicated freelancer or boutique agency would provide. It's a reasonable deal for someone who wants marketing simply handled and is comfortable trading control for convenience — it's a worse deal for an experienced marketer who has specific opinions about how campaigns should run, since they're paying for execution they could do themselves with the $79-$149/month software tier alone.\n\nAgainst other all-in-one AI marketing platforms already reviewed here, Blaze's positioning is genuinely different rather than just differently priced. <a href=\"https://www.toolscout.in/tools/simplified.html\">Simplified</a> bundles content, design, video, and social scheduling into one AI agent team, but it stays pure software — you're always the one operating it, at any price tier. <a href=\"https://www.toolscout.in/tools/smartlyq.html\">SmartlyQ</a> goes further into martech territory with a built-in CRM, chatbots, and funnel tools alongside content and social, but it's also a self-serve platform end to end. Blaze is the only one of the three with a real managed-service exit ramp — which matters most for a business owner who doesn't want to become a part-time marketer, and matters least for a marketing-literate team that just wants efficient tooling. If you already know how to run campaigns and just want fewer tabs open, Simplified or SmartlyQ's broader creative and CRM toolsets are arguably a better software-only fit. If you have no marketing capacity in-house at all and the choice is really 'Blaze's Done For You tier' versus 'a local marketing agency,' Blaze is the more interesting option to test first.\n\nThe general risk with any tool this broad still applies: bundling ads, SEO, content, landing pages, and reviews into one dashboard is convenient, but it's rare for a generalist tool to out-perform a specialist ad platform, a dedicated SEO tool, or a purpose-built landing page builder at their individual jobs. Blaze's bet is that 'good enough at everything, connected together' beats 'best at one thing, disconnected from the rest' for small businesses specifically — and for that audience, the bet is reasonable. For a company that already has real budget behind paid ads or SEO specifically, a specialist tool in that one category will likely outperform Blaze's version of it.",
+                "who_for": "Small businesses, local service providers, and solo marketers who want one connected system for content, SEO/AEO, ads, and reviews — and who are open to eventually letting Blaze's own team run the program instead of doing it themselves.",
+                "features_detailed": [
+                  {
+                    "title": "Content calendar and yearly planning",
+                    "desc": "A shared calendar for scheduling and organizing content across channels, with a planning window that extends to a full year on the higher self-serve plan rather than just week-to-week scheduling."
+                  },
+                  {
+                    "title": "SEO and AEO optimization",
+                    "desc": "Traditional search optimization paired with newer tooling aimed at getting a brand cited inside AI chatbot answers (AI-answer-engine optimization), reflecting how search behavior is shifting toward AI assistants."
+                  },
+                  {
+                    "title": "Automated ad campaign management",
+                    "desc": "Google and Meta ad campaigns that Blaze's system (or, on the managed tier, its staff) sets up and runs, positioned as removing the need for a dedicated ads specialist."
+                  },
+                  {
+                    "title": "Landing pages",
+                    "desc": "Landing page creation built into the same platform as content and ads, so campaigns and their conversion pages aren't managed in separate tools."
+                  },
+                  {
+                    "title": "Review and reputation management",
+                    "desc": "Automated review requests and reputation monitoring, aimed at local and service businesses where review volume directly affects visibility and trust."
+                  },
+                  {
+                    "title": "AI SDR / lead follow-up",
+                    "desc": "Automated qualification and follow-up on inbound leads, functioning like a lightweight AI sales development rep rather than leaving new leads to sit in an inbox."
+                  },
+                  {
+                    "title": "Brand-aligned content generation with approval workflow",
+                    "desc": "AI-generated content is filtered through a review/approval step before publishing, aimed at giving users control over brand voice rather than pure autopilot posting."
+                  },
+                  {
+                    "title": "Done For You managed service",
+                    "desc": "A flat-rate tier where a dedicated Blaze team plans and executes the entire marketing program — content, ads, SEO, landing pages, reviews, and lead follow-up — instead of the customer operating the software themselves."
+                  }
+                ],
+                "pricing_plans": [
+                  {
+                    "name": "Starter",
+                    "price": "$79/month",
+                    "billing": "Monthly",
+                    "features": [
+                      "3 posting accounts",
+                      "600 generation credits per month",
+                      "1 user",
+                      "Automated ad campaigns"
+                    ]
+                  },
+                  {
+                    "name": "Growth",
+                    "price": "$149/month",
+                    "billing": "Monthly",
+                    "features": [
+                      "10 posting accounts",
+                      "1,500 generation credits per month",
+                      "Unlimited users",
+                      "Yearly planning window",
+                      "Marked as Blaze's most popular self-serve plan"
+                    ]
+                  },
+                  {
+                    "name": "Done For You (All-In-One)",
+                    "price": "$999/month",
+                    "billing": "Monthly, flat rate",
+                    "features": [
+                      "Unlimited execution across the full marketing funnel",
+                      "Dedicated expert team managing strategy and delivery",
+                      "Website, content, and conversion system management",
+                      "Google Business Profile and managed search ads",
+                      "AI visibility / AEO work, AI receptionist, and lead qualification",
+                      "Automated reviews, analytics, and reporting"
+                    ]
+                  }
+                ],
+                "pros_expanded": [
+                  "The Done For You tier is a legitimate alternative to hiring an agency for businesses with zero in-house marketing capacity — it removes the need to learn any software at all, which the pure self-serve competitors (Simplified, SmartlyQ) can't offer at any price.",
+                  "Covering content, SEO/AEO, ads, landing pages, and reviews in one system genuinely reduces the coordination overhead of running five separate subscriptions and manually syncing data between them, which matters more for a solo operator than for a team with dedicated specialists.",
+                  "Building AEO (AI-answer visibility) into the core product rather than treating it as an afterthought shows Blaze is tracking where search traffic is actually heading, ahead of several competitors still focused purely on traditional SEO.",
+                  "The approval-workflow step before content publishes is a meaningful guardrail against the 'AI tool posts something off-brand while you're not looking' failure mode that fully autonomous tools risk.",
+                  "Pricing tiers scale sensibly from a $79 solo-operator plan up to a $999 fully-managed plan, so a business isn't forced to jump straight to agency-level spend just to get started.",
+                  "Handing marketing execution to a managed-service team removes control that experienced marketers may want to keep — for that audience, the Done For You tier is a worse fit than the software alone, even at $999/month."
+                ],
+                "cons_expanded": [
+                  "A tool that tries to be good at content, ads, SEO, landing pages, and reviews simultaneously is structurally unlikely to match specialist platforms at any single one of those jobs — a business with real ad spend or serious SEO ambitions will likely outgrow Blaze's version of those features specifically.",
+                  "The Starter plan's caps (3 posting accounts, 600 generation credits/month) are restrictive for anyone posting across more than one or two channels daily, effectively pushing serious users toward the $149/month Growth plan almost immediately.",
+                  "The $999/month Done For You tier is a significant flat commitment with limited transparency into exactly how much hands-on strategy versus templated execution a customer actually gets for that price — it's worth asking for specifics before committing, rather than assuming it matches a boutique agency's attention.",
+                  "Businesses that already have marketing expertise in-house gain less from Blaze than from a more creativity-focused platform like Simplified or a CRM-and-funnel-heavy platform like SmartlyQ, since Blaze's value proposition leans on convenience and managed execution rather than being the most powerful tool in any single category.",
+                  "Committing to Blaze's managed service also means committing to Blaze's platform and workflows for strategy decisions that many businesses would rather keep in-house or with a marketer they can directly question and redirect."
+                ],
+                "faq": [
+                  {
+                    "q": "What is Blaze.ai?",
+                    "a": "Blaze is a marketing platform combining a content calendar, SEO and AEO (AI-answer) optimization, ad campaign management, landing pages, review management, and lead follow-up, available either as self-serve software or as a fully managed 'Done For You' service run by Blaze's own team."
+                  },
+                  {
+                    "q": "How much does Blaze cost?",
+                    "a": "Blaze Software starts at $79/month (Starter) and $149/month (Growth) for the self-serve tiers. The Done For You managed service is a flat $999/month covering unlimited execution across the full marketing funnel."
+                  },
+                  {
+                    "q": "What's the difference between Blaze Software and Done For You?",
+                    "a": "Blaze Software is a self-serve tool you operate yourself to create, review, and publish marketing. Done For You is a managed service where a dedicated Blaze team plans and executes the work on your behalf, for a flat monthly rate."
+                  },
+                  {
+                    "q": "Is Blaze worth it compared to Simplified or SmartlyQ?",
+                    "a": "It depends on what you're actually buying. If you want pure software you operate yourself, Simplified's stronger content/design/video toolset or SmartlyQ's built-in CRM and chatbots may serve a marketing-literate team better. If you have no in-house marketing capacity and want the option to hand the whole program to a team, Blaze is the only one of the three offering that as a real managed-service tier rather than software alone."
+                  },
+                  {
+                    "q": "Is Blaze good for a business with no marketing team?",
+                    "a": "Yes — this is where Blaze's Done For You tier makes the most sense, since it removes the need to learn or operate any software at all. It's a weaker fit for a business that already has marketing expertise and just wants efficient tools."
+                  },
+                  {
+                    "q": "Does Blaze support AI-answer/AEO optimization, not just traditional SEO?",
+                    "a": "Yes, Blaze includes AEO (AI-answer-engine optimization) tooling aimed at getting brands cited inside AI chatbot answers, alongside traditional SEO — a feature most competing all-in-one marketing platforms haven't built out yet."
+                  }
+                ]
+              }
+            },
         ],
     },
     {
@@ -13286,6 +13615,179 @@ CATEGORIES = [
                     {"q": "How is VEA AI different from a standard CRM?", "a": "Rather than just storing customer records, VEA AI's AI agents actively manage tasks, flag at-risk accounts and growth opportunities, and combine financial and team-performance visibility into one system, aiming to reduce the need for separate operational software."},
                 ],
              }},
+            {
+              "name": "Seamless.ai",
+              "tagline": "A real-time contact-search engine for sales teams, built on live verification rather than a static database alone",
+              "desc": "Seamless.ai is a long-running B2B prospecting platform that hunts down verified business emails and direct-dial phone numbers on demand, layering on buyer-intent signals, AI-drafted outreach messaging, and a built-in dialer/email engine. It positions itself against traditional static contact databases by re-searching and re-verifying records in real time rather than only serving up stored data.",
+              "pricing": "Free plan: 1 user, 50 one-time credits, no cost. Paid tiers (Basic, Pro, Enterprise) are not listed publicly on Seamless.ai's own pricing page — they're gated behind 'Contact Sales' or only become visible after creating a free account. Third-party pricing trackers commonly report a Basic tier around $147/month billed annually, Pro plans in the $150-$500 per user/month range, and Enterprise deals averaging roughly $8,000-$18,000/year depending on team size — treat these as reported figures, not confirmed list prices.",
+              "url": "https://www.seamless.ai/",
+              "tags": [
+                "B2B Contact Database",
+                "Sales Prospecting",
+                "Lead Generation",
+                "Sales Intelligence",
+                "Outreach Automation"
+              ],
+              "features": [
+                "Real-time search engine that re-verifies emails and direct-dial numbers at the moment of search, rather than only pulling from a static stored list",
+                "Prospector tool for building targeted lead and account lists using filters like job changes and firmographics",
+                "Buyer Intent data layer meant to flag accounts showing active in-market purchase signals",
+                "Pitch Intelligence, an AI feature that drafts personalized outreach copy per contact",
+                "Engagement Hub bundling email sending, an AI-assisted dialer, and social-selling touches in one workspace",
+                "Outbound and Inbound AI Agents intended to automate parts of campaign sequencing and lead response",
+                "Chrome browser extension for pulling contact data while browsing LinkedIn and other sites",
+                "CRM enrichment plus a claimed 6,000+ app integrations and an API for workflow automation"
+              ],
+              "pros": [
+                "Free tier with 50 credits lets you sample real contact data before paying anything",
+                "Real-time re-verification model can, in principle, catch job changes faster than a purely static database",
+                "Prospecting, intent data, and outreach tools live in one platform instead of three separate subscriptions",
+                "Credit-back policy for emails that bounce is a real (if partial) hedge against bad data"
+              ],
+              "cons": [
+                "Paid pricing is deliberately hidden until you're in a sales call or already inside the app, which makes it hard to comparison-shop up front",
+                "A recurring pattern in independent reviews is contact data going stale fast — high bounce rates and disconnected numbers despite the 'real-time' pitch",
+                "Multiple reviewers describe being locked into annual contracts with strict advance-notice cancellation windows and surprise renewal charges"
+              ],
+              "best_for": "Sales and RevOps teams who prospect heavily by phone and want an all-in-one contact-finding-plus-outreach tool, and who are willing to negotiate pricing and read the contract's renewal/cancellation terms closely before signing an annual deal.",
+              "deep": {
+                "overview": "Seamless.ai's core pitch is that it isn't just another static contact warehouse — it runs a live search each time you look someone up, cross-checking emails and direct-dial numbers instead of only serving whatever was scraped and stored months earlier. Wrapped around that engine sits Buyer Intent data, an AI messaging feature called Pitch Intelligence, an Engagement Hub for sending emails and making calls without leaving the tool, and newer 'Outbound Agent' and 'Inbound Agent' features aimed at automating more of the campaign work. The company also publishes large self-reported numbers — 1.8B+ verified business emails, 414M+ phone numbers, and figures like 45M+ appointments and $91B+ in attributed revenue — which are marketing claims, not third-party-audited figures, and should be read that way.\n\nThe honest verdict requires looking past those numbers to what actual buyers say. Seamless.ai holds a respectable 4.4 out of 5 across more than 5,300 reviews on G2, which is not a red flag by itself — but the negative reviews cluster around two very specific, believable complaints. First, data accuracy: multiple reviewers describe high email bounce rates and outdated or disconnected phone numbers, which sits awkwardly next to the 'real-time verification' pitch — if the engine were catching every change as it happens, this complaint pattern wouldn't be so consistent. Second, and more serious for a buying decision: a recurring thread about annual contracts with long advance-cancellation windows (commonly cited as 60 days), auto-renewals customers say they weren't clearly warned about, and slow or unresponsive support once the deal is signed. This is a known reputation problem across the B2B contact-database category generally, and Seamless.ai is not exempt from it — a skeptical buyer should budget real time to read the cancellation clause and get pricing and renewal terms in writing before committing to anything beyond the free tier.\n\nThe most relevant point of comparison on toolscout.in is <a href=\"https://www.toolscout.in/tools/apollo-io.html\">Apollo.io</a>, which competes head-on in the same 'big contact database plus built-in outreach' space. The practical difference is less about the database and more about how each company sells itself: Apollo publishes its pricing tiers openly and offers a usable free/low-cost self-serve plan, so an SMB team can start prospecting and sending sequences within minutes without talking to sales. Seamless.ai instead leans on 'contact sales' for anything beyond its 50-credit free tier, and reported pricing (around $147/month and up, reportedly scaling to $150-$500 per seat) only surfaces once you're already engaged with a rep or logged into the product. For a buyer who wants price transparency and low-friction self-serve signup, Apollo is the safer starting point. For a team that specifically wants Seamless's real-time phone-number-heavy search and is prepared to negotiate an enterprise-style deal, it can still be worth evaluating — but go in with eyes open about the contract terms, not just the free trial.\n\n<a href=\"https://www.toolscout.in/tools/people-ai.html\">People.ai</a>, also live on toolscout.in, isn't really a substitute for either tool — it's a revenue intelligence platform that auto-captures rep activity (emails, calls, calendar) to populate CRM records and power pipeline forecasting, rather than a prospecting tool for finding new contacts. It's worth knowing about if your actual problem is messy CRM data and forecasting accuracy rather than finding people to call, but it solves a different problem than Seamless.ai or Apollo.io do.",
+                "who_for": "Best suited to outbound-heavy sales teams and agencies that want phone-first prospecting bundled with basic outreach tooling in a single subscription, and who have the leverage (or patience) to negotiate pricing and contract terms directly with sales rather than needing transparent self-serve pricing on day one.",
+                "features_detailed": [
+                  {
+                    "title": "Real-time search engine",
+                    "desc": "Instead of only returning stored records, Seamless.ai re-searches and attempts to verify an email or phone number at the moment you request it, which is the platform's central differentiator versus purely static contact databases."
+                  },
+                  {
+                    "title": "Prospector",
+                    "desc": "Lets you build lead and account lists using filters such as job title, company size, and recent job changes, functioning as the main list-building workflow."
+                  },
+                  {
+                    "title": "Buyer Intent",
+                    "desc": "Surfaces accounts showing signals of active in-market buying behavior, intended to help reps prioritize outreach toward prospects more likely to convert soon."
+                  },
+                  {
+                    "title": "Pitch Intelligence",
+                    "desc": "An AI writing feature that generates personalized outreach messaging per contact, meant to reduce manual copywriting for cold outreach."
+                  },
+                  {
+                    "title": "Engagement Hub (Connect)",
+                    "desc": "Bundles email sending, an AI-assisted dialer for calling, and social-selling touchpoints so reps can prospect and reach out without switching tools."
+                  },
+                  {
+                    "title": "Outbound and Inbound AI Agents",
+                    "desc": "Newer automation layer intended to run parts of outbound campaign sequencing and to personalize responses to inbound leads with less manual setup."
+                  },
+                  {
+                    "title": "Chrome extension",
+                    "desc": "A browser add-on that surfaces contact data while browsing sites like LinkedIn, useful for reps who prospect manually alongside the main app."
+                  },
+                  {
+                    "title": "CRM enrichment and integrations",
+                    "desc": "Pushes cleaned/enriched contact data into a connected CRM and claims connections to 6,000+ applications, plus an API for custom workflow automation."
+                  }
+                ],
+                "pricing_plans": [
+                  {
+                    "name": "Free",
+                    "price": "$0",
+                    "billing": "One-time / no billing cycle",
+                    "features": [
+                      "1 user",
+                      "50 credits (one-time, not renewing)",
+                      "Email addresses and cell phone numbers",
+                      "Real-time search engine access",
+                      "Export downloads",
+                      "Premium integrations",
+                      "Pitch Intelligence",
+                      "Connect (emailing, calling, tasks)",
+                      "Job changes filter",
+                      "API access",
+                      "Email support"
+                    ]
+                  },
+                  {
+                    "name": "Basic (reported, not publicly listed)",
+                    "price": "Not published by Seamless.ai; commonly reported around $147/month billed annually",
+                    "billing": "Annual (reported)",
+                    "features": [
+                      "Reported to include roughly 3,000 credits per year",
+                      "Only visible after account creation or a sales conversation",
+                      "Figure sourced from third-party pricing trackers, not Seamless.ai's own pricing page"
+                    ]
+                  },
+                  {
+                    "name": "Pro",
+                    "price": "Contact Sales (third parties report roughly $150-$500 per user/month)",
+                    "billing": "Custom / annual",
+                    "features": [
+                      "All Free features",
+                      "Free admin seat",
+                      "Advanced org management",
+                      "AI Assistant",
+                      "Data enrichment",
+                      "Autopilot",
+                      "Buyer Intent data included",
+                      "Priority support queue and live chat",
+                      "Unlimited exports"
+                    ]
+                  },
+                  {
+                    "name": "Enterprise",
+                    "price": "Contact Sales (third parties report average annual spend roughly $7,991-$18,159)",
+                    "billing": "Custom / annual",
+                    "features": [
+                      "All Pro features",
+                      "Unlimited users",
+                      "Dedicated customer success manager",
+                      "Quarterly business reviews",
+                      "Phone support",
+                      "Enterprise-grade support resources"
+                    ]
+                  }
+                ],
+                "pros_expanded": [
+                  "The free tier is genuinely usable for evaluation — 50 real credits is enough to test data quality against your own target accounts before spending money, which is more than some competitors offer.",
+                  "Bundling prospecting, buyer intent, and basic outreach (email + dialer) into one subscription can save a small team from stitching together three separate tools, provided the data quality holds up in practice.",
+                  "The real-time verification approach is a sound idea in principle — contact data decays constantly, so re-checking at query time should, in theory, beat a purely static database on freshness.",
+                  "A credit-back policy for bounced emails at least gives buyers partial recourse when the data doesn't hold up, which not every vendor in this space offers.",
+                  "The AI writing and intent-data layers are reasonably differentiated additions for a database-first tool, rather than just bolted-on marketing features with no real function."
+                ],
+                "cons_expanded": [
+                  "The single most important critical point for a buyer to weigh: independent reviews describe a consistent pattern of high email bounce rates and stale phone numbers, which directly undercuts the 'real-time verified' pitch that is central to Seamless.ai's positioning — don't take the accuracy claims at face value without testing on your own list first.",
+                  "Pricing opacity is a real friction cost, not just an inconvenience — not being able to see Basic, Pro, or Enterprise pricing without engaging sales makes it hard to budget or compare against transparently-priced competitors like Apollo.io before investing time in a demo.",
+                  "Reports of long advance-notice cancellation windows (commonly cited around 60 days) and unexpected auto-renewal charges suggest this is not a tool to sign an annual contract with lightly — get the renewal and cancellation terms in writing before you commit.",
+                  "Customer support responsiveness after the sale is a recurring complaint in reviews, with some users describing multi-week waits for a resolution — worth probing during any sales conversation, especially for teams considering Enterprise-level spend.",
+                  "The large database-size and revenue-generated statistics on the marketing site are self-reported and unverified by any third party, so they're best treated as directional marketing claims rather than hard evidence of data quality."
+                ],
+                "faq": [
+                  {
+                    "q": "Is Seamless.ai free to use?",
+                    "a": "There's a genuine free plan with 50 one-time credits for one user, covering email and phone lookups plus core features like the real-time search engine and Pitch Intelligence. It's a fixed credit allotment rather than a recurring monthly free tier, so it's best used to evaluate data quality before deciding whether to pay."
+                  },
+                  {
+                    "q": "How much does Seamless.ai actually cost per month?",
+                    "a": "Seamless.ai does not publish paid pricing on its own website — Basic, Pro, and Enterprise plans are all gated behind 'Contact Sales' or only shown after signup. Third-party pricing research commonly cites a Basic tier around $147/month on annual billing, with Pro reportedly running $150-$500 per user/month and Enterprise deals averaging several thousand dollars a year, but these are reported figures, not Seamless's official list prices."
+                  },
+                  {
+                    "q": "Is Seamless.ai worth it compared to Apollo.io?",
+                    "a": "It depends on what you value more. Apollo.io publishes transparent pricing tiers and offers an easy self-serve signup with a genuinely usable low-cost plan, making it the lower-friction choice for SMB and mid-market teams who want predictable per-seat costs. Seamless.ai's real-time search claims are appealing on paper, but its opaque 'contact sales' pricing and a consistent pattern of data-accuracy and contract-cancellation complaints in independent reviews mean it demands more due diligence before signing. For most buyers who haven't already tested both on their own contact lists, Apollo.io is the easier and lower-risk starting point."
+                  },
+                  {
+                    "q": "Does Seamless.ai's data get verified in real time?",
+                    "a": "That's the platform's core claim — it re-searches and attempts to verify emails and phone numbers at the moment of lookup rather than only serving stored records. In practice, independent reviews report meaningful bounce rates and outdated numbers, so the real-time claim should be tested against your own target list rather than assumed to guarantee accuracy."
+                  },
+                  {
+                    "q": "What happens if I cancel my Seamless.ai subscription?",
+                    "a": "Multiple independent reviews describe annual contracts with advance-notice cancellation requirements (commonly cited around 60 days) and cases of unexpected auto-renewal charges. Anyone considering a paid annual plan should get the exact cancellation and renewal terms in writing before signing, rather than assuming month-to-month flexibility."
+                  },
+                  {
+                    "q": "What's the difference between Seamless.ai and People.ai?",
+                    "a": "They solve different problems. Seamless.ai is a prospecting tool for finding new contact data and reaching out to them. People.ai is a revenue intelligence platform that automatically captures existing sales activity (emails, calls, calendar events) to populate CRM records and power pipeline forecasting — it doesn't help you find new prospects at all."
+                  }
+                ]
+              }
+            },
         ],
     },
     {
@@ -17001,52 +17503,51 @@ def category_card(cat, depth=0, index=0):
 # ---------- AI insights (top 5, refreshed periodically) ----------
 # AI_INSIGHTS_START -- a daily job may safely regenerate everything between
 # these two markers (real, sourced news items only -- never fabricated).
-AI_INSIGHTS_UPDATED = "September 18, 2026"
+AI_INSIGHTS_UPDATED = "September 19, 2026"
 AI_INSIGHTS = [
-    {
-        "title": "AI citation credit is noisier than it looks, new source-order test finds",
-        "summary": "A citation test from Search Engine Journal re-ran matched source pairs through GPT-5.4 and found raw position data is misleading: first-position sources were cited 85.1% of the time versus 42.8% for fifth position, but swapping identical sources between those same slots erased almost all of that gap. Repeating the identical query still produced a different citation outcome 15% of the time — a reminder that AI citation credit shifts run-to-run, which is exactly the kind of volatility trackers like <a href='https://pagelens.ai'>PageLens.ai</a> are built to monitor over time rather than infer from a single test.",
-        "source_name": "Search Engine Journal",
-        "source_url": "https://www.searchenginejournal.com/ai-citation-test-finds-source-order-matters-less-than-it-looks/589806/",
-        "date": "Sep 17, 2026"
-    },
-    {
-        "title": "Ranking well means less when AI Overviews eat the click",
-        "summary": "Search Engine Land's Adam Heitzman argues a high ranking is worth little if the page that gets clicked doesn't help the visitor finish their task, citing Seer Interactive data showing organic CTR on AI Overview queries fell as low as 1.3% before recovering to 2.4% — still well behind the roughly 3.8% CTR pages get with no AI Overview attached. His point: the shrinking pool of clicks increasingly belongs to people who need to actually do something on the page, so measuring task completion matters as much as chasing position.",
-        "source_name": "Search Engine Land",
-        "source_url": "https://searchengineland.com/ranking-half-job-seo-task-completion-489057",
-        "date": "Sep 17, 2026"
-    },
-    {
-        "title": "Anthropic gives Claude Code an always-on memory for long-running dev work",
-        "summary": "Anthropic launched Claude Code Projects on September 17, a coordination layer that keeps persistent memory across multiple parallel development threads instead of losing context every time a session restarts. The company frames it as threads doing the work while Claude directs it — automatically splitting ongoing work into parallel tasks and tracking shared decisions, aimed at developers running several long threads against the same codebase at once.",
-        "source_name": "VentureBeat",
-        "source_url": "https://venturebeat.com/orchestration/anthropic-launches-claude-code-projects-an-always-on-conversation-that-remembers-and-delegates-your-long-running-dev-work",
-        "date": "Sep 17, 2026"
-    },
-    {
-        "title": "Anthropic folds Cowork into Claude chat, adds Claude Docs and Slides",
-        "summary": "Anthropic merged its Claude chat and Cowork interfaces into one unified surface starting September 16, saying customers often struggled to pick the right tab for the right task. The update adds Claude Docs for collaborative writing and Claude Slides for presentation generation with PDF and PowerPoint export, rolling out first to Pro and Max subscribers alongside improved mobile support.",
-        "source_name": "TechCrunch",
-        "source_url": "https://techcrunch.com/2026/09/16/anthropic-merges-claude-chat-and-cowork-in-one-interface/",
-        "date": "Sep 16, 2026"
-    },
-    {
-        "title": "Instinct and Meta's Muse both teach their AI agents to make phone calls",
-        "summary": "Two rival AI-agent platforms added real phone-calling this week: Instinct launched Instinct Concierge, which founder Noah Shinn says can book a restaurant that doesn't take online reservations or get a user onto a dentist’s cancellation list, while Meta's Muse gained the ability to call US businesses directly, rolling out first to users who requested it. The moves bring both platforms to parity on a capability that pushes AI agents past web forms and into tasks that still only happen over the phone.",
-        "source_name": "TechCrunch",
-        "source_url": "https://techcrunch.com/2026/09/17/rival-ai-agents-instinct-and-metas-muse-both-add-the-ability-to-make-calls/",
-        "date": "Sep 17, 2026"
-    },
-    {
-        "title": "AI agents are breaching companies using credentials IAM systems still read as human",
-        "summary": "Four independent security research teams documented AI agents breaching 395 organizations across 48 countries in a single week, using stolen API keys and session tokens that enterprise identity systems couldn't distinguish from a human login. Researchers note prices for these credentials on underground markets more than doubled in 2026, and most enterprises still lack proper lifecycle governance for non-human identities — a gap that matters directly for any business now running agentic automation in production.",
-        "source_name": "VentureBeat",
-        "source_url": "https://venturebeat.com/security/ai-agents-breached-395-organizations-using-credentials-your-iam-policy-still-treats-as-human",
-        "date": "Sep 16, 2026"
-    }
-]
-
+        {
+            "title": "A schema fix took one AI citation count from 24,000 to 42,000 in six months",
+            "summary": "Search Engine Land walked through two real case studies — a university program and a nursing program — where cleaning up JSON-LD schema and closing gaps between what markup claimed and what the page actually said drove concrete AI-visibility gains: one partner's AI citation volume rose 75% over six months and its share of voice among ten competitors climbed from a 1% starting point, while lead-to-payment and application-to-payment rates also improved double digits. The author's framing was blunt: \"markup doesn't guarantee growth\" on its own — it's the accuracy and specificity of the underlying entities that AI systems end up citing. It's a concrete illustration of the gap <a href=\"https://pagelens.ai\">PageLens.ai</a> is built to track and close: knowing exactly where a brand is and isn't showing up across AI answers, and shipping the fix, rather than guessing from ranking position alone.",
+            "source_name": "Search Engine Land",
+            "source_url": "https://searchengineland.com/schema-ai-search-entity-gaps-organic-growth-489462",
+            "date": "Sep 18, 2026"
+        },
+        {
+            "title": "GEO's three pillars: get read by the model, get named in the shortlist, get bought by the agent",
+            "summary": "A Search Engine Land column broke generative engine optimization into three distinct jobs rather than one: making content legible to language models (short, self-contained, main-point-first paragraphs), earning brand mentions that show up consistently enough in a model's training and retrieval data to land on the two-to-five-brand shortlist AI systems actually surface, and preparing structured product data for AI shopping agents that now buy on a user's behalf. The piece's central warning is stark — brands that don't make that shortlist \"simply don't exist for the user at that moment,\" since there's no page two to fall back on the way there was in classic search.",
+            "source_name": "Search Engine Land",
+            "source_url": "https://searchengineland.com/geo-pillars-488782",
+            "date": "Sep 16, 2026"
+        },
+        {
+            "title": "OpenAI turns ChatGPT ads into a live conversation with a sponsored agent",
+            "summary": "OpenAI announced it's testing 'sponsored agents' inside ChatGPT — after clicking certain ads, users can ask that business's agent follow-up questions and get personalized answers before ever visiting its website. Alongside that, OpenAI shipped natural-language campaign creation inside its Ads Manager plugin, AI-generated ad copy and imagery drawn from a business's own landing pages, and direct integrations letting HubSpot users manage ChatGPT ad campaigns from inside their CRM and Shopify merchants launch and sync campaigns straight from their product catalog (rolling out internationally September 23). It's a meaningful expansion of how marketing-automation and e-commerce tools will need to plug into AI-native ad surfaces going forward.",
+            "source_name": "OpenAI",
+            "source_url": "https://openai.com/index/reimagining-advertising-with-ai",
+            "date": "Sep 16, 2026"
+        },
+        {
+            "title": "Meta's Muse leaves the phone and starts touching files, mail and calendar on the Mac",
+            "summary": "Meta brought its Muse AI assistant to macOS, giving it opt-in access to a user's native files, Messages, Calendar, Notes and Mail apps rather than confining it to the mobile and web app that reportedly shot to the top of the U.S. App Store charts after its earlier launch this month. Muse asks for explicit approval before sensitive actions, and Meta says the team is \"shipping fast\" as it races rivals like Instinct — reportedly fundraising at a $10 billion valuation — in the fast-moving consumer AI-agent category, where phone-calling and now desktop-control capabilities are becoming table stakes within the same week of each other.",
+            "source_name": "TechCrunch",
+            "source_url": "https://techcrunch.com/2026/09/18/metas-muse-hits-mac-letting-the-ai-take-actions-on-your-computer/",
+            "date": "Sep 18, 2026"
+        },
+        {
+            "title": "Alibaba open-sources the code reviewer it built for its own engineers",
+            "summary": "Alibaba released open-code-review, a CLI tool it says has run as its internal AI code-review assistant for two years across tens of thousands of developers, now available under an Apache-2.0 license. It pairs a deterministic engine — for precise file selection, rule matching (covering issues like null-pointer exceptions, thread-safety bugs, XSS and SQL injection) and accurate line-level comment placement — with an LLM agent for the parts of a review that need judgment, working with either OpenAI or Anthropic models and plugging into tools like Claude Code and Cursor. Alibaba claims the hybrid approach reaches meaningfully higher precision than a general-purpose agent alone while using roughly a ninth of the tokens.",
+            "source_name": "GitHub (Alibaba)",
+            "source_url": "https://github.com/alibaba/open-code-review",
+            "date": "Sep 17, 2026"
+        },
+        {
+            "title": "A fully local, open-source ElevenLabs alternative lands with 646 languages",
+            "summary": "VoiceStudio launched as a self-hosted voice platform covering the same ground as commercial cloud tools — voice cloning from a short reference clip, voice design by parameter, video dubbing with speaker preservation, audiobook production with EPUB/PDF import, and system-wide dictation — but running entirely on the user's own hardware with no account, API key or usage meter required. It ships with 16 TTS and 11 ASR engines and claims a 646-language catalogue, though the project itself notes real coverage and quality vary by which underlying engine is selected for a given language.",
+            "source_name": "GitHub",
+            "source_url": "https://github.com/debpalash/VoiceStudio",
+            "date": "Sep 17, 2026"
+        }
+    ]
 # AI_INSIGHTS_END
 
 # ---------- homepage ----------
