@@ -681,6 +681,16 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://www.toolscout.in/tools/trent-ai.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.toolscout.in/tools/firetail.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://www.toolscout.in/tools/odin-ai.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
