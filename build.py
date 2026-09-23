@@ -1621,7 +1621,138 @@ CATEGORIES = [
                 ]
               }
             },
-        ],
+                    {
+              "name": "StorySpeak",
+              "tagline": "Dictation software that turns spoken chapters into clean manuscript text",
+              "desc": "StorySpeak is a voice-to-text tool built specifically for fiction authors, converting recorded dictation into formatted, editable manuscript pages rather than generic transcripts. It's aimed at writers who compose by talking through scenes and dialogue instead of typing them.",
+              "pricing": "Free tier only publicly listed: 20,000 free words, no credit card required to start. No paid plan pricing, tiers, or per-word rates are disclosed on the live site as of this writing; the product also runs a separate closed-beta/waitlist track.",
+              "url": "https://storyspeak.ai/",
+              "tags": [
+                "dictation",
+                "writing tool",
+                "transcription",
+                "author software"
+              ],
+              "features": [
+                "Voice-to-manuscript transcription tuned for fiction",
+                "Automatic dialogue and quotation formatting",
+                "Custom vocabulary rules for character/place names",
+                "Works from any recording device (phone, recorder, computer)",
+                "Minutes-not-hours turnaround on transcripts",
+                "Word count and daily streak tracking",
+                "Chapter and paragraph break detection"
+              ],
+              "pros": [
+                "Purpose-built for narrative dictation, not generic call/meeting transcription",
+                "Lets writers add project-specific terms so names and jargon stop getting mangled",
+                "No-cost way to test the workflow before committing money",
+                "Works with whatever recording device a writer already owns"
+              ],
+              "cons": [
+                "No public pricing beyond the free word allowance, so cost-at-scale is unknown until signup",
+                "Requires a dictation habit — not useful for writers who compose by typing",
+                "Still effectively early-stage (parallel closed-beta waitlist suggests limited maturity/support)",
+                "No independent review data yet to verify real-world accuracy claims"
+              ],
+              "best_for": "Novelists and fiction writers who already think out loud or want to draft by talking during commutes, walks, or downtime, and need the output cleaned up for dialogue and character names rather than left as raw transcript.",
+              "deep": {
+                "overview": "StorySpeak occupies a narrow and specific niche: it doesn't generate prose for you, it converts prose you've already spoken aloud into a usable manuscript draft. That distinction matters because it puts StorySpeak in a completely different category from AI writing generators. <a href=\"https://www.toolscout.in/tools/jasper.html\">Jasper</a> produces new text from prompts; StorySpeak produces text from your own voice recording. If you stopped dictating, StorySpeak would have nothing to transcribe — it's an input-conversion layer for people whose bottleneck is typing speed or repetitive strain, not idea generation. It's also a poor comparison point to <a href=\"https://www.toolscout.in/tools/wordtune.html\">Wordtune</a>, which rewrites and polishes text you've already written; StorySpeak's job ends at producing a clean first-pass transcript, and any rewriting or line-editing still has to happen afterward, likely in a separate tool.\n\nThe honest question for a writer evaluating StorySpeak isn't 'is this better than a general transcription app' — it almost certainly is, for fiction specifically, because generic transcription tools mangle invented names, misplace dialogue punctuation, and don't understand chapter-level structure the way a tool trained on creative writing claims to. The real question is whether dictation fits how you actually think. Plenty of novelists draft badly out loud — losing the thread of a sentence, second-guessing phrasing mid-recording, or finding that talking through a scene produces flabbier prose than typing it with the ability to backspace instantly. If that's you, no amount of transcript-cleaning solves the underlying mismatch between dictation and your writing process.\n\nWhat's notable — and worth flagging as a limitation for anyone doing due diligence — is that StorySpeak keeps its economics opaque. The marketing site advertises 20,000 free words with no credit card, but stops there; there's no visible pricing page listing what happens once you exceed that allotment, no published monthly or annual rate, and no per-word cost after the free tier. Combined with a separate closed-beta waitlist domain running alongside the live signup, this reads as an early-stage product still working out its business model, not a mature SaaS with settled pricing. That's not disqualifying, but it means a serious buyer should sign up, test the free word bank, and see what the account actually charges before assuming they know the cost.\n\nWho should skip it: writers who type as fast as they think, anyone allergic to hearing their own voice on playback (a real adoption barrier for dictation tools generally), and anyone who needs guaranteed pricing transparency before trying a workflow change. Who it's genuinely built for: authors managing wrist or RSI issues, people with dead time in a car or on a walk who want to use it productively, and dialogue-heavy genre writers who are tired of generic transcription tools garbling character names and quote formatting.",
+                "who_for": "Fiction authors, especially dialogue-heavy or dead-time (commute/walk) drafters, who already dictate or want to try dictating manuscripts and need the transcript cleaned up for names, quotes, and chapter breaks rather than left as raw speech-to-text.",
+                "features_detailed": [
+                  {
+                    "title": "Creative-writing-tuned transcription",
+                    "desc": "Positioned as trained on storytelling patterns rather than business dictation, aiming to preserve narrative rhythm and handle invented character names better than general transcription engines."
+                  },
+                  {
+                    "title": "Smart term fixes",
+                    "desc": "Lets a writer teach the system recurring fantasy/sci-fi names, character quirks, and project-specific vocabulary so repeat terms stop getting mistranscribed."
+                  },
+                  {
+                    "title": "Dialogue and formatting handling",
+                    "desc": "Automatically applies quotation marks, paragraph breaks, and formatting conventions specific to fiction manuscripts rather than plain paragraph blocks."
+                  },
+                  {
+                    "title": "Device-agnostic recording",
+                    "desc": "Accepts audio from phones, standalone recorders, or computers, so writers aren't locked into one recording app or device."
+                  },
+                  {
+                    "title": "Fast turnaround",
+                    "desc": "Transcripts are delivered in minutes rather than hours, per the vendor, with recent processing-speed improvements mentioned on the site."
+                  },
+                  {
+                    "title": "Progress tracking",
+                    "desc": "Tracks word count and daily writing streaks as a motivational layer on top of the core transcription function."
+                  },
+                  {
+                    "title": "Free starter tier",
+                    "desc": "20,000 free words with no credit card required, letting a writer test transcription quality on real material before any payment commitment."
+                  }
+                ],
+                "pricing_plans": [
+                  {
+                    "name": "Free",
+                    "price": "$0",
+                    "billing": "N/A",
+                    "features": [
+                      "20,000 free words to start",
+                      "No credit card required",
+                      "Core transcription and formatting features"
+                    ]
+                  },
+                  {
+                    "name": "Paid plan(s)",
+                    "price": "Not publicly disclosed",
+                    "billing": "Unknown",
+                    "features": [
+                      "No paid tier pricing, word limits, or billing cadence were published on the live pricing page, homepage, or signup flow as of this research; interested users need to sign up or contact StorySpeak directly to see paid pricing"
+                    ]
+                  }
+                ],
+                "pros_expanded": [
+                  "Because it's scoped to transcription rather than generation, it avoids the 'AI wrote my book' concern some authors have with generative tools — the words are still entirely the author's own, just spoken instead of typed.",
+                  "The customizable term list is a genuinely useful detail for genre fiction, where invented names are exactly what generic transcription (and even human transcriptionists) tend to butcher repeatedly.",
+                  "A no-credit-card free tier with a meaningful word allowance (20k words is roughly a novella's worth of raw draft) makes it low-risk to actually test the accuracy claims on your own manuscript before paying anything.",
+                  "Device flexibility means writers aren't forced to buy special hardware or use one proprietary recording app to get value from the tool."
+                ],
+                "cons_expanded": [
+                  "The complete absence of published paid pricing is a real transparency gap for a purchase decision — a writer has no way to budget for this tool past the free tier without going through signup, which is a higher-friction ask than most SaaS pricing pages require.",
+                  "The existence of a separate closed-beta waitlist alongside a 'live' signup suggests the product and its support/infrastructure may still be maturing, so early adopters should expect rough edges and limited support responsiveness.",
+                  "Dictation as a drafting method is a workflow change, not just a tool swap; writers who haven't dictated before may find their first drafts noticeably worse in structure and pacing than typed drafts, at least initially, and that adjustment cost isn't something the tool itself can fix.",
+                  "There's no independent, verifiable review data (G2, Capterra, Trustpilot) yet, so accuracy and reliability claims currently rest entirely on the vendor's own testimonials rather than third-party validation."
+                ],
+                "faq": [
+                  {
+                    "q": "What does StorySpeak actually do?",
+                    "a": "It converts audio recordings of you talking through a scene, chapter, or dialogue into a cleaned-up, formatted manuscript transcript — it transcribes your own speech, it does not write or generate original text for you."
+                  },
+                  {
+                    "q": "Is StorySpeak free?",
+                    "a": "There's a free tier offering 20,000 words with no credit card required. Paid pricing beyond that isn't publicly listed on the site as of this research, so exact ongoing costs aren't confirmed until you sign up."
+                  },
+                  {
+                    "q": "How is StorySpeak different from a general transcription tool like Otter.ai?",
+                    "a": "StorySpeak is trained specifically on fiction/storytelling patterns, aiming to handle invented character names, dialogue punctuation, and chapter breaks better than transcription tools built for meetings and interviews."
+                  },
+                  {
+                    "q": "Does StorySpeak write my book for me?",
+                    "a": "No. It only transcribes and cleans up audio you've already recorded of your own spoken words — it's a dictation-to-text tool, not an AI text generator like Jasper."
+                  },
+                  {
+                    "q": "What devices can I use to record?",
+                    "a": "The vendor states it works with any device capable of capturing clear audio, including smartphones, dedicated voice recorders, and computers."
+                  },
+                  {
+                    "q": "How long does transcription take?",
+                    "a": "The vendor claims transcripts are delivered within minutes of upload rather than hours, though actual turnaround wasn't independently verified in this research."
+                  },
+                  {
+                    "q": "Is StorySpeak worth it if I don't already dictate?",
+                    "a": "It's worth testing on the free tier, but writers who type as fast as they think, or who dislike hearing themselves talk through scenes, may not see the productivity gain the tool is built around."
+                  }
+                ]
+              }
+            },
+            ],
     },
     {
         "slug": "image-generation",
@@ -11090,7 +11221,194 @@ CATEGORIES = [
     "who_for": "Voicera (voicera.co) fits bloggers, publishers, and content marketers who want to add an audio-narration option to existing articles cheaply and with minimal engineering effort. It's a weaker fit for large media companies needing deep voice customization or predictable enterprise-scale pricing, and buyers should double-check they aren't confusing it with the unrelated AI voice-calling product of the same name.",
     "faq": [{"q": "Is voicera.ai the correct URL for this tool?", "a": "No — during verification voicera.ai did not resolve to an active product page. The blog-narration Voicera product referenced across review sites is hosted at voicera.co."}, {"q": "How does Voicera's pricing work?", "a": "It's pay-as-you-go with no monthly subscription: a free Basic plan includes 5,000 credits (about 5 articles), a $9 Pro pack includes 100,000 credits (about 50 articles), and Enterprise offers custom credit volumes."}, {"q": "How many languages does Voicera support?", "a": "10+ languages and voice versions on standard plans, expanding to 200+ languages and dialects for Enterprise customers."}, {"q": "Will the embed slow down my website?", "a": "It's designed to be lightweight at roughly 2.2KB, intended to add audio playback without materially affecting page load speed."}, {"q": "Is there another product also called Voicera?", "a": "Yes — there is a separate, unrelated AI voice-calling/voice-agent product that also uses the Voicera name. Confirm you're evaluating the blog-narration tool (voicera.co) before purchasing."}, {"q": "Can I adjust the narration voice's speed or pitch?", "a": "This isn't documented for standard plans; voice customization options were not mentioned in available product information."}]
  }},
-        ],
+                    {
+              "name": "Verbatik AI",
+              "tagline": "An all-in-one AI content studio bundling voice, video, music, and image generation into one subscription",
+              "desc": "Verbatik is a browser-based AI creative suite that combines text-to-speech, voice cloning, AI avatar video, music/sound-effect generation, and image editing under a single dashboard and API. It's built for creators and small teams who'd rather pay one credit-based subscription than stitch together several single-purpose AI tools.",
+              "pricing": "Starts with a $1 24-hour 'Essential Pass' trial that converts to $19/month; Pro is $39/month (2.25M credits, unlimited TTS/cloning, 1,700+ voices); Business is $330/month (20M credits, ~6,500 videos/images/tracks); API is pay-as-you-go at $0.000025/character (about $20 per 1M characters), with 20% off on annual billing. Verified on verbatik.com/pricing, September 2026.",
+              "url": "https://verbatik.com/",
+              "tags": [
+                "Text-to-Speech",
+                "Voice Cloning",
+                "AI Video",
+                "AI Creative Suite"
+              ],
+              "features": [
+                "Text-to-speech across 1,500+ neural voices and 150+ languages",
+                "Voice cloning from short audio samples",
+                "AI avatar and cinematic video generation",
+                "AI music and sound-effect generation",
+                "Image and video editing tools",
+                "Auto-generated animated captions in multiple languages",
+                "Low-latency 'Flash' TTS model (~75ms) for real-time use",
+                "Developer API with per-character pay-as-you-go pricing"
+              ],
+              "pros": [
+                "One subscription covers voice, video, music, and image needs instead of five separate tools",
+                "Very large voice and language catalog, useful for multilingual or high-volume content",
+                "Capterra reviewers rate the voice quality and API speed well (4.5/5 across 53 reviews)",
+                "A low-latency TTS model exists for apps that need near-real-time speech"
+              ],
+              "cons": [
+                "Trustpilot reviews are noticeably more mixed (3.5/5, 16 reviews) than Capterra's, with recurring complaints about billing and account/cancellation issues",
+                "The $1 trial silently rolls into a $19/month charge, which is the single most common source of user complaints",
+                "Credit-based pricing spans so many tools (TTS, video, images, music, captions) that estimating real monthly cost before signing up is hard",
+                "Spreading engineering across six content types means no single feature is pushed as far as a specialist tool's equivalent"
+              ],
+              "best_for": "Solo creators, agencies, and small marketing teams who want one dashboard and one bill for voiceover, avatar video, music, and captions, rather than a specialist who needs the single best voice-cloning engine on the market.",
+              "deep": {
+                "overview": "Verbatik markets itself as an 'all-in-one AI creative platform,' and that's a fair description of what it actually ships: text-to-speech across a claimed 1,500+ neural voices and 150+ languages, voice cloning from as little as 10 seconds of audio, AI avatar/video generation, music and sound-effect generation, image and video editing, and auto-captioning, all reachable from one dashboard plus a developer API. The breadth is the product's real differentiator — most competitors pick one lane and go deep, Verbatik picks six lanes and goes wide.\n\nThat positioning puts it in direct contrast with two tools already covered on ToolScout. <a href=\"https://www.toolscout.in/tools/elevenlabs.html\">ElevenLabs</a> is a voice specialist: its TTS and cloning are widely regarded as best-in-class for naturalness and emotional range, but it doesn't touch video avatars, music, or image generation — you'd need separate tools for those. <a href=\"https://www.toolscout.in/tools/murf-ai.html\">Murf AI</a> sits in between: it's still primarily a voiceover and business-presentation tool (script-to-video, dubbing, studio-style editing) rather than a full creative suite. Verbatik's pitch is that you shouldn't need three subscriptions and three logins to make a video with a cloned voice, a generated soundtrack, and burned-in captions — you do it all in one place. For a solo creator or small agency juggling tool sprawl, that consolidation is genuinely useful and can be cheaper than paying for ElevenLabs plus a separate video-avatar tool plus a separate music generator.\n\nThe honest tradeoff is quality concentration versus breadth. A platform building six product categories in parallel is unlikely to match a specialist's depth in any single one of them — if voice fidelity is the single most important thing for your project (an audiobook, a branded assistant voice, high-stakes dubbing), a dedicated tool is the safer bet even at a higher price. There's also a real gap between how Verbatik is reviewed on different platforms: Capterra reviewers rate it 4.5/5 and specifically praise voice realism and API speed, while Trustpilot reviewers rate it 3.5/5 and repeatedly flag billing problems — the $1 trial pass converting into a recurring $19/month charge that's hard to cancel, and at least one report of losing account access entirely after a platform update. That split suggests the underlying generation quality is solid, but the account/billing experience has been rockier for some users, which is worth weighing before you hand over a card number for a $1 trial.\n\nThe credit system is the other thing to budget time for. Because credits are spent across TTS characters, video minutes, image counts, and music tracks all from the same pool, it's genuinely hard to predict from the pricing page alone how far a plan will stretch for your specific mix of content — you'll likely need to run a month of real usage before you know if Pro or Business is the right tier.",
+                "who_for": "Best suited to individual creators, YouTubers, and small marketing or agency teams producing a mix of voiceover, short-form video, and social content who want to consolidate several AI subscriptions into one; less suited to teams whose primary requirement is top-tier voice cloning fidelity or high-volume enterprise dubbing, where a specialist tool is likely to outperform it.",
+                "features_detailed": [
+                  {
+                    "title": "Text-to-speech",
+                    "desc": "Converts written text into speech using a catalog Verbatik lists at 1,500+ neural voices spanning 150+ languages and accents, aimed at narration, ads, and app voiceovers."
+                  },
+                  {
+                    "title": "Voice cloning",
+                    "desc": "Creates a custom synthetic voice from a short user-supplied audio sample (the site cites a 10-second minimum), usable across the platform's other tools once trained."
+                  },
+                  {
+                    "title": "AI avatar and video generation",
+                    "desc": "Produces avatar-led or cinematic-style video content, positioned for UGC-style ads, explainer clips, and social video without filming a live presenter."
+                  },
+                  {
+                    "title": "Music and sound-effect generation",
+                    "desc": "Generates original music tracks and sound effects/ambience for use as background audio or scene design in video projects."
+                  },
+                  {
+                    "title": "Image and video editing",
+                    "desc": "Built-in tools to create or edit images and assemble/produce video, keeping the visual and audio pipeline inside the same dashboard."
+                  },
+                  {
+                    "title": "Auto-captions",
+                    "desc": "Automatically generates animated, multi-language subtitles for video content, aimed at social-first vertical video formats."
+                  },
+                  {
+                    "title": "Flash low-latency TTS",
+                    "desc": "A faster TTS model variant cited at roughly 75ms latency, intended for near-real-time or interactive voice applications rather than pre-rendered content."
+                  },
+                  {
+                    "title": "Developer API",
+                    "desc": "Exposes TTS and other generation endpoints on a pay-as-you-go, per-character basis, separate from the consumer credit plans, for teams embedding voice into their own apps."
+                  }
+                ],
+                "pricing_plans": [
+                  {
+                    "name": "Essential Pass",
+                    "price": "$1 for the first 24 hours, then $19/month",
+                    "billing": "Monthly, cancel anytime",
+                    "features": [
+                      "1,000,000 credits/month",
+                      "Text-to-speech",
+                      "Voice cloning",
+                      "Voice Designer",
+                      "Image & video generation",
+                      "AI UGC video",
+                      "Music & sound effects",
+                      "No watermark"
+                    ]
+                  },
+                  {
+                    "name": "Pro",
+                    "price": "$39/month",
+                    "billing": "Monthly (annual billing saves ~20%)",
+                    "features": [
+                      "2,250,000 credits/month",
+                      "Unlimited TTS & voice cloning",
+                      "1,700+ premium voices",
+                      "150+ languages",
+                      "AI UGC, music, sound effects",
+                      "AI image generation",
+                      "Commercial use rights",
+                      "Priority support"
+                    ]
+                  },
+                  {
+                    "name": "Business",
+                    "price": "$330/month",
+                    "billing": "Monthly (annual billing saves ~20%)",
+                    "features": [
+                      "20,000,000 credits/month",
+                      "~6,500 AI videos, images, music tracks, and sound effects included",
+                      "~6,500 caption minutes",
+                      "All tools included",
+                      "Commercial use rights",
+                      "Premium support"
+                    ]
+                  },
+                  {
+                    "name": "API (Pay-as-you-go)",
+                    "price": "$0.000025 per character (~$20 per 1,000,000 characters)",
+                    "billing": "Usage-based, no subscription required",
+                    "features": [
+                      "600 voices",
+                      "142 languages",
+                      "Commercial rights",
+                      "Direct developer integration"
+                    ]
+                  }
+                ],
+                "pros_expanded": [
+                  "Consolidating text-to-speech, voice cloning, video avatars, music, and captions into a single dashboard genuinely saves the time and cost of managing separate subscriptions for each, which matters most to solo creators and small teams without a dedicated tools budget.",
+                  "The voice and language catalog is large enough (1,500+ voices, 150+ languages) to cover most multilingual or localization use cases without needing a second vendor.",
+                  "Capterra's 4.5/5 rating across 53 reviews, with specific praise for voice realism and API responsiveness, suggests the core generation quality holds up well for everyday production use.",
+                  "The Flash low-latency model gives Verbatik an option for interactive or real-time voice applications that many all-in-one competitors don't offer at all."
+                ],
+                "cons_expanded": [
+                  "Trustpilot's lower 3.5/5 rating, driven by repeated reports of being charged for a Pro plan after a trial or having trouble logging in to cancel, is a real signal that the billing and account-management experience has failed a meaningful number of users.",
+                  "The $1-for-24-hours trial is designed to convert automatically into a $19/month charge, so anyone testing the platform casually needs to actively remember to cancel before the window closes.",
+                  "Because credits are pooled across such different content types (characters of speech, minutes of video, number of images, music tracks), it's difficult to size the right plan without first running your actual workload through it.",
+                  "A platform spreading its engineering across six generation categories is structurally unlikely to match a focused specialist on any single one — teams whose whole product depends on best-in-class voice cloning should expect to eventually need or want a more specialized tool."
+                ],
+                "faq": [
+                  {
+                    "q": "What is Verbatik AI used for?",
+                    "a": "It's an all-in-one AI content platform for generating text-to-speech voiceovers, cloning custom voices, producing AI avatar videos, creating music and sound effects, editing images/video, and auto-generating captions, all from one dashboard or API."
+                  },
+                  {
+                    "q": "How much does Verbatik AI cost?",
+                    "a": "Plans run from a $1, 24-hour Essential Pass (renewing at $19/month) up to Pro at $39/month and Business at $330/month, plus a separate pay-as-you-go API priced at roughly $20 per 1 million characters. Confirm current prices on verbatik.com/pricing, as they can change."
+                  },
+                  {
+                    "q": "Is Verbatik AI a good ElevenLabs alternative?",
+                    "a": "It's a reasonable alternative if you want voice generation bundled with video, music, and image tools in one subscription, but ElevenLabs is generally regarded as the stronger choice if raw voice-cloning fidelity is your top priority."
+                  },
+                  {
+                    "q": "Does Verbatik AI offer voice cloning?",
+                    "a": "Yes, it supports cloning a custom voice from a short audio sample (the site cites a 10-second minimum), which can then be used across its TTS and video tools."
+                  },
+                  {
+                    "q": "Can I cancel the $1 Verbatik trial easily?",
+                    "a": "You can, but user reviews indicate this is the platform's most common pain point — the trial auto-renews into a $19/month charge, and some users have reported difficulty logging back in to cancel, so mark a reminder before the 24-hour window ends."
+                  },
+                  {
+                    "q": "Does Verbatik have an API for developers?",
+                    "a": "Yes, it offers a pay-as-you-go API separate from the consumer plans, priced per character (around $0.000025/character), with access to 600 voices across 142 languages."
+                  },
+                  {
+                    "q": "How many languages and voices does Verbatik support?",
+                    "a": "Verbatik advertises 1,500+ neural voices across 150+ languages and accents on its consumer plans, and 600 voices across 142 languages specifically on its API tier."
+                  }
+                ]
+              },
+              "reviews": {
+                "summary": "Review sentiment for Verbatik diverges by platform: Capterra shows a strong 4.5/5 average across 53 reviews focused on product quality, while Trustpilot shows a more mixed 3.5/5 across 16 reviews centered on billing and account-access complaints. Read together, the pattern suggests solid core voice/generation quality but a rockier billing and cancellation experience for a notable subset of users.",
+                "praise": [
+                  "\"The voices sound incredibly natural — especially after the recent updates.\" (Trustpilot)",
+                  "\"I like the way text to speech is working, very fast, especially when using with API's.\" (Capterra)",
+                  "\"The AI editor is very intuitive, and the options panel is easy to use.\" (Capterra)",
+                  "\"It saves me a lot of time compared to editing everything separately.\" (Trustpilot)"
+                ],
+                "complaints": [
+                  "\"I discovered that my credit card had been charged every month for a Pro plan.\" (Trustpilot)",
+                  "\"I can't access my account to cancel it, and I can't use the service because I can't log in.\" (Trustpilot)",
+                  "\"The cost, even with a free trial, it is hardly a 'trial.'\" (Capterra)",
+                  "Multiple Capterra reviewers described paid plans as \"pricier than expected\" for the credit allowances included."
+                ]
+              }
+            },
+            ],
     },
     {
         "slug": "aeo-tools",
@@ -14053,7 +14371,135 @@ CATEGORIES = [
                 ]
               }
             },
-        ],
+                    {
+              "name": "Inventive AI",
+              "tagline": "AI agents that draft RFP, RFI, security questionnaire, and DDQ answers from your company's own knowledge base",
+              "desc": "Inventive AI is a Y Combinator-backed (S23) platform that plugs into a company's SharePoint, Google Drive, Notion, and Confluence libraries and uses that content to auto-draft answers to RFPs, RFIs, security questionnaires, and DDQs. It's built for enterprise sales, proposal, and revenue teams that lose real time to repetitive procurement paperwork.",
+              "pricing": "No public pricing is published. The /pricing page returns a 404, and every solution page routes visitors to 'Book a Demo' instead of a price list. In practice this means quote-based, sales-assisted pricing, likely scaled by seats and RFP/questionnaire volume, but there is no self-serve number to point to.",
+              "url": "https://www.inventive.ai/",
+              "tags": [
+                "RFP automation",
+                "AI agents",
+                "sales enablement",
+                "security questionnaires"
+              ],
+              "features": [
+                "AI-drafted RFP, RFI, and security questionnaire responses",
+                "Unified knowledge hub synced to SharePoint, Google Drive, Notion, Confluence",
+                "Automatic detection of outdated or conflicting source content",
+                "Agentic workflow for competitor research and answer refinement",
+                "Salesforce, Slack, and Jira integrations",
+                "Role-based access controls with SOC 2 Type II compliance",
+                "Question extraction from Excel, Word, and PDF questionnaires",
+                "Section assignment and real-time collaboration for proposal teams"
+              ],
+              "pros": [
+                "Connects directly to the document stores teams already use instead of forcing a fresh content migration",
+                "Content governance layer flags stale or contradictory answers before they go out, not just after",
+                "Covers the full procurement-response family (RFP, RFI, security questionnaire, DDQ) in one tool",
+                "Built-in project management (assignments, tracking, comments) reduces reliance on spreadsheets and email threads"
+              ],
+              "cons": [
+                "No published pricing anywhere on the site, so cost comparison requires a sales call before you know if it fits budget",
+                "Performance figures (95% accuracy, 90% faster, 50% higher win rate) come entirely from the vendor's own case studies, not independent audits",
+                "G2 presence is thin at the time of this review, only a couple of listed reviews, so outside validation is limited",
+                "Overkill for teams that field only a handful of RFPs a year, the AI content governance and knowledge-hub setup cost more setup time than it saves at low volume"
+              ],
+              "best_for": "Mid-market to enterprise sales, proposal, and revenue teams that field a steady stream of RFPs, RFIs, security questionnaires, or DDQs and already keep reference content in SharePoint, Google Drive, Notion, or Confluence.",
+              "deep": {
+                "overview": "Inventive AI sits at a very specific point in the enterprise sales process: the moment a buyer sends over a procurement document and someone on the vendor's side has to answer forty to four hundred questions accurately, on deadline, without contradicting what the last three proposals said. That's a narrower job than 'AI for sales,' and the product is built accordingly, it's less a chatbot bolted onto a CRM and more a set of agents that read your existing knowledge base, extract questions from whatever format a buyer sent (Excel, Word, PDF), draft answers, and then flag the answers it isn't confident about rather than silently guessing. The content-governance piece, agents that scan the knowledge hub for stale or conflicting answers before a draft goes out, is the part that actually differentiates this from a plain retrieval-augmented chatbot; most competitors in this space treat the knowledge base as a static thing you feed once, Inventive treats it as something that needs continuous upkeep, which matches how proposal content actually rots in practice.\n\nIt's worth being precise about what kind of tool this is, because two other products on ToolScout get lumped into the same 'AI for sales' bucket and shouldn't be. <a href=\"https://www.toolscout.in/tools/downtobid.html\">Downtobid</a> automates bidding too, but for construction, it's built around subcontractor and general-contractor workflows, plan takeoffs, and bid invitations, a domain with its own document formats and compliance quirks that have nothing to do with SaaS procurement. Inventive AI, by contrast, is aimed at software and services companies answering enterprise buyers' RFPs and security reviews, a completely different document universe (SOC 2 attestations and MSA language instead of blueprints and unit pricing). Meanwhile <a href=\"https://www.toolscout.in/tools/apollo-io.html\">Apollo.io</a> and Inventive AI aren't really competitors at all, they sit at opposite ends of the sales funnel. Apollo is about finding and reaching prospects who haven't said yes to anything yet, outbound, list-building, sequencing. Inventive only activates after a prospect has already engaged enough to send you their procurement paperwork, it's a response tool, not a prospecting one. A team could reasonably run both without redundancy.\n\nThe honest gap in evaluating Inventive AI from the outside is pricing. There's no /pricing page (it 404s), no tier names, no seat-based ballpark, nothing. Every page funnels toward booking a demo. That's normal for enterprise B2B software sold through a sales cycle, but it does mean a proposal manager can't do a quick cost-benefit napkin calculation without first giving up an hour to a sales call, and it makes it harder to comparison-shop against adjacent tools that do publish starting prices. The performance numbers on the site (95% response accuracy, 90% faster turnaround, 50%+ higher win rates) are also entirely vendor-sourced case-study figures rather than third-party benchmarks, worth treating as directional rather than guaranteed.\n\nWho should skip it: teams that respond to a handful of RFPs a year don't need an ongoing knowledge-governance system, the setup and maintenance overhead of syncing a knowledge hub and training content managers on the tool will likely exceed the time saved at low volume, a shared doc template and a careful proposal writer probably beats it. Startups that need transparent, self-serve pricing to make a fast decision will also hit friction here, since there's no way to see cost before committing time to a sales conversation. It's best suited to organizations already drowning in five-plus substantial RFPs or security questionnaires a month, where the content-governance and multi-integration setup pays for itself.",
+                "who_for": "Proposal, sales enablement, and revenue operations teams at mid-market to enterprise SaaS or services companies who repeatedly answer buyer-side RFPs, RFIs, security questionnaires, or DDQs and already store reference content in tools like SharePoint, Google Drive, Notion, or Confluence.",
+                "features_detailed": [
+                  {
+                    "title": "AI response drafting",
+                    "desc": "Pulls from a company's connected knowledge sources to auto-generate first-draft answers to RFP, RFI, security questionnaire, and DDQ questions, flagging spots where source content is missing rather than fabricating an answer."
+                  },
+                  {
+                    "title": "Unified knowledge hub",
+                    "desc": "A central library that syncs live with SharePoint, Google Drive, Notion, and Confluence, plus manual document uploads and curated question-and-answer pairs, meant to replace scattered folders of old proposals as the source of truth."
+                  },
+                  {
+                    "title": "AI content governance",
+                    "desc": "A background agent continuously checks the knowledge hub for outdated, duplicated, or contradictory entries and surfaces them before they can get pulled into a new draft, addressing the common failure mode where old, wrong answers keep resurfacing."
+                  },
+                  {
+                    "title": "Question extraction",
+                    "desc": "Parses incoming questionnaires and RFPs delivered as Excel, Word, or PDF files and breaks them into individual questions the AI can address one at a time, removing the manual copy-paste step teams usually do first."
+                  },
+                  {
+                    "title": "Agentic research and refinement",
+                    "desc": "Beyond simple retrieval, agents can research competitors and iteratively improve draft answers for positioning and strategic framing, not just factual correctness."
+                  },
+                  {
+                    "title": "Project collaboration layer",
+                    "desc": "Lets teams assign sections of a response to specific people, track completion status in real time, and leave comments, functioning as lightweight built-in project management for the proposal process."
+                  },
+                  {
+                    "title": "Business tool integrations",
+                    "desc": "Connects to Salesforce, Slack, and Jira so proposal work and status updates can stay visible inside the tools sales and revenue teams already work from daily."
+                  },
+                  {
+                    "title": "Security and access controls",
+                    "desc": "SOC 2 Type II compliance, GDPR/CCPA readiness, SSO, role-based permissions, and audit logging, relevant given the platform itself often handles sensitive compliance and security documentation."
+                  }
+                ],
+                "pricing_plans": [
+                  {
+                    "name": "Custom/Enterprise",
+                    "price": "Contact sales",
+                    "billing": "quote-based",
+                    "features": [
+                      "No published tiers or self-serve pricing as of this review",
+                      "Pricing determined via a demo/sales conversation, likely scoped to seats and response volume",
+                      "Trial or demo access available by request"
+                    ]
+                  }
+                ],
+                "pros_expanded": [
+                  "Because it syncs live to SharePoint, Google Drive, Notion, and Confluence, teams don't have to migrate or re-upload their existing proposal content just to get started, which lowers the initial setup barrier compared to tools that require a full content re-import.",
+                  "The content-governance agent that flags stale or conflicting answers addresses a real, chronic problem in proposal work, outdated boilerplate quietly getting reused, rather than only speeding up the drafting step.",
+                  "Bundling RFPs, RFIs, security questionnaires, and DDQs into one workflow means a team doesn't need separate tools (and separate knowledge bases) for sales proposals versus security/compliance reviews.",
+                  "Built-in assignment, tracking, and commenting reduces the usual reliance on shared spreadsheets or email chains to coordinate who's answering what section of a long questionnaire."
+                ],
+                "cons_expanded": [
+                  "The complete absence of a public pricing page, confirmed directly since /pricing returns a 404, means any cost evaluation has to start with a sales call, which slows down due diligence for teams used to self-serve SaaS pricing.",
+                  "All the headline metrics (95% accuracy, 90% faster response, 50%+ higher win rate, $105K savings) come from the vendor's own case studies rather than independently verified benchmarks, so they should be treated as best-case anecdotes, not guaranteed outcomes for every buyer.",
+                  "Third-party review coverage is currently thin (G2 shows only a couple of listed reviews at time of writing), so there isn't much independent signal yet to corroborate the marketing claims.",
+                  "For organizations that only respond to a small number of RFPs annually, the overhead of connecting and governing a knowledge hub likely outweighs the time saved versus just writing responses manually or from a template."
+                ],
+                "faq": [
+                  {
+                    "q": "What does Inventive AI actually automate?",
+                    "a": "It automates drafting answers to RFPs, RFIs, security questionnaires, and DDQs by pulling relevant content from a company's connected knowledge sources (SharePoint, Google Drive, Notion, Confluence) and generating first-draft responses for a human to review and finalize."
+                  },
+                  {
+                    "q": "Does Inventive AI have public pricing?",
+                    "a": "No. As of this review, the site's /pricing page returns a 404 and every product page directs visitors to book a demo instead of showing tiers or numbers, so pricing is quote-based and only available after talking to sales."
+                  },
+                  {
+                    "q": "Which knowledge sources can Inventive AI connect to?",
+                    "a": "SharePoint, Google Drive, Notion, and Confluence via live sync, plus manual document uploads and direct question-and-answer pair entry."
+                  },
+                  {
+                    "q": "Is Inventive AI only for RFPs, or does it also handle security questionnaires?",
+                    "a": "It covers the broader family of buyer procurement documents, including RFPs, RFIs, security questionnaires, and DDQs, using the same underlying knowledge hub and drafting engine, with framework-specific handling for things like SOC 2, ISO 27001, and GDPR-related questions."
+                  },
+                  {
+                    "q": "How is Inventive AI different from Downtobid?",
+                    "a": "Downtobid is built for construction bidding, subcontractor and general-contractor workflows around plan takeoffs and bid invitations. Inventive AI is aimed at SaaS and services companies responding to enterprise buyer procurement processes like RFPs and security reviews, an entirely different document domain."
+                  },
+                  {
+                    "q": "How is Inventive AI different from Apollo.io?",
+                    "a": "They address different stages of the sales funnel. Apollo.io is an outbound prospecting tool for finding and reaching leads who haven't engaged yet. Inventive AI only comes into play after a prospect has sent over procurement paperwork, it responds to inbound buyer requirements rather than generating new leads."
+                  },
+                  {
+                    "q": "Is Inventive AI a good fit for a small team with few RFPs?",
+                    "a": "Probably not. Teams handling only a handful of RFPs per year likely won't recoup the setup and knowledge-governance overhead; it's better suited to organizations fielding a steady, higher volume of RFPs or security questionnaires each month."
+                  }
+                ]
+              }
+            },
+            ],
     },
     {
         "slug": "data-analysis",
@@ -17768,50 +18214,14 @@ def category_card(cat, depth=0, index=0):
 # ---------- AI insights (top 5, refreshed periodically) ----------
 # AI_INSIGHTS_START -- a daily job may safely regenerate everything between
 # these two markers (real, sourced news items only -- never fabricated).
-AI_INSIGHTS_UPDATED = "September 22, 2026"
+AI_INSIGHTS_UPDATED = "September 23, 2026"
 AI_INSIGHTS = [
-        {
-            "title": "Search Engine Land lays out an 'ASC framework' for getting cited by AI search",
-            "summary": "A new Search Engine Land piece breaks AI-search visibility into three stages: analyze how models currently describe your brand versus competitors, shore up the SEO fundamentals that make a site legible to an AI crawler in the first place, then build content aimed at where a buyer actually is in their journey. Its core line is blunt: 'an AI can only repeat and summarize what it can read.' That's the same gap AEO-tracking tools like PageLens.ai are built to close in practice -- showing which sources an AI answer actually cited, not just recommending that brands go get cited.",
-            "source_name": "Search Engine Land",
-            "source_url": "https://searchengineland.com/asc-framework-ai-search-489751",
-            "date": "Sep 21, 2026"
-        },
-        {
-            "title": "Amazon blocks Meta's Muse assistant from shopping on Amazon.com",
-            "summary": "Amazon has started rejecting checkout attempts from Meta's Muse AI agent, returning an error stating that 'continued access by an unauthorized AI agent violates Amazon's Conditions of Use.' The blunt read: Amazon doesn't want a rival's agent placing orders on its marketplace while it builds out its own AI shopping features, and it's an early, concrete sign of platforms erecting walls against AI agents acting on their behalf.",
-            "source_name": "TechCrunch",
-            "source_url": "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/",
-            "date": "Sep 21, 2026"
-        },
-        {
-            "title": "Grok 4.7 posts big coding gains at the same price -- but the real-world bill goes up anyway",
-            "summary": "xAI's Grok 4.7 jumped 17.7 points on the Terminal-Bench coding benchmark while keeping its predecessor's per-token pricing unchanged. The catch shows up once you run a full task: independent testing found it burns roughly 125% more output tokens than Grok 4.6, so a comparable coding job actually costs more overall (about $3.74 versus $1.99 on a rival model) even though the sticker price per token didn't move.",
-            "source_name": "VentureBeat",
-            "source_url": "https://venturebeat.com/technology/grok-4-7-pairs-coding-gains-with-the-same-affordable-pricing-but-high-token-consumption-threatens-real-world-roi",
-            "date": "Sep 21, 2026"
-        },
-        {
-            "title": "Google open-sources EnvHarness to train AI agents against their own weak spots",
-            "summary": "Rather than building a new simulator every time an agent needs a harder challenge, Google's open-source EnvHarness wraps an existing training environment and adjusts starting conditions, visible information, and task length based on where that specific agent is actually struggling. Across five benchmarks, agents trained this way improved by up to 9 percentage points on tasks they hadn't seen before -- a practical release for teams fine-tuning coding or automation agents, though it only works in resettable digital sandboxes, not production systems.",
-            "source_name": "VentureBeat",
-            "source_url": "https://venturebeat.com/orchestration/googles-open-source-envharness-lets-ai-agents-train-against-environments-that-evolve-with-them",
-            "date": "Sep 20, 2026"
-        },
-        {
-            "title": "Xiaomi's MiMo-V2.6-Pro tops the open-weights leaderboard, undercutting Grok and Gemini on price",
-            "summary": "Xiaomi's newest open-weight model, MiMo-V2.6-Pro, now leads Artificial Analysis' Intelligence Index among open models, edging out proprietary rivals including xAI's Grok 4.6 and Google's Gemini 3.8 Flash. It's MIT-licensed and free to download and fine-tune, priced at roughly $0.435 per million input tokens, and was trained with reinforcement learning across 750,000 agent trajectories completed in under six days.",
-            "source_name": "VentureBeat",
-            "source_url": "https://venturebeat.com/technology/better-than-deepseek-xiaomis-mimo-v2-6-pro-debuts-as-the-top-open-weights-model-in-the-world-alongside-cheaper-v2-6-flash",
-            "date": "Sep 22, 2026"
-        },
-        {
-            "title": "A ChatGPT co-creator's new startup ships a model that predicts instead of writes",
-            "summary": "Diogo Almeida, who worked on ChatGPT and RLHF at OpenAI, has a new company, TypeSafe AI, whose model Jev outputs probabilities rather than generated text -- a design choice that makes it markedly cheaper and faster than a typical transformer-decoder LLM and, per early users, largely eliminates hallucinations. Developers testing it on software-automation tasks report 5-18x speed gains over existing tools at lower cost, though it's early days for a model built on a fundamentally different approach than the current norm.",
-            "source_name": "TechCrunch",
-            "source_url": "https://techcrunch.com/2026/09/18/a-new-kind-of-ai-model-from-a-chatgpt-inventor-is-thrilling-developers/",
-            "date": "Sep 18, 2026"
-        },
+        {"title": "New study finds AI platforms drop 39% of cited brands every week — a wake-up call for GEO/AEO strategy", "summary": "Techmagnate's LLM Citation Drift Report tracked over 83,000 AI citations across ChatGPT, Perplexity, and Google AI Mode over eight weeks and found that being cited once is a poor predictor of staying cited: nearly 4 in 10 previously-cited domains dropped out of AI answers the following week with no changes to their own site. Only a small core of about 330 domains held onto 93% of citations across the whole period. As Techmagnate's founder put it, \"presence and consistency are two different problems, and most brands are only solving for the first one\" — exactly the gap that continuous AI-visibility trackers like <a href=\"https://pagelens.ai\">PageLens.ai</a> are built to monitor, since a one-time citation win means little if it can't be measured and defended week over week.", "source_name": "The Tribune (via Techmagnate)", "source_url": "https://www.tribuneindia.com/news/business/techmagnate-study-finds-ai-platforms-drop-39-of-cited-brands-every-week-signals-shift-in-how-ai-visibility-should-be-measured", "date": "Sep 23, 2026"},
+        {"title": "OpenAI ships GPT-6 Sol and Luna, pitched as cheaper and more reliable", "summary": "OpenAI's newest model pair, Sol and Luna, arrives with lower per-token costs and what the company describes as fewer factual mistakes than prior GPT-6 releases. The launch continues a pattern this year of frontier labs competing as much on cost-per-task as on raw benchmark scores, which matters directly for any AI coding or chatbot tool on this site built on top of OpenAI's API pricing.", "source_name": "TechCrunch", "source_url": "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/", "date": "Sep 22, 2026"},
+        {"title": "Anthropic's Opus 5.5 undercuts its own predecessor on price while matching Fable 5.1 on agentic tasks", "summary": "Anthropic's latest flagship, Opus 5.5, reportedly matches Fable 5.1 on key agentic benchmarks while cutting API pricing by roughly 60%, continuing the steep price-to-capability curve that's been reshaping which model AI coding assistants and chatbot products default to under the hood.", "source_name": "VentureBeat", "source_url": "https://venturebeat.com/technology/anthropic-releases-claude-opus-5-5-beating-fable-5-1-on-key-agentic-benchmarks-at-60-cheaper-api-price", "date": "Sep 22, 2026"},
+        {"title": "Meta concedes its Muse assistant resembles rival OpenClaw more than coincidence would explain", "summary": "Meta has acknowledged that its Muse AI agent shares notable similarities with competitor OpenClaw, without fully explaining how. The admission lands as AI-assistant products increasingly converge on similar agentic designs, a reminder that differentiation in the chatbot/assistant space is getting harder to maintain and easier to copy.", "source_name": "TechCrunch", "source_url": "https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/", "date": "Sep 22, 2026"},
+        {"title": "Enterprises are picking OpenAI's agent platform as their default far more often than Anthropic's", "summary": "New adoption data shows 69% of enterprises that install OpenAI's agent platform make it their primary agent framework, versus just 38% for Anthropic's Claude Platform among its installers — a meaningful signal for any business evaluating which ecosystem to standardize its automation and productivity tooling on.", "source_name": "VentureBeat", "source_url": "https://venturebeat.com/orchestration/69-of-enterprises-that-install-openais-agent-platform-make-it-primary-for-anthropics-claude-platform-its-38", "date": "Sep 18, 2026"},
+        {"title": "OpenAI forms a math advisory group after its models quietly resolve over 100 open problems", "summary": "OpenAI has assembled a panel of mathematicians to help guide and vet its models' output after reports that its systems have made progress on more than 100 previously open mathematical problems, underscoring how fast frontier-model capability claims now require dedicated human oversight to verify.", "source_name": "TechCrunch", "source_url": "https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems/", "date": "Sep 21, 2026"},
     ]
 # AI_INSIGHTS_END
 
