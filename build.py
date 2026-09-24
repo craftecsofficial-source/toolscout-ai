@@ -12129,6 +12129,429 @@ CATEGORIES = [
                     {"q": "Does BrightEdge offer a free trial?", "a": "No self-serve free trial is generally available; BrightEdge sells through an annual, sales-assisted contract process typical of enterprise SEO platforms."},
                 ],
              }},
+            {
+                "name": "LLMrefs",
+                "tagline": "Flat-fee AI search analytics that tracks brand mentions across 11+ engines from ChatGPT to Gemini.",
+                "desc": "LLMrefs is a self-serve platform that monitors how often a brand gets mentioned, cited, and ranked inside AI chat answers (ChatGPT, Google AI Overviews/AI Mode, Gemini, Perplexity, Claude, Copilot, Meta AI, Grok, DeepSeek), tracking prompts, citations, and competitor share of voice on a single published pricing tier.",
+                "pricing": "One public plan called \"All in One\" at $79/month (introductory rate), including 500 tracked prompts, all supported AI engines, weekly reports, citation tracking, geo/language targeting, unlimited team seats and projects, CSV export and API access; a 7-day free trial is offered and extra prompt volume can be purchased as usage grows.",
+                "url": "https://llmrefs.com/",
+                "tags": [
+                    "AEO",
+                    "AI Search Analytics",
+                    "Brand Visibility"
+                ],
+                "features": [
+                    "Tracks up to 500 prompts/month across 11+ AI engines including ChatGPT, Google AI Overviews, Gemini, Perplexity, Claude, Copilot and Grok",
+                    "Auto-generates prompts from real conversational search behavior instead of requiring manual keyword lists",
+                    "Citation tracking that surfaces which specific sources AI answers pull from",
+                    "Share-of-voice and position benchmarking against named competitors",
+                    "Geo and language targeting across 50+ countries and 20+ languages",
+                    "CSV export and API access, plus supplementary tools like an AI crawlability checker and llms.txt generator"
+                ],
+                "pros": [
+                    "Pricing is public and flat ($79/mo) rather than gated behind a sales call, which is unusual in this category",
+                    "Broad multi-engine coverage bundled into the single plan with no per-engine upsell",
+                    "Client roster spans large recognizable brands (eBay, HubSpot, Shopify, NVIDIA, IKEA), suggesting real production use despite the low list price"
+                ],
+                "cons": [
+                    "Only one pricing tier exists, so there's no cheap entry point for a solo site or blog, and 500 prompts/month can run out fast for a brand with many products or topics",
+                    "Public proof is thin: the site shows one named case study (Revolution Beauty) and no independent G2/Capterra review data to verify support quality or long-term satisfaction",
+                    "Pure monitoring/analytics tool with no content generation or publishing workflow, so brands still need a separate execution step to act on what it finds"
+                ],
+                "best_for": "Marketing teams and agencies that want transparently priced, multi-engine AI visibility tracking without going through an enterprise sales process.",
+                "deep": {
+                    "overview": "LLMrefs occupies an unusual position in the AEO tools category: nearly every serious competitor prices via \"contact sales,\" while LLMrefs publishes a single flat rate of $79/month covering all tracked engines and 500 prompts. That's a meaningful structural difference from a platform like <a href=\"https://www.toolscout.in/tools/profound.html\">Profound</a>, which is built and priced as an enterprise product with custom contracts and a heavier sales-assisted onboarding process aimed at large marketing orgs. LLMrefs instead behaves like a self-serve SaaS tool: sign up, start a 7-day trial, and get reporting without negotiating a deal. The tradeoff is that Profound's enterprise positioning generally comes with deeper account management, more bespoke reporting, and a sales team validating the fit for complex org structures — things a flat-rate, self-serve product like LLMrefs isn't set up to provide.\n\nOn raw feature coverage, LLMrefs tracks a genuinely wide set of engines (ChatGPT, Google AI Overviews and AI Mode, Gemini, Perplexity, Claude, Copilot, Meta AI, Grok, DeepSeek) and adds auto-generated prompts drawn from real conversational search patterns rather than forcing users to hand-build keyword lists — a practical convenience for teams that don't already have a mature AEO prompt taxonomy. It also ships citation tracking (which sources AI engines actually cite) and share-of-voice competitor benchmarking, the same core mechanics that anchor most tools in this category.\n\nWhat LLMrefs does not do is content execution. Unlike <a href=\"https://www.toolscout.in/tools/pagelens-ai.html\">PageLens.ai</a>, which pairs visibility tracking with actually writing and publishing citation-ready content back to the customer's own domain, LLMrefs stops at measurement and reporting. That makes it a narrower tool: good for finding out where a brand stands in AI answers, but it hands the \"now what do we do about it\" step back to the team, whether that means writing content, fixing technical crawlability, or building outreach for citations manually.",
+                    "who_for": "LLMrefs fits marketing teams, SEO/AEO specialists, or agencies who want to start tracking AI-engine visibility quickly, at a known monthly cost, without an enterprise procurement cycle — the flat $79/mo plan and self-serve trial make it easy to test before committing budget. It's a reasonable first AEO tracking tool for a mid-size brand or an agency running it across a handful of client accounts. Teams should skip it if they need enterprise-grade account support, custom reporting workflows, or very high prompt volumes across many product lines, in which case <a href=\"https://www.toolscout.in/tools/profound.html\">Profound</a> or <a href=\"https://www.toolscout.in/tools/scrunch-ai.html\">Scrunch AI</a> are built more specifically for that scale; and teams that want the tool to also produce and publish optimized content (not just report on gaps) should look at <a href=\"https://www.toolscout.in/tools/pagelens-ai.html\">PageLens.ai</a> instead.",
+                    "features_detailed": [
+                        {
+                            "title": "Multi-engine prompt tracking",
+                            "desc": "Monitors up to 500 prompts per month across 11+ AI search and chat engines in one plan, rather than charging separately per engine as some competitors do."
+                        },
+                        {
+                            "title": "Auto-generated prompt discovery",
+                            "desc": "Generates candidate prompts based on patterns from real user conversations with chatbots, reducing the manual work of building a keyword/prompt list from scratch."
+                        },
+                        {
+                            "title": "Citation and source tracking",
+                            "desc": "Identifies which web sources AI engines are actually citing when they answer prompts related to a brand's category, useful for spotting which pages or domains AI models trust."
+                        },
+                        {
+                            "title": "Competitor share-of-voice benchmarking",
+                            "desc": "Compares a brand's presence and position in AI answers against named competitors to quantify relative visibility over time."
+                        },
+                        {
+                            "title": "Geo and language targeting",
+                            "desc": "Runs tracking across 50+ countries and 20+ languages, which matters for brands whose AI visibility varies by region or where AI answers are localized."
+                        },
+                        {
+                            "title": "Weekly automated reporting",
+                            "desc": "Delivers scheduled visibility reports rather than requiring users to manually pull dashboards, with monthly AI prompt volume estimates included."
+                        },
+                        {
+                            "title": "CSV export and API access",
+                            "desc": "Lets teams pull raw tracking data out of the platform for use in their own BI tools or client reporting decks."
+                        },
+                        {
+                            "title": "Supplementary AEO utilities",
+                            "desc": "Bundles smaller tools referenced on the pricing page — an AI crawlability checker, a Reddit threads finder, and an llms.txt generator — alongside the core tracking product."
+                        }
+                    ],
+                    "pricing_plans": [
+                        {
+                            "name": "All in One",
+                            "price": "$79/month",
+                            "billing": "Monthly, introductory/limited-time rate per the pricing page; 7-day free trial, cancel anytime",
+                            "features": [
+                                "500 tracked prompts for brand mentions, sources, and fan-out queries",
+                                "Access to all supported AI engines (ChatGPT, Google AI Overviews, AI Mode, Gemini, Perplexity, Claude, Copilot, Meta AI) with no per-engine fees",
+                                "Weekly automated AI visibility reports",
+                                "Citation tracking",
+                                "Geo-targeting across 50+ countries and 20+ languages",
+                                "Unlimited team members and projects",
+                                "CSV export and API access",
+                                "Priority support",
+                                "Access to supplementary AI SEO tools (crawlability checker, Reddit threads finder, llms.txt generator)"
+                            ]
+                        }
+                    ],
+                    "pros_expanded": [
+                        "The single published $79/mo price removes the typical friction of this category, where most tools require a sales call before you even see a number — this lets a small team evaluate real cost before investing time in a trial.",
+                        "Bundling all AI engines into one plan avoids the per-engine pricing creep that can make broader AEO coverage expensive elsewhere, so a brand tracking presence across ChatGPT, Gemini, and Perplexity simultaneously isn't paying separate add-on fees for each.",
+                        "Auto-generated prompts based on real conversational patterns lower the setup barrier for teams new to AEO who don't yet have a mature sense of what questions their audience is actually asking AI engines.",
+                        "The named client list (eBay, HubSpot, Shopify, NVIDIA, Klarna, IKEA, L'Oréal, Ralph Lauren, Gymshark, Zoom, The Washington Post, Framer, Gusto) is a credible-looking roster for a product priced this low, suggesting it's being used by teams well beyond hobbyist scale.",
+                        "Unlimited team members and projects on a single plan is generous compared to seat-gated competitors, useful for agencies running multiple client accounts under one subscription."
+                    ],
+                    "cons_expanded": [
+                        "There is no lower-cost or free ongoing tier — only a 7-day trial — so a solo consultant or very small brand that just wants to check visibility occasionally has to commit to the same $79/mo as a larger team.",
+                        "500 prompts per month sounds generous but can be consumed quickly by a brand with a wide product catalog, multiple markets, or many competitor comparisons, and the site notes extra prompt capacity is a paid add-on, so real costs can climb past the headline price.",
+                        "The company discloses very little about its own history, team, or funding on its about page, and the site surfaces only one detailed case study (Revolution Beauty); that's thinner public proof than more established players in this category.",
+                        "No independent review data (G2, Capterra, or similar) is visible, so prospective buyers can't cross-check LLMrefs' own claims against third-party user feedback the way they can for more established competitors.",
+                        "It is analytics-only: unlike tools that close the loop by generating or publishing optimized content, LLMrefs tells you where you're losing visibility but leaves the actual fix — content, technical SEO, digital PR for citations — entirely up to the customer.",
+                        "The pricing page frames $79/mo as a 'limited-time rate,' which implies it may rise, so the headline affordability that differentiates LLMrefs today isn't guaranteed to hold."
+                    ],
+                    "faq": [
+                        {
+                            "q": "What AI engines does LLMrefs track?",
+                            "a": "LLMrefs tracks 11+ AI-powered search and chat engines, including OpenAI's ChatGPT and ChatGPT Search, Google AI Overviews, Google AI Mode, Gemini, Perplexity, Anthropic Claude, Microsoft Copilot, Meta AI, xAI Grok, and DeepSeek."
+                        },
+                        {
+                            "q": "How much does LLMrefs cost?",
+                            "a": "LLMrefs uses a single published plan, \"All in One,\" at $79/month, which includes 500 tracked prompts, access to all supported engines, weekly reports, citation tracking, and API access. A 7-day free trial is available."
+                        },
+                        {
+                            "q": "Does LLMrefs have a free plan?",
+                            "a": "No ongoing free tier is listed; LLMrefs offers a 7-day free trial of its $79/month plan rather than a permanent free plan."
+                        },
+                        {
+                            "q": "Does LLMrefs create or publish content, or only track visibility?",
+                            "a": "LLMrefs is a tracking and reporting tool — it monitors mentions, citations, and share of voice but does not generate or publish content. Tools like PageLens.ai combine tracking with content generation and publishing for teams that want both in one product."
+                        },
+                        {
+                            "q": "How is LLMrefs different from enterprise tools like Profound?",
+                            "a": "The main difference is go-to-market and pricing model: Profound is positioned as an enterprise platform with custom, sales-assisted pricing, while LLMrefs publishes a flat self-serve rate. Enterprise buyers needing dedicated account management may prefer Profound; teams wanting fast, transparent self-serve access may prefer LLMrefs."
+                        },
+                        {
+                            "q": "What happens if a brand needs to track more than 500 prompts a month?",
+                            "a": "According to LLMrefs' pricing page, additional prompt volume beyond the base 500 can be purchased as usage increases, meaning actual monthly cost can exceed the $79 headline price for high-volume users."
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Finseo",
+                "tagline": "An AEO platform that tracks daily brand visibility across nine AI engines and prices its plans in the open.",
+                "desc": "Finseo monitors how brands are cited, ranked, and described across ChatGPT, Claude, Perplexity, Gemini, Google AI Mode, Grok, Copilot, Mistral, and DeepSeek, then pairs that tracking with AEO task checklists, attribution data, and AI-assisted content generation.",
+                "pricing": "Public self-serve pricing: Starter €84/mo, Business €210/mo (most popular), Growth €479/mo, plus a custom Enterprise/managed-service tier — all monthly, with 15% off annual billing, prices ex-VAT, cancel anytime.",
+                "url": "https://www.finseo.ai/",
+                "tags": [
+                    "AEO",
+                    "AI Visibility Tracking",
+                    "Brand Monitoring"
+                ],
+                "features": [
+                    "Daily automated prompt runs across 9 major LLMs with source, product, and ranking extraction",
+                    "Competitor visibility rankings and sentiment analysis by prompt",
+                    "Query fan-out analysis showing how an AI engine breaks a search into sub-queries",
+                    "AI/bot traffic analytics and AI-referral attribution",
+                    "White-label report builder for agencies and client reporting",
+                    "200+ integrations plus API and MCP server access"
+                ],
+                "pros": [
+                    "Actual public pricing with named tiers, unlike most enterprise AEO tools that gate everything behind a demo",
+                    "Named enterprise customers (Kellogg's, Lidl, Panasonic, Würth, Raiffeisen, Trustpilot) signal real traction, not just a logo wall of startups",
+                    "Combines tracking, attribution, and content generation in one product instead of tracking-only"
+                ],
+                "cons": [
+                    "Lower tiers (Starter, Business, Growth) only track 3 AI models each — the full 9-engine, 11-model coverage is reserved for the custom Enterprise plan",
+                    "Tracked-prompt caps (50/150/350) are modest for brands operating across many product lines or markets, pushing serious usage toward custom pricing anyway",
+                    "No independently verifiable third-party review data (G2/Capterra) was found to corroborate the marketing claims"
+                ],
+                "best_for": "Mid-market and growing brands that want a transparently priced, self-serve entry point into AEO tracking rather than an enterprise sales cycle.",
+                "deep": {
+                    "overview": "Finseo's pitch is straightforward: brands are increasingly being discovered through AI answers instead of search results, so someone needs to run the equivalent of daily rank tracking against ChatGPT, Claude, Perplexity, and the rest. It does that by sending a fixed set of prompts to each engine on a schedule and parsing the responses for citations, product mentions, and relative ranking against named competitors, then layering sentiment scoring and an attribution feature that tries to connect AI-referred traffic back to analytics.\n\nWhat separates Finseo from the two most credible enterprise players in this category, <a href=\"https://www.toolscout.in/tools/profound.html\">Profound</a> and <a href=\"https://www.toolscout.in/tools/adobe-llm-optimizer.html\">Adobe LLM Optimizer</a>, is pricing transparency. Both of those require a sales call before you see a number; Finseo publishes four tiers with monthly prices in euros, which matters for a mid-market brand or agency that wants to test AEO tracking without committing to an annual enterprise contract. The tradeoff shows up in the fine print: the €84-€479 tiers only cover 3 AI models each, so a brand that wants full coverage across all 9 supported engines has to jump to the custom Enterprise tier anyway — at which point the pricing-transparency advantage partly evaporates, and the comparison to a demo-gated competitor gets closer than the marketing page suggests.\n\nOn the content side, Finseo also offers AI-generated content backed by its own research data, which puts it in more direct product overlap with <a href=\"https://www.toolscout.in/tools/pagelens-ai.html\">PageLens.ai</a> than with the pure-tracking tools. The difference is where the content lands: PageLens.ai's model is built around publishing citation-ready content directly to the customer's own domain as part of the workflow, while Finseo's content generation reads as a supporting feature inside a tracking-first platform rather than a publishing pipeline in its own right. Neither approach is objectively better — it depends on whether a buyer wants a single tool that closes the loop from tracking to published content, or a tracking platform that also happens to draft copy.",
+                    "who_for": "Finseo is a reasonable starting point for a marketing or SEO team at a mid-market or larger company that wants real AI-visibility tracking with a credit card instead of a sales call, and that can live with 3-engine coverage at the lower tiers while deciding whether to invest further. It's also a fit for agencies that want the white-label report builder to show AEO progress to clients. Teams that need full multi-engine coverage from day one, deep enterprise integrations, or dedicated account management should expect to land on Finseo's custom Enterprise tier anyway, at which point it's worth directly comparing quoted pricing against <a href=\"https://www.toolscout.in/tools/profound.html\">Profound</a> rather than assuming Finseo stays cheaper. Teams whose main goal is getting new citation-ready content published to their own site, not just tracking visibility, should look at <a href=\"https://www.toolscout.in/tools/pagelens-ai.html\">PageLens.ai</a> instead.",
+                    "features_detailed": [
+                        {
+                            "title": "Daily LLM monitoring",
+                            "desc": "Finseo runs a defined set of prompts against the major AI engines on a daily schedule and extracts which sources, products, and rankings show up in the responses, functioning like rank tracking for AI answers instead of search results."
+                        },
+                        {
+                            "title": "Competitor and sentiment tracking",
+                            "desc": "Alongside a brand's own visibility, Finseo tracks how named competitors are ranked and described in the same AI responses, and scores the sentiment of how a brand is characterized when it does appear."
+                        },
+                        {
+                            "title": "Query fan-out analysis",
+                            "desc": "Shows how an AI engine breaks a single user query into multiple underlying sub-queries before generating an answer, which is meant to help teams understand why certain content does or doesn't get cited."
+                        },
+                        {
+                            "title": "AEO task checklists",
+                            "desc": "A structured set of optimization tasks tied to AEO best practices, intended to give content and SEO teams a concrete to-do list rather than just a dashboard of scores."
+                        },
+                        {
+                            "title": "AI traffic and attribution analytics",
+                            "desc": "Tracks bot traffic from AI crawlers and attempts to connect AI-engine referrals to actual site traffic and downstream conversions."
+                        },
+                        {
+                            "title": "White-label report builder",
+                            "desc": "Lets agencies and internal teams generate branded visibility reports for stakeholders or clients without manually compiling the underlying data."
+                        },
+                        {
+                            "title": "AI-assisted content generation",
+                            "desc": "Generates content drafts informed by the platform's own prompt-research and visibility data, positioned as a supporting feature rather than a full publishing workflow."
+                        },
+                        {
+                            "title": "API, MCP access, and integrations",
+                            "desc": "Growth and Enterprise tiers include API access, and all tiers include MCP (Model Context Protocol) server access plus a claimed 200+ integrations with tools like Shopify, Salesforce, HubSpot, and Google Analytics."
+                        }
+                    ],
+                    "pricing_plans": [
+                        {
+                            "name": "Starter",
+                            "price": "€84/mo",
+                            "billing": "Monthly, ex-VAT; 15% off annual; 7-day free trial",
+                            "features": [
+                                "50 tracked prompts/mo",
+                                "3 AI models tracked",
+                                "Basic reporting"
+                            ]
+                        },
+                        {
+                            "name": "Business",
+                            "price": "€210/mo",
+                            "billing": "Monthly, ex-VAT; 15% off annual; most popular tier",
+                            "features": [
+                                "150 tracked prompts/mo",
+                                "3 AI models tracked",
+                                "White-label report builder",
+                                "API access"
+                            ]
+                        },
+                        {
+                            "name": "Growth",
+                            "price": "€479/mo",
+                            "billing": "Monthly, ex-VAT; 15% off annual",
+                            "features": [
+                                "350 tracked prompts/mo",
+                                "3 AI models tracked",
+                                "AI-assisted content generation",
+                                "API access"
+                            ]
+                        },
+                        {
+                            "name": "Enterprise",
+                            "price": "Custom",
+                            "billing": "Annual, demo-gated managed service",
+                            "features": [
+                                "Up to 11 AI models / 9 engines tracked",
+                                "Custom prompt volume",
+                                "Dedicated account management"
+                            ]
+                        }
+                    ],
+                    "pros_expanded": [
+                        "Publishing real monthly prices for four tiers is unusual in a category where most serious competitors force a sales call before revealing anything, which lowers the barrier for a marketing team to just try the product.",
+                        "The named client roster (Kellogg's, Lidl, Panasonic, Würth, Raiffeisen, Trustpilot) is large-brand enough that it's a genuine credibility signal rather than a wall of unknown logos, and a Kellogg's executive quote on the homepage adds a specific endorsement rather than generic praise.",
+                        "Bundling tracking, attribution, and content generation means a team could plausibly run its whole AEO workflow in one tool instead of stitching together a tracker and a separate content tool.",
+                        "MCP server access on every tier, including Starter, is a forward-looking touch that lets technical teams pull visibility data directly into their own AI workflows rather than only viewing a dashboard."
+                    ],
+                    "cons_expanded": [
+                        "The headline claim of covering 9 AI engines is misleading for anyone on the lower three tiers, since only 3 models are actually tracked until a buyer moves to the custom Enterprise plan — the marketing page and the pricing table tell two different stories about coverage.",
+                        "Tracked-prompt limits (50 on Starter, up to 350 on Growth) are tight for any brand with more than a handful of product lines, markets, or personas, meaning the advertised low entry price understates what a realistic deployment will actually cost.",
+                        "Because Enterprise pricing is still custom and demo-gated, the pricing-transparency advantage over Profound and Adobe LLM Optimizer only really applies to smaller buyers — larger brands end up in the same opaque negotiation either way.",
+                        "No independent third-party review data (G2, Capterra, or similar) could be verified, so claims about ease of use, support quality, and reliability currently rest entirely on Finseo's own marketing and client quotes rather than corroborated user feedback.",
+                        "Pricing is quoted in euros and excludes VAT, which signals a Europe-first product; US or APAC buyers should confirm currency handling and tax treatment before assuming the listed price is what they'll actually pay."
+                    ],
+                    "faq": [
+                        {
+                            "q": "Does Finseo have public pricing, or is it demo-gated like Profound?",
+                            "a": "Finseo publishes real monthly prices on its pricing page — Starter at €84, Business at €210, Growth at €479, plus a custom Enterprise tier — so unlike Profound or Adobe LLM Optimizer, smaller buyers can see costs before talking to sales."
+                        },
+                        {
+                            "q": "How many AI engines does Finseo actually track on the cheaper plans?",
+                            "a": "Only 3 AI models are included on the Starter, Business, and Growth tiers even though Finseo supports 9 engines overall (ChatGPT, Claude, Perplexity, Gemini, Google AI Mode, Grok, Copilot, Mistral, DeepSeek); full coverage up to 11 models requires the custom Enterprise plan."
+                        },
+                        {
+                            "q": "Does Finseo generate content, or is it tracking-only?",
+                            "a": "It does both — Finseo includes AI-assisted content generation informed by its own prompt-research data, though it functions more as a drafting aid inside a tracking platform than as a full publish-to-your-domain workflow like PageLens.ai."
+                        },
+                        {
+                            "q": "Who are Finseo's actual customers?",
+                            "a": "Its site lists named enterprise clients including Kellogg's, Lidl, Panasonic, Würth, Raiffeisen, and Trustpilot, with a quoted endorsement from Kellogg's Head of Europe."
+                        },
+                        {
+                            "q": "Is there a free trial?",
+                            "a": "The Starter plan lists a 7-day free trial; annual billing carries a 15% discount and plans can be canceled anytime, per Finseo's pricing page."
+                        },
+                        {
+                            "q": "How does Finseo compare to Profound?",
+                            "a": "Both track AI-engine visibility and competitor rankings, but Finseo publishes self-serve pricing while <a href=\"https://www.toolscout.in/tools/profound.html\">Profound</a> is demo-gated; the tradeoff is that Finseo's published tiers cap engine coverage at 3 models, so buyers needing full coverage end up negotiating custom pricing with either vendor."
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "ContentOptima",
+                "tagline": "A deterministic pass/fail grader for whether one page is citation-ready for AI search.",
+                "desc": "ContentOptima scores an individual URL or piece of copy against 34 binary pass/fail checks across five categories — Structure, Relevance, Depth, Trust, and Citability — producing a 0-100 score and copy-paste fix suggestions.",
+                "pricing": "Free forever (3 analyses/mo, no card); Starter $29/mo (50 analyses); Agency $79/mo (200 analyses) — all tiers get the full 34-check feature set, unused analyses don't roll over",
+                "url": "https://contentoptima.com/",
+                "tags": [
+                    "AEO",
+                    "Content Scoring",
+                    "GEO Audit"
+                ],
+                "features": [
+                    "34 pass/fail checks (19 DOM-based, 15 AI-assisted) across Structure, Relevance, Depth, Trust, Citability",
+                    "0-100 deterministic score that returns the same result on repeat runs of unchanged content",
+                    "Copy-paste suggestions with exact placement instructions per failed check",
+                    "Score history tracking per URL over time",
+                    "Page-type-aware scoring that excludes irrelevant checks (e.g. homepages vs. blog posts) rather than auto-failing them",
+                    "Free tier requiring no credit card"
+                ],
+                "pros": [
+                    "Deterministic, auditable scoring instead of a vague AI-generated opinion",
+                    "Cheap entry point and a genuinely usable free tier for spot-checks",
+                    "Actionable, specific fix suggestions rather than just a score"
+                ],
+                "cons": [
+                    "Grades one page at a time — no ongoing tracking of whether you're actually being cited across AI engines",
+                    "Analysis quota is hard-capped per month with no rollover, so agencies auditing many client pages can burn through it fast",
+                    "By the tool's own admission, a high score doesn't guarantee citation since off-site brand signals matter more than on-page structure"
+                ],
+                "best_for": "Content teams and SEO agencies who want a repeatable, pre-publish checklist to catch structural and depth gaps before a page goes live, not a tool to prove or track AI citation over time.",
+                "deep": {
+                    "overview": "ContentOptima occupies a narrow but genuinely distinct slice of the AEO category: it doesn't watch how often AI engines mention your brand, and it doesn't write content for you — it takes one URL or draft, runs it through 34 deterministic pass/fail checks, and hands back a 0-100 score plus a punch list of specific fixes. That narrowness is the point. Nineteen of the checks are pure HTML inspection (heading structure, alt text, schema, meta tags), which means those results never drift between runs. The remaining 15 lean on an LLM but are constrained to yes/no answers rather than open-ended scoring, which is a sensible design choice for repeatability even if it means the AI-assisted half of the score is only as good as the constrained prompt behind it (something outsiders can't fully audit).\n\nThe more useful way to place it is against what it explicitly is not. <a href=\"https://www.toolscout.in/tools/pagelens-ai.html\">PageLens.ai</a> also evaluates AI-citability, but it closes the loop by writing and publishing citation-ready content to the customer's own domain — ContentOptima stops at diagnosis and leaves execution to the user or their CMS. <a href=\"https://www.toolscout.in/tools/geordy.html\">Geordy</a> tackles a related but different problem: it repackages existing pages into machine-readable formats (llms.txt, schema.json) so crawlers can parse a site at all, which is a technical-accessibility layer that sits underneath ContentOptima's content-quality layer — a site could pass every Geordy export and still fail ContentOptima's Depth and Trust checks, or vice versa.\n\nThe more consequential gap is that ContentOptima never touches brand-level visibility tracking. Tools like Profound, Scrunch AI, and AthenaHQ tell you whether and how often your brand actually gets cited across ChatGPT, Perplexity, and Google AI Overview over time; ContentOptima has no equivalent — its own FAQ concedes that on-site score is not the main lever, since 'getting onto the shortlist in the first place runs mostly on things that live off your site.' That's an unusually honest admission from a vendor, and it means ContentOptima is best understood as a pre-publish quality gate that complements a tracking tool, not a substitute for one.",
+                    "who_for": "This fits content editors, technical SEOs, and small agencies who want an objective, repeatable checklist to run before a page ships — teams that already know roughly which pages they want to fix and just need a structured audit rather than a dashboard. It's a weak fit for anyone who needs to prove ROI on AI visibility to a client or exec, since it has no cross-engine citation tracking; those buyers should look at <a href=\"https://www.toolscout.in/tools/profound.html\">Profound</a>, <a href=\"https://www.toolscout.in/tools/athenahq.html\">AthenaHQ</a>, or <a href=\"https://www.toolscout.in/tools/pagelens-ai.html\">PageLens.ai</a> instead. It's also not the right tool for someone who wants content actually written or republished for them — PageLens.ai does that end-to-end, where ContentOptima only tells you what to change.",
+                    "features_detailed": [
+                        {
+                            "title": "34-check scoring engine",
+                            "desc": "Runs a page through 19 deterministic DOM checks and 15 constrained-yes/no AI checks, weighted into a 0-100 score across five categories: Structure (21 pts), Relevance (26 pts), Depth (18 pts), Trust (15 pts), Citability (20 pts)."
+                        },
+                        {
+                            "title": "Deterministic re-scoring",
+                            "desc": "Because most checks are rule-based rather than open-ended AI judgment, re-analyzing unchanged content returns the same score, which makes before/after comparisons after an edit trustworthy."
+                        },
+                        {
+                            "title": "Category breakdown",
+                            "desc": "Scores are split by category (Structure, Relevance, Depth, Trust, Citability) so a team can see exactly which dimension — e.g. missing author attribution under Trust, or thin subtopic coverage under Depth — is dragging the total down."
+                        },
+                        {
+                            "title": "Copy-paste fix suggestions",
+                            "desc": "Each failed check comes with a specific suggested fix and placement instruction, aimed at letting an editor implement the change without guessing at intent."
+                        },
+                        {
+                            "title": "Page-type-aware exclusions",
+                            "desc": "Checks that don't apply to a given page type (e.g. FAQ schema on a homepage) are excluded from the denominator rather than counted as automatic failures, which keeps scores comparable across page types."
+                        },
+                        {
+                            "title": "Score history",
+                            "desc": "Past scores for a given URL are tracked over time, letting a team see whether edits actually moved the needle on subsequent re-analysis."
+                        },
+                        {
+                            "title": "Free no-card tier",
+                            "desc": "3 analyses per month are available indefinitely without a credit card, enough to trial the tool or spot-check a handful of priority pages before committing to a paid plan."
+                        }
+                    ],
+                    "pricing_plans": [
+                        {
+                            "name": "Free",
+                            "price": "$0",
+                            "billing": "forever, no credit card required",
+                            "features": [
+                                "3 analyses/month",
+                                "All 34 checks",
+                                "AI-generated suggestions",
+                                "Score history & tracking"
+                            ]
+                        },
+                        {
+                            "name": "Starter",
+                            "price": "$29/month",
+                            "billing": "monthly, most popular tier per the vendor",
+                            "features": [
+                                "50 analyses/month",
+                                "All 34 checks",
+                                "AI-generated suggestions",
+                                "Score history & tracking",
+                                "Email support"
+                            ]
+                        },
+                        {
+                            "name": "Agency",
+                            "price": "$79/month",
+                            "billing": "monthly",
+                            "features": [
+                                "200 analyses/month",
+                                "All 34 checks",
+                                "AI-generated suggestions",
+                                "Score history & tracking",
+                                "Priority support"
+                            ]
+                        }
+                    ],
+                    "pros_expanded": [
+                        "The deterministic, rule-heavy design (19 of 34 checks are pure DOM inspection) means scores are auditable and reproducible, which is a real advantage over black-box 'AI visibility score' products that can shift on re-run with no underlying content change.",
+                        "The free tier requires no card and gives a genuine 3 analyses a month rather than a one-time trial, so a team can evaluate real accuracy on real pages before paying anything.",
+                        "Per-category scoring (Structure/Relevance/Depth/Trust/Citability) surfaces exactly which lever to pull instead of a single opaque number, which shortens the path from score to actual edit.",
+                        "At $29-79/month the pricing is low enough that it's a reasonable line item even for a solo consultant or small in-house content team, not just an enterprise buyer.",
+                        "Page-type-aware exclusions are a thoughtful detail — most rigid checklist tools penalize a homepage for not having FAQ schema, and ContentOptima explicitly avoids that trap."
+                    ],
+                    "cons_expanded": [
+                        "It has no brand or citation tracking whatsoever — there's no way to see whether a page that scores 90 is actually being surfaced by ChatGPT or Perplexity over time, which is the metric most buyers in this category ultimately care about.",
+                        "The analysis quota is a hard monthly cap with no rollover, so a plan sized for steady use (e.g. Agency's 200/month) can feel thin the moment a team needs to audit a whole site migration or a large client backlog in one push.",
+                        "Roughly 44% of the checks (15 of 34) depend on an AI model's judgment even if constrained to yes/no, and that model call means user content is sent to OpenAI's API — a real consideration for agencies handling confidential or pre-launch client copy, even though the vendor states OpenAI doesn't train on API data.",
+                        "The tool's own FAQ admits a high score does not predict citation, since off-site brand signals matter more — that's an honest disclosure, but it also means teams can spend real time chasing a Structure/Trust score with limited payoff if their off-site presence is weak.",
+                        "It only diagnoses; it doesn't write, republish, or push fixes anywhere, so the actual editing work still falls entirely on the user's own workflow and CMS access.",
+                        "There's no published API or integration story (e.g. CMS plugins, Slack alerts) visible on the site, so it functions as a standalone manual-audit tool rather than something that plugs into an existing content pipeline."
+                    ],
+                    "faq": [
+                        {
+                            "q": "Does a high ContentOptima score guarantee my page gets cited by ChatGPT or AI Overviews?",
+                            "a": "No. The vendor itself says on-page score isn't the primary factor — being shortlisted for citation depends heavily on off-site brand signals that ContentOptima doesn't measure, so treat the score as a content-quality floor, not a citation guarantee."
+                        },
+                        {
+                            "q": "Is ContentOptima a replacement for an AI-visibility tracking tool like Profound or AthenaHQ?",
+                            "a": "No. ContentOptima audits individual pages at a point in time; it has no mechanism for tracking how often your brand is actually mentioned or cited across AI engines over weeks or months, which is what dedicated tracking platforms do."
+                        },
+                        {
+                            "q": "Will ContentOptima write or publish content for me?",
+                            "a": "No. It returns a score and specific copy-paste suggestions per failed check, but implementing and publishing the fix is left entirely to the user's own CMS and workflow."
+                        },
+                        {
+                            "q": "Is the free plan enough to evaluate the tool?",
+                            "a": "It's enough to sanity-check accuracy on a few priority pages (3 analyses/month, no card needed), but it's too small to audit a real content library — a blog with dozens of posts will exhaust it in one sitting."
+                        },
+                        {
+                            "q": "Is my content shared with a third party when it's analyzed?",
+                            "a": "Yes, for the 15 AI-assisted checks content is sent to OpenAI's API; the vendor states OpenAI does not use API data for model training, but agencies with confidentiality-sensitive client content should factor this in."
+                        },
+                        {
+                            "q": "How is this different from a traditional SEO content grader?",
+                            "a": "Traditional graders optimize for keyword density and backlink signals aimed at Google's ranking algorithm; ContentOptima's 34 checks are built specifically around what makes a passage easy for an AI system to extract and cite, such as answer-first structure and data density."
+                        }
+                    ]
+                }
+            },
         ],
     },
     {
@@ -18214,14 +18637,14 @@ def category_card(cat, depth=0, index=0):
 # ---------- AI insights (top 5, refreshed periodically) ----------
 # AI_INSIGHTS_START -- a daily job may safely regenerate everything between
 # these two markers (real, sourced news items only -- never fabricated).
-AI_INSIGHTS_UPDATED = "September 23, 2026"
+AI_INSIGHTS_UPDATED = "September 24, 2026"
 AI_INSIGHTS = [
-        {"title": "New study finds AI platforms drop 39% of cited brands every week — a wake-up call for GEO/AEO strategy", "summary": "Techmagnate's LLM Citation Drift Report tracked over 83,000 AI citations across ChatGPT, Perplexity, and Google AI Mode over eight weeks and found that being cited once is a poor predictor of staying cited: nearly 4 in 10 previously-cited domains dropped out of AI answers the following week with no changes to their own site. Only a small core of about 330 domains held onto 93% of citations across the whole period. As Techmagnate's founder put it, \"presence and consistency are two different problems, and most brands are only solving for the first one\" — exactly the gap that continuous AI-visibility trackers like <a href=\"https://pagelens.ai\">PageLens.ai</a> are built to monitor, since a one-time citation win means little if it can't be measured and defended week over week.", "source_name": "The Tribune (via Techmagnate)", "source_url": "https://www.tribuneindia.com/news/business/techmagnate-study-finds-ai-platforms-drop-39-of-cited-brands-every-week-signals-shift-in-how-ai-visibility-should-be-measured", "date": "Sep 23, 2026"},
-        {"title": "OpenAI ships GPT-6 Sol and Luna, pitched as cheaper and more reliable", "summary": "OpenAI's newest model pair, Sol and Luna, arrives with lower per-token costs and what the company describes as fewer factual mistakes than prior GPT-6 releases. The launch continues a pattern this year of frontier labs competing as much on cost-per-task as on raw benchmark scores, which matters directly for any AI coding or chatbot tool on this site built on top of OpenAI's API pricing.", "source_name": "TechCrunch", "source_url": "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/", "date": "Sep 22, 2026"},
-        {"title": "Anthropic's Opus 5.5 undercuts its own predecessor on price while matching Fable 5.1 on agentic tasks", "summary": "Anthropic's latest flagship, Opus 5.5, reportedly matches Fable 5.1 on key agentic benchmarks while cutting API pricing by roughly 60%, continuing the steep price-to-capability curve that's been reshaping which model AI coding assistants and chatbot products default to under the hood.", "source_name": "VentureBeat", "source_url": "https://venturebeat.com/technology/anthropic-releases-claude-opus-5-5-beating-fable-5-1-on-key-agentic-benchmarks-at-60-cheaper-api-price", "date": "Sep 22, 2026"},
-        {"title": "Meta concedes its Muse assistant resembles rival OpenClaw more than coincidence would explain", "summary": "Meta has acknowledged that its Muse AI agent shares notable similarities with competitor OpenClaw, without fully explaining how. The admission lands as AI-assistant products increasingly converge on similar agentic designs, a reminder that differentiation in the chatbot/assistant space is getting harder to maintain and easier to copy.", "source_name": "TechCrunch", "source_url": "https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/", "date": "Sep 22, 2026"},
-        {"title": "Enterprises are picking OpenAI's agent platform as their default far more often than Anthropic's", "summary": "New adoption data shows 69% of enterprises that install OpenAI's agent platform make it their primary agent framework, versus just 38% for Anthropic's Claude Platform among its installers — a meaningful signal for any business evaluating which ecosystem to standardize its automation and productivity tooling on.", "source_name": "VentureBeat", "source_url": "https://venturebeat.com/orchestration/69-of-enterprises-that-install-openais-agent-platform-make-it-primary-for-anthropics-claude-platform-its-38", "date": "Sep 18, 2026"},
-        {"title": "OpenAI forms a math advisory group after its models quietly resolve over 100 open problems", "summary": "OpenAI has assembled a panel of mathematicians to help guide and vet its models' output after reports that its systems have made progress on more than 100 previously open mathematical problems, underscoring how fast frontier-model capability claims now require dedicated human oversight to verify.", "source_name": "TechCrunch", "source_url": "https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems/", "date": "Sep 21, 2026"},
+        {"title": "Anthropic ships Claude Opus 5.5 at a lower price point", "summary": "Anthropic's newest flagship model claims roughly 40% lower cost per task than Opus 5 while leading on several agentic and coding benchmarks, continuing the fast cadence of frontier releases this year — a cost curve that directly affects what any Claude-based chatbot or coding tool on this site costs to run under the hood.", "source_name": "VentureBeat", "source_url": "https://venturebeat.com/technology/anthropic-releases-claude-opus-5-5-beating-fable-5-1-on-key-agentic-benchmarks-at-60-cheaper-api-price", "date": "Sep 22, 2026"},
+        {"title": "OpenAI introduces cheaper GPT-6 Sol and Luna tiers", "summary": "The two new models are aimed at routine, high-volume agent workloads and undercut OpenAI's own flagship pricing by roughly half, part of a broader pattern of labs competing on cost-per-task as much as raw benchmark scores.", "source_name": "VentureBeat", "source_url": "https://venturebeat.com/technology/openai-releases-gpt-6-sol-and-luna-models-slashing-api-costs-50-or-more", "date": "Sep 22, 2026"},
+        {"title": "ChatGPT's mobile app adds voice-driven agent features", "summary": "OpenAI is pushing ChatGPT's phone app further into hands-free, task-completing territory, letting people delegate multi-step actions by voice instead of typing them out.", "source_name": "TechCrunch", "source_url": "https://techcrunch.com/2026/09/23/chatgpt-mobile-app-gets-voice-based-agentic-features/", "date": "Sep 23, 2026"},
+        {"title": "Xiaomi's MiMo-V2.6-Pro tops the open-weights leaderboard", "summary": "Xiaomi released a free, MIT-licensed multimodal model alongside a cheaper \"Flash\" variant, giving teams a stronger self-hosted alternative to closed, pay-per-token APIs.", "source_name": "VentureBeat", "source_url": "https://venturebeat.com/technology/better-than-deepseek-xiaomis-mimo-v2-6-pro-debuts-as-the-top-open-weights-model-in-the-world-alongside-cheaper-v2-6-flash", "date": "Sep 22, 2026"},
+        {"title": "YouTube Studio gets AI-powered creator tools", "summary": "New features including automated video A/B testing, AI-generated thumbnail variants, and live AI dubbing show how quickly AI is moving from novelty add-on to core workflow tooling for everyday content creators.", "source_name": "TechCrunch", "source_url": "https://techcrunch.com/2026/09/23/youtube-adds-new-creator-tools-like-video-a-b-testing-dynamic-thumbnails-and-live-dubbing/", "date": "Sep 23, 2026"},
+        {"title": "Firecrawl raises $75M and launches an AI agent data layer", "summary": "The Series B funds Alexandria, a structured, licensed data catalog meant to give AI agents cleaner source material to pull from instead of scraping raw web pages themselves — a sign that the plumbing behind AI research and data-analysis tools is becoming its own funded category.", "source_name": "Dealroom", "source_url": "https://dealroom.co/news/155341-firecrawl-raises-75m-series-b-to-build-a-knowledge-library-for-ai-agents/", "date": "Sep 23, 2026"},
     ]
 # AI_INSIGHTS_END
 
