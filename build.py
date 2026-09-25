@@ -18637,14 +18637,14 @@ def category_card(cat, depth=0, index=0):
 # ---------- AI insights (top 5, refreshed periodically) ----------
 # AI_INSIGHTS_START -- a daily job may safely regenerate everything between
 # these two markers (real, sourced news items only -- never fabricated).
-AI_INSIGHTS_UPDATED = "September 24, 2026"
+AI_INSIGHTS_UPDATED = "September 25, 2026"
 AI_INSIGHTS = [
-        {"title": "Anthropic ships Claude Opus 5.5 at a lower price point", "summary": "Anthropic's newest flagship model claims roughly 40% lower cost per task than Opus 5 while leading on several agentic and coding benchmarks, continuing the fast cadence of frontier releases this year — a cost curve that directly affects what any Claude-based chatbot or coding tool on this site costs to run under the hood.", "source_name": "VentureBeat", "source_url": "https://venturebeat.com/technology/anthropic-releases-claude-opus-5-5-beating-fable-5-1-on-key-agentic-benchmarks-at-60-cheaper-api-price", "date": "Sep 22, 2026"},
-        {"title": "OpenAI introduces cheaper GPT-6 Sol and Luna tiers", "summary": "The two new models are aimed at routine, high-volume agent workloads and undercut OpenAI's own flagship pricing by roughly half, part of a broader pattern of labs competing on cost-per-task as much as raw benchmark scores.", "source_name": "VentureBeat", "source_url": "https://venturebeat.com/technology/openai-releases-gpt-6-sol-and-luna-models-slashing-api-costs-50-or-more", "date": "Sep 22, 2026"},
-        {"title": "ChatGPT's mobile app adds voice-driven agent features", "summary": "OpenAI is pushing ChatGPT's phone app further into hands-free, task-completing territory, letting people delegate multi-step actions by voice instead of typing them out.", "source_name": "TechCrunch", "source_url": "https://techcrunch.com/2026/09/23/chatgpt-mobile-app-gets-voice-based-agentic-features/", "date": "Sep 23, 2026"},
-        {"title": "Xiaomi's MiMo-V2.6-Pro tops the open-weights leaderboard", "summary": "Xiaomi released a free, MIT-licensed multimodal model alongside a cheaper \"Flash\" variant, giving teams a stronger self-hosted alternative to closed, pay-per-token APIs.", "source_name": "VentureBeat", "source_url": "https://venturebeat.com/technology/better-than-deepseek-xiaomis-mimo-v2-6-pro-debuts-as-the-top-open-weights-model-in-the-world-alongside-cheaper-v2-6-flash", "date": "Sep 22, 2026"},
-        {"title": "YouTube Studio gets AI-powered creator tools", "summary": "New features including automated video A/B testing, AI-generated thumbnail variants, and live AI dubbing show how quickly AI is moving from novelty add-on to core workflow tooling for everyday content creators.", "source_name": "TechCrunch", "source_url": "https://techcrunch.com/2026/09/23/youtube-adds-new-creator-tools-like-video-a-b-testing-dynamic-thumbnails-and-live-dubbing/", "date": "Sep 23, 2026"},
-        {"title": "Firecrawl raises $75M and launches an AI agent data layer", "summary": "The Series B funds Alexandria, a structured, licensed data catalog meant to give AI agents cleaner source material to pull from instead of scraping raw web pages themselves — a sign that the plumbing behind AI research and data-analysis tools is becoming its own funded category.", "source_name": "Dealroom", "source_url": "https://dealroom.co/news/155341-firecrawl-raises-75m-series-b-to-build-a-knowledge-library-for-ai-agents/", "date": "Sep 23, 2026"},
+        {"title": "Study: Google now shows AI Overviews on 98% of software review searches", "summary": "A marketing-research firm's scan of nearly 1,800 search results pages found Google surfacing an AI Overview on 98% of \"[brand] review\" queries and 100% of \"[brand] alternatives\" queries for business software, with organic click-through on those searches falling as buyers get an answer without leaving the results page. It's a concrete data point behind why AI-visibility tools such as <a href=\"https://pagelens.ai\" target=\"_blank\" rel=\"noopener\">PageLens.ai</a> — which track how ChatGPT, Gemini and other engines describe a brand and ship new citation-ready content to close the gaps — have turned into a real product category rather than a novelty.", "source_name": "EIN Presswire", "source_url": "https://www.einpresswire.com/article/944807070/google-shows-ai-overviews-on-98-of-software-review-searches-new-study-finds", "date": "Sep 24, 2026"},
+        {"title": "Google tests letting Gemini call businesses on your behalf", "summary": "In an early Pixel-only trial, Gemini can now place an actual phone call — booking a table, confirming store hours — and report back once it's done, pushing the assistant from answering questions toward finishing real errands.", "source_name": "TechCrunch", "source_url": "https://techcrunch.com/2026/09/24/google-tests-letting-gemini-make-phone-calls-initially-for-us-pixel-owners/", "date": "Sep 24, 2026"},
+        {"title": "ElevenLabs' CEO talks margins, IPO timing, and disclosing the bot", "summary": "In a wide-ranging interview following a reported $22B valuation, ElevenLabs' CEO discussed accepting thinner margins to keep growing market share, and the company's approach to telling callers upfront when they're speaking with an AI voice rather than a person.", "source_name": "TechCrunch", "source_url": "https://techcrunch.com/2026/09/24/twenty-minutes-with-the-ceo-of-elevenlabs-now-reportedly-valued-at-22-billion/", "date": "Sep 24, 2026"},
+        {"title": "Grok 4.7 lands with stronger coding scores at unchanged prices", "summary": "xAI's latest model posts meaningful coding-benchmark gains while holding token pricing flat, but early testers note it can burn through noticeably more tokens per task — a reminder that a cheaper rate card doesn't always add up to a cheaper bill.", "source_name": "VentureBeat", "source_url": "https://venturebeat.com/technology/grok-4-7-pairs-coding-gains-with-the-same-affordable-pricing-but-high-token-consumption-threatens-real-world-roi", "date": "Sep 22, 2026"},
+        {"title": "Lightspeed is raising a $250M fund for early-stage AI bets in India", "summary": "The new India-dedicated fund signals continued venture appetite for AI startups outside the usual US/China axis, with Lightspeed betting that India's early-stage AI founders are still under-capitalized relative to the opportunity in front of them.", "source_name": "TechCrunch", "source_url": "https://techcrunch.com/2026/09/24/lightspeed-targets-250m-for-new-india-fund-focusing-on-early-stage-ai/", "date": "Sep 24, 2026"},
+        {"title": "Oracle invokes force majeure on its New Mexico Stargate data center", "summary": "Oracle cited force majeure over delays tied to its share of the Stargate buildout, a reminder that the compute capacity every AI tool in this directory ultimately depends on is still bottlenecked by very physical problems like pipelines, power, and permits.", "source_name": "TechCrunch", "source_url": "https://techcrunch.com/2026/09/24/oracle-sends-force-majeure-notice-on-its-new-mexico-stargate-data-center/", "date": "Sep 24, 2026"},
     ]
 # AI_INSIGHTS_END
 
@@ -18755,12 +18755,14 @@ home_body = f"""
     <span class="muted small">Updated {AI_INSIGHTS_UPDATED}</span>
   </div>
   <div class="insights-grid">
-    {"".join(f'''<a class="insight-card reveal tilt" href="{i["source_url"]}" target="_blank" rel="noopener" style="transition-delay:{stagger(idx)}s">
-      <span class="insight-num">{idx+1:02d}</span>
-      <h3>{i["title"]}</h3>
+    {"".join(f'''<div class="insight-card reveal tilt" style="transition-delay:{stagger(idx)}s">
+      <a href="{i["source_url"]}" target="_blank" rel="noopener" style="display:block;">
+        <span class="insight-num">{idx+1:02d}</span>
+        <h3>{i["title"]}</h3>
+      </a>
       <p class="muted">{i["summary"]}</p>
-      <span class="insight-source">{i["source_name"]} &middot; {i["date"]} <span class="arrow">&rarr;</span></span>
-    </a>''' for idx, i in enumerate(AI_INSIGHTS))}
+      <a class="insight-source" href="{i["source_url"]}" target="_blank" rel="noopener">{i["source_name"]} &middot; {i["date"]} <span class="arrow">&rarr;</span></a>
+    </div>''' for idx, i in enumerate(AI_INSIGHTS))}
   </div>
 </section>
 
