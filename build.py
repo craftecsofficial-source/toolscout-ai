@@ -18469,24 +18469,15 @@ REMOVED_TOOLS = [
 REMOVED_SLUGS = {slugify(_t["name"]) for _t in REMOVED_TOOLS}
 PARTNER_SLUGS = {"deepsolv", "groweasy", "talkeasy", "arka-inventory"}
 FOUNDER_SLUGS = {"pagelens-ai"}
-DISCLOSURE_PARTNER = "Disclosure: this company has a commercial relationship with the ToolScout team."
-DISCLOSURE_FOUNDER = "Disclosure: PageLens.ai is built by ToolScout's founder."
-CATALOG_AUDIT = "Oct 2026"
-
+# Partner/founder labels and per-listing disclosure lines were removed at the owner's request (Oct 2026).
 def disclosure_text(slug):
-    if slug in PARTNER_SLUGS: return DISCLOSURE_PARTNER
-    if slug in FOUNDER_SLUGS: return DISCLOSURE_FOUNDER
     return None
 
 def partner_badge(slug):
-    if slug in PARTNER_SLUGS: return '<span class="partner-badge" style="display:inline-block;margin-left:8px;padding:2px 8px;border-radius:999px;border:1px solid currentColor;font-size:.7rem;font-weight:600;vertical-align:middle;">Partner</span>'
-    if slug in FOUNDER_SLUGS: return '<span class="partner-badge" style="display:inline-block;margin-left:8px;padding:2px 8px;border-radius:999px;border:1px solid currentColor;font-size:.7rem;font-weight:600;vertical-align:middle;">Founder-built</span>'
     return ""
 
 def disclosure_html(slug, narrow=True):
-    d = disclosure_text(slug)
-    if not d: return ""
-    return f'''<section class="container section narrow" style="padding-top:0;"><p class="muted small partner-disclosure" style="border-left:3px solid currentColor;padding-left:12px;">{d}</p></section>'''
+    return ""
 
 _STOP = set("the a an and or of for to in on with your you is it that this as by from at be are can into more all any ai tool tools app".split())
 def _kw(t):
@@ -19082,7 +19073,7 @@ home_body = f"""
   <div class="container">
     <div class="kicker reveal">{len(ALL_TOOLS)}+ curated AI tools</div>
     <h1 class="reveal" style="transition-delay:.08s">The quiet way to find <em>the right</em> AI tool</h1>
-    <p class="hero-sub reveal" style="transition-delay:.16s">A carefully curated directory &mdash; partner listings are always labelled. Just clear comparisons across writing, image, video, code and more.</p>
+    <p class="hero-sub reveal" style="transition-delay:.16s">A carefully curated directory &mdash; picked by our editor, not for sale. Just clear comparisons across writing, image, video, code and more.</p>
     <form class="search-wrap reveal" style="transition-delay:.24s" action="all-tools.html" method="get">
       <input type="text" name="q" placeholder="Search AI tools, e.g. 'video generator'" aria-label="Search AI tools">
       <button type="submit" class="magnetic">Search <span class="arrow">&rarr;</span></button>
@@ -19136,7 +19127,7 @@ home_body = f"""
     <div class="feature-card reveal" style="transition-delay:.06s"><div class="feature-icon">&#9989;</div><h3>Real reviews only</h3><p class="muted">We only show a G2, Capterra, Trustpilot or App Store rating when we can verify it. No invented stars, ever.</p></div>
     <div class="feature-card reveal" style="transition-delay:.12s"><div class="feature-icon">&#9878;&#65039;</div><h3>Compare any 3 tools</h3><p class="muted">Pick a category and up to 3 tools for an instant side-by-side comparison of pricing, features and fit. <a href="compare.html">Try it &rarr;</a></p></div>
     <div class="feature-card reveal" style="transition-delay:.18s"><div class="feature-icon">&#128706;&#65039;</div><h3>{len(ALL_TOOLS)} tools, {len(CATEGORIES)} categories</h3><p class="muted">From writing and image generation to no-code builders and presentations &mdash; and we keep adding more.</p></div>
-    <div class="feature-card reveal" style="transition-delay:.24s"><div class="feature-icon">&#128683;</div><h3>Partner listings are always labelled</h3><p class="muted">A few listings have a commercial relationship with the ToolScout team. They carry a visible Partner label and a disclosure line.</p></div>
+    <div class="feature-card reveal" style="transition-delay:.24s"><div class="feature-icon">&#128683;</div><h3>Picked by our editor</h3><p class="muted">Listings are chosen by our editor based on research. No one pays to be listed or to rank higher.</p></div>
     <div class="feature-card reveal" style="transition-delay:.3s"><div class="feature-icon">&#128240;</div><h3>Fresh AI insights, daily</h3><p class="muted">A running feed of the AI news that actually matters to builders and buyers &mdash; refreshed every day, just below.</p></div>
   </div>
 </section>
@@ -20332,8 +20323,6 @@ about_body = f"""
   <p class="reveal">{SITE_NAME} is edited by <strong>Surender K</strong>, Co-Founder @ OffBuddy (<a href="https://www.linkedin.com/in/surender-k-389b61409/" target="_blank" rel="noopener">LinkedIn profile</a>). Every page is reviewed by him before it stays on the site.</p>
   <h2 class="reveal">How we research</h2>
   <p class="reveal">Each tool is researched from its official website and pricing page. Drafts are AI-assisted, then reviewed by the editor. Pricing is re-checked regularly, and each tool page shows the date it was last checked. We do not invent reviews or ratings: a third-party rating (G2, Capterra, App Store and similar) appears only when we have verified it at the source.</p>
-  <h2 class="reveal">Partner and founder listings</h2>
-  <p class="reveal">Some listings have a commercial relationship with the {SITE_NAME} team, and PageLens.ai is built by the site's founder. These are always marked with a visible label and a disclosure line on the tool page, the card and any review.</p>
   <h2 class="reveal">How we pick tools</h2>
   <p class="reveal">We look for tools that are actively maintained, have a clear use case, and are widely used or well reviewed in their category. We are currently pruning weaker pages and re-checking the rest, so some listings may be removed or rewritten.</p>
   <h2 class="reveal">How we make money</h2>
