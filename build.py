@@ -18469,6 +18469,7 @@ REMOVED_TOOLS = [
 REMOVED_SLUGS = {slugify(_t["name"]) for _t in REMOVED_TOOLS}
 PARTNER_SLUGS = {"deepsolv", "groweasy", "talkeasy", "arka-inventory"}
 FOUNDER_SLUGS = {"pagelens-ai"}
+CATALOG_AUDIT = "Oct 2026"
 # Partner/founder labels and per-listing disclosure lines were removed at the owner's request (Oct 2026).
 def disclosure_text(slug):
     return None
