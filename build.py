@@ -94,61 +94,82 @@ CATEGORIES = [
       {"q": "Can I upload files instead of pasting text?", "a": "Yes, the tool accepts drag-and-drop input as well as text extracted from uploaded images and documents."}
     ]
  }},
-            {"name": "Jasper", "tagline": "AI content platform built for marketing teams", "desc": "Jasper focuses on brand voice and campaign consistency, letting whole marketing teams generate on-brand blog posts, ads and social copy from shared templates.", "pricing": "Pro from $59/mo per seat (billed yearly); Business custom-priced. No free plan.", "url": "https://www.jasper.ai",
- "hero_image": "jasper-hero.jpg", "hero_image_alt": "Screenshot of the Jasper homepage hero section",
-             "tags": ["Content", "Marketing", "Teams"],
-             "features": ["Brand voice engine for consistent tone across a team", "Campaign templates for blog, ads and social", "Content workflow and approval tools for marketing teams", "Integrates with Google Docs, WordPress and Surfer SEO"],
-             "pros": ["Best for teams needing consistent brand voice at scale", "Strong long-form and SEO content templates", "Deep workflow and collaboration features for marketing orgs"],
-             "cons": ["No free plan, and pricier than most competitors", "Steeper learning curve for solo users"],
-             "best_for": "Marketing teams producing high volumes of on-brand content across multiple writers.",
-             "deep": {
-                "overview": "Jasper is a generative AI platform purpose-built for marketing teams rather than a general-purpose chatbot. Originally launched in 2021 (as Conversion.ai / Jarvis), it has grown into one of the most widely adopted AI content platforms, with over 100,000 businesses reportedly using it to plan, produce and govern marketing content at scale.\n\nIts core differentiator is \"Jasper IQ\" — a context layer that stores a company's brand voice, style guide, audience profiles and product knowledge, then applies that context automatically to everything the platform generates. Combined with a library of 100+ purpose-built marketing agents and repeatable \"content pipelines,\" Jasper positions itself less as a writing assistant and more as an execution layer for marketing operations, competing more with tools like Copy.ai and Writer than with ChatGPT or Claude directly.",
-                "features_detailed": [
-                    {"title": "Brand Voice & Jasper IQ", "desc": "Jasper analyzes existing content or a style guide to learn a company's tone, then applies that voice automatically across every piece of content and every team member — up to 2 brand voices on Pro, unlimited on Business."},
-                    {"title": "100+ marketing agents", "desc": "Purpose-built agents handle specific marketing jobs — SEO/GEO content, campaign briefs, social posts, translation and research — rather than responding to open-ended prompts like a general chatbot."},
-                    {"title": "Content pipelines & Jasper Grid", "desc": "Structured, repeatable workflows (Canvas, Grid) turn a brief into finished, multi-channel content at scale, aimed at teams publishing dozens of assets a week."},
-                    {"title": "GEO & AI search optimization", "desc": "Tracks how a brand is cited across AI answer engines like ChatGPT and Google AI Overviews, then generates content aimed at improving those citations — a newer 2025/2026 addition."},
-                    {"title": "Image pipelines", "desc": "Generates and edits on-brand product imagery — background removal, upscaling, packshot compositing — aimed at offsetting parts of traditional photo production."},
-                    {"title": "Multi-modal knowledge base", "desc": "Teams can upload documents, video, audio or data as reference material so outputs stay grounded in real company information instead of generic web knowledge."},
-                    {"title": "Enterprise governance", "desc": "Role-based permissions, SSO/SAML, SCIM provisioning and an admin audit log let larger organizations control who can use which features and brand assets."},
-                    {"title": "Integrations & API", "desc": "A browser extension for Chrome/Edge, native integrations with Google Docs, Webflow, Slack, HubSpot, Zapier, Make and BigQuery, plus a full API and MCP server for custom workflows."},
-                ],
-                "pricing_plans": [
-                    {"name": "Pro", "price": "$59/mo per seat", "billing": "billed yearly ($69/mo billed monthly) · 7-day free trial · no free plan", "features": ["1 seat included (extra seats require Business)", "Canvas platform for on-brand content creation", "Agents for core marketing workflows", "2 brand voices, 5 knowledge assets, 3 audiences"]},
-                    {"name": "Business", "price": "Custom pricing", "billing": "contact sales · typically 12-month commitment", "features": ["Everything in Pro, plus:", "Agents for complex workflows (GEO, translation, deep research)", "No-code custom AI agent builder + Jasper Grid", "Unlimited brand voices, knowledge assets and audiences", "API access, SSO/SAML, SCIM", "Dedicated Customer Success Manager + priority support"]},
-                ],
-                "pros_expanded": [
-                    "Best-in-class brand consistency — Jasper IQ is a genuine differentiator for teams with multiple writers",
-                    "Deep library of marketing-specific agents and templates rather than generic prompts",
-                    "G2 reviewers rate support quality especially highly (9.2/10), unusual for an AI software category",
-                    "Strong integration ecosystem that reaches into the browser and tools teams already use",
-                    "Scales from a single marketer (Pro) up to enterprise governance (Business) on one platform",
-                    "High aggregate satisfaction — 4.7–4.8/5 across thousands of G2 and Capterra reviews",
-                ],
-                "cons_expanded": [
-                    "No free plan, and pricing runs higher than general-purpose assistants like ChatGPT or Claude",
-                    "Adding a second seat on Pro requires a sales conversation rather than a self-serve upgrade",
-                    "A recurring Reddit complaint is that output can feel generic without careful brand-voice setup",
-                    "Review-site sentiment shows a rising volume of billing and cancellation complaints through 2025",
-                    "Overkill and expensive for casual users who just need occasional short-form or social copy",
-                    "Business plan pricing is opaque — no published rate, so budgeting requires a sales call",
-                ],
-                "who_for": "Jasper is built for marketing teams — content, brand, product, performance and PR — who produce content regularly across multiple channels and need it to sound consistently on-brand no matter who (or what AI) writes it. It's a stronger fit for a five-person content team at a mid-size company than for a solo blogger or someone who occasionally needs a social caption; those users are typically better served by cheaper, general-purpose tools like ChatGPT or Copy.ai's free tier.",
-                "reviews": {
-                    "g2_rating": "4.7/5", "g2_count": "1,270+ reviews",
-                    "capterra_rating": "4.8/5", "capterra_count": "1,850+ reviews",
-                    "summary": "Jasper is one of the most-reviewed AI writing platforms on both G2 and Capterra, and the aggregate picture is strongly positive: G2 reviewers rate it 4.7/5 with roughly 84% five-star ratings, specifically calling out support quality (9.2/10) and AI text generation quality (8.9/10) as standout strengths. Capterra's rating sits slightly higher at 4.8/5. Sentiment isn't universal, though — Reddit threads and review-trend analysis point to a rising number of billing and cancellation complaints through 2025, and some users feel output reads as generic unless brand voice is carefully configured first. TrustPilot scores also trend noticeably lower than G2 or Capterra, a pattern common among subscription tools with strict cancellation policies.",
-                    "praise": ["Support quality rated 9.2/10 on G2, well above the AI software category average", "Strong, consistent output once brand voice and knowledge base are configured", "Intuitive interface — reviewers frequently note an easy learning curve for non-technical marketers"],
-                    "complaints": ["No free plan and premium pricing versus general AI assistants", "Rising billing and cancellation-related complaints in recent reviews", "Some users report generic-feeling output without upfront brand voice setup", "Adding seats on the Pro plan requires a sales conversation"],
-                },
-                "faq": [
-                    {"q": "How is Jasper different from ChatGPT or Claude?", "a": "Jasper is purpose-built for marketing teams rather than general-purpose use. Its Jasper IQ layer stores brand voice, style guides, audience data and product knowledge, then applies that context automatically to every output across a team — something general assistants like ChatGPT, Claude or Gemini don't do out of the box."},
-                    {"q": "Does Jasper have a free plan?", "a": "No. Jasper offers a 7-day free trial of the Pro plan but no permanent free tier, which puts it at a disadvantage versus competitors like Copy.ai that offer an ongoing free plan for light use."},
-                    {"q": "How much does Jasper actually cost for a team?", "a": "The Pro plan covers a single seat at $59–$69/month. Anything beyond one user requires moving to the custom-quoted Business plan, so teams should budget for a sales conversation rather than a fixed per-seat team price."},
-                    {"q": "Is Jasper worth it for a solo creator or small blog?", "a": "Usually not the best fit. Reviewers and Reddit users frequently note it's overkill and expensive for casual, single-channel writing — tools built for individual creators tend to offer better value at that scale."},
-                    {"q": "What do verified reviews say about Jasper's reliability?", "a": "G2 and Capterra reviewers rate it highly overall (4.7–4.8/5), particularly for support and output quality, but recent review trends show a rise in billing and cancellation complaints worth checking before committing to an annual plan."},
-                ],
-             }},
+            {'name': 'Jasper',
+ 'tagline': 'AI agent workspace for marketing teams, with brand voice built in',
+ 'desc': 'Jasper is aimed at marketing teams that need consistent on-brand content across channels. Pro costs $59/seat/month billed yearly, Business is custom-priced, and there is no free plan.',
+ 'pricing': 'Pro $69/seat/mo monthly or $59/seat/mo billed yearly; 7-day free trial. Business is custom pricing (contact sales, 12-month commitment).',
+ 'url': 'https://www.jasper.ai',
+ 'hero_image': 'jasper-hero.jpg',
+ 'hero_image_alt': 'Screenshot of the Jasper homepage hero section',
+ 'tags': ['Content', 'Marketing', 'Teams'],
+ 'features': ['Jasper IQ context layer for brand voice, audiences and product knowledge',
+              'Library of marketing agents (SEO/GEO, social, email, translation) plus custom agent builder via AI Studio',
+              'Content pipelines with Canvas and Grid',
+              'GEO and AI-search visibility tools (Business tier for GEO agents)',
+              'Image pipelines, API and MCP server'],
+ 'pros': ['Brand voice and knowledge applied automatically across a team',
+          'Marketing-specific agents and workflows rather than a blank chat box',
+          'Monthly Pro plan can be cancelled anytime',
+          'Governance, API and admin controls on Business'],
+ 'cons': ['No free plan, only a 7-day trial',
+          'Pro includes just 1 seat and caps at 2 brand voices',
+          'Business pricing is not public and needs a 12-month commitment',
+          'GEO Hub and agent usage run on credits on top of seat pricing'],
+ 'best_for': 'Marketing teams that publish across many channels and need consistent brand voice and governance.',
+ 'deep': {'overview': 'Jasper is a good fit for marketing teams who need many people (and agents) to produce content that sounds like one brand, but solo writers and casual users should skip it as '
+                      'it costs more than general assistants and has no free plan. It is built around a context layer called Jasper IQ that stores brand voice, audiences and product knowledge, plus '
+                      'a library of marketing agents and repeatable pipelines.\n'
+                      '\n'
+                      'On the current pricing page, Pro is a single-seat plan at $59/month billed yearly ($69 monthly) with a 7-day trial; Business is custom-quoted with unlimited brand voices, API '
+                      'access and governance. It positions itself as a workspace for marketing execution rather than a chatbot.',
+          'features_detailed': [{'title': 'Jasper IQ and brand voice',
+                                 'desc': 'Stores brand voice, style guides, audiences and product knowledge and applies them to outputs. Pro allows 2 brand voices, 5 knowledge assets and 3 '
+                                         'audiences; Business is unlimited.'},
+                                {'title': 'Marketing agents',
+                                 'desc': 'Purpose-built agents for SEO and GEO content, campaigns, email, social, personalization, research and translation. Complex ones (GEO, translation, deep '
+                                         'research) are on Business.'},
+                                {'title': 'Content pipelines, Canvas and Grid',
+                                 'desc': 'Structured workflows from brief to multi-channel content. Canvas is in Pro; Jasper Grid is a Business feature.'},
+                                {'title': 'Custom agents with AI Studio', 'desc': 'A no-code builder for custom agents, listed under Business.'},
+                                {'title': 'GEO and AI optimization',
+                                 'desc': 'Measures brand visibility in AI answer engines and helps produce content for it. Usage runs on credits alongside seat pricing.'},
+                                {'title': 'Images, API and MCP', 'desc': 'Image pipelines and APIs, Jasper APIs and an MCP server to carry brand context into other tools; API access is on Business.'},
+                                {'title': 'Governance', 'desc': 'Admin controls and Groups on Business; sales can add SSO and custom style guides.'}],
+          'pricing_plans': [{'name': 'Pro',
+                             'price': '$59/seat/mo billed yearly',
+                             'billing': '$69/seat/mo billed monthly; 7-day free trial; annual requires 12 months',
+                             'features': ['1 seat included', 'Canvas platform', 'Agents for core marketing workflows', '2 brand voices, 5 knowledge assets, 3 audiences']},
+                            {'name': 'Business',
+                             'price': 'Custom - contact sales',
+                             'billing': 'Starts with a 12-month commitment',
+                             'features': ['Everything in Pro',
+                                          'Agents for GEO, translation and deep research',
+                                          'No-code custom agent builder and Jasper Grid',
+                                          'Unlimited brand voices, knowledge and audiences',
+                                          'API access, admin controls and Groups',
+                                          'Dedicated account management and priority support']}],
+          'pros_expanded': ['Jasper IQ keeps tone and facts consistent across writers, a real advantage over generic chatbots for teams',
+                            'Agents are designed around marketing jobs, so less prompt engineering',
+                            'Monthly Pro billing can be cancelled anytime',
+                            'Business adds API, governance and custom agent building on one platform',
+                            'Free diagnostics (GEO and brand compliance) let you sample the approach'],
+          'cons_expanded': ['No free plan; the trial is 7 days',
+                            'Pro limits: 1 seat, 2 brand voices, 5 knowledge assets, 3 audiences',
+                            'Business has no public price and a 12-month minimum',
+                            'GEO Hub and agent usage consume credits on top of seat fees, so total cost can exceed list price',
+                            'Output quality depends on how well brand voice and knowledge are set up',
+                            'Costs more than general AI assistants for simple writing'],
+          'who_for': 'Good for in-house marketing, content and brand teams and agencies handling several brand voices and channels. Not for solo bloggers, students or anyone who needs occasional '
+                     'copy (a general assistant or a free tier elsewhere is cheaper), nor for buyers who need a transparent team price without talking to sales.',
+          'faq': [{'q': 'Does Jasper have a free plan?', 'a': 'No. There is a 7-day free trial of Pro, but no permanent free plan.'},
+                  {'q': 'How much does Jasper cost?', 'a': 'Pro is $59/seat/month billed yearly or $69/seat/month billed monthly. Business is custom-priced via sales.'},
+                  {'q': 'Can a team use Pro?', 'a': 'Pro includes one seat. Multi-user teams should expect to talk to sales about Business, which supports unlimited users.'},
+                  {'q': 'Is Jasper better than ChatGPT for marketing?',
+                   'a': 'It is better for shared brand voice and governed workflows; a general assistant is cheaper and more flexible for ad-hoc work.'},
+                  {'q': 'Is there a long-term commitment?', 'a': 'Monthly Pro can be cancelled anytime; annual Pro needs 12 months, and Business starts with 12 months.'}]},
+ 'last_checked': '2026-10-15',
+ 'alternatives': [{'slug': 'copy-ai', 'why': 'Pick it if you want GTM workflow automation and may prefer a lighter entry point.'},
+                  {'slug': 'writesonic', 'why': 'Pick it if AI search visibility (GEO) and SEO content are your main goal.'}]},
             {"name": "Copy.ai", "tagline": "AI copywriting and GTM workflow automation", "desc": "Copy.ai started as a short-form copywriting tool and, after its October 2025 acquisition by Fullcast, has repositioned around automating go-to-market workflows for sales and marketing teams, with a usable free tier for light writing needs.", "pricing": "Free tier available; Chat plan from $24/mo (billed annually); Growth/Enterprise plans from $1,000/mo+", "url": "https://www.copy.ai",
              "tags": ["Content", "Sales"],
              "features": ["GTM workflow templates for outbound sales sequences", "Persona-aware branching copy generation", "Short-form copywriting for ads and social", "Free plan with 2,000 words per month"],
@@ -206,62 +227,99 @@ CATEGORIES = [
                     {"q": "Can I cancel or downgrade my Copy.ai plan?", "a": "Yes, self-serve customers can upgrade or downgrade at any time; upgrades are prorated for the current month, and downgrades apply as a credit on the next bill."},
                 ],
              }},
-            {"name": "Grammarly", "tagline": "AI writing assistant for grammar, tone and clarity", "desc": "Grammarly checks grammar, spelling and tone in real time across the browser and desktop apps, with generative AI features for rewriting and drafting text.", "pricing": "Free tier available; Pro from $12/mo (billed annually; $30/mo billed monthly)", "url": "https://www.grammarly.com",
-             "tags": ["Editing", "Grammar"],
-             "features": ["Real-time grammar, spelling and clarity checks across 500,000+ apps and sites", "Tone detection and rewriting suggestions", "Plagiarism checker on paid plans", "Browser, desktop and mobile keyboard integrations"],
-             "pros": ["Works everywhere you already write", "Genuinely useful free tier", "Improves existing writing rather than just generating more of it"],
-             "cons": ["Not a content generator, it edits rather than ideates", "Advanced features gated behind the Enterprise plan"],
-             "best_for": "Anyone who wants cleaner, more polished writing wherever they type.",
-             "deep": {
-                "overview": "Grammarly is an AI-powered writing assistant that checks grammar, spelling, tone and clarity in real time across browsers, desktop apps, mobile keyboards and integrations like Google Docs and Microsoft Office. Founded in 2009, it is one of the longest-running and most widely adopted AI writing tools, used by more than 40 million people and 50,000+ organizations.\n\nIts core differentiator versus AI content generators like Jasper or Copy.ai is that Grammarly is an in-line editing layer rather than a generation tool — it works on top of writing a user is already doing, wherever they're doing it, instead of producing new drafts from prompts. In October 2025 its parent company rebranded to Superhuman, unifying Grammarly with the Superhuman email client and Coda under a broader \"AI productivity platform\" umbrella, though the Grammarly product itself keeps its name and standalone plans.",
-                "features_detailed": [
-                    {"title": "Real-time grammar and spelling correction", "desc": "Flags and fixes grammar, punctuation and spelling mistakes as the user types, across virtually any text field via browser extension, desktop app or mobile keyboard."},
-                    {"title": "Tone detection and adjustment", "desc": "Analyzes the emotional tone of a draft and, on paid plans, offers full-sentence rewrites to shift tone (e.g. more confident, more formal)."},
-                    {"title": "Full-sentence rewrites and fluency suggestions", "desc": "Suggests complete sentence rewrites for clarity and, for non-native English writers, corrects fluency issues beyond simple grammar fixes."},
-                    {"title": "Plagiarism and AI-content detection", "desc": "Scans text against a large database to flag potential plagiarism and detect AI-generated content, included on Pro and Enterprise plans."},
-                    {"title": "AI prompts / AI Chat", "desc": "A generative AI assistant that can draft, brainstorm and rewrite content on request, with a monthly prompt allowance that scales by plan."},
-                    {"title": "Style Guide and Brand Tones", "desc": "Lets teams codify house style rules and brand-specific tone profiles so suggestions stay consistent with organizational standards."},
-                    {"title": "Broad app and platform coverage", "desc": "Works across desktop, browser extensions (Chrome, Safari, Firefox, Edge), mobile (iOS/Android) and native integrations with Word and Google Docs."},
-                    {"title": "Enterprise-grade security and admin controls", "desc": "Enterprise plan adds SSO/SAML, SCIM, BYOK encryption, data loss prevention, custom roles and audit logging for regulated organizations."},
-                ],
-                "pricing_plans": [
-                    {"name": "Free", "price": "Free", "billing": "No credit card required; permanent free tier", "features": ["Write without spelling and grammar mistakes", "See your writing tone", "100 AI prompts per month", "Browser, desktop and mobile access"]},
-                    {"name": "Pro", "price": "$12/mo", "billing": "Billed annually ($30/mo if billed monthly); includes a 7-day free trial", "features": ["Everything in Free", "Full-sentence rewrites", "Tone adjustment", "Fluency suggestions for English", "Unlimited personalized suggestions", "Plagiarism and AI-content detection", "2,000 AI prompts per member per month", "Team features: Style Guide, Brand Tones, Knowledge Share, Snippets"]},
-                    {"name": "Enterprise", "price": "Custom pricing", "billing": "Contact sales; delivered via Superhuman Go for larger organizations", "features": ["Everything in Pro", "Proactive AI that works everywhere", "Dedicated support", "SAML SSO and SCIM", "BYOK encryption and data loss prevention", "Custom roles and permissions", "Unlimited AI prompts per member per month"]},
-                ],
-                "pros_expanded": [
-                    "Grammar and tone suggestions are widely regarded as highly accurate, and the tool works consistently across almost any app or website via its browser extension",
-                    "The free tier is genuinely useful on its own — it catches real errors and shows tone with no cost — making it a low-risk entry point",
-                    "Enterprise-grade compliance (SOC 2 Type 2, SSO, SCIM, BYOK, DLP) makes it viable for regulated organizations, not just individual writers",
-                    "Plagiarism and AI-content detection are bundled into Pro, saving a separate subscription for many users",
-                    "Extremely large, mature review base gives high statistical confidence in its ratings",
-                    "Broad platform coverage (desktop, mobile keyboard, Word, Google Docs, browser) means suggestions follow the user across nearly every writing surface",
-                ],
-                "cons_expanded": [
-                    "The October 2025 corporate rebrand to \"Superhuman\" and bundling with the Superhuman email client and Coda has added confusion to what used to be a simple single-product pricing page",
-                    "Some writers report that Pro suggestions can flatten personal voice and style, particularly for creative writing where mechanical correctness isn't the only goal",
-                    "Performance can be inconsistent in specialized writing environments compared to browser-based use",
-                    "The built-in plagiarism checker is considered less robust than dedicated plagiarism-detection tools by some reviewers",
-                    "Team/business pricing rises quickly at scale under the newer Superhuman Suite business tiers, a meaningful jump from the $12/mo individual Pro price",
-                    "AI suggestions can occasionally feel overly rigid or generic, requiring the user to reject and manually rewrite rather than accept as-is",
-                ],
-                "who_for": "Grammarly is best suited to students, professionals and teams who write daily across many different apps and want reliable in-line grammar, tone and clarity checking without switching tools — its free tier alone is worth having for most casual users, and Pro is a reasonable upgrade for anyone doing high-volume professional writing. It is a weaker fit for writers who want an AI tool to generate long-form drafts from scratch (a generative tool like Jasper or Copy.ai is a better match) or for advanced creative writers wary of AI suggestions homogenizing a distinctive personal voice.",
-                "reviews": {
-                    "g2_rating": "4.7/5", "g2_count": "13,000+ reviews",
-                    "capterra_rating": "4.7/5", "capterra_count": "7,200+ reviews",
-                    "summary": "Grammarly is one of the most consistently well-reviewed tools in this category, holding 4.7/5 on both G2 and Capterra, with sentiment breakdowns showing well over 95% positive/neutral. Reddit discussion is more mixed but still largely favorable: many users say the always-on correction across apps alone justifies the price, while a recurring critique is that Premium/Pro suggestions can over-correct or flatten a writer's natural voice, and that friction appears in non-browser writing environments.",
-                    "praise": ["Consistently accurate grammar, spelling and tone suggestions", "Works seamlessly across a huge range of apps via the browser extension", "Strong enterprise security and admin tooling for larger organizations"],
-                    "complaints": ["Suggestions can flatten personal writing voice or style, especially for creative writers", "Inconsistent performance in some specialized or desktop writing tools", "Plagiarism checker seen as less thorough than dedicated tools", "Team/business pricing scales up quickly beyond the base Pro plan"],
-                },
-                "faq": [
-                    {"q": "How much does Grammarly cost?", "a": "Grammarly is free for basic grammar/spelling/tone checking. Pro costs $12/month billed annually (or $30/month billed monthly) and adds full-sentence rewrites, plagiarism/AI detection and unlimited suggestions. Enterprise is custom-priced and sold through Superhuman Go."},
-                    {"q": "Is the Grammarly free plan good enough, or do I need Pro?", "a": "The free plan catches genuine grammar and spelling errors and shows tone, which is enough for casual users. Pro is worth it if you want full-sentence rewrites, tone adjustment, plagiarism/AI detection, or need it for professional/academic writing where those features matter."},
-                    {"q": "What happened to Grammarly Business?", "a": "Grammarly Business was retired and merged into the unified Pro plan, which now supports teams as well as individuals. Larger organizations needing SSO, SCIM or custom security controls now go through the Enterprise tier."},
-                    {"q": "Why is Grammarly now called Superhuman?", "a": "In October 2025, Grammarly's parent company rebranded itself as Superhuman after acquiring the Superhuman email client and the Coda work platform, positioning itself as a broader AI productivity company. The Grammarly product itself keeps its original name and pricing structure."},
-                    {"q": "Is Grammarly worth it for students?", "a": "For most students, yes — the free plan alone catches common mistakes, and Grammarly offers education discounts for the paid Pro tier for students who want tone adjustment, fluency help or plagiarism checking."},
-                    {"q": "How does Grammarly compare to using ChatGPT for editing?", "a": "Grammarly's advantage is that it works passively, in-line, across virtually every app you already write in, rather than requiring you to copy/paste text into a separate chat window — for many users that integration alone justifies the subscription over a general-purpose AI chatbot."},
-                ],
-             }},
+            {'name': 'Grammarly',
+ 'tagline': 'In-line grammar, tone and clarity checker, now part of Superhuman',
+ 'desc': 'Grammarly checks grammar, spelling and tone as you type in browsers, desktop apps and mobile keyboards, with paid rewriting, plagiarism and AI-detection tools and a monthly AI prompt '
+         'allowance. The company is now part of Superhuman.',
+ 'pricing': 'Free plan available (100 AI prompts/mo); Pro $12/member/mo billed annually or $30/mo billed monthly; Enterprise custom pricing',
+ 'url': 'https://www.grammarly.com',
+ 'tags': ['Editing', 'Grammar'],
+ 'features': ['Real-time grammar, spelling and clarity checks in browsers, desktop apps, Word, Google Docs and mobile keyboards',
+              'Tone view on Free; tone adjustment and full-sentence rewrites on Pro',
+              'Plagiarism and AI-text detection on Pro and Enterprise',
+              'AI prompts: 100/month Free, 2,000/member/month Pro, unlimited on Enterprise'],
+ 'pros': ['Works in almost every place you already type',
+          'Free plan covers basic grammar, spelling and tone view',
+          'Edits your own writing instead of replacing it with generated text',
+          'Pro bundles rewrites, plagiarism and AI detection in one subscription'],
+ 'cons': ['Mainly an editor, weak for drafting long content from scratch',
+          'Rewrites, tone adjustment and plagiarism checks are paid only',
+          'Monthly billing ($30) costs 2.5x the annual rate',
+          'Team limits on Pro (one style guide, one brand tone, two user groups); more needs Enterprise sales'],
+ 'best_for': 'People who write all day in many apps and want cleaner, more polished text without switching tools.',
+ 'deep': {'overview': 'Grammarly is a strong pick if you write daily in email, docs and chat and want mistakes and tone problems caught wherever you type. Skip it if you want a tool to generate long '
+                      'drafts from nothing, or if you are a creative writer who dislikes tools nudging your voice toward a neutral style.\n'
+                      '\n'
+                      'It is an editing layer: browser extensions, Windows and Mac apps, Office and Google Docs add-ins and mobile keyboards underline problems and suggest fixes. The free plan '
+                      'handles spelling, grammar and a tone readout. Pro adds sentence rewrites, tone adjustment, plagiarism and AI-text detection and a bigger AI prompt allowance. Grammarly is now '
+                      'part of Superhuman, and the homepage says its writing support is delivered through Superhuman Go, though the Grammarly name and plans remain.',
+          'features_detailed': [{'title': 'Real-time grammar and spelling',
+                                 'desc': 'Flags grammar, punctuation and spelling errors as you type through browser extensions (Chrome, Safari, Firefox, Edge), Windows and Mac apps, and iOS and '
+                                         'Android keyboards.'},
+                                {'title': 'Tone view and adjustment', 'desc': 'Free shows how your writing sounds; Pro adds tone adjustment and full-sentence rewrites.'},
+                                {'title': 'Fluency and inclusive language', 'desc': 'Pro adds fluent-English suggestions, inclusive-language checks and citation consistency.'},
+                                {'title': 'Plagiarism and AI-text detection',
+                                 'desc': 'Included on Pro and Enterprise. Dedicated plagiarism tools may be more thorough for academic or publishing use.'},
+                                {'title': 'AI prompts',
+                                 'desc': 'A generative assistant for drafting and rewriting. Allowance is 100 per month on Free, 2,000 per member per month on Pro and unlimited on Enterprise.'},
+                                {'title': 'Team tools',
+                                 'desc': 'Pro includes Snippets, Knowledge Share and team analytics, limited to one style guide, one brand tone and two user groups. Enterprise raises those to '
+                                         'unlimited.'},
+                                {'title': 'Enterprise security and admin',
+                                 'desc': 'Enterprise adds SAML SSO, SCIM, BYOK encryption, data loss prevention, custom roles, confidential mode and an Audit Logs API.'},
+                                {'title': 'Office and Google Docs support', 'desc': 'Works inside Microsoft Office and Google Docs as well as in the browser.'}],
+          'pricing_plans': [{'name': 'Free',
+                             'price': '$0',
+                             'billing': 'Permanent free plan',
+                             'features': ['Spelling and grammar corrections', 'See your writing tone', '100 AI prompts per month', 'Help center support only']},
+                            {'name': 'Pro',
+                             'price': '$12/member/mo billed annually; $30/mo billed monthly',
+                             'billing': 'The plans page shows $12 and a "Try for $0.00" trial; the homepage gives the annual vs monthly split. Check the official pricing page before buying.',
+                             'features': ['Everything in Free',
+                                          'Full-sentence rewrites and tone adjustment',
+                                          'Fluency, inclusive language and citation consistency',
+                                          'Plagiarism and AI-text detection',
+                                          '2,000 AI prompts per member per month',
+                                          'Snippets, Knowledge Share, team analytics (one style guide, one brand tone, two user groups)',
+                                          'Roles and permissions; priority support']},
+                            {'name': 'Enterprise',
+                             'price': 'Contact sales (no public price)',
+                             'billing': 'Custom quote',
+                             'features': ['Everything in Pro',
+                                          'Unlimited AI prompts per member per month',
+                                          'Proactive AI',
+                                          'SAML SSO, SCIM, managed mode, custom roles',
+                                          'Data loss prevention, BYOK encryption, confidential mode, Audit Logs API',
+                                          'Unlimited style guides, brand tones and user groups',
+                                          'Dedicated support']}],
+          'pros_expanded': ['Suggestions show up across nearly every writing surface, so you do not copy text into a separate chat window',
+                            'The free plan is useful by itself: grammar, spelling and tone view at no cost',
+                            'Pro bundles rewrites, tone adjustment, plagiarism and AI-text detection, which would otherwise be separate tools',
+                            '2,000 AI prompts per month on Pro is a generous allowance for an editing assistant',
+                            'Enterprise tier covers SSO, SCIM, BYOK and DLP for regulated organizations'],
+          'cons_expanded': ['Pro is $30/month if billed monthly versus $12 on annual billing, so trying it month to month is expensive',
+                            'Free excludes tone adjustment, full-sentence rewrites and plagiarism/AI detection',
+                            'Pro team features are capped (one style guide, one brand tone, two user groups); lifting that means Enterprise and a sales call',
+                            'Some writers find suggestions flatten their voice, especially in creative work',
+                            'Plagiarism checking is a bundled extra; dedicated checkers may be more thorough',
+                            'Parent-company move into Superhuman means product packaging and branding may keep shifting'],
+          'who_for': 'Good for students, professionals and teams who write across many apps and want in-line corrections and tone feedback. Not for people who mainly need long-form content generated '
+                     'from a prompt, writers who want full control of an idiosyncratic style, or large organizations that need many style guides and brand tones without going through Enterprise '
+                     'sales.',
+          'faq': [{'q': 'How much does Grammarly cost?',
+                   'a': 'Free is $0. Pro is $12 per member per month on annual billing or $30 per month billed monthly, per the Grammarly homepage. Enterprise has no public price. Confirm on the '
+                        'official pricing page.'},
+                  {'q': 'Is the free plan enough?',
+                   'a': 'For catching spelling and grammar errors and seeing tone, yes, and it includes 100 AI prompts a month. You need Pro for full-sentence rewrites, tone adjustment, and '
+                        'plagiarism or AI-text detection.'},
+                  {'q': 'How many AI prompts do I get?', 'a': '100 per month on Free, 2,000 per member per month on Pro, and unlimited on Enterprise.'},
+                  {'q': 'Is Grammarly now Superhuman?',
+                   'a': 'Grammarly says it is now part of Superhuman, with its writing support delivered through Superhuman Go. The Grammarly plans above are what its own site lists today.'},
+                  {'q': 'How does it compare with LanguageTool or Wordtune?',
+                   'a': "LanguageTool is stronger on many languages; Wordtune focuses on rewriting. Grammarly's edge is breadth of app coverage and the combined feature set on Pro."}]},
+ 'alternatives': [{'slug': 'languagetool', 'why': 'Pick it if you write in languages beyond English and want a grammar checker with a different pricing structure.'},
+                  {'slug': 'wordtune', 'why': 'Pick it if rewriting and tone shifting of individual sentences matters more than all-round proofreading.'}],
+ 'last_checked': '2026-10-15'},
             {"name": "Writesonic", "tagline": "AI Search Visibility (GEO) platform with SEO content tools", "desc": "Writesonic has repositioned from a budget AI writing tool into an AI Search Visibility platform, tracking how a brand is cited across ChatGPT, Gemini and other AI answer engines alongside legacy SEO article generation.", "pricing": "7-day free trial, no credit card required; plans from $79/mo billed annually", "url": "https://www.writesonic.com",
              "tags": ["Content", "SEO", "AI Search"],
              "features": ["SEO-optimized long-form article generation", "AI search visibility tracking across ChatGPT, Gemini, Google AI Overviews and more (GEO)", "Landing page and product description templates", "Site audits with automatic AI fixes"],
@@ -1796,64 +1854,84 @@ CATEGORIES = [
       {"q": "Is Xinva suited for general AI image generation?", "a": "Not primarily — Xinva is purpose-built for print-on-demand merchandise design rather than general illustration, photorealistic imagery, or broader creative use cases."}
     ]
  }},
-            {"name": "Midjourney", "tagline": "AI art generator known for painterly, high-detail images", "desc": "Midjourney is widely regarded as the most visually striking image generator, popular with designers and artists for concept art, illustration and mood boards.", "pricing": "From $10/mo (Basic); no free trial; annual billing saves 20%", "url": "https://www.midjourney.com",
- "hero_image": "midjourney-hero.jpg", "hero_image_alt": "Screenshot of the Midjourney homepage hero section",
-             "tags": ["Art", "Design"],
-             "features": ["Painterly, high-detail image generation via Discord or web app", "Version 8.2 model with improved anatomy and prompt coherence", "Image-to-image remix and stealth mode on higher tiers", "Commercial usage rights on all paid plans"],
-             "pros": ["Widely regarded as the highest visual quality among image generators", "Deep community and prompt-sharing ecosystem", "Strong for concept art, illustration and mood boards"],
-             "cons": ["No free trial, and refunds only apply under 20 minutes of lifetime GPU usage", "Weaker at rendering legible text inside images than Ideogram"],
-             "best_for": "Designers and artists who want the most visually striking, painterly output.",
-             "deep": {
-                "overview": "Midjourney is an independent research lab and AI image-generation service, best known for producing some of the most stylistically distinctive and painterly output of any text-to-image tool on the market. It is not backed by a major tech company or VC-scale funding the way OpenAI or Adobe are; it operates as a small, self-funded team and has historically run entirely through Discord, with a separate web-based app added later for account management, image galleries and generation without Discord.\n\nIts core differentiator is aesthetic quality and artistic coherence rather than prompt-following precision or productivity integration. Where DALL-E's successor models and Adobe Firefly emphasize accurate prompt adherence and commercial-safety guarantees, Midjourney is generally regarded by users and reviewers as producing the most visually striking, gallery-ready images by default, at the cost of a less conventional interface and no free tier.",
-                "features_detailed": [
-                    {"title": "Discord and web-based generation", "desc": "Images are generated by typing /imagine prompts in Discord or through the standalone web app at midjourney.com, both syncing to the same account and image library."},
-                    {"title": "Version 8.2 model", "desc": "Midjourney's latest model generation, offering improved prompt coherence, texture detail and more consistent human anatomy compared to earlier versions."},
-                    {"title": "Relax, Fast and Turbo generation modes", "desc": "Standard and higher plans can toggle between slower queue-based 'relax' generations (unlimited on Standard+) and faster paid-GPU-time generations, trading speed for cost."},
-                    {"title": "Image-to-image and remix", "desc": "Users can upload a reference image or use an existing generation as a base, then apply new prompts to remix composition, style or subject matter."},
-                    {"title": "Stealth mode (Pro and Mega plans)", "desc": "Hides a user's generations from Midjourney's public community feed, useful for commercial or unreleased creative work."},
-                    {"title": "Video generation", "desc": "Midjourney supports generating short AI video clips from images or prompts, with HD output available on Pro and Mega tiers."},
-                    {"title": "Community gallery and prompt exploration", "desc": "A public feed of other users' generations and prompts that can be browsed and remixed, useful for prompt inspiration."},
-                    {"title": "Commercial usage rights", "desc": "Paid subscribers own the images they generate and can use them commercially, subject to Midjourney's terms."},
-                ],
-                "pricing_plans": [
-                    {"name": "Basic", "price": "$10/mo", "billing": "$96/year if billed annually (~$8/mo)", "features": ["~3.3 hours of fast GPU time per month", "No relaxed (unlimited slow) generation mode", "General commercial usage rights", "Access to the member gallery"]},
-                    {"name": "Standard", "price": "$30/mo", "billing": "~$24/mo if billed annually", "features": ["15 hours of fast GPU time per month", "Unlimited relaxed-mode generations", "Same commercial usage rights as Basic"]},
-                    {"name": "Pro", "price": "$60/mo", "billing": "~$48/mo if billed annually", "features": ["30 hours of fast GPU time per month", "Unlimited relaxed generations", "Stealth mode (private generations)", "HD video generation"]},
-                    {"name": "Mega", "price": "$120/mo", "billing": "~$96/mo if billed annually", "features": ["60 hours of fast GPU time per month", "Unlimited relaxed generations", "Stealth mode", "HD video generation", "Highest queue priority"]},
-                ],
-                "pros_expanded": [
-                    "Produces some of the most visually polished, artistic default output of any mainstream image generator, particularly for concept art, illustration and stylized marketing visuals",
-                    "Version 8.2 has meaningfully improved anatomical accuracy and prompt coherence over earlier versions",
-                    "Active, very large community (600,000+ member Discord/subreddit) means extensive prompt examples and troubleshooting help are freely available",
-                    "Stealth mode and commercial usage rights make it usable for professional work without publicizing in-progress projects",
-                    "Video generation is considered strong value relative to dedicated AI video tools at a similar price point",
-                    "Frequent model updates mean quality has improved steadily release over release",
-                ],
-                "cons_expanded": [
-                    "No free trial or free tier — the only way to evaluate the tool is to pay for a month of Basic",
-                    "Refunds are only available if lifetime GPU usage is under 20 minutes, a policy users frequently describe as unfair given no trial exists",
-                    "Character and subject consistency across multiple images remains difficult, a common complaint for anyone building a consistent visual series or brand character",
-                    "The core workflow still runs through Discord for many users, which feels cluttered compared to a dedicated app interface",
-                    "Some users report generated images being removed or made inaccessible without clear notice",
-                    "Users with over $1M in annual company revenue are contractually required to be on the Pro or Mega plan, adding cost for larger organizations",
-                ],
-                "who_for": "Midjourney is best suited for illustrators, concept artists, marketers and hobbyists who prioritize striking visual quality over precise prompt control or workflow integration, and who are comfortable paying before trying the product. It's a poor fit for teams that need tight brand consistency across many images, users who want a conventional SaaS interface without Discord, or anyone who wants to test the tool for free before committing — Adobe Firefly is a better starting point for that kind of evaluation.",
-                "reviews": {
-                    "g2_rating": "4.4/5", "g2_count": "102 reviews",
-                    "capterra_rating": "Not listed", "capterra_count": "no verified Capterra listing — Trustpilot used instead",
-                    "summary": "There is a stark split between review platforms. G2, whose audience evaluates output quality and feature capability, rates Midjourney highly (4.4/5) and praises its image quality and creative range. Trustpilot, which captures the full subscriber experience including billing and support, is reported far more negatively, driven almost entirely by refund and cancellation complaints rather than output quality. Reddit's r/midjourney community (680,000+ members) is generally positive about output quality and treats recurring 'is it still worth it' threads as a referendum on price and workflow rather than art quality, which most users don't dispute.",
-                    "praise": ["Exceptional default image aesthetics for concept art and illustration", "Version 8.2 improved coherence and anatomy noticeably", "Large, active community with abundant free prompt knowledge"],
-                    "complaints": ["No free trial combined with a restrictive refund policy (under 20 minutes lifetime GPU usage)", "Character/subject consistency across a series of images is weak", "Discord-first workflow feels cluttered to many users", "Reports of generated images being deleted without notification"],
-                },
-                "faq": [
-                    {"q": "Does Midjourney have a free plan?", "a": "No. Midjourney removed its free trial some time ago; the cheapest way to use it is the $10/mo Basic plan (or about $8/mo billed annually)."},
-                    {"q": "Do I need Discord to use Midjourney?", "a": "No, Midjourney now has a standalone web app at midjourney.com for generating and managing images, though the Discord bot is still available and widely used."},
-                    {"q": "Can I use Midjourney images commercially?", "a": "Yes, paid subscribers own the images they generate and can use them commercially, subject to Midjourney's terms of service."},
-                    {"q": "What's the difference between Basic and Standard plans?", "a": "Basic gives about 3.3 hours of fast GPU time per month with no unlimited slower generation mode, while Standard adds unlimited 'relaxed' (queued, slower) generations on top of 15 hours of fast time."},
-                    {"q": "Can I get a refund if I don't like Midjourney?", "a": "Only if your lifetime GPU usage is under 20 minutes — a policy many users find restrictive since there's no free trial to test the tool first."},
-                    {"q": "How does Midjourney compare to Adobe Firefly for accuracy?", "a": "Reviewers consistently rate Midjourney higher for artistic quality and lower for literal prompt-following compared to Adobe Firefly, which prioritizes prompt accuracy and commercial-safety guarantees."},
-                ],
-             }},
+            {'name': 'Midjourney',
+ 'tagline': 'Image generator with a distinctive painterly look, paid-only',
+ 'desc': 'Midjourney produces some of the most stylish AI images available and suits artists and designers who value look over literal control. It has no free trial and starts at $10/month.',
+ 'pricing': 'Basic $10/mo ($8/mo billed yearly); Standard $30/mo; Pro $60/mo; Mega $120/mo. Annual billing saves 20%. No free trial listed.',
+ 'url': 'https://www.midjourney.com',
+ 'hero_image': 'midjourney-hero.jpg',
+ 'hero_image_alt': 'Screenshot of the Midjourney homepage hero section',
+ 'tags': ['Art', 'Design'],
+ 'features': ['Text-to-image generation through the web app or Discord',
+              'V8.x model family (docs list V8.1 as the highest version we could verify)',
+              'Relax mode with unlimited images on Standard and above',
+              'Stealth mode (private generations) on Pro and Mega',
+              'Video generation, with HD on Standard and above'],
+ 'pros': ['Distinctive, polished default aesthetic that many users prefer for concept art and mood boards',
+          'Unlimited relaxed-mode images from the $30 Standard plan',
+          'Large public gallery for prompt inspiration',
+          'Stealth mode available for private work on Pro and Mega'],
+ 'cons': ['No free trial listed on the plans page',
+          'Basic has no relax mode and only about 3.3 fast hours a month',
+          'Extra fast GPU time costs $4/hour',
+          'Less literal prompt control and weaker in-image text than some rivals'],
+ 'best_for': 'Artists, illustrators and designers who want striking stylised images and are happy to pay before trying.',
+ 'deep': {'overview': 'Midjourney is a strong pick for artists, designers and marketers who want stylish, painterly images and will pay for them, but skip it if you want a free trial, precise '
+                      'control over layouts or text, or a tool that lives inside your office suite. It turns text prompts (and reference images) into images and short videos, through its web app or '
+                      'the Discord bot.\n'
+                      '\n'
+                      'Its official site describes it as a small, self-funded research lab, and the subscription is the only way in: the plans page lists four paid tiers and no free trial. The plans '
+                      'differ mainly in fast GPU hours, whether relax mode and stealth mode are included, and how many jobs run at once.',
+          'features_detailed': [{'title': 'Web app and Discord', 'desc': 'Generate and manage images in the Midjourney web app or via the Discord bot; both use the same account.'},
+                                {'title': 'V8.x models',
+                                 'desc': 'The model docs reference V8.1 as the highest version we could verify, with options such as higher-resolution output via --hd. Check the docs for the current '
+                                         'default.'},
+                                {'title': 'Fast and Relax modes',
+                                 'desc': 'Fast uses your monthly GPU hours; Relax is a slower queue with unlimited images on Standard, Pro and Mega (SD video too on Pro and Mega). Basic has no Relax '
+                                         'mode.'},
+                                {'title': 'Stealth mode', 'desc': 'Keeps generations out of the public gallery. Only Pro and Mega include it.'},
+                                {'title': 'Video generation', 'desc': 'Short video clips from images; SD on every plan, HD on Standard and above.'},
+                                {'title': 'Concurrent jobs', 'desc': 'Basic runs 3 fast image jobs and 1 video job at once; Standard 3 and 3; Pro and Mega run up to 12 fast image jobs.'}],
+          'pricing_plans': [{'name': 'Basic',
+                             'price': '$10/mo',
+                             'billing': '$96/year billed annually ($8/mo)',
+                             'features': ['3.3 hours of Fast GPU time per month', 'No Relax mode', 'SD video only', 'No stealth mode']},
+                            {'name': 'Standard',
+                             'price': '$30/mo',
+                             'billing': '$288/year billed annually ($24/mo)',
+                             'features': ['15 hours of Fast GPU time per month', 'Unlimited Relax images', 'SD and HD video', 'No stealth mode']},
+                            {'name': 'Pro',
+                             'price': '$60/mo',
+                             'billing': '$576/year billed annually ($48/mo)',
+                             'features': ['30 hours of Fast GPU time per month', 'Unlimited Relax images and SD video', 'Stealth mode', 'Up to 12 concurrent fast image jobs']},
+                            {'name': 'Mega',
+                             'price': '$120/mo',
+                             'billing': '$1,152/year billed annually ($96/mo)',
+                             'features': ['60 hours of Fast GPU time per month', 'Unlimited Relax images and SD video', 'Stealth mode', '12 concurrent fast video jobs']}],
+          'pros_expanded': ['Distinctive, polished default look that many users prefer for concept art, illustration and mood boards',
+                            'Standard at $30 adds unlimited relaxed images, which suits heavy casual use',
+                            'Pro and Mega include stealth mode for unreleased work',
+                            'Video is included in every plan rather than sold separately',
+                            'Public gallery makes it easy to learn prompt styles'],
+          'cons_expanded': ['The plans page mentions no free trial, so evaluation means paying for at least a month',
+                            'Basic offers only about 3.3 fast hours and no Relax mode, so it runs out quickly',
+                            'Extra fast GPU time costs $4/hour on every plan',
+                            'Stealth mode is locked to the $60 and $120 tiers, so Basic and Standard images can appear in the public gallery',
+                            'Prompt-following and text rendering are less literal than tools built for that; consistent characters across a series take effort',
+                            'Plans auto-renew; check the current refund and company-revenue terms in the official terms before subscribing'],
+          'who_for': 'Good for illustrators, concept artists, art directors and content creators who prize visual style and are comfortable iterating on prompts. Not for people who want to test for '
+                     'free first, teams needing exact brand-consistent layouts or accurate on-image text, or anyone who just needs a few occasional images (cheaper or free generators fit better).',
+          'faq': [{'q': 'Does Midjourney have a free plan?',
+                   'a': 'The official plans page does not mention a free trial or free tier. The cheapest option is Basic at $10/month, or $8/month billed annually.'},
+                  {'q': 'What is the difference between Basic and Standard?',
+                   'a': 'Standard ($30) gives 15 fast GPU hours, unlimited Relax images and HD video. Basic ($10) has about 3.3 fast hours, no Relax mode and SD video only.'},
+                  {'q': 'Do I need Discord?', 'a': 'No. There is a web app, though the Discord bot is still available.'},
+                  {'q': 'What if I run out of fast hours?', 'a': 'Extra GPU time is $4/hour on every plan, or you can use Relax mode on Standard and above.'},
+                  {'q': 'Midjourney or Adobe Firefly?',
+                   'a': 'Midjourney is usually chosen for style; Firefly for Adobe integration and commercial-safety positioning. Try Firefly first if you want a free way to compare.'}]},
+ 'last_checked': '2026-10-15',
+ 'alternatives': [{'slug': 'adobe-firefly', 'why': 'Better if you work inside Adobe apps and want commercially safe, more literal outputs.'},
+                  {'slug': 'ideogram', 'why': 'Better when images must contain readable text, such as posters or logos.'}]},
             {"name": "DALL-E 3", "tagline": "OpenAI's retired image generator, formerly built into ChatGPT", "desc": "DALL-E 3 generated images directly from ChatGPT conversations, making it easy to iterate on an idea in plain language. OpenAI retired it on May 12, 2026 in favor of its successor, GPT Image 2.", "pricing": "Retired May 12, 2026; was included with ChatGPT Plus ($20/mo) or ~$0.04-0.08/image via API — succeeded by GPT Image 2", "url": "https://openai.com/index/chatgpt/",
              "tags": ["Art", "Chat-integrated", "Retired"],
              "features": ["Generated images directly inside ChatGPT conversations", "Natural-language iteration, no special prompt syntax needed", "Decent in-image text rendering for its era", "Available via API for developers"],
@@ -4508,125 +4586,194 @@ CATEGORIES = [
         "icon": "&#128187;",
         "short": "Pair-program, autocomplete and ship code faster with AI.",
         "tools": [
-            {"name": "GitHub Copilot", "tagline": "AI pair programmer built into major IDEs", "desc": "Copilot autocompletes code and answers questions directly inside VS Code, JetBrains and other editors, backed by GitHub's deep integration with pull requests and repos.", "pricing": "Free tier available (2,000 completions/mo); Pro $10/mo, Pro+ $39/mo, Business $19/user/mo", "url": "https://github.com/features/copilot",
- "hero_image": "github-copilot-hero.jpg", "hero_image_alt": "Screenshot of the GitHub Copilot homepage hero section",
-             "tags": ["IDE", "Autocomplete"],
-             "features": ["Inline autocomplete across VS Code, JetBrains and more", "Agent mode for multi-step, autonomous code changes", "Converts GitHub issues directly into pull requests via cloud agent", "Multi-model access: OpenAI, Anthropic, Google and xAI models"],
-             "pros": ["Most accessible entry point at $10/month for unlimited completions", "Works inside almost any major IDE", "Best choice for enterprise teams standardized on GitHub"],
-             "cons": ["Suggestion accuracy on complex, multi-file tasks trails Cursor in independent testing", "June 2026 shift to usage-based AI-credit billing confused many subscribers"],
-             "best_for": "Developers and teams who want reliable autocomplete inside their existing IDE.",
-             "deep": {
-                "overview": "GitHub Copilot is Microsoft/GitHub's AI pair-programmer, built into VS Code, Visual Studio, JetBrains IDEs, Xcode, Neovim and directly into GitHub.com. It was the first mainstream AI coding assistant (public beta in 2021) and remains the most widely deployed one by raw user count, largely because it ships pre-integrated into the editor most developers already use.\n\nIts core differentiator versus Cursor or Claude Code is distribution and governance rather than raw model capability: Copilot plugs into your existing editor instead of asking you to switch, and it layers directly onto GitHub's permissions, audit logs and organization/enterprise admin controls. Where Cursor and Claude Code lead on agentic coding quality and codebase reasoning, Copilot leads on 'already there, already approved by IT' — plus it lets teams choose from OpenAI, Anthropic and Google models inside one billing relationship.",
-                "features_detailed": [
-                    {"title": "Code completions", "desc": "Multi-line, context-aware inline suggestions as you type, unlimited on all paid plans and not billed against AI credits."},
-                    {"title": "Copilot Chat", "desc": "A conversational sidebar in the IDE, on GitHub.com and in GitHub Mobile for asking questions about code, generating tests and explaining errors."},
-                    {"title": "Agent mode", "desc": "An autonomous mode that plans and executes multi-step coding tasks across files — it decides which files to change, runs terminal commands and iterates until the task is done."},
-                    {"title": "Copilot code review", "desc": "An agentic reviewer that analyzes pull request diffs in the context of the full project and flags bugs, security issues and style violations automatically."},
-                    {"title": "Cloud agent / coding agent", "desc": "Assign a GitHub issue directly to Copilot and it works asynchronously in a cloud sandbox, opening a pull request when finished."},
-                    {"title": "Multi-model access", "desc": "Choose between OpenAI (GPT-5.x family), Anthropic (Claude Sonnet/Opus), Google (Gemini) and xAI (Grok) models from the same interface, billed on a unified AI-credits system."},
-                    {"title": "Copilot CLI", "desc": "A terminal-native agent for automating tasks, browsing issues/PRs and running multi-step workflows from the command line."},
-                    {"title": "MCP and custom agents", "desc": "Connect Model Context Protocol servers and build custom agents/skills so Copilot can pull in context from other tools."},
-                ],
-                "pricing_plans": [
-                    {"name": "Copilot Free", "price": "Free", "billing": "No credit card required; individual GitHub accounts only", "features": ["2,000 code completions per month", "50 Copilot Chat messages per month", "Access to a limited set of models"]},
-                    {"name": "Copilot Pro", "price": "$10/mo", "billing": "Billed monthly or annually; individual plan", "features": ["Unlimited code completions and next-edit suggestions", "Monthly AI credits allowance for chat/agent/model usage", "Access to Cloud agent and Copilot CLI"]},
-                    {"name": "Copilot Pro+", "price": "$39/mo", "billing": "Billed monthly or annually; individual plan", "features": ["Everything in Pro", "Larger monthly AI credit allowance (~4x+ Pro)", "Access to premium models including Opus-tier models"]},
-                    {"name": "Copilot Business", "price": "$19/user/mo", "billing": "Billed monthly per seat; for organizations", "features": ["Pooled AI credits at the organization level", "Centralized policy management and seat assignment", "IP indemnification", "Org-wide content exclusion and audit controls"]},
-                    {"name": "Copilot Enterprise", "price": "$39/user/mo", "billing": "Requires a GitHub Enterprise Cloud plan (additional ~$21/user/mo)", "features": ["Everything in Business", "Copilot Spaces and deeper repository/context indexing", "Enterprise-grade governance, SSO/SCIM and audit logging"]},
-                ],
-                "pros_expanded": [
-                    "Already integrated into the editors and GitHub workflow most developers use, so there's effectively no switching cost",
-                    "Cheapest paid entry point among the major AI coding tools at $10/mo for unlimited completions",
-                    "Multi-model choice (OpenAI, Anthropic, Google, xAI) inside one subscription and one bill",
-                    "Enterprise governance is mature — audit logs, policy controls, seat management and IP indemnification are all built out",
-                    "Copilot code review and cloud coding agent extend it into async, PR-driven workflows, not just inline completion",
-                    "Broadest IDE support of any tool in this category, including Visual Studio, Xcode and Neovim",
-                ],
-                "cons_expanded": [
-                    "Multiple independent sources report completion acceptance rates trailing Cursor's, and users describe suggestion quality as noticeably worse on complex, multi-file tasks",
-                    "The June 2026 shift from flat request-based billing to per-token AI-credits billing confused existing subscribers and drew complaints about unclear cost predictability",
-                    "The web-based Copilot agent has been reported as slow to spin up, which compounds when a session needs multiple restarts",
-                    "Free tier limits (2,000 completions, 50 chat messages/month) are tight enough that most working developers hit the ceiling quickly",
-                    "Copilot Enterprise's real cost is understated by its $39/seat sticker price since it requires GitHub Enterprise Cloud on top",
-                    "Agent mode and multi-file agentic editing are newer additions bolted onto a tool originally built for single-line completion",
-                ],
-                "who_for": "GitHub Copilot is the default, lowest-friction choice for individual developers and organizations who are already living in GitHub and want AI assistance without changing editors, procurement processes or admin tooling — it's especially strong for larger companies that need seat management, audit logs and IP indemnification out of the box. Teams whose top priority is the best possible agentic coding quality on complex, multi-file refactors should evaluate Cursor or Claude Code first.",
-                "reviews": {
-                    "g2_rating": "4.5/5", "g2_count": "370+ reviews",
-                    "capterra_rating": "4.6/5", "capterra_count": "37 reviews",
-                    "summary": "Copilot's review profile is consistently solid but not top-of-category: G2 reviewers rate it 4.5/5 and Capterra reviewers rate it 4.6/5, with a notably weaker sub-score for customer service and value for money. The recurring theme across both platforms and Reddit/HackerNews threads is that Copilot is fast and reliable for routine, well-scoped edits but loses trust on architecturally complex, multi-file work, where competitors like Cursor and Claude Code are perceived as stronger. The June 2026 move to usage-based AI-credit billing is a fresh and recurring complaint.",
-                    "praise": ["Deep, frictionless integration into existing IDEs and GitHub workflows", "Fast, high-acceptance suggestions on routine and repetitive coding tasks", "Strong enterprise governance: audit logs, policy controls, IP indemnification"],
-                    "complaints": ["Suggestion accuracy and complex multi-file task performance trail Cursor", "New usage-based AI-credit billing (June 2026) is confusing and reduces cost predictability", "Web-based agent sessions can be slow to spin up", "Copilot Enterprise's real cost is higher than advertised once GitHub Enterprise Cloud is factored in"],
-                },
-                "faq": [
-                    {"q": "Is GitHub Copilot free?", "a": "Yes, Copilot Free gives you 2,000 code completions and 50 Copilot Chat messages per month at no cost, with no credit card required. Most active developers exceed this within a few weeks and upgrade to Pro."},
-                    {"q": "How much does GitHub Copilot Pro cost?", "a": "Copilot Pro is $10/month (or discounted annually) and includes unlimited code completions plus a monthly AI credits allowance for chat, agent mode and model usage."},
-                    {"q": "What's the difference between Copilot Pro and Pro+?", "a": "Pro+ costs $39/month and includes a much larger AI credit allowance (roughly 4x+ Pro's) plus access to premium models like Opus-tier Claude models, which Pro does not include."},
-                    {"q": "Is GitHub Copilot better than Cursor?", "a": "Copilot wins on integration convenience and enterprise governance since it's built into existing IDEs and GitHub's admin tools. Cursor is generally rated higher for agentic, multi-file coding quality and completion acceptance rates by independent reviewers."},
-                    {"q": "Does GitHub Copilot require a GitHub Enterprise Cloud subscription?", "a": "Only Copilot Enterprise does — it requires GitHub Enterprise Cloud (about $21/user/month extra), pushing its effective cost closer to $60/user/month. Copilot Business ($19/user/month) does not require Enterprise Cloud."},
-                    {"q": "What changed with GitHub Copilot billing in 2026?", "a": "On June 1, 2026, GitHub replaced flat per-request billing with usage-based AI-credit billing, where cost depends on the model and number of tokens consumed. Plan prices stayed the same, but what they cover changed."},
-                ],
-             }},
-            {"name": "Cursor", "tagline": "AI-first code editor built for agentic coding", "desc": "Cursor is a fork of VS Code redesigned around AI-driven editing, letting developers describe changes in natural language across an entire codebase.", "pricing": "Free tier (Hobby) available; Pro $20/mo, Pro+ $60/mo, Ultra $200/mo, Teams $40/user/mo", "url": "https://www.cursor.com",
- "hero_image": "cursor-hero.jpg", "hero_image_alt": "Screenshot of the Cursor homepage hero section",
-             "tags": ["IDE", "Agentic"],
-             "features": ["Agent Mode plans and executes multi-file edits autonomously, up to 8 in parallel", "Composer interface for fast, reviewable multi-file changes", "Tab completion predicts entire next edits, not just single lines", "Bugbot for automated AI code review on pull requests"],
-             "pros": ["Most cohesive daily-driver AI coding experience in developer testing", "Multi-file agentic task quality rated above Copilot's by most reviewers", "Fast iteration loop for feature work"],
-             "cons": ["June 2025 shift to credit-based billing cut effective usage per dollar and drew user backlash", "Requires switching from your existing editor"],
-             "best_for": "Developers who want an AI-native editor as their primary daily tool.",
-             "deep": {
-                "overview": "Cursor is an AI-native code editor built by Anysphere, forked from VS Code so existing extensions, themes and keybindings carry over. Since its 2023 launch it has grown into one of the most-discussed tools in developer AI circles, reportedly reaching very large annualized revenue on the strength of its agentic coding features.\n\nIts core differentiator is that AI isn't a bolted-on chat panel — it's woven into the editor itself: Tab completions predict entire next edits, Composer and Agent Mode can autonomously edit across files and run terminal commands, and up to 8 agents can run in parallel using isolated git worktrees. Where Copilot retrofits agentic behavior onto a completion tool, Cursor was built agent-first, which shows up in reviewer comparisons that consistently rate its multi-file task handling above Copilot's.",
-                "features_detailed": [
-                    {"title": "Tab completion", "desc": "A low-latency, specialized model that predicts multi-line next-edits as you type, not just single-line completions."},
-                    {"title": "Composer", "desc": "An in-IDE agent for tight, multi-file edits with a diff-review step before changes are applied, aimed at fast iterative editing."},
-                    {"title": "Agent Mode", "desc": "A longer-running agent loop that reads the codebase, edits files, runs terminal commands and iterates until the task is complete — up to 8 agents can run in parallel in isolated git worktrees."},
-                    {"title": "Bugbot", "desc": "Automated AI code review that inspects every pull request on a connected GitHub repo and posts inline comments about regressions and missing error handling."},
-                    {"title": "Cloud agents", "desc": "Background agents that run coding tasks asynchronously outside the local machine."},
-                    {"title": "MCP support", "desc": "One-click Model Context Protocol server installation from a curated list with OAuth support."},
-                    {"title": "Multi-model access", "desc": "Access to frontier models from Anthropic, OpenAI and Google, selectable per task rather than locked to a single provider."},
-                    {"title": "Privacy mode", "desc": "An account or team-wide setting that guarantees code is not used for training by Cursor or its model providers when enabled."},
-                ],
-                "pricing_plans": [
-                    {"name": "Hobby", "price": "Free", "billing": "No credit card required", "features": ["Limited Agent requests", "Access to Composer", "Full editor access"]},
-                    {"name": "Pro", "price": "$20/mo", "billing": "Billed monthly, or ~20% less billed yearly", "features": ["Extended limits on Agent", "Access to frontier models", "MCPs, skills and hooks", "Cloud agents", "$20 of included frontier-model usage credits"]},
-                    {"name": "Pro+", "price": "$60/mo", "billing": "Billed monthly, or ~20% less billed yearly", "features": ["Everything in Pro", "3x Pro limits on Agent"]},
-                    {"name": "Ultra", "price": "$200/mo", "billing": "Billed monthly, or ~20% less billed yearly", "features": ["Everything in Pro", "20x Pro limits on Agent", "Priority access to new features"]},
-                    {"name": "Teams", "price": "$40/user/mo", "billing": "Billed monthly per seat (Standard); Premium tier available at higher price for 5x limits", "features": ["Pro-equivalent AI access per seat", "Centralized team billing and administration", "Bugbot code reviews and usage analytics", "SAML/OIDC SSO"]},
-                    {"name": "Enterprise", "price": "Custom pricing", "billing": "Contact sales; invoice/PO billing available", "features": ["Everything in Teams", "Pooled usage across the org", "SCIM seat management", "Audit logs, service accounts and AI code tracking API"]},
-                ],
-                "pros_expanded": [
-                    "Reviewers and Reddit's large r/cursor community consistently rate its agentic, multi-file coding quality above GitHub Copilot's",
-                    "Tab completion model is purpose-built and low-latency, distinct from just wrapping a general chat model",
-                    "Running up to 8 parallel agents in isolated git worktrees is a genuinely differentiated workflow for tackling multiple tasks at once",
-                    "Fast iteration speed: built on VS Code's foundation, so existing extensions and muscle memory transfer directly",
-                    "Bugbot brings AI code review into the PR loop without a separate tool",
-                    "Free Hobby tier requires no credit card and is enough to seriously evaluate the editor before paying",
-                ],
-                "cons_expanded": [
-                    "The June 2025 shift from a flat request model to credit-based billing effectively cut usable requests at the $20 price point, and Cursor's CEO publicly apologized for how the change was communicated",
-                    "Reddit threads document real user frustration with unpredictable costs, with some reporting significant overage charges for usage that used to be flat-rate",
-                    "A visible slice of the community migrated to cheaper alternatives after the pricing change, indicating real price sensitivity",
-                    "AI-generated suggestions still require manual validation on complex or large codebases",
-                    "G2 and Capterra review volume for Cursor is thin relative to its market buzz, so ratings should be read with a smaller sample size in mind",
-                    "Pro+ ($60/mo) and Ultra ($200/mo) create a steep price ladder for heavy users compared to Copilot's flatter structure",
-                ],
-                "who_for": "Cursor is best suited for individual developers and teams who want the most capable agentic, multi-file AI coding experience available and are willing to switch editors (or already use a VS Code-based one) and manage variable, usage-based costs to get it. Budget-conscious teams or developers who mainly want lightweight inline completions rather than autonomous multi-file agents may be better served by GitHub Copilot.",
-                "reviews": {
-                    "g2_rating": "4.6/5", "g2_count": "180+ reviews",
-                    "capterra_rating": "Not independently established", "capterra_count": "limited verified reviews",
-                    "summary": "Cursor's G2 rating sits around 4.6-4.7/5 across a review base that has grown quickly, reflecting a tool whose reputation is still being actively written by its user base. Capterra does not yet show a well-established star rating with meaningful review volume for Cursor. The clearest and loudest signal is from Reddit's r/cursor communities: strong praise for coding quality is consistently paired with anger about the June 2025 credit-based billing change, which cut effective usage at the same price point and pushed some users to competitors.",
-                    "praise": ["AI feels woven into the editor rather than bolted on as a separate chat panel", "Multi-file agentic task quality is rated above GitHub Copilot's by most reviewers", "Parallel agents in isolated git worktrees enable genuinely new workflows"],
-                    "complaints": ["June 2025 credit-based billing change cut effective usage per dollar and drew a public CEO apology", "Unpredictable day-to-day costs once included credits run out", "AI-generated code can be overconfident and requires manual review, especially in large codebases", "Sparse, still-maturing review base on both G2 and Capterra relative to the tool's market attention"],
-                },
-                "faq": [
-                    {"q": "Is Cursor free to use?", "a": "Yes, the Hobby tier is free and requires no credit card, but it caps you at limited Agent requests and 2,000 Tab completions. Most developers who code daily outgrow it and move to Pro."},
-                    {"q": "How much does Cursor Pro cost?", "a": "Cursor Pro is $20/month (or about 20% less billed annually) and includes extended Agent limits plus $20 of included frontier-model usage credits."},
-                    {"q": "Why did Cursor's pricing change in 2025?", "a": "In June 2025, Cursor moved from a flat 500-request-per-month model to a credit-based system tied to which model you use. This effectively reduced usable requests at the $20 tier for many users, and Cursor's CEO publicly apologized for how the change was rolled out."},
-                    {"q": "Is Cursor better than GitHub Copilot?", "a": "Independent reviewers and developer communities generally rate Cursor higher for complex, multi-file agentic coding tasks, while Copilot wins on integration convenience, price predictability and enterprise governance tooling."},
-                    {"q": "What's the difference between Cursor Pro, Pro+, and Ultra?", "a": "Pro ($20/mo) includes extended Agent limits and $20 of usage credits; Pro+ ($60/mo) triples Pro's Agent limits; Ultra ($200/mo) gives 20x Pro's limits plus priority access to new features."},
-                    {"q": "Can I use Cursor on a team?", "a": "Yes, the Teams plan is $40/user/month (Standard) and includes centralized billing, SSO, usage analytics and Bugbot code review; a Premium seat tier is available for 5x the usage limits."},
-                ],
-             }},
+            {'name': 'GitHub Copilot',
+ 'tagline': 'AI assistant built into major IDEs and GitHub, now billed by usage credits',
+ 'desc': 'Copilot gives inline completions, chat, agent mode and a cloud coding agent inside VS Code, Visual Studio, JetBrains, Xcode, Neovim and GitHub.com, with usage-based AI credits for chat and '
+         'agent work.',
+ 'pricing': 'Free (2,000 inline suggestions + 50 chat requests/mo); Pro $10/mo; Pro+ $39/mo; Max $100/mo; Business $19/user/mo; Enterprise $39/user/mo. Chat and agent use draws on AI credits.',
+ 'url': 'https://github.com/features/copilot',
+ 'hero_image': 'github-copilot-hero.jpg',
+ 'hero_image_alt': 'Screenshot of the GitHub Copilot homepage hero section',
+ 'tags': ['IDE', 'Autocomplete'],
+ 'features': ['Unlimited inline completions and next-edit suggestions on paid plans (not billed in credits)',
+              'Chat and agent mode that edit across files and run commands',
+              'Cloud agent that takes a task or issue and works asynchronously toward a pull request',
+              'Many models from Anthropic, OpenAI, Google, xAI and others in one picker',
+              'Code review, CLI, and IDE support from VS Code to Xcode and Neovim'],
+ 'pros': ['Works inside the editor you already use, with no switch needed',
+          'Completions stay unlimited and credit-free on paid plans',
+          'Wide model choice under one subscription',
+          'Mature org controls, budgets and IP indemnity on Business and Enterprise'],
+ 'cons': ['Chat, agent, review and CLI all burn AI credits, so heavy use can exceed the monthly allowance',
+          'Free tier is small: 2,000 suggestions and 50 chat requests a month',
+          'Enterprise needs GitHub Enterprise Cloud on top of the seat price',
+          'Agentic quality on big multi-file work is often rated below Cursor or Claude Code'],
+ 'best_for': 'Developers and organizations on GitHub who want AI help inside their current IDE with central admin control.',
+ 'deep': {'overview': 'GitHub Copilot is a good default for developers and companies already on GitHub who want AI help without changing editors or procurement. Skip it as your first pick if your '
+                      'main goal is the strongest autonomous agent for large multi-file refactors, where Cursor and Claude Code are usually rated higher, or if you need a fixed monthly bill, since '
+                      'chat and agent use now draws down AI credits.\n'
+                      '\n'
+                      'Copilot plugs into VS Code, Visual Studio, JetBrains IDEs, Xcode, Neovim and others, and into GitHub.com itself. Inline completions and next-edit suggestions are unlimited on '
+                      'paid plans and do not use credits. Chat, agent mode, code review, the cloud agent and the CLI do use credits, at a cost that depends on the model and task. Each plan includes '
+                      'a credit allowance, and you can set a dollar budget for extra usage at $0.01 per credit.',
+          'features_detailed': [{'title': 'Inline completions and next-edit suggestions',
+                                 'desc': 'Suggestions as you type, unlimited on Pro, Pro+, Max, Business and Enterprise and not billed in credits. Free is capped at 2,000 per month.'},
+                                {'title': 'Copilot Chat', 'desc': 'Ask about code, generate tests and explain errors in the IDE, on GitHub.com and in mobile. Uses AI credits on paid plans.'},
+                                {'title': 'Agent mode',
+                                 'desc': 'Plans and carries out multi-step changes across files, including running terminal commands. Uses credits; limited usage is available on Free.'},
+                                {'title': 'Cloud agent', 'desc': 'Hands a task to Copilot to work asynchronously and open a pull request. Not on Free; included from Pro up.'},
+                                {'title': 'Code review', 'desc': 'Automated review of pull requests. Not on Free; uses credits.'},
+                                {'title': 'Model choice',
+                                 'desc': "One picker covering Anthropic, OpenAI, Google, xAI, Microsoft and Kimi models. GitHub's plans page lists the same models on all individual plans; each model "
+                                         'burns credits at its own rate.'},
+                                {'title': 'Copilot CLI and third-party agents', 'desc': 'A terminal agent, plus third-party coding agents (preview) on Pro+ and Max.'},
+                                {'title': 'Org governance',
+                                 'desc': 'Business and Enterprise add access control, budget control, IP indemnity and pooled credits; Enterprise adds codebase indexing and custom private models.'}],
+          'pricing_plans': [{'name': 'Copilot Free',
+                             'price': '$0',
+                             'billing': 'Individual accounts',
+                             'features': ['2,000 inline suggestions per month', '50 chat requests per month', 'Limited agent and CLI usage', 'No cloud agent or code review']},
+                            {'name': 'Copilot Pro',
+                             'price': '$10/mo',
+                             'billing': 'Monthly; check the official plans page for any annual option',
+                             'features': ['Unlimited inline suggestions', '$10 base AI credits plus $5 flex (about $15/mo of credits)', 'Cloud agent and code review', 'Can buy extra credits']},
+                            {'name': 'Copilot Pro+',
+                             'price': '$39/mo',
+                             'billing': 'Monthly; check the official plans page for any annual option',
+                             'features': ['Unlimited inline suggestions', '$39 base plus $31 flex (about $70/mo of credits)', 'Third-party coding agents (preview)']},
+                            {'name': 'Copilot Max',
+                             'price': '$100/mo',
+                             'billing': 'Monthly',
+                             'features': ['Unlimited inline suggestions', '$100 base plus $100 flex (about $200/mo of credits)', 'Everything in Pro+']},
+                            {'name': 'Copilot Business',
+                             'price': '$19/user/mo',
+                             'billing': 'Per granted seat, monthly',
+                             'features': ['1,900 AI credits per user, pooled',
+                                          'Cloud agent, code review, third-party agents',
+                                          'Access, budget and governance controls, IP indemnity',
+                                          'Sign-ups were being enabled gradually at last check']},
+                            {'name': 'Copilot Enterprise',
+                             'price': '$39/user/mo',
+                             'billing': 'Per granted seat; requires GitHub Enterprise Cloud (billed separately)',
+                             'features': ['Everything in Business', '3,900 AI credits per user, pooled', 'Codebase indexing and custom private models', 'Priority access to new models']}],
+          'pros_expanded': ['No switching cost: it runs inside VS Code, Visual Studio, JetBrains, Xcode, Neovim and more, plus GitHub.com',
+                            'Inline completions and next-edit suggestions are unlimited on every paid plan and never consume credits',
+                            'Every individual plan lists the same model catalog, so the plan mainly changes your credit allowance',
+                            'Overage is controllable: set a dollar budget with alerts at 75%, 90% and 100%',
+                            'Business and Enterprise pool credits across the org and add budgets, access control and IP indemnity',
+                            'The cloud agent links issues and pull requests natively, which standalone editors cannot match'],
+          'cons_expanded': ['Chat, agent mode, code review, cloud agent and CLI all use credits; a heavy agent user can exhaust a $10 Pro allowance quickly and must pay for more',
+                            'Credit cost varies by model, so it is hard to predict monthly spend before you have usage history',
+                            'Free is small: 2,000 suggestions and 50 chat requests a month',
+                            'Enterprise at $39/seat requires GitHub Enterprise Cloud, so the real per-user cost is higher',
+                            'Not available for GitHub Enterprise Server',
+                            'Independent comparisons often rate Cursor and Claude Code ahead on complex multi-file agentic work (subjective, varies by task)'],
+          'who_for': 'Good for: individual developers who want a low-friction assistant in their existing IDE, and organizations on GitHub that need seat management, budgets, audit and IP indemnity. '
+                     'Not for: people who want a free tool for daily heavy use (the Free tier runs out fast), anyone who needs predictable flat-rate agent usage, teams on GitHub Enterprise Server '
+                     '(Copilot is not available there), or developers who prioritise top agentic quality over convenience.',
+          'faq': [{'q': 'Is GitHub Copilot free?',
+                   'a': 'Yes, within limits: 2,000 inline suggestions and 50 chat requests per month, plus limited agent and CLI use. The cloud agent and code review need a paid plan.'},
+                  {'q': 'What does Copilot cost?',
+                   'a': "Individuals: Pro $10/mo, Pro+ $39/mo, Max $100/mo. Organizations: Business $19 and Enterprise $39 per user per month. Check GitHub's plans page for current figures and any "
+                        'annual option.'},
+                  {'q': 'Do code completions use up my credits?',
+                   'a': 'No. Inline completions and next-edit suggestions are unlimited on paid plans. Chat, agent mode, code review, cloud agent and CLI use AI credits (1 credit = $0.01).'},
+                  {'q': 'What happens when I run out of credits?',
+                   'a': 'You can set a dollar budget for extra usage at $0.01 per credit; alerts fire at 75%, 90% and 100% of it. Without a budget, credit-based features stop until the next cycle.'},
+                  {'q': 'Does Enterprise need GitHub Enterprise Cloud?', 'a': 'Yes. Business does not state that requirement. Copilot is not available on GitHub Enterprise Server.'}]},
+ 'last_checked': '2026-10-15',
+ 'alternatives': [{'slug': 'cursor', 'why': 'Pick it if multi-file agentic editing quality matters more than staying in your current editor.'},
+                  {'slug': 'claude-code', 'why': 'Pick it for terminal-driven, long-running agent work on whole codebases.'},
+                  {'slug': 'windsurf', 'why': 'Pick it if you want an agent-first IDE as an alternative to a plugin.'}]},
+            {'name': 'Cursor',
+ 'tagline': 'Agentic AI coding editor, now owned by SpaceX and sold via The X Subscription',
+ 'desc': 'Cursor is a VS Code-based editor built around AI agents that edit across a codebase. Its maker Anysphere is now part of SpaceX, and since October 12, 2026 new customers buy Cursor through '
+         'The X Subscription bundle with Grok.',
+ 'pricing': 'New customers: The X Subscription - Free ($0), Plus $8/mo, Premium $30/mo, Super $100/mo, Ultra $200/mo; Teams from $30/user/mo. Existing Pro/Teams subscribers can keep their old plans. '
+            'Check the official pricing page.',
+ 'url': 'https://cursor.com',
+ 'hero_image': 'cursor-hero.jpg',
+ 'hero_image_alt': 'Screenshot of the Cursor homepage hero section',
+ 'tags': ['IDE', 'Agentic'],
+ 'features': ['Agent mode with local and cloud coding agents',
+              'Tab completion that predicts multi-line edits',
+              "Choice of models from OpenAI, Anthropic, Google, SpaceXAI and Cursor's own",
+              'CLI, Slack and GitHub integrations; AI code review on higher tiers'],
+ 'pros': ['Agent-first editor with VS Code familiarity', 'Multiple model providers selectable in one tool', 'Free tier to try the agents', 'Existing subscribers can keep their plans unchanged'],
+ 'cons': ['New pricing is a bundle with Grok and X features you may not want',
+          'Claude and GPT models bill at API list price from the first request, not included in plans',
+          'Usage limits stated only as multiples of Plus, hard to predict',
+          'Ownership and pricing changed in 2026; terms may keep shifting'],
+ 'best_for': 'Developers who want an agent-first editor and are comfortable with usage-based costs for non-Grok models.',
+ 'deep': {'overview': 'Cursor is a strong choice for developers who want an editor built around coding agents, and who can live with variable costs when using Claude or GPT models. Skip it if you '
+                      "want predictable flat pricing, don't want to be tied to the X and Grok ecosystem, or only need light inline completions.\n"
+                      '\n'
+                      'It is a VS Code-based editor from Anysphere, whose site now says Cursor is part of SpaceX (announced August 14, 2026). It offers a desktop app, CLI, cloud agents and Slack and '
+                      'GitHub integrations, with models from OpenAI, Anthropic, Google, SpaceXAI and Cursor. On October 12, 2026 new customers were moved to The X Subscription, a bundle of Grok, '
+                      'Cursor and X Premium tiers; existing Pro and Teams subscribers are not moved automatically.',
+          'features_detailed': [{'title': 'Coding agents',
+                                 'desc': 'Local and cloud agents that read your codebase, edit files and run tasks; cloud agents and automations appear in Premium and above on the new plans.'},
+                                {'title': 'Tab completion', 'desc': 'Predicts multi-line next edits as you type.'},
+                                {'title': 'Multi-model access',
+                                 'desc': 'The site lists models from OpenAI, Anthropic, Gemini, SpaceXAI and Cursor. Grok usage draws from the plan pool; third-party models bill at API list price.'},
+                                {'title': 'CLI and integrations', 'desc': 'A command-line agent plus Slack and GitHub integrations.'},
+                                {'title': 'AI code review', 'desc': 'Premium tier lists code hosting and AI code reviews.'},
+                                {'title': 'Team and enterprise controls',
+                                 'desc': 'Teams add centralized billing, usage analytics, privacy settings and SAML/OIDC SSO; Enterprise adds SCIM, audit logs, service accounts and access '
+                                         'controls.'}],
+          'pricing_plans': [{'name': 'Free', 'price': '$0', 'billing': 'Part of The X Subscription', 'features': ['Limited agent and chat requests', 'Starter Cursor allowance']},
+                            {'name': 'Plus',
+                             'price': '$8/mo',
+                             'billing': 'Weekly-refreshing usage; one secondary source calls $8 an introductory price',
+                             'features': ['Baseline shared usage pool', 'Grok models only; third-party models not included']},
+                            {'name': 'Premium',
+                             'price': '$30/mo',
+                             'billing': 'Weekly-refreshing usage; top-ups available',
+                             'features': ['4x Plus usage',
+                                          'Latest Grok models',
+                                          'Cloud agents and automations',
+                                          'Code hosting and AI code reviews',
+                                          'Third-party models (Claude, GPT) at API list price']},
+                            {'name': 'Super', 'price': '$100/mo', 'billing': 'Weekly-refreshing usage', 'features': ['15x Plus usage', 'Everything in Premium', 'Priority model access at peak times']},
+                            {'name': 'Ultra',
+                             'price': '$200/mo',
+                             'billing': 'Weekly-refreshing usage',
+                             'features': ['50x Plus usage', 'Everything in Super', 'Earliest access to new products and models']},
+                            {'name': 'Teams',
+                             'price': 'From $30/user/mo',
+                             'billing': 'Per seat; seat types can be mixed',
+                             'features': ['Usage 4x to 50x Plus per seat', 'Centralized billing, usage analytics, SAML/OIDC SSO', 'Team-wide privacy settings']},
+                            {'name': 'Enterprise',
+                             'price': 'Custom pricing - contact sales',
+                             'billing': 'Invoice/PO billing',
+                             'features': ['Pooled usage', 'SCIM, audit logs, service accounts', 'Repo, model and MCP access controls']}],
+          'pros_expanded': ['Built around agents rather than adding them to a completion tool',
+                            'VS Code base means existing habits and extensions largely carry over',
+                            'Model choice across several providers in one editor',
+                            'A free tier lets you test the agents before paying',
+                            'Existing Pro and Teams subscribers keep their plan and price unless they choose to switch'],
+          'cons_expanded': ['New plans are a bundle with Grok and X Premium features; you pay for a package, not just an editor',
+                            'On the new plans, Claude and GPT usage bills at API list price from the first request, so costs vary with usage',
+                            'Limits are expressed as multiples of Plus, so it is hard to translate them into requests',
+                            'Switching from an old plan to the new one is permanent and cannot be reversed by support, per reporting on the forum announcement',
+                            'Plus does not include third-party models',
+                            'Recent ownership change (SpaceX) and plan overhaul mean terms may shift again; the pricing page shows monthly prices only'],
+          'who_for': 'Good for developers and teams who want autonomous multi-file agents and model choice, and who will monitor usage. Not for people who want one flat monthly price covering Claude '
+                     'and GPT, anyone avoiding the X/Grok bundle, or teams that need long-term pricing certainty while terms are in flux.',
+          'faq': [{'q': 'How much does Cursor cost now?',
+                   'a': 'New customers buy through The X Subscription: Free, Plus $8/mo, Premium $30/mo, Super $100/mo, Ultra $200/mo, with Teams from $30/user/mo. Check the official pricing page, '
+                        'since the change is only days old.'},
+                  {'q': 'What happens if I already have Cursor Pro?',
+                   'a': 'Per the X announcement, nothing changes automatically; you can keep your current plan, price and features, or switch from billing settings with a prorated refund.'},
+                  {'q': 'Is Cursor free?',
+                   'a': 'There is a Free tier with limited agent requests and a starter allowance. Whether the old Hobby limits still apply was not stated; check the pricing page.'},
+                  {'q': 'Are Claude and GPT models included?',
+                   'a': 'No. On Premium and above you can use them, but they bill at API list price, optionally with a spending cap. Plus supports Grok models only.'},
+                  {'q': 'What are good alternatives?', 'a': 'GitHub Copilot, Windsurf and Claude Code are the closest peers; Copilot is simpler to budget, while Claude Code is terminal-based.'}]},
+ 'alternatives': [{'slug': 'github-copilot', 'why': 'More predictable subscription pricing and works inside the IDE you already use.'},
+                  {'slug': 'windsurf', 'why': 'Another agentic IDE if you want an editor-style alternative without the X/Grok bundle.'},
+                  {'slug': 'claude-code', 'why': "Terminal-based agent if you prefer Claude models and don't need a new editor."}],
+ 'last_checked': '2026-10-15'},
             {"name": "Claude Code", "tagline": "Anthropic's agentic coding tool for the terminal", "desc": "Claude Code works from the command line to plan, edit and test changes across a codebase, favored by developers for complex, multi-step engineering tasks.", "pricing": "Included with Claude Pro ($17-20/mo), Max ($100-200/mo), Team Premium and Enterprise plans; usage-based API pricing also available", "url": "https://www.anthropic.com/claude-code",
              "tags": ["CLI", "Agentic"],
              "features": ["Terminal-native agent for planning and executing multi-step engineering tasks", "Subagents with isolated context windows for parallel workstreams", "Leads independent coding benchmarks (SWE-bench Verified) among major coding agents", "Works alongside any editor via the command line, VS Code and JetBrains"],
@@ -9115,241 +9262,331 @@ CATEGORIES = [
         "icon": "&#129302;",
         "short": "General-purpose AI assistants for research, writing and everyday questions.",
         "tools": [
-            {"name": "ChatGPT", "tagline": "OpenAI's general-purpose AI assistant", "desc": "ChatGPT remains the most widely used AI assistant, valued for its versatility across writing, coding, research and image generation in one chat interface.", "pricing": "Free tier available; Go from $8/mo, Plus from $20/mo, Pro from $200/mo", "url": "https://chatgpt.com",
- "hero_image": "chatgpt-hero.jpg", "hero_image_alt": "Screenshot of the ChatGPT homepage hero section",
-             "tags": ["General", "Popular"],
-             "features": ["Broadest consumer feature set: Memory, Projects, Custom GPTs, Canvas, Tasks", "Native image generation with an optional 'thinking' mode", "Advanced Voice with live video and Deep Research", "Codex coding agent and largest Custom GPT ecosystem"],
-             "pros": ["Highest G2 rating and largest review volume among general assistants", "Most versatile all-in-one feature set: chat, image, voice and coding", "Huge ecosystem of custom GPTs and integrations"],
-             "cons": ["Long-form writing needs more editing/cleanup than Claude's output per Reddit consensus", "Six overlapping pricing tiers make plan choice more confusing than competitors"],
-             "best_for": "Users who want the broadest, most feature-complete general-purpose assistant.",
-             "deep": {
-                "overview": "ChatGPT is OpenAI's consumer and business AI assistant, built on the GPT model family (GPT-5.5 and GPT-5.6 as of mid-2026). It is the AI chatbot with the largest install base by a wide margin, credited with popularizing the category in late 2022, and OpenAI has since expanded it from a text chatbot into a broader assistant with voice, image generation, coding and third-party app integrations.\n\nIts core differentiator is breadth: ChatGPT bundles chat, image generation, voice conversation with live video, a coding agent (Codex) and a marketplace of Custom GPTs into one product, whereas Claude focuses on writing/coding quality, Perplexity focuses on cited search, and Gemini focuses on Google-ecosystem integration. That breadth comes with the most complex pricing ladder of the four tools.",
-                "features_detailed": [
-                    {"title": "GPT-5.6 model family with adaptive reasoning", "desc": "Plus and Pro users can access multiple model variants that trade off speed against depth of reasoning depending on the task."},
-                    {"title": "Deep Research", "desc": "An autonomous agent that runs multi-step web research and returns a cited report; available in limited form on Free/Go and expanded on Plus/Pro."},
-                    {"title": "Custom GPTs and Projects", "desc": "Users can build and share configured chatbot personas and organize files and conversations into persistent Projects for ongoing work."},
-                    {"title": "Advanced Voice with video", "desc": "Real-time spoken conversation that can also see and discuss what's in front of a phone camera or shared screen."},
-                    {"title": "Native image generation", "desc": "Text-to-image built on OpenAI's image model, with an optional 'thinking' mode on paid tiers for more accurate compositions."},
-                    {"title": "Data analysis and file tools", "desc": "Users can upload spreadsheets, PDFs and other files and have ChatGPT run Python-backed analysis and build interactive tables and charts."},
-                    {"title": "Codex coding agent", "desc": "An integrated agent for software development tasks, with usage expanded on Plus and maximized on Pro, competing directly with Claude Code."},
-                    {"title": "Scheduled tasks and connected apps", "desc": "Recurring automated tasks plus integrations with apps like Canva, Spotify and PowerPoint."},
-                ],
-                "pricing_plans": [
-                    {"name": "Free", "price": "Free", "billing": "No credit card required", "features": ["Limited access to GPT-5.5 Instant", "Limited messages, uploads and image generation", "Limited deep research and memory"]},
-                    {"name": "Go", "price": "$8/mo", "billing": "Billed monthly, individual plan, may include ads", "features": ["More messages and uploads than Free", "More image generation", "Longer memory"]},
-                    {"name": "Plus", "price": "$20/mo", "billing": "Billed monthly, individual plan", "features": ["Advanced reasoning with GPT-5.6", "Expanded messages, uploads and deep research", "Projects, scheduled tasks and custom GPTs", "Expanded Codex usage"]},
-                    {"name": "Pro", "price": "$200/mo", "billing": "Billed monthly, individual plan", "features": ["Unlimited usage subject to abuse guardrails", "Pro reasoning model", "Maximum Codex and deep research access", "Unlimited, faster image generation"]},
-                    {"name": "Business", "price": "$25/user/mo", "billing": "$20/user/mo billed annually; minimum 2 seats", "features": ["Everything in Plus for each seat", "Workspace admin controls", "Chats not used for model training by default"]},
-                    {"name": "Enterprise", "price": "Custom pricing", "billing": "Annual contract, contact sales", "features": ["SAML SSO and SCIM provisioning", "SOC 2 Type 2 and ISO certifications", "Dedicated workspace and account management"]},
-                ],
-                "pros_expanded": [
-                    "Broadest single-app feature set: chat, image generation, live voice/video, a coding agent and a marketplace of custom GPTs",
-                    "Largest install base of any AI assistant means most third-party integrations and browser extensions support ChatGPT/GPT models first",
-                    "Highest G2 rating among these four tools with the largest review volume, reflecting broad familiarity and ease of use",
-                    "Free tier is genuinely usable for casual, everyday queries rather than being a stripped-down demo",
-                    "Codex and Advanced Voice with video differentiate it from chat-only competitors",
-                    "Frequent, fast model updates keep the free and Plus tiers current",
-                ],
-                "cons_expanded": [
-                    "Pricing is the most convoluted of the four tools, with six overlapping tiers and model names that change often enough to confuse buyers",
-                    "Reddit's 2026 consensus is that its long-form writing 'sounds like ChatGPT' and needs more editing than Claude's output",
-                    "Message and usage caps on Plus have historically been a recurring complaint, especially during high-demand periods",
-                    "Capterra reviewers note answers can be generic or miss small details compared to more research-focused tools like Perplexity",
-                    "Free plan's image generation and deep research are heavily throttled compared to paid tiers",
-                    "SSO and admin controls are gated behind the $200/mo Pro or Enterprise tiers, pricier than competitors' equivalents",
-                ],
-                "who_for": "ChatGPT is best for individuals and teams who want one general-purpose assistant covering chat, image generation, voice, light coding and research without switching apps, and for anyone already invested in the Custom GPT ecosystem. Teams whose top priority is the highest-quality long-form writing, the most reliable coding agent, or the most current citation-heavy factual answers should evaluate Claude or Perplexity instead.",
-                "reviews": {
-                    "g2_rating": "4.7/5", "g2_count": "834 reviews",
-                    "capterra_rating": "4.4/5", "capterra_count": "324 reviews",
-                    "summary": "ChatGPT is the highest-rated of the four tools on G2, scoring especially well on ease of use but comparatively weaker on quality of support. Capterra reviewers are positive overall but repeatedly flag answers as occasionally too general, inconsistent memory across sessions, and factual errors that require verification. Reddit sentiment in 2026 consistently ranks ChatGPT ahead on image generation, voice and ecosystem breadth, but behind Claude on writing polish and instruction-following for long documents.",
-                    "praise": ["Very easy to use with minimal onboarding friction", "Strong image generation and voice features not matched by Claude or Perplexity", "Wide plugin/app ecosystem and Custom GPT marketplace", "Useful across many everyday tasks: writing, brainstorming, data analysis"],
-                    "complaints": ["Long-form writing needs more editing/cleanup than Claude's output", "Message limits on Plus feel restrictive during peak usage", "Occasional hallucinated facts or sources that require independent verification", "Pricing tiers and model names change frequently, confusing new buyers"],
-                },
-                "faq": [
-                    {"q": "Is ChatGPT free to use?", "a": "Yes, the Free plan gives everyone limited access to GPT-5.5 Instant, image generation and deep research with no credit card required. Paid plans (Go at $8/mo, Plus at $20/mo, Pro at $200/mo) remove most limits."},
-                    {"q": "What's the difference between ChatGPT Plus and Pro?", "a": "Plus ($20/mo) gives expanded access to GPT-5.6 reasoning models, projects and custom GPTs. Pro ($200/mo) removes most usage caps entirely, adds a more capable model, and maximizes Codex and deep research usage."},
-                    {"q": "Is ChatGPT better than Claude?", "a": "It depends on the task. Reddit and benchmark data in 2026 generally favor Claude for coding accuracy and writing that needs less editing, while ChatGPT leads on image generation, voice features and overall ecosystem breadth."},
-                    {"q": "Can ChatGPT search the web like Perplexity?", "a": "Yes, ChatGPT has built-in search and a Deep Research mode that cites sources, but Perplexity is purpose-built around live search with inline citations as its primary interface, which reviewers describe as more transparent."},
-                    {"q": "Is ChatGPT Plus worth it?", "a": "For anyone using it daily for work, coding or research, most reviewers say yes: it removes the Free plan's tightest limits and adds custom GPTs, projects and expanded Codex access. Casual users can generally stay on Free or the cheaper Go plan."},
-                    {"q": "Does ChatGPT have a mobile app?", "a": "Yes, ChatGPT is available on iOS and Android with feature parity to the web version including voice mode."},
-                ],
-             }},
-            {"name": "Claude", "tagline": "Anthropic's AI assistant, known for careful, high-quality writing", "desc": "Claude is frequently praised for natural, well-reasoned prose and a large context window, making it a favorite for long documents, writing and coding tasks.", "pricing": "Free tier available; Pro from $20/mo", "url": "https://claude.ai",
-             "tags": ["General", "Writing"],
-             "features": ["Long-form reasoning with a large context window for document work", "Claude Code for terminal- and IDE-integrated agentic coding", "Leads independent coding benchmarks (SWE-bench Verified) among major models", "Projects, Artifacts and extended thinking mode"],
-             "pros": ["Widely regarded as producing the most natural, least 'AI-sounding' writing of the major assistants", "Best-in-class for long documents, writing and coding", "Hallucinates less than ChatGPT or Gemini per multiple reviewer comparisons"],
-             "cons": ["Message/usage limits are restrictive, even on paid Pro and Max tiers", "No native image generation and weaker built-in live web search than ChatGPT or Gemini"],
-             "best_for": "Writing, coding and reasoning tasks where output quality matters more than breadth of features.",
-             "deep": {
-                "overview": "Claude is Anthropic's AI assistant, built by a company founded by former OpenAI researchers with a stated focus on AI safety. It ranks as the third-largest consumer AI assistant by mindshare after ChatGPT and Gemini, but punches above its weight in developer and professional-writing circles, particularly since the release of Claude Code as a standalone agentic coding product.\n\nIts core differentiator is a reputation for higher-quality, more human-sounding writing and stronger instruction-following on long, complex tasks, backed by benchmark leadership in coding. Unlike ChatGPT and Gemini, Claude does not offer native image generation or a built-in live web-search toggle on every tier, positioning it as a narrower but deeper tool for writing, coding and document analysis rather than a do-everything assistant.",
-                "features_detailed": [
-                    {"title": "Large context window for document work", "desc": "Claude can ingest very long documents, codebases or transcripts in a single conversation, making it well suited to contract review and long-form editing."},
-                    {"title": "Claude Code", "desc": "A terminal- and IDE-integrated agentic coding tool that can plan, write, test and run code changes across a project, and spawn parallel subagents."},
-                    {"title": "Projects", "desc": "Persistent workspaces that hold custom instructions and reference documents, letting teams keep context available across many conversations."},
-                    {"title": "Artifacts", "desc": "A side-panel feature that renders generated code, documents or interactive prototypes separately from the chat."},
-                    {"title": "Extended thinking mode", "desc": "An optional slower, deeper reasoning mode for complex problems, letting users trade response time for higher accuracy."},
-                    {"title": "Cowork / agentic workflows", "desc": "Anthropic's 2026 push into multi-step, semi-autonomous task execution that goes beyond single-turn chat."},
-                    {"title": "Connectors and integrations", "desc": "Claude can connect to tools like Google Drive, GitHub and internal company systems (on Team/Enterprise) to pull in context without manual file uploads."},
-                    {"title": "Multi-platform apps", "desc": "Native apps for web, iOS, Android and desktop (Mac/Windows), with the iOS app holding a notably strong App Store rating."},
-                ],
-                "pricing_plans": [
-                    {"name": "Free", "price": "Free", "billing": "No credit card required", "features": ["Access to Claude on web, iOS, Android and desktop", "Rolling usage limits that reset periodically", "Access to a capable but not flagship model"]},
-                    {"name": "Pro", "price": "$20/mo", "billing": "Billed monthly; ~$17/mo effective if billed annually", "features": ["Significantly higher usage limits than Free", "Access to Claude's most capable models", "Projects and extended thinking mode"]},
-                    {"name": "Max 5x", "price": "$100/mo", "billing": "Billed monthly, individual plan", "features": ["5x the usage limits of Pro", "Higher-priority access to Claude Code"]},
-                    {"name": "Max 20x", "price": "$200/mo", "billing": "Billed monthly, individual plan", "features": ["20x the usage limits of Pro", "Highest priority access, including for Claude Code"]},
-                    {"name": "Team", "price": "$25/user/mo", "billing": "Billed annually ($30/user/mo month-to-month); premium seats with Claude Code from $150/user/mo", "features": ["Centralized billing and admin controls", "Higher usage pool shared across the team", "Shared projects"]},
-                    {"name": "Enterprise", "price": "Custom pricing", "billing": "Annual contract, negotiated with Anthropic sales", "features": ["SSO and SCIM provisioning", "Audit logs and expanded context limits", "Dedicated support and security review"]},
-                ],
-                "pros_expanded": [
-                    "Widely regarded on Reddit and in benchmarks as producing the most natural, least 'AI-sounding' writing of the four tools, requiring less editing",
-                    "Leads coding benchmarks (SWE-bench Verified) among the four, and Claude Code is frequently cited as the strongest agentic coding tool",
-                    "Very strong instruction-following on long, multi-step tasks and long-document analysis",
-                    "iOS app rating is notably strong among the four assistants",
-                    "Extended thinking mode gives users explicit control over the speed/accuracy trade-off",
-                    "Anthropic's safety-first positioning appeals to enterprises and regulated industries evaluating AI vendors",
-                ],
-                "cons_expanded": [
-                    "No native image generation and limited built-in live web search, unlike ChatGPT and Gemini",
-                    "Free and even Pro usage limits are a very common complaint; Capterra reviewers specifically flag message caps as too low even for paid customers",
-                    "Smaller ecosystem and fewer third-party integrations than ChatGPT or Gemini",
-                    "Max plans ($100-$200/mo) are priced at parity with ChatGPT Pro but with a narrower feature set outside of coding",
-                    "Lower brand recognition among mainstream consumers compared to ChatGPT and Gemini, reflected in fewer G2/Capterra reviews overall",
-                    "Team plan's Claude Code premium seat ($150/user/mo) is a steep jump from the standard $25/user/mo seat",
-                ],
-                "who_for": "Claude is best for developers, writers and knowledge workers who prioritize output quality over feature breadth — particularly teams doing serious coding work via Claude Code, long-document review, or long-form writing where prose quality matters. Users who want an all-in-one assistant with strong image generation, voice and the widest third-party app ecosystem, or who are frustrated by usage caps even on paid plans, are better served by ChatGPT or Gemini.",
-                "reviews": {
-                    "g2_rating": "4.8/5", "g2_count": "~70 reviews",
-                    "capterra_rating": "4.5/5", "capterra_count": "31 reviews",
-                    "summary": "Claude's G2 and Capterra review volumes are much smaller than ChatGPT's or Gemini's, but ratings run high, with reviewers repeatedly describing it as more accurate and less prone to hallucination than ChatGPT or Gemini. The most consistent complaint across both platforms and Reddit is usage/message limits — even paying Pro and Max subscribers report hitting caps mid-task. Reddit threads comparing it to ChatGPT and Gemini in 2026 consistently favor Claude for coding and long-form writing, while conceding it lags on multimodal features.",
-                    "praise": ["Writing quality feels more human and needs less editing than ChatGPT's output", "Strong instruction-following that holds up over long, complex tasks", "Claude Code is frequently rated the best agentic coding tool of the three", "Hallucinates less than ChatGPT or Gemini per multiple reviewer comparisons"],
-                    "complaints": ["Message/usage limits are too restrictive, even on paid Pro and Max tiers", "No native image generation and weaker live web search than ChatGPT or Gemini", "Smaller app/integration ecosystem than competitors", "Higher Max tiers are expensive relative to the narrower feature set outside coding"],
-                },
-                "faq": [
-                    {"q": "Is Claude free to use?", "a": "Yes, Claude has a Free plan with no credit card required, though it runs on rolling usage limits that reset periodically and don't include the most capable models. The Pro plan ($20/mo) removes most of those limits."},
-                    {"q": "Is Claude better than ChatGPT for coding?", "a": "Benchmark results and Reddit consensus in 2026 generally favor Claude for coding, with Claude models leading coding benchmarks ahead of Gemini and GPT models, and Claude Code frequently cited as the more capable agentic coding tool."},
-                    {"q": "Why do people say Claude 'writes better' than ChatGPT?", "a": "Users consistently describe Claude's prose as reading more naturally and needing less cleanup for long or nuanced writing, while ChatGPT is seen as more prone to formulaic or over-explained phrasing."},
-                    {"q": "What's the difference between Claude Pro and Max?", "a": "Pro ($20/mo) covers most individual use cases with expanded limits over Free. Max ($100/mo for 5x limits, $200/mo for 20x limits) is aimed at heavy users, especially those running Claude Code frequently."},
-                    {"q": "Does Claude have usage limits even on paid plans?", "a": "Yes — this is Claude's most common user complaint. Even Pro and Max subscribers report hitting message caps that interrupt long tasks."},
-                    {"q": "Can Claude generate images like ChatGPT or Gemini?", "a": "No, Claude does not offer native image generation, which is a notable gap compared to ChatGPT and Gemini for users who want an all-in-one multimodal assistant."},
-                ],
-             }},
-            {"name": "Perplexity", "tagline": "AI answer engine with real-time, cited web search", "desc": "Perplexity pairs an AI model with live web search and inline citations, positioning itself as a research-first alternative to traditional search engines, and now also ships its own AI-native browser, Comet.", "pricing": "Free tier available; Pro from $20/mo, Max at $200/mo", "url": "https://www.perplexity.ai",
-             "tags": ["Search", "Research"],
-             "features": ["Real-time web search with native, reliable inline citations", "Pro Search and Deep Research modes for multi-step research queries", "Comet: Perplexity's own AI-native web browser", "Model selection across third-party frontier models on Pro/Max"],
-             "pros": ["Irreplaceable for research, fact-checking, legal and academic work", "Sources are cited natively and reliably, unlike most chat assistants", "Strong Capterra rating (4.7/5) specifically for speed and verifiability"],
-             "cons": ["Less suited to open-ended creative or coding tasks", "Enterprise seat pricing runs higher than ChatGPT Business or Claude Team"],
-             "best_for": "Research-heavy work where you need sourced, citable, up-to-date answers.",
-             "deep": {
-                "overview": "Perplexity is an AI-powered answer engine that positions itself as a search-first alternative to both traditional search engines and general chatbots. Founded in 2022, it has grown into one of the most-discussed AI products for research and fact-finding, and in 2026 it also ships Comet, its own AI-native web browser, extending the product beyond a chat interface.\n\nIts core differentiator is that every answer is built around live web search with inline, clickable citations by default, rather than search being an optional add-on. Where ChatGPT, Claude and Gemini are general-purpose assistants that can also search the web, Perplexity's entire interface and reputation are built around 'show your work' sourcing, which is why verification-focused users reach for it specifically over a conversational chatbot.",
-                "features_detailed": [
-                    {"title": "Cited, real-time answers", "desc": "Every response links directly to the sources it drew from, letting users verify claims in one click."},
-                    {"title": "Pro Search", "desc": "A deeper multi-query search mode that breaks a question into sub-searches across the web before synthesizing an answer."},
-                    {"title": "Deep Research", "desc": "An autonomous research agent that runs extended multi-step investigations and produces a structured, cited report."},
-                    {"title": "Comet browser", "desc": "Perplexity's own AI-native browser that can summarize pages, complete web tasks, and answer questions about whatever page is currently open."},
-                    {"title": "Model selection", "desc": "Pro and Max users can choose between underlying models (including third-party frontier models) for a given query."},
-                    {"title": "File and document upload", "desc": "Users can upload files for the AI to search and reason over alongside live web results."},
-                    {"title": "Perplexity Finance and Shopping", "desc": "Purpose-built vertical experiences layered on top of the core search engine for stock research and product comparison shopping."},
-                    {"title": "Spaces", "desc": "Persistent, shareable collections of searches and files, letting users or teams organize ongoing research threads."},
-                ],
-                "pricing_plans": [
-                    {"name": "Free", "price": "Free", "billing": "No credit card required", "features": ["3 Pro Searches per day", "5 Deep Research queries per day", "Limited file uploads", "Basic model access"]},
-                    {"name": "Pro", "price": "$20/mo", "billing": "Billed monthly, or $200/yr billed annually", "features": ["Expanded Pro Search and Deep Research usage", "Choice of underlying AI models", "Higher file upload limits", "Access to Perplexity Finance and Shopping tools"]},
-                    {"name": "Max", "price": "$200/mo", "billing": "Billed monthly, individual plan", "features": ["Unlimited access to the full suite of advanced models", "No usage restrictions on volume/frequency (web interface)", "Highest-tier Deep Research allowance"]},
-                    {"name": "Enterprise Pro", "price": "$40/seat/mo", "billing": "$400/seat/yr billed annually", "features": ["Team-wide Pro-level access", "SSO and centralized billing", "Higher security and data-handling controls"]},
-                    {"name": "Enterprise Max", "price": "$325/seat/mo", "billing": "$3,250/seat/yr billed annually", "features": ["SCIM provisioning and audit logs", "Configurable data retention", "Most advanced reasoning models"]},
-                ],
-                "pros_expanded": [
-                    "Every answer comes with inline citations by default, which reviewers consistently call the single most-praised feature over competitors",
-                    "Strong Capterra rating with users specifically praising speed and the ability to verify answers instantly",
-                    "Comet browser extends the product beyond chat into a full AI-native browsing experience",
-                    "iOS App Store rating is exceptionally strong",
-                    "Reddit users in research-focused communities consistently rank it above ChatGPT for tasks requiring current, verifiable information",
-                    "Free tier is usable for genuine day-to-day search replacement, not just a demo",
-                ],
-                "cons_expanded": [
-                    "Much smaller review base on G2 relative to ChatGPT and Gemini, and a narrower brand footprint outside research/power-user circles",
-                    "Still can hallucinate or misread source content despite citing real links, so users must still verify",
-                    "Weaker at open-ended creative writing, long-form drafting and general conversation compared to ChatGPT or Claude",
-                    "Enterprise pricing is meaningfully higher than ChatGPT Business or Claude Team at equivalent seat counts",
-                    "Voice features reportedly perform poorly with background noise, per Capterra reviewers",
-                    "Free plan's daily Pro Search and Deep Research caps are tight for anyone using it as a primary research tool",
-                ],
-                "who_for": "Perplexity is best for researchers, students, analysts, journalists and anyone who wants a search engine replacement where every claim is traceable to a live source, rather than a general creative or coding assistant. Users who primarily need long-form writing, image generation or coding help are better served by ChatGPT or Claude.",
-                "reviews": {
-                    "g2_rating": "4.4/5", "g2_count": "326 reviews",
-                    "capterra_rating": "4.7/5", "capterra_count": "23 reviews",
-                    "summary": "Perplexity earns strong ratings on both G2 and Capterra, with sourcing and speed as the standout praise points across both platforms. Reddit comparisons against ChatGPT in 2026 consistently frame Perplexity as the better choice for current-events and fact-heavy queries because its citations are checkable, while ChatGPT is seen as stronger for complex reasoning and synthesis where sourcing matters less. The most common complaint pattern isn't accuracy so much as scope: reviewers like what it does but note it isn't a substitute for a full-featured chatbot for writing or coding.",
-                    "praise": ["Inline citations make every answer independently verifiable", "Fast response times for research-style queries", "Comet browser adds genuine utility beyond chat", "Strong mobile app experience and ratings"],
-                    "complaints": ["Free tier's daily search caps are limiting for regular use", "Voice mode struggles with background noise", "Not built for long-form creative writing or general conversation", "Enterprise seat pricing is high relative to ChatGPT Business and Claude Team"],
-                },
-                "faq": [
-                    {"q": "Is Perplexity free to use?", "a": "Yes, the Free plan includes 3 Pro Searches and 5 Deep Research queries per day with no credit card required. The Pro plan ($20/mo) removes most daily caps and adds model choice and higher file upload limits."},
-                    {"q": "How is Perplexity different from ChatGPT?", "a": "Perplexity is built around live web search with inline citations as its core interface, while ChatGPT is a general-purpose assistant where web search is one feature among many. Reddit users generally prefer Perplexity for fact-checkable, current-information queries."},
-                    {"q": "Does Perplexity still hallucinate?", "a": "Yes. Citing real sources reduces the risk compared to an uncited chatbot answer, but reviewers note it can still misread or misattribute source content, so claims should still be spot-checked."},
-                    {"q": "Is Perplexity Pro worth $20/month?", "a": "For anyone who searches or researches heavily, most reviewers say yes, since it removes the Free plan's tight daily caps and adds model choice. Casual users who search only a few times a day can likely stay on the Free tier."},
-                    {"q": "What is Perplexity's Comet browser?", "a": "Comet is Perplexity's own AI-native web browser that can summarize the page you're on, answer questions about it, and complete simple web tasks, extending Perplexity beyond a chat window."},
-                    {"q": "Does Perplexity have a student discount?", "a": "Yes, Perplexity offers an Education Pro plan at roughly $10/mo with student verification, half the price of the standard Pro plan."},
-                ],
-             }},
-            {"name": "Google Gemini", "tagline": "Google's AI assistant integrated across Workspace", "desc": "Gemini is built into Gmail, Docs and Search, giving it deep access to a user's existing Google Workspace content for drafting and summarizing, backed by the largest context window among major assistants.", "pricing": "Free tier available; AI Pro from $19.99/mo (AI Plus from $4.99/mo)", "url": "https://gemini.google.com",
-             "tags": ["General", "Google Workspace"],
-             "features": ["Deep integration with Gmail, Docs, Sheets and Google Workspace", "1-million-token context window, the largest among major assistants", "Built-in Veo video generation and Deep Research", "Multimodal input across text, image and video"],
-             "pros": ["Most useful for people already living in Google Workspace or Android", "Cheapest entry-level paid tier of the four assistants ($4.99/mo AI Plus)", "Very easy setup since it's tied to an existing Google account"],
-             "cons": ["G2 users score its accuracy and code quality lower than competitors", "Pricing tiers have changed repeatedly through 2026, making current plans hard to track"],
-             "best_for": "Google Workspace users who want AI woven directly into Gmail, Docs and Sheets.",
-             "deep": {
-                "overview": "Gemini is Google's AI assistant, built on the Gemini model family and deeply woven into Google's own products — Search, Gmail, Docs, Drive, Android and the Google One subscription. It's positioned less as a standalone destination and more as an AI layer over an ecosystem hundreds of millions of people already use daily, which is reflected in its Google Play install and rating numbers dwarfing every other tool in this comparison.\n\nIts core differentiator is native integration: Gemini can pull context directly from a user's Gmail, Calendar and Drive files, and its 1-million-token context window is the largest of the four tools, letting it process very large documents or codebases in one pass. Where Claude and ChatGPT are used more as separate destinations, Gemini's value proposition is largely 'the AI that's already inside the Google apps you use.'",
-                "features_detailed": [
-                    {"title": "1 million token context window", "desc": "Gemini Pro and Ultra tiers support an exceptionally large context window, letting users feed in very long documents, video transcripts or codebases in a single prompt."},
-                    {"title": "Deep integration with Google apps", "desc": "Gemini can read and act on content in Gmail, Docs, Sheets, Drive and Calendar directly, summarizing threads or drafting documents using a user's own files."},
-                    {"title": "Deep Research", "desc": "An autonomous research mode, available from the AI Pro tier up, that runs multi-step web research and returns a structured, cited report."},
-                    {"title": "Veo video generation", "desc": "Built-in access to Google's Veo video generation models, letting users generate short AI video clips directly from Gemini."},
-                    {"title": "NotebookLM-style grounding", "desc": "Gemini can ground answers in user-uploaded documents and Google Workspace content, reducing hallucination risk for document-specific questions."},
-                    {"title": "Gemini in Android and Chrome", "desc": "System-level integration lets Gemini act as the default assistant on Android devices and inside the Chrome browser."},
-                    {"title": "Google One storage bundling", "desc": "Paid tiers bundle substantial Google One cloud storage (400GB on AI Plus, 5TB on AI Pro) alongside the AI features."},
-                    {"title": "Gemini Code Assist", "desc": "A coding-focused variant integrated into IDEs and Google Cloud, aimed at developers already working in Google's cloud ecosystem."},
-                ],
-                "pricing_plans": [
-                    {"name": "Free", "price": "Free", "billing": "No credit card required, tied to a Google account", "features": ["Access to a Gemini Flash-tier model", "Multimodal input (text, image)", "Basic feature set"]},
-                    {"name": "AI Plus", "price": "$4.99/mo", "billing": "Billed monthly, individual plan", "features": ["Access to Gemini Pro model with roughly double Free's limits", "400GB of Google One storage", "Priority access during peak times"]},
-                    {"name": "AI Pro", "price": "$19.99/mo", "billing": "Billed monthly, individual plan (formerly branded 'Gemini Advanced')", "features": ["Access to Gemini Pro with expanded limits", "Deep Research and Veo video generation", "5TB of Google One storage"]},
-                    {"name": "AI Ultra (5x)", "price": "$99.99/mo", "billing": "Billed monthly, individual plan", "features": ["5x the usage limits of AI Pro", "Access to Google's most capable models"]},
-                    {"name": "AI Ultra (20x)", "price": "$199.99/mo", "billing": "Billed monthly, individual plan", "features": ["20x the usage limits of AI Pro", "Highest-tier model and video generation access"]},
-                ],
-                "pros_expanded": [
-                    "Deepest native integration with everyday Google tools (Gmail, Docs, Drive, Calendar, Android), which no competitor can match without third-party connectors",
-                    "1-million-token context window is the largest of the four tools, useful for very large documents or codebases",
-                    "Google Play rating and install base are enormous, reflecting how many users encounter Gemini simply by using an Android phone",
-                    "Cheapest entry-level paid tier of the four ($4.99/mo AI Plus), giving budget users a step up from Free",
-                    "Storage bundling (up to 5TB with AI Pro) adds tangible value beyond the AI features for existing Google One users",
-                    "Ease of setup scores unusually high on G2 since it's already tied to an existing Google account",
-                ],
-                "cons_expanded": [
-                    "G2 users score its accuracy notably lower than competitors, and reviewers frequently describe it generating confident but false information",
-                    "Reddit and review sites report it lags Claude and GPT-5.x on coding reliability and code quality specifically",
-                    "Pricing structure changed multiple times through 2026, making it harder to know what's current",
-                    "Historically the most volatile app-store reputation of the four",
-                    "Deep feature set is fragmented across many surfaces (Gemini app, Workspace, Android system assistant, Code Assist)",
-                    "Some Capterra reviewers report the app crashing or failing to accept input",
-                ],
-                "who_for": "Gemini is best for individuals and organizations already standardized on Google Workspace or Android who want AI assistance woven directly into Gmail, Docs, Drive and their phone, plus anyone who needs its very large context window for big documents. Users who prioritize writing quality, coding reliability or answer accuracy above ecosystem convenience are consistently steered toward Claude or ChatGPT in reviews and Reddit comparisons.",
-                "reviews": {
-                    "g2_rating": "4.4/5", "g2_count": "323 reviews",
-                    "capterra_rating": "4.2/5", "capterra_count": "13 reviews",
-                    "summary": "Gemini's G2 rating sits on par with Perplexity's but its sub-scores tell a more mixed story: ease of setup is rated highest of any tool in this set, while accuracy and code quality trail competitors. Capterra reviewers consistently praise its integration with Gmail and Drive and call it approachable for non-technical users, but also report occasional crashes and factual errors. The dominant Reddit complaint pattern is confident-sounding hallucination — inventing studies, citations or historical details — more so than with Claude.",
-                    "praise": ["Seamless integration with Gmail, Docs and Drive for research and drafting", "Very easy to set up since it's tied to an existing Google account", "Large context window handles big documents well", "Approachable for non-technical users"],
-                    "complaints": ["Generates confident but false information more often than competitors, per G2's accuracy sub-score", "Coding reliability and code quality trail Claude and ChatGPT", "App has a history of crashes and input issues on some reviews", "Pricing tiers have changed repeatedly through 2026, making current plans hard to track"],
-                },
-                "faq": [
-                    {"q": "Is Google Gemini free to use?", "a": "Yes, Gemini has a Free tier tied to any Google account with no credit card required, running on a Flash-tier model. Paid tiers start at $4.99/mo (AI Plus) and $19.99/mo (AI Pro, formerly branded Gemini Advanced)."},
-                    {"q": "What happened to 'Gemini Advanced'?", "a": "Google renamed the $19.99/mo 'Gemini Advanced' plan to 'Google AI Pro' and, in 2026, added a cheaper 'AI Plus' tier at $4.99/mo below it, splitting what used to be a single paid tier into two."},
-                    {"q": "Is Gemini as accurate as ChatGPT or Claude?", "a": "Reviewer and benchmark data suggest Gemini trails both on accuracy and coding reliability — G2 users score its accuracy lower than competitors, and Reddit threads commonly cite confident hallucinations as a specific weakness."},
-                    {"q": "What's Gemini's biggest advantage over ChatGPT and Claude?", "a": "Native integration with Gmail, Docs, Drive, Calendar and Android, plus a 1-million-token context window that's larger than any competitor's."},
-                    {"q": "Is Gemini good for coding?", "a": "It's capable but generally ranks behind Claude and GPT-5.x on coding benchmarks in 2026, and G2 reviewers score its code quality lower than competitors."},
-                    {"q": "Does a Gemini subscription include Google storage?", "a": "Yes, AI Plus includes 400GB and AI Pro includes 5TB of Google One cloud storage bundled with the subscription, a differentiator versus ChatGPT and Claude."},
-                ],
-             }},
+            {'name': 'ChatGPT',
+ 'tagline': "OpenAI's all-in-one AI assistant for chat, images, voice and coding",
+ 'desc': 'ChatGPT bundles chat, image creation, voice, deep research, custom GPTs and the Codex coding agent in one app, with a free tier and paid plans from about $8 to $200 a month.',
+ 'pricing': 'Free tier available; Go from about $8/mo (check official page), Plus $20/mo, Pro from $200/mo; Business and Enterprise priced per user',
+ 'url': 'https://chatgpt.com',
+ 'hero_image': 'chatgpt-hero.jpg',
+ 'hero_image_alt': 'Screenshot of the ChatGPT homepage hero section',
+ 'tags': ['General', 'Popular'],
+ 'features': ['Chat, image creation, voice, deep research and memory in one app',
+              'Custom GPTs, Projects and scheduled tasks on Plus and above',
+              'Codex coding agent with usage that grows by plan',
+              'Pro adds a choice of three usage tiers and larger context windows (128K instant, 400K reasoning)'],
+ 'pros': ['Widest feature range of any general assistant: text, images, voice, research, coding',
+          'Free plan gives unlimited text chats (subject to abuse guardrails)',
+          'Large ecosystem of custom GPTs and connected apps'],
+ 'cons': ["Six-plus plan tiers with feature limits described vaguely ('limits apply') make plan choice confusing", 'Free and Go context windows are small (27K and 54K instant), and Go may show ads'],
+ 'best_for': 'People who want one subscription covering writing, images, voice, research and light coding, and are happy to pay $20/mo for it.',
+ 'deep': {'overview': 'ChatGPT is a good default for people who want a single assistant that does a bit of everything: chat, images, voice, research and coding help. If you mainly care about the '
+                      'most polished long-form writing or need heavy daily usage without hitting caps, look at the alternatives or budget for the expensive Pro tier.\n'
+                      '\n'
+                      "OpenAI's app combines a chat assistant with image creation, voice mode, deep research, memory, custom GPTs and projects, and the Codex coding agent. Free users get unlimited "
+                      'text chats under abuse guardrails but only limited uploads, images, voice and research. Paid tiers raise those limits step by step, and the official pricing page keeps usage '
+                      "limits deliberately loose ('limits apply'), so exact message counts are not published there.",
+          'features_detailed': [{'title': 'Advanced reasoning models',
+                                 'desc': 'Plus and above add reasoning models for harder problems; Pro gets larger context windows (128K instant, 400K reasoning) versus 27K on Free.'},
+                                {'title': 'Deep research', 'desc': 'Runs multi-step web research and returns a report; limited on Free and Go, expanded on Plus and maximal on Pro.'},
+                                {'title': 'Custom GPTs, Projects and scheduled tasks',
+                                 'desc': 'Build configured assistants, group files and chats into projects, and schedule recurring tasks (Plus and above).'},
+                                {'title': 'Voice and image creation',
+                                 'desc': 'Spoken conversation and image generation on every plan, with limits on Free and faster, unlimited image creation on Pro.'},
+                                {'title': 'Memory', 'desc': 'Remembers details across chats; longer on Go, expanded on Plus and maximal on Pro.'},
+                                {'title': 'Codex coding agent', 'desc': 'An agent for software tasks; limited on Free, expanded on Plus, with longer sessions on Pro.'},
+                                {'title': 'ChatGPT Work', 'desc': 'Agent-style work feature that is desktop-only on Free and extended to web and mobile on Plus.'},
+                                {'title': 'Mobile and desktop apps', 'desc': 'Apps are available for phones and desktop alongside the web version.'}],
+          'pricing_plans': [{'name': 'Free',
+                             'price': 'Free',
+                             'billing': 'No credit card required',
+                             'features': ['Unlimited text chats, subject to abuse guardrails',
+                                          'Limited uploads, image creation, voice, deep research, memory and Codex',
+                                          '27K instant context window']},
+                            {'name': 'Go',
+                             'price': 'About $8/mo (check the official pricing page)',
+                             'billing': 'Monthly, individual plan; may include ads',
+                             'features': ['More messages, uploads, images and voice than Free', 'Longer memory', '54K instant and 256K reasoning context']},
+                            {'name': 'Plus',
+                             'price': '$20/mo',
+                             'billing': 'Billed monthly, individual plan',
+                             'features': ['Advanced reasoning models', 'Expanded uploads, deep research and memory', 'Projects, scheduled tasks, custom GPTs', 'Expanded Codex and ChatGPT Work']},
+                            {'name': 'Pro',
+                             'price': 'From $200/mo',
+                             'billing': 'Monthly, individual plan; choice of 3 usage tiers',
+                             'features': ['Everything in Plus', 'Unlimited, faster image creation', 'Maximum deep research and memory', '128K instant and 400K reasoning context']},
+                            {'name': 'Business',
+                             'price': 'Per user - check the official pricing page',
+                             'billing': 'Monthly or annual, minimum 2 users',
+                             'features': ['Workspace for teams', 'Can buy credits for extra access', 'Training on business data is off by default per OpenAI business terms (verify)']},
+                            {'name': 'Enterprise', 'price': 'Contact sales', 'billing': 'Annual contract', 'features': ['Custom payment and invoicing options', 'Can buy credits for extra access']}],
+          'pros_expanded': ['Broadest feature set in one app: chat, images, voice, deep research, memory, projects and a coding agent',
+                            'Free plan allows unlimited text chats (under abuse guardrails), so you can test it properly before paying',
+                            'Pro offers three usage tiers, so heavy users can scale up instead of jumping straight to one fixed price',
+                            'Big library of custom GPTs and app integrations',
+                            'Education discounts exist: nonprofits can get up to 75% off Business or Enterprise, and verified US K-12 teachers get a free plan through June 2027'],
+          'cons_expanded': ["Official pricing page gives no numeric message limits, only 'limits apply' and 'expanded', so you cannot predict when you will hit a cap",
+                            'Go plan may show ads, and its context window (54K instant) is still modest',
+                            'Free, Go, Plus and Pro content is used for model training unless you opt out',
+                            'Pro starts at $200/mo, a large jump from Plus at $20/mo',
+                            'Image creation, voice, research and Codex are all throttled on Free'],
+          'who_for': 'Good for individuals and small teams who want one general-purpose assistant for everyday work and are willing to pay $20/mo (Plus) for higher limits. Not for people who need '
+                     'guaranteed, published usage quotas, those who object to ads on the cheapest paid plan, or anyone unwilling to opt out of model training on personal plans (Free, Go, Plus and '
+                     'Pro content may be used for training unless you opt out).',
+          'faq': [{'q': 'Is ChatGPT free?',
+                   'a': 'Yes. The Free plan offers unlimited text chats subject to abuse guardrails, with limited uploads, image creation, voice, deep research, memory and Codex. No credit card is '
+                        'needed.'},
+                  {'q': 'How much does ChatGPT Plus cost and what do you get?',
+                   'a': 'Plus is $20/month. It adds advanced reasoning models, expanded uploads, deep research and memory, projects, scheduled tasks, custom GPTs and expanded Codex. OpenAI says '
+                        "'limits apply'."},
+                  {'q': 'What is the difference between Plus and Pro?',
+                   'a': 'Pro starts at $200/month and offers three usage tiers, longer Codex and ChatGPT Work sessions, unlimited faster image creation, maximum deep research and memory, and larger '
+                        'context windows (128K instant, 400K reasoning).'},
+                  {'q': 'Does ChatGPT train on my data?',
+                   'a': "On Free, Go, Plus and Pro, your content is used to improve models unless you opt out in settings. Check OpenAI's current business terms for Business and Enterprise."},
+                  {'q': 'Is ChatGPT or Claude better?',
+                   'a': 'ChatGPT has more built-in features (images, voice, custom GPTs). Claude is often preferred for writing and coding workflows. Try both free tiers on your own tasks.'}]},
+ 'last_checked': '2026-10-15',
+ 'alternatives': [{'slug': 'claude', 'why': 'Pick it if long-form writing and coding quality matter more than image and voice features'},
+                  {'slug': 'perplexity', 'why': 'Pick it if you mostly want cited, web-sourced answers'},
+                  {'slug': 'google-gemini', 'why': 'Pick it if you live in Google Workspace'}]},
+            {'name': 'Claude',
+ 'tagline': "Anthropic's AI assistant for writing, analysis and agentic coding",
+ 'desc': "Claude is Anthropic's chat assistant with Projects, Artifacts, web search, memory and Claude Code. Free tier; Pro is $20/mo ($17 billed annually); Max starts at $100/mo.",
+ 'pricing': 'Free tier available; Pro $20/mo ($17/mo billed annually); Max from $100/mo; Team from $20/seat/mo annual; Enterprise $20/seat/mo annual plus usage',
+ 'url': 'https://claude.ai',
+ 'tags': ['General', 'Writing'],
+ 'features': ['Free plan includes web search, memory, Artifacts and Projects (up to 5)',
+              'Pro adds Claude Code, Research, Opus models, Claude in Chrome and Claude for Microsoft 365',
+              'Usage shared across web, desktop, mobile and Claude Code in rolling 5-hour windows plus weekly caps',
+              'Optional usage credits to keep going past limits at API rates'],
+ 'pros': ['Free plan is generous in features: web search, memory and Artifacts are included',
+          'Claude Code is included from Pro upward',
+          'Team plan has no model training by default and starts at 2 seats'],
+ 'cons': ['Usage limits (5-hour and weekly) apply to all paid plans; heavy users may need Max or paid credits', 'Free plan excludes Claude Code, Research and Opus models'],
+ 'best_for': 'Writers, analysts and developers who want a strong assistant plus coding agent in one subscription and can live within usage limits.',
+ 'deep': {'overview': 'Claude is a strong pick for people who do a lot of writing, document analysis or coding and want one subscription that also includes a coding agent. If you will use it heavily '
+                      'all day, expect to hit rolling usage caps and consider Max or paid usage credits; if you want a big marketplace of custom bots, look elsewhere.\n'
+                      '\n'
+                      "Anthropic's assistant runs on web, desktop and mobile. The Free plan includes web search, memory, Artifacts, and up to 5 Projects but limits you to the Sonnet and Haiku "
+                      'models. Pro adds Claude Code, Research, the Opus models and browser and Microsoft 365 integrations. Usage resets on a rolling 5-hour window with additional weekly limits, and '
+                      'one pool is shared across chat and Claude Code.',
+          'features_detailed': [{'title': 'Claude Code', 'desc': 'Agentic coding tool for terminal and IDE; included from Pro and not on Free.'},
+                                {'title': 'Research and web search', 'desc': 'Web search and memory are on Free; the multi-step Research feature starts at Pro.'},
+                                {'title': 'Projects', 'desc': 'Persistent workspaces for documents and instructions; up to 5 on Free.'},
+                                {'title': 'Artifacts, Design, Slides and Docs', 'desc': 'Side-panel creation of code, documents, slides and prototypes, available on Free.'},
+                                {'title': 'Claude in Chrome and Microsoft 365', 'desc': 'Browser agent and Office integration available from Pro upward.'},
+                                {'title': 'Usage credits', 'desc': 'Optional pay-as-you-go credits at standard API rates once plan limits are hit.'},
+                                {'title': 'Team admin features', 'desc': 'Central billing, SSO, usage analytics, organization-wide skills deployment and pooled API credits (up to $500/mo) on Team.'},
+                                {'title': 'Multi-platform apps', 'desc': 'Web, desktop and mobile with one shared usage pool.'}],
+          'pricing_plans': [{'name': 'Free',
+                             'price': 'Free',
+                             'billing': 'No credit card required',
+                             'features': ['Sonnet and Haiku models only', 'Web search, memory, Artifacts', 'Up to 5 Projects', 'No Claude Code, Research or Opus']},
+                            {'name': 'Pro',
+                             'price': '$20/mo',
+                             'billing': '$17/mo billed annually ($200 upfront), or $20 monthly',
+                             'features': ['At least 5x Free usage per 5-hour session',
+                                          'Claude Code, Research, Opus models',
+                                          'Claude in Chrome and Microsoft 365',
+                                          'Weekly limits apply; usage credits available']},
+                            {'name': 'Max',
+                             'price': 'From $100/mo',
+                             'billing': 'Monthly, individual plan',
+                             'features': ['5x ($100) or 20x ($200) Pro usage per session', 'Priority access at busy times', 'Higher output limits']},
+                            {'name': 'Team',
+                             'price': 'Standard seat $20/seat/mo',
+                             'billing': 'Annual ($25 monthly); Premium seat $100 annual ($125 monthly); 2-150 seats',
+                             'features': ['Admin, central billing, SSO, usage analytics', 'No model training by default', 'Up to $500/mo pooled API credits']},
+                            {'name': 'Enterprise',
+                             'price': '$20/seat/mo plus usage at API rates',
+                             'billing': 'Annual, 20-seat minimum; self-serve or sales-assisted',
+                             'features': ['SCIM, audit logs, role-based access', 'Custom data retention, HIPAA-ready offering', 'Compliance API']},
+                            {'name': 'Education', 'price': 'Pricing on request', 'billing': 'Contact sales', 'features': ['University-wide plan']}],
+          'pros_expanded': ['Free plan includes web search, memory and Artifacts, which many rivals gate',
+                            'Claude Code is bundled with Pro instead of being a separate purchase',
+                            'Max gives clear 5x and 20x multiples of Pro usage',
+                            'Team has no model training by default and pools API credits',
+                            'Annual billing on Pro brings it to $17/mo'],
+          'cons_expanded': ['Rolling 5-hour and weekly limits apply to all paid plans and are shared with Claude Code, so coding sessions can burn chat quota',
+                            'Free excludes Claude Code, Research and Opus',
+                            'Premium Team seat is $100-125/seat, 5x a standard seat',
+                            'Enterprise is $20/seat plus usage billed at API rates, so total cost is unpredictable',
+                            'Payments are generally non-refundable',
+                            'Did not verify native image generation on the official pages today'],
+          'who_for': 'Good for developers, writers, researchers and teams who value careful long-form output and want an included coding agent. Not for people who need heavy all-day usage on a $20 '
+                     'plan without limits, or who want a large library of third-party custom bots; and I could not confirm native image generation on the official site, so check if that is a '
+                     'requirement.',
+          'faq': [{'q': 'Is Claude free?',
+                   'a': 'Yes. The Free plan includes chat, web search, memory, Artifacts and up to 5 Projects, but only Sonnet and Haiku models and no Claude Code or Research.'},
+                  {'q': 'How much is Claude Pro?',
+                   'a': '$20/month billed monthly, or $17/month billed annually ($200 upfront). It adds Claude Code, Research, Opus and at least 5x Free usage per 5-hour session.'},
+                  {'q': 'What do the Max plans give?', 'a': 'Max starts at $100/month for 5x Pro usage and $200/month for 20x, with priority access at busy times.'},
+                  {'q': 'What happens when I hit my limit?',
+                   'a': 'Limits reset on a rolling 5-hour window, and paid plans also have weekly limits. You can turn on usage credits to continue at standard API rates.'},
+                  {'q': 'Claude or ChatGPT?',
+                   'a': 'Claude suits writing and coding workflows with an included coding agent; ChatGPT has the broader feature set including voice and images. Compare on your own tasks using the '
+                        'free tiers.'}]},
+ 'alternatives': [{'slug': 'chatgpt', 'why': 'Broader feature set including voice, image creation and custom GPTs'},
+                  {'slug': 'google-gemini', 'why': 'Better fit if you work inside Google Workspace'},
+                  {'slug': 'perplexity', 'why': 'Better for cited, search-first answers'}],
+ 'last_checked': '2026-10-15'},
+            {'name': 'Perplexity',
+ 'tagline': 'AI answer engine that searches the live web and cites its sources',
+ 'desc': 'Perplexity answers questions by searching the web in real time and linking the sources inline. It also offers deeper research modes and its own AI browser, Comet, across free and paid '
+         'plans.',
+ 'pricing': 'Free plan available; Pro $20/mo ($200/yr, about $17/mo); Max $200/mo ($2,000/yr); Enterprise per seat (check the official pricing page)',
+ 'url': 'https://www.perplexity.ai',
+ 'tags': ['Search', 'Research'],
+ 'features': ['Live web search with inline source citations',
+              'Pro Search and Research modes for multi-step questions',
+              'Comet AI browser for Mac, Windows, iOS and Android',
+              'Choice of third-party frontier models on paid plans',
+              'File uploads, Spaces and Enterprise admin controls (SSO, SCIM, audit logs)'],
+ 'pros': ['Every answer links to its sources, so claims are quick to check', 'Free plan is a workable search replacement for light use', 'Comet extends it from a chat box into a browser'],
+ 'cons': ['Cited answers can still misread the source, so spot-check important claims',
+          'Weaker than general chatbots for creative writing and open-ended drafting',
+          'Exact free-plan limits and Enterprise seat prices are not shown on public pages and change often'],
+ 'best_for': 'Research, fact-checking and current-events questions where you want sources you can click through.',
+ 'deep': {'overview': 'Perplexity is a good fit if you mostly use AI to look things up and want to see where each claim came from; skip it if you mainly want a drafting, coding or brainstorming '
+                      'partner. It is a search-first assistant: each question triggers a live web search, and the answer is written with numbered links back to the pages it used.\n'
+                      '\n'
+                      'Beyond the basic answer box it offers deeper research modes that run several searches and compile a longer report, file uploads, saved Spaces for ongoing projects, and a '
+                      'choice of third-party models on paid plans. It also makes Comet, an AI browser that can summarise the page you are on and act on simple web tasks. Citations lower the risk of '
+                      'unchecked answers but do not remove it, so important facts still deserve a click-through.',
+          'features_detailed': [{'title': 'Cited, real-time answers', 'desc': 'Responses are built from a live web search and link the sources inline so you can verify claims.'},
+                                {'title': 'Pro Search and Research modes',
+                                 'desc': 'Longer multi-step searches that break a question into sub-queries and return a more thorough, sourced write-up. Allowances are higher on paid plans.'},
+                                {'title': 'Comet browser',
+                                 'desc': "Perplexity's AI browser, available on Mac, Windows, iOS and Android, that can summarise pages, answer questions about them and handle simple web tasks."},
+                                {'title': 'Model choice', 'desc': 'Paid plans give access to several third-party frontier models for a given query.'},
+                                {'title': 'File uploads', 'desc': 'Upload documents and images to ask questions alongside web results; limits rise on paid plans.'},
+                                {'title': 'Spaces', 'desc': 'Saved collections of searches and files for organising ongoing research, individually or with a team.'},
+                                {'title': 'Enterprise controls', 'desc': 'Enterprise plans add SSO, SCIM, audit logs, configurable file retention and a no-training-on-enterprise-data commitment.'}],
+          'pricing_plans': [{'name': 'Free',
+                             'price': 'Free',
+                             'billing': 'No payment needed',
+                             'features': ['Basic cited search', 'Limited daily use of Pro Search and Research (exact caps change; check the official pricing page)', 'Limited file uploads']},
+                            {'name': 'Pro',
+                             'price': '$20/mo',
+                             'billing': 'Or $200/yr billed annually (about $17/mo)',
+                             'features': ['Extended Pro Search and Research access',
+                                          'Access to several third-party frontier models',
+                                          'Increased file and photo uploads',
+                                          'More citations per answer, image generation and limited video generation']},
+                            {'name': 'Max',
+                             'price': '$200/mo',
+                             'billing': 'Or $2,000/yr billed annually (about $167/mo)',
+                             'features': ['Advanced access to all supported models', 'Enhanced video tools', 'Priority support and early access to new features']},
+                            {'name': 'Enterprise Pro / Enterprise Max',
+                             'price': 'Per seat; check the official pricing page',
+                             'billing': 'Monthly or annual, set by Perplexity',
+                             'features': ['SSO, SCIM and audit logs', 'Configurable file retention', 'No training on enterprise data; SOC 2 Type II']}],
+          'pros_expanded': ['Inline citations are the default, which makes verifying an answer a one-click job',
+                            'Free plan is genuinely usable for everyday lookups',
+                            'Comet is available on desktop and mobile, not just a browser demo',
+                            'Paid plans let you switch between several frontier models without separate subscriptions',
+                            'Annual billing brings Pro to roughly $17/mo'],
+          'cons_expanded': ['Citing a page does not guarantee the summary matches it; it can misread or overstate sources',
+                            'Not built for creative writing, long drafting or open-ended conversation',
+                            "Heavy research use hits metered allowances; the Free plan's exact daily caps are not stated clearly on public pages",
+                            'Max at $200/mo is a large jump from Pro and only worth it for very heavy users',
+                            'Enterprise seat prices are not published in a way we could verify; confirm before budgeting'],
+          'who_for': 'Best for students, analysts, journalists and anyone replacing a search engine with something that summarises and shows sources. Not for people who mainly want long-form '
+                     'creative writing, heavy coding help or a conversational companion, who will be better served by ChatGPT or Claude. Also not ideal if you need guaranteed unlimited usage on a '
+                     'low budget, since heavier research modes are metered.',
+          'faq': [{'q': 'Is Perplexity free?',
+                   'a': 'Yes, there is a free plan with basic cited search and limited use of the deeper modes. Exact daily caps change, so check the official pricing page.'},
+                  {'q': 'How much is Perplexity Pro?', 'a': '$20 a month, or $200 a year billed annually (about $17 a month).'},
+                  {'q': 'Is Max worth $200 a month?',
+                   'a': "Only for people who hit Pro's limits constantly or want early features and the most advanced models. Most individuals will be fine on Pro."},
+                  {'q': 'How is it different from ChatGPT?',
+                   'a': 'Perplexity is built around live search with source links on every answer. ChatGPT is a broader assistant for writing, coding and images where search is one feature.'},
+                  {'q': 'What is Comet?',
+                   'a': "Perplexity's AI browser for Mac, Windows, iOS and Android. It can summarise pages and help with simple web tasks. Check the official Comet page for current pricing."}]},
+ 'last_checked': '2026-10-15',
+ 'alternatives': [{'slug': 'chatgpt', 'why': 'Pick it for writing, coding, image work and general conversation where citations matter less.'},
+                  {'slug': 'google-gemini', 'why': 'Pick it if you live in Gmail, Docs and Android and want AI inside those apps.'},
+                  {'slug': 'claude', 'why': 'Pick it for long-form writing and careful analysis of documents you supply.'}]},
+            {'name': 'Google Gemini',
+ 'tagline': "Google's AI assistant, built into Gmail, Docs, Android and Search",
+ 'desc': "Gemini is Google's AI assistant, available free with a Google account and in paid Google AI Plus, Pro and Ultra plans that also bundle Google storage. It works across Google apps and has a "
+         '1-million-token context window.',
+ 'pricing': 'Free with a Google account; AI Plus $4.99/mo; AI Pro $19.99/mo; AI Ultra from $99.99/mo ($199.99/mo top tier)',
+ 'url': 'https://gemini.google.com',
+ 'tags': ['General', 'Google Workspace'],
+ 'features': ['Works inside Gmail, Docs, Drive and other Google apps',
+              '1-million-token context window on all listed plans',
+              'Deep Research, image generation, Gemini Live, Canvas and Gems, including on the Free plan',
+              'Paid plans bundle Google storage (400 GB, 5 TB, 20 TB and up)',
+              'Flow video tools and developer tools (Jules, AI Studio) with higher limits on Pro and Ultra'],
+ 'pros': ['Free plan is generous and needs only a Google account', 'Cheap paid entry point at $4.99/mo with 400 GB of storage', 'Natural fit if you already work in Google Workspace or on Android'],
+ 'cons': ['Usage limits are compute-based and reset on a rolling basis, so what you get is hard to predict',
+          'Plan names, models and bundles change often',
+          'Independent reviewers have rated its accuracy and coding below some rivals; verify important output'],
+ 'best_for': "People already in Google's ecosystem who want an assistant in Gmail, Docs and Android, with storage bundled in.",
+ 'deep': {'overview': "Gemini is a strong pick if you already live in Google's apps or Android and want an assistant that sits inside them, and it is hard to beat on price for casual use because the "
+                      "Free plan is capable. Skip it if you want a tool independent of Google's ecosystem or if coding and writing quality are your top priority, where rivals are often preferred.\n"
+                      '\n'
+                      "The assistant runs on Google's Gemini models and is reachable in its own app, in Google apps and on Android. The Free plan already includes Deep Research, image generation, "
+                      'Gemini Live voice, Canvas and Gems with lower limits. Paid Google AI plans raise usage limits (2x on Plus, 4x on Pro, then 5x and 20x Pro on Ultra) and bundle Google storage, '
+                      'so part of what you pay for is Google One. Limits are compute-based and reset every 5 hours up to a weekly cap.',
+          'features_detailed': [{'title': 'Google app integration',
+                                 'desc': 'Gemini works in Gmail, Docs, Drive and other Google apps, drawing on your own content when you allow it; some features depend on plan and region.'},
+                                {'title': '1-million-token context', 'desc': 'Google lists a 1 million-token context window across its paid plans, enough for very long documents or codebases.'},
+                                {'title': 'Deep Research', 'desc': 'Multi-step web research that produces a longer report; included on Free with limits, and expanded on paid plans.'},
+                                {'title': 'Image, video and music tools',
+                                 'desc': 'Image generation and editing are on Free; paid plans add Flow credits for video and music (for example 200 on Plus, 1,000 on Pro, 10,000 or 25,000 on '
+                                         'Ultra).'},
+                                {'title': 'Gemini Live, Canvas and Gems', 'desc': 'Voice conversations, a side workspace for documents and code, and custom assistants called Gems.'},
+                                {'title': 'Bundled storage', 'desc': 'AI Plus includes 400 GB, AI Pro 5 TB, and Ultra from 20 TB, shared across Gmail, Drive and Photos.'},
+                                {'title': 'Developer tools', 'desc': 'Pro and Ultra raise limits for Jules, AI Studio and Antigravity; Pro also includes $10/mo of Google Cloud credits.'}],
+          'pricing_plans': [{'name': 'Free',
+                             'price': 'Free',
+                             'billing': 'Needs a Google account; 15 GB storage',
+                             'features': ['Flash-Lite model access', 'Deep Research, image generation, Gemini Live, Canvas and Gems', 'Limited Google Flow access']},
+                            {'name': 'Google AI Plus',
+                             'price': '$4.99/mo',
+                             'billing': 'Monthly, individual',
+                             'features': ['About 2x Free usage', '400 GB storage', '200 Flow credits; family sharing']},
+                            {'name': 'Google AI Pro',
+                             'price': '$19.99/mo',
+                             'billing': 'Monthly, individual',
+                             'features': ['About 4x Free usage; adds the Pro model', '5 TB storage', '1,000 Flow credits, $10/mo Google Cloud credits, family sharing']},
+                            {'name': 'Google AI Ultra (5x)',
+                             'price': 'From $99.99/mo',
+                             'billing': 'Monthly, individual',
+                             'features': ['5x Pro usage limits', '20 TB storage', '10,000 Flow credits, YouTube Premium in eligible countries']},
+                            {'name': 'Google AI Ultra (20x)',
+                             'price': '$199.99/mo',
+                             'billing': 'Monthly, individual',
+                             'features': ['20x Pro usage limits', '30 TB storage', '25,000 Flow credits, Project Genie, higher cloud credits']}],
+          'pros_expanded': ['The Free plan includes Deep Research, image generation, Live voice, Canvas and Gems',
+                            'AI Plus at $4.99/mo is one of the cheapest paid assistant tiers and includes 400 GB of storage',
+                            'Tight Gmail, Docs, Drive and Android integration is hard for rivals to match',
+                            '1-million-token context lets you load large documents in one prompt',
+                            'Storage and family sharing make Pro good value for households already paying for Google One'],
+          'cons_expanded': ['Usage is compute-based, depends on prompt and chat length, and resets every 5 hours up to a weekly limit, so quotas are hard to predict',
+                            'Plans, model names and bundles change frequently; confirm on the official page before buying',
+                            'Part of the price is storage, which has no value if you do not need it',
+                            'Reviewers have scored its accuracy and coding below some rivals, so verify facts and code',
+                            "Ultra tiers are expensive and the page shows only 'from' prices for them; some perks are limited to eligible countries or adults"],
+          'who_for': 'Best for Gmail, Docs, Drive and Android users, students and families who like the storage and sharing bundled with Google AI plans, and anyone who wants a capable free '
+                     'assistant. Not for people who need predictable fixed usage quotas, who want a vendor-neutral tool outside Google, or whose main need is top-tier coding or long-form writing, '
+                     'where ChatGPT or Claude are often preferred.',
+          'faq': [{'q': 'Is Gemini free?',
+                   'a': 'Yes. The Free plan needs only a Google account and includes Deep Research, image generation, Gemini Live, Canvas and Gems, with lower usage limits and 15 GB of storage.'},
+                  {'q': 'What does Google AI Plus cost and include?',
+                   'a': '$4.99/mo for about twice Free usage, 400 GB of storage and 200 Flow credits. AI Pro is $19.99/mo with about four times Free usage and 5 TB.'},
+                  {'q': 'What are the usage limits?',
+                   'a': 'They are compute-based and vary with prompt complexity and chat length. They reset every 5 hours until a weekly limit, and you can buy AI credits to extend them.'},
+                  {'q': 'Is Gemini better than ChatGPT?',
+                   'a': 'It depends on your setup. Gemini wins on Google app integration, storage bundling and price; ChatGPT and Claude are often preferred for coding and writing quality.'},
+                  {'q': 'Is there a free trial for paid plans?',
+                   'a': "Google's plans page links to a free trial offer but does not state the terms. Check the official page for current length and eligibility."}]},
+ 'last_checked': '2026-10-15',
+ 'alternatives': [{'slug': 'chatgpt', 'why': 'Pick it for a broader third-party ecosystem and generally strong all-round writing and coding.'},
+                  {'slug': 'claude', 'why': 'Pick it for careful long-form writing and coding work outside the Google ecosystem.'},
+                  {'slug': 'perplexity', 'why': 'Pick it when you mainly want sourced web answers with citations.'}]},
             {"name": "Dapta AI", "tagline": "All-in-one AI voice and text agents built for SMB sales automation", "desc": "Dapta lets small businesses spin up AI voice and text agents in minutes to qualify leads, book appointments, and follow up with customers across calls, SMS, and WhatsApp.", "pricing": "Free tier (2K credits); paid plans from $99/mo, up to $1,499/mo for enterprise-scale credits and support", "url": "https://dapta.ai/",
              "tags": ["Chatbots & Assistants", "Voice AI", "Sales Automation"],
              "features": ["AI voice agent for inbound/outbound calls", "AI text (SMS) and WhatsApp agents", "No-code agent builder ('Dapti')", "300+ native integrations plus API/webhooks", "AI notetaker for call transcription", "Industry-specific agent templates"],
@@ -10387,66 +10624,96 @@ CATEGORIES = [
       {"q": "Does CrystalSound offer meeting transcription?", "a": "Meeting transcription along with performance and risk analysis is planned for an upcoming Elite tier, which was listed as \"coming soon\" with pre-signup pricing rather than fully available."}
     ]
  }},
-            {"name": "ElevenLabs", "tagline": "Widely used AI voice generation and cloning platform", "desc": "ElevenLabs is considered one of the most realistic text-to-speech and voice-cloning tools available, used for audiobooks, dubbing, voiceovers and increasingly conversational voice agents.", "pricing": "Free tier (10k credits/mo, no commercial rights); Starter from $6/mo ($5/mo billed yearly)", "url": "https://elevenlabs.io",
- "hero_image": "elevenlabs-hero.jpg", "hero_image_alt": "Screenshot of the ElevenLabs homepage hero section",
-             "tags": ["Voice cloning", "TTS"],
-             "features": ["Wide, emotionally expressive voice library across 30+ languages", "Instant and Professional Voice Cloning with commercial rights from Starter", "ElevenAgents for low-latency, voice-to-voice conversational AI", "Dubbing Studio, sound effects and music generation"],
-             "pros": ["Best entry price (~$6/mo) for professional-grade voice generation", "Excels at emotional range and voice realism", "Single platform spans TTS, cloning, dubbing, sound effects and voice agents"],
-             "cons": ["Credit-based pricing is confusing and hard to predict per feature", "Commercial use and Professional Voice Cloning are locked behind paid tiers"],
-             "best_for": "Creators who need the most realistic, expressive AI voice generation and cloning.",
-             "deep": {
-                "overview": "ElevenLabs is an AI audio research and product company, founded in 2022 by Piotr Dabkowski and Mati Staniszewski, that builds text-to-speech, speech-to-text, voice cloning, dubbing and conversational voice-agent technology. It has grown from a text-to-speech novelty into one of the most widely used AI voice platforms, powering audiobook narration, dubbing, podcast production and increasingly enterprise voice agents for call centers and customer support.\n\nIts core differentiator is breadth on a single platform: text-to-speech, voice cloning, dubbing, sound effects, music generation and now full conversational voice agents (ElevenAgents) with low-latency voice-to-voice interaction, rather than being a single-purpose narration tool like Murf or WellSaid Labs.",
-                "features_detailed": [
-                    {"title": "Text to Speech", "desc": "Converts written text into speech across 30+ languages using multiple model tiers so users can trade off latency, cost and expressiveness."},
-                    {"title": "Instant & Professional Voice Cloning", "desc": "Clone a voice from a short sample (Instant, Starter plan and up) or a larger, higher-fidelity dataset (Professional, Creator plan and up)."},
-                    {"title": "Dubbing Studio", "desc": "Automatically translates and re-voices video or audio into other languages while preserving timing and the original speaker's vocal character."},
-                    {"title": "Conversational AI / Voice Agents (ElevenAgents)", "desc": "Build low-latency, voice-to-voice AI agents for customer support, phone calls and other real-time use cases."},
-                    {"title": "Studio & Projects", "desc": "A long-form editor for producing audiobooks, courses and multi-speaker productions with per-paragraph editing and pronunciation control."},
-                    {"title": "Sound Effects & Music Generation", "desc": "Generate short sound effects or full music tracks from text prompts for video, game and podcast production."},
-                    {"title": "Voice Isolator & Voice Changer", "desc": "Clean background noise out of existing recordings, or convert one voice's performance into a different AI voice while preserving delivery."},
-                    {"title": "Developer API", "desc": "A REST/websocket API with per-character credit billing, used to embed TTS, STT and agents directly into third-party products."},
-                ],
-                "pricing_plans": [
-                    {"name": "Free", "price": "$0/mo", "billing": "No credit card required", "features": ["10,000 credits/month", "Text to Speech, Speech to Text, Sound Effects, Voice Design", "3 Studio Projects", "No commercial license"]},
-                    {"name": "Starter", "price": "$6/mo", "billing": "$5/mo if billed yearly", "features": ["30,000 credits/month", "Commercial License", "Instant Voice Cloning", "20 Studio Projects", "Dubbing Studio"]},
-                    {"name": "Creator", "price": "$22/mo", "billing": "$18.33/mo billed yearly; most popular self-serve tier", "features": ["121,000 credits/month", "Professional Voice Cloning", "Everything in Starter"]},
-                    {"name": "Pro", "price": "$99/mo", "billing": "$82.50/mo billed yearly", "features": ["600,000 credits/month", "44.1kHz PCM audio output via API", "192kbps quality audio"]},
-                    {"name": "Scale", "price": "$299/mo", "billing": "$249.17/mo billed yearly; 3 workspace seats", "features": ["1.8M credits/month", "Team Collaboration", "3 Professional Voice Clones"]},
-                    {"name": "Business", "price": "$990/mo", "billing": "$825/mo billed yearly; 10 workspace seats", "features": ["6M credits/month", "Low-latency TTS as low as $0.05/minute", "10 Professional Voice Clones"]},
-                ],
-                "pros_expanded": [
-                    "Widely regarded by reviewers and independent testers as having some of the most natural, emotionally expressive AI voices of any mainstream TTS platform",
-                    "Single platform spans TTS, cloning, dubbing, sound effects, music and voice agents, reducing the need for multiple vendors",
-                    "Developer-friendly API that reviewers report getting working in under 15 minutes",
-                    "Broad language coverage (30+ languages) with dubbing that preserves timing and speaker tone",
-                    "Free tier is genuinely usable for testing (10,000 credits/month) without a credit card",
-                    "Startup Grants program offers free credits for eligible early-stage companies building voice agents",
-                ],
-                "cons_expanded": [
-                    "The credit-based pricing system is confusing to many users — reviewers say it's hard to predict costs or see per-feature spend before generating audio",
-                    "Commercial use requires at minimum the paid Starter tier; the Free plan cannot be used commercially",
-                    "Costs escalate quickly for heavy users — the Business plan runs $990/month before any enterprise negotiation",
-                    "Professional Voice Cloning is gated behind the Creator plan and up, putting a marquee feature behind additional spend",
-                    "Some reviewers report burning through credits quickly on longer-form or multi-take projects without clear per-generation cost visibility",
-                    "Getting the exact intended tone or emotional inflection sometimes takes trial and error, particularly for longer narration",
-                ],
-                "who_for": "ElevenLabs is best suited for developers and technical teams building voice into products via API, content creators and studios producing audiobooks, dubbing or narration who want best-in-class voice realism, and companies building voice agents for support or sales. Teams that need only occasional, simple narration on a tight, predictable budget may find Murf AI or WellSaid Labs' flatter, minutes-based pricing easier to plan around.",
-                "reviews": {
-                    "g2_rating": "4.5/5", "g2_count": "1,140+ reviews",
-                    "capterra_rating": "4.7/5", "capterra_count": "~18 reviews",
-                    "summary": "ElevenLabs is consistently rated highly on both G2 and Capterra, with reviewers repeatedly citing voice realism, ease of setup and responsive support. The most consistent criticism across G2, Capterra and Reddit is pricing — the credit system makes it hard to predict costs, and per-feature spend isn't clearly surfaced, which frustrates users who burn through credits without warning. Reddit threads note it's considered the gold standard for high-end content creators and developers, but a real constraint for anyone on a tight budget.",
-                    "praise": ["Voice realism and emotional depth of the audio output", "Fast, simple setup for both no-code users and developers via API", "Responsive customer support"],
-                    "complaints": ["Pricing is high relative to competitors, especially at Pro/Scale/Business tiers", "Credit system makes it hard to track or predict spend per feature", "Commercial use and Professional Voice Cloning are locked behind paid tiers", "Achieving an exact desired tone/emotion can require repeated regeneration"],
-                },
-                "faq": [
-                    {"q": "Does ElevenLabs have a free plan?", "a": "Yes. The Free plan gives 10,000 credits per month with no credit card required, but it does not include commercial usage rights — those start on the $6/mo Starter plan."},
-                    {"q": "How much does ElevenLabs cost per month?", "a": "Paid plans run from $6/mo (Starter) up to $990/mo (Business), with a custom-priced Enterprise tier above that. Annual billing saves roughly 17% on every paid tier."},
-                    {"q": "What's the difference between Instant and Professional voice cloning?", "a": "Instant Voice Cloning creates a synthetic voice from a short sample and is available from the Starter plan; Professional Voice Cloning uses a larger training dataset for a more accurate clone and requires the Creator plan or above."},
-                    {"q": "Can I use ElevenLabs for commercial projects?", "a": "Only on paid plans. The Free plan is for evaluation only; a Commercial License is included starting with the $6/mo Starter plan."},
-                    {"q": "Is ElevenLabs worth it compared to Murf or WellSaid Labs?", "a": "If voice realism, API access and multi-feature breadth (cloning, dubbing, agents) matter most, ElevenLabs is generally rated the strongest option. If predictable per-minute pricing and a simpler no-code studio matter more, Murf or WellSaid Labs may be easier to budget for."},
-                    {"q": "What is ElevenAgents?", "a": "ElevenAgents is ElevenLabs' conversational AI product for building low-latency, voice-to-voice agents — for example, phone-based customer support bots — on top of the same voice models used for TTS."},
-                ],
-             }},
+            {'name': 'ElevenLabs',
+ 'tagline': 'Realistic AI voices, cloning, dubbing and voice agents on one platform',
+ 'desc': 'ElevenLabs offers text-to-speech, speech-to-text, voice cloning, dubbing, sound effects, music and conversational voice agents, sold through a monthly credit allowance.',
+ 'pricing': 'Free (10k credits/mo, no commercial use); Starter $6/mo (first month $1); Creator $22/mo (first month $11); Pro $99/mo; Scale $299/mo; Business $990/mo; Enterprise custom',
+ 'url': 'https://elevenlabs.io',
+ 'hero_image': 'elevenlabs-hero.jpg',
+ 'hero_image_alt': 'Screenshot of the ElevenLabs homepage hero section',
+ 'tags': ['Voice cloning', 'TTS'],
+ 'features': ['Text to speech in 30+ languages with several model tiers',
+              'Instant cloning from Starter, Professional cloning from Creator',
+              'Dubbing Studio for translating video and audio',
+              'Conversational voice agents (ElevenAgents) and a developer API',
+              'Sound effects, music, voice isolation and a long-form Studio editor'],
+ 'pros': ['Very natural, expressive voices that reviewers rate among the best',
+          'One platform for TTS, cloning, dubbing, music and agents',
+          'Usable free tier for testing',
+          'Cheap first month on Starter and Creator'],
+ 'cons': ['Credit system makes spend hard to predict', 'No commercial license on Free', 'Professional cloning needs Creator ($22/mo) or above', 'Costs climb steeply at Pro, Scale and Business'],
+ 'best_for': 'Creators and developers who want the most realistic AI voices, cloning and voice agents and can manage a credit budget.',
+ 'deep': {'overview': 'ElevenLabs is a strong pick for creators, developers and companies who care most about natural-sounding voices and want cloning, dubbing or voice agents from one vendor. Skip '
+                      'it if you need occasional narration on a fixed, easy-to-predict budget, because everything is metered in credits and the cost per feature is not obvious up front.\n'
+                      '\n'
+                      'It covers text to speech, speech to text, voice cloning, dubbing, sound effects, music and conversational agents, with a developer API. Plans are monthly credit allowances '
+                      '(roughly 1,000 credits per minute of speech on the plans listed). Commercial use starts on Starter, Instant cloning on Starter, and Professional cloning on Creator.',
+          'features_detailed': [{'title': 'Text to Speech', 'desc': 'Turns text into speech in 30+ languages with several model tiers that trade latency, cost and expressiveness.'},
+                                {'title': 'Instant and Professional Voice Cloning',
+                                 'desc': 'Instant cloning from a short sample is included from Starter; Professional cloning from a larger dataset starts on Creator.'},
+                                {'title': 'Dubbing Studio', 'desc': 'Translates and re-voices video or audio into other languages. Included from Starter.'},
+                                {'title': 'ElevenAgents', 'desc': 'Builds low-latency, voice-to-voice conversational agents for support and phone use.'},
+                                {'title': 'Studio projects', 'desc': 'Long-form editor for audiobooks and multi-speaker work: 3 projects on Free, 20 on Starter.'},
+                                {'title': 'Sound effects, music and voice design', 'desc': 'Generate effects, music and new voices from prompts. Music commercial use is listed from Starter.'},
+                                {'title': 'Speech to Text', 'desc': 'Transcription included across plans, including Free.'},
+                                {'title': 'Developer API', 'desc': 'REST and websocket API billed per character; the API pricing page lists $0.04 to $0.08 per 1K characters depending on model.'}],
+          'pricing_plans': [{'name': 'Free',
+                             'price': '$0',
+                             'billing': 'No card required',
+                             'features': ['10,000 credits/month (about 10 minutes of TTS)', 'TTS, speech to text, sound effects, voice design', '3 Studio projects', 'No commercial license']},
+                            {'name': 'Starter',
+                             'price': '$6/mo (first month $1)',
+                             'billing': 'Monthly; yearly toggle exists, check the official pricing page for the annual rate',
+                             'features': ['30,000 credits/month', 'Commercial license', 'Instant Voice Cloning', 'Dubbing Studio', '20 Studio projects']},
+                            {'name': 'Creator',
+                             'price': '$22/mo (first month $11)',
+                             'billing': 'Monthly; check the official pricing page for the annual rate',
+                             'features': ['121,000 credits/month', 'Professional Voice Cloning', '192 kbps audio', 'Everything in Starter']},
+                            {'name': 'Pro',
+                             'price': '$99/mo',
+                             'billing': 'Monthly; check the official pricing page for the annual rate',
+                             'features': ['600,000 credits/month', '44.1kHz PCM output via API', '10 concurrent requests']},
+                            {'name': 'Scale',
+                             'price': '$299/mo',
+                             'billing': 'Monthly; check the official pricing page for the annual rate',
+                             'features': ['1.8M credits/month', '3 workspace seats and team collaboration', '3 Professional Voice Clones']},
+                            {'name': 'Business',
+                             'price': '$990/mo',
+                             'billing': 'Monthly; check the official pricing page for the annual rate',
+                             'features': ['6M credits/month', 'Low-latency TTS from about $0.05/minute', '10 workspace seats', '10 Professional Voice Clones']},
+                            {'name': 'Enterprise',
+                             'price': 'Custom - contact sales',
+                             'billing': 'Negotiated',
+                             'features': ['Custom terms, DPA/SLA, HIPAA BAAs', 'Custom SSO, higher concurrency', 'Volume discounts and priority support']}],
+          'pros_expanded': ['Voice realism and emotional range are widely praised in reviews and independent tests',
+                            'One vendor covers TTS, STT, cloning, dubbing, music and voice agents',
+                            'Free plan is real enough to evaluate the voices before paying',
+                            'Commercial license and Instant cloning start at only $6/mo',
+                            'Rising plans lift concurrency (2 on Free up to 25 on Business), which matters for API and agent use',
+                            'Enterprise tier offers HIPAA BAAs, SSO and SLAs'],
+          'cons_expanded': ['Credits are consumed per generation and per feature, so projected cost is hard to estimate; re-takes burn credits',
+                            'Starter and Creator headline prices are introductory first-month offers; the standard rates are $6 and $22',
+                            'Free plan cannot be used commercially',
+                            'Professional Voice Cloning needs Creator or above, and only 3 clones on Scale',
+                            'Large jumps between tiers: $99, $299, $990 per month',
+                            'Getting the exact tone sometimes needs multiple regenerations'],
+          'who_for': 'Good for: audiobook and video creators, podcasters, developers embedding voice via API, and teams building voice agents who value realism. Not for: anyone who needs commercial '
+                     'rights on the free plan, people on a tight budget with long-form daily output (credits go fast), or users who want flat per-minute pricing and a simple no-code studio, who may '
+                     'prefer Murf or WellSaid.',
+          'faq': [{'q': 'Does ElevenLabs have a free plan?',
+                   'a': 'Yes: 10,000 credits a month (about 10 minutes of speech) with no card, but no commercial license. Commercial use starts on Starter.'},
+                  {'q': 'How much does ElevenLabs cost?',
+                   'a': 'Starter $6/mo (first month $1), Creator $22/mo (first month $11), Pro $99, Scale $299, Business $990, plus custom Enterprise. Prices exclude taxes. Check the official page '
+                        'for annual rates, which I could not read.'},
+                  {'q': 'Which plan do I need for voice cloning?', 'a': 'Instant Voice Cloning is on Starter and up. Professional Voice Cloning requires Creator or above.'},
+                  {'q': 'Can I use the output commercially?', 'a': 'Only on paid plans; Starter and above include a commercial license.'},
+                  {'q': 'How does it compare with Murf or WellSaid Labs?',
+                   'a': 'ElevenLabs is usually rated stronger for realism, API and breadth; Murf and WellSaid are simpler studios that can be easier to budget. Try the free plan against your own '
+                        'script.'}]},
+ 'last_checked': '2026-10-15',
+ 'alternatives': [{'slug': 'murf-ai', 'why': 'Pick it for a simpler voiceover studio aimed at presentations and e-learning.'},
+                  {'slug': 'wellsaid-labs', 'why': 'Pick it for brand-consistent corporate voiceover with an enterprise focus.'},
+                  {'slug': 'kits-ai', 'why': 'Pick it if you are a musician who mainly wants singing-voice cloning and vocal tools.'}]},
             {"name": "Descript", "tagline": "Edit audio and video by editing a text transcript", "desc": "Descript transcribes recordings into editable text; deleting or moving words edits the actual audio/video, and its Underlord AI co-editor and AI Speech features can clone a voice for corrections.", "pricing": "Free tier available; Hobbyist from $16/mo (billed yearly), Creator (most popular) from $24/mo (billed yearly)", "url": "https://www.descript.com",
              "tags": ["Editing", "Podcasting"],
              "features": ["Edit audio and video by editing a text transcript", "Underlord AI co-editor executes edits and writes show notes on request", "Studio Sound cleanup and Eye Contact/Green Screen AI tools", "Remote multitrack recording (Rooms) for up to 10 participants"],
@@ -18139,6 +18406,61 @@ for cat in CATEGORIES:
         t["slug"] = slugify(t["name"])
         ALL_TOOLS.append(t)
 
+
+# ---------- trust / disclosure helpers (Oct 2026 cleanup) ----------
+REMOVED_TOOLS = []   # tools taken out of rotation after the content cleanup (data kept, not rendered)
+REMOVED_SLUGS = {slugify(_t["name"]) for _t in REMOVED_TOOLS}
+PARTNER_SLUGS = {"deepsolv", "groweasy", "talkeasy", "arka-inventory"}
+FOUNDER_SLUGS = {"pagelens-ai"}
+DISCLOSURE_PARTNER = "Disclosure: this company has a commercial relationship with the ToolScout team."
+DISCLOSURE_FOUNDER = "Disclosure: PageLens.ai is built by ToolScout's founder."
+CATALOG_AUDIT = "Oct 2026"
+
+def disclosure_text(slug):
+    if slug in PARTNER_SLUGS: return DISCLOSURE_PARTNER
+    if slug in FOUNDER_SLUGS: return DISCLOSURE_FOUNDER
+    return None
+
+def partner_badge(slug):
+    if slug in PARTNER_SLUGS: return '<span class="partner-badge" style="display:inline-block;margin-left:8px;padding:2px 8px;border-radius:999px;border:1px solid currentColor;font-size:.7rem;font-weight:600;vertical-align:middle;">Partner</span>'
+    if slug in FOUNDER_SLUGS: return '<span class="partner-badge" style="display:inline-block;margin-left:8px;padding:2px 8px;border-radius:999px;border:1px solid currentColor;font-size:.7rem;font-weight:600;vertical-align:middle;">Founder-built</span>'
+    return ""
+
+def disclosure_html(slug, narrow=True):
+    d = disclosure_text(slug)
+    if not d: return ""
+    return f'''<section class="container section narrow" style="padding-top:0;"><p class="muted small partner-disclosure" style="border-left:3px solid currentColor;padding-left:12px;">{d}</p></section>'''
+
+_STOP = set("the a an and or of for to in on with your you is it that this as by from at be are can into more all any ai tool tools app".split())
+def _kw(t):
+    words = set()
+    for x in t.get("tags", []):
+        words |= {w for w in re.findall(r"[a-z0-9]+", x.lower()) if w not in _STOP and len(w) > 2}
+    for x in t.get("features", [])[:6] + [t.get("tagline", "")]:
+        words |= {w for w in re.findall(r"[a-z0-9]+", x.lower()) if w not in _STOP and len(w) > 3}
+    return words
+
+def pick_alternatives(t, cat, limit=3):
+    """Explicit t['alternatives'] ([slug | {slug, why}]) wins; otherwise same-category tools by tag/feature overlap. Never self or removed tools."""
+    by_slug = {x["slug"]: x for x in ALL_TOOLS}
+    out = []
+    for a in t.get("alternatives") or []:
+        sl = a if isinstance(a, str) else a.get("slug")
+        why = "" if isinstance(a, str) else a.get("why", "")
+        o = by_slug.get(sl)
+        if o and sl != t["slug"] and sl not in REMOVED_SLUGS:
+            out.append((o, why))
+    if t.get("alternatives") is not None and "alternatives" in t:
+        return out[:limit]
+    me = _kw(t)
+    scored = []
+    for o in cat["tools"]:
+        if o["slug"] == t["slug"] or o["slug"] in REMOVED_SLUGS: continue
+        sc = len(me & _kw(o)) + 3 * len({x.lower() for x in t.get("tags", [])} & {x.lower() for x in o.get("tags", [])})
+        if sc >= 3: scored.append((sc, o))
+    scored.sort(key=lambda p: -p[0])
+    return [(o, "") for _, o in scored[:limit]]
+
 def stagger(i, cap=8, step=0.06):
     return round(min(i, cap) * step, 2)
 
@@ -18464,11 +18786,15 @@ def tool_jsonld(t, cat):
         "name": t["name"], "description": t["desc"], "url": t["url"],
         "applicationCategory": cat["name"], "operatingSystem": "Web",
     }
+    if t.get("last_checked"):
+        software["dateModified"] = t["last_checked"]
     graph_scripts = []
     if d:
         r = d.get("reviews") or {}
         g2, cap = _parse_rating(r.get("g2_rating")), _parse_rating(r.get("capterra_rating"))
-        ratings = [x for x in (g2, cap) if x]
+        ratings = [x for x in (g2, cap) if x and x <= 5]
+        if t['slug'] in PARTNER_SLUGS or t['slug'] in FOUNDER_SLUGS:
+            ratings = []   # no self-serving rating markup for partner/founder listings
         if ratings:
             count = _parse_count(r.get("g2_count")) + _parse_count(r.get("capterra_count"))
             software["aggregateRating"] = {
@@ -18613,12 +18939,13 @@ def tool_card(t, depth=0, index=0):
     return f"""
 <article class="tool-card reveal tilt" data-category="{t['cat_slug']}" data-name="{t['name'].lower()}" style="transition-delay:{d}s">
   <div class="tool-card-top">
-    <h3><a href="{tool_link}">{t['name']}</a></h3>
+    <h3><a href="{tool_link}">{t['name']}</a>{partner_badge(t['slug'])}</h3>
     <a class="cat-label" href="{cat_link}">{t['category']}</a>
   </div>
   <p class="tool-tagline">{t['tagline']}</p>
   <p class="tool-desc">{t['desc']}</p>
   <p class="tool-pricing"><strong>Pricing</strong> {t['pricing']}</p>
+  {('<p class="muted small">' + disclosure_text(t['slug']) + '</p>') if disclosure_text(t['slug']) else ''}
   <div class="tags">{tags}</div>
   <div class="card-actions">
     <a class="btn btn-primary magnetic" href="{tool_link}">More details <span class="arrow">&rarr;</span></a>
@@ -18671,10 +18998,11 @@ _home_review_cards = "".join(
     f'''<article class="tool-card reveal tilt" style="transition-delay:{stagger(i)}s">
   <div class="tool-card-top">
     <h3><a href="reviews/{r['slug']}.html">{r['tool']['name']}</a></h3>
-    <span class="cat-label">{r['overall_rating']}/5</span>
+    {partner_badge(r['tool']['slug'])}
   </div>
   <p class="tool-tagline">{r['tool']['tagline']}</p>
   <p class="tool-desc">{r['subheadline']}</p>
+  <p class="muted small">{disclosure_text(r['tool']['slug']) or ''}</p>
   <div class="card-actions">
     <a class="btn btn-primary magnetic" href="reviews/{r['slug']}.html">Read review <span class="arrow">&rarr;</span></a>
   </div>
@@ -18697,7 +19025,7 @@ home_body = f"""
   <div class="container">
     <div class="kicker reveal">{len(ALL_TOOLS)}+ curated AI tools</div>
     <h1 class="reveal" style="transition-delay:.08s">The quiet way to find <em>the right</em> AI tool</h1>
-    <p class="hero-sub reveal" style="transition-delay:.16s">A carefully curated directory &mdash; no noise, no rankings for sale. Just clear comparisons across writing, image, video, code and more.</p>
+    <p class="hero-sub reveal" style="transition-delay:.16s">A carefully curated directory &mdash; partner listings are always labelled. Just clear comparisons across writing, image, video, code and more.</p>
     <form class="search-wrap reveal" style="transition-delay:.24s" action="all-tools.html" method="get">
       <input type="text" name="q" placeholder="Search AI tools, e.g. 'video generator'" aria-label="Search AI tools">
       <button type="submit" class="magnetic">Search <span class="arrow">&rarr;</span></button>
@@ -18710,9 +19038,9 @@ home_body = f"""
 </section>
 
 <section class="container section stats">
-  <div class="stat reveal"><div class="stat-num"><span class="counter" data-target="{len(ALL_TOOLS)}">0</span>+</div><div class="stat-label">AI tools tracked</div></div>
-  <div class="stat reveal" style="transition-delay:.1s"><div class="stat-num"><span class="counter" data-target="{len(CATEGORIES)}">0</span></div><div class="stat-label">Categories</div></div>
-  <div class="stat reveal" style="transition-delay:.2s"><div class="stat-num"><span class="counter" data-target="100">0</span>%</div><div class="stat-label">Independently researched</div></div>
+  <div class="stat reveal"><div class="stat-num"><span class="counter" data-target="{len(ALL_TOOLS)}">{len(ALL_TOOLS)}</span>+</div><div class="stat-label">AI tools tracked</div></div>
+  <div class="stat reveal" style="transition-delay:.1s"><div class="stat-num"><span class="counter" data-target="{len(CATEGORIES)}">{len(CATEGORIES)}</span></div><div class="stat-label">Categories</div></div>
+  <div class="stat reveal" style="transition-delay:.2s"><div class="stat-num">{CATALOG_AUDIT}</div><div class="stat-label">Last full catalog audit</div></div>
 </section>
 
 <section class="container section">
@@ -18747,11 +19075,11 @@ home_body = f"""
 <section class="container section">
   <h2 class="reveal">Why {SITE_NAME}</h2>
   <div class="feature-grid">
-    <div class="feature-card reveal"><div class="feature-icon">&#128269;</div><h3>Deep-researched, not scraped</h3><p class="muted">Every one of our {len(ALL_TOOLS)} listings covers real pricing tiers, a full feature breakdown, and honest pros and cons &mdash; not a one-line scrape from a marketing page.</p></div>
+    <div class="feature-card reveal"><div class="feature-icon">&#128269;</div><h3>Researched from official sites</h3><p class="muted">Every listing is checked against the tool's own website and pricing page, and reviewed by our editor.</p></div>
     <div class="feature-card reveal" style="transition-delay:.06s"><div class="feature-icon">&#9989;</div><h3>Real reviews only</h3><p class="muted">We only show a G2, Capterra, Trustpilot or App Store rating when we can verify it. No invented stars, ever.</p></div>
     <div class="feature-card reveal" style="transition-delay:.12s"><div class="feature-icon">&#9878;&#65039;</div><h3>Compare any 3 tools</h3><p class="muted">Pick a category and up to 3 tools for an instant side-by-side comparison of pricing, features and fit. <a href="compare.html">Try it &rarr;</a></p></div>
     <div class="feature-card reveal" style="transition-delay:.18s"><div class="feature-icon">&#128706;&#65039;</div><h3>{len(ALL_TOOLS)} tools, {len(CATEGORIES)} categories</h3><p class="muted">From writing and image generation to no-code builders and presentations &mdash; and we keep adding more.</p></div>
-    <div class="feature-card reveal" style="transition-delay:.24s"><div class="feature-icon">&#128683;</div><h3>No pay-for-rank</h3><p class="muted">Placement on {SITE_NAME} is never for sale. What you see reflects research, not advertising spend.</p></div>
+    <div class="feature-card reveal" style="transition-delay:.24s"><div class="feature-icon">&#128683;</div><h3>Partner listings are always labelled</h3><p class="muted">A few listings have a commercial relationship with the ToolScout team. They carry a visible Partner label and a disclosure line.</p></div>
     <div class="feature-card reveal" style="transition-delay:.3s"><div class="feature-icon">&#128240;</div><h3>Fresh AI insights, daily</h3><p class="muted">A running feed of the AI news that actually matters to builders and buyers &mdash; refreshed every day, just below.</p></div>
   </div>
 </section>
@@ -18844,12 +19172,18 @@ for cat in CATEGORIES:
 def tool_detail_body(t, cat, depth=1):
     prefix = "../" if depth else ""
     d = t.get("deep")
-    others = [o for o in cat["tools"] if o["slug"] != t["slug"]][:3]
+    others = pick_alternatives(t, cat)
     alt_html = "".join(
         f'<a class="alt-card reveal tilt" href="{prefix}tools/{o["slug"]}.html" style="transition-delay:{stagger(i)}s">'
-        f'<h4>{o["name"]}</h4><p class="muted">{o["tagline"]}</p><span class="text-link">Compare <span class="arrow">&rarr;</span></span></a>'
-        for i, o in enumerate(others)
+        f'<h4>{o["name"]}</h4><p class="muted">{why or o["tagline"]}</p><span class="text-link">Compare <span class="arrow">&rarr;</span></span></a>'
+        for i, (o, why) in enumerate(others)
     )
+    alt_section = f'''
+<section class="container section" style="padding-top:0;">
+  <h2 class="reveal">Alternatives to {t['name']}</h2>
+  <div class="alt-grid">{alt_html}</div>
+</section>
+''' if others else ""
 
     hero = f"""
 <section class="container section page-hero tool-hero">
@@ -18906,7 +19240,6 @@ def tool_detail_body(t, cat, depth=1):
         review_banner = f"""
 <section class="container section narrow" style="padding-top:0;">
   <a class="review-banner reveal" href="{prefix}reviews/{_rev['slug']}.html">
-    <span class="review-banner-score">{_rev['overall_rating']}<span class="muted">/5</span></span>
     <span class="review-banner-text"><strong>Read our in-depth {t['name']} review</strong><span class="muted"> &mdash; founder background, results, pricing caveats and FAQ.</span></span>
     <span class="arrow">&rarr;</span>
   </a>
@@ -18916,12 +19249,13 @@ def tool_detail_body(t, cat, depth=1):
     best_for_short = t['best_for'] if not d else d['who_for'].split('. ')[0].strip().rstrip('.') + '.'
     quick_facts = f"""
 <section class="container section narrow" style="padding-top:0;">
+  <p class="muted small byline reveal">Reviewed by <a href="{prefix}about.html">Mayank</a> &middot; Last checked {t.get('last_checked') or LAST_UPDATED}</p>
   <dl class="quick-facts reveal">
     <div class="qf-item"><dt>Category</dt><dd><a href="{prefix}categories/{cat['slug']}.html">{cat['name']}</a></dd></div>
     <div class="qf-item"><dt>Pricing</dt><dd>{t['pricing']}</dd></div>
     <div class="qf-item"><dt>Best for</dt><dd>{best_for_short}</dd></div>
     <div class="qf-item"><dt>Official site</dt><dd><a href="{t['url']}" target="_blank" rel="noopener sponsored">{t['url'].replace('https://', '').replace('http://', '').rstrip('/')}</a></dd></div>
-    <div class="qf-item"><dt>Last updated</dt><dd>{LAST_UPDATED}</dd></div>
+    <div class="qf-item"><dt>Last checked</dt><dd>{t.get('last_checked') or LAST_UPDATED}</dd></div>
   </dl>
 </section>
 """
@@ -18955,11 +19289,8 @@ def tool_detail_body(t, cat, depth=1):
   </div>
 </section>
 """
-        return hero + hero_image_html + quick_facts + review_banner + body + f"""
-<section class="container section" style="padding-top:0;">
-  <h2 class="reveal">Alternatives to {t['name']}</h2>
-  <div class="alt-grid">{alt_html}</div>
-</section>
+        return hero + hero_image_html + quick_facts + disclosure_html(t['slug']) + review_banner + body + f"""
+{alt_section}
 
 <section class="container section cta-band reveal">
   <h2>Ready to try {t['name']}?</h2>
@@ -19047,10 +19378,7 @@ def tool_detail_body(t, cat, depth=1):
   </div>
 </section>''' if r else ''}
 
-<section class="container section" style="padding-top:0;">
-  <h2 class="reveal">Alternatives to {t['name']}</h2>
-  <div class="alt-grid">{alt_html}</div>
-</section>
+{alt_section}
 
 <section class="container section narrow" style="padding-top:0;">
   <h2 class="reveal">Frequently asked questions</h2>
@@ -19063,7 +19391,7 @@ def tool_detail_body(t, cat, depth=1):
   <a href="{t['url']}" target="_blank" rel="noopener sponsored" class="btn btn-primary magnetic">Visit {t['name']} <span class="arrow">&rarr;</span></a>
 </section>
 """
-    return hero + hero_image_html + quick_facts + review_banner + body
+    return hero + hero_image_html + quick_facts + disclosure_html(t['slug']) + review_banner + body
 
 for cat in CATEGORIES:
     for t in cat["tools"]:
@@ -19768,7 +20096,7 @@ def review_jsonld(rev):
         "author": {"@type": "Organization", "name": SITE_NAME, "url": f"{SITE_URL}/"},
         "publisher": {"@type": "Organization", "name": SITE_NAME},
     }
-    graph_scripts = [_script(review_schema)]
+    graph_scripts = []   # no Review/AggregateRating markup for self-reviewed brand pages
     if rev.get("faq"):
         faqpage = {
             "@context": "https://schema.org", "@type": "FAQPage",
@@ -19850,7 +20178,6 @@ def review_body(rev, depth=1):
 
 <section class="container section narrow" style="padding-top:0;">
   <div class="verdict-box review-verdict reveal">
-    <div class="review-score-badge"><span class="review-score-num">{rev['overall_rating']}</span><span class="muted">/5</span></div>
     <div>
       <span class="winner-tag">Our verdict</span>
       <p>{rev['verdict']}</p>
@@ -19858,15 +20185,7 @@ def review_body(rev, depth=1):
   </div>
 </section>
 
-<section class="container section" style="padding-top:0;">
-  <h2 class="reveal">{t['name']} rating breakdown</h2>
-  <div class="table-wrap reveal">
-    <table class="compare-table rating-table">
-      <thead><tr><th>Factor</th><th>Rating</th><th>Why</th></tr></thead>
-      <tbody>{factor_rows}</tbody>
-    </table>
-  </div>
-</section>
+{disclosure_html(t["slug"])}
 
 <section class="container section narrow" style="padding-top:0;">
   <div class="callout reveal">
@@ -19915,10 +20234,11 @@ def reviews_index_body(depth=1):
         f'''<article class="tool-card reveal tilt" style="transition-delay:{stagger(i)}s">
   <div class="tool-card-top">
     <h3><a href="{prefix}reviews/{r['slug']}.html">{r['tool']['name']}</a></h3>
-    <span class="cat-label">{r['overall_rating']}/5</span>
+    {partner_badge(r['tool']['slug'])}
   </div>
   <p class="tool-tagline">{r['tool']['tagline']}</p>
   <p class="tool-desc">{r['subheadline']}</p>
+  <p class="muted small">{disclosure_text(r['tool']['slug']) or ''}</p>
   <div class="card-actions">
     <a class="btn btn-primary magnetic" href="{prefix}reviews/{r['slug']}.html">Read review <span class="arrow">&rarr;</span></a>
     <a class="text-link" href="{r['tool']['url']}" target="_blank" rel="noopener sponsored">Visit site <span class="arrow">&rarr;</span></a>
@@ -19948,18 +20268,28 @@ about_body = f"""
 <section class="container section narrow page-hero">
   <div class="kicker reveal">About</div>
   <h1 class="reveal" style="transition-delay:.08s">About {SITE_NAME}</h1>
-  <p class="reveal" style="transition-delay:.16s">{SITE_NAME} is a directory built to help people quickly find, compare and choose AI tools without wading through dozens of scattered blog posts. We organize tools into clear categories, give straightforward pricing summaries, and link directly to the official product so you can try it yourself.</p>
+  <p class="reveal" style="transition-delay:.16s">{SITE_NAME} is a directory built to help people find, compare and choose AI tools without wading through scattered blog posts. Tools are organised into clear categories, with plain pricing summaries and direct links to each official product.</p>
+  <h2 class="reveal">Who runs it</h2>
+  <p class="reveal">{SITE_NAME} is edited by <strong>Mayank</strong> &mdash; founder of OffBuddy (a digital marketing &amp; tech agency in Bengaluru) and co-founder of Pagelens.ai. Every page is reviewed by him before it stays on the site.</p>
+  <h2 class="reveal">How we research</h2>
+  <p class="reveal">Each tool is researched from its official website and pricing page. Drafts are AI-assisted, then reviewed by the editor. Pricing is re-checked regularly, and each tool page shows the date it was last checked. We do not invent reviews or ratings: a third-party rating (G2, Capterra, App Store and similar) appears only when we have verified it at the source.</p>
+  <h2 class="reveal">Partner and founder listings</h2>
+  <p class="reveal">Some listings have a commercial relationship with the {SITE_NAME} team, and PageLens.ai is built by the site's founder. These are always marked with a visible label and a disclosure line on the tool page, the card and any review.</p>
   <h2 class="reveal">How we pick tools</h2>
-  <p class="reveal">We look for tools that are actively maintained, have a clear use case, and are widely used or well reviewed within their category. Listings are researched independently; we do not accept payment in exchange for a favorable review.</p>
+  <p class="reveal">We look for tools that are actively maintained, have a clear use case, and are widely used or well reviewed in their category. We are currently pruning weaker pages and re-checking the rest, so some listings may be removed or rewritten.</p>
   <h2 class="reveal">How we make money</h2>
-  <p class="reveal">Some links on this site are affiliate links, meaning we may earn a small commission if you sign up through them, at no extra cost to you. This supports the site and never determines which tools we choose to list or how we describe them.</p>
+  <p class="reveal">Some links on this site are affiliate links, meaning we may earn a small commission if you sign up through them, at no extra cost to you. This never determines which tools we list or how we describe them.</p>
   <h2 class="reveal">Get in touch</h2>
   <p class="reveal">Want to suggest a tool, report outdated pricing, or ask about a listing? Visit our <a href="submit-tool.html">Submit a Tool</a> page.</p>
 </section>
 """
 
+_person = {"@context": "https://schema.org", "@type": "Person", "name": "Mayank", "jobTitle": "Editor, ToolScout; Founder, OffBuddy; Co-founder, Pagelens.ai",
+           "worksFor": [{"@type": "Organization", "name": "OffBuddy"}, {"@type": "Organization", "name": "Pagelens.ai", "url": "https://pagelens.ai"}],
+           "url": f"{SITE_URL}/about.html"}
+
 with open(os.path.join(ROOT, "about.html"), "w") as f:
-    f.write(page(f"About – {SITE_NAME}", f"Learn how {SITE_NAME} researches, selects and lists AI tools.", about_body, depth=0, url_path="about.html"))
+    f.write(page(f"About – {SITE_NAME}", f"Learn how {SITE_NAME} researches, selects and lists AI tools.", about_body, depth=0, extra_head=_script(_person), url_path="about.html"))
 
 # ---------- submit tool page ----------
 

@@ -1,0 +1,3548 @@
+{
+ "phase": "FIX",
+ "audit_date": "2026-10-15",
+ "trust_fixes_done": true,
+ "removal_approved": false,
+ "removal_applied": false,
+ "remove": [
+  {
+   "slug": "emailwritr",
+   "name": "EmailWritr",
+   "reason": "Thin public info; no pricing verifiable"
+  },
+  {
+   "slug": "bramework",
+   "name": "Bramework",
+   "reason": "No longer accepting new sign-ups"
+  },
+  {
+   "slug": "contentedge",
+   "name": "ContentEdge",
+   "reason": "URL no longer a product; just a blog"
+  },
+  {
+   "slug": "jotbot",
+   "name": "JotBot",
+   "reason": "Unverifiable waitlist product, obscure"
+  },
+  {
+   "slug": "paperrater",
+   "name": "PaperRater",
+   "reason": "Redirects to Scribbr; service discontinued"
+  },
+  {
+   "slug": "peppertype-ai",
+   "name": "Peppertype.ai",
+   "reason": "Product page redirected; Peppertype no longer offered"
+  },
+  {
+   "slug": "storyspeak",
+   "name": "StorySpeak",
+   "reason": "Dictation tool, thin pricing info"
+  },
+  {
+   "slug": "xinva",
+   "name": "Xinva",
+   "reason": "Thin info, stale, obscure"
+  },
+  {
+   "slug": "dall-e-3",
+   "name": "DALL-E 3",
+   "reason": "Retired model, not a standalone tool"
+  },
+  {
+   "slug": "asset-forge",
+   "name": "Asset Forge",
+   "reason": "Thin, placeholder-filled, obscure"
+  },
+  {
+   "slug": "geni-e",
+   "name": "geni-e",
+   "reason": "Domain moved, no verifiable info"
+  },
+  {
+   "slug": "resleeve",
+   "name": "Resleeve",
+   "reason": "Product changed; listing mismatched, thin info"
+  },
+  {
+   "slug": "shai",
+   "name": "Shai",
+   "reason": "Obscure; listing contradicted, little public info"
+  },
+  {
+   "slug": "crano-ai",
+   "name": "Crano AI",
+   "reason": "Obscure generic wrapper; no useful verifiable detail"
+  },
+  {
+   "slug": "basedlabs",
+   "name": "BasedLabs",
+   "reason": "Obscure aggregator, under maintenance, thin info"
+  },
+  {
+   "slug": "zeedle-ai",
+   "name": "Zeedle AI",
+   "reason": "Unverifiable obscure tool; no useful info"
+  },
+  {
+   "slug": "cleanlab-studio",
+   "name": "Cleanlab Studio",
+   "reason": "Acquired; Studio product no longer presented"
+  },
+  {
+   "slug": "designverse",
+   "name": "DesignVerse",
+   "reason": "Thin demo-only enterprise tool, little public info"
+  },
+  {
+   "slug": "kaiba",
+   "name": "Kaiba",
+   "reason": "Unverifiable, obscure, no public info"
+  },
+  {
+   "slug": "nekton-ai",
+   "name": "Nekton AI",
+   "reason": "Thin, unverifiable, nothing useful to write"
+  },
+  {
+   "slug": "sql-chat",
+   "name": "SQL Chat",
+   "reason": "Hosted product sunset; only OSS repo remains"
+  },
+  {
+   "slug": "evosuite",
+   "name": "EvoSuite",
+   "reason": "Not really AI; unmaintained since 2021"
+  },
+  {
+   "slug": "sheetsavvy-ai",
+   "name": "SheetSavvy AI",
+   "reason": "Obscure and unverifiable"
+  },
+  {
+   "slug": "invisible-ai",
+   "name": "Invisible AI",
+   "reason": "Industrial hardware, not a listed AI tool"
+  },
+  {
+   "slug": "kudos",
+   "name": "Kudos",
+   "reason": "Not an AI tool"
+  },
+  {
+   "slug": "mail-magic-ai",
+   "name": "Mail Magic AI",
+   "reason": "Unverifiable, thin public info"
+  },
+  {
+   "slug": "productlab",
+   "name": "ProductLab",
+   "reason": "Not an AI tool"
+  },
+  {
+   "slug": "symbotic",
+   "name": "Symbotic",
+   "reason": "Not a listed AI tool; enterprise robotics"
+  },
+  {
+   "slug": "gaucho-ai",
+   "name": "Gaucho AI",
+   "reason": "Consultancy, not an AI tool"
+  },
+  {
+   "slug": "chronicle",
+   "name": "Chronicle",
+   "reason": "Unverifiable, thin enterprise-only info"
+  },
+  {
+   "slug": "reggie",
+   "name": "Reggie",
+   "reason": "Domain for sale at GoDaddy"
+  },
+  {
+   "slug": "voicegpt",
+   "name": "VoiceGPT",
+   "reason": "Thin app-store-only listing, no real public info"
+  },
+  {
+   "slug": "advoice",
+   "name": "AdVoice",
+   "reason": "Obscure, thin info, pricing conflict"
+  },
+  {
+   "slug": "echonotes",
+   "name": "EchoNotes",
+   "reason": "Unverifiable, obscure app, thin info"
+  },
+  {
+   "slug": "jinglemaker",
+   "name": "JingleMaker",
+   "reason": "Unverifiable, thin tool, hands off to ElevenLabs"
+  },
+  {
+   "slug": "voicera",
+   "name": "Voicera",
+   "reason": "Unverifiable, obscure, thin info"
+  },
+  {
+   "slug": "ultimate",
+   "name": "Ultimate",
+   "reason": "Zendesk-acquired; overlaps zendesk-ai-agents; no verifiable page"
+  },
+  {
+   "slug": "webbotify",
+   "name": "Webbotify",
+   "reason": "Thin site, no pricing or detail; obscure generic chatbot"
+  },
+  {
+   "slug": "downtobid",
+   "name": "Downtobid",
+   "reason": "Fetch failed; obscure niche construction bidding, no verifiable info"
+  },
+  {
+   "slug": "chorus-ai",
+   "name": "Chorus.ai",
+   "reason": "Domain is a stub linking to ZoomInfo; folded into ZoomInfo"
+  },
+  {
+   "slug": "clari",
+   "name": "Clari",
+   "reason": "Domain redirects to Salesloft; brand merged, no standalone site"
+  },
+  {
+   "slug": "groove",
+   "name": "Groove",
+   "reason": "Fetch failed; sold under Clari/Salesloft; thin, likely folded"
+  },
+  {
+   "slug": "listingpilot",
+   "name": "ListingPilot",
+   "reason": "Fetch blocked; generic unverified pricing, thin info"
+  },
+  {
+   "slug": "alegion-ai",
+   "name": "Alegion AI",
+   "reason": "Absorbed into SanctifAI; services firm, thin"
+  },
+  {
+   "slug": "monkeylearn",
+   "name": "MonkeyLearn",
+   "reason": "Redirects to Medallia; discontinued"
+  },
+  {
+   "slug": "nebulagraph",
+   "name": "NebulaGraph",
+   "reason": "Graph database, not really an AI tool"
+  },
+  {
+   "slug": "obviously-ai",
+   "name": "Obviously AI",
+   "reason": "Rebranded to Zams; product archived"
+  },
+  {
+   "slug": "accoil",
+   "name": "Accoil",
+   "reason": "Consultancy, not an AI tool; pricing mismatch"
+  },
+  {
+   "slug": "ipick-ai",
+   "name": "iPick.ai",
+   "reason": "Unverifiable and obscure; no public info"
+  },
+  {
+   "slug": "galileo-ai",
+   "name": "Galileo AI",
+   "reason": "Redirects to Google Stitch; product discontinued"
+  },
+  {
+   "slug": "appified",
+   "name": "Appified",
+   "reason": "Page only shows JS notice; no real info."
+  },
+  {
+   "slug": "chat2build",
+   "name": "Chat2Build",
+   "reason": "Pre-launch waitlist only; no product to review."
+  },
+  {
+   "slug": "forefront-ai",
+   "name": "Forefront AI",
+   "reason": "Page dated 2024 beta; stale, status unclear."
+  },
+  {
+   "slug": "beemer",
+   "name": "Beemer",
+   "reason": "2024 page with lorem ipsum placeholder; thin info."
+  },
+  {
+   "slug": "chartai",
+   "name": "ChartAI",
+   "reason": "Page returned empty meta only; no product info."
+  },
+  {
+   "slug": "deckbird-ai",
+   "name": "Deckbird AI",
+   "reason": "Fetch blocked by robots; no verifiable info."
+  }
+ ],
+ "fix": [
+  {
+   "slug": "rewording-io",
+   "name": "Rewording.io",
+   "issues": [
+    "Live; pricing unpublished, needs honest rewrite",
+    "Live paraphraser/AI detector/cowriter; free plan, paid prices not shown"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "jasper",
+   "name": "Jasper",
+   "issues": [
+    "Repositioned as agent platform; update description",
+    "Live; now agent workspace for marketing teams, Jasper IQ, GEO; prices on separate page"
+   ],
+   "done": true,
+   "fixed_on": "2026-10-15"
+  },
+  {
+   "slug": "copy-ai",
+   "name": "Copy.ai",
+   "issues": [
+    "Now GTM platform, not writing tool",
+    "Live; repositioned as GTM AI platform (Workflows, Agents); fullcast.com links; prices on separate page"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "grammarly",
+   "name": "Grammarly",
+   "issues": [
+    "Superhuman rebrand; update details",
+    "Live; now part of Superhuman; Free, Pro $12/mo annual ($30 monthly), Enterprise"
+   ],
+   "done": true,
+   "fixed_on": "2026-10-15"
+  },
+  {
+   "slug": "writesonic",
+   "name": "Writesonic",
+   "issues": [
+    "Pivoted to AI search growth; listing outdated",
+    "Live; now AI search visibility (GEO) platform; 7-day trial; no prices shown"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "summarizingtool",
+   "name": "SummarizingTool",
+   "issues": [
+    "Live; free-tier claim needs correction",
+    "Live summarizer; daily cap on free; unrendered template strings seen"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "gozen-content-ai",
+   "name": "GoZen Content AI",
+   "issues": [
+    "Pricing differs from listing",
+    "Live; Free $0, Starter $19, Essential $49, Pro $99/mo, Premium custom"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "wordtune",
+   "name": "Wordtune",
+   "issues": [
+    "Live; verify pricing",
+    "Live, AI21 Labs; free tier; prices on separate page"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "originality-ai",
+   "name": "Originality.ai",
+   "issues": [
+    "Live; update features",
+    "Live AI/plagiarism checker; free 2,000-word scan; prices on separate page"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "koala-ai",
+   "name": "Koala AI",
+   "issues": [
+    "Pricing/features changed",
+    "Live; now SEO agent + KoalaWriter; Pro from $49/mo, Boost $99"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "languagetool",
+   "name": "LanguageTool",
+   "issues": [
+    "Live; verify pricing",
+    "Live; 30+ languages; Premium discount; prices not shown"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "sapling",
+   "name": "Sapling",
+   "issues": [
+    "Live; repositioned toward API/enterprise",
+    "Live; API/SDK, MCP, grammar, AI detection; enterprise focus"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "aiprm-for-chatgpt",
+   "name": "AIPRM for ChatGPT",
+   "issues": [
+    "Live; prompt manager, not generator",
+    "Live prompt library extension; free + Solo/Team plans"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "contents-com",
+   "name": "Contents.com",
+   "issues": [
+    "Live; enterprise-oriented, listing outdated",
+    "Live enterprise AI content platform; AI Chat/Translation coming soon; placeholder stats"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "keyword-caddy",
+   "name": "Keyword Caddy",
+   "issues": [
+    "Live; local SEO focus, verify pricing",
+    "Live marketing page; local SEO platform; no prices shown"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "lavender",
+   "name": "Lavender",
+   "issues": [
+    "Live; product line changed",
+    "Live; Email Coach and Ora sales agent; prices not shown"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "movabletype-ai",
+   "name": "MovableType.ai",
+   "issues": [
+    "Live; pricing structure updated",
+    "Live; $199/mo, $549/qtr, $1,999/yr; early-stage labels"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "neuralwriter",
+   "name": "NeuralWriter",
+   "issues": [
+    "Live; free confirmed",
+    "Live free paraphraser, 10k char limit, 30 languages"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "novelai",
+   "name": "NovelAI",
+   "issues": [
+    "Live; update models",
+    "Live; image V5 and story gen; subscriptions from $10/mo"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "wordhero",
+   "name": "WordHero",
+   "issues": [
+    "Moved to aivolut; pricing differs",
+    "Redirects to aivolut.com/wordhero; live; Starter $15, Pro $29, Business $59/mo"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "paperpal",
+   "name": "Paperpal",
+   "issues": [
+    "Live; verify pricing",
+    "Live academic writing assistant; prices on separate page"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "mailmaestro",
+   "name": "MailMaestro",
+   "issues": [
+    "Flowrite merged into MailMaestro; rewrite",
+    "Flowrite acquired by Maestro Labs and folded into MailMaestro; live"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "midjourney",
+   "name": "Midjourney",
+   "issues": [
+    "Major tool; verify via other source",
+    "Fetched page only shows TBA project teasers; no pricing visible"
+   ],
+   "done": true,
+   "fixed_on": "2026-10-15"
+  },
+  {
+   "slug": "adobe-firefly",
+   "name": "Adobe Firefly",
+   "issues": [
+    "Plans changed; update",
+    "Live; Free, Standard $9.99, Pro $19.99, Pro Plus $49.99/mo"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "ideogram",
+   "name": "Ideogram",
+   "issues": [
+    "New models; update",
+    "Live; Ideogram 4.5; apps; prices on separate page"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "imggen-ai",
+   "name": "ImgGen AI",
+   "issues": [
+    "Live; prices not on page",
+    "Live; 50 free credits one-time; paid 400-1,400 credits/mo"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "stable-fast-3d",
+   "name": "Stable Fast 3D",
+   "issues": [
+    "Model, license needs checking",
+    "Stability page live; license not stated on page"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "modelia",
+   "name": "Modelia",
+   "issues": [
+    "Live; verify pricing",
+    "Live AI fashion model generator; free trial; prices not shown"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "topaz-labs",
+   "name": "Topaz Labs",
+   "issues": [
+    "Pricing outdated",
+    "Page shows web apps, Gigapixel $29/mo, Studio $399/yr; promo pricing"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "meshy",
+   "name": "Meshy",
+   "issues": [
+    "Live; verify pricing",
+    "Live-looking; 3D generation, exports, MCP/API; prices not shown"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "pebblely",
+   "name": "Pebblely",
+   "issues": [
+    "Live; verify pricing",
+    "Live product photo tool; prices not shown"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "photopacks-ai",
+   "name": "PhotoPacks.AI",
+   "issues": [
+    "Possibly stale; verify",
+    "Headshot generator $24 one-time; footer 2023-24; stale-looking"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "scenario",
+   "name": "Scenario",
+   "issues": [
+    "Pricing/features changed",
+    "Live; Starter $15, Pro $45, Max $75 monthly; 650+ models"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "bgeraser",
+   "name": "BGEraser",
+   "issues": [
+    "Live; free confirmed",
+    "Live free background remover; desktop apps"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "craiyon",
+   "name": "Craiyon",
+   "issues": [
+    "Live; verify pricing",
+    "Live; free with watermark; paid plans, prices not shown"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "diffusionbee",
+   "name": "DiffusionBee",
+   "issues": [
+    "Live; maintenance status unclear",
+    "Live; free local Stable Diffusion for macOS; copyright 2024, maintenance unclear"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "dzine",
+   "name": "Dzine",
+   "issues": [
+    "Live; features expanded",
+    "Live; image/video workspace; 100 free credits; prices not shown"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "imagen-ai",
+   "name": "Imagen AI",
+   "issues": [
+    "Live; pricing/category need correction",
+    "AI photo culling/editing for photographers; listing category image-generation mismatched; pricing needs recheck"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "imagga",
+   "name": "Imagga",
+   "issues": [
+    "Live; recategorize as image recognition API",
+    "Image recognition/tagging API, not generation; pricing on separate page"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "quickqr-art",
+   "name": "QuickQR.art",
+   "issues": [
+    "Live; verify pricing",
+    "AI artistic QR generator; free plan, paid memberships"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "thinkdiffusion",
+   "name": "ThinkDiffusion",
+   "issues": [
+    "Live; verify pricing",
+    "Cloud workspace for Stable Diffusion/ComfyUI/A1111; free trial"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "vectorart-ai",
+   "name": "VectorArt.AI",
+   "issues": [
+    "Live; verify pricing",
+    "AI SVG vector generator; free tier plus paid"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "vectr",
+   "name": "Vectr",
+   "issues": [
+    "Live; Pixlr-owned, update description",
+    "Now run by Pixlr; vector editor with AI tools"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "simpleshow",
+   "name": "simpleshow",
+   "issues": [
+    "Live; note D-ID acquisition",
+    "Now part of D-ID after acquisition; explainer video tool"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "runway",
+   "name": "Runway",
+   "issues": [
+    "Live; update pricing",
+    "AI media: Creative, Dev API, Robotics; free trial"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "synthesia",
+   "name": "Synthesia",
+   "issues": [
+    "Live; update free tier details",
+    "Free Basic plan 500 credits/mo (~10 min); listing says 10 min/mo"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "heygen",
+   "name": "HeyGen",
+   "issues": [
+    "Live; verify pricing",
+    "Avatar video platform; free plan; prices not on homepage"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "kling-ai",
+   "name": "Kling AI",
+   "issues": [
+    "Live; URL moved to kling.ai, update models",
+    "Redirects to kling.ai; Kling 4.0 video, Image 3.0, API"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "repliq",
+   "name": "RepliQ",
+   "issues": [
+    "Live; repositioned, update description",
+    "Now cold outreach personalization (emails/video/images/landing pages)"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "luma-dream-machine",
+   "name": "Luma Dream Machine",
+   "issues": [
+    "Live; rebranded, pricing differs",
+    "Page now Luma Agents; Plus $30 ($25 yearly), Pro $90, Ultra $300"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "rask-ai",
+   "name": "Rask AI",
+   "issues": [
+    "Live; verify pricing",
+    "AI dubbing/translation 135+ langs; prices changing soon"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "vyond",
+   "name": "Vyond",
+   "issues": [
+    "Live; update features",
+    "AI video platform with avatars, Vyond Turbo; free trial"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "fliki",
+   "name": "Fliki",
+   "issues": [
+    "Live; verify pricing",
+    "Text-to-video with 2000+ voices, 80+ languages; free plan"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "sendspark",
+   "name": "Sendspark",
+   "issues": [
+    "Live; listing says 7-day trial, recheck",
+    "AI video for B2B sales outreach; Start free offer"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "adori-ai",
+   "name": "Adori AI",
+   "issues": [
+    "Live; verify pricing",
+    "Text/PDF/podcast to narrated video; free to start"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "faceswap",
+   "name": "Faceswap",
+   "issues": [
+    "Free open-source; liveness unconfirmed",
+    "Open source deepfake software; fetch returned stale 2024 metadata; Patreon notice"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "flixier",
+   "name": "Flixier",
+   "issues": [
+    "Live; listing pricing outdated",
+    "Browser editor; page shows Free, Starter $9, Creator $18, Business $31 per seat"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "hedra",
+   "name": "Hedra",
+   "issues": [
+    "Live; repositioned, update description",
+    "Now broader visual AI infrastructure plus Studio; pricing not on page"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "makeshorts-ai",
+   "name": "MakeShorts.ai",
+   "issues": [
+    "Live; clarify discount vs regular prices",
+    "YouTube-to-shorts clipper; Free, Lite $6, Plus $9.75, Pro $19.75 annual"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "minimax-video-hailuo-ai",
+   "name": "MiniMax Video (Hailuo AI)",
+   "issues": [
+    "Live; update models",
+    "Hailuo AI video/image generator; MiniMax H3 launched"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "neural-frames",
+   "name": "Neural Frames",
+   "issues": [
+    "Live; verify pricing",
+    "AI music video platform with Kling/Seedance/Runway/SD"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "neural-love",
+   "name": "Neural.love",
+   "issues": [
+    "Live; verify pricing",
+    "AI video/image enhance/generation suite; no pricing on page"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "plotagon",
+   "name": "Plotagon",
+   "issues": [
+    "Live; dated, verify pricing",
+    "Animated video apps (Studio mobile/desktop, Story); no pricing on page"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "synthesys-ai-studio",
+   "name": "Synthesys AI Studio",
+   "issues": [
+    "Live; repositioned, update",
+    "Now AI video agent combining several models; ~$0.50/video cited"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "topmediai",
+   "name": "TopMediai",
+   "issues": [
+    "Live; verify pricing",
+    "All-in-one AI video, music, voiceover platform"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "videoscribe",
+   "name": "VideoScribe",
+   "issues": [
+    "Live; weak AI angle, verify pricing",
+    "Whiteboard animation software, not strongly AI; 7-day trial"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "wisecut",
+   "name": "Wisecut",
+   "issues": [
+    "Live; update features",
+    "AI long-to-short clipper with Autopilot, Wish, Social Hub"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "hitpaw-edimakor",
+   "name": "HitPaw Edimakor",
+   "issues": [
+    "Live; verify pricing",
+    "AI video editor desktop/online; 30 free credits"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "shortgenius",
+   "name": "ShortGenius",
+   "issues": [
+    "Live; verify pricing",
+    "AI video ads and auto-posting to socials"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "github-copilot",
+   "name": "GitHub Copilot",
+   "issues": [
+    "Live; add Max/Enterprise tiers",
+    "Copilot tiers: Free, Pro $10, Pro+ $39, Max $100, Business $19, Enterprise $39"
+   ],
+   "done": true,
+   "fixed_on": "2026-10-15"
+  },
+  {
+   "slug": "cursor",
+   "name": "Cursor",
+   "issues": [
+    "Live; verify pricing",
+    "AI coding agent desktop/terminal/cloud; prices on separate page"
+   ],
+   "done": true,
+   "fixed_on": "2026-10-15"
+  },
+  {
+   "slug": "claude-code",
+   "name": "Claude Code",
+   "issues": [
+    "Live; update URL",
+    "URL redirects to claude.com/product/claude-code; not fetched further"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "replit-ai",
+   "name": "Replit AI",
+   "issues": [
+    "Live; pricing differs from listing",
+    "Starter free, Core $18/mo yearly, Pro $90 yearly"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "sofy",
+   "name": "Sofy",
+   "issues": [
+    "Live; verify pricing",
+    "AI test agents for web/mobile/API/ERP; free trial"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "factory",
+   "name": "Factory",
+   "issues": [
+    "Live; URL moved to factory.com",
+    "factory.ai redirects to factory.com; not fetched further"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "windsurf",
+   "name": "Windsurf",
+   "issues": [
+    "Live; verify pricing",
+    "AI IDE with Cascade agent; pricing not on page"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "supermaven",
+   "name": "Supermaven",
+   "issues": [
+    "Live; check acquisition/sunset status",
+    "Page live: Free, Pro $10, Team $10/user; Supermaven was acquired by Cursor (2024), status unverified"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "ollama",
+   "name": "Ollama",
+   "issues": [
+    "Live; recategorize, verify pricing",
+    "Local/cloud open model runner; not a coding tool strictly"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "cohere",
+   "name": "Cohere",
+   "issues": [
+    "Live; not coding tool, recategorize",
+    "Enterprise platform North, Compass, Command/Embed/Rerank models"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "fireworks-ai",
+   "name": "Fireworks AI",
+   "issues": [
+    "Live; recategorize, update",
+    "Inference/training platform plus Nexus coding router; per-token pricing"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "langflow",
+   "name": "Langflow",
+   "issues": [
+    "Live; needs verified pricing and honest comparison",
+    "Live; low-code agent/RAG builder, free cloud + OSS; pricing page not verified"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "ai21-studio",
+   "name": "AI21 Studio",
+   "issues": [
+    "Positioning changed; listed token pricing unverified",
+    "Homepage now pitches lab-as-a-service custom model training, no public pricing shown"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "amazon-q-developer",
+   "name": "Amazon Q Developer",
+   "issues": [
+    "Add IDE plugin sunset and Kiro replacement",
+    "Live; IDE plugins end of support Apr 30 2027, Kiro recommended; free tier 50 agentic chats/mo"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "cosine",
+   "name": "Cosine",
+   "issues": [
+    "Product repositioned; listed plans unverified",
+    "Now a sovereign AI lab: Lumen models, CLI, cloud; pricing not shown on homepage"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "diffblue-testing-agent",
+   "name": "Diffblue Testing Agent",
+   "issues": [
+    "Live and real; update details",
+    "Live; orchestrates Copilot/Claude Code to write Java/Python tests, per-line outcome pricing"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "kodezi",
+   "name": "Kodezi",
+   "issues": [
+    "Live; verify plans, add comparison",
+    "Live; Kodezi OS/CLI/Code; $0, $9.99, $59.99 plans seen; footer 2025"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "llamaparse",
+   "name": "LlamaParse",
+   "issues": [
+    "Known real product; facts unverified here",
+    "Fetch blocked by robots; URL is LlamaCloud"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "mlflow",
+   "name": "MLflow",
+   "issues": [
+    "Update with GenAI features, not just ML tracking",
+    "Live; Apache 2.0, Linux Foundation, LLM tracing/eval and classical ML"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "tabnine",
+   "name": "Tabnine",
+   "issues": [
+    "Real tool; pricing needs verification",
+    "Fetched page was stale old completion page; current plans unverified"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "interview-solver",
+   "name": "Interview Solver",
+   "issues": [
+    "Pricing differs from listing; add ethics caveat",
+    "Live; trial 10 msgs; sale $39/mo, $90/3mo (reg $59/$149) vs listing; conflicts with interview rules"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "nanobrowser",
+   "name": "Nanobrowser",
+   "issues": [
+    "Live; verify license in repo",
+    "Live; open-source Chrome extension, BYO LLM key; license not stated on page"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "summer-engine",
+   "name": "Summer Engine",
+   "issues": [
+    "Live; verify tier prices",
+    "Live; AI game engine, free download, MCP; plans on separate page"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "trent-ai",
+   "name": "Trent AI",
+   "issues": [
+    "Live; clarify pricing",
+    "Live; agentic security platform, Request Access, pricing page exists"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "firetail",
+   "name": "FireTail",
+   "issues": [
+    "Live; needs honest comparison",
+    "Live; AI security and governance, SOC 2; no acquisition noted"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "odin-ai",
+   "name": "Odin AI",
+   "issues": [
+    "Live; verify Pro $20 seat price",
+    "Live; enterprise agent platform; $15k Accelerator program on page"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "notion-ai",
+   "name": "Notion AI",
+   "issues": [
+    "Update to agents and credit pricing",
+    "Live at notion.com; Agents, meeting notes, Business plan includes AI; custom agent credits $10/1,000"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "zapier",
+   "name": "Zapier",
+   "issues": [
+    "Update AI features; verify pricing",
+    "Live; 9,000+ apps, MCP, agents, Next Gen Zaps"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "motion",
+   "name": "Motion",
+   "issues": [
+    "Live; verify pricing",
+    "Live; tasks, calendar, meetings, docs with AI; free trial, prices not shown"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "clickup-ai",
+   "name": "ClickUp AI",
+   "issues": [
+    "Rebranded Brain2; update page",
+    "Brain2 from $9/user/mo, Everything AI $28; matches listing"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "microsoft-translator",
+   "name": "Microsoft Translator",
+   "issues": [
+    "Live; verify tiers",
+    "Live; apps, API, free monthly tier"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "ishi",
+   "name": "Ishi",
+   "issues": [
+    "Early-bird price deadline passed; update",
+    "Public beta; $49 early-bird ended Feb 28 2026 per page"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "trevor-ai",
+   "name": "Trevor AI",
+   "issues": [
+    "Live; add Executive plan note",
+    "Live; Free and Pro $5/$6 matches"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "notta",
+   "name": "Notta",
+   "issues": [
+    "Live; matches listing",
+    "Live; 120 free min, Pro from $8.17/mo annual"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "11x",
+   "name": "11x",
+   "issues": [
+    "Listed prices unverified",
+    "Live; AI sales agents, demo-only, no prices shown"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "octolane",
+   "name": "Octolane",
+   "issues": [
+    "Product pivoted; listed price unverified",
+    "Live; OctoRevenue per-account agents, demo only, no pricing"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "tubeonai",
+   "name": "TubeOnAI",
+   "issues": [
+    "Live; Enterprise $29 unverified",
+    "Live; Starter free 400 credits, Pro $19/mo seen"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "autonoma",
+   "name": "Autonoma",
+   "issues": [
+    "Unverifiable here; verify later",
+    "Fetch blocked by robots"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "bulkgpt",
+   "name": "BulkGPT",
+   "issues": [
+    "Live; verify prices",
+    "Live; 200 free tasks; paid prices not shown"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "kolena",
+   "name": "Kolena",
+   "issues": [
+    "Pivoted from ML testing; update",
+    "Now AI document automation for real estate/finance; 2-week trial"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "scholarly",
+   "name": "Scholarly",
+   "issues": [
+    "Live; pricing needs update",
+    "Live; AI study workspace; team prices differ from listing"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "seeing-ai",
+   "name": "Seeing AI",
+   "issues": [
+    "Live and free",
+    "Live; Microsoft free visual assistant for blind users"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "adaptive",
+   "name": "Adaptive",
+   "issues": [
+    "Live; verify pricing",
+    "Live; AI agents for sales/marketing, iOS app"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "olva",
+   "name": "OLVA",
+   "issues": [
+    "Pricing differs; update",
+    "Live; plans Plus $14.99, Pro $24.99, Ultra $99.99 differ from listing"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "read-ai",
+   "name": "Read AI",
+   "issues": [
+    "Live; verify paid prices",
+    "Live; free 5 meetings; paid prices not shown"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "diffit",
+   "name": "Diffit",
+   "issues": [
+    "Live; verify pricing",
+    "Live; teacher differentiation tool; prices on separate page"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "hive-inspect",
+   "name": "Hive Inspect",
+   "issues": [
+    "Niche but live; matches listing",
+    "Live; home inspection reports $99/mo, $999/yr matches"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "deepsolv",
+   "name": "Deepsolv",
+   "issues": [
+    "Creative intelligence platform for Meta ad teams; ranked weekly test plan; demo-only pricing; \"+500 brands\" claim",
+    "Creative intelligence platform for Meta ad teams; ranked weekly test plan; demo-only pricing; \"+500 brands\" claim"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "adfixer",
+   "name": "ADFIXER",
+   "issues": [
+    "Amazon/Google ads optimization dashboard plus managed service; Algorithm Studio; Meta/Kaufland planned",
+    "Amazon/Google ads optimization dashboard plus managed service; Algorithm Studio; Meta/Kaufland planned"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "groas",
+   "name": "groas",
+   "issues": [
+    "Redirects to groas.com; now sells 90-day sprints (paid ads or SEO/AI search) and agency resale; no public prices; listed pricing outdated",
+    "Redirects to groas.com; now sells 90-day sprints (paid ads or SEO/AI search) and agency resale; no public prices; listed pricing outdated"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "genpage",
+   "name": "GenPage",
+   "issues": [
+    "AI personalized landing pages for ads; free sign-up; status page up",
+    "AI personalized landing pages for ads; free sign-up; status page up"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "nytro-seo",
+   "name": "Nytro SEO",
+   "issues": [
+    "Automatic on-page SEO/AEO meta rewriting via JS snippet; live",
+    "Automatic on-page SEO/AEO meta rewriting via JS snippet; live"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "surfer-seo",
+   "name": "Surfer SEO",
+   "issues": [
+    "SEO plus AI search visibility tracking, content editor; pricing on separate page",
+    "SEO plus AI search visibility tracking, content editor; pricing on separate page"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "hubspot-ai-tools",
+   "name": "HubSpot AI Tools",
+   "issues": [
+    "URL is HubSpot Agent Hub page (credits-based); listing is generic umbrella, pricing differs",
+    "URL is HubSpot Agent Hub page (credits-based); listing is generic umbrella, pricing differs"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "semrush",
+   "name": "Semrush",
+   "issues": [
+    "Brand visibility platform across search and AI answers; 7-day free trial",
+    "Brand visibility platform across search and AI answers; 7-day free trial"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "otterly-ai",
+   "name": "Otterly AI",
+   "issues": [
+    "AI search visibility tracker; from $29/mo; trial length inconsistent (7 vs 14 days)",
+    "AI search visibility tracker; from $29/mo; trial length inconsistent (7 vs 14 days)"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "pilotscribe",
+   "name": "PilotScribe",
+   "issues": [
+    "Automated SEO article writing/publishing with GSC-driven refreshes; $39-$299",
+    "Automated SEO article writing/publishing with GSC-driven refreshes; $39-$299"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "lovart",
+   "name": "Lovart",
+   "issues": [
+    "AI design agent for logos, graphics, campaigns",
+    "AI design agent for logos, graphics, campaigns"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "smartlyq",
+   "name": "SmartlyQ",
+   "issues": [
+    "All-in-one AI marketing platform, from EUR97/mo, 30-day guarantee",
+    "All-in-one AI marketing platform, from EUR97/mo, 30-day guarantee"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "simplified",
+   "name": "Simplified",
+   "issues": [
+    "Now AI agent platform (Riley) plus creative tools; free to start; credit-based, listing pricing may be outdated",
+    "Now AI agent platform (Riley) plus creative tools; free to start; credit-based, listing pricing may be outdated"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "mutiny",
+   "name": "Mutiny",
+   "issues": [
+    "Repositioned as sales assistant (decks, deal rooms, ABM pages), not just web personalization; listing likely outdated",
+    "Repositioned as sales assistant (decks, deal rooms, ABM pages), not just web personalization; listing likely outdated"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "wordlift",
+   "name": "WordLift",
+   "issues": [
+    "AI discovery/structured data SEO platform; pricing on separate page",
+    "AI discovery/structured data SEO platform; pricing on separate page"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "clearscope",
+   "name": "Clearscope",
+   "issues": [
+    "Search visibility platform with Optimize/Write modules; pricing on separate page",
+    "Search visibility platform with Optimize/Write modules; pricing on separate page"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "marketmuse",
+   "name": "MarketMuse",
+   "issues": [
+    "Content planning/optimization; pricing on separate page",
+    "Content planning/optimization; pricing on separate page"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "frase",
+   "name": "Frase",
+   "issues": [
+    "Content OS for SEO and AI search; Individual $39 yearly, Pro $103 yearly; 7-day trial",
+    "Content OS for SEO and AI search; Individual $39 yearly, Pro $103 yearly; 7-day trial"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "article-fiesta",
+   "name": "Article Fiesta",
+   "issues": [
+    "AI SEO article writer; first 2 articles free; plan prices unverified",
+    "AI SEO article writer; first 2 articles free; plan prices unverified"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "authoritas",
+   "name": "Authoritas",
+   "issues": [
+    "SEO and AI visibility platform; free tier; prices on separate page",
+    "SEO and AI visibility platform; free tier; prices on separate page"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "clickflow",
+   "name": "ClickFlow",
+   "issues": [
+    "AI SEO by Single Grain; Free, Essentials $159, Done for You custom",
+    "AI SEO by Single Grain; Free, Essentials $159, Done for You custom"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "dashword",
+   "name": "Dashword",
+   "issues": [
+    "Content briefs and scoring, now MCP for agents; free start; prices unverified",
+    "Content briefs and scoring, now MCP for agents; free start; prices unverified"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "flair-ai",
+   "name": "Flair AI",
+   "issues": [
+    "AI product photo editor for ecommerce; free to try; footer 2025",
+    "AI product photo editor for ecommerce; free to try; footer 2025"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "jacquard",
+   "name": "Jacquard",
+   "issues": [
+    "Agentic creative intelligence for marketing copy; formerly Phrasee; enterprise demo-based",
+    "Agentic creative intelligence for marketing copy; formerly Phrasee; enterprise demo-based"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "persado",
+   "name": "Persado",
+   "issues": [
+    "Enterprise AI marketing content for regulated industries; Create/Optimize/Automate",
+    "Enterprise AI marketing content for regulated industries; Create/Optimize/Automate"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "postnitro",
+   "name": "PostNitro",
+   "issues": [
+    "Social carousel/post designer with scheduling and MCP; free plan, paid from $15",
+    "Social carousel/post designer with scheduling and MCP; free plan, paid from $15"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "ranked-ai",
+   "name": "Ranked AI",
+   "issues": [
+    "Managed AI SEO/PPC service; Standard $99, Plus $198, Enterprise $349; listing missing Plus tier",
+    "Managed AI SEO/PPC service; Standard $99, Plus $198, Enterprise $349; listing missing Plus tier"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "scalenut",
+   "name": "Scalenut",
+   "issues": [
+    "AI SEO/content platform plus managed service; prices on separate page",
+    "AI SEO/content platform plus managed service; prices on separate page"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "topic",
+   "name": "Topic",
+   "issues": [
+    "Content brief tool; page shows 2021 footer and CafeMedia acquisition; stale info, status uncertain",
+    "Content brief tool; page shows 2021 footer and CafeMedia acquisition; stale info, status uncertain"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "topicmojo",
+   "name": "TopicMojo",
+   "issues": [
+    "Topic research tool; footer 2024; from $10/mo per page vs $99 in listing; stale",
+    "Topic research tool; footer 2024; from $10/mo per page vs $99 in listing; stale"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "aicarousels",
+   "name": "AICarousels",
+   "issues": [
+    "Free carousel maker, PRO plan; no prices on page",
+    "Free carousel maker, PRO plan; no prices on page"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "blaze",
+   "name": "Blaze",
+   "issues": [
+    "Marketing platform and service; $79 software, $999 done-for-you",
+    "Marketing platform and service; $79 software, $999 done-for-you"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "chatgpt",
+   "name": "ChatGPT",
+   "issues": [
+    "Not fetched; major product",
+    "Not fetched; major product"
+   ],
+   "done": true,
+   "fixed_on": "2026-10-15"
+  },
+  {
+   "slug": "claude",
+   "name": "Claude",
+   "issues": [
+    "Not fetched; major product",
+    "Not fetched; major product"
+   ],
+   "done": true,
+   "fixed_on": "2026-10-15"
+  },
+  {
+   "slug": "perplexity",
+   "name": "Perplexity",
+   "issues": [
+    "Not fetched; major product",
+    "Not fetched; major product"
+   ],
+   "done": true,
+   "fixed_on": "2026-10-15"
+  },
+  {
+   "slug": "google-gemini",
+   "name": "Google Gemini",
+   "issues": [
+    "Not fetched; major product",
+    "Not fetched; major product"
+   ],
+   "done": true,
+   "fixed_on": "2026-10-15"
+  },
+  {
+   "slug": "dapta-ai",
+   "name": "Dapta AI",
+   "issues": [
+    "AI voice/text agents and workflow automation; Free, $99, $499, $1,499",
+    "AI voice/text agents and workflow automation; Free, $99, $499, $1,499"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "leadster",
+   "name": "Leadster",
+   "issues": [
+    "Conversational marketing chatbot; free up to 30 leads; Starter $37 on page vs $47 in listing",
+    "Conversational marketing chatbot; free up to 30 leads; Starter $37 on page vs $47 in listing"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "newmode-algomo",
+   "name": "NewMode (Algomo)",
+   "issues": [
+    "newmode.ai serves Algomo (AI sales/pipeline agent), from $200/mo; naming confusing",
+    "newmode.ai serves Algomo (AI sales/pipeline agent), from $200/mo; naming confusing"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "poe",
+   "name": "Poe",
+   "issues": [
+    "robots blocked fetch",
+    "robots blocked fetch"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "harpa-ai",
+   "name": "HARPA AI",
+   "issues": [
+    "Chrome extension with multi-model AI and web automation; S plan $12/mo annual",
+    "Chrome extension with multi-model AI and web automation; S plan $12/mo annual"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "bardeen",
+   "name": "Bardeen",
+   "issues": [
+    "GTM automation/lead sourcing platform; pricing on separate page",
+    "GTM automation/lead sourcing platform; pricing on separate page"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "superwhisper",
+   "name": "superwhisper",
+   "issues": [
+    "Voice-to-text app on Mac/Windows/iOS/Android; free tier, Pro, lifetime",
+    "Voice-to-text app on Mac/Windows/iOS/Android; free tier, Pro, lifetime"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "memoryplugin",
+   "name": "MemoryPlugin",
+   "issues": [
+    "Shared memory across AI tools; Core $89/yr, Pro $180/yr",
+    "Shared memory across AI tools; Core $89/yr, Pro $180/yr"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "apex-vision-ai",
+   "name": "Apex Vision AI",
+   "issues": [
+    "AI study helper extension and apps; free 30 requests; $7.99-$19.99",
+    "AI study helper extension and apps; free 30 requests; $7.99-$19.99"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "coachvox-ai",
+   "name": "Coachvox AI",
+   "issues": [
+    "AI clone for coaches; $83/mo annual; 14-day trial with card",
+    "AI clone for coaches; $83/mo annual; 14-day trial with card"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "flot-ai",
+   "name": "Flot.ai",
+   "issues": [
+    "Live; pricing unverified from homepage",
+    "Live; page content thin, no pricing seen on homepage"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "juma",
+   "name": "Juma",
+   "issues": [
+    "Live; refresh details and comparison",
+    "AI marketing workspace, 700+ Flows; Free, Pro from $49/mo confirmed"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "mybot-chat",
+   "name": "MyBot.Chat",
+   "issues": [
+    "Live; prices not verified on homepage",
+    "No-code chatbot from site content/files; pricing on separate page"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "outbound-ai",
+   "name": "Outbound AI",
+   "issues": [
+    "Live; healthcare voice AI, enterprise-only",
+    "Healthcare phone AI agents; demo only, no pricing"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "r2-copilot",
+   "name": "R2 Copilot",
+   "issues": [
+    "Live; pricing tiers now known, update",
+    "Multi-model AI in M365/Workspace; Pro $29/seat, Team $249, Business $999, Enterprise from $2,559"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "studymonkey",
+   "name": "StudyMonkey",
+   "issues": [
+    "Live; verify plans",
+    "AI homework tutor; pricing on separate page"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "talksmart-ai",
+   "name": "TalkSmart.ai",
+   "issues": [
+    "Live; confirmed pricing, update page",
+    "AI employee answering calls; Essential $297/mo confirmed"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "tripsora",
+   "name": "Tripsora",
+   "issues": [
+    "Live; listing pricing outdated vs site",
+    "AI travel agent; site shows 2 free questions then one-time GBP4.99 for 10 more, conflicting with listed pricing"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "vocalo",
+   "name": "Vocalo",
+   "issues": [
+    "Live; pricing confirmed, fix description",
+    "English speaking practice; Free 1 session, $15 and $25/mo confirmed"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "thetawise",
+   "name": "ThetaWise",
+   "issues": [
+    "Live; verify pricing",
+    "STEM study AI; free, 1-week trial, Pro on separate page"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "legesgpt",
+   "name": "LegesGPT",
+   "issues": [
+    "Live; pricing confirmed",
+    "AI legal assistant; $19.99/$49.99/$99.99 confirmed, 3-day $1 trial"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "anythingllm",
+   "name": "AnythingLLM",
+   "issues": [
+    "Live; verify cloud pricing",
+    "Open-source MIT private AI app; free download"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "crystalsound",
+   "name": "CrystalSound",
+   "issues": [
+    "Live; pricing unverified",
+    "Noise cancelling app, recorder, meeting minutes; footer 2025, no prices on page"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "elevenlabs",
+   "name": "ElevenLabs",
+   "issues": [
+    "Live; update to current products",
+    "AI voice platform, Eleven v4 launch, agents and API"
+   ],
+   "done": true,
+   "fixed_on": "2026-10-15"
+  },
+  {
+   "slug": "descript",
+   "name": "Descript",
+   "issues": [
+    "Live; verify current prices",
+    "AI video/audio editor with free plan"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "murf-ai",
+   "name": "Murf AI",
+   "issues": [
+    "Live; add Falcon API and dubbing",
+    "TTS Studio, Falcon 2 API $0.01/min, dubbing; free plan 10 min"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "wellsaid-labs",
+   "name": "WellSaid Labs",
+   "issues": [
+    "Live at wellsaid.io; listed Starter pricing outdated",
+    "Domain redirects to wellsaid.io; rebranded WellSaid; 280+ voices, Enterprise/Creator/Free Trial plans"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "ai-phone",
+   "name": "AI Phone",
+   "issues": [
+    "Live; app pricing unverified",
+    "Real-time call translation app, 150+ languages, free trial"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "midi-agent",
+   "name": "MIDI Agent",
+   "issues": [
+    "Live; pricing confirmed",
+    "MIDI generation plugin; $49 lifetime, Pro $20/mo confirmed"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "suno",
+   "name": "Suno",
+   "issues": [
+    "Free tier listed as 50 credits/day outdated",
+    "AI music generator; free up to 10 songs/day, Pro 500 songs/mo, Premier 2000"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "krisp",
+   "name": "Krisp",
+   "issues": [
+    "Live; verify prices",
+    "Meeting assistant, call center AI, voice SDK; prices on pricing page"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "otter-ai",
+   "name": "Otter.ai",
+   "issues": [
+    "Live; verify Pro price",
+    "AI meeting assistant; Business $19.99/user/mo confirmed"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "kits-ai",
+   "name": "Kits.AI",
+   "issues": [
+    "Live; confirmed starter price",
+    "AI voice/music tools; paid from $10/mo; footer 2025"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "landr",
+   "name": "Landr",
+   "issues": [
+    "Live; listed pricing outdated",
+    "LANDR Studio suite; plans from $8.25/mo vs listed $4/mo"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "async",
+   "name": "Async",
+   "issues": [
+    "Live; reposition as video editor",
+    "Chat-based AI video editor; page lists no prices"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "audio-enhancer-ai",
+   "name": "Audio Enhancer AI",
+   "issues": [
+    "Live; pricing differs from listing",
+    "Audio enhancer; free 3 credits/day, Premium $14.99/mo"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "audiostack",
+   "name": "AudioStack",
+   "issues": [
+    "Live; enterprise-only pricing",
+    "AI audio production platform and APIs; demo-based pricing"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "hume-ai",
+   "name": "Hume AI",
+   "issues": [
+    "Live; product lineup changed",
+    "Voice AI platform: VoiceEQ, Expression APIs, Prism, speech data; no pricing on homepage"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "musicfy",
+   "name": "Musicfy",
+   "issues": [
+    "Live; verify pricing",
+    "AI voice cover/text-to-music generator, free start"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "podnotes",
+   "name": "Podnotes",
+   "issues": [
+    "Live; pricing confirmed",
+    "Podcast transcripts and content repurposing; $29-$199/mo confirmed"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "voicedub",
+   "name": "VoiceDub",
+   "issues": [
+    "Live; pricing differs from listing",
+    "Voice covers/cloning/TTS; $2.99/wk, $4.99/mo, $49.99/mo (not $99.99)"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "voicegenie",
+   "name": "VoiceGenie",
+   "issues": [
+    "Live; pricing unverified",
+    "AI voice agents for calls; no prices on page, 2025 footer"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "voicemaker",
+   "name": "Voicemaker",
+   "issues": [
+    "Live; confirmed starter price",
+    "TTS 2,000+ voices, 130 languages; Starter $5/mo"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "verbatik-ai",
+   "name": "Verbatik AI",
+   "issues": [
+    "Live; broaden description",
+    "All-in-one TTS/cloning/video/music platform; plan prices not on homepage"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "podcast-transcript-ai",
+   "name": "Podcast Transcript AI",
+   "issues": [
+    "Live; pricing unverified",
+    "Podcast-to-text with summaries; free, Pro link"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "surgegraph",
+   "name": "SurgeGraph",
+   "issues": [
+    "Live; pricing billing note needs fixing",
+    "AEO platform; monthly prices $32.50/$65.83/$107.50 confirmed (monthly billing, annual totals differ)"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "geordy",
+   "name": "Geordy",
+   "issues": [
+    "Live; verify paid pricing",
+    "AI-readable page copies via link tag; free tier, Growth tier"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "profound",
+   "name": "Profound",
+   "issues": [
+    "Live; product expanded beyond monitoring",
+    "AI search monitoring plus AI Marketer agents; no prices on homepage"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "scrunch-ai",
+   "name": "Scrunch AI",
+   "issues": [
+    "Live; AXP is new",
+    "AI search visibility plus Agent Experience Platform; 7-day trial"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "athenahq",
+   "name": "AthenaHQ",
+   "issues": [
+    "Live; pricing unverified",
+    "AEO/GEO platform; no pricing on page"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "pagelens-ai",
+   "name": "PageLens.ai",
+   "issues": [
+    "Live; protected, FIX",
+    "AI search visibility across 7 engines; prices on separate page"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "adobe-llm-optimizer",
+   "name": "Adobe LLM Optimizer",
+   "issues": [
+    "Live; rename needed",
+    "Renamed Adobe Brand Visibility (formerly LLM Optimizer); demo-only"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "conductor",
+   "name": "Conductor",
+   "issues": [
+    "Live enterprise SEO/AEO platform; verify pricing tiers and compare",
+    "Live enterprise SEO/AEO platform; verify pricing tiers and compare"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "brightedge",
+   "name": "BrightEdge",
+   "issues": [
+    "Live AI SEO/AEO platform; verify credit pricing claims",
+    "Live AI SEO/AEO platform; verify credit pricing claims"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "llmrefs",
+   "name": "LLMrefs",
+   "issues": [
+    "Live; $79/mo All in One with 7-day trial confirmed",
+    "Site says limited-time offer $79/mo, 7-day free trial"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "finseo",
+   "name": "Finseo",
+   "issues": [
+    "Live AI visibility tracker; pricing on separate page, unverified here",
+    "Live AI visibility tracker; pricing on separate page, unverified here"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "contentoptima",
+   "name": "ContentOptima",
+   "issues": [
+    "Live; pricing free/$29/$79 confirmed; 34 pass/fail checks",
+    "Live; pricing free/$29/$79 confirmed; 34 pass/fail checks"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "talkeasy",
+   "name": "TalkEasy",
+   "issues": [
+    "Live AI business phone app; Pro Rs999+GST confirmed (protected)",
+    "Live AI business phone app; Pro Rs999+GST confirmed (protected)"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "gorgias",
+   "name": "Gorgias",
+   "issues": [
+    "Live ecommerce helpdesk with AI Agent; verify pricing",
+    "Live ecommerce helpdesk with AI Agent; verify pricing"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "liveperson",
+   "name": "LivePerson",
+   "issues": [
+    "Live; SoundHound AI acquisition noted on site; update listing",
+    "Site notes SoundHound AI has acquired LivePerson"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "kommunicate",
+   "name": "Kommunicate",
+   "issues": [
+    "Live AI support platform; 30-day trial confirmed; verify prices",
+    "Live AI support platform; 30-day trial confirmed; verify prices"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "chatling",
+   "name": "Chatling",
+   "issues": [
+    "Live AI support chatbot; free plan confirmed",
+    "Live AI support chatbot; free plan confirmed"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "docsbot-ai",
+   "name": "DocsBot AI",
+   "issues": [
+    "Live; now credit-metered AI assistants; update pricing wording",
+    "Live; now credit-metered AI assistants; update pricing wording"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "wonderchat",
+   "name": "Wonderchat",
+   "issues": [
+    "Live AI support agent builder; pricing page unverified",
+    "Live AI support agent builder; pricing page unverified"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "bolddesk",
+   "name": "BoldDesk",
+   "issues": [
+    "Live helpdesk with AI agents (Support, Background, Assist)",
+    "Live helpdesk with AI agents (Support, Background, Assist)"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "coveo",
+   "name": "Coveo",
+   "issues": [
+    "Live AI search/personalization platform; enterprise",
+    "Live AI search/personalization platform; enterprise"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "mavenoid",
+   "name": "Mavenoid",
+   "issues": [
+    "Live multimodal AI product support platform",
+    "Live multimodal AI product support platform"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "my-askai",
+   "name": "My AskAI",
+   "issues": [
+    "Live; site shows Pro from $199/mo, listing pricing outdated",
+    "Site: 30-day trial, Pro $199/mo for 1000 tickets, $0.10 extra; listing says $19.99-$299"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "zendesk-ai-agents",
+   "name": "Zendesk AI Agents",
+   "issues": [
+    "Live; resolution-based pricing bundled in Suite plans",
+    "Live; resolution-based pricing bundled in Suite plans"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "medreceptionist",
+   "name": "MedReceptionist",
+   "issues": [
+    "Live AI healthcare receptionist; $349/mo confirmed",
+    "Live AI healthcare receptionist; $349/mo confirmed"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "language-i-o",
+   "name": "Language I/O",
+   "issues": [
+    "Live AI translation for support teams, 150+ languages",
+    "Live AI translation for support teams, 150+ languages"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "xtopia",
+   "name": "XTOPIA",
+   "issues": [
+    "Live AI agent builder; starter from RM500; limited info",
+    "Live AI agent builder; starter from RM500; limited info"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "lacy-ai",
+   "name": "Lacy.ai",
+   "issues": [
+    "Live AI phone agent for service businesses; pricing page unverified",
+    "Live AI phone agent for service businesses; pricing page unverified"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "owlbot",
+   "name": "Owlbot",
+   "issues": [
+    "Live; pricing is $19/$39/$59 not matching listing detail",
+    "Starter $19, Small business $39, Enterprise $59"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "groweasy",
+   "name": "GrowEasy",
+   "issues": [
+    "Live AI CRM; site lists no prices here (protected)",
+    "Live AI CRM; site lists no prices here (protected)"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "plural",
+   "name": "Plural",
+   "issues": [
+    "Live AI for private markets and banks; pricing unpublished",
+    "Live AI for private markets and banks; pricing unpublished"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "trustible",
+   "name": "Trustible",
+   "issues": [
+    "Live AI governance platform; pricing unpublished",
+    "Live AI governance platform; pricing unpublished"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "apollo-io",
+   "name": "Apollo.io",
+   "issues": [
+    "Live sales intelligence platform with AI agents",
+    "Live sales intelligence platform with AI agents"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "ava-by-artisan",
+   "name": "Ava (by Artisan)",
+   "issues": [
+    "Live; Artisan AI BDR Ava",
+    "Live; Artisan AI BDR Ava"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "clay",
+   "name": "Clay",
+   "issues": [
+    "Live GTM data enrichment platform; pricing on separate page",
+    "Live GTM data enrichment platform; pricing on separate page"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "common-room",
+   "name": "Common Room",
+   "issues": [
+    "Live; now broader GTM revenue platform",
+    "Live; now broader GTM revenue platform"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "fishbowl",
+   "name": "Fishbowl",
+   "issues": [
+    "Live inventory software with Fishbowl AI features; borderline AI tool",
+    "Live inventory software with Fishbowl AI features; borderline AI tool"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "gong",
+   "name": "Gong",
+   "issues": [
+    "Live Revenue AI OS",
+    "Live Revenue AI OS"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "instantly-ai",
+   "name": "Instantly.ai",
+   "issues": [
+    "Live cold email and lead platform; pricing on separate page",
+    "Live cold email and lead platform; pricing on separate page"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "outreach",
+   "name": "Outreach",
+   "issues": [
+    "Live; outreach.io redirects to outreach.ai, update URL",
+    "302 to www.outreach.ai"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "people-ai",
+   "name": "People.ai",
+   "issues": [
+    "Rebranded to Backstory; update name and URL",
+    "people.ai redirects to backstory.ai; \"People.ai is now Backstory\""
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "regie-ai",
+   "name": "Regie.ai",
+   "issues": [
+    "Live; now RegieGO agentic workspace at $49/mo",
+    "Live; now RegieGO agentic workspace at $49/mo"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "salesloft",
+   "name": "Salesloft",
+   "issues": [
+    "Live; Clari products now listed alongside",
+    "Live; Clari products now listed alongside"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "smartlead",
+   "name": "Smartlead",
+   "issues": [
+    "Live cold email tool; $39/$94/$174/$379 confirmed",
+    "Live cold email tool; $39/$94/$174/$379 confirmed"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "tabscanner",
+   "name": "Tabscanner",
+   "issues": [
+    "Live receipt OCR API; pricing differs slightly from listing",
+    "Live receipt OCR API; pricing differs slightly from listing"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "urbint",
+   "name": "Urbint",
+   "issues": [
+    "Live AI risk platform for utilities",
+    "Live AI risk platform for utilities"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "warmly",
+   "name": "Warmly",
+   "issues": [
+    "Live visitor identification; pricing page not verified",
+    "Live visitor identification; pricing page not verified"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "metaview",
+   "name": "Metaview",
+   "issues": [
+    "Live agentic recruiting platform; pricing on separate page",
+    "Live agentic recruiting platform; pricing on separate page"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "qualifier-ai",
+   "name": "Qualifier.ai",
+   "issues": [
+    "Live; needs verified pricing and comparison",
+    "Live B2B sales automation; pricing page separate"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "kopernicus",
+   "name": "Kopernicus",
+   "issues": [
+    "Live; update details",
+    "Live AI procurement/vendor discovery platform"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "ideatwister",
+   "name": "IdeaTwister",
+   "issues": [
+    "Live; pricing confirmed",
+    "Live; $9/$29/$59 per run, $349 business"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "prospectoo",
+   "name": "Prospectoo",
+   "issues": [
+    "Live; refresh page",
+    "Live B2B data + AI SDR"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "vea-ai",
+   "name": "VEA AI",
+   "issues": [
+    "Live; pricing updated needs fixing",
+    "Live; $30/$50/$150/$597 monthly (annual $25/$40/$120/$497)"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "seamless-ai",
+   "name": "Seamless.ai",
+   "issues": [
+    "Live; refresh",
+    "Live; free up to 50 credits"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "inventive-ai",
+   "name": "Inventive AI",
+   "issues": [
+    "Live; description should focus on RFP",
+    "Live; AI for RFP responses (not generic sales)"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "booleanmaths",
+   "name": "BooleanMaths",
+   "issues": [
+    "Live; verify AI claim, fix description",
+    "Live Shopify attribution/server-side tracking; weak AI angle"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "akkio",
+   "name": "Akkio",
+   "issues": [
+    "Live; positioning changed",
+    "Live; now pitched at media agencies/data providers"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "base44",
+   "name": "Base44",
+   "issues": [
+    "Live; pricing confirmed",
+    "Live; free, paid from $16/mo annual"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "datarobot",
+   "name": "DataRobot",
+   "issues": [
+    "Live; refresh",
+    "Live enterprise AI agent platform"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "enterpret",
+   "name": "Enterpret",
+   "issues": [
+    "Live; refresh",
+    "Live customer feedback platform"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "fraud-net",
+   "name": "Fraud.net",
+   "issues": [
+    "Live; refresh",
+    "Live fraud detection/compliance"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "graphlit",
+   "name": "Graphlit",
+   "issues": [
+    "Live; positioning updated",
+    "Live; context layer for AI agents"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "h2o-ai",
+   "name": "H2O.ai",
+   "issues": [
+    "Live; refresh",
+    "Live company"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "hebbia",
+   "name": "Hebbia",
+   "issues": [
+    "Live; refresh",
+    "Live AI finance research platform"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "julius-ai",
+   "name": "Julius AI",
+   "issues": [
+    "Live; scope expanded",
+    "Live; data analysis plus slides/reports/sites"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "kadoa",
+   "name": "Kadoa",
+   "issues": [
+    "Maintenance notice; pricing unverified",
+    "Page showed maintenance notice; finance-focused web data pipelines"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "logicmonitor",
+   "name": "LogicMonitor",
+   "issues": [
+    "Live; check AI relevance",
+    "Live IT infrastructure monitoring"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "monterey-ai",
+   "name": "Monterey AI",
+   "issues": [
+    "Live; acquisition note, pricing unverified",
+    "Now part of Reforge Insight Analytics after acquisition"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "polymer",
+   "name": "Polymer",
+   "issues": [
+    "Pivoted to embedded analytics; listing outdated",
+    "Now embedded analytics API from $500/mo, 7-day trial"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "rows-ai",
+   "name": "Rows AI",
+   "issues": [
+    "Acquired by Superhuman; update status",
+    "Banner: Rows joined Superhuman; site still live"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "syntho",
+   "name": "Syntho",
+   "issues": [
+    "Live; refresh",
+    "Live synthetic data platform"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "mljar-studio",
+   "name": "MLJAR Studio",
+   "issues": [
+    "Live; refresh",
+    "Live desktop AI notebook; pricing page separate"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "impact-analytics",
+   "name": "Impact Analytics",
+   "issues": [
+    "Live; refresh",
+    "Live retail AI agents"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "datasaur",
+   "name": "Datasaur",
+   "issues": [
+    "Live; verify pricing",
+    "Live; no acquisition mentioned"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "webscrape-ai",
+   "name": "Webscrape AI",
+   "issues": [
+    "Live; pricing confirmed",
+    "Live; Free $0, Hobby $19, Startup $79"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "rio-sustainability-platform",
+   "name": "Rio Sustainability Platform",
+   "issues": [
+    "Live; refresh",
+    "Live sustainability consultancy and software"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "newtattoo-ai",
+   "name": "NewTattoo.ai",
+   "issues": [
+    "Live; Pro price unverified",
+    "Live; free start, Pro price not stated"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "autodraw",
+   "name": "Autodraw",
+   "issues": [
+    "Status unconfirmed; likely static legacy tool",
+    "Page described as ML drawing tool; status not confirmed"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "cleanup-pictures",
+   "name": "Cleanup.pictures",
+   "issues": [
+    "Live; pricing confirmed",
+    "Live; Free 720p, Pro $5/mo or $36/yr, ClipDrop Pro"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "colormind",
+   "name": "Colormind",
+   "issues": [
+    "Likely live; verify API",
+    "Page content loads; status not confirmed"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "designlens-ai",
+   "name": "DesignLens.ai",
+   "issues": [
+    "Live; refresh",
+    "Live Chrome extension for UI/UX analysis"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "designs-ai",
+   "name": "Designs.ai",
+   "issues": [
+    "Live; positioning changed",
+    "Live; now agent-based creative platform"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "fontjoy",
+   "name": "Fontjoy",
+   "issues": [
+    "Live; refresh",
+    "Live font pairing tool"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "framer-ai",
+   "name": "Framer AI",
+   "issues": [
+    "Live; refresh",
+    "Live AI website builder"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "imagecolorizer",
+   "name": "ImageColorizer",
+   "issues": [
+    "Live; pricing unverified",
+    "Live; free credits, pricing separate"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "khroma",
+   "name": "Khroma",
+   "issues": [
+    "Live; refresh",
+    "Live AI color tool; copyright 2025"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "let-s-enhance",
+   "name": "Let's Enhance",
+   "issues": [
+    "Live; pricing unverified",
+    "Live; free to start"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "looka",
+   "name": "Looka",
+   "issues": [
+    "Live; verify purchase prices",
+    "Live; free to design"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "perception",
+   "name": "Perception",
+   "issues": [
+    "Live; refresh",
+    "Live; palette generator, Studio subscription"
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "recraft",
+   "name": "Recraft",
+   "issues": [
+    "Live; listing needs verified details and comparison."
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "reimagine-home-ai",
+   "name": "Reimagine Home AI",
+   "issues": [
+    "Live; listing needs verified details and comparison."
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "remove-bg",
+   "name": "Remove.bg",
+   "issues": [
+    "Live; listing needs verified details and comparison.",
+    "Live; standalone site ends 1 Dec 2026 as it moves to Canva."
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "slazzer",
+   "name": "Slazzer",
+   "issues": [
+    "Live; listing needs verified details and comparison."
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "uizard",
+   "name": "Uizard",
+   "issues": [
+    "Live; listing needs verified details and comparison."
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "vizcom",
+   "name": "Vizcom",
+   "issues": [
+    "Live; listing needs verified details and comparison.",
+    "Domain moved to vizcom.com."
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "b12",
+   "name": "B12",
+   "issues": [
+    "Live; listing needs verified details and comparison."
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "buildship",
+   "name": "BuildShip",
+   "issues": [
+    "Live; listing needs verified details and comparison."
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "dify",
+   "name": "Dify",
+   "issues": [
+    "Live; listing needs verified details and comparison."
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "draftbit",
+   "name": "Draftbit",
+   "issues": [
+    "Live; listing needs verified details and comparison."
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "durable",
+   "name": "Durable",
+   "issues": [
+    "Live; listing needs verified details and comparison.",
+    "Domain moved to durable.com; pricing page shows Launch $25/mo."
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "frontly",
+   "name": "Frontly",
+   "issues": [
+    "Live; listing needs verified details and comparison.",
+    "Plans: Free, Basic $30, Pro $100."
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "fronty",
+   "name": "Fronty",
+   "issues": [
+    "Live; listing needs verified details and comparison."
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "genexus",
+   "name": "GeneXus",
+   "issues": [
+    "Live; listing needs verified details and comparison."
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "hocoos-ai-website-builder",
+   "name": "Hocoos AI Website Builder",
+   "issues": [
+    "Live; listing needs verified details and comparison.",
+    "Premium $15/mo or $150/yr, 14-day trial; listing price outdated."
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "locofy-ai",
+   "name": "Locofy.ai",
+   "issues": [
+    "Live; listing needs verified details and comparison.",
+    "Live marketing page, pricing not shown."
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "makelanding",
+   "name": "MakeLanding",
+   "issues": [
+    "Live; listing needs verified details and comparison.",
+    "No free preview; $9/$19/$29 monthly."
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "pickaxe",
+   "name": "Pickaxe",
+   "issues": [
+    "Live; listing needs verified details and comparison."
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "skyvern",
+   "name": "Skyvern",
+   "issues": [
+    "Live; listing needs verified details and comparison."
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "stack-ai",
+   "name": "Stack AI",
+   "issues": [
+    "Live; listing needs verified details and comparison.",
+    "Live; banner says Asana acquired StackAI; domain now stackai.com."
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "tooljet",
+   "name": "ToolJet",
+   "issues": [
+    "Live; listing needs verified details and comparison."
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "magic-loops",
+   "name": "Magic Loops",
+   "issues": [
+    "Live; listing needs verified details and comparison.",
+    "Professional now $20/mo."
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "rocket",
+   "name": "Rocket",
+   "issues": [
+    "Live; listing needs verified details and comparison."
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "genppt",
+   "name": "GenPPT",
+   "issues": [
+    "Live; listing needs verified details and comparison."
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "aippt",
+   "name": "AiPPT",
+   "issues": [
+    "Live; listing needs verified details and comparison."
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "autoppt",
+   "name": "AutoPPT",
+   "issues": [
+    "Live; listing needs verified details and comparison.",
+    "Live, 2025 footer."
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "deckrobot",
+   "name": "deckrobot",
+   "issues": [
+    "Live; listing needs verified details and comparison."
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "decktopus",
+   "name": "Decktopus",
+   "issues": [
+    "Live; listing needs verified details and comparison.",
+    "No free plan; credit-based, free credits for 3 slides."
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "magicslides-ai-ppt-maker",
+   "name": "MagicSlides AI PPT Maker",
+   "issues": [
+    "Live; listing needs verified details and comparison."
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "napkin",
+   "name": "Napkin",
+   "issues": [
+    "Live; listing needs verified details and comparison."
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "plus-ai",
+   "name": "Plus AI",
+   "issues": [
+    "Live; listing needs verified details and comparison."
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "popai",
+   "name": "PopAi",
+   "issues": [
+    "Live; listing needs verified details and comparison."
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "powerpresent-ai",
+   "name": "PowerPresent AI",
+   "issues": [
+    "Live; listing needs verified details and comparison.",
+    "Pricing: free, PAYG $1/credit, $9/29/49 monthly, $499 lifetime."
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "presentations-ai",
+   "name": "Presentations.AI",
+   "issues": [
+    "Live; listing needs verified details and comparison."
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "prezent-ai",
+   "name": "Prezent.ai",
+   "issues": [
+    "Live; listing needs verified details and comparison.",
+    "Now Prezent Vivo, life sciences focused."
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "slidebean",
+   "name": "Slidebean",
+   "issues": [
+    "Live; listing needs verified details and comparison."
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "ai-presentation-maker-by-slidemodel",
+   "name": "AI Presentation Maker by SlideModel",
+   "issues": [
+    "Live; listing needs verified details and comparison."
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "slidespilot",
+   "name": "SlidesPilot",
+   "issues": [
+    "Live; listing needs verified details and comparison."
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "text2infographic",
+   "name": "Text2Infographic",
+   "issues": [
+    "Live; listing needs verified details and comparison."
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "business-pitch",
+   "name": "Business Pitch",
+   "issues": [
+    "Live; listing needs verified details and comparison."
+   ],
+   "done": false,
+   "fixed_on": null
+  },
+  {
+   "slug": "arka-inventory",
+   "name": "Arka Inventory",
+   "issues": [
+    "Live; listing needs verified details and comparison."
+   ],
+   "done": false,
+   "fixed_on": null
+  }
+ ],
+ "keep": [],
+ "log": [
+  {
+   "date": "2026-10-15",
+   "action": "AUDIT run: all tools checked against official sites"
+  },
+  {
+   "date": "2026-10-15",
+   "action": "Trust fixes applied (counters, labels, disclosures, About/editor, byline, alternatives, brand review ratings/schema removed)"
+  },
+  {
+   "date": "2026-10-15",
+   "action": "Fixed 10 pages: chatgpt, claude, cursor, elevenlabs, github-copilot, google-gemini, grammarly, jasper, midjourney, perplexity"
+  }
+ ]
+}
