@@ -19306,7 +19306,7 @@ def tool_detail_body(t, cat, depth=1):
     best_for_short = t['best_for'] if not d else d['who_for'].split('. ')[0].strip().rstrip('.') + '.'
     quick_facts = f"""
 <section class="container section narrow" style="padding-top:0;">
-  <p class="muted small byline reveal">Reviewed by <a href="{prefix}about.html">Mayank</a> &middot; Last checked {t.get('last_checked') or LAST_UPDATED}</p>
+  <p class="muted small byline reveal">Reviewed by <a href="{prefix}about.html">Surender K</a> &middot; Last checked {t.get('last_checked') or LAST_UPDATED}</p>
   <dl class="quick-facts reveal">
     <div class="qf-item"><dt>Category</dt><dd><a href="{prefix}categories/{cat['slug']}.html">{cat['name']}</a></dd></div>
     <div class="qf-item"><dt>Pricing</dt><dd>{t['pricing']}</dd></div>
@@ -20329,7 +20329,7 @@ about_body = f"""
   <h1 class="reveal" style="transition-delay:.08s">About {SITE_NAME}</h1>
   <p class="reveal" style="transition-delay:.16s">{SITE_NAME} is a directory built to help people find, compare and choose AI tools without wading through scattered blog posts. Tools are organised into clear categories, with plain pricing summaries and direct links to each official product.</p>
   <h2 class="reveal">Who runs it</h2>
-  <p class="reveal">{SITE_NAME} is edited by <strong>Mayank</strong> &mdash; founder of OffBuddy (a digital marketing &amp; tech agency in Bengaluru) and co-founder of Pagelens.ai. Every page is reviewed by him before it stays on the site.</p>
+  <p class="reveal">{SITE_NAME} is edited by <strong>Surender K</strong>, Co-Founder @ OffBuddy (<a href="https://www.linkedin.com/in/surender-k-389b61409/" target="_blank" rel="noopener">LinkedIn profile</a>). Every page is reviewed by him before it stays on the site.</p>
   <h2 class="reveal">How we research</h2>
   <p class="reveal">Each tool is researched from its official website and pricing page. Drafts are AI-assisted, then reviewed by the editor. Pricing is re-checked regularly, and each tool page shows the date it was last checked. We do not invent reviews or ratings: a third-party rating (G2, Capterra, App Store and similar) appears only when we have verified it at the source.</p>
   <h2 class="reveal">Partner and founder listings</h2>
@@ -20343,8 +20343,10 @@ about_body = f"""
 </section>
 """
 
-_person = {"@context": "https://schema.org", "@type": "Person", "name": "Mayank", "jobTitle": "Editor, ToolScout; Founder, OffBuddy; Co-founder, Pagelens.ai",
-           "worksFor": [{"@type": "Organization", "name": "OffBuddy"}, {"@type": "Organization", "name": "Pagelens.ai", "url": "https://pagelens.ai"}],
+_person = {"@context": "https://schema.org", "@type": "Person", "name": "Surender K", "jobTitle": "Co-Founder",
+           "description": "Co-Founder @ OffBuddy; editor of ToolScout",
+           "worksFor": {"@type": "Organization", "name": "OffBuddy"},
+           "sameAs": ["https://www.linkedin.com/in/surender-k-389b61409/"],
            "url": f"{SITE_URL}/about.html"}
 
 with open(os.path.join(ROOT, "about.html"), "w") as f:
