@@ -2,8 +2,8 @@
  "phase": "FIX",
  "audit_date": "2026-10-15",
  "trust_fixes_done": true,
- "removal_approved": false,
- "removal_applied": false,
+ "removal_approved": true,
+ "removal_applied": true,
  "remove": [
   {
    "slug": "emailwritr",
@@ -3543,6 +3543,10 @@
   {
    "date": "2026-10-15",
    "action": "Fixed 10 pages: chatgpt, claude, cursor, elevenlabs, github-copilot, google-gemini, grammarly, jasper, midjourney, perplexity"
+  },
+  {
+   "date": "2026-10-15",
+   "action": "Mayank approved removals in chat; 56 tools moved to REMOVED_TOOLS, pages deleted, 301 redirects added in vercel.json (+4 comparison posts retired)"
   }
  ]
 }

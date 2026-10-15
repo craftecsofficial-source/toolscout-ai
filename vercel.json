@@ -1,0 +1,304 @@
+{
+ "redirects": [
+  {
+   "source": "/tools/emailwritr.html",
+   "destination": "/categories/writing-content.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/bramework.html",
+   "destination": "/categories/writing-content.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/contentedge.html",
+   "destination": "/categories/writing-content.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/jotbot.html",
+   "destination": "/categories/writing-content.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/paperrater.html",
+   "destination": "/categories/writing-content.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/peppertype-ai.html",
+   "destination": "/categories/writing-content.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/storyspeak.html",
+   "destination": "/categories/writing-content.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/xinva.html",
+   "destination": "/categories/image-generation.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/dall-e-3.html",
+   "destination": "/categories/image-generation.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/asset-forge.html",
+   "destination": "/categories/image-generation.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/geni-e.html",
+   "destination": "/categories/image-generation.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/resleeve.html",
+   "destination": "/categories/image-generation.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/shai.html",
+   "destination": "/categories/video-generation.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/crano-ai.html",
+   "destination": "/categories/video-generation.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/basedlabs.html",
+   "destination": "/categories/video-generation.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/zeedle-ai.html",
+   "destination": "/categories/coding-development.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/cleanlab-studio.html",
+   "destination": "/categories/coding-development.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/designverse.html",
+   "destination": "/categories/coding-development.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/kaiba.html",
+   "destination": "/categories/coding-development.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/nekton-ai.html",
+   "destination": "/categories/coding-development.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/sql-chat.html",
+   "destination": "/categories/coding-development.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/evosuite.html",
+   "destination": "/categories/coding-development.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/sheetsavvy-ai.html",
+   "destination": "/categories/productivity-automation.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/invisible-ai.html",
+   "destination": "/categories/productivity-automation.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/kudos.html",
+   "destination": "/categories/productivity-automation.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/mail-magic-ai.html",
+   "destination": "/categories/productivity-automation.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/productlab.html",
+   "destination": "/categories/productivity-automation.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/symbotic.html",
+   "destination": "/categories/productivity-automation.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/gaucho-ai.html",
+   "destination": "/categories/marketing-seo.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/chronicle.html",
+   "destination": "/categories/marketing-seo.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/reggie.html",
+   "destination": "/categories/chatbots-assistants.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/voicegpt.html",
+   "destination": "/categories/chatbots-assistants.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/advoice.html",
+   "destination": "/categories/audio-voice.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/echonotes.html",
+   "destination": "/categories/audio-voice.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/jinglemaker.html",
+   "destination": "/categories/audio-voice.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/voicera.html",
+   "destination": "/categories/audio-voice.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/ultimate.html",
+   "destination": "/categories/customer-support.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/webbotify.html",
+   "destination": "/categories/customer-support.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/downtobid.html",
+   "destination": "/categories/business-sales.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/chorus-ai.html",
+   "destination": "/categories/business-sales.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/clari.html",
+   "destination": "/categories/business-sales.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/groove.html",
+   "destination": "/categories/business-sales.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/listingpilot.html",
+   "destination": "/categories/business-sales.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/alegion-ai.html",
+   "destination": "/categories/data-analysis.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/monkeylearn.html",
+   "destination": "/categories/data-analysis.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/nebulagraph.html",
+   "destination": "/categories/data-analysis.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/obviously-ai.html",
+   "destination": "/categories/data-analysis.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/accoil.html",
+   "destination": "/categories/data-analysis.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/ipick-ai.html",
+   "destination": "/categories/data-analysis.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/galileo-ai.html",
+   "destination": "/categories/design.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/appified.html",
+   "destination": "/categories/nocode-lowcode.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/chat2build.html",
+   "destination": "/categories/nocode-lowcode.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/forefront-ai.html",
+   "destination": "/categories/nocode-lowcode.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/beemer.html",
+   "destination": "/categories/presentations.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/chartai.html",
+   "destination": "/categories/presentations.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/deckbird-ai.html",
+   "destination": "/categories/presentations.html",
+   "permanent": true
+  },
+  {
+   "source": "/blog/gong-vs-chorus-ai-vs-clari.html",
+   "destination": "/blog/",
+   "permanent": true
+  },
+  {
+   "source": "/blog/gorgias-vs-liveperson-vs-ultimate.html",
+   "destination": "/blog/",
+   "permanent": true
+  },
+  {
+   "source": "/blog/midjourney-vs-dall-e-3-vs-adobe-firefly.html",
+   "destination": "/blog/",
+   "permanent": true
+  },
+  {
+   "source": "/blog/uizard-vs-framer-ai-vs-galileo-ai.html",
+   "destination": "/blog/",
+   "permanent": true
+  }
+ ]
+}
