@@ -314,8 +314,8 @@
     "Now GTM platform, not writing tool",
     "Live; repositioned as GTM AI platform (Workflows, Agents); fullcast.com links; prices on separate page"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-16"
   },
   {
    "slug": "grammarly",
@@ -334,8 +334,8 @@
     "Pivoted to AI search growth; listing outdated",
     "Live; now AI search visibility (GEO) platform; 7-day trial; no prices shown"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-16"
   },
   {
    "slug": "summarizingtool",
@@ -364,8 +364,8 @@
     "Live; verify pricing",
     "Live, AI21 Labs; free tier; prices on separate page"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-16"
   },
   {
    "slug": "originality-ai",
@@ -524,8 +524,8 @@
     "Plans changed; update",
     "Live; Free, Standard $9.99, Pro $19.99, Pro Plus $49.99/mo"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-16"
   },
   {
    "slug": "ideogram",
@@ -534,8 +534,8 @@
     "New models; update",
     "Live; Ideogram 4.5; apps; prices on separate page"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-16"
   },
   {
    "slug": "imggen-ai",
@@ -734,8 +734,8 @@
     "Live; update pricing",
     "AI media: Creative, Dev API, Robotics; free trial"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-16"
   },
   {
    "slug": "synthesia",
@@ -744,8 +744,8 @@
     "Live; update free tier details",
     "Free Basic plan 500 credits/mo (~10 min); listing says 10 min/mo"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-16"
   },
   {
    "slug": "heygen",
@@ -754,8 +754,8 @@
     "Live; verify pricing",
     "Avatar video platform; free plan; prices not on homepage"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-16"
   },
   {
    "slug": "kling-ai",
@@ -1004,8 +1004,8 @@
     "Live; update URL",
     "URL redirects to claude.com/product/claude-code; not fetched further"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-16"
   },
   {
    "slug": "replit-ai",
@@ -1244,8 +1244,8 @@
     "Update to agents and credit pricing",
     "Live at notion.com; Agents, meeting notes, Business plan includes AI; custom agent credits $10/1,000"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-16"
   },
   {
    "slug": "zapier",
@@ -1254,8 +1254,8 @@
     "Update AI features; verify pricing",
     "Live; 9,000+ apps, MCP, agents, Next Gen Zaps"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-16"
   },
   {
    "slug": "motion",
@@ -1504,8 +1504,8 @@
     "SEO plus AI search visibility tracking, content editor; pricing on separate page",
     "SEO plus AI search visibility tracking, content editor; pricing on separate page"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-16"
   },
   {
    "slug": "hubspot-ai-tools",
@@ -1524,8 +1524,8 @@
     "Brand visibility platform across search and AI answers; 7-day free trial",
     "Brand visibility platform across search and AI answers; 7-day free trial"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-16"
   },
   {
    "slug": "otterly-ai",
@@ -3547,6 +3547,10 @@
   {
    "date": "2026-10-15",
    "action": "Mayank approved removals in chat; 56 tools moved to REMOVED_TOOLS, pages deleted, 301 redirects added in vercel.json (+4 comparison posts retired)"
+  },
+  {
+   "date": "2026-10-16",
+   "action": "Fixed 13 pages: copy-ai, writesonic, wordtune, adobe-firefly, ideogram, runway, synthesia, heygen, notion-ai, zapier, semrush, surfer-seo, claude-code. Windsurf & Tabnine deferred (official pricing unverifiable)."
   }
  ]
 }
