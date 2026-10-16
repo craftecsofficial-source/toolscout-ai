@@ -1014,8 +1014,8 @@
     "Live; pricing differs from listing",
     "Starter free, Core $18/mo yearly, Pro $90 yearly"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-16"
   },
   {
    "slug": "sofy",
@@ -1274,8 +1274,8 @@
     "Rebranded Brain2; update page",
     "Brain2 from $9/user/mo, Everything AI $28; matches listing"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-16"
   },
   {
    "slug": "microsoft-translator",
@@ -1604,8 +1604,8 @@
     "Search visibility platform with Optimize/Write modules; pricing on separate page",
     "Search visibility platform with Optimize/Write modules; pricing on separate page"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-16"
   },
   {
    "slug": "marketmuse",
@@ -1624,8 +1624,8 @@
     "Content OS for SEO and AI search; Individual $39 yearly, Pro $103 yearly; 7-day trial",
     "Content OS for SEO and AI search; Individual $39 yearly, Pro $103 yearly; 7-day trial"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-16"
   },
   {
    "slug": "article-fiesta",
@@ -2054,8 +2054,8 @@
     "Live; verify current prices",
     "AI video/audio editor with free plan"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-16"
   },
   {
    "slug": "murf-ai",
@@ -2064,8 +2064,8 @@
     "Live; add Falcon API and dubbing",
     "TTS Studio, Falcon 2 API $0.01/min, dubbing; free plan 10 min"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-16"
   },
   {
    "slug": "wellsaid-labs",
@@ -2104,8 +2104,8 @@
     "Free tier listed as 50 credits/day outdated",
     "AI music generator; free up to 10 songs/day, Pro 500 songs/mo, Premier 2000"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-16"
   },
   {
    "slug": "krisp",
@@ -2114,8 +2114,8 @@
     "Live; verify prices",
     "Meeting assistant, call center AI, voice SDK; prices on pricing page"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-16"
   },
   {
    "slug": "otter-ai",
@@ -2124,8 +2124,8 @@
     "Live; verify Pro price",
     "AI meeting assistant; Business $19.99/user/mo confirmed"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-16"
   },
   {
    "slug": "kits-ai",
@@ -2394,8 +2394,8 @@
     "Live ecommerce helpdesk with AI Agent; verify pricing",
     "Live ecommerce helpdesk with AI Agent; verify pricing"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-16"
   },
   {
    "slug": "liveperson",
@@ -2494,8 +2494,8 @@
     "Live; resolution-based pricing bundled in Suite plans",
     "Live; resolution-based pricing bundled in Suite plans"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-16"
   },
   {
    "slug": "medreceptionist",
@@ -2584,8 +2584,8 @@
     "Live sales intelligence platform with AI agents",
     "Live sales intelligence platform with AI agents"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-16"
   },
   {
    "slug": "ava-by-artisan",
@@ -2604,8 +2604,8 @@
     "Live GTM data enrichment platform; pricing on separate page",
     "Live GTM data enrichment platform; pricing on separate page"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-16"
   },
   {
    "slug": "common-room",
@@ -2634,8 +2634,8 @@
     "Live Revenue AI OS",
     "Live Revenue AI OS"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-16"
   },
   {
    "slug": "instantly-ai",
@@ -2834,8 +2834,8 @@
     "Live; pricing confirmed",
     "Live; free, paid from $16/mo annual"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-16"
   },
   {
    "slug": "datarobot",
@@ -3551,6 +3551,10 @@
   {
    "date": "2026-10-16",
    "action": "Fixed 13 pages: copy-ai, writesonic, wordtune, adobe-firefly, ideogram, runway, synthesia, heygen, notion-ai, zapier, semrush, surfer-seo, claude-code. Windsurf & Tabnine deferred (official pricing unverifiable)."
+  },
+  {
+   "date": "2026-10-16",
+   "action": "Fixed 15 pages: replit-ai, otter-ai, descript, suno, murf-ai (pricing carried over, unverified - JS-only page), krisp, clickup-ai, apollo-io, gong, clay, zendesk-ai-agents, gorgias (pricing unverified), frase, clearscope, base44. Unlinked 2 removed tools from inventive-ai/rocket text."
   }
  ]
 }
