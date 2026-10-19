@@ -294,8 +294,8 @@
     "Live; pricing unpublished, needs honest rewrite",
     "Live paraphraser/AI detector/cowriter; free plan, paid prices not shown"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-19"
   },
   {
    "slug": "jasper",
@@ -344,8 +344,8 @@
     "Live; free-tier claim needs correction",
     "Live summarizer; daily cap on free; unrendered template strings seen"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-19"
   },
   {
    "slug": "gozen-content-ai",
@@ -354,8 +354,8 @@
     "Pricing differs from listing",
     "Live; Free $0, Starter $19, Essential $49, Pro $99/mo, Premium custom"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-19"
   },
   {
    "slug": "wordtune",
@@ -374,8 +374,8 @@
     "Live; update features",
     "Live AI/plagiarism checker; free 2,000-word scan; prices on separate page"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-19"
   },
   {
    "slug": "koala-ai",
@@ -384,8 +384,8 @@
     "Pricing/features changed",
     "Live; now SEO agent + KoalaWriter; Pro from $49/mo, Boost $99"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-19"
   },
   {
    "slug": "languagetool",
@@ -394,8 +394,8 @@
     "Live; verify pricing",
     "Live; 30+ languages; Premium discount; prices not shown"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-19"
   },
   {
    "slug": "sapling",
@@ -404,8 +404,8 @@
     "Live; repositioned toward API/enterprise",
     "Live; API/SDK, MCP, grammar, AI detection; enterprise focus"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-19"
   },
   {
    "slug": "aiprm-for-chatgpt",
@@ -414,8 +414,8 @@
     "Live; prompt manager, not generator",
     "Live prompt library extension; free + Solo/Team plans"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-19"
   },
   {
    "slug": "contents-com",
@@ -424,8 +424,8 @@
     "Live; enterprise-oriented, listing outdated",
     "Live enterprise AI content platform; AI Chat/Translation coming soon; placeholder stats"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-19"
   },
   {
    "slug": "keyword-caddy",
@@ -434,8 +434,8 @@
     "Live; local SEO focus, verify pricing",
     "Live marketing page; local SEO platform; no prices shown"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-19"
   },
   {
    "slug": "lavender",
@@ -444,8 +444,8 @@
     "Live; product line changed",
     "Live; Email Coach and Ora sales agent; prices not shown"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-19"
   },
   {
    "slug": "movabletype-ai",
@@ -454,8 +454,8 @@
     "Live; pricing structure updated",
     "Live; $199/mo, $549/qtr, $1,999/yr; early-stage labels"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-19"
   },
   {
    "slug": "neuralwriter",
@@ -464,8 +464,8 @@
     "Live; free confirmed",
     "Live free paraphraser, 10k char limit, 30 languages"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-19"
   },
   {
    "slug": "novelai",
@@ -474,8 +474,8 @@
     "Live; update models",
     "Live; image V5 and story gen; subscriptions from $10/mo"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-19"
   },
   {
    "slug": "wordhero",
@@ -484,8 +484,8 @@
     "Moved to aivolut; pricing differs",
     "Redirects to aivolut.com/wordhero; live; Starter $15, Pro $29, Business $59/mo"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-19"
   },
   {
    "slug": "paperpal",
@@ -3555,6 +3555,10 @@
   {
    "date": "2026-10-16",
    "action": "Fixed 15 pages: replit-ai, otter-ai, descript, suno, murf-ai (pricing carried over, unverified - JS-only page), krisp, clickup-ai, apollo-io, gong, clay, zendesk-ai-agents, gorgias (pricing unverified), frase, clearscope, base44. Unlinked 2 removed tools from inventive-ai/rocket text."
+  },
+  {
+   "date": "2026-10-19",
+   "action": "Fixed 15 pages: rewording-io, summarizingtool, gozen-content-ai, originality-ai, koala-ai, languagetool, sapling, aiprm-for-chatgpt, contents-com, keyword-caddy, lavender, movabletype-ai, neuralwriter, novelai, wordhero. Pricing unverified (stated honestly on page): rewording-io, summarizingtool, languagetool, aiprm-for-chatgpt, contents-com, lavender, novelai (partly)."
   }
  ]
 }
