@@ -284,6 +284,12 @@
    "slug": "deckbird-ai",
    "name": "Deckbird AI",
    "reason": "Fetch blocked by robots; no verifiable info."
+  },
+  {
+   "slug": "supermaven",
+   "name": "Supermaven",
+   "reason": "Reported sunset of standalone service after Cursor/Anysphere acquisition; official site still lists plans. Awaiting Mayank approval.",
+   "approved": false
   }
  ],
  "fix": [
@@ -674,8 +680,8 @@
     "Live; recategorize as image recognition API",
     "Image recognition/tagging API, not generation; pricing on separate page"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-20"
   },
   {
    "slug": "quickqr-art",
@@ -764,8 +770,8 @@
     "Live; URL moved to kling.ai, update models",
     "Redirects to kling.ai; Kling 4.0 video, Image 3.0, API"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-20"
   },
   {
    "slug": "repliq",
@@ -784,8 +790,8 @@
     "Live; rebranded, pricing differs",
     "Page now Luma Agents; Plus $30 ($25 yearly), Pro $90, Ultra $300"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-20"
   },
   {
    "slug": "rask-ai",
@@ -794,8 +800,8 @@
     "Live; verify pricing",
     "AI dubbing/translation 135+ langs; prices changing soon"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-20"
   },
   {
    "slug": "vyond",
@@ -804,8 +810,8 @@
     "Live; update features",
     "AI video platform with avatars, Vyond Turbo; free trial"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-20"
   },
   {
    "slug": "fliki",
@@ -814,8 +820,8 @@
     "Live; verify pricing",
     "Text-to-video with 2000+ voices, 80+ languages; free plan"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-20"
   },
   {
    "slug": "sendspark",
@@ -854,8 +860,8 @@
     "Live; listing pricing outdated",
     "Browser editor; page shows Free, Starter $9, Creator $18, Business $31 per seat"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-20"
   },
   {
    "slug": "hedra",
@@ -864,8 +870,8 @@
     "Live; repositioned, update description",
     "Now broader visual AI infrastructure plus Studio; pricing not on page"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-20"
   },
   {
    "slug": "makeshorts-ai",
@@ -1034,8 +1040,8 @@
     "Live; URL moved to factory.com",
     "factory.ai redirects to factory.com; not fetched further"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-20"
   },
   {
    "slug": "windsurf",
@@ -1048,24 +1054,14 @@
    "fixed_on": null
   },
   {
-   "slug": "supermaven",
-   "name": "Supermaven",
-   "issues": [
-    "Live; check acquisition/sunset status",
-    "Page live: Free, Pro $10, Team $10/user; Supermaven was acquired by Cursor (2024), status unverified"
-   ],
-   "done": false,
-   "fixed_on": null
-  },
-  {
    "slug": "ollama",
    "name": "Ollama",
    "issues": [
     "Live; recategorize, verify pricing",
     "Local/cloud open model runner; not a coding tool strictly"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-20"
   },
   {
    "slug": "cohere",
@@ -1074,8 +1070,8 @@
     "Live; not coding tool, recategorize",
     "Enterprise platform North, Compass, Command/Embed/Rerank models"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-20"
   },
   {
    "slug": "fireworks-ai",
@@ -1084,8 +1080,8 @@
     "Live; recategorize, update",
     "Inference/training platform plus Nexus coding router; per-token pricing"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-20"
   },
   {
    "slug": "langflow",
@@ -1094,8 +1090,8 @@
     "Live; needs verified pricing and honest comparison",
     "Live; low-code agent/RAG builder, free cloud + OSS; pricing page not verified"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-20"
   },
   {
    "slug": "ai21-studio",
@@ -1114,8 +1110,8 @@
     "Add IDE plugin sunset and Kiro replacement",
     "Live; IDE plugins end of support Apr 30 2027, Kiro recommended; free tier 50 agentic chats/mo"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-20"
   },
   {
    "slug": "cosine",
@@ -3563,6 +3559,10 @@
   {
    "date": "2026-10-20",
    "action": "Fixed 15 pages: paperpal, mailmaestro, imggen-ai, stable-fast-3d, modelia, topaz-labs, meshy, pebblely, photopacks-ai, scenario, bgeraser, craiyon, diffusionbee, dzine, imagen-ai. Pricing unverified (stated on page): paperpal, craiyon (paid prices), bgeraser (desktop app), stable-fast-3d (API), photopacks-ai (teams). imagen-ai is photo editing but still in image-generation category."
+  },
+  {
+   "date": "2026-10-20",
+   "action": "Fixed 14 pages (run 2): imagga, kling-ai, luma-dream-machine, rask-ai, vyond, fliki, flixier, hedra, factory, ollama, cohere, fireworks-ai, langflow, amazon-q-developer. Supermaven proposed for REMOVE (pending approval, page left unchanged). Amazon Q Developer kept with IDE-plugin sunset (Apr 30 2027) warning. Pricing unverified on page: kling-ai, fliki (paid), langflow (paid), cohere (per-token)."
   }
  ]
 }
