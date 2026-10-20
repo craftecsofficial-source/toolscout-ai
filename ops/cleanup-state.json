@@ -494,8 +494,8 @@
     "Live; verify pricing",
     "Live academic writing assistant; prices on separate page"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-20"
   },
   {
    "slug": "mailmaestro",
@@ -504,8 +504,8 @@
     "Flowrite merged into MailMaestro; rewrite",
     "Flowrite acquired by Maestro Labs and folded into MailMaestro; live"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-20"
   },
   {
    "slug": "midjourney",
@@ -544,8 +544,8 @@
     "Live; prices not on page",
     "Live; 50 free credits one-time; paid 400-1,400 credits/mo"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-20"
   },
   {
    "slug": "stable-fast-3d",
@@ -554,8 +554,8 @@
     "Model, license needs checking",
     "Stability page live; license not stated on page"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-20"
   },
   {
    "slug": "modelia",
@@ -564,8 +564,8 @@
     "Live; verify pricing",
     "Live AI fashion model generator; free trial; prices not shown"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-20"
   },
   {
    "slug": "topaz-labs",
@@ -574,8 +574,8 @@
     "Pricing outdated",
     "Page shows web apps, Gigapixel $29/mo, Studio $399/yr; promo pricing"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-20"
   },
   {
    "slug": "meshy",
@@ -584,8 +584,8 @@
     "Live; verify pricing",
     "Live-looking; 3D generation, exports, MCP/API; prices not shown"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-20"
   },
   {
    "slug": "pebblely",
@@ -594,8 +594,8 @@
     "Live; verify pricing",
     "Live product photo tool; prices not shown"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-20"
   },
   {
    "slug": "photopacks-ai",
@@ -604,8 +604,8 @@
     "Possibly stale; verify",
     "Headshot generator $24 one-time; footer 2023-24; stale-looking"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-20"
   },
   {
    "slug": "scenario",
@@ -614,8 +614,8 @@
     "Pricing/features changed",
     "Live; Starter $15, Pro $45, Max $75 monthly; 650+ models"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-20"
   },
   {
    "slug": "bgeraser",
@@ -624,8 +624,8 @@
     "Live; free confirmed",
     "Live free background remover; desktop apps"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-20"
   },
   {
    "slug": "craiyon",
@@ -634,8 +634,8 @@
     "Live; verify pricing",
     "Live; free with watermark; paid plans, prices not shown"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-20"
   },
   {
    "slug": "diffusionbee",
@@ -644,8 +644,8 @@
     "Live; maintenance status unclear",
     "Live; free local Stable Diffusion for macOS; copyright 2024, maintenance unclear"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-20"
   },
   {
    "slug": "dzine",
@@ -654,8 +654,8 @@
     "Live; features expanded",
     "Live; image/video workspace; 100 free credits; prices not shown"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-20"
   },
   {
    "slug": "imagen-ai",
@@ -664,8 +664,8 @@
     "Live; pricing/category need correction",
     "AI photo culling/editing for photographers; listing category image-generation mismatched; pricing needs recheck"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-20"
   },
   {
    "slug": "imagga",
@@ -3559,6 +3559,10 @@
   {
    "date": "2026-10-19",
    "action": "Fixed 15 pages: rewording-io, summarizingtool, gozen-content-ai, originality-ai, koala-ai, languagetool, sapling, aiprm-for-chatgpt, contents-com, keyword-caddy, lavender, movabletype-ai, neuralwriter, novelai, wordhero. Pricing unverified (stated honestly on page): rewording-io, summarizingtool, languagetool, aiprm-for-chatgpt, contents-com, lavender, novelai (partly)."
+  },
+  {
+   "date": "2026-10-20",
+   "action": "Fixed 15 pages: paperpal, mailmaestro, imggen-ai, stable-fast-3d, modelia, topaz-labs, meshy, pebblely, photopacks-ai, scenario, bgeraser, craiyon, diffusionbee, dzine, imagen-ai. Pricing unverified (stated on page): paperpal, craiyon (paid prices), bgeraser (desktop app), stable-fast-3d (API), photopacks-ai (teams). imagen-ai is photo editing but still in image-generation category."
   }
  ]
 }
