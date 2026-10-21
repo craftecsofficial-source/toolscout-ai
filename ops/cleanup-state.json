@@ -700,8 +700,8 @@
     "Live; verify pricing",
     "Cloud workspace for Stable Diffusion/ComfyUI/A1111; free trial"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-21"
   },
   {
    "slug": "vectorart-ai",
@@ -830,8 +830,8 @@
     "Live; listing says 7-day trial, recheck",
     "AI video for B2B sales outreach; Start free offer"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-21"
   },
   {
    "slug": "adori-ai",
@@ -890,8 +890,8 @@
     "Live; update models",
     "Hailuo AI video/image generator; MiniMax H3 launched"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-21"
   },
   {
    "slug": "neural-frames",
@@ -910,8 +910,8 @@
     "Live; verify pricing",
     "AI video/image enhance/generation suite; no pricing on page"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-21"
   },
   {
    "slug": "plotagon",
@@ -1050,8 +1050,8 @@
     "Live; verify pricing",
     "AI IDE with Cascade agent; pricing not on page"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-21"
   },
   {
    "slug": "ollama",
@@ -1100,8 +1100,8 @@
     "Positioning changed; listed token pricing unverified",
     "Homepage now pitches lab-as-a-service custom model training, no public pricing shown"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-21"
   },
   {
    "slug": "amazon-q-developer",
@@ -1150,8 +1150,8 @@
     "Known real product; facts unverified here",
     "Fetch blocked by robots; URL is LlamaCloud"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-21"
   },
   {
    "slug": "mlflow",
@@ -1160,8 +1160,8 @@
     "Update with GenAI features, not just ML tracking",
     "Live; Apache 2.0, Linux Foundation, LLM tracing/eval and classical ML"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-21"
   },
   {
    "slug": "tabnine",
@@ -1170,8 +1170,8 @@
     "Real tool; pricing needs verification",
     "Fetched page was stale old completion page; current plans unverified"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-21"
   },
   {
    "slug": "interview-solver",
@@ -1260,8 +1260,8 @@
     "Live; verify pricing",
     "Live; tasks, calendar, meetings, docs with AI; free trial, prices not shown"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-21"
   },
   {
    "slug": "clickup-ai",
@@ -1280,8 +1280,8 @@
     "Live; verify tiers",
     "Live; apps, API, free monthly tier"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-21"
   },
   {
    "slug": "ishi",
@@ -1310,8 +1310,8 @@
     "Live; matches listing",
     "Live; 120 free min, Pro from $8.17/mo annual"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-21"
   },
   {
    "slug": "11x",
@@ -1420,8 +1420,8 @@
     "Live; verify paid prices",
     "Live; free 5 meetings; paid prices not shown"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-21"
   },
   {
    "slug": "diffit",
@@ -1510,8 +1510,8 @@
     "URL is HubSpot Agent Hub page (credits-based); listing is generic umbrella, pricing differs",
     "URL is HubSpot Agent Hub page (credits-based); listing is generic umbrella, pricing differs"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-21"
   },
   {
    "slug": "semrush",
@@ -1530,8 +1530,8 @@
     "AI search visibility tracker; from $29/mo; trial length inconsistent (7 vs 14 days)",
     "AI search visibility tracker; from $29/mo; trial length inconsistent (7 vs 14 days)"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-21"
   },
   {
    "slug": "pilotscribe",
@@ -3563,6 +3563,10 @@
   {
    "date": "2026-10-20",
    "action": "Fixed 14 pages (run 2): imagga, kling-ai, luma-dream-machine, rask-ai, vyond, fliki, flixier, hedra, factory, ollama, cohere, fireworks-ai, langflow, amazon-q-developer. Supermaven proposed for REMOVE (pending approval, page left unchanged). Amazon Q Developer kept with IDE-plugin sunset (Apr 30 2027) warning. Pricing unverified on page: kling-ai, fliki (paid), langflow (paid), cohere (per-token)."
+  },
+  {
+   "date": "2026-10-21",
+   "action": "Fixed 15 pages: ai21-studio, hubspot-ai-tools, llamaparse, microsoft-translator, minimax-video-hailuo-ai, mlflow, motion, neural-love, notta, otterly-ai, read-ai, sendspark, tabnine, thinkdiffusion, windsurf. Pricing unverified (stated on page): windsurf, tabnine (third-party sources), microsoft-translator, mlflow (managed), neural-love, minimax-video-hailuo-ai, otterly-ai (conflicting), llamaparse (credits), motion (monthly prices)."
   }
  ]
 }
