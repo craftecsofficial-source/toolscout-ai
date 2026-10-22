@@ -290,6 +290,12 @@
    "name": "Supermaven",
    "reason": "Reported sunset of standalone service after Cursor/Anysphere acquisition; official site still lists plans. Awaiting Mayank approval.",
    "approved": false
+  },
+  {
+   "slug": "hume-ai",
+   "name": "Hume AI",
+   "reason": "Hume is sunsetting its TTS (Octave) and EVI APIs; access ends 2026-11-13. hume.ai now sells evaluation tooling by request only. Awaiting Mayank approval.",
+   "approved": false
   }
  ],
  "fix": [
@@ -1570,8 +1576,8 @@
     "Now AI agent platform (Riley) plus creative tools; free to start; credit-based, listing pricing may be outdated",
     "Now AI agent platform (Riley) plus creative tools; free to start; credit-based, listing pricing may be outdated"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-22"
   },
   {
    "slug": "mutiny",
@@ -1610,8 +1616,8 @@
     "Content planning/optimization; pricing on separate page",
     "Content planning/optimization; pricing on separate page"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-22"
   },
   {
    "slug": "frase",
@@ -1720,8 +1726,8 @@
     "AI SEO/content platform plus managed service; prices on separate page",
     "AI SEO/content platform plus managed service; prices on separate page"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-22"
   },
   {
    "slug": "topic",
@@ -2070,8 +2076,8 @@
     "Live at wellsaid.io; listed Starter pricing outdated",
     "Domain redirects to wellsaid.io; rebranded WellSaid; 280+ voices, Enterprise/Creator/Free Trial plans"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-22"
   },
   {
    "slug": "ai-phone",
@@ -2174,16 +2180,6 @@
    "fixed_on": null
   },
   {
-   "slug": "hume-ai",
-   "name": "Hume AI",
-   "issues": [
-    "Live; product lineup changed",
-    "Voice AI platform: VoiceEQ, Expression APIs, Prism, speech data; no pricing on homepage"
-   ],
-   "done": false,
-   "fixed_on": null
-  },
-  {
    "slug": "musicfy",
    "name": "Musicfy",
    "issues": [
@@ -2280,8 +2276,8 @@
     "Live; product expanded beyond monitoring",
     "AI search monitoring plus AI Marketer agents; no prices on homepage"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-22"
   },
   {
    "slug": "scrunch-ai",
@@ -2640,8 +2636,8 @@
     "Live cold email and lead platform; pricing on separate page",
     "Live cold email and lead platform; pricing on separate page"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-22"
   },
   {
    "slug": "outreach",
@@ -2680,8 +2676,8 @@
     "Live; Clari products now listed alongside",
     "Live; Clari products now listed alongside"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-22"
   },
   {
    "slug": "smartlead",
@@ -2840,8 +2836,8 @@
     "Live; refresh",
     "Live enterprise AI agent platform"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-22"
   },
   {
    "slug": "enterpret",
@@ -2900,8 +2896,8 @@
     "Live; scope expanded",
     "Live; data analysis plus slides/reports/sites"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-22"
   },
   {
    "slug": "kadoa",
@@ -3090,8 +3086,8 @@
     "Live; refresh",
     "Live AI website builder"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-22"
   },
   {
    "slug": "imagecolorizer",
@@ -3149,8 +3145,8 @@
    "issues": [
     "Live; listing needs verified details and comparison."
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-22"
   },
   {
    "slug": "reimagine-home-ai",
@@ -3168,8 +3164,8 @@
     "Live; listing needs verified details and comparison.",
     "Live; standalone site ends 1 Dec 2026 as it moves to Canva."
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-22"
   },
   {
    "slug": "slazzer",
@@ -3186,8 +3182,8 @@
    "issues": [
     "Live; listing needs verified details and comparison."
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-22"
   },
   {
    "slug": "vizcom",
@@ -3223,8 +3219,8 @@
    "issues": [
     "Live; listing needs verified details and comparison."
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-22"
   },
   {
    "slug": "draftbit",
@@ -3567,6 +3563,10 @@
   {
    "date": "2026-10-21",
    "action": "Fixed 15 pages: ai21-studio, hubspot-ai-tools, llamaparse, microsoft-translator, minimax-video-hailuo-ai, mlflow, motion, neural-love, notta, otterly-ai, read-ai, sendspark, tabnine, thinkdiffusion, windsurf. Pricing unverified (stated on page): windsurf, tabnine (third-party sources), microsoft-translator, mlflow (managed), neural-love, minimax-video-hailuo-ai, otterly-ai (conflicting), llamaparse (credits), motion (monthly prices)."
+  },
+  {
+   "date": "2026-10-22",
+   "action": "Fixed 14 pages: datarobot, dify, framer-ai, instantly-ai, julius-ai, marketmuse, profound, recraft, remove-bg, salesloft, scalenut, simplified, uizard, wellsaid-labs. Hume AI proposed for REMOVE (pending approval, page left unchanged). Pricing unverified (stated on page): recraft, remove-bg (plan cards did not load), uizard (monthly), simplified, scalenut (trial), instantly-ai (page contradicts itself), salesloft/datarobot/marketmuse (not public). remove-bg standalone site closes 2026-12-01 - consider REMOVE after that date."
   }
  ]
 }

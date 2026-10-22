@@ -3276,60 +3276,102 @@ CATEGORIES = [
                     {"q": "Is SmartlyQ the same as Smartly.io?", "a": "No — SmartlyQ (smartlyq.com) is a separate, newer all-in-one marketing platform for SMBs and agencies; Smartly.io is an unrelated, larger enterprise advertising-creative and media-buying platform."}
                 ]
              }},
-            {"name": "Simplified", "tagline": "One AI agent team for content, social, and campaigns", "desc": "Simplified is an all-in-one AI marketing platform that unifies content creation, design, video, social scheduling, and campaign automation, letting marketers brief an AI agent once and get finished, on-brand campaigns back.", "pricing": "Free plan available; Starter from $79/mo (campaign-based); Enterprise custom", "url": "https://simplified.com/",
-             "tags": ["Marketing & SEO", "Content Creation", "Social Media Management"],
-             "features": ["AI content & copywriting across channels", "AI image, video, and design generation", "Social media scheduling & analytics across 12+ platforms", "Riley AI marketing agent for end-to-end campaigns", "Brand Memory / brand kit for consistent output", "MCP server, CLI, and API for custom agent workflows"],
-             "pros": ["Combines design, writing, video, and social scheduling in one subscription instead of stitching together separate tools", "Riley agent produces full campaign assets (copy + design + scheduling) from a single brief, reducing tool switching", "Broad platform reach: web app, Chrome extension, WordPress plugin, iOS/Android, Shopify app"],
-             "cons": ["Free and lower-tier AI credits run out quickly for active users", "AI-generated copy is often described as generic without editing", "Campaign-credit pricing ($10 per extra campaign) is less predictable than flat seat-based pricing"],
-             "best_for": "Small businesses, solo marketers, agencies, and content creators who want one platform to draft, design, and publish marketing content without managing five separate subscriptions.",
-             "deep": {
-                "overview": "Simplified began as a Canva-style graphic design and video tool aimed at small businesses and creators, then progressively layered in AI writing, video generation, and social media scheduling to become a broader marketing platform. Made by TLDR Technologies, it now positions itself as an \"agentic marketing OS\": users work inside a shared workspace with a brand kit, and can either use its individual AI tools directly (image generator, video editor, AI writer, post scheduler) or brief its AI agent, Riley, in plain language — something like \"launch our spring promo on Instagram and LinkedIn\" — and receive a finished, on-brand batch of assets to review and approve before anything publishes. Simplified reports over 15 million users worldwide and native publishing integrations across 12+ social platforms.\n\nBy 2026 the platform expanded further into an execution layer for external AI agents, adding an MCP server, CLI, and API so tools like Claude or Codex can trigger Simplified workflows programmatically rather than only working through the web app. Simplified explicitly contrasts itself with copilot tools like Jasper and ChatGPT, which it says draft text and stop there, versus its own agents which produce finished designs, copy, and assembled campaign assets ready for approval. It also positions its pricing well below full marketing suites — its Starter plan starts at $79/month compared to roughly $800/month for a comparable HubSpot Marketing Hub tier, per its own published comparison. On G2, Simplified holds a 4.6/5 rating from close to 5,000 reviews, with ease of use and time savings the most frequently cited strengths.",
-                "features_detailed": [
-                    {"title": "Riley AI Agent", "desc": "An AI marketing agent that plans, creates, and publishes campaign content from a plain-language brief, returning a finished, brand-consistent output for review before it ships."},
-                    {"title": "AI Writer & Content Generator", "desc": "Generates copy for blogs, ads, and social captions in a brand's voice, drawing on stored brand context rather than generic prompts."},
-                    {"title": "AI Image & Video Generation", "desc": "Text-to-image and text-to-video generation, AI photo/video editing, subtitle generation, and short-clip repurposing, covering most visual asset needs in one tool."},
-                    {"title": "Social Media Scheduler & Analytics", "desc": "Plans, queues, and publishes posts across 12+ social platforms, with a unified social inbox and analytics for reach and performance."},
-                    {"title": "Brand Memory & Context", "desc": "Stores a brand kit (colors, fonts, tone, products) that every AI tool and the Riley agent automatically inherits, so output stays on-brand without manual re-entry."},
-                    {"title": "Workflows & Automations", "desc": "Turns recurring campaign tasks into reusable automated runs, reducing repetitive manual work for regular content cycles."},
-                    {"title": "MCP Server, CLI & API", "desc": "Lets external AI clients like Claude or Codex, or custom scripts, trigger Simplified's content and publishing workflows programmatically."},
-                    {"title": "Client Approval Workflows", "desc": "External review and sign-off flows that let agencies get client approval on drafts before anything publishes, without exporting files elsewhere."}
-                ],
-                "pricing_plans": [
-                    {"name": "Free", "price": "$0/mo", "billing": "no card required", "features": ["1 user seat", "Up to 3 connected social accounts", "500 MB storage", "One-time AI word-credit allowance (~5,000 words) to trial the platform"]},
-                    {"name": "Starter", "price": "$79/mo", "billing": "monthly (campaign-based)", "features": ["5 campaigns per month (one output type each: a 6-post social batch, a 3-5 email sequence, or a 3-variant ad creative set)", "100K AI words", "100 AI designs", "Additional campaigns available for $10 each", "Full design, video, writing, and social scheduling toolset included"]},
-                    {"name": "Enterprise", "price": "Custom", "billing": "annual contract", "features": ["Unlimited AI content creation", "SSO/SAML support", "API access", "Dedicated training and onboarding sessions"]}
-                ],
-                "pros_expanded": [
-                    "Genuinely bundles AI writing, graphic design, video editing/generation, and social scheduling in one workspace — G2 reviewers specifically cite \"less tool switching\" as a top benefit versus juggling separate design, copy, and scheduling apps.",
-                    "The Riley agent and campaign-credit model produce a full set of finished assets (copy + creative + schedule) from a single brief, a step beyond copilot tools like Jasper or ChatGPT that only draft text.",
-                    "Broad publishing reach across 12+ social platforms plus native apps (iOS, Android, Chrome extension, WordPress plugin, Shopify app) keeps most day-to-day marketing work inside one ecosystem.",
-                    "G2 rates it 4.6/5 across roughly 5,000 reviews, with high mention counts for ease of use (1,456 mentions) and time-saving capabilities (330 mentions), a large and largely positive review base for the category.",
-                    "Pricing undercuts full marketing suites significantly — Starter begins at $79/month versus roughly $800/month for a comparable HubSpot Marketing Hub tier, per Simplified's own published comparison.",
-                    "MCP server, CLI, and API access let technical teams trigger Simplified workflows from Claude, Codex, or custom agents instead of only working through the web app."
-                ],
-                "cons_expanded": [
-                    "G2 reviewers frequently cite limited free credits (437 mentions) and pricing concerns (301 mentions) — the shared AI-credit system spent across every tool can run out faster than expected for active users.",
-                    "AI-generated copy is described as occasionally generic (346 mentions on G2) and typically needs editing before it's publish-ready.",
-                    "The campaign-credit pricing model ($79/month for 5 campaigns, $10 per additional campaign) is less predictable than flat seat-based pricing, which can complicate budgeting for agencies running many concurrent client campaigns.",
-                    "Plan downgrades only take effect at the next billing period, and unused campaign credits don't roll over month to month.",
-                    "With such a broad feature set spanning design, video, writing, scheduling, and agents, the platform can feel like it's doing a lot of things reasonably well rather than any single job exceptionally, compared to specialized tools that go deeper on one function."
-                ],
-                "who_for": "Simplified suits small businesses, solo marketers, freelancers, and lean in-house teams who want a single AI-assisted platform to draft copy, generate creative, and schedule social posts without paying for five separate tools. It's a weaker fit for large enterprises needing deep, specialized functionality in any one area (like enterprise-grade marketing automation or a professional video editing suite), or for teams running very high campaign volume, since the per-campaign credit pricing can get expensive at scale.",
-                "faq": [
-                    {"q": "What counts as one \"campaign\" in Simplified's pricing?", "a": "One campaign is one brief-to-approval cycle producing a single output type: a social batch of 6 posts, an email sequence of 3-5 emails, or a paid ad creative set of 3 A/B variants for Meta or Google."},
-                    {"q": "Do unused campaigns roll over to the next month?", "a": "No, campaign credits refresh each billing period and unused ones expire; additional campaigns can be purchased for $10 each on any plan."},
-                    {"q": "Is there a free plan?", "a": "Yes, the free plan includes 1 user seat, up to 3 connected social accounts, 500 MB storage, and a one-time AI word-credit allowance (about 5,000 words) to try the platform."},
-                    {"q": "How is Simplified different from Jasper or ChatGPT?", "a": "Jasper and ChatGPT are copilots that draft text and stop there; Simplified's agents take a brief and produce the finished design, copy, and assembled assets for review before anything ships."},
-                    {"q": "Can I use Simplified without briefing the AI agent (Riley)?", "a": "Yes, every plan includes the underlying design, video, writing, and scheduling tools on their own; the agent layer is additive, not a replacement."},
-                    {"q": "Does Simplified integrate with external AI tools like Claude?", "a": "Yes, via an MCP server, CLI, and API that let Claude, Codex, or custom agent clients trigger Simplified workflows programmatically."}
-                ],
-                "reviews": {
-                    "g2_rating": "4.6/5", "g2_count": "~5,000 reviews",
-                    "summary": "Simplified holds a strong 4.6/5 rating on G2 from roughly 5,000 reviews, with users consistently praising the all-in-one workflow and ease of use, while credit limits and pricing are the most common complaints.",
-                    "praise": ["All-in-one workflow reduces tool switching between design, copy, and scheduling", "Ease of use praised across role types, from small-business owners to agencies", "Strong time-savings reported for recurring social and campaign content"],
-                    "complaints": ["Free/lower-tier AI credits run out quickly for active users", "AI-generated copy can feel generic without editing", "Pricing concerns, especially around the per-campaign credit model at scale"]
-                }
-             }},
+            {'name': 'Simplified',
+ 'tagline': 'AI marketing platform with design, writing, video, social scheduling and a campaign agent',
+ 'desc': 'Simplified bundles AI writing, image and video tools, social scheduling and a campaign agent called Riley, working from a shared '
+         'brand kit. Drafts queue for your approval before anything publishes.',
+ 'pricing': 'Starter $79/mo (5 campaigns/mo, extra campaigns $10 each); Pro and Business plans exist but prices not shown publicly; free '
+            'to start per homepage but no free plan listed on the pricing page.',
+ 'url': 'https://simplified.com/',
+ 'tags': ['Marketing & SEO', 'Content Creation', 'Social Media Management'],
+ 'features': ['Riley AI agent that plans and produces campaigns from a brief',
+              'AI writing, image and video generation and editing',
+              'Social scheduling, analytics, unified inbox and client approvals',
+              'Brand memory shared across tools',
+              'Reusable scheduled workflows',
+              'MCP server, CLI and API for external agents'],
+ 'pros': ['Design, copy, video and scheduling in one subscription',
+          'Approval queue by default; auto-publish is opt-in',
+          'Individual tools usable without the agent'],
+ 'cons': ['Campaign-based pricing is less predictable than flat seats',
+          'Campaigns do not roll over and extra ones cost $10 each',
+          'Pro and Business prices are not public, and free-plan status is unclear'],
+ 'best_for': 'Small businesses, solo marketers and small agencies who want one tool to draft, design and schedule routine social, email '
+             'and ad content.',
+ 'last_checked': '2026-10-22',
+ 'alternatives': [{'slug': 'smartlyq',
+                   'why': 'Pick it if you want a similar all-in-one AI marketing platform including chatbots and publishing automation.'},
+                  {'slug': 'lovart',
+                   'why': 'Pick it if design-led campaign creation from a brief matters more than scheduling and writing.'},
+                  {'slug': 'hubspot-ai-tools',
+                   'why': 'Pick it if you already run on HubSpot and want AI inside a CRM and marketing suite.'}],
+ 'deep': {'overview': 'Simplified is a sensible pick for small businesses, solo marketers and small agencies that want routine social, '
+                      'email and ad content drafted, designed and scheduled in one place. Skip it if you need deep specialist tools (a '
+                      'professional video editor, enterprise marketing automation) or very high campaign volume, where per-campaign '
+                      'pricing adds up. It grew out of a design and video tool and now adds AI writing, social scheduling and an agent '
+                      'called Riley that turns a plain-language brief into finished campaign assets for you to approve. The company is '
+                      'TLDR Technologies, Inc.',
+          'who_for': 'Who it is for: lean marketing teams, freelancers and agencies running regular social, email and ad creative. Who it '
+                     'is not for: enterprises needing depth in one area, teams running many concurrent client campaigns on a tight budget, '
+                     'and buyers who need fully public pricing for every tier (Pro and Business prices were not shown).',
+          'features_detailed': [{'title': 'Riley agent',
+                                 'desc': 'Plans, creates and queues campaign content from a brief; drafts wait for approval by default and '
+                                         'auto-publish is opt-in.'},
+                                {'title': 'Writing, image and video tools',
+                                 'desc': 'AI writing, image generation, photo editing, video generation and editing, subtitles and short '
+                                         'clips.'},
+                                {'title': 'Social suite',
+                                 'desc': 'Scheduling, analytics, unified inbox, link-in-bio and client approvals across 10+ channels.'},
+                                {'title': 'Brand memory',
+                                 'desc': 'Stores brand, product and knowledge context that the agent and tools reuse.'},
+                                {'title': 'Workflows', 'desc': 'Repeated jobs can run as reusable, scheduled workflows.'},
+                                {'title': 'Developer access',
+                                 'desc': 'MCP server, CLI and API let external agents such as Claude or Codex run Simplified tasks.'}],
+          'pricing_plans': [{'name': 'Starter',
+                             'price': '$79/mo',
+                             'billing': 'Monthly; annual pricing not listed',
+                             'features': ['5 campaigns per month',
+                                          '100K AI words and 100 AI designs (per trial description)',
+                                          'Extra campaigns $10 each',
+                                          'Brand kit, scheduling, design, video and writing tools']},
+                            {'name': 'Pro',
+                             'price': 'Not public',
+                             'billing': 'Could not verify',
+                             'features': ['Described as more campaigns and team seats; price not shown']},
+                            {'name': 'Business',
+                             'price': 'Not public',
+                             'billing': 'Could not verify',
+                             'features': ['Described as more campaigns and team seats; price not shown']},
+                            {'name': 'Free / trial',
+                             'price': 'Homepage says free to start, no card',
+                             'billing': 'Pricing page lists no free plan; trial length not stated',
+                             'features': ['Pricing page describes a trial with full Starter access',
+                                          'Could not verify current free-plan limits']}],
+          'pros_expanded': ['One workspace for copy, design, video and scheduling instead of several subscriptions',
+                            'Human approval is the default, so the agent does not publish unreviewed work',
+                            'Tools work standalone, so you can skip the agent',
+                            'Cancel anytime with no fees; upgrades apply immediately',
+                            'MCP, CLI and API access suit teams wiring it into other agents'],
+          'cons_expanded': ['Campaign-based pricing: each campaign yields one output type (6 posts, a 3-5 email sequence, or 3 ad '
+                            'variants), so volume gets costly at $10 per extra campaign',
+                            'Campaigns reset each billing period and do not roll over',
+                            'Downgrades take effect only at the next billing period',
+                            'Pro and Business prices are not published, and annual pricing was not listed',
+                            'Our fetch of the pricing page found no free plan while the homepage says free to start; confirm before '
+                            'signing up',
+                            'We did not independently test output quality, so judge generic-copy risk with the trial'],
+          'faq': [{'q': 'How much does Simplified cost?',
+                   'a': 'Starter is $79 per month for 5 campaigns. Pro and Business are named but their prices were not shown. Extra '
+                        'campaigns are $10 each.'},
+                  {'q': 'What counts as a campaign?',
+                   'a': 'One brief-to-approval cycle producing one output type: a 6-post social batch, a 3-5 email sequence, or 3 ad '
+                        'variants.'},
+                  {'q': 'Is there a free plan?',
+                   'a': 'The homepage says free to start with no card, but the pricing page lists a trial and no free plan. Could not '
+                        'verify current limits.'},
+                  {'q': 'Do unused campaigns roll over?', 'a': 'No. They reset each billing period.'},
+                  {'q': 'Can I use it without the Riley agent?',
+                   'a': 'Yes. The design, video, writing and scheduling tools work without the agent.'}]}},
             {"name": "Mutiny", "tagline": "AI agent for personalized B2B website and deal content", "desc": "Mutiny is an AI-native platform, originally built for B2B website personalization, that now generates a full range of customer-facing assets, including 1:1 ABM landing pages, deal rooms, business cases, and pitch decks, tailored to each target account.", "pricing": "Free plan; Business from $50/mo; Enterprise custom, starting around $30k/yr", "url": "https://www.mutinyhq.com/",
              "tags": ["Marketing & SEO", "Account-Based Marketing", "Website Personalization"],
              "features": ["No-code 1:1 ABM landing page personalization", "AI-generated deal rooms, business cases, and pitch decks", "Meeting recap & follow-up content generated from call transcripts", "Automatic brand extraction (colors, fonts, style) from your website", "CRM, call recording, and analytics integrations (Salesforce, 6sense, Clearbit, Segment)", "Engagement analytics showing who viewed each asset"],
@@ -3540,60 +3582,125 @@ CATEGORIES = [
                   {'slug': 'marketmuse', 'why': 'Pick it if you care more about content inventory and topic authority planning than writer-level grading.'},
                   {'slug': 'frase', 'why': 'Pick it if you want audit, drafting and publishing automation on top of optimization, at a lower entry price.'}],
  'last_checked': '2026-10-16'},
-            {"name": "MarketMuse", "tagline": "AI-powered content inventory and topic authority planning", "desc": "MarketMuse audits a site's existing content, models topic authority against competitors, and generates data-backed briefs and strategy documents to guide what to write or optimize next.", "pricing": "Free plan with 10 queries/mo; paid Optimize, Research, and Strategy tiers are quote-based (contact sales)", "url": "https://www.marketmuse.com/",
-             "tags": ["Marketing & SEO", "Content Strategy", "Topic Research"],
-             "features": ["Content inventory & site audit", "Personalized Difficulty & Topic Authority scoring", "AI content briefs (9 brief types)", "Content Strategy Documents", "Competitive content analysis", "SERP X-Ray and Heatmap"],
-             "pros": ["Deep, proprietary topical data beyond keyword volume", "Strong for prioritizing what to write or update next", "Well-regarded customer support"],
-             "cons": ["Pricing is no longer public — quote-based sales process", "Steep learning curve for non-technical users", "Expensive relative to lighter SEO content tools"],
-             "best_for": "Mid-market and enterprise content teams, agencies, and publishers that need to systematically audit large content libraries and prioritize topics at scale.",
-             "deep": {
-                "overview": "MarketMuse is an AI content intelligence platform built by former content strategists and SEOs to replace ad hoc, spreadsheet-driven content planning with a systematic, data-backed workflow. Rather than starting from keyword volume, MarketMuse builds a full inventory of a site's published content, applies proprietary topic-modeling algorithms to score each page's authority and difficulty relative to competitors, and surfaces where a site has gaps, weak coverage, or quick-win opportunities. The platform is used primarily by SEOs, content strategists, editors, and content marketing managers at brands, publishers, and agencies to decide what to write, what to update, and where competitive advantage exists before a single word is drafted. MarketMuse holds a patent on its topic-modeling technology and has positioned this as its key differentiator versus tools that lean on third-party keyword APIs or simple TF-IDF term-frequency analysis.\n\nCore workflows include Content Inventory (an auto-updating map of a site's pages and topic coverage), Compete/Research (competitive topic modeling for a given subject), Optimize (a live content-scoring editor that compares a draft against a target topic model), and Content Briefs and Strategy Documents that package research into actionable assignments for writers. The company was co-founded by Jeff Coyle and Aki Balogh and is headquartered in Boston. In late 2024, MarketMuse was acquired by Siteimprove, and around that time the company moved from published per-tier pricing to a quote-based sales model across all paid plans — a notable shift for a tool historically known for transparent list pricing.", "features_detailed": [
-                    {"title": "Content Inventory", "desc": "An automatically maintained, page-by-page map of everything published on a site, scored against personalized metrics so teams can see what's underperforming or missing without a manual audit."},
-                    {"title": "Personalized Difficulty & Topic Authority", "desc": "Proprietary metrics that estimate how hard it would be for a specific site (not a generic domain) to rank for a topic, based on its existing content footprint and historical performance."},
-                    {"title": "Competitive Advantage scoring", "desc": "Compares a site's Personalized Difficulty against the topic's general difficulty to flag topics where the site has an edge over competitors."},
-                    {"title": "Content Briefs", "desc": "Auto-generated writing briefs across nine formats (article, listicle, how-to, comparison, FAQ collection, etc.) built from topic models of top-ranking competitive content."},
-                    {"title": "Content Strategy Documents", "desc": "Higher-level planning documents that roll up inventory and topic data into prioritized recommendations for content teams and stakeholders."},
-                    {"title": "Optimize editor", "desc": "A real-time content scoring workspace that compares a draft's topical coverage against a target score derived from competitive pages."},
-                    {"title": "SERP X-Ray & Heatmap", "desc": "Visualizes the structure and topical emphasis of top-ranking pages for a given query to reveal why they're ranking."},
-                    {"title": "Site Heatmap & Connect", "desc": "Visual, site-wide view of topical strength and weakness across a domain's content, integrated with CMS/analytics connections."}
-                ],
-                "pricing_plans": [
-                    {"name": "Free", "price": "$0", "billing": "no card required", "features": ["1 user", "10 queries/month", "No tracked topics", "Access to Topic Navigator, Keywords, SERP X-Ray & Heatmap"]},
-                    {"name": "Optimize", "price": "Custom quote", "billing": "quote-based, billed annually or monthly", "features": ["1 site inventory", "1 user", "100 tracked topics", "5 content briefs/month", "1 Content Strategy Document/month", "100 queries/month"]},
-                    {"name": "Research", "price": "Custom quote", "billing": "quote-based, billed annually or monthly", "features": ["1 site inventory", "3 users", "1,000 tracked topics", "10 content briefs/month", "3 Content Strategy Documents/month", "Unlimited queries"]},
-                    {"name": "Strategy", "price": "Custom quote", "billing": "quote-based, billed annually or monthly", "features": ["1 site inventory", "5 users", "10K tracked topics", "20 content briefs/month", "Access to all 9 brief types", "5 Content Strategy Documents/month", "Unlimited queries"]}
-                ],
-                "pros_expanded": [
-                    "G2 reviewers repeatedly cite the depth and accuracy of MarketMuse's topical data as superior to commodity keyword tools, with several reviewers noting they evaluated multiple SEO platforms before settling on MarketMuse.",
-                    "The Content Inventory and personalized difficulty scoring let teams prioritize a large content library (hundreds or thousands of pages) without manually auditing each one.",
-                    "Nine distinct brief types and Strategy Documents shorten the handoff between research and writing, which reviewers say saves meaningful research time per article.",
-                    "Customer support is a standout: Capterra rates support 4.7/5 and TrustRadius reviewers give it 9.2/10 for responsiveness.",
-                    "Patented topic-modeling technology is a genuine technical differentiator rather than a wrapper around a third-party keyword API."
-                ],
-                "cons_expanded": [
-                    "As of the Siteimprove acquisition, MarketMuse removed all public per-tier pricing; buyers must book a demo and negotiate a quote, which adds friction for small teams comparison-shopping.",
-                    "Multiple G2 and Capterra reviewers describe a real learning curve, especially for non-technical marketers unfamiliar with topic modeling concepts like Personalized Difficulty.",
-                    "Reviewers in smaller companies flag the cost as disproportionate for low-volume publishers compared to lighter-weight AI writing/SEO tools.",
-                    "Capterra reviewers frequently request a native Google Docs plugin, which isn't part of the current toolset.",
-                    "The platform's strength (deep topical data) comes with more surface area to learn than single-purpose keyword or brief-generator tools."
-                ],
-                "who_for": "MarketMuse is best suited to mid-market and enterprise content teams, agencies, and publishers managing large content libraries who need systematic, data-driven prioritization rather than one-off keyword lookups. It's a weaker fit for solo bloggers, very small businesses, or anyone wanting simple, transparent self-serve pricing, since paid plans now require a sales conversation and the platform has a learning curve.",
-                "reviews": {
-                    "g2_rating": "4.6/5", "g2_count": "216 reviews",
-                    "capterra_rating": "4.6/5", "capterra_count": "28 reviews",
-                    "summary": "MarketMuse holds strong, consistent ratings on both G2 (4.6/5 from 216 reviews, 79% five-star) and Capterra (4.6/5 from 28 reviews), with reviewers most often praising data quality and support, and flagging price and learning curve as the main friction.",
-                    "praise": ["Depth and accuracy of topical/competitive data", "Actionable content briefs that speed up writer handoff", "Responsive, knowledgeable customer support"],
-                    "complaints": ["High cost, especially for small teams or solopreneurs", "Steep learning curve for non-SEO-technical users", "No native Google Docs integration"]
-                },
-                "faq": [
-                    {"q": "How much does MarketMuse cost?", "a": "MarketMuse offers a free plan (10 queries/month, 1 user) but all paid tiers — Optimize, Research, and Strategy — are quote-based; you must book a demo with sales to get pricing."},
-                    {"q": "Does MarketMuse write content for me?", "a": "No. MarketMuse is a research and planning tool that generates briefs and topic models; the Optimize editor scores drafts but writing is done by the user or a separate AI writing tool."},
-                    {"q": "Who owns MarketMuse?", "a": "MarketMuse was acquired by Siteimprove in late 2024, though it continues to operate as a distinct product and brand."},
-                    {"q": "What is 'Personalized Difficulty'?", "a": "It's a proprietary 1-100 score estimating how hard it would be for your specific site (based on its existing authority and content) to rank for a given topic, as opposed to a generic keyword difficulty score."},
-                    {"q": "Can MarketMuse audit an entire existing website?", "a": "Yes, the Content Inventory feature automatically crawls and scores a site's published pages against topic and quality metrics to surface gaps and optimization opportunities."},
-                    {"q": "Is there a free trial?", "a": "MarketMuse offers a permanent free plan with limited queries and features rather than a time-boxed trial; paid-tier trials are arranged through the sales/demo process."}
-                ]
-             }},
+            {'name': 'MarketMuse',
+ 'tagline': 'AI content planning and topic research platform, quote-priced, owned by Siteimprove',
+ 'desc': "MarketMuse audits a site's existing content, models topic authority against competitors, and generates data-backed briefs and "
+         'strategy documents to guide what to write or optimize next.',
+ 'pricing': 'Free plan (10 queries/mo, 1 user). Optimize, Research and Strategy paid tiers show no prices publicly; pricing is quote-based '
+            'via a demo request.',
+ 'url': 'https://www.marketmuse.com/',
+ 'tags': ['Marketing & SEO', 'Content Strategy', 'Topic Research'],
+ 'features': ['Content inventory and site audit',
+              'Personalized Difficulty and topic authority scoring',
+              'Content briefs (Article on Optimize/Research; all 9 types on Strategy)',
+              'Content strategy documents',
+              'Competitive content analysis',
+              'SERP X-Ray and Heatmap'],
+ 'pros': ['Site-specific topic and difficulty data rather than generic keyword volume',
+          'Useful for prioritizing what to write or update across a large content library',
+          'Free plan lets you try core research tools'],
+ 'cons': ['No public prices for paid tiers; you must book a demo to get a quote',
+          'Steep learning curve for non-technical marketers',
+          'Likely overkill and costly for small or low-volume sites (cost not verified)'],
+ 'best_for': 'Content teams, agencies and publishers with large content libraries who want systematic topic planning and briefs, and are '
+             'comfortable going through a sales process.',
+ 'deep': {'overview': 'MarketMuse suits content teams, agencies and publishers with big content libraries who want to decide what to write '
+                      'or update using site-specific topic data, and who accept a sales-led purchase. Skip it if you are a solo blogger or '
+                      'small site that wants self-serve, published pricing or a quick writing assistant. It audits the pages you already '
+                      'have, scores topic authority and difficulty against competitors, and produces briefs and strategy documents plus an '
+                      'Optimize editor that scores drafts. It does not write the article for you. Its public pricing page shows plan '
+                      'limits but no dollar amounts, and third-party reporting says Siteimprove acquired the company; the product site '
+                      'remains live and was still advertising a demo when checked.',
+          'features_detailed': [{'title': 'Content Inventory',
+                                 'desc': 'An automatically maintained, page-by-page map of everything published on a site, scored against '
+                                         "personalized metrics so teams can see what's underperforming or missing without a manual audit."},
+                                {'title': 'Personalized Difficulty & Topic Authority',
+                                 'desc': 'Proprietary metrics that estimate how hard it would be for a specific site (not a generic '
+                                         'domain) to rank for a topic, based on its existing content footprint and historical '
+                                         'performance.'},
+                                {'title': 'Competitive Advantage scoring',
+                                 'desc': "Compares a site's Personalized Difficulty against the topic's general difficulty to flag topics "
+                                         'where the site has an edge over competitors.'},
+                                {'title': 'Content Briefs',
+                                 'desc': 'Auto-generated writing briefs across nine formats (article, listicle, how-to, comparison, FAQ '
+                                         'collection, etc.) built from topic models of top-ranking competitive content.'},
+                                {'title': 'Content Strategy Documents',
+                                 'desc': 'Higher-level planning documents that roll up inventory and topic data into prioritized '
+                                         'recommendations for content teams and stakeholders.'},
+                                {'title': 'Optimize editor',
+                                 'desc': "A real-time content scoring workspace that compares a draft's topical coverage against a target "
+                                         'score derived from competitive pages.'},
+                                {'title': 'SERP X-Ray & Heatmap',
+                                 'desc': 'Visualizes the structure and topical emphasis of top-ranking pages for a given query to reveal '
+                                         "why they're ranking."},
+                                {'title': 'Site Heatmap & Connect',
+                                 'desc': "Visual, site-wide view of topical strength and weakness across a domain's content, integrated "
+                                         'with CMS/analytics connections.'}],
+          'pricing_plans': [{'name': 'Free',
+                             'price': '$0',
+                             'billing': 'n/a',
+                             'features': ['1 user',
+                                          '10 queries/month',
+                                          'No site inventory, tracked topics, briefs or strategy documents',
+                                          'Topic Navigator, Keywords, SERP X-Ray, SERP Heatmap, Site Heatmap, Connect']},
+                            {'name': 'Optimize',
+                             'price': 'Not public - contact sales',
+                             'billing': 'Quote-based',
+                             'features': ['1 site inventory, 1 user',
+                                          '100 tracked topics',
+                                          '5 briefs/month (Article type)',
+                                          '1 strategy document/month',
+                                          '100 queries/month']},
+                            {'name': 'Research',
+                             'price': 'Not public - contact sales',
+                             'billing': 'Quote-based',
+                             'features': ['1 site inventory, 3 users',
+                                          '1,000 tracked topics',
+                                          '10 briefs/month (Article type)',
+                                          '3 strategy documents/month',
+                                          'Unlimited queries']},
+                            {'name': 'Strategy',
+                             'price': 'Not public - contact sales',
+                             'billing': 'Quote-based',
+                             'features': ['1 site inventory, 5 users',
+                                          '10,000 tracked topics',
+                                          '20 briefs/month, all 9 brief types',
+                                          '5 strategy documents/month',
+                                          'Unlimited queries']}],
+          'pros_expanded': ["Personalized Difficulty is based on your own site's content footprint, not a generic domain score",
+                            'Content inventory helps triage a large library without a manual audit',
+                            'Higher tiers offer all nine brief types and strategy documents, shortening the research-to-writer handoff',
+                            'Permanent free tier gives access to SERP X-Ray and Topic Navigator to test the approach'],
+          'cons_expanded': ['No dollar prices are published for any paid tier; budgeting requires a sales conversation',
+                            'Each paid tier is capped on briefs, tracked topics and users (for example 5 briefs/month on Optimize)',
+                            'Only one site inventory on every plan listed',
+                            'Optimize and Research include only the Article brief type',
+                            'Concepts like topic authority take time to learn; expect a ramp-up for non-SEO staff',
+                            'I could not verify current customer ratings today, so none are cited'],
+          'who_for': 'Who it is for: mid-size and enterprise content teams, SEO agencies and publishers who need to audit and prioritize '
+                     'hundreds or thousands of pages. Who it is not for: solo creators or small businesses, anyone who needs published '
+                     'self-serve pricing, and anyone expecting an AI tool that drafts finished articles.',
+          'faq': [{'q': 'How much does MarketMuse cost?',
+                   'a': 'The pricing page shows no dollar amounts. The Free plan is $0 (10 queries/month); Optimize, Research and Strategy '
+                        'go through a demo request for a quote.'},
+                  {'q': 'Does MarketMuse write articles for me?',
+                   'a': 'No. It produces research, briefs and strategy documents and scores drafts in its Optimize editor; the writing is '
+                        'done by you or another tool.'},
+                  {'q': 'Who owns MarketMuse?',
+                   'a': 'Third-party coverage (e.g. Search Engine Journal) reports Siteimprove acquired it. The MarketMuse homepage itself '
+                        'does not mention a parent company.'},
+                  {'q': 'What do I get on the Free plan?',
+                   'a': 'One user and 10 queries per month with Topic Navigator, Keywords, SERP X-Ray and Heatmaps. No site inventory, '
+                        'tracked topics, briefs or strategy documents.'},
+                  {'q': 'Is there a free trial of paid plans?',
+                   'a': "The pricing page has a 'Start my free trial' link, but I could not verify what a trial includes; ask sales."}]},
+ 'last_checked': '2026-10-22',
+ 'alternatives': [{'slug': 'clearscope',
+                   'why': 'Pick it if you mainly need content grading and topic research for individual articles rather than site-wide '
+                          'inventory.'},
+                  {'slug': 'surfer-seo', 'why': 'Pick it if you want a more self-serve content optimization editor for writers.'},
+                  {'slug': 'dashword',
+                   'why': 'Pick it if you want lighter SEO briefs and optimization scoring without an enterprise sales process.'}]},
             {'name': 'Frase',
  'tagline': 'Content platform for Google rankings and AI-search citations',
  'desc': 'Frase audits your site, researches and drafts content against top-ranking pages, publishes after approval, and tracks Google rankings and mentions '
@@ -4046,19 +4153,122 @@ CATEGORIES = [
     "reviews": {"trustpilot_rating": "4.6/5", "trustpilot_count": "224+ reviews", "summary": "Ranked AI's own reviews page cites a verified 4.6 out of 5 rating from 224+ Trustpilot reviews, with a large share of reviewers highlighting multi-year retention, responsive human support, and measurable ranking improvements across both local and agency-managed sites.", "praise": ["Many long-tenured customers (cited from several months up to nearly 5 years) report consistent ranking improvements and high responsiveness from the account team", "Reviewers frequently single out customer support quality — fast responses via chat/Slack and proactive communication rather than reactive ticket handling", "Agencies using the white-label option report the platform and dashboard make them 'look good' in front of their own clients"], "complaints": ["Review sample skews toward Trustpilot testimonials collected/promoted by the company itself rather than an independent, non-vendor-curated source", "No independent G2 or Capterra listing with rating/review data was found to cross-verify the Trustpilot figures", "Reviews are largely about the managed-service relationship (responsiveness, results, retention) rather than detailed critique of the standalone software/dashboard experience"]},
     "faq": [{"q": "Is Ranked AI a software tool or an agency?", "a": "Both — it bundles a full SEO/PPC software suite (tracking, audits, reporting) with a team of human professionals who implement the work, rather than being purely self-serve or purely a traditional agency."}, {"q": "How much does Ranked AI cost?", "a": "Plans run $99/month (Standard), $198/month (Plus), and $349/month (Enterprise), each billed monthly per website with no long-term contract. A custom-priced White Label plan is available for agencies."}, {"q": "Does Ranked AI track AI search visibility, not just Google rankings?", "a": "Yes — its software tracks brand and keyword visibility across both traditional search engines and AI answer engines like ChatGPT and Google AI Overviews."}, {"q": "Can agencies resell Ranked AI under their own brand?", "a": "Yes, the White Label plan lets agencies offer the full software-and-service stack to their clients with the agency's own branding on the dashboard, reports, and client portal."}, {"q": "How do I communicate with the Ranked AI team?", "a": "Clients can reach their account team via Slack, WhatsApp, Microsoft Teams, live chat, email, or scheduled calls, rather than being limited to a ticketing system."}, {"q": "Is there a free trial?", "a": "Yes, Ranked AI offers a free trial before requiring payment, giving prospective customers a look at both the software and the service before committing."}]
  }},
-            {"name": "Scalenut", "tagline": "AI content and SEO, now built for the GEO era", "desc": "Scalenut is an AI-powered SEO and content platform that combines keyword research, AI writing, and content optimization with a Generative Engine Optimization (GEO) suite for tracking and improving visibility in ChatGPT, Google AI Overviews, and Perplexity.", "pricing": "Plans from $59/month (Starter) to $199/month (Professional), 7-day free trial, plus custom VIP/Enterprise service", "url": "https://www.scalenut.com/",
- "tags": ["Marketing & SEO", "AI Content Writing", "GEO / AI Visibility"],
- "features": ["Cruise Mode for AI-generated full blog drafts", "SEO content optimizer with real-time scoring", "Keyword planner with semantic keyword clustering", "AI visibility tracking across ChatGPT, Google AI Overviews, and Perplexity", "GEO content audit for existing web pages", "Internal linking and content gap recommendations", "AI content detector and humanizer", "WordPress and Shopify auto-publishing"],
- "pros": ["Combines AI writing, traditional SEO research, and newer GEO/AI-visibility tracking in one platform instead of requiring separate tools", "Cruise Mode meaningfully speeds up first-draft blog creation from a brief to a near-complete article", "Strong, verifiable review record: 4.7/5 on G2 and 4.8/5 on Capterra, with 600+ combined reviews across G2, Capterra and Trustpilot"],
- "cons": ["Sticker pricing rises quickly at the Professional tier ($199/month) once teams need higher article, prompt, and audit volume", "Frequent promotional discounting (e.g., recurring 60%-off sales) makes it hard to know the 'real' ongoing price without checking at signup time", "AI-generated first drafts still need human editing for voice and factual accuracy, as with most AI writing tools"],
- "best_for": "Content marketers, SEO agencies, and in-house teams that want one platform to research keywords, draft optimized content, and track how their brand shows up in both Google and AI answer engines.",
- "deep": {
-    "overview": "Scalenut is an AI content and SEO platform originally built around the classic long-form SEO workflow — keyword research, topic clustering, AI-assisted writing, and on-page optimization scored against top-ranking competitors — that has since expanded into Generative Engine Optimization (GEO), the practice of optimizing for visibility inside AI answer engines rather than just traditional search results. The platform's SEO core includes a Keyword Planner that groups semantically related terms into content clusters, a Content Optimizer that scores drafts in real time against NLP terms and top-30 competitor pages, and 'Cruise Mode,' Scalenut's flagship feature that can generate a near-complete, SEO-briefed blog draft from a single topic input in a few minutes. On top of this, Scalenut has built a GEO Action Center and AI Visibility product that tracks how often and how favorably a brand appears in ChatGPT, Google AI Overviews, and (on higher tiers) Perplexity responses, refreshed weekly, alongside a GEO content audit tool that scores existing web pages for AI-readability at scale.\n\nScalenut positions itself against both narrower SEO content tools (Surfer SEO, Clearscope, Frase) and general AI writers (Jasper), differentiating by bundling research, drafting, optimization, and now AI-visibility tracking into a single workspace rather than requiring several subscriptions. The company reports over 100,000 marketers and 1 million+ businesses have used the platform, with 5 million+ SEO blogs generated to date, and backs this scale with a real, verifiable review record: a 4.7 rating on G2 and 4.8 on Capterra, cited on Scalenut's own reviews page as '4.8/5 by 600+ users across G2, Capterra, Trustpilot & more.' Pricing is usage-based around monthly article/optimization/keyword-cluster quotas and AI-prompt tracking volume, with frequent limited-time promotional discounts (commonly 60% off on annual plans) layered on top of the standard monthly rates, plus a top-tier 'VIP Service' where Scalenut's own strategists and writers execute GEO content and backlink work directly for the client.", "features_detailed": [{"title": "Cruise Mode", "desc": "Generates a full, SEO-briefed blog draft from a single topic input in minutes, intended to replace the manual outline-then-write process."}, {"title": "Content Optimizer", "desc": "Scores drafts in real time against NLP terms, competitor word counts, headings, and readability pulled from the top-ranking pages for a target keyword."}, {"title": "Keyword Planner", "desc": "Groups semantically related keywords into topic clusters to plan content calendars around search intent rather than one keyword at a time."}, {"title": "AI Visibility / GEO Action Center", "desc": "Tracks how often and how favorably a brand's content is surfaced in ChatGPT, Google AI Overviews, and Perplexity responses, refreshed weekly."}, {"title": "GEO content audit", "desc": "Scans existing web pages at scale (200-2,000+ pages depending on plan) and flags which ones are and aren't well-optimized for AI-engine visibility."}, {"title": "AI content detector and humanizer", "desc": "Detects AI-generated text and rewrites flagged content to reduce detectability, with a monthly word allowance on paid tiers."}, {"title": "Internal linking and topic gap analysis", "desc": "Surfaces internal linking opportunities and content gaps versus competitors as add-on modules on Plus and above."}, {"title": "Publishing integrations", "desc": "Auto-publish finished content directly to WordPress or Shopify, plus integrations with Semrush and Copyscape."}], "pricing_plans": [{"name": "Starter", "price": "$59/month", "billing": "monthly (discounted rates around $24/month have run during promotional periods)", "features": ["Track up to 10 AI prompts (weekly refresh)", "1 workspace / domain", "5 GEO articles created per month", "5 articles optimized per month", "5 keyword clusters per month", "Basic email & chat support"]}, {"name": "Plus", "price": "$89/month", "billing": "monthly (discounted rates around $36/month have run during promotional periods)", "features": ["Track up to 25 AI prompts (weekly refresh)", "2 workspaces / domains", "30 GEO articles created + optimized per month", "200-page GEO content audit", "Advanced content audit, internal linking, topic gaps", "Up to 4 team members", "Auto-publish to WordPress/Shopify"]}, {"name": "Professional", "price": "$199/month", "billing": "monthly (discounted rates around $80/month have run during promotional periods)", "features": ["Track up to 100 AI prompts, including Perplexity", "Unlimited workspaces / domains", "75 GEO articles created + optimized per month", "1,000-page GEO content audit", "Advanced keyword planner and cannibalization analysis", "Unlimited team members", "Dedicated CSM and priority support"]}, {"name": "VIP Service", "price": "Custom", "billing": "quoted, booked via strategy call", "features": ["Dedicated senior GEO strategist plus a team of writers and editors", "7 AI agents handling research, content, and technical work", "High-quality backlink acquisition", "Monthly technical audits and fixes", "Weekly performance reports and Loom/call updates"]}],
-    "pros_expanded": ["Scalenut bundles keyword research, AI drafting, on-page optimization, and AI-visibility (GEO) tracking into one workspace, reducing the number of separate SEO/content subscriptions a team needs to run.", "Cruise Mode is a genuinely fast path from topic to a structured, SEO-briefed first draft, which users on G2 specifically call out as a time-saver over manually building an outline first.", "The review record is both real and strong: Scalenut cites 4.7/5 on G2 and 4.8/5 on Capterra, backed by 600+ combined reviews across G2, Capterra, and Trustpilot, with G2-tracked sub-scores of roughly 9.3/10 for ease of use and 9.3/10 for ease of setup.", "Being an early mover into GEO/AI-visibility tracking (alongside classic SEO) means existing SEO-focused customers get AI-answer-engine monitoring without switching platforms as search behavior shifts.", "Multiple G2 badges (High Performer, Leader in Content Creation, Momentum Leader) across several quarterly cycles suggest sustained, not one-off, positive market reception."], "cons_expanded": ["Standard monthly sticker pricing climbs quickly — $199/month at the Professional tier — before factoring in any add-ons like the AI Link Manager, Social Upreach, or Backlinks Marketplace.", "Scalenut runs frequent limited-time promotions (commonly citing 60% off annual plans), which makes the 'real' ongoing price a moving target that buyers need to verify at signup rather than trust the sticker rate.", "As with all AI writing tools, Cruise Mode output is a strong first draft, not a finished, fact-checked, brand-voice-matched article — human editing is still required before publishing.", "Lower tiers cap AI prompt tracking at just 10-25 prompts/month (Starter/Plus), which may be too thin for brands wanting to monitor AI visibility across a broad set of queries without upgrading to Professional."],
-    "who_for": "Best suited to content marketers, SEO specialists, and agencies that want one platform covering keyword research, AI-assisted drafting, on-page optimization, and now AI-answer-engine visibility tracking, especially teams already investing in both classic SEO and GEO. Less ideal for teams that only need a narrow point solution (e.g., just AI writing, or just rank tracking) and would find Scalenut's broader feature set unnecessary overhead.",
-    "reviews": {"g2_rating": "4.7/5", "g2_count": "600+ reviews (combined figure across G2, Capterra & Trustpilot, per Scalenut's own reviews page)", "capterra_rating": "4.8/5", "capterra_count": "600+ reviews (combined figure across G2, Capterra & Trustpilot, per Scalenut's own reviews page)", "summary": "Scalenut's official reviews page states a combined 4.8/5 rating from 600+ users across G2, Capterra, and Trustpilot; G2 specifically lists Scalenut at 4.7/5, and G2 category benchmarks show Scalenut scoring around 9.3/10 for ease of use and ease of setup. Reviewers consistently praise the SEO Assistant's competitor/NLP analysis and Cruise Mode's drafting speed.", "praise": ["Reviewers repeatedly call out the SEO Assistant for surfacing NLP terms, top-30 competitor analysis, and 'People Also Ask'-style questions in one report, replacing multiple standalone SEO tools", "Cruise Mode is frequently cited as a major time-saver for producing a full SEO-briefed blog draft (some reviewers claim ~2,500-word drafts in under 5 minutes)", "Multiple reviewers say Scalenut replaced 2-3 other tools they were previously paying for (e.g., separate keyword research, writing, and optimization subscriptions)"], "complaints": ["Scalenut's cited review counts are aggregated across G2, Capterra, and Trustpilot rather than broken out per platform, making it harder to assess volume on any single review site independently", "Some third-party comparison sites note the promotional pricing structure (frequent large discounts) makes standard cost unclear without checking current offers", "As with most AI content tools, a portion of reviews and comparison content note that output still needs human editing for voice and accuracy before publishing"]},
-    "faq": [{"q": "What is Scalenut used for?", "a": "Scalenut is used for SEO content research, AI-assisted blog writing (via Cruise Mode), on-page content optimization against competitor benchmarks, and tracking a brand's visibility in AI answer engines like ChatGPT and Google AI Overviews (GEO)."}, {"q": "How much does Scalenut cost?", "a": "Standard monthly pricing runs $59 (Starter), $89 (Plus), and $199 (Professional), each with a 7-day free trial; Scalenut also frequently runs promotional discounts (commonly around 60% off on annual billing) and offers a custom-priced VIP Service tier."}, {"q": "What is Cruise Mode?", "a": "Cruise Mode is Scalenut's feature for generating a full, SEO-briefed blog draft from a single topic input in a few minutes, intended to replace manually building an outline and writing from scratch."}, {"q": "Does Scalenut track AI search visibility, not just Google rankings?", "a": "Yes — its GEO Action Center and AI Visibility tools track how a brand appears in ChatGPT, Google AI Overviews, and (on the Professional plan) Perplexity, refreshed weekly."}, {"q": "What are Scalenut's real G2 and Capterra ratings?", "a": "Scalenut is rated 4.7/5 on G2 and 4.8/5 on Capterra, with a combined 600+ reviews cited across G2, Capterra, and Trustpilot on the company's own reviews page."}, {"q": "Is there a free trial?", "a": "Yes, Scalenut offers a 7-day free trial on its paid plans before requiring payment."}]
- }},
+            {'name': 'Scalenut',
+ 'tagline': 'AI content, SEO and AI-search (GEO) visibility tracking in one platform',
+ 'desc': 'Scalenut combines keyword planning, AI article drafting, content optimization and a Generative Engine Optimization (GEO) suite '
+         'that tracks brand visibility in AI answer engines such as ChatGPT and Google AI Overviews.',
+ 'pricing': 'Starter $59/mo, Plus $89/mo, Professional $199/mo billed monthly; annual billing shown at $21, $31 and $70/mo respectively; '
+            'VIP Service custom. 7-day trial shown on monthly view.',
+ 'url': 'https://www.scalenut.com/',
+ 'tags': ['Marketing & SEO', 'AI Content Writing', 'GEO / AI Visibility'],
+ 'features': ['Cruise Mode for AI-generated blog drafts',
+              'Content optimizer with scoring against competitors',
+              'Keyword planner with topic clustering',
+              'AI visibility tracking (ChatGPT, Google AI Overviews; Perplexity on Professional)',
+              'GEO content audit of existing pages',
+              'Internal linking and topic gap tools (Plus and above)',
+              'Auto-publish to WordPress and Shopify (Plus and above)'],
+ 'pros': ['Research, drafting, optimization and AI-visibility tracking in one subscription',
+          'Annual billing cuts the effective price sharply (Starter $21/mo vs $59 monthly)',
+          'Done-for-you VIP Service available if you want experts to run GEO'],
+ 'cons': ['Monthly prices climb quickly: Professional is $199/mo',
+          'Pricing page has internal inconsistencies, so verify limits at checkout',
+          'AI drafts still need human editing and fact-checking'],
+ 'best_for': 'Content and SEO teams or agencies who want one tool for keyword research, AI-assisted drafting and AI-search visibility '
+             'tracking, and are willing to commit annually to get a reasonable price.',
+ 'last_checked': '2026-10-22',
+ 'alternatives': [{'slug': 'surfer-seo',
+                   'why': 'Pick it if you mainly want content optimization scoring and do not need a bundled AI writer.'},
+                  {'slug': 'frase',
+                   'why': 'Pick it if you want a content brief and writing platform focused on Google rankings and AI citations.'},
+                  {'slug': 'clearscope',
+                   'why': 'Pick it if you want polished content grading and topic research for an established editorial team.'}],
+ 'deep': {'overview': 'Scalenut is a good fit for content and SEO teams that want keyword research, AI drafting and AI-search visibility '
+                      'tracking under one login, and who will pay annually. It is a poor fit if you need only one narrow job done, such as '
+                      'rank tracking or a plain AI writer, or if you want a predictable monthly price without reading the fine print on '
+                      'limits. It started as an SEO writing tool built around keyword clusters, a content optimizer and Cruise Mode, which '
+                      'drafts a blog post from a topic. It now also sells GEO features: tracking how a brand shows up in AI answers, '
+                      'auditing existing pages, and a done-for-you service run by Scalenut strategists.',
+          'who_for': 'Who it is for: in-house marketers, SEO freelancers and agencies producing regular long-form content who also want to '
+                     'watch AI-search visibility. Who it is not for: teams needing only a single point tool, buyers who want heavy '
+                     'AI-prompt tracking on a small budget (Starter tracks 10 prompts, Plus 25), or anyone expecting publish-ready '
+                     'articles with no editing.',
+          'features_detailed': [{'title': 'Cruise Mode',
+                                 'desc': 'Generates a structured blog draft from a topic. Treat the output as a first draft that needs '
+                                         'editing and fact-checking.'},
+                                {'title': 'Content optimizer',
+                                 'desc': 'Scores your draft against terms and structure from pages that rank for the target keyword.'},
+                                {'title': 'Keyword planner',
+                                 'desc': 'Groups related keywords into clusters; the advanced planner with cannibalization analysis is on '
+                                         'Professional.'},
+                                {'title': 'AI visibility tracking',
+                                 'desc': 'Tracks a set number of prompts (10, 25 or 100 by plan) across ChatGPT and Google AI Overviews, '
+                                         'with Perplexity on Professional.'},
+                                {'title': 'GEO content audit',
+                                 'desc': 'Audits existing pages for AI-search readiness: 200 pages per month on Plus, 1,000 on '
+                                         'Professional.'},
+                                {'title': 'Internal linking and topic gaps',
+                                 'desc': 'Advanced content audit, internal linking and topic gap tools are listed from Plus upward.'},
+                                {'title': 'Publishing',
+                                 'desc': 'Auto-publish to WordPress and Shopify is listed on Plus and Professional.'},
+                                {'title': 'VIP Service',
+                                 'desc': 'Custom-priced done-for-you GEO: a strategist, writers and editors, AI agents, backlinks and '
+                                         'monthly technical audits.'}],
+          'pricing_plans': [{'name': 'Starter',
+                             'price': '$59/mo monthly; $21/mo billed annually',
+                             'billing': 'Monthly or annual; 7-day trial shown on monthly view',
+                             'features': ['10 AI prompts tracked',
+                                          '1 workspace/domain',
+                                          '5 articles, 5 optimizations, 5 keyword clusters per month',
+                                          'ChatGPT and Google AI Overviews',
+                                          'Email and chat support']},
+                            {'name': 'Plus',
+                             'price': '$89/mo monthly; $31/mo billed annually',
+                             'billing': 'Monthly or annual; 7-day trial shown on monthly view',
+                             'features': ['25 AI prompts tracked',
+                                          '2 workspaces',
+                                          '30 articles/optimizations per month',
+                                          '200 GEO audit pages per month',
+                                          'Advanced content audit, internal linking, topic gaps',
+                                          'Auto-publish to WordPress and Shopify',
+                                          'Up to 4 team members']},
+                            {'name': 'Professional',
+                             'price': '$199/mo monthly; $70/mo billed annually',
+                             'billing': 'Monthly or annual; 7-day trial shown on monthly view',
+                             'features': ['100 AI prompts, including Perplexity',
+                                          'Unlimited workspaces and team members',
+                                          '75 articles/optimizations per month',
+                                          '1,000 GEO audit pages per month',
+                                          'Advanced keyword planner and cannibalization analysis',
+                                          'Dedicated CSM and priority support']},
+                            {'name': 'VIP Service',
+                             'price': 'Custom (not public)',
+                             'billing': 'Quote via strategy call',
+                             'features': ['Done-for-you GEO with dedicated strategist, writers and editors',
+                                          'Backlinks, monthly technical audit, weekly reports']}],
+          'pros_expanded': ['Covers keyword research, drafting, optimization and AI-visibility tracking, so fewer separate subscriptions',
+                            'Annual billing is far cheaper per month than monthly (Professional $70 vs $199 per the pricing page)',
+                            'Higher tiers add real capacity: 100 tracked prompts, 1,000-page audits and unlimited seats',
+                            'A managed VIP Service exists for teams that do not want to operate the tools themselves'],
+          'cons_expanded': ['Monthly pricing is steep, and the cheap annual price means a longer commitment',
+                            'The pricing page we read contained conflicting figures (for example keyword cluster limits for Professional) '
+                            'and mixed promotional text, so confirm limits before paying',
+                            'The page says annual plans carry 3X limits, so monthly buyers get lower quotas than the annual headline '
+                            'suggests',
+                            'Starter and Plus prompt tracking (10 and 25) is thin for broad AI-visibility monitoring',
+                            'AI drafts need human editing; we did not verify output quality independently'],
+          'faq': [{'q': 'How much does Scalenut cost?',
+                   'a': 'Monthly billing is $59 (Starter), $89 (Plus) and $199 (Professional). Annual billing is shown at $21, $31 and $70 '
+                        'per month. VIP Service is custom. Promotions change, so check the live page.'},
+                  {'q': 'Is there a free trial?',
+                   'a': 'The pricing page shows a 7-day trial on the monthly view. We could not verify whether it requires a card.'},
+                  {'q': 'Are annual plans limited differently from monthly?',
+                   'a': 'Yes. The page states annual plans get 3X limits (for example Plus articles rise from 30 to 90 per month) and the '
+                        'discount applies to annual only.'},
+                  {'q': 'Does it track visibility in ChatGPT and Perplexity?',
+                   'a': 'It tracks ChatGPT and Google AI Overviews on all paid plans, and adds Perplexity on Professional.'},
+                  {'q': 'Does Cruise Mode produce publish-ready articles?',
+                   'a': 'No. It produces a structured first draft that you should edit and fact-check.'}]}},
             {"name": "Topic", "tagline": "AI content briefs and grading that boost organic traffic", "desc": "Topic is an AI-based content optimization tool that generates SEO content briefs and grades drafts against top-ranking pages, helping teams close content gaps and build topical authority.", "pricing": "Starter $99/mo (10 briefs), Plus $199/mo (25 briefs), Premium $300/mo (50 briefs); custom Enterprise plans with unlimited reports and white-label options.", "url": "https://www.usetopic.com/",
  "tags": ["Marketing & SEO", "Content Optimization", "Content Briefs"],
  "features": ["AI-generated content briefs from a single keyword", "Content Grader that scores drafts in real time", "NLP analysis of top-ranking pages to surface semantically related topics", "Interactive outline builder for handoff to writers", "Keyword research tool included on all plans", "Google Docs integration"],
@@ -6029,64 +6239,115 @@ CATEGORIES = [
                   {'slug': 'wellsaid-labs', 'why': 'Another business-oriented AI voice tool aimed at brand-consistent narration.'},
                   {'slug': 'voicemaker', 'why': 'A text-to-speech option with a very large voice catalog if budget matters more than studio workflow.'}],
  'last_checked': '2026-10-16'},
-            {"name": "WellSaid Labs", "tagline": "Enterprise-grade AI voices for brand-consistent audio", "desc": "WellSaid focuses on a curated set of natural-sounding voice avatars aimed at enterprise use cases that need a consistent, licensed brand voice, and now publishes transparent list pricing rather than requiring a sales call.", "pricing": "Free trial available; Starter from $10/mo billed yearly ($19/mo billed monthly)", "url": "https://wellsaidlabs.com",
-             "tags": ["Enterprise", "Brand voice"],
-             "features": ["Curated, licensed voice actors with the Caruso model included on every tier", "Unlimited generation and retakes on all paid plans", "Adobe Premiere Pro and Express integrations", "SOC 2 Type II certified, no training on customer data"],
-             "pros": ["Ethically sourced, licensed voices with a strong enterprise trust posture", "Unlimited generation and retakes on every paid plan", "Now publishes transparent list pricing instead of requiring a sales call"],
-             "cons": ["Non-English languages and translation are Enterprise-only", "Expensive for team use, especially the $160/mo-per-seat Business plan"],
-             "best_for": "Regulated industries such as healthcare and finance that need compliant, ethically-sourced narration.",
-             "deep": {
-                "overview": "WellSaid Labs is a Seattle-based AI voice-generation company, originally spun out of the Allen Institute for AI, focused on realistic, professional-grade English voiceovers for corporate training, internal communications, marketing and product video. Its flagship voice model, Caruso, is included on every paid tier at no extra cost, and the company leans heavily toward enterprise learning-and-development and marketing buyers.\n\nWhere Murf and ElevenLabs push breadth (many languages, many use cases including agents, dubbing and sound effects), WellSaid concentrates on a narrower set of highly polished English voices with fine-grained tone, pitch and emotional controls, billed on unlimited generation plus metered download minutes rather than per-character credits. It also emphasizes enterprise trust signals — SOC 2 Type II certification, a no-training-on-customer-data policy — more heavily than Murf or ElevenLabs' self-serve tiers, and has recently shifted from opaque 'contact us' pricing to transparent public list pricing.",
-                "features_detailed": [
-                    {"title": "WellSaid Studio", "desc": "The core editor for turning scripts into voiceovers, with unlimited generation and retakes on every paid plan — only the final downloaded minutes are metered."},
-                    {"title": "Caruso voice model", "desc": "The company's most advanced AI voice model, included on all subscription tiers (including Starter) at no additional cost."},
-                    {"title": "Tone, pitch and emotional controls", "desc": "Fine-tune delivery per clip, including AI-driven phonetic suggestions and pronunciation customization for accurate US/UK pronunciation."},
-                    {"title": "Adobe integrations", "desc": "Adobe Express integration on Pro and above, plus Adobe Premiere Pro integration on Business and Enterprise."},
-                    {"title": "Team workspace & collaboration", "desc": "Shared team drives, commenting, shared pronunciation libraries and access control features on Business and Enterprise plans."},
-                    {"title": "Caption file export", "desc": "Auto-generated .SRT and .VTT caption files bundled with audio clips on all paid plans."},
-                    {"title": "API access", "desc": "Programmatic access for embedding WellSaid voices into other products, with a free API trial key available."},
-                    {"title": "Enterprise language & translation support", "desc": "Additional non-English languages plus clip translation, available exclusively on the Enterprise plan."},
-                ],
-                "pricing_plans": [
-                    {"name": "Trial (Free)", "price": "Free", "billing": "No credit card required", "features": ["3 download minutes/month (no commercial rights)", "3 projects", "10 minutes of generation", "Curated voice actors"]},
-                    {"name": "Starter", "price": "$10/mo", "billing": "Billed annually at $120/yr; $19/mo if billed monthly; 1 seat", "features": ["240 min/year downloaded audio (~20 min/month)", "Unlimited generation", "All English voices", "Full commercial rights"]},
-                    {"name": "Pro", "price": "$33/mo", "billing": "Billed annually at $396/yr; $49/mo if billed monthly; 1 seat", "features": ["2,160 min/year downloaded audio (~180 min/month)", "Unlimited projects", "Adobe Express integration", "Up to 48kHz audio"]},
-                    {"name": "Business", "price": "$160/mo per user", "billing": "Billed annually at $1,920/yr per user; up to 5 seats", "features": ["2,880 min/year/user downloaded audio", "Team workspace & collaboration", "PO and invoicing available", "Adobe Premiere Pro integration"]},
-                    {"name": "Enterprise", "price": "Custom pricing", "billing": "Contact sales", "features": ["Custom seats and download minutes", "All languages + translation", "SSO & security controls", "Dedicated Customer Success Manager"]},
-                ],
-                "pros_expanded": [
-                    "Consistently rated among the most natural, broadcast-ready English voices in independent and Reddit comparisons, especially for corporate training",
-                    "Unlimited generation and retakes on every paid plan mean users aren't penalized for iterating",
-                    "Caruso, the company's top-tier voice model, is included on all plans at no upcharge",
-                    "Strong enterprise trust posture: SOC 2 Type II certified, GDPR-compliant, customer data never used to train models",
-                    "Adobe Premiere Pro and Express integrations plug directly into existing video-production workflows",
-                    "Now publishes transparent list pricing instead of requiring a sales call for every tier, a recent and notable change",
-                ],
-                "cons_expanded": [
-                    "Historically priced and marketed toward enterprise buyers, and the Business tier ($160/mo per user, capped at 5 seats) remains expensive relative to Murf or ElevenLabs",
-                    "Language coverage is comparatively narrow — non-English voices, translation and dubbing are available only on the Enterprise plan",
-                    "Some users report occasional mispronunciations and limited ability to adjust reading speed",
-                    "Lower tiers (Starter, Pro) are capped at MP3 export only; higher-quality formats and sample rates require Business or Enterprise",
-                    "Download-minute metering, rather than flat unlimited downloads, means heavy users on Starter or Pro can still hit caps",
-                    "Capterra review volume is quite small, making that aggregate score less statistically reliable than G2's larger sample",
-                ],
-                "who_for": "WellSaid Labs is best suited for corporate L&D, internal communications and marketing teams that need polished, consistent English-language voiceovers integrated into existing Adobe-based video workflows, and that value enterprise security guarantees over raw feature breadth. Teams needing strong multilingual or dubbing support, custom voice cloning, or the lowest possible entry price should look at ElevenLabs or Murf AI instead.",
-                "reviews": {
-                    "g2_rating": "4.7/5", "g2_count": "122 reviews",
-                    "capterra_rating": "4.4/5", "capterra_count": "14 reviews",
-                    "summary": "WellSaid Labs scores well on G2 with a reasonably sized review base, but its Capterra footprint is thin, where sub-scores skew lower on Value for Money than on Ease of Use. Reddit and independent reviews consistently rank its English voice quality among the best available, calling it 'worth every penny' for business-focused English voiceover work, but repeatedly flag that it's priced and built for larger organizations rather than individual creators, with weaker multilingual support than ElevenLabs or Murf.",
-                    "praise": ["Voice realism and polish, particularly for English corporate/training content", "Unlimited generation and retakes on paid plans", "Enterprise-grade security and no-training-on-customer-data policy"],
-                    "complaints": ["Expensive for team use, especially the $160/mo-per-seat Business plan", "Non-English language and translation support restricted to Enterprise", "Small Capterra review sample makes that rating less reliable", "Download-minute caps on Starter/Pro require add-on purchases for heavier use"],
-                },
-                "faq": [
-                    {"q": "Is WellSaid Labs pricing public now, or do you have to contact sales?", "a": "As of its latest pricing update, WellSaid Labs publishes transparent list pricing for Starter, Pro and Business plans starting at $10/mo (billed annually); only the Enterprise tier requires contacting sales for a custom quote."},
-                    {"q": "Does WellSaid Labs have a free plan?", "a": "Yes, a free trial plan with no credit card required, offering 3 download minutes per month, 3 projects and 10 minutes of generation, though it does not include commercial usage rights."},
-                    {"q": "How much does WellSaid Labs cost?", "a": "Individual plans run from $10/mo (Starter, billed annually; $19/mo monthly) to $33/mo (Pro, billed annually; $49/mo monthly); Business is $160/mo per user (billed annually, up to 5 seats); Enterprise is custom-priced."},
-                    {"q": "Does WellSaid Labs support languages other than English?", "a": "Non-English languages plus translation are available only on the Enterprise plan — Starter, Pro and Business are English-only."},
-                    {"q": "How does WellSaid Labs compare to Murf AI and ElevenLabs?", "a": "WellSaid focuses on a smaller set of highly polished English voices with unlimited generation and strong enterprise security, while Murf and ElevenLabs offer far broader language coverage, lower entry prices, and (in ElevenLabs' case) self-serve voice cloning and API-first tooling."},
-                    {"q": "Is WellSaid Labs worth it?", "a": "For teams needing consistent, professional English voiceovers for training or internal communications with Adobe workflow integration, most reviewers say yes; for multilingual needs, custom voice cloning, or tight budgets, ElevenLabs or Murf are generally considered better fits."},
-                ],
-             }},
+            {'name': 'WellSaid Labs',
+ 'tagline': 'AI voiceover from licensed voice actors, now branded WellSaid',
+ 'desc': 'WellSaid (wellsaid.io, formerly WellSaid Labs) turns scripts into voiceover in a web studio using voices modeled on professional '
+         'voice actors. It publishes self-serve plans for individuals and teams, an API, and Adobe integrations.',
+ 'pricing': 'Free trial (3 download minutes/mo, no commercial rights); Starter $10/mo billed yearly or $19 monthly; Pro $33/mo yearly or '
+            '$49 monthly; Business $160/user/mo billed yearly; Enterprise custom.',
+ 'url': 'https://wellsaid.io',
+ 'tags': ['Enterprise', 'Brand voice'],
+ 'features': ['Studio editor with unlimited generation on paid plans',
+              'Tone, pitch and emotion controls per clip',
+              'Adobe Express (Pro+) and Premiere Pro (Business+) integrations',
+              'Team workspace, shared pronunciation library and access controls (Business+)',
+              'API for embedding voices in products',
+              'Languages and translation on Enterprise'],
+ 'pros': ['Unlimited generation; only downloaded minutes are metered',
+          'Published prices for four of five tiers',
+          'Commercial rights from the first paid plan'],
+ 'cons': ['Business is $160 per user per month and capped at 5 seats',
+          'Non-English languages and translation are Enterprise-only',
+          'Download minutes are capped and do not roll over'],
+ 'best_for': 'Corporate training, internal comms and marketing teams that want polished English voiceover and team features, and can live '
+             'with metered download minutes.',
+ 'deep': {'overview': 'WellSaid is a good choice for teams producing English narration for training, internal video and marketing who want '
+                      'to iterate freely and keep commercial rights. Skip it if you need many languages without an Enterprise contract, or '
+                      'the lowest possible per-minute cost for high volume. The product is a web studio where you paste a script, pick a '
+                      'voice, adjust tone and pitch, and download audio. The company has moved from wellsaidlabs.com to wellsaid.io; the '
+                      'homepage says its voices come from professional voice actors and lists 280+ voice actors. Generation is unlimited '
+                      'on paid plans, but downloads are metered by the minute.',
+          'features_detailed': [{'title': 'Studio',
+                                 'desc': 'Script-to-voice editor. Paid plans allow unlimited generation; the trial caps generation at 10 '
+                                         'minutes.'},
+                                {'title': 'Voice controls',
+                                 'desc': 'Tone, pitch and emotional controls are included from the trial tier up.'},
+                                {'title': 'Caption files', 'desc': 'Starter and above include .SRT and .VTT caption files.'},
+                                {'title': 'Adobe integrations',
+                                 'desc': 'Adobe Express on Pro and above; Premiere Pro on Business and Enterprise.'},
+                                {'title': 'Collaboration',
+                                 'desc': 'Team workspace, commenting, shared pronunciation library, favorite voices and access controls on '
+                                         'Business and above.'},
+                                {'title': 'API',
+                                 'desc': 'Available for automation; the pricing page gives no API pricing, so ask before budgeting for '
+                                         'it.'},
+                                {'title': 'Enterprise controls',
+                                 'desc': 'Languages and translation, up to 96 kHz export, SSO, SOC 2 reports, custom terms and a customer '
+                                         'success manager (for more than 3 licenses).'}],
+          'pricing_plans': [{'name': 'Free Trial',
+                             'price': '$0',
+                             'billing': 'No credit card; 1 seat',
+                             'features': ['3 download minutes/month, no commercial rights',
+                                          '10 minutes of generation, 3 projects',
+                                          'MP3 24 kHz, email support']},
+                            {'name': 'Starter',
+                             'price': '$10/mo billed annually ($120/yr) or $19/mo monthly',
+                             'billing': 'Annual or monthly; 1 seat',
+                             'features': ['20 download min/month (240/yr)',
+                                          'Unlimited generation, 10 projects',
+                                          'All English voices, commercial rights, caption files']},
+                            {'name': 'Pro',
+                             'price': '$33/mo billed annually ($396/yr) or $49/mo monthly',
+                             'billing': 'Annual or monthly; 1 seat',
+                             'features': ['180 download min/month (2,160/yr)',
+                                          'Unlimited projects',
+                                          'Adobe Express integration, up to 48 kHz']},
+                            {'name': 'Business',
+                             'price': '$160/user/mo billed annually ($1,920/yr)',
+                             'billing': 'Annual only; 1 to 5 seats',
+                             'features': ['2,880 download min/yr per user',
+                                          'Team workspace, shared pronunciation library',
+                                          'Premiere Pro integration, WAV/OGG export, invoicing and POs',
+                                          'Email plus live chat (4-hour SLA)']},
+                            {'name': 'Enterprise',
+                             'price': 'Custom',
+                             'billing': 'Contact sales',
+                             'features': ['All languages and translation',
+                                          'Up to 96 kHz, SSO, SOC 2 reports, custom terms',
+                                          'Priority chat (1-hour SLA)']}],
+          'pros_expanded': ['Unlimited generation and retakes on paid plans, so iterating does not eat your allowance',
+                            'Commercial rights start at Starter ($10/mo annual)',
+                            'Transparent pricing for all but Enterprise',
+                            'Team features such as shared pronunciation libraries and Premiere Pro integration',
+                            'Minutes bought in Studio can top up an overrun'],
+          'cons_expanded': ['Business at $160 per user per month and a 5-seat cap is expensive for small teams',
+                            "Starter's 20 download minutes a month is tight for regular producers",
+                            'Unused download minutes do not roll over',
+                            'Languages beyond English and translation need Enterprise; the homepage advertises 50+ languages, but we could '
+                            'not verify which plan unlocks them',
+                            'Pricing page is inconsistent on Pro export formats; we did not resolve it',
+                            'Homepage names no certifications; SOC 2 reports are listed under Enterprise only'],
+          'who_for': 'Who it is for: L&D, internal communications and marketing teams making English voiceover who want licensed voices, '
+                     'unlimited retakes and, on higher tiers, shared workspaces. Who it is not for: multilingual publishers without an '
+                     'Enterprise budget, hobbyists who need a free tier with commercial rights, and high-volume producers who need '
+                     'unmetered downloads.',
+          'faq': [{'q': 'Is WellSaid Labs the same as WellSaid?',
+                   'a': 'Yes. wellsaidlabs.com now redirects to wellsaid.io and the company calls itself WellSaid.'},
+                  {'q': 'How much does it cost?',
+                   'a': 'Starter is $10/mo billed annually or $19 monthly; Pro is $33/mo annually or $49 monthly; Business is $160 per '
+                        'user per month billed annually; Enterprise is custom.'},
+                  {'q': 'Is there a free plan?',
+                   'a': 'A free trial with 3 download minutes a month and 10 minutes of generation, but no commercial rights.'},
+                  {'q': 'Does it support languages other than English?',
+                   'a': 'Starter, Pro and Business list English voices only. All languages and translation are on Enterprise.'},
+                  {'q': 'What happens if I run out of download minutes?',
+                   'a': 'You can upgrade or buy add-on minutes in Studio; unused minutes do not roll over.'}]},
+ 'last_checked': '2026-10-22',
+ 'alternatives': [{'slug': 'murf-ai',
+                   'why': 'Pick it if you want a voiceover studio aimed at e-learning and presentations with dubbing and an API.'},
+                  {'slug': 'elevenlabs',
+                   'why': 'Pick it if you need many languages, voice cloning or voice agents beyond English narration.'},
+                  {'slug': 'voicemaker', 'why': 'Pick it if you want a large voice library at a lower budget.'}]},
             {"name": "AI Phone", "tagline": "Real-time AI call translator that lets you speak your language while they hear theirs.", "desc": "A mobile app that translates phone calls, WhatsApp video/voice calls, and in-person conversations in real time across 150+ languages, plus camera-based photo translation for signs and menus.", "pricing": "Free to start; in-app subscription/credit-based paid plans on iOS and Android (exact tier pricing set via App Store/Google Play)", "url": "https://www.aiphone.ai/",
              "tags": ["Audio & Voice", "Translation", "Communication"],
              "features": ["Live two-way phone call translation in real time", "Video and voice call translation inside WhatsApp, WeChat, Telegram", "Bilingual live subtitles shown to both parties on a call", "Standalone voice and in-person conversation translation", "Camera/photo translation for signs, menus, and documents", "Support for 150+ languages and accents"],
@@ -7289,63 +7550,99 @@ CATEGORIES = [
               }
             },
         
-            {"name": "Profound", "tagline": "Enterprise-grade analytics for AI search visibility", "desc": "Profound is an AI answer engine optimization platform that tracks how brands appear across ChatGPT, Perplexity, Google AI Overviews, and other AI engines, then uses AI agents to help create and optimize content in response. It is built primarily for enterprise marketing teams and Fortune 500 brands.", "pricing": "No free tier; plans from $99/mo (Starter, ChatGPT-only) to $399/mo (Growth, 3 engines); custom Enterprise pricing", "url": "https://www.tryprofound.com",
- "hero_image": "profound-hero.jpg", "hero_image_alt": "Screenshot of the Profound homepage hero section",
-             "tags": ["AEO", "AI Visibility", "Enterprise"],
-             "features": ["Multi-engine AI visibility tracking (Answer Engine Insights)", "AI content agents for optimization and creation", "Agent Analytics for AI-crawler and AI-referral traffic", "Prompt Volumes search-demand research"],
-             "pros": ["Deepest data and widest engine coverage in the category", "Powerful AI Agents that turn insights directly into content", "Strong enterprise support, SSO/SOC2, and Fortune 500 track record"],
-             "cons": ["Steep price jump and a ChatGPT-only entry tier limits self-serve value", "Data volume creates a real learning curve for smaller teams"],
-             "best_for": "Enterprise and mid-market marketing teams that need the most comprehensive multi-engine AI visibility data feeding directly into content production and attribution workflows.",
-             "deep": {
-                "overview": "Profound was founded in 2024 by James Cadwallader and Dylan Babbs, a team with backgrounds spanning AMD, Microsoft, Datadog, Uber, and OpenAI. The company raised a $20M Series A led by Kleiner Perkins (with Khosla Ventures, NVIDIA's NVentures, and South Park Commons participating), followed by additional growth funding, and now serves large brands including Ramp, MongoDB, Indeed, US Bank, DocuSign, and Walmart. The platform runs structured prompts against AI engines daily and analyzes brand mentions, citations, sentiment, and competitive presence in the responses.\n\nProfound's core differentiator is the breadth and depth of its monitoring data combined with an agentic layer (Profound Agents and Aim) that goes beyond passive tracking into automated content generation, optimization, and workflow orchestration at scale. Where many AEO tools stop at dashboards, Profound explicitly positions itself as feeding insights into an always-on content production pipeline, plus it tracks AI-driven referral traffic back to a brand's own domains via CDN/hosting integrations (Akamai, Cloudflare, Vercel, Fastly, AWS, GCP), a capability few competitors match.",
-                "features_detailed": [
-                    {"title": "Answer Engine Insights", "desc": "Core monitoring layer tracking brand and competitor mentions, citations, sentiment, and ranking across ChatGPT, Perplexity, Google AI Overviews, Gemini, Copilot, Grok, DeepSeek, and Claude depending on plan tier."},
-                    {"title": "Prompt Volumes", "desc": "Surfaces what real users are actually asking AI engines, similar in spirit to keyword research but for conversational AI queries."},
-                    {"title": "Profound Agents", "desc": "Credit-metered AI agents that generate, optimize, or update content aimed at improving AEO performance; complexity of the agent determines credit cost."},
-                    {"title": "Agent Analytics", "desc": "Tracks AI-crawler visits and AI-sourced referral traffic to a brand's domains, unlimited domains on every plan, with direct integrations into hosting/CDN providers."},
-                    {"title": "Aim", "desc": "A projects and orchestration layer (Enterprise-only) for coordinating larger, multi-workstream AEO campaigns across teams."},
-                    {"title": "Shopping", "desc": "Tracks brand visibility specifically within ChatGPT Shopping results, available on Enterprise plans."},
-                    {"title": "Profound Sheets", "desc": "A spreadsheet-style interface for running Agents at scale across many prompts or content pieces at once."},
-                    {"title": "Platform Integrations", "desc": "Native integrations with Google Analytics, Akamai, AWS, Cloudflare, Fastly, GCP, Netlify, Vercel, and WordPress to connect AI visibility data to existing marketing stacks."},
-                ],
-                "pricing_plans": [
-                    {"name": "Starter", "price": "$99/month", "billing": "Billed yearly (2 months free); no monthly-only option published", "features": ["ChatGPT tracking only", "50 prompts tracked, ~1,500 responses/month", "100 Agent credits/month", "1 seat, email support"]},
-                    {"name": "Growth", "price": "$399/month", "billing": "Billed yearly (2 months free); most popular self-serve tier", "features": ["3 Answer Engines tracked (e.g. ChatGPT, Perplexity, Google AI Overviews)", "100 prompts tracked, ~9,000 responses/month", "400 Agent credits/month", "3 seats, CSV/JSON exports, email support"]},
-                    {"name": "Enterprise", "price": "Custom", "billing": "Tailored contract terms, sales-led", "features": ["Up to 9 Answer Engines tracked", "Custom prompt volume and multi-market/language support", "Custom Agent credits, API access, SSO/SAML + SOC2", "Dedicated Slack support and 24-hour SLA"]},
-                ],
-                "pros_expanded": [
-                    "Profound consistently ranks as having the deepest, most granular AI visibility dataset in third-party comparisons, which matters for teams that need to defend AEO investment with hard numbers.",
-                    "The Agents/Aim layer means insight and action live in one platform instead of requiring a separate content tool, which shortens the loop from 'we're invisible on Perplexity' to a published fix.",
-                    "Agent Analytics is a genuinely differentiated feature: tracking actual AI-referred site traffic (not just mention counts) via CDN-level integrations gives marketers a real ROI signal.",
-                    "Enterprise customers get real infrastructure (SSO/SAML, SOC2, dedicated Slack, 24-hour SLA) that larger orgs require for procurement approval.",
-                    "Strong, well-known customer roster (Ramp, Walmart, MongoDB, DocuSign) lends credibility that many newer AEO entrants lack.",
-                    "Fast, well-documented onboarding — the vendor claims instant setup, and the platform ships pre-built prompt sets by industry to reduce time-to-value.",
-                ],
-                "cons_expanded": [
-                    "The entry-level Starter plan tracks ChatGPT only, which is a meaningful gap for a category whose whole pitch is multi-engine visibility — buyers often have to jump straight to the $399/mo Growth tier for real coverage.",
-                    "Pricing scales fast: independent reviewers report enterprise deployments commonly land between $2,000 and $5,000+/month once seat counts, engine coverage, and Agent credit needs grow, well above the advertised entry price.",
-                    "Reported G2 ratings and review counts are inconsistent across different G2 listing pages for Profound (figures cited range from roughly 300 to over 1,000 reviews at 4.5-4.6/5), making it hard to cite one authoritative number.",
-                    "Profound has no visible Capterra review presence as of August 2026, so buyers evaluating outside G2 have little independent data to cross-check.",
-                    "The sheer volume of data and agent configuration options creates a real learning curve; several reviewers note it rewards dedicated analytical users more than casual marketing generalists.",
-                    "Agent credit consumption and overage handling require active account management — estimating the right credit package ahead of time is non-trivial and often needs a Profound account team consultation.",
-                ],
-                "who_for": "Profound is best suited to enterprise and well-funded mid-market marketing, content, and PR teams — especially those already investing seriously in SEO/content operations — who need the broadest engine coverage, agentic content production, and traffic attribution in one platform, and who have budget for a $400-$5,000+/month tool. Smaller teams, solo marketers, or anyone wanting a lightweight, flat-fee visibility checker should look elsewhere, since Profound's entry tier is narrow (ChatGPT only) and its real value only shows up once you're paying for Growth or Enterprise.",
-                "reviews": {
-                    "g2_rating": "Reported as approximately 4.5-4.6 out of 5 (figures vary by listing)", "g2_count": "Inconsistent across G2 pages — different Profound listings show review counts ranging from roughly 300 to 1,000+, so no single authoritative figure exists as of August 2026",
-                    "capterra_rating": "Not independently established (limited verified reviews)", "capterra_count": "0 or negligible",
-                    "summary": "Profound holds a generally strong reputation on G2, including a Winter 2026 Leader badge in reviewer roundups, with users consistently praising data depth and support quality. Its Capterra and broader review-site footprint is thin, which is common for a two-year-old enterprise-focused category leader whose buying process is largely sales-led rather than self-serve discovery driven.",
-                    "praise": ["Depth and granularity of AI visibility data compared to competitors", "Responsive, knowledgeable customer support and account teams", "Fast pace of platform improvement and new feature shipping"],
-                    "complaints": ["Steep learning curve given the volume of data and configuration options", "Occasional bugs and slow data exports reported by some users", "High and fast-escalating cost, especially moving from self-serve to Enterprise", "Thin, inconsistent third-party review coverage outside of G2"],
-                },
-                "faq": [
-                    {"q": "Is there a free plan for Profound?", "a": "No. Profound has no free tier; the cheapest self-serve option is the Starter plan at $99/month (billed annually), and it only tracks ChatGPT."},
-                    {"q": "How much does Profound cost?", "a": "Starter is $99/month, Growth is $399/month (both billed annually), and Enterprise is custom-priced — third-party reports put typical enterprise deployments between roughly $2,000 and $5,000+/month depending on engine coverage and seats."},
-                    {"q": "Which AI engines does Profound track?", "a": "Depending on plan, Profound can track ChatGPT, Perplexity, Google AI Overviews, Google AI Mode, Gemini, Microsoft Copilot, Grok, DeepSeek, and Anthropic Claude — up to 9 engines on Enterprise."},
-                    {"q": "How is Profound different from Scrunch AI or AthenaHQ?", "a": "Profound differentiates on data depth and its agentic content layer (Profound Agents, Aim) built for large enterprise teams; Scrunch AI adds dedicated hallucination detection and an Agent Experience Platform; AthenaHQ offers a genuinely free entry tier and a more accessible credit-based pricing model."},
-                    {"q": "Does Profound have an API?", "a": "API access is not available on Starter or Growth; it is included on the Enterprise plan."},
-                    {"q": "How does Profound's Agent credit pricing work?", "a": "Profound Agents consume credits each time they run, with cost scaling to task complexity; Starter includes 100 credits/month, Growth includes 400 credits/month, and Enterprise packages are custom-sized with an account team's help."},
-                ],
-             }},
+            {'name': 'Profound',
+ 'tagline': 'Enterprise AI search visibility tracking with AI agents for content',
+ 'desc': 'Profound tracks how brands appear in AI answer engines such as ChatGPT, Perplexity, Gemini, Claude and Google AI Overviews, and '
+         'pairs that data with agents that help produce and update content. It now describes itself as an AI marketing platform.',
+ 'pricing': 'Free trial (50 prompts, daily for 7 days, 3 engines); Enterprise is custom-quoted. An Agency Growth self-serve plan exists '
+            'but its price is not shown. Previously listed Starter ($99) and Growth ($399) plans no longer appear on the pricing page.',
+ 'url': 'https://www.tryprofound.com',
+ 'hero_image': 'profound-hero.jpg',
+ 'hero_image_alt': 'Screenshot of the Profound homepage hero section',
+ 'tags': ['AEO', 'AI Visibility', 'Enterprise'],
+ 'features': ['Answer Engine Insights: visibility, citations and sentiment across AI engines',
+              'Prompt Volumes research on what people ask AI tools',
+              'Agents and Context Manager for content work, credit-metered',
+              'Agent Analytics for AI crawler and referral traffic'],
+ 'pros': ['Wide engine coverage on Enterprise (up to 9 engines)',
+          'Connects monitoring to content agents in one product',
+          'SSO/SAML and SOC 2 on Enterprise'],
+ 'cons': ['Public self-serve pricing is gone or hidden; Enterprise is quote-only',
+          'The free trial is short (7 days of daily tracking) and locked to a recommended prompt set',
+          'Agent usage is metered in credits, so costs can be hard to predict'],
+ 'best_for': 'Mid-size and enterprise marketing teams that need broad AI-engine monitoring and are ready to budget through a sales '
+             'process.',
+ 'deep': {'overview': 'Profound is a strong choice for larger marketing teams that want deep, multi-engine tracking of how AI answer '
+                      'engines mention and cite their brand, with agents to act on the findings. Small businesses, freelancers and anyone '
+                      'wanting a clear self-serve price should skip it: the live pricing page shows only a free trial and a custom '
+                      'Enterprise package. The product monitors brand mentions, citations and sentiment, estimates what users ask AI tools '
+                      '(Prompt Volumes), tracks AI crawler and referral traffic to your own domains (Agent Analytics), and offers '
+                      'credit-metered agents, a context manager, projects and spreadsheet-style bulk runs for content work. The homepage '
+                      'names Plaid, MongoDB, Ramp and Zoom as customers and claims a third of the Fortune 100 uses its enterprise '
+                      'features; we did not verify those claims independently.',
+          'who_for': 'Good for enterprise and growth-stage marketing and SEO teams that need many prompts, several engines, exports, API '
+                     'and SSO. Not for solo operators or small teams needing a published monthly price, and not for anyone who only wants '
+                     'a simple dashboard.',
+          'features_detailed': [{'title': 'Answer Engine Insights',
+                                 'desc': 'Tracks brand and competitor visibility, citations and sentiment across AI engines; Enterprise '
+                                         'lists up to 9 engines including ChatGPT, Perplexity, Gemini, Claude, Copilot, DeepSeek and '
+                                         'Google AI Overviews and AI Mode.'},
+                                {'title': 'Prompt Volumes',
+                                 'desc': 'Research on what people ask AI engines, like keyword research for AI prompts. The trial includes '
+                                         '5 searches.'},
+                                {'title': 'Agents and Context Manager',
+                                 'desc': 'AI agents that generate or update content; each run consumes credits based on complexity and '
+                                         'shows an estimate first.'},
+                                {'title': 'Agent Analytics',
+                                 'desc': 'Shows AI crawler visits and AI referral traffic; unlimited domains on listed plans.'},
+                                {'title': 'Projects and Profound Sheets',
+                                 'desc': 'Workspaces for organizing campaigns and running agents across many items at once.'},
+                                {'title': 'ChatGPT Shopping tracking',
+                                 'desc': 'Brand visibility within ChatGPT Shopping, Enterprise only.'}],
+          'pricing_plans': [{'name': 'Trial',
+                             'price': 'Free',
+                             'billing': 'Time-limited',
+                             'features': ['50 unique prompts, daily for 7 days',
+                                          'ChatGPT, Gemini and Google AI Overviews',
+                                          'Recommended prompt set only, no customization',
+                                          'Unlimited seats, no support, no exports or API']},
+                            {'name': 'Agency Growth',
+                             'price': 'Price not shown',
+                             'billing': 'Not stated',
+                             'features': ['Self-serve, 400 credits per month per client workspace',
+                                          'Other limits not published on the page we checked']},
+                            {'name': 'Enterprise',
+                             'price': 'Custom quote',
+                             'billing': 'Contract, sales-led',
+                             'features': ['Up to 9 answer engines',
+                                          'Custom prompts, languages and regions',
+                                          'All-time data history, CSV/JSON export, API',
+                                          'SSO/SAML and SOC 2, ChatGPT Shopping',
+                                          'Support from email to dedicated specialist with 24-hour SLA']}],
+          'pros_expanded': ['Enterprise tier covers up to 9 engines with unlimited seats and all-time data history, which suits teams '
+                            'reporting AI visibility trends over time.',
+                            'Monitoring and content agents live in one platform, shortening the path from a visibility gap to a content '
+                            'fix.',
+                            'Security items (SSO/SAML, SOC 2) are listed for Enterprise, which procurement teams usually require.'],
+          'cons_expanded': ["The Starter ($99) and Growth ($399) plans from earlier listings are not on today's pricing page, so we cannot "
+                            'confirm they still exist.',
+                            'The free trial is limited to 7 days of daily tracking on a preset prompt set, which makes a fair evaluation '
+                            'of your own market hard.',
+                            'Credit-metered agents plus overage options mean spend depends on usage.'],
+          'faq': [{'q': 'Is there a free plan for Profound?',
+                   'a': 'There is a free trial (50 prompts tracked daily for 7 days on three engines), not an ongoing free plan.'},
+                  {'q': 'How much does Profound cost?',
+                   'a': 'Enterprise is custom-quoted. The Agency Growth plan price is not shown, and earlier Starter ($99/mo) and Growth '
+                        '($399/mo) tiers are no longer on the pricing page; ask sales to confirm.'},
+                  {'q': 'Which AI engines does it track?',
+                   'a': 'The trial covers ChatGPT, Gemini and Google AI Overviews; Enterprise lists up to 9 including Perplexity, Claude, '
+                        'Copilot, DeepSeek and Google AI Mode.'},
+                  {'q': 'Can I export data or use an API?',
+                   'a': 'Per the pricing page, CSV/JSON export and API access are Enterprise features, not part of the trial.'}]},
+ 'last_checked': '2026-10-22',
+ 'alternatives': [{'slug': 'scrunch-ai', 'why': 'Pick this instead if you want AI visibility monitoring with hallucination detection.'},
+                  {'slug': 'athenahq', 'why': 'Pick this instead if you want to start free before committing to a sales process.'},
+                  {'slug': 'conductor', 'why': 'Pick this instead if you want AEO combined with a full enterprise SEO platform.'}]},
             {"name": "Scrunch AI", "tagline": "AI visibility monitoring plus hallucination detection", "desc": "Scrunch AI is an answer engine optimization platform that monitors brand visibility, citations, and AI-crawler traffic across ChatGPT, Claude, Gemini, Perplexity, and Google AI Mode/Overviews, and is distinguished by dedicated hallucination detection and an emerging Agent Experience Platform (AXP). Scrunch was acquired by digital-experience company Sitecore for roughly $225 million in June 2026.", "pricing": "No free tier; 7-day free trial; plans from $250/mo (Starter) to $417/mo (Growth), billed annually; custom Enterprise pricing", "url": "https://scrunch.com",
              "tags": ["AEO", "GEO", "Hallucination Detection"],
              "features": ["Multi-LLM visibility monitoring (ChatGPT, Claude, Gemini, Perplexity, Google AI Mode/Overviews, Meta)", "Dedicated hallucination and misinformation detection", "Named AI-crawler traffic analytics (GPTBot, ClaudeBot, PerplexityBot) linked to GA4", "Agent Experience Platform (AXP) for AI-native site delivery"],
@@ -9395,50 +9692,126 @@ CATEGORIES = [
                   {'slug': 'salesloft', 'why': 'Pick it if outbound cadences and deal management are the priority and call analysis is secondary.'},
                   {'slug': 'outreach', 'why': 'Pick it if you want a sales-execution platform centered on sequences, with AI deal-risk signals added on.'}]},
             
-            {"name": "Instantly.ai", "tagline": "Cold email outreach automation platform built for scaling deliverability, warmup, and lead generation", "desc": "Instantly.ai is a cold email platform that lets sales teams and agencies send automated, personalized outreach sequences at scale while protecting inbox deliverability through built-in warmup. It bundles unlimited sending accounts, a B2B lead database, and a unified inbox into one system widely used by SDR teams and outreach agencies.", "pricing": "Paid plans start around $37/month (Growth), scaling to roughly $97/month (Hypergrowth) and $358/month (Light Speed) tiers, billed monthly or discounted annually; email warmup is included on all plans.", "url": "https://instantly.ai",
- "tags": ["Business & Sales", "Sales Engagement", "Email Deliverability"],
- "features": ["Unlimited sending email accounts with automated warmup", "Built-in B2B lead database with verified contacts", "Multi-step automated email sequences with A/B testing", "Unified master inbox for managing replies across all accounts", "Deliverability network to protect sender reputation and inbox placement", "Campaign analytics tracking opens, replies, and bounce rates"],
- "pros": ["Unlimited sending accounts on most plans make it easy to scale outreach volume", "Strong reputation for deliverability and warmup performance", "Affordable relative to competitors for high-volume cold email"],
- "cons": ["Interface and reporting feel less polished than premium competitors", "Customer support responsiveness reported as inconsistent at higher volumes", "Deliverability still depends heavily on the user's own list hygiene and sending practices"],
- "best_for": "SDR teams, growth marketers, and outreach agencies running high-volume cold email campaigns who need affordable, scalable sending infrastructure with built-in deliverability tools.",
- "deep": {
-    "overview": "Instantly.ai emerged as one of the go-to platforms for high-volume cold email, largely on the strength of its unlimited sending-account model and built-in warmup network. Rather than charging per mailbox, most plans let users connect as many sending accounts as they want, which appeals to agencies and SDR teams that rotate large numbers of domains and inboxes to protect deliverability at scale.\n\nBeyond raw sending capacity, Instantly bundles a B2B lead database, campaign builder with A/B testing, and a unified inbox that consolidates replies across every connected account into one place. This lets small teams run outreach operations that would otherwise require several separate tools stitched together.\n\nThe platform is particularly popular among agencies managing outreach for multiple clients and early-stage founders doing their own outbound, thanks to its relatively low price point compared to enterprise sales engagement suites like Outreach or Salesloft.",
-    "features_detailed": [
-      {"title": "Unlimited Sending Accounts", "desc": "Connect as many sending mailboxes and domains as needed on most plans, enabling high daily send volumes without per-inbox fees."},
-      {"title": "Built-In Warmup Network", "desc": "Automatically warms up connected inboxes by exchanging and engaging with emails across a shared network to build sender reputation."},
-      {"title": "B2B Lead Database", "desc": "Access to a searchable database of verified B2B contacts that can be imported directly into campaigns."},
-      {"title": "Campaign Sequences & A/B Testing", "desc": "Build multi-step email sequences with conditional logic and test subject lines, copy, and send times against each other."},
-      {"title": "Unified Master Inbox", "desc": "Manage and reply to messages from every connected sending account in a single centralized inbox view."},
-      {"title": "Deliverability & Analytics Dashboard", "desc": "Monitor open rates, reply rates, bounces, and spam placement to catch deliverability issues before they tank a campaign."}
-    ],
-    "pricing_plans": [
-      {"name": "Growth", "price": "~$37/month", "billing": "Billed monthly, cheaper annually", "features": ["Up to a set number of active leads", "Unlimited warmup", "Unified inbox", "Basic lead database access"]},
-      {"name": "Hypergrowth", "price": "~$97/month", "billing": "Billed monthly, cheaper annually", "features": ["Higher active lead limits", "Advanced sequence features", "Priority support"]},
-      {"name": "Light Speed", "price": "~$358/month", "billing": "Billed monthly, cheaper annually", "features": ["Highest lead and sending volume caps", "Dedicated deliverability tools", "Premium support"]}
-    ],
-    "pros_expanded": [
-      "The unlimited-account model removes the per-mailbox cost penalty that makes competitors expensive at scale, which is a major draw for agencies.",
-      "Built-in warmup pool is genuinely effective at maintaining inbox placement, reducing reliance on third-party warmup tools.",
-      "Bundling a lead database, sender, and unified inbox cuts down on the number of separate tools a small outbound team needs to stitch together.",
-      "Pricing is meaningfully lower than enterprise sales engagement platforms while covering most of the same core cold-email workflow."
-    ],
-    "cons_expanded": [
-      "Some users report the UI and reporting dashboards feel less refined than more expensive competitors like Outreach or Apollo.",
-      "Support quality has been described as inconsistent, particularly for users on lower-tier plans during high-demand periods.",
-      "Because sending volume scales so easily, poor list hygiene or overly aggressive sending can still damage domain reputation despite warmup features.",
-      "Advanced multichannel capabilities (LinkedIn, calling) are more limited compared to full sales engagement suites."
-    ],
-    "who_for": "Instantly.ai is built for SDR teams, growth-focused founders, and agencies running high-volume cold email outreach who need to scale sending without paying per-mailbox fees. It suits teams prioritizing deliverability and volume over deep CRM-native sales engagement features. Agencies managing multiple client accounts benefit from the unlimited sending model and unified inbox. It's less suited to enterprise sales orgs needing deep multichannel sequencing tightly integrated with Salesforce workflows.",
-    "faq": [
-      {"q": "What is Instantly.ai used for?", "a": "It's used to send automated, personalized cold email sequences at scale while protecting inbox deliverability through built-in warmup."},
-      {"q": "Does Instantly.ai limit the number of sending accounts?", "a": "Most plans allow unlimited sending accounts, which is one of its main differentiators versus per-mailbox competitors."},
-      {"q": "Does Instantly.ai include a lead database?", "a": "Yes, it includes access to a searchable B2B lead database that can be imported directly into campaigns."},
-      {"q": "Is Instantly.ai good for agencies?", "a": "Yes, its unlimited account model and unified inbox make it popular with agencies managing outreach across multiple client domains."},
-      {"q": "How much does Instantly.ai cost?", "a": "Plans start around $37/month and scale up to roughly $358/month depending on lead volume and features needed."},
-      {"q": "Does Instantly.ai support multichannel outreach?", "a": "Its core strength is email; multichannel capabilities like LinkedIn or calling are more limited than dedicated sales engagement platforms."}
-    ],
-    "reviews": {"g2_rating": "4.8/5", "g2_count": "3,000+ reviews", "summary": "Instantly.ai is highly rated on G2, with users consistently praising its affordability, deliverability, and ease of scaling cold email volume.", "praise": ["Strong deliverability and warmup performance", "Easy to scale sending volume affordably", "Simple, intuitive campaign setup"], "complaints": ["Inconsistent customer support responsiveness", "Reporting and UI feel less polished than pricier competitors", "Learning curve for advanced deliverability configuration"]}
- }},
+            {'name': 'Instantly.ai',
+ 'tagline': 'Cold email outreach platform with unlimited sending accounts, warmup, a B2B lead database and AI agents',
+ 'desc': 'Instantly sends automated cold email sequences from unlimited connected mailboxes with built-in warmup. It also sells a 450M+ '
+         'contact B2B lead database, AI reply and sales agents, and managed services.',
+ 'pricing': 'Outreach plans: Growth $47/mo ($37.60/mo yearly), Hypergrowth $97 ($77.60), Light Speed $358 ($286.30), Enterprise custom. '
+            'Bundles (outreach + leads + AI) start at Starter $94/mo. Credits plans sold separately. Page showed inconsistent figures; '
+            'confirm at checkout.',
+ 'url': 'https://instantly.ai',
+ 'tags': ['Business & Sales', 'Sales Engagement', 'Email Deliverability'],
+ 'features': ['Unlimited email accounts and warmup on outreach plans',
+              'B2B lead database (450M+ contacts) via credits',
+              'AI Sales Agent and AI Reply Agent on bundles',
+              'Unibox for replies (listed on Scale bundle)',
+              'Inbox placement testing and deliverability tools',
+              'Managed VIP service (custom pricing)'],
+ 'pros': ['No per-mailbox fee: unlimited accounts and warmup on outreach plans',
+          'Low entry price for high-volume cold email',
+          'Lead data, sending and AI replies available under one vendor'],
+ 'cons': ['Pricing is split across outreach, credits and bundles and confusing; the pricing page itself showed conflicting numbers',
+          'Lead credits are a separate paid dimension from sending',
+          'Cold email deliverability still depends on your list quality and sending habits'],
+ 'best_for': 'Agencies, founders and SDR teams running high-volume cold email who want cheap, scalable mailbox infrastructure.',
+ 'deep': {'overview': 'Instantly is a strong value pick for agencies, founders and small SDR teams that send high volumes of cold email '
+                      'across many mailboxes and want warmup and deliverability tools included. Skip it if you need a CRM-centered, '
+                      'multichannel enterprise sales engagement suite, or if you cannot tolerate the risk and compliance burden of cold '
+                      'outreach. It connects unlimited email accounts, warms them up, runs sequences, and sells a separate B2B lead '
+                      'database and AI agents on top. Pricing is spread across three product lines (outreach, lead credits, and combined '
+                      'bundles), so the real monthly cost depends on which pieces you combine.',
+          'features_detailed': [{'title': 'Unlimited email accounts and warmup',
+                                 'desc': 'Outreach plans (Growth, Hypergrowth, Light Speed) list unlimited email accounts and warmup; '
+                                         'monthly send and contact caps vary by plan.'},
+                                {'title': 'Lead database and credits',
+                                 'desc': 'A 450M+ contact B2B database with filters, email enrichment and AI research, bought as monthly '
+                                         'credits (1,500 to 200,000+).'},
+                                {'title': 'AI agents', 'desc': 'Bundles add an AI Sales Agent; Scale and above add an AI Reply Agent.'},
+                                {'title': 'Unibox',
+                                 'desc': 'Replies consolidated in one inbox; listed as a Scale-bundle feature on the pricing page.'},
+                                {'title': 'Deliverability tooling',
+                                 'desc': 'Warmup, inbox placement testing and, on higher tiers, a private deliverability network '
+                                         '(Enterprise) and the SISR system (Light Speed/Agency).'},
+                                {'title': 'VIP managed service',
+                                 'desc': 'Done-for-you setup of domains, accounts and campaigns; custom pricing, contact sales.'}],
+          'pricing_plans': [{'name': 'Growth (outreach)',
+                             'price': '$47/mo monthly; $37.60/mo yearly',
+                             'billing': 'Monthly or yearly',
+                             'features': ['Unlimited email accounts and warmup', '1,000 contacts, 5,000 emails/mo', 'Chat support']},
+                            {'name': 'Hypergrowth (outreach)',
+                             'price': '$97/mo monthly; $77.60/mo yearly',
+                             'billing': 'Monthly or yearly',
+                             'features': ['Unlimited email accounts and warmup',
+                                          '25,000 contacts, 125,000 emails/mo',
+                                          'Premium live support']},
+                            {'name': 'Light Speed (outreach)',
+                             'price': '$358/mo monthly; $286.30/mo yearly',
+                             'billing': 'Monthly or yearly',
+                             'features': ['Everything in Hypergrowth', '100,000 contacts, 500,000 emails/mo', 'SISR system']},
+                            {'name': 'Enterprise (outreach)',
+                             'price': 'Custom',
+                             'billing': 'Contact sales',
+                             'features': ['500,000+ emails/mo',
+                                          'Private deliverability network',
+                                          'Dedicated account manager, shared Slack channel']},
+                            {'name': 'Starter bundle',
+                             'price': '$94/mo; $85/mo yearly',
+                             'billing': 'Monthly or yearly',
+                             'features': ['5,000 emails/mo, 1,000 contacts', '1,500 credits/mo, lead database', 'AI Sales Agent']},
+                            {'name': 'Scale bundle',
+                             'price': '$194/mo; $175/mo yearly',
+                             'billing': 'Monthly or yearly',
+                             'features': ['100,000 emails/mo, 25,000 contacts',
+                                          '5,000 credits/mo',
+                                          'AI Reply Agent, Unibox, advanced deliverability, premium support']},
+                            {'name': 'Agency bundle',
+                             'price': '$555/mo; $500/mo yearly',
+                             'billing': 'Monthly or yearly',
+                             'features': ['500,000 emails/mo, 100,000 contacts', '10,000 credits/mo', 'SISR system']},
+                            {'name': 'Lead credits',
+                             'price': 'Growth Credits $47/mo; Supersonic $97; Hyper Credits from $197 (Supersonic shown at both $97 and '
+                                      '$197 on the page); Enterprise custom',
+                             'billing': 'Monthly or yearly (about 20% off on credits plans shown)',
+                             'features': ['1,500 to 200,000+ credits/mo', 'Waterfall email enrichment, AI email writer, CRM export']},
+                            {'name': 'VIP managed service',
+                             'price': 'Not public - contact sales',
+                             'billing': 'Custom',
+                             'features': ['Done-for-you setup and campaign launch',
+                                          'Higher tiers add dedicated account manager and GTM engineer']}],
+          'pros_expanded': ['Unlimited email accounts and warmup on the outreach plans remove per-mailbox fees, which matters for agencies '
+                            'running many domains',
+                            'Entry outreach price ($47/mo, $37.60 yearly) is low for a cold-email sender',
+                            'You can buy sending, lead data and AI reply handling from one vendor',
+                            'Higher tiers raise caps to 500,000 emails/month with premium support'],
+          'cons_expanded': ['The pricing page showed conflicting numbers for some tiers (e.g. Supersonic credits at $97 and $197), so the '
+                            'final bill needs checking at checkout',
+                            'Entry caps are small: Growth allows 1,000 contacts and 5,000 emails/month',
+                            'Lead credits are an extra recurring cost on top of outreach, so total spend can exceed the headline price',
+                            'Warmup does not protect a bad list; sending practices still decide whether you land in spam',
+                            'I could not verify current third-party ratings or support quality today, so none are claimed'],
+          'who_for': 'Who it is for: cold-email agencies, outbound-focused founders and small SDR teams who want many mailboxes without '
+                     'per-inbox fees. Who it is not for: enterprises needing deep Salesforce-native multichannel cadences, teams that '
+                     'cannot accept cold-email deliverability and compliance risk, and buyers who want one simple price.',
+          'faq': [{'q': 'How much does Instantly cost?',
+                   'a': 'Outreach-only plans are Growth $47/mo, Hypergrowth $97/mo and Light Speed $358/mo (about 20% less billed yearly). '
+                        'Bundles start at $94/mo, and lead credits are priced separately.'},
+                  {'q': 'Is there a limit on email accounts?',
+                   'a': 'Outreach plans list unlimited email accounts and warmup. Limits apply to monthly emails and contacts instead.'},
+                  {'q': 'Do I need to pay for leads separately?',
+                   'a': 'Outreach plans do not include the lead database; credits plans or the Starter, Scale and Agency bundles do.'},
+                  {'q': 'Is cold email safe for deliverability?',
+                   'a': 'Warmup and placement tools help, but results depend on your domains, list quality and volume. No tool removes '
+                        'spam-folder risk.'},
+                  {'q': 'Does it have a CRM or multichannel outreach?',
+                   'a': 'The homepage mentions an AI-powered CRM; I could not verify depth. Its focus is email, so LinkedIn and calling '
+                        'are not highlighted.'}]},
+ 'last_checked': '2026-10-22',
+ 'alternatives': [{'slug': 'smartlead',
+                   'why': 'Pick it if you want a close cold-email rival with unlimited warmup, account rotation and multichannel '
+                          'outreach.'},
+                  {'slug': 'apollo-io', 'why': 'Pick it if you want a contact database and sequencing with a dialer in one platform.'},
+                  {'slug': 'outreach',
+                   'why': 'Pick it if you are an enterprise team needing a full sales execution platform instead of a cold-email sender.'}]},
             
             {"name": "Outreach", "tagline": "Sales execution platform that automates outbound sequences and surfaces deal risk with AI", "desc": "Outreach is a sales engagement and execution platform that helps revenue teams automate multi-channel outreach sequences across email, phone, and social. It layers in AI-driven deal insights, conversation intelligence, and forecasting to help reps prioritize the right accounts and managers coach more effectively.", "pricing": "Custom quote-based pricing per seat, typically enterprise-tier; no public self-serve pricing, sales-assisted onboarding required", "url": "https://www.outreach.io",
  "tags": ["Business & Sales", "Sales Engagement", "Revenue Intelligence"],
@@ -9570,50 +9943,88 @@ CATEGORIES = [
       {"q": "Is there public pricing for Regie.ai?", "a": "No, pricing is quote-based and provided through a sales conversation rather than published publicly."}
     ]
  }},
-            {"name": "Salesloft", "tagline": "Revenue orchestration platform unifying prospecting, deal management, and forecasting for sales teams", "desc": "Salesloft is a revenue orchestration and sales engagement platform that helps go-to-market teams run structured multi-channel cadences, track buyer engagement, and manage deals through AI-guided workflows. It combines prospecting automation with conversation intelligence and pipeline forecasting in one connected system.", "pricing": "Custom quote-based pricing per seat, sold via annual contracts with sales-assisted onboarding", "url": "https://www.salesloft.com",
- "tags": ["Business & Sales", "Sales Engagement", "Revenue Orchestration"],
- "features": ["Multi-channel cadences across email, phone, and social", "Conversation intelligence with call recording and transcription", "AI-driven deal signals and buyer intent tracking", "Pipeline management and forecasting", "Rhythm workflow automation for prioritizing rep actions", "Native CRM integrations with Salesforce and HubSpot"],
- "pros": ["Highly rated user experience compared to competitors", "Strong workflow automation via its Rhythm engine", "Good balance of prospecting tools and deal management in one suite"],
- "cons": ["Custom pricing makes budgeting difficult upfront", "Advanced features require add-on modules, raising total cost", "Can require dedicated admin resourcing to configure well"],
- "best_for": "Mid-market and enterprise sales teams that want a unified platform for prospecting, conversation intelligence, and forecasting rather than stitching together separate point tools.",
- "deep": {
-    "overview": "Salesloft is a sales engagement platform founded in 2011 and headquartered in Atlanta, Georgia, that has grown into what it now brands as a \"Revenue Orchestration Platform.\" It began as a tool focused on structured outbound cadences and has since broadened into deal management, conversation intelligence, and forecasting.\n\nThe platform's centerpiece is Rhythm, an AI-driven prioritization engine that surfaces the next best action for a rep across every account and deal, pulling signals from email engagement, call transcripts, and CRM data into one unified queue.\n\nSalesloft is frequently compared head-to-head with Outreach, and independent review sites have historically rated its usability and customer support somewhat higher, making it a common choice for teams that weigh ease of adoption alongside feature depth.",
-    "features_detailed": [
-      {"title": "Cadences", "desc": "Multi-step, multi-channel sequences combining email, calls, and social touches with automated scheduling."},
-      {"title": "Rhythm", "desc": "AI-powered prioritization engine that surfaces the most urgent account and deal actions for reps each day."},
-      {"title": "Conversation Intelligence", "desc": "Call recording, transcription, and analytics to identify talk-track patterns, objections, and coaching moments."},
-      {"title": "Deals", "desc": "Deal management workspace that tracks buyer engagement signals and flags stalled or at-risk opportunities."},
-      {"title": "Forecast", "desc": "Manager and rep-level pipeline forecasting with rollups and historical accuracy tracking."},
-      {"title": "Drift/Chat integration", "desc": "Conversational marketing and chat capabilities integrated into the broader engagement workflow."}
-    ],
-    "pricing_plans": [
-      {"name": "Essentials", "price": "Custom quote", "billing": "Annual contract, per user", "features": ["Core cadences", "Email and calling tools", "Basic reporting"]},
-      {"name": "Advanced", "price": "Custom quote", "billing": "Annual contract, per user", "features": ["Rhythm prioritization", "Deal management", "Enhanced analytics"]},
-      {"name": "Premier", "price": "Custom quote", "billing": "Annual contract, per user", "features": ["Conversation intelligence", "Forecasting", "Advanced admin and security controls"]}
-    ],
-    "pros_expanded": [
-      "Consistently praised for a cleaner, more intuitive interface than many competitors, easing rep adoption",
-      "Rhythm's cross-signal prioritization helps reps focus on the highest-impact actions rather than working sequences blindly",
-      "Strong customer support reputation reported by long-time users across review platforms",
-      "Unifying prospecting, conversation intelligence, and forecasting reduces the need for multiple disconnected tools"
-    ],
-    "cons_expanded": [
-      "Full platform value (conversation intelligence, forecasting) often requires higher-tier add-ons that increase total contract cost",
-      "Like most enterprise sales tools, pricing is opaque until a sales conversation, complicating budget comparisons",
-      "Some smaller teams report the platform's breadth is more than they need for simple outbound motions",
-      "Reporting customization can require RevOps involvement to get full value"
-    ],
-    "who_for": "Salesloft suits mid-market and enterprise B2B sales organizations that want to consolidate prospecting, deal tracking, conversation intelligence, and forecasting into one connected platform. It's a strong fit for RevOps-led teams evaluating engagement platforms where day-to-day rep usability is a top priority. Sales leaders who want AI-guided prioritization across a large book of accounts benefit most from Rhythm. Very small teams or solo founders will likely find it more robust than necessary.",
-    "faq": [
-      {"q": "How is Salesloft different from Outreach?", "a": "Both are sales engagement platforms with similar core capabilities; Salesloft is often noted for a more intuitive UI and stronger customer support, while Outreach has historically been seen as deeper in enterprise configurability."},
-      {"q": "Does Salesloft include conversation intelligence?", "a": "Yes, call recording, transcription, and analytics are part of its higher-tier plans, functioning similarly to standalone tools like Gong or Chorus."},
-      {"q": "What is Rhythm?", "a": "Rhythm is Salesloft's AI-driven engine that aggregates signals across email, calls, and CRM data to recommend the next best action for each rep."},
-      {"q": "Does Salesloft integrate with Salesforce?", "a": "Yes, it offers deep native integration with Salesforce as well as HubSpot and Microsoft Dynamics."},
-      {"q": "Is there a free trial?", "a": "Salesloft is primarily sold through sales-assisted demos and pilots rather than a public self-serve free trial."},
-      {"q": "What company size is Salesloft built for?", "a": "It's primarily designed for mid-market and enterprise sales teams with dedicated SDR and AE functions."}
-    ],
-    "reviews": {"g2_rating": "4.5/5", "g2_count": "3,700+ reviews", "summary": "Salesloft is frequently praised for its clean interface and responsive support, with occasional criticism about add-on pricing for full functionality.", "praise": ["Intuitive, easy-to-adopt interface for reps", "Rhythm helps reps focus on the right accounts daily", "Responsive customer support experience"], "complaints": ["Full feature set requires costly add-on tiers", "Opaque custom pricing complicates budgeting", "Reporting customization can require RevOps support"]}
- }},
+            {'name': 'Salesloft',
+ 'tagline': "Sales engagement and revenue platform, now combined with Clari's forecasting and conversation tools",
+ 'desc': 'Salesloft is a sales engagement platform for outbound cadences, conversation intelligence, deal tracking and forecasting. Its '
+         'site now presents it as an AI revenue system, with Clari Forecast and Clari Conversations products alongside the Salesloft ones '
+         'after the two companies agreed to merge.',
+ 'pricing': 'Not public. The pricing page lists no prices or plans; you have to talk to sales.',
+ 'url': 'https://www.salesloft.com',
+ 'tags': ['Business & Sales', 'Sales Engagement', 'Revenue Orchestration'],
+ 'features': ['Cadences for multi-step outbound sequences',
+              'Rhythm, a prioritized daily action queue for reps',
+              'Conversation Intelligence for call recording and analysis',
+              'Deals, Inspect and Analytics for pipeline visibility',
+              'Clari Forecast for revenue leaders',
+              'AI Agents and a Signals layer'],
+ 'pros': ['Covers prospecting, deal tracking and forecasting in one vendor',
+          'Rhythm gives reps a single prioritized to-do list',
+          'Forecasting from Clari now sits in the same portfolio'],
+ 'cons': ['No public pricing; budgeting requires a sales conversation',
+          'The Clari merger means product packaging and branding may still be shifting',
+          'Built for dedicated sales teams, so heavy for small outbound setups'],
+ 'best_for': 'Mid-market and enterprise B2B sales teams with SDRs, AEs and RevOps that want engagement, conversation intelligence and '
+             'forecasting from one vendor.',
+ 'deep': {'overview': 'Salesloft is a good fit for established B2B sales organizations that want one vendor for outbound cadences, call '
+                      'analysis and forecasting, and are happy to buy through a sales process. Solo founders, small teams and anyone who '
+                      'wants to see a price before talking to a rep should skip it. It started as a sequencing tool and now sells itself '
+                      'as an AI revenue system; its site lists Cadence, Rhythm, Conversation Intelligence, Deals, Inspect, Analytics, '
+                      'Signals and AI Agents, plus Clari Forecast. Salesloft and Clari announced a merger agreement on August 7, 2025, '
+                      "with Clari's CEO set to lead the combined company; we could not confirm from the sites how the products have been "
+                      'repackaged since.',
+          'features_detailed': [{'title': 'Cadence',
+                                 'desc': 'Multi-step sequences that mix email, calls and other touches for outbound prospecting.'},
+                                {'title': 'Rhythm',
+                                 'desc': 'A prioritized queue of the next actions for each rep, built from engagement and deal signals.'},
+                                {'title': 'Conversation Intelligence',
+                                 'desc': 'Records and analyzes sales conversations for coaching and deal context.'},
+                                {'title': 'Deals and Inspect',
+                                 'desc': 'Deal tracking for account teams and pipeline inspection for leaders.'},
+                                {'title': 'Clari Forecast',
+                                 'desc': "Forecasting product from Clari, listed on Salesloft's site under revenue-leader tools."},
+                                {'title': 'Signals and AI Agents',
+                                 'desc': 'A layer that collects revenue signals across tools and agents that trigger follow-up actions. We '
+                                         'did not verify how mature these are.'},
+                                {'title': 'Services',
+                                 'desc': 'Consulting, customer education, community and office hours are listed as support options.'}],
+          'pricing_plans': [{'name': 'All products',
+                             'price': 'Not public',
+                             'billing': 'Contact sales (Talk to Sales / Book 15 Minutes)',
+                             'features': ['No prices, tiers or packaging are shown on salesloft.com',
+                                          'Older Essentials / Advanced / Premier tier names could not be verified on the current site',
+                                          'No self-serve trial or free plan was found']}],
+          'pros_expanded': ['One portfolio spans prospecting, conversation analysis, deal management and forecasting, so fewer separate '
+                            'vendors to integrate',
+                            'Rhythm turns many signals into one daily list, which can reduce rep guesswork',
+                            'Adding Clari Forecast gives leaders a dedicated forecasting product',
+                            'Services such as consulting and education are available for rollout'],
+          'cons_expanded': ['Pricing is hidden, so you cannot compare cost with tools like Apollo or Outreach without a quote',
+                            'The merger with Clari was announced in 2025 and the sites do not spell out packaging, so expect ambiguity on '
+                            'which products and logins you will get',
+                            'Full value likely needs RevOps time to configure and maintain',
+                            'Overkill for teams without a defined SDR and AE motion',
+                            "We could not verify claims about AI Agents' real-world performance"],
+          'who_for': 'Who it is for: mid-market and enterprise B2B sales teams with dedicated SDRs, AEs and RevOps that want engagement, '
+                     'conversation intelligence and forecasting together. Who it is not for: freelancers, small startups or teams who need '
+                     'public pricing and self-serve signup, or teams that only want cold-email sending at low cost.',
+          'faq': [{'q': 'How much does Salesloft cost?',
+                   'a': 'Salesloft does not publish prices. The pricing page directs you to talk to sales, so we could not verify any '
+                        'per-seat figure.'},
+                  {'q': 'Is Salesloft owned by Clari now?',
+                   'a': "The two companies announced a merger agreement on August 7, 2025, with Clari's CEO leading the combined company. "
+                        "Salesloft's site now lists Clari products, but we did not verify the final legal structure."},
+                  {'q': 'Does it include forecasting and conversation intelligence?',
+                   'a': 'Both appear on the site (Clari Forecast and Conversation Intelligence). Which plan includes which product is not '
+                        'public.'},
+                  {'q': 'Is there a free trial?',
+                   'a': 'We found no free plan or self-serve trial on the site; the calls to action are sales demos.'},
+                  {'q': 'Who should consider a cheaper alternative?',
+                   'a': 'Small teams that mainly need contact data and sequences should look at Apollo.io, which sells self-serve.'}]},
+ 'last_checked': '2026-10-22',
+ 'alternatives': [{'slug': 'outreach',
+                   'why': 'Pick it if you want the other big sales execution platform and plan to compare quotes head to head.'},
+                  {'slug': 'gong', 'why': 'Pick it if conversation intelligence and revenue AI matter more than outbound sequencing.'},
+                  {'slug': 'apollo-io', 'why': 'Pick it if you want a contact database plus sequencing from a smaller, self-serve setup.'}]},
             {"name": "Smartlead", "tagline": "Multichannel cold outreach platform with unlimited email warmup and sending account rotation", "desc": "Smartlead is a cold email and multichannel outreach platform designed to help agencies and sales teams send high volumes of campaigns without hurting deliverability. It offers unlimited email warmup and mailbox rotation across unlimited sending accounts, along with a unified inbox and client sub-account management built for agencies.", "pricing": "Plans start around $39/month (Basic), scaling to roughly $94/month (Popular) and $174/month (Pro) tiers, billed monthly with annual discounts; unlimited warmup is included on all plans.", "url": "https://www.smartlead.ai",
  "tags": ["Business & Sales", "Sales Engagement", "Cold Email"],
  "features": ["Unlimited email warmup across unlimited sending accounts", "Automated inbox rotation to protect domain and sender reputation", "Multichannel sequences combining email with LinkedIn and calling via integrations", "Unified master inbox with AI-categorized replies", "Built-in email verification and deliverability monitoring", "Agency mode with white-label reporting and client sub-accounts"],
@@ -10602,34 +11013,91 @@ CATEGORIES = [
                         'widely reported as acquired by Wix in 2025.'}]},
  'last_checked': '2026-10-16',
  'alternatives': []},
-            {"name": "DataRobot", "tagline": "Enterprise automated machine learning and MLOps platform for building and running AI at scale", "desc": "DataRobot is an enterprise AI platform that automates the end-to-end machine learning lifecycle, from data preparation and automated model building to deployment, monitoring, and governance (MLOps). It's designed to let both data scientists and business analysts build, deploy, and manage predictive and generative AI models with strong emphasis on model explainability and governance for regulated industries.", "pricing": "Custom enterprise pricing based on usage, deployment size, and modules; no public self-serve pricing, sold primarily through direct sales with trial/demo options.", "url": "https://www.datarobot.com",
- "tags": ["Data Analysis", "AutoML", "MLOps"],
- "features": ["Automated machine learning (AutoML) for rapid model building and comparison", "MLOps tools for model deployment, monitoring, and drift detection", "Model explainability and bias/fairness diagnostics", "Time series and automated feature engineering capabilities", "Generative AI workbench for building and evaluating LLM-based applications", "Governance and compliance tooling for regulated industries"],
- "pros": ["Speeds up model development significantly through automation", "Strong explainability and governance features suited to regulated industries", "Robust MLOps capabilities for monitoring models in production"],
- "cons": ["Enterprise pricing can be expensive, especially for smaller teams", "Steeper learning curve to fully leverage advanced platform capabilities", "Less flexible than fully custom code-based ML workflows for highly specialized use cases"],
- "best_for": "Enterprise data science teams and regulated industries (finance, insurance, healthcare) that need to build, govern, and scale predictive models quickly with strong compliance and explainability requirements.",
- "deep": {
-    "overview": "DataRobot is one of the earliest and best-known enterprise automated machine learning platforms, founded to make it faster for organizations to go from raw data to production-grade predictive models. Its core AutoML engine automatically tests many algorithms and feature engineering approaches, ranking models by performance and providing detailed explainability reports, which appeals to both data scientists looking to accelerate their workflow and business analysts who need to understand model behavior without deep ML expertise.\n\nBeyond model building, DataRobot has invested heavily in MLOps: once a model is selected, the platform supports deployment, real-time monitoring for accuracy and data drift, and governance workflows that track model lineage and decisions — important for regulated industries like banking, insurance, and healthcare where auditability matters. This governance and explainability focus has long been a differentiator versus more code-centric ML platforms.\n\nMore recently, DataRobot has expanded into generative AI, offering a workbench for building, evaluating, and deploying LLM-powered applications alongside its traditional predictive ML tools, aiming to be a unified enterprise platform spanning both predictive and generative AI use cases. It is typically sold to large enterprises via direct sales rather than self-serve signup, reflecting its position as a heavyweight, governance-focused enterprise tool.",
-    "features_detailed": [{"title": "Automated Machine Learning (AutoML)", "desc": "DataRobot automatically trains, tunes, and compares numerous algorithms on a dataset, ranking models by accuracy and other metrics to speed up model selection."},
-      {"title": "MLOps and Model Monitoring", "desc": "Deployed models can be monitored in production for performance degradation, data drift, and service health, with alerting for issues."},
-      {"title": "Explainability and Bias Detection", "desc": "Built-in tools surface feature importance, prediction explanations, and fairness/bias diagnostics to support trust and compliance requirements."},
-      {"title": "Time Series and Feature Engineering", "desc": "Automated feature engineering and specialized time series modeling capabilities handle forecasting use cases without manual feature crafting."},
-      {"title": "Generative AI Workbench", "desc": "A newer module lets teams build, test, and deploy applications powered by large language models alongside traditional predictive models."},
-      {"title": "Governance and Compliance Tooling", "desc": "Model lineage tracking, approval workflows, and audit trails help regulated industries meet compliance requirements for AI decision-making."}],
-    "pricing_plans": [{"name": "Trial/Sandbox", "price": "Free trial (limited)", "billing": "Time-limited trial access", "features": ["Limited access to AutoML capabilities", "Sample datasets and guided onboarding"]},
-      {"name": "Enterprise", "price": "Custom quote", "billing": "Annual contract, usage/deployment based", "features": ["Full AutoML and MLOps suite", "Model governance and monitoring", "Dedicated support and onboarding"]},
-      {"name": "Enterprise Plus / Generative AI Add-on", "price": "Custom quote", "billing": "Annual contract", "features": ["Generative AI workbench access", "Advanced governance modules", "Expanded deployment and scaling options"]}],
-    "pros_expanded": ["The AutoML engine dramatically reduces the time needed to build and compare candidate models compared to manual experimentation.", "Explainability features (feature impact, prediction explanations) make it easier to justify model decisions to stakeholders and regulators.", "Mature MLOps tooling for monitoring drift and performance helps enterprises maintain model reliability in production over time.", "Governance workflows and audit trails are a strong fit for regulated industries like banking, insurance, and healthcare.", "The platform increasingly unifies predictive ML and generative AI workflows, reducing the need for separate tools."],
-    "cons_expanded": ["Enterprise-focused custom pricing means costs can be substantial and less accessible for small teams or startups.", "The breadth of the platform introduces a learning curve; fully leveraging advanced features often requires dedicated training or professional services.", "Highly customized or novel modeling approaches may still require code-based ML frameworks outside DataRobot's automated pipeline.", "As an enterprise sales-led product, evaluation and procurement can be slower than self-serve competitors.", "Some users note that AutoML-selected models can act as a partial black box unless explainability features are actively used."],
-    "who_for": "DataRobot is best suited for enterprise data science and analytics teams, particularly in regulated industries like financial services, insurance, and healthcare, that need to build predictive models quickly while maintaining strong governance and explainability. It fits organizations with meaningful data volumes and dedicated budget for an enterprise AI platform rather than small teams or hobbyist use cases. Its expanding generative AI capabilities also make it relevant to enterprises wanting to unify predictive and generative AI initiatives under one governed platform. Teams needing full custom control over novel model architectures may still supplement it with code-first ML frameworks.",
-    "faq": [{"q": "Does DataRobot require coding to build models?", "a": "No, its AutoML interface lets users build and evaluate models with little to no code, though it also supports code-based workflows via notebooks for data scientists."},
-      {"q": "Is DataRobot suitable for small businesses?", "a": "It's primarily built and priced for enterprise use; smaller businesses may find it costly compared to lighter-weight or open-source alternatives."},
-      {"q": "Does DataRobot support generative AI, not just predictive ML?", "a": "Yes, it has added a generative AI workbench for building and deploying LLM-based applications alongside traditional predictive models."},
-      {"q": "How does DataRobot handle model monitoring after deployment?", "a": "Its MLOps tooling tracks deployed model performance, detects data and concept drift, and can alert teams to degradation over time."},
-      {"q": "Is DataRobot good for regulated industries?", "a": "Yes, its explainability, bias detection, and governance/audit trail features are specifically designed to support compliance needs in regulated sectors."},
-      {"q": "How is DataRobot priced?", "a": "Pricing is custom and enterprise-based, typically negotiated through direct sales rather than published self-serve rates."}],
-    "reviews": {"g2_rating": "4.4/5", "g2_count": "~26 reviews", "summary": "Reviewers consistently praise DataRobot's ability to speed up model building and its strong explainability features, while noting the platform's cost and learning curve as drawbacks for smaller teams.", "praise": ["Significantly speeds up model development and comparison via AutoML", "Strong model explainability and interpretability tools", "Robust support for enterprise governance and deployment needs"], "complaints": ["Pricing is high, especially for smaller organizations", "Platform breadth creates a learning curve for new users", "Some advanced customization requires supplementing with code-based workflows"]}
- }},
+            {'name': 'DataRobot',
+ 'tagline': 'Enterprise platform for building, governing and running predictive and agentic AI',
+ 'desc': 'DataRobot is an enterprise AI platform covering predictive machine learning (AutoML), generative and agentic AI, governance and '
+         'observability. Its homepage now leads with an agent platform, and it is sold mainly through sales, with a 30-day free trial '
+         'advertised.',
+ 'pricing': 'No public pricing; sold through sales (custom quote). A 30-day free trial with full platform access is advertised; post-trial '
+            'cost and trial limits are not published.',
+ 'url': 'https://www.datarobot.com',
+ 'tags': ['Data Analysis', 'AutoML', 'MLOps'],
+ 'features': ['Predictive AI with automated model building and comparison',
+              'Generative and agentic AI building (agent builder, GenAI workbench)',
+              'AI governance and observability for deployed models',
+              'Deployment on-prem, hybrid or cross-cloud (per vendor)',
+              'Open-source projects Covalent and syftr'],
+ 'pros': ['Covers predictive, generative and agentic AI plus governance in one vendor',
+          'Governance and observability suit regulated industries',
+          '30-day free trial with full platform access advertised'],
+ 'cons': ['No public pricing; you must talk to sales to learn the cost',
+          'Built for enterprises, likely heavy for small teams or solo analysts',
+          'Homepage focus has shifted to agents, so classic AutoML is one module among many'],
+ 'best_for': 'Large enterprise data science and AI teams, especially in regulated sectors, that want one governed platform for predictive '
+             'models and AI agents.',
+ 'deep': {'overview': 'DataRobot is a good fit for large organizations that want a governed, centrally managed platform to build and run '
+                      'both classic predictive models and AI agents. Skip it if you are an individual, a small team or a budget-conscious '
+                      'analyst: there is no public price list and it is sold as an enterprise platform. It started as an automated machine '
+                      "learning product and its site now describes a 'Unified Agent Workforce Platform' with modules for agentic, "
+                      'generative and predictive AI, governance, observability and an AI foundation layer. It also lists open-source '
+                      'projects (Covalent, syftr), ready-made agents including SAP-integrated ones, and partnerships with NVIDIA, Dell, '
+                      'Nebius and SAP. A 30-day free trial is advertised with agent builder, AutoML and GenAI workbench access.',
+          'who_for': 'Good for enterprise data science, ML engineering and AI platform teams (finance, insurance, healthcare and similar) '
+                     'that need governance and observability across many models and agents. Not for solo analysts, startups or anyone who '
+                     'needs transparent self-serve pricing, and not ideal if you prefer to hand-build everything in open-source code.',
+          'features_detailed': [{'title': 'Predictive AI / AutoML',
+                                 'desc': 'Automates building and comparing models on tabular and time series data. Listed on the site as '
+                                         'the Predictive AI module.'},
+                                {'title': 'Agentic and generative AI',
+                                 'desc': 'An agent builder and GenAI workbench with a choice of LLMs and vector databases, low-code or '
+                                         'code-first, with an app template gallery (per the trial page).'},
+                                {'title': 'AI governance',
+                                 'desc': 'Module for managing and controlling AI assets in production. We could not verify the specific '
+                                         'approval or audit workflows from the public pages.'},
+                                {'title': 'AI observability',
+                                 'desc': 'Monitoring of deployed AI. Details of drift and alerting features were not verified on the pages '
+                                         'we checked.'},
+                                {'title': 'Flexible deployment',
+                                 'desc': 'The vendor says it supports on-prem, hybrid and cross-cloud environments.'},
+                                {'title': 'Open-source projects', 'desc': 'Covalent and syftr are listed as DataRobot open-source work.'}],
+          'pricing_plans': [{'name': 'Free trial',
+                             'price': 'Free',
+                             'billing': '30 days',
+                             'features': ['Full platform access advertised, no contract',
+                                          'Agent builder, AutoML and GenAI workbench included',
+                                          'Community support; usage limits and card requirement not stated']},
+                            {'name': 'Enterprise',
+                             'price': 'Not public - contact sales',
+                             'billing': 'Not published',
+                             'features': ['Modules include agentic, generative and predictive AI, governance and observability',
+                                          'Pricing and packaging could not be verified; the site has no pricing page']}],
+          'pros_expanded': ['One vendor spans predictive ML, generative AI and agents, which reduces tool sprawl for big organizations.',
+                            'Governance and observability are sold as first-class modules, relevant for audit-heavy industries.',
+                            'A free 30-day trial with full platform access lets you test before talking contracts.'],
+          'cons_expanded': ['Pricing is opaque; budgeting requires a sales conversation and we could not find any published figures.',
+                            'The positioning has moved toward agents, so buyers wanting only AutoML may pay for a broader platform than '
+                            'they need.',
+                            'Trial limits and what happens after day 30 are not stated publicly.'],
+          'faq': [{'q': 'Does DataRobot have a free trial?',
+                   'a': 'Yes, its trial page advertises a 30-day free trial with full platform access and no contract. Usage limits and '
+                        'whether a card is needed are not stated.'},
+                  {'q': 'How much does DataRobot cost?',
+                   'a': 'Not published. The site has no pricing page; you need to request a demo or quote.'},
+                  {'q': 'Is DataRobot still just an AutoML tool?',
+                   'a': 'No. Its homepage now presents an agent platform with agentic, generative and predictive AI, governance and '
+                        'observability modules.'},
+                  {'q': 'Who should consider an alternative?',
+                   'a': 'Small teams or people wanting transparent pricing or open-source tooling; see the alternatives listed on this '
+                        'page.'}]},
+ 'last_checked': '2026-10-22',
+ 'alternatives': [{'slug': 'h2o-ai',
+                   'why': 'Pick this instead if you want an AutoML platform with an open-source core and a more engineer-friendly route '
+                          'in.'},
+                  {'slug': 'akkio',
+                   'why': 'Pick this instead if you are a smaller team wanting no-code predictive analytics without an enterprise '
+                          'contract.'},
+                  {'slug': 'mljar-studio',
+                   'why': 'Pick this instead if you want local, desktop AutoML where data and code stay on your machine.'}]},
             {"name": "Enterpret", "tagline": "AI-powered platform that unifies and analyzes customer feedback across every channel", "desc": "Enterpret aggregates customer feedback from support tickets, reviews, surveys, sales calls, social media, and community forums into a single system, using AI/NLP to categorize and quantify what customers are saying. It gives product, CX, and go-to-market teams a searchable, queryable view of feedback trends so they can prioritize decisions with quantitative backing instead of anecdotes.", "pricing": "Enterprise/custom pricing based on feedback volume and data sources; no public self-serve pricing, sold primarily via sales-led contracts.", "url": "https://www.enterpret.com",
  "tags": ["Data Analysis", "Customer Feedback", "Product Analytics"],
  "features": ["Unified ingestion of feedback from support tickets, reviews, surveys, calls, and social channels", "AI/NLP-driven categorization and theme extraction", "Custom taxonomy builder tailored to each business's terminology", "Quantitative trend analysis and dashboards for feedback themes", "Natural-language querying of the feedback dataset", "Integrations with tools like Zendesk, Salesforce, Gong, and Slack"],
@@ -10799,14 +11267,110 @@ CATEGORIES = [
  "best_for": "Investment banks, hedge funds, private equity firms, consultancies, and law firms that need to analyze and cross-reference large volumes of documents quickly for research, due diligence, or compliance.",
  "deep": {
     "overview": "Hebbia built its reputation in financial services, where analysts routinely need to extract and compare information across thousands of pages of filings, contracts, earnings reports, and research documents. Its core product, Matrix, presents an interface similar to a spreadsheet, where each row can be a document (or set of documents) and each column is a natural-language question, letting a user run the same query across an entire corpus at once and get back structured, cited answers.\n\nBeyond finance, Hebbia has expanded into other knowledge-work verticals such as consulting, law, and government, where the core problem is the same: too much unstructured text for humans to read manually within a reasonable timeframe. The platform emphasizes source citations so analysts can verify AI-generated answers against the original document text, which is critical in high-stakes financial and legal contexts.\n\nHebbia is sold as an enterprise product with custom pricing and deployment options (including options suited to regulated environments), rather than a self-serve SaaS tool, reflecting its focus on large financial institutions and enterprise knowledge teams.", "features_detailed": [{"title": "Matrix grid interface", "desc": "A spreadsheet-like canvas where rows represent documents and columns represent AI-powered questions, enabling bulk analysis across large document sets."}, {"title": "Cross-document reasoning", "desc": "Can synthesize answers that span multiple documents at once, useful for comparing terms across contracts or aggregating data across filings."}, {"title": "Source citations", "desc": "Answers link back to the specific passages in source documents, letting analysts verify AI output before relying on it."}, {"title": "Enterprise document ingestion", "desc": "Designed to handle large corpora of PDFs, spreadsheets, and other unstructured files typical of due diligence and research workflows."}, {"title": "Workflow templates", "desc": "Supports reusable query templates for common tasks like due diligence checklists, compliance reviews, or earnings analysis."}, {"title": "Enterprise security", "desc": "Offers deployment and security controls aimed at regulated industries such as banking and government."}], "pricing_plans": [{"name": "Enterprise", "price": "Contact sales", "billing": "Custom quote based on seats, document volume, and deployment requirements", "features": ["Matrix platform access", "Custom onboarding and workflow setup", "Enterprise security and compliance options", "Dedicated support"]}], "pros_expanded": ["Dramatically speeds up due diligence and research tasks that would otherwise take analysts days of manual document review.", "Citation-backed answers build trust by letting users trace AI output back to exact source passages rather than taking answers on faith.", "Well suited to comparative analysis, such as spotting differences in terms across many contracts or filings at once.", "Enterprise security and deployment options make it a realistic fit for regulated financial institutions."], "cons_expanded": ["Pricing opacity means prospective customers cannot self-assess cost without going through a sales process.", "Primarily designed and priced for large enterprise teams, making it a poor fit for individual analysts or very small firms.", "Getting the most value out of complex, multi-document queries can require some upfront learning of how to structure prompts and workflows.", "As with any AI document analysis tool, outputs still benefit from human verification on high-stakes decisions."], "who_for": "Hebbia is aimed at professionals in financial services, consulting, law, and government who spend significant time manually reading and cross-referencing large volumes of documents. It is particularly valuable for investment banking, private equity, and hedge fund teams doing due diligence, as well as research and compliance teams that need to extract structured insights from unstructured filings and contracts. The tool assumes an enterprise budget and IT/security review process, making it less suited to solo users or small non-enterprise teams.", "faq": [{"q": "What is Hebbia's main product called?", "a": "Hebbia's flagship product is Matrix, a spreadsheet-style interface for running AI questions across large sets of documents."}, {"q": "Which industries use Hebbia most?", "a": "Hebbia is most widely used in financial services (investment banking, hedge funds, private equity) as well as consulting, law, and government."}, {"q": "Does Hebbia cite its sources?", "a": "Yes, Matrix links generated answers back to the specific passages in source documents so users can verify accuracy."}, {"q": "Is there a free trial or public pricing?", "a": "No, Hebbia is sold as an enterprise product with custom, quote-based pricing rather than public self-serve plans."}, {"q": "Can Hebbia analyze many documents at once?", "a": "Yes, it is designed specifically to run the same query across large corpora of documents simultaneously and synthesize cross-document answers."}, {"q": "Is Hebbia suitable for individual users or small teams?", "a": "It is primarily built and priced for large enterprise teams; individuals or very small firms are unlikely to be its target customer."}]}},
-            {"name": "Julius AI", "tagline": "AI data analyst chatbot that turns spreadsheets and CSVs into insights and charts via chat", "desc": "Julius AI is a conversational AI tool that lets users upload spreadsheets, CSVs, or databases and ask questions in plain English to get statistical analysis, visualizations, and charts without writing code. It acts like a personal data analyst, handling data cleaning, exploratory analysis, and chart generation through a chat interface powered by underlying large language models.", "pricing": "Freemium model with a limited free tier and paid monthly/annual subscription plans that unlock higher usage limits, more advanced analysis, and additional integrations; exact tier pricing is subject to change on julius.ai.", "url": "https://julius.ai",
- "tags": ["Data Analysis", "AI Chatbot", "Data Visualization"],
- "features": ["Upload CSV, Excel, or connect databases for natural-language querying", "Automatic chart and visualization generation from plain-English prompts", "Statistical analysis and predictive modeling via conversational requests", "Code generation (Python) shown alongside results for transparency", "Multi-turn chat memory for iterative data exploration", "Integrations with tools like Google Sheets for data import/export"],
- "pros": ["Very approachable for non-technical users who want quick data insights", "Fast iteration since follow-up questions refine analysis without re-uploading data", "Shows underlying code, giving technical users a way to verify or reuse logic"],
- "cons": ["Complex or very large datasets can hit performance or accuracy limits", "Free tier usage limits are fairly restrictive for regular use", "Like most LLM-based tools, occasional errors in analysis require user verification"],
- "best_for": "Analysts, students, marketers, and founders who want fast, conversational data analysis and chart creation from spreadsheets without writing SQL or Python themselves.",
- "deep": {
-    "overview": "Julius AI positions itself as an AI-powered personal data analyst that anyone can talk to. Users upload a spreadsheet, CSV file, or connect a data source, then ask questions in natural language such as \"what's driving the drop in Q3 revenue\" or \"plot monthly signups by region,\" and Julius returns explanations, tables, and charts. Under the hood, it typically generates and runs code to perform the requested analysis, then displays both the visual result and the code used, which gives more technical users a way to audit or reuse the logic.\n\nThe tool is aimed at bridging the gap between spreadsheet users who lack coding or statistics skills and the kind of deep analysis normally reserved for data analysts or data scientists. It supports iterative, multi-turn conversations, so users can refine a chart, ask a follow-up question about an anomaly, or request a different visualization without starting over.\n\nJulius follows a freemium SaaS model: a free tier lets new users try core functionality with limited usage, while paid subscription tiers unlock higher message/analysis limits, faster processing, and additional features aimed at power users, teams, and businesses doing frequent data analysis.", "features_detailed": [{"title": "Natural language data querying", "desc": "Users ask questions about their uploaded data in plain English and receive analysis, summaries, and visualizations in response."}, {"title": "Automatic chart generation", "desc": "Generates bar charts, line graphs, scatter plots, and other visualizations automatically based on the nature of the question asked."}, {"title": "Code transparency", "desc": "Shows the underlying Python code used to produce results, allowing technical users to verify, modify, or reuse the logic."}, {"title": "Statistical and predictive analysis", "desc": "Can perform tasks like regression, forecasting, and hypothesis testing when asked in conversational language."}, {"title": "Multi-turn iterative analysis", "desc": "Supports follow-up questions and refinements within the same session without needing to re-upload data."}, {"title": "File and integration support", "desc": "Accepts CSV and Excel uploads and supports integrations such as Google Sheets for importing and exporting data."}], "pricing_plans": [{"name": "Free", "price": "$0", "billing": "Free tier with limited monthly messages/analyses", "features": ["Basic chat-based analysis", "Limited usage quota", "Core chart generation"]}, {"name": "Paid (Individual)", "price": "Monthly subscription (varies by plan)", "billing": "Billed monthly or annually", "features": ["Higher usage limits", "Faster/priority processing", "Access to more advanced analysis features"]}, {"name": "Team/Business", "price": "Custom or higher-tier subscription", "billing": "Billed monthly or annually per seat", "features": ["Team collaboration features", "Higher combined usage limits", "Priority support"]}], "pros_expanded": ["Removes the technical barrier of SQL, Python, or BI tool syntax, letting non-technical users get real analysis from raw data quickly.", "Iterative chat format makes exploratory data analysis feel conversational rather than requiring a rigid, one-shot query.", "Displaying generated code alongside results builds trust and gives technical users a way to double-check or extend the analysis.", "Useful across many roles — marketers, founders, students, and analysts — since the entry point is just uploading a spreadsheet."], "cons_expanded": ["Very large or messy datasets can strain accuracy and speed, sometimes requiring pre-cleaning before upload.", "Free tier limits push regular users toward a paid plan fairly quickly, which may not suit occasional or budget-conscious users.", "As an LLM-driven tool, it can occasionally misinterpret a question or make an analysis error that needs manual verification.", "Less suited to enterprise-grade governance, auditing, or highly regulated data workflows compared to dedicated BI platforms."], "who_for": "Julius AI is best suited to individuals and small teams — marketers, founders, students, researchers, and business analysts — who need quick answers and visualizations from spreadsheet data without learning SQL, Python, or a traditional BI tool. It appeals to people comfortable working conversationally rather than through dashboards or code editors. Technical users also benefit from the visible generated code, which can be copied out for reuse. It's less suited to large enterprises needing strict data governance or very large-scale data pipelines.", "faq": [{"q": "What file types can I upload to Julius AI?", "a": "Julius primarily supports CSV and Excel spreadsheet uploads, along with some database and Google Sheets integrations, depending on plan."}, {"q": "Do I need to know how to code to use Julius AI?", "a": "No, Julius is designed so you can ask questions in plain English; it generates and runs the underlying code automatically."}, {"q": "Is there a free version of Julius AI?", "a": "Yes, Julius offers a free tier with limited usage; paid subscription plans unlock higher limits and more advanced features."}, {"q": "Can Julius AI create charts and visualizations?", "a": "Yes, it automatically generates charts and graphs based on the data and question asked, without manual chart configuration."}, {"q": "Can I see the code behind Julius AI's analysis?", "a": "Yes, Julius typically displays the generated Python code alongside the results so users can verify or reuse it."}, {"q": "Is Julius AI accurate for complex statistical analysis?", "a": "It handles many common statistical and predictive tasks well, but like any AI tool, results on complex or large datasets should be spot-checked."}]}},
+            {'name': 'Julius AI',
+ 'tagline': 'AI workspace for analyzing spreadsheets in plain English, making charts, and building slides and sites from the results.',
+ 'desc': 'Julius AI lets you upload spreadsheets and other data, ask questions in plain English, and get analysis, charts and reports '
+         'back. It has since grown into a wider AI workspace that also makes presentations, websites, images and video, and includes '
+         'browser agents for research.',
+ 'pricing': 'Free plan with a daily credit allowance (amount not stated). Plus $20/mo ($16/mo annual), Pro $45/mo ($37/mo annual), '
+            'Business $450/mo ($375/mo annual), Enterprise custom.',
+ 'url': 'https://julius.ai',
+ 'tags': ['Data Analysis', 'AI Chatbot', 'Data Visualization'],
+ 'features': ['Plain-English analysis of spreadsheets and data files',
+              'AI chart generation and reports',
+              'Presentation, website, image and video creation',
+              'Browser and parallel agents for research',
+              'Data connectors, including Google Drive, OneDrive and SharePoint on Free; Postgres, BigQuery and Snowflake on Business'],
+ 'pros': ['Easy entry: upload a spreadsheet and ask questions without writing SQL or Python',
+          'Free plan to try it, with paid tiers from $16 to $20 a month',
+          'One tool covers analysis, charts, slides and simple sites'],
+ 'cons': ['Usage is metered in credits, so heavy use can need a higher tier',
+          'Database connectors (Postgres, BigQuery, Snowflake) are listed only on Business at $450/mo',
+          'AI-generated analysis still needs checking before you rely on it'],
+ 'best_for': 'Analysts, marketers, founders and students who want quick, conversational analysis and charts from spreadsheets without '
+             'coding.',
+ 'deep': {'overview': 'Julius AI is a good choice for individuals and small teams who have spreadsheets or data files and want answers and '
+                      'charts by asking questions in plain English. It is a poor choice if you need a governed, enterprise BI stack or '
+                      'live warehouse connections on a small budget, since the database connectors we saw are listed on the $450/mo '
+                      'Business plan. Julius started as a data-analysis chatbot and its site now presents it as a broader AI workspace: '
+                      'analysis and reports, but also presentations, websites, images, video and browser agents. Usage is measured in '
+                      'credits per plan, so how far a plan goes depends on how heavily you use it.',
+          'features_detailed': [{'title': 'Plain-English data analysis',
+                                 'desc': 'Upload spreadsheets and data files, ask questions in everyday language, and get analysis, tables '
+                                         'and charts.'},
+                                {'title': 'Charts and reports',
+                                 'desc': 'Turns data into charts and reports without manual chart configuration.'},
+                                {'title': 'Presentations',
+                                 'desc': 'Builds slides with templates such as board updates and quarterly reviews; custom brand templates '
+                                         'are listed.'},
+                                {'title': 'Websites and media',
+                                 'desc': 'Builds websites and generates images and video; the Free plan has limited access to these.'},
+                                {'title': 'Browser and parallel agents',
+                                 'desc': 'Agents that research and perform web tasks; unlimited parallel agents are listed on Pro.'},
+                                {'title': 'Data connectors',
+                                 'desc': 'Free lists Google Drive, OneDrive and SharePoint; Business adds Postgres, BigQuery and '
+                                         'Snowflake.'}],
+          'pricing_plans': [{'name': 'Free',
+                             'price': '$0',
+                             'billing': 'n/a',
+                             'features': ['Daily credit allowance (amount could not be verified)',
+                                          'Julius Lite models',
+                                          'Limited presentation, image, video and website tools',
+                                          '7-day file storage']},
+                            {'name': 'Plus',
+                             'price': '$20/mo, or $16/mo billed annually',
+                             'billing': 'Monthly or annual',
+                             'features': ['2,000 credits/month', 'Frontier models', '16 GB RAM', 'Website publishing on a Julius domain']},
+                            {'name': 'Pro',
+                             'price': '$45/mo, or $37/mo billed annually',
+                             'billing': 'Monthly or annual',
+                             'features': ['5,000 credits/month', '32 GB RAM', 'Unlimited parallel agents', 'Priority email support']},
+                            {'name': 'Business',
+                             'price': '$450/mo, or $375/mo billed annually',
+                             'billing': 'Monthly or annual',
+                             'features': ['60,000 credits/month',
+                                          'Up to 50 team members and collaboration',
+                                          'Postgres, BigQuery and Snowflake connectors']},
+                            {'name': 'Enterprise',
+                             'price': 'Custom - contact sales',
+                             'billing': 'Contact sales',
+                             'features': ['SSO, audit logs, roles and permissions',
+                                          'SOC 2 Type II',
+                                          'Permanent file storage, custom connectors']}],
+          'pros_expanded': ['You can start with a spreadsheet and plain-English questions, with no SQL or Python needed.',
+                            'A free plan lets you test it on your own data before paying.',
+                            'Entry paid plans are inexpensive at $16-$20 a month on annual or monthly billing respectively.',
+                            'One workspace produces charts, slides and sites from the same analysis.',
+                            'Higher tiers add more memory (16 GB on Plus, 32 GB on Pro), which matters for larger files.'],
+          'cons_expanded': ['Credit-based usage makes cost harder to predict than a flat per-seat price.',
+                            'Warehouse connectors (Postgres, BigQuery, Snowflake) appear only on Business at $450/mo.',
+                            "The Free plan's daily credit amount is not stated, so we could not verify how much you get.",
+                            'Collaboration with teammates is listed starting at Business; Plus and Pro read as single-user.',
+                            'As with any AI analysis tool, results on messy or complex data should be spot-checked; we did not verify '
+                            'accuracy claims.'],
+          'who_for': 'Who it is for: individuals and small teams who work in spreadsheets and want fast answers, charts and slides without '
+                     'coding. Who it is not for: organizations needing governed enterprise BI on a small budget, teams wanting predictable '
+                     'flat per-seat pricing, and anyone who needs live database connections but cannot afford the Business tier.',
+          'faq': [{'q': 'Is Julius AI free?',
+                   'a': 'There is a Free plan with a daily credit allowance and limited access to some tools. The exact daily amount was '
+                        'not stated on the pricing page, so check before relying on it.'},
+                  {'q': 'How much does Julius AI cost?',
+                   'a': 'Plus is $20/mo ($16/mo billed annually), Pro $45/mo ($37 annual), Business $450/mo ($375 annual). Enterprise is '
+                        'custom.'},
+                  {'q': 'Can it connect to my database?',
+                   'a': 'Postgres, BigQuery and Snowflake connectors are listed on the Business plan. Free lists Google Drive, OneDrive '
+                        'and SharePoint connectors.'},
+                  {'q': 'Do I need to code?',
+                   'a': 'No. Its site describes analyzing spreadsheets in plain English. We did not verify in detail whether generated '
+                        'code is shown in the current product.'},
+                  {'q': 'Can my team share work in it?',
+                   'a': 'Teammate invitations and collaboration are listed from the Business plan, with up to 50 team members.'}]},
+ 'last_checked': '2026-10-22',
+ 'alternatives': [{'slug': 'polymer',
+                   'why': 'Pick this instead if you want spreadsheets turned into shareable dashboards rather than a chat-first workflow.'},
+                  {'slug': 'rows-ai',
+                   'why': 'Pick this instead if you prefer to stay inside a spreadsheet with AI formulas and live data integrations.'},
+                  {'slug': 'mljar-studio', 'why': 'Pick this instead if your data must stay on your own laptop.'}]},
             {"name": "Kadoa", "tagline": "AI-powered web scraping and unstructured data extraction platform with self-healing workflows", "desc": "Kadoa is an AI data extraction and ETL platform that turns websites, PDFs, and other unstructured sources into clean, structured data automatically, without writing custom scrapers. Its AI models detect page structure, adapt when sites change layout, and deliver data through APIs or direct integrations, targeting teams that need reliable, self-healing data pipelines at scale.", "pricing": "Free tier for a first workflow and a scraping playground; paid plans start around $39-99/month with usage-based credits, and custom enterprise pricing is available via sales for large-scale extraction.", "url": "https://www.kadoa.com",
  "tags": ["Data Analysis", "Web Scraping", "ETL & Data Extraction"],
  "features": ["AI-based automatic detection of page/document structure", "Self-healing scrapers that adapt to website layout changes", "Structured data extraction from web pages, PDFs, and documents", "Real-time data extraction and monitoring workflows", "REST API and integrations for delivering extracted data", "No-code workflow builder alongside developer-facing API access"],
@@ -11426,51 +11990,100 @@ CATEGORIES = [
       {"q": "Is Fontjoy good for print design?", "a": "It's primarily oriented toward web typography via Google Fonts, though the pairing logic can still inform print choices."}
     ]
  }},
-            {"name": "Framer AI", "tagline": "AI website generator inside Framer that turns a text prompt into a fully editable, publishable site", "desc": "Framer AI is a built-in feature of the Framer website builder that generates a complete, responsive website from a short text description of the business or project. The generated site is fully editable in Framer's visual, no-code canvas, letting users refine layout, content, and design before publishing with Framer's own hosting.", "pricing": "Free to start building; paid plans required to publish on a custom domain, starting at a low monthly cost with higher tiers for more pages, CMS content, and traffic", "url": "https://www.framer.com/ai/",
- "tags": ["Design", "Website Builder", "Text-to-Website"],
- "features": ["Generates a full multi-section website from a single text prompt", "Output is fully editable in Framer's visual no-code editor", "Access to Framer's design components, animations, and responsive layouts", "Built-in CMS for blogs and dynamic content", "One-click publishing with integrated hosting and custom domains", "SEO basics and fast-loading sites out of the box"],
- "pros": ["Goes from idea to a real, editable website in minutes instead of hours", "Generated designs are genuinely usable, not just rough placeholders", "Seamlessly hands off into Framer's powerful full design and animation toolkit"],
- "cons": ["Best results still require manual refinement of copy, imagery, and layout", "Free plan is limited; a paid plan is needed to publish on a custom domain", "Less relevant for users needing complex backend or e-commerce functionality beyond Framer's built-in features"],
- "best_for": "Founders, freelancers, and small businesses who want a polished marketing or portfolio website fast, without hiring a designer or developer.",
- "deep": {
-    "overview": "Framer AI is the AI website-generation entry point built into Framer, a popular no-code web design and publishing platform. Instead of starting from a blank canvas or a rigid template, users describe their business, product, or project in a short text prompt, and Framer AI generates a complete, multi-section website with layout, copy placeholders, and visual styling already in place.\n\nWhat sets Framer AI apart from many other AI website generators is that the output lands directly inside Framer's full visual editor, a mature no-code design tool known for production-quality animations, responsive layouts, and design flexibility. This means the AI-generated starting point is not a dead-end template but a fully editable foundation that can be refined down to pixel-level detail, including custom interactions and animations.\n\nBecause it is part of the broader Framer platform, sites built with Framer AI also inherit Framer's built-in CMS for blog and dynamic content, one-click publishing and hosting, custom domain support, and baseline SEO handling, making it a practical path from idea to a live, professional website without needing separate design and development tools.",
-    "features_detailed": [
-      {"title": "Prompt-to-Website Generation", "desc": "Generates a complete, structured website with multiple sections based on a short text description of the business or goal."},
-      {"title": "Full No-Code Editing", "desc": "The generated site opens directly in Framer's visual canvas, where every element can be adjusted, restyled, or rearranged."},
-      {"title": "Design Component Library", "desc": "Gives access to Framer's library of responsive components, layout grids, and pre-built interactions."},
-      {"title": "Built-In CMS", "desc": "Supports dynamic content collections for blogs, portfolios, or product listings without external integrations."},
-      {"title": "Animations and Interactions", "desc": "Inherits Framer's animation engine, allowing scroll effects, transitions, and micro-interactions to be added easily."},
-      {"title": "One-Click Publishing", "desc": "Publishes directly to Framer hosting with support for custom domains and basic SEO settings."}
-    ],
-    "pricing_plans": [
-      {"name": "Free", "price": "$0", "billing": "Free to design and preview", "features": ["Build and edit a site", "framer.app preview subdomain", "Limited pages/CMS items"]},
-      {"name": "Mini", "price": "Low monthly cost", "billing": "Monthly or annual", "features": ["Custom domain support", "Basic analytics", "Small site limits"]},
-      {"name": "Basic/Pro", "price": "Mid-tier monthly cost", "billing": "Monthly or annual (annual discount)", "features": ["More pages and CMS collections", "Higher traffic limits", "Advanced components and password protection"]},
-      {"name": "Enterprise/Team", "price": "Custom pricing", "billing": "Contact sales", "features": ["Team seats and permissions", "Advanced collaboration", "Priority support"]}
-    ],
-    "pros_expanded": [
-      "Produces a genuinely usable starting site rather than a generic, hard-to-customize template",
-      "Full integration with Framer's editor means the AI output is a real foundation, not a throwaway draft",
-      "Combines website generation with professional-grade animation and interaction tools in one platform",
-      "Publishing, hosting, and CMS are built in, avoiding the need to stitch together separate services"
-    ],
-    "cons_expanded": [
-      "Generated copy and imagery are usually placeholders that still need real content and brand-specific editing",
-      "Custom domains and higher usage require a paid plan, so the free tier alone is not enough for a live business site",
-      "Users needing complex e-commerce or backend logic beyond Framer's native features may need external integrations",
-      "The depth of Framer's editor, while powerful, adds a learning curve beyond simply accepting the AI's first output"
-    ],
-    "who_for": "Framer AI is best suited for founders, freelancers, agencies, and small businesses who want a professional-looking marketing site, portfolio, or landing page quickly, without hiring a dedicated designer or developer. It also appeals to designers who want an AI-generated starting point they can then customize deeply using Framer's animation and layout tools. It is less suited to teams needing complex custom backend logic or large-scale e-commerce beyond what Framer's ecosystem natively supports.",
-    "faq": [
-      {"q": "How does Framer AI generate a website?", "a": "You describe your business or project in a text prompt, and Framer AI generates a complete multi-section website layout that opens in Framer's visual editor."},
-      {"q": "Can I edit the AI-generated site?", "a": "Yes, the generated site is fully editable using Framer's standard no-code design canvas, including layout, styling, and content."},
-      {"q": "Is Framer AI free to use?", "a": "You can build and preview a site for free, but publishing on a custom domain and higher usage limits require a paid plan."},
-      {"q": "Does Framer AI support blogs or dynamic content?", "a": "Yes, sites can use Framer's built-in CMS to manage blog posts or other dynamic collections."},
-      {"q": "Can I add animations to an AI-generated site?", "a": "Yes, since the output lives inside Framer's editor, you have full access to its animation and interaction tools."},
-      {"q": "Is Framer AI good for e-commerce?", "a": "It covers basic website and content needs well, but complex e-commerce functionality may require additional integrations."}
-    ],
-    "reviews": {"g2_rating": "4.7/5", "g2_count": "Over 150 reviews", "summary": "Framer is highly rated on G2, with reviewers frequently praising its design flexibility, animation capabilities, and increasingly its AI site-generation feature for speeding up the initial build, while some note a learning curve for advanced customization.", "praise": ["Beautiful, professional-looking output with minimal effort", "Powerful animation and interaction capabilities beyond basic site builders", "AI generation significantly speeds up getting a first draft live"], "complaints": ["Advanced customization has a learning curve for newcomers", "Free plan limitations push users toward paid tiers quickly", "Some generated content still needs substantial manual editing"]}
- }},
+            {'name': 'Framer AI',
+ 'tagline': 'AI agents inside Framer that build and edit editable, publishable websites from a prompt',
+ 'desc': "Framer's AI features let agents create pages, sections, copy and visuals from a prompt, and later edit layouts, CMS content and "
+         "SEO on an existing site. Everything lands in Framer's visual canvas, with hosting and a CMS built in.",
+ 'pricing': 'Free ($0, framer domain); Basic $10/mo; Pro $30/mo; Enterprise custom. Prices on the page are monthly rates; yearly prices '
+            'were not listed. AI usage is credit-based with tiers.',
+ 'url': 'https://www.framer.com/ai/',
+ 'tags': ['Design', 'Website Builder', 'Text-to-Website'],
+ 'features': ['Agents build pages, sections, copy and visuals from a prompt',
+              'Edit existing pages, layouts, CMS content and SEO without regenerating',
+              'Custom code components built from a described interaction',
+              'Pre-publish checks for contrast, typos, alt text and SEO gaps',
+              'Choice of several AI models; Claude Code, Cursor and Codex can connect',
+              'Built-in hosting, CMS and custom domains on paid plans'],
+ 'pros': ['Output is a real editable Framer site, not a locked template',
+          'Hosting, CMS and SEO tools are built in',
+          'Free plan lets you build and try AI before paying'],
+ 'cons': ['Paid plan needed for a custom domain',
+          'AI usage is credit-limited and the free allowance is small (500 credits to try)',
+          'Responsive and polish work often still needs a human pass'],
+ 'best_for': 'Founders, freelancers and small teams who want a polished marketing or portfolio site quickly and are willing to refine it '
+             'by hand.',
+ 'deep': {'overview': 'Framer AI is a strong choice for founders, freelancers and small teams who want a good-looking marketing site or '
+                      'portfolio fast and are happy to refine the result in a visual editor. Skip it if you need complex e-commerce or '
+                      'backend logic, or want predictable costs with no credit limits. It is the AI layer of the Framer website builder: '
+                      'you prompt agents to create pages, sections, copy and visuals, then keep editing by chat or on the canvas, and '
+                      'publish on Framer hosting.',
+          'features_detailed': [{'title': 'Prompt-to-site building',
+                                 'desc': 'Agents create editable pages, sections, copy and visuals; you can refine in chat or switch to '
+                                         'the canvas.'},
+                                {'title': 'Editing existing sites',
+                                 'desc': 'Change pages, layouts, CMS content or SEO settings on a live project without regenerating the '
+                                         'whole site.'},
+                                {'title': 'Custom code components',
+                                 'desc': 'Describe an interaction and an agent builds a code component you can review and adjust.'},
+                                {'title': 'Pre-publish review',
+                                 'desc': 'Agents can flag contrast issues, typos, missing alt text, SEO gaps and inconsistent styles.'},
+                                {'title': 'Analytics suggestions',
+                                 'desc': 'Agents can review traffic and conversion gaps and suggest next steps.'},
+                                {'title': 'Model choice and external agents',
+                                 'desc': 'Pick among several AI models, and connect Claude Code, Cursor or Codex to Framer.'}],
+          'pricing_plans': [{'name': 'Free',
+                             'price': '$0',
+                             'billing': 'n/a',
+                             'features': ['Free Framer domain', '500 AI credits to try', '1 GB bandwidth', 'No custom domain']},
+                            {'name': 'Basic',
+                             'price': '$10/mo',
+                             'billing': 'Monthly rate shown; yearly toggle exists but yearly price not listed',
+                             'features': ['Free custom domain',
+                                          '30 pages, 2 CMS collections, 1,000 CMS items',
+                                          '50 GB bandwidth',
+                                          '1,000 to 15,000 AI credits/mo by tier',
+                                          'Built-in SEO, password protection, site search']},
+                            {'name': 'Pro',
+                             'price': '$30/mo',
+                             'billing': 'Monthly rate shown; yearly price not listed',
+                             'features': ['150 pages, 10 CMS collections, 2,500 CMS items',
+                                          '100 GB bandwidth',
+                                          '3,000 to 100,000 AI credits/mo by tier',
+                                          'Redirects, staging, branching with previews',
+                                          'Paid add-ons for more pages, CMS, bandwidth']},
+                            {'name': 'Enterprise',
+                             'price': 'Custom',
+                             'billing': 'Contact sales',
+                             'features': ['SSO, SCIM, uptime guarantee', 'Unlimited editors', 'Custom limits and dedicated support']}],
+          'pros_expanded': ['The result is an ordinary Framer project, so you can keep editing visually with animations and layouts',
+                            'Hosting, CMS, SEO and password protection are in one product',
+                            'Pre-publish checks catch typos, alt text and contrast problems',
+                            'Lets you pick models and connect external coding agents'],
+          'cons_expanded': ['A paid plan is required for a custom domain; Free stays on a Framer domain',
+                            'AI runs on credits, and the pricing page does not explain how many credits a typical site build uses',
+                            'Add-ons (extra pages, CMS, bandwidth, editors at $20 each, locales at $20 each) can raise the bill past the '
+                            'headline price',
+                            'Agents suggest changes but you make the final calls; responsive tweaks may need follow-up',
+                            'No deep e-commerce or backend features on the pages I checked'],
+          'who_for': 'Who it is for: founders, freelancers, agencies and small businesses building marketing sites, landing pages or '
+                     'portfolios who want AI to do the first draft. Who it is not for: teams needing complex e-commerce or custom '
+                     'backends, and anyone who needs a fixed price with no usage credits or add-ons.',
+          'faq': [{'q': 'Is Framer AI free?',
+                   'a': 'You can build with the Free plan, which includes 500 AI credits to try and a Framer subdomain. A custom domain '
+                        'requires Basic ($10/mo) or higher.'},
+                  {'q': 'How much do the paid plans cost?',
+                   'a': 'Basic is $10/mo and Pro is $30/mo per the pricing page, which lists monthly rates; yearly prices were not shown. '
+                        'Extra editors are $20 each and content editors $10.'},
+                  {'q': 'How do AI credits work?',
+                   'a': 'Plans include monthly credit tiers (1,000 to 15,000 on Basic, 3,000 to 100,000 on Pro). How many credits a full '
+                        'site uses was not stated, so test on Free first.'},
+                  {'q': 'Can I edit what the AI builds?',
+                   'a': 'Yes. It is a normal Framer project you can edit on the canvas, including CMS content and layout.'},
+                  {'q': 'Is it good for online stores?',
+                   'a': 'I could not verify built-in store features on the pages checked. Plan on external tools if you need serious '
+                        'e-commerce.'}]},
+ 'last_checked': '2026-10-22',
+ 'alternatives': [{'slug': 'uizard', 'why': 'Pick it if you need app or UI mockups and prototypes rather than a published website.'}]},
             
             {"name": "ImageColorizer", "tagline": "AI tool that brings black-and-white photos to life with realistic, automatic colorization", "desc": "ImageColorizer is a web-based AI tool that automatically adds realistic color to black-and-white and faded photographs in seconds. It also offers related restoration features like photo repair, unblurring, and old photo enhancement, aimed at casual users, genealogists, and photo restorers who want quick results without editing skills.", "pricing": "Freemium with credit-based plans; free tier includes limited monthly credits, paid plans start at a few dollars per month for more credits and higher-resolution output", "url": "https://imagecolorizer.com/",
  "tags": ["Design", "Photo Editing", "Image Restoration"],
@@ -11692,49 +12305,107 @@ CATEGORIES = [
       {"q": "Who typically uses Perception?", "a": "Brand designers, marketers, agencies, and product teams looking for data-informed color palette decisions are the primary users."}
     ]
  }},
-            {"name": "Recraft", "tagline": "AI image and vector generator built for brand-consistent design assets", "desc": "Recraft generates raster images, vector graphics, icons, and illustrations from text prompts, with strong support for editable SVG output and consistent styles across a project. It's built for designers and marketers who need scalable, on-brand visual assets rather than one-off AI art.", "pricing": "Free tier with limited daily generations; paid subscription plans (roughly $10-96+/month) unlock more generations, higher resolution, vector exports, and commercial usage rights, billed monthly or annually.", "url": "https://www.recraft.ai",
- "tags": ["Design", "AI Image Generation", "Vector Graphics"],
- "features": ["Text-to-image generation with photorealistic and illustrative styles", "Text-to-vector generation producing editable SVG files", "Consistent style presets for icons, illustrations, and brand assets", "In-browser vector editor for refining generated graphics", "Background removal and image editing tools", "Brand kit style training to match existing visual identity"],
- "pros": ["One of the few AI tools producing genuinely editable vector output", "Strong style consistency across batches of generated assets", "Useful for both quick concepting and production-ready graphics"],
- "cons": ["Learning curve for the built-in vector editor and style controls", "Higher-tier plans needed for full commercial and high-volume use", "Complex or highly specific brand requirements may still need manual touch-ups"],
- "best_for": "Designers, product teams, and marketers who need scalable icon sets, illustrations, or vector graphics that stay consistent with a brand's visual style.",
- "deep": {
-    "overview": "Recraft is an AI-powered design tool focused on generating both raster images and true vector graphics from text prompts, filling a gap that most AI image generators leave open: editable, scalable SVG output suitable for real design workflows rather than just static pictures.\n\nThe platform has built a reputation for producing high-quality, stylistically consistent results, letting users lock in a particular illustration or icon style and generate many assets that look like they belong to the same set, a key requirement for branding and UI work. Its built-in vector editor allows further refinement of paths, colors, and shapes after generation.\n\nRecraft has gained traction among designers and product teams for icon libraries, illustrations, mockups, and marketing graphics, positioning itself as a more production-ready alternative to general-purpose AI image generators like Midjourney or DALL-E for design-specific use cases.",
-    "features_detailed": [
-      {"title": "Text-to-Vector Generation", "desc": "Produces genuinely editable SVG vector graphics from text prompts, not just rasterized images traced afterward."},
-      {"title": "Style Consistency Controls", "desc": "Lets users define or lock a visual style so multiple generations share consistent color, line weight, and composition."},
-      {"title": "Text-to-Image Generation", "desc": "Generates photorealistic and illustrative raster images competitive with leading AI image models."},
-      {"title": "In-Browser Vector Editor", "desc": "Provides tools to adjust paths, colors, and layers on generated vector graphics without leaving the platform."},
-      {"title": "Icon and Illustration Sets", "desc": "Optimized for generating cohesive icon packs and illustration sets for apps, websites, and brand materials."},
-      {"title": "Background Removal and Editing", "desc": "Includes utilities for removing backgrounds and making targeted edits to generated or uploaded images."}
-    ],
-    "pricing_plans": [
-      {"name": "Free", "price": "$0", "billing": "no cost", "features": ["Limited daily generations", "Basic export options", "Personal/non-commercial use"]},
-      {"name": "Basic/Individual", "price": "~$10-20/month", "billing": "monthly or discounted annual", "features": ["More monthly generation credits", "Vector (SVG) export", "Commercial usage rights"]},
-      {"name": "Advanced/Team", "price": "~$40-96/month", "billing": "monthly or discounted annual", "features": ["Higher generation limits", "Team collaboration features", "Priority generation speed"]}
-    ],
-    "pros_expanded": [
-      "True SVG output means designers can actually edit paths and colors in tools like Illustrator or Figma afterward",
-      "Style-locking features produce noticeably more cohesive sets of icons or illustrations than typical AI generators",
-      "Regularly cited as one of the top-performing AI image models in independent image-generation benchmarks",
-      "Combines generation and light editing in one workspace, reducing the need to hop between tools"
-    ],
-    "cons_expanded": [
-      "New users may need time to understand style controls and get the vector editor working smoothly",
-      "Free tier's generation limits make it mostly a trial rather than a production solution",
-      "Complex brand guidelines or very specific compositions can still require manual designer cleanup",
-      "Vector quality, while strong, isn't always a perfect substitute for hand-crafted icon work in fine detail"
-    ],
-    "who_for": "Recraft is aimed at UI/UX designers, product teams, and marketing designers who need scalable vector icons, illustrations, and graphics that maintain a consistent visual style across a project. It's particularly valuable for teams building icon libraries or illustration systems who previously relied on manual vector work or stock libraries. Casual users just wanting quick one-off images may find simpler AI image tools sufficient.",
-    "faq": [
-      {"q": "Does Recraft actually generate editable vector files?", "a": "Yes, its text-to-vector feature produces true SVG output with editable paths, not a raster image converted after the fact."},
-      {"q": "Can I keep a consistent style across many generations?", "a": "Yes, Recraft supports style presets and style-locking so a set of icons or illustrations shares a consistent look."},
-      {"q": "Is there a free plan?", "a": "Yes, a free tier exists with limited daily generations, mainly suited to testing the platform."},
-      {"q": "Can I use Recraft outputs commercially?", "a": "Commercial usage rights are generally included with paid subscription tiers; free tier usage may be more restricted."},
-      {"q": "Does Recraft support photorealistic images as well as vectors?", "a": "Yes, it supports both photorealistic and illustrative raster image generation alongside vector output."},
-      {"q": "Is there an API for developers?", "a": "Recraft offers API access on certain plans for integrating generation into other products and workflows."}
-    ]
- }},
+            {'name': 'Recraft',
+ 'tagline': 'AI image and vector generator built for brand-consistent design assets',
+ 'desc': 'Recraft generates raster images, editable vector graphics, icons and mockups from text prompts, and includes tools for '
+         'upscaling, background removal and erasing objects. It works in a browser studio, on iOS and Android, and through an API.',
+ 'pricing': 'Free plan available, but Free-plan images are public and not licensed for commercial use. Paid plans (Basic, Pro, Teams) '
+            'grant commercial rights and private images. Exact current plan prices could not be verified from the official pricing page '
+            'today; see recraft.ai/pricing.',
+ 'url': 'https://www.recraft.ai',
+ 'tags': ['Design', 'AI Image Generation', 'Vector Graphics'],
+ 'features': ['Text-to-image generation, including photorealistic and art-directed styles',
+              'Vector generation and image vectorizer for editable SVG graphics',
+              'Custom styles created from your own uploaded images',
+              'Mockup generator, upscaler, background remover and AI eraser',
+              'Typography-focused graphic design output',
+              'API and iOS/Android apps'],
+ 'pros': ['Produces editable vector output, which most image generators do not',
+          'Custom styles from uploaded reference images help keep assets consistent',
+          'Paid plans give full ownership and commercial rights, kept after cancelling'],
+ 'cons': ['Free-plan images are public and not licensed for commercial use',
+          'Credit costs vary by action and model, so monthly output is hard to predict',
+          'Current plan prices could not be confirmed from the official page for this listing'],
+ 'best_for': 'Designers and marketers who need logos, icons and illustrations as editable vectors with a consistent look across a set.',
+ 'deep': {'overview': 'Recraft is a good pick for designers, product teams and sellers who need scalable vector graphics, icons and '
+                      'on-brand illustrations rather than one-off pictures. Skip it if you only want occasional casual images (free tools '
+                      'may do) or need to use free-tier output commercially, which its terms do not allow. It generates images and vectors '
+                      'from text prompts, lets you build custom styles from your own reference images, and bundles utilities such as an '
+                      'upscaler, background remover, eraser and mockup generator. You can use it in a browser studio, mobile apps, or via '
+                      'an API.',
+          'features_detailed': [{'title': 'Vector generation and vectorizer',
+                                 'desc': 'Creates editable vector graphics from prompts, and can convert existing images to vectors.'},
+                                {'title': 'Custom styles',
+                                 'desc': 'Upload your own images to define a style, which the site says works without training a model, to '
+                                         'keep generations visually consistent.'},
+                                {'title': 'Image generation',
+                                 'desc': 'Raster images from text prompts, from photographic looks to illustration; the studio also offers '
+                                         "other frontier models alongside Recraft's own."},
+                                {'title': 'Editing utilities',
+                                 'desc': 'Photo editor, upscaler, background remover and AI eraser inside the same workspace.'},
+                                {'title': 'Mockup generator',
+                                 'desc': 'Places generated or uploaded artwork into product and marketing mockups.'},
+                                {'title': 'API',
+                                 'desc': 'Programmatic generation, editing, background removal, inpainting, outpainting and batch jobs, '
+                                         'billed separately in prepaid API Units.'}],
+          'pricing_plans': [{'name': 'Free',
+                             'price': '$0',
+                             'billing': 'n/a',
+                             'features': ['Limited free credits',
+                                          'Images are owned by Recraft, shown publicly in the community gallery and not licensed for '
+                                          'commercial use']},
+                            {'name': 'Basic',
+                             'price': 'Could not verify - see recraft.ai/pricing',
+                             'billing': 'Subscription; credits reset each billing cycle and do not roll over',
+                             'features': ['Full ownership and commercial rights for images made while subscribed',
+                                          'Private images',
+                                          'Top-up credits available']},
+                            {'name': 'Pro',
+                             'price': 'Could not verify - see recraft.ai/pricing',
+                             'billing': 'Subscription; credits reset each billing cycle',
+                             'features': ['Commercial rights and private images', 'Top-up credits available']},
+                            {'name': 'Teams',
+                             'price': 'Could not verify - see recraft.ai/pricing',
+                             'billing': 'Per-seat subscription',
+                             'features': ['Top-up credits shared across seats', 'Commercial rights and private images']},
+                            {'name': 'API',
+                             'price': 'Per request in API Units',
+                             'billing': 'Prepaid units; do not expire; non-refundable except as required by law',
+                             'features': ['Separate from subscription credits', 'Cost varies by operation and output type']},
+                            {'name': 'Enterprise',
+                             'price': 'Contact Recraft',
+                             'billing': 'Custom',
+                             'features': ['Details on recraft.ai/enterprise']}],
+          'pros_expanded': ['Editable vector output suits logos, icons and UI assets that must scale',
+                            'Custom styles from your own images give more control over consistency than prompt-only tools',
+                            'Paid plans keep commercial rights even after you cancel',
+                            'Editing utilities in the same workspace reduce tool-switching',
+                            'API covers generation and editing for developers'],
+          'cons_expanded': ['Free-plan images are public and not for commercial use, so Free is effectively a trial',
+                            'Credits cost different amounts per action and model, and unused credits do not roll over',
+                            'We could not read the plan prices from the official pricing page today, so budget before subscribing',
+                            'API Units are separate from subscription credits and non-refundable',
+                            'AI vectors may still need cleanup before production use'],
+          'who_for': 'Who it is for: designers, brand and marketing teams, and sellers who need vector assets, icon sets or illustrations '
+                     'in a consistent style, and developers who want an image API. Who it is not for: people who only need an occasional '
+                     'free image for commercial use (the Free plan forbids that), or anyone who needs hand-drawn precision without editing '
+                     'afterwards.',
+          'faq': [{'q': 'Can I use Recraft images commercially?',
+                   'a': 'Only on paid plans, which grant full ownership and commercial rights for images made while subscribed. Free-plan '
+                        'images are public and not licensed for commercial use.'},
+                  {'q': 'How much does Recraft cost?',
+                   'a': 'There is a Free plan and paid Basic, Pro and Teams plans. We could not verify the current prices from the '
+                        'official page today, so check recraft.ai/pricing.'},
+                  {'q': 'Do unused credits carry over?',
+                   'a': 'Subscription credits reset each billing cycle and do not roll over. Separately bought top-up credits do not '
+                        'expire.'},
+                  {'q': 'Does it make real vector files?',
+                   'a': 'Yes, it has vector generation and an image vectorizer that output editable vector graphics.'},
+                  {'q': 'Is there an API?', 'a': 'Yes. It is billed in prepaid API Units, separate from subscription credits.'}]},
+ 'last_checked': '2026-10-22',
+ 'alternatives': [{'slug': 'looka',
+                   'why': 'Pick it if you mainly want a logo and ready-made brand kit rather than a general vector/image generator.'},
+                  {'slug': 'designs-ai', 'why': 'Pick it if you want one suite that also covers logos, banners and video.'}]},
             {"name": "Reimagine Home AI", "tagline": "Upload a photo of any room and get AI-generated redesigns in seconds", "desc": "Reimagine Home AI is an interior design tool that lets homeowners, renters, and real estate professionals upload a photo of a room and instantly generate multiple redesigned versions in different styles. It uses generative AI to reimagine furniture, decor, wall colors, and layouts while roughly preserving the room's structure, making it popular for renovation planning and virtual staging.", "pricing": "Free trial with limited credits, then paid credit packs and monthly subscription plans (roughly $9.99 to $39.99/month depending on volume of renders).", "url": "https://reimaginehome.ai",
  "tags": ["Design", "Interior Design", "Image Generation"],
  "features": ["Photo-to-redesign generation from a single room photo", "Multiple interior style presets (modern, minimalist, farmhouse, industrial, etc.)", "Exterior and landscaping redesign mode", "AI virtual staging for empty rooms and real estate listings", "Sketch-to-reality rendering from rough floor plans", "Item removal and redecorating tools for existing photos"],
@@ -11780,53 +12451,91 @@ CATEGORIES = [
       {"q": "Can I remove existing furniture from a photo before redesigning it?", "a": "Yes, there is an item removal feature to declutter a room prior to generating a new design."}
     ]
  }},
-            {"name": "Remove.bg", "tagline": "Industry-standard AI tool that removes image backgrounds automatically in seconds", "desc": "Remove.bg uses AI-powered image segmentation to automatically detect the subject in a photo and strip out the background in seconds, without any manual masking or selection. It offers a web app, downloadable desktop and mobile apps, browser extensions, and a developer API, making it one of the most widely integrated background-removal tools available.", "pricing": "Free tier for low-res previews and limited credits; paid credit packs and subscriptions for HD/full-res downloads and API access", "url": "https://www.remove.bg",
- "tags": ["Design", "Image Editing", "Productivity"],
- "features": ["One-click automatic background removal", "AI subject detection tuned for people, products, cars, and animals", "Bulk background removal for multiple images", "Background replacement with solid colors or custom images", "Developer API and integrations (Photoshop, Figma, Zapier, etc.)", "Desktop and mobile apps plus browser extension"],
- "pros": ["Extremely fast and accurate for most common subject types", "No manual selection or masking skills required", "Deep ecosystem of integrations and an API for developers"],
- "cons": ["Full-resolution downloads require paid credits", "Accuracy can drop on complex edges like hair, fur, or transparent objects", "Credit-based pricing can get expensive at high volume"],
- "best_for": "E-commerce sellers, photographers, marketers, and developers who need fast, reliable background removal at scale without manual editing.",
- "deep": {
-    "overview": "Remove.bg, developed by Kaleido AI (now part of Canva), pioneered accessible AI background removal for the mainstream market. Users simply upload a photo, and the underlying deep learning model automatically segments the foreground subject from the background in a matter of seconds, delivering a transparent PNG cutout with no manual tracing required.\n\nThe tool has grown well beyond a simple web uploader: it now includes desktop apps for Windows and Mac, mobile apps for iOS and Android, plugins for Adobe Photoshop and other design tools, a Chrome extension, and a robust REST API that lets developers embed background removal directly into their own products and workflows. Bulk processing lets e-commerce teams clean up entire product catalogs at once.\n\nBecause of its accuracy and ease of integration, Remove.bg has become something of an industry default for background removal, widely used across e-commerce, photography, marketing, and design use cases, and frequently referenced as the benchmark competitors are measured against.",
-    "features_detailed": [
-      {"title": "Automatic AI Segmentation", "desc": "Deep learning models detect the primary subject and separate it from the background without manual input."},
-      {"title": "Background Replacement", "desc": "Swap the removed background for a solid color, blur, or custom uploaded image."},
-      {"title": "Bulk Processing", "desc": "Process multiple images at once for catalog or batch photo workflows."},
-      {"title": "Developer API", "desc": "A REST API for integrating background removal directly into apps, websites, and automated pipelines."},
-      {"title": "App & Plugin Ecosystem", "desc": "Native desktop and mobile apps plus plugins for Photoshop, Figma, and automation tools like Zapier."},
-      {"title": "Fine-Tuned Detection Modes", "desc": "Optimized detection for specific subject categories such as people, products, cars, and animals."}
-    ],
-    "pricing_plans": [
-      {"name": "Free", "price": "$0", "billing": "Ongoing", "features": ["Low-resolution preview downloads", "A limited number of free monthly credits", "Access to core web tool"]},
-      {"name": "Subscription Plans", "price": "From approx. $9-$99/month", "billing": "Monthly, tiered by number of images/credits", "features": ["HD or full-resolution downloads", "Higher monthly image allowances", "Priority processing"]},
-      {"name": "Pay-as-you-go Credits", "price": "Credit packs, priced per image", "billing": "One-time purchase, no expiry", "features": ["Full-resolution downloads", "Flexible usage without a subscription"]},
-      {"name": "API / Enterprise", "price": "Custom, usage-based", "billing": "Per API call, volume discounts", "features": ["Programmatic access via REST API", "Bulk and automated processing", "Enterprise support options"]}
-    ],
-    "pros_expanded": [
-      "Delivers highly accurate cutouts for common subjects like people and products with essentially no manual effort",
-      "Massive integration footprint, including a public API, makes it easy to embed into existing tools and pipelines",
-      "Bulk upload support saves significant time for e-commerce teams processing large product catalogs",
-      "Cross-platform availability (web, desktop, mobile, browser extension) fits into almost any workflow",
-      "Backed by Canva, giving it continued investment and reliability as a long-term tool"
-    ],
-    "cons_expanded": [
-      "Free tier only outputs low-resolution images, pushing most serious users toward paid credits",
-      "Complex subjects with fine detail such as hair strands, fur, or glass/transparency can produce imperfect edges",
-      "Cost can scale quickly for high-volume users compared to a flat-fee alternative",
-      "Occasional misdetections on unusual or cluttered scenes still require manual touch-up",
-      "API and bulk features add complexity that casual users may not need"
-    ],
-    "who_for": "Remove.bg is ideal for e-commerce businesses needing clean, consistent product photos at scale, as well as photographers and marketers who need quick cutouts without opening a full photo editor. Developers benefit from its API to automate background removal inside their own apps and platforms. Casual users needing an occasional free background removal can also use the tool, though they'll hit resolution limits quickly. It suits anyone who values speed and accuracy over granular manual control.",
-    "faq": [
-      {"q": "Is Remove.bg free to use?", "a": "There is a free tier with limited credits and low-resolution downloads; full-resolution results require a paid plan or credits."},
-      {"q": "How accurate is the background removal?", "a": "It performs very well on common subjects like people, products, and animals, though fine details like hair or transparent objects can sometimes need manual correction."},
-      {"q": "Does Remove.bg have an API?", "a": "Yes, it offers a REST API for developers to integrate automatic background removal into their own applications."},
-      {"q": "Can I remove backgrounds from multiple images at once?", "a": "Yes, bulk processing is supported for handling batches of images, such as product catalogs."},
-      {"q": "Who owns Remove.bg?", "a": "Remove.bg was built by Kaleido AI and is now part of Canva."},
-      {"q": "Are there desktop or mobile apps?", "a": "Yes, Remove.bg offers desktop apps, mobile apps, and a browser extension in addition to the web tool."}
-    ],
-    "reviews": {"g2_rating": "4.6/5", "g2_count": "20+ reviews", "summary": "Users on review platforms consistently praise Remove.bg for its speed and accuracy, with most complaints centered on pricing for high-volume use and occasional edge-detection errors on complex images.", "praise": ["Extremely fast, near-instant background removal", "Impressively accurate on people and product photos", "Easy API integration for developers"], "complaints": ["Credit costs add up for high-volume users", "Struggles with fine details like hair or fur", "Free tier resolution is too limited for professional use"]}
- }},
+            {'name': 'Remove.bg',
+ 'tagline': 'Background remover that is closing as a standalone site on 1 December 2026 and moving to Canva',
+ 'desc': 'Remove.bg removes image backgrounds automatically in about five seconds, with web, desktop, Photoshop and Android options plus '
+         'an API. Its owner has announced that the standalone website ends on 1 December 2026 at 9:00am CET and that background removal is '
+         'moving to Canva.',
+ 'pricing': 'Pricing page plan details could not be verified today. The site says unused pay-as-you-go credits expire 1 December 2026 (per '
+            'a third-party report quoting remove.bg). API page says the first 50 calls each month are free.',
+ 'url': 'https://www.remove.bg',
+ 'tags': ['Design', 'Image Editing', 'Productivity'],
+ 'features': ['One-click automatic background removal',
+              'Uploads up to 22 MB, output up to 50 megapixels',
+              'Android app, Windows/Mac/Linux software and Photoshop extension',
+              'Developer API (first 50 calls per month free)',
+              'Moving into Canva after the standalone site closes'],
+ 'pros': ['Fast, simple cutouts with no manual masking',
+          'Large file support: 22 MB uploads, up to 50 MP output',
+          'Mature API and app ecosystem while it lasts'],
+ 'cons': ['Standalone website closes 1 December 2026, so it is a poor long-term choice',
+          'Unused pay-as-you-go credits reportedly expire on that date',
+          'Could not verify current plan prices from the pricing page'],
+ 'best_for': "People who need background removal right now and will move to Canva's version afterwards.",
+ 'deep': {'overview': 'Remove.bg still works today but is a poor choice to adopt: the owner, Canva, says the standalone website will no '
+                      'longer be available from 1 December 2026 at 9:00am CET, with background removal moving to Canva. It is fine for a '
+                      'quick cutout before then, but skip it if you want a tool you can build a workflow, API integration or credit stock '
+                      'around. It removes the background from a photo automatically in about five seconds, aimed at product shots, car '
+                      'listings, headshots and transparent PNGs.',
+          'features_detailed': [{'title': 'Automatic background removal',
+                                 'desc': 'One-click removal; the site lists uploads up to 22 MB and output up to 50 megapixels.'},
+                                {'title': 'Apps and plugins',
+                                 'desc': 'Listed options include an Android app, Windows/Mac/Linux software and a Photoshop extension. '
+                                         'What happens to them after 1 December 2026 is not stated on the pages we read.'},
+                                {'title': 'API',
+                                 'desc': 'A developer API with the first 50 calls each month free. The API page says background removal '
+                                         'moves to Leonardo.Ai, which is also part of Canva; whether endpoints keep running on the same '
+                                         'schedule was not stated.'},
+                                {'title': 'Move to Canva',
+                                 'desc': 'The site says background removal is moving to Canva, which is a full design suite, so it becomes '
+                                         'one step in a larger tool.'}],
+          'pricing_plans': [{'name': 'Free web use',
+                             'price': '$0',
+                             'billing': 'n/a',
+                             'features': ['The site promotes free background removal; the free-tier limits could not be verified today']},
+                            {'name': 'Paid plans and credits',
+                             'price': 'Could not verify - plan cards did not load; see remove.bg/pricing',
+                             'billing': 'Subscriptions and pay-as-you-go credits',
+                             'features': ['Unused pay-as-you-go credits reportedly expire 1 December 2026',
+                                          'Subscription handling after shutdown not stated']},
+                            {'name': 'API',
+                             'price': 'First 50 calls per month free; paid pricing on remove.bg/pricing',
+                             'billing': 'Credit-based; 1 credit per image at 50 MP',
+                             'features': ['Requests rejected for rate limits (HTTP 429) are not charged',
+                                          'Pricing after the move to Leonardo.Ai not stated']},
+                            {'name': 'Enterprise',
+                             'price': 'Contact remove.bg',
+                             'billing': 'Custom',
+                             'features': ['Higher rate limits for high-volume users']}],
+          'pros_expanded': ['Quick, accurate-enough cutouts for everyday product and portrait photos with no manual work',
+                            'Supports large inputs (22 MB) and high-resolution output (50 MP)',
+                            'Wide choice of surfaces: web, desktop, Android, Photoshop, API',
+                            'Free API calls each month are handy for small tests'],
+          'cons_expanded': ['The standalone service ends 1 December 2026, so anything built on it needs a replacement plan',
+                            'Reported credit expiry on that date means buying credits now is risky',
+                            'Subscription, app and API terms after the shutdown are unclear in the sources we read',
+                            'We could not read plan prices today',
+                            'Replacement is a different product (Canva or Leonardo.Ai) with its own pricing'],
+          'who_for': 'Who it is for: anyone who needs a few background removals before December 2026 and does not mind switching '
+                     'afterwards. Who it is not for: teams planning a long-term workflow, API integration or large credit purchase on '
+                     'remove.bg itself; consider Canva, Leonardo.Ai, or an alternative instead.',
+          'faq': [{'q': 'Is Remove.bg shutting down?',
+                   'a': 'The standalone website will no longer be available from 1 December 2026 at 9:00am CET, according to the site, '
+                        'which says background removal is moving to Canva.'},
+                  {'q': 'What happens to my credits?',
+                   'a': 'A third-party report quoting remove.bg says unused pay-as-you-go credits expire on 1 December 2026. Check '
+                        "remove.bg's FAQ before buying or relying on credits."},
+                  {'q': 'Will the API keep working?',
+                   'a': 'The API page says background removal moves to Leonardo.Ai, but did not clearly state whether endpoints continue '
+                        'on the same date. Enterprise contracts are reported to be unaffected.'},
+                  {'q': 'Is it free?',
+                   'a': 'The site promotes free background removal, and the API has 50 free calls per month. Free-tier limits and paid '
+                        'prices could not be verified today.'},
+                  {'q': 'Who owns it?', 'a': 'It is a brand of Canva Austria GmbH.'}]},
+ 'last_checked': '2026-10-22',
+ 'alternatives': [{'slug': 'slazzer', 'why': 'Pick it if you want another dedicated background remover that is not being closed down.'},
+                  {'slug': 'cleanup-pictures',
+                   'why': 'Pick it if you actually need to erase objects or people from a photo rather than cut out a subject.'}]},
             {"name": "Slazzer", "tagline": "Remove image backgrounds automatically in seconds using AI", "desc": "Slazzer is an AI-powered background removal tool that detects the subject in a photo and cuts it out from its background with a single click. It offers a web app, desktop apps, Photoshop plugin, and a developer API, making it usable both for one-off edits and for automating background removal at scale.", "pricing": "Free plan with limited resolution and monthly image credits; paid subscription and pay-as-you-go API/credit plans for higher resolution and bulk processing.", "url": "https://www.slazzer.com",
  "tags": ["Design", "Background Removal", "Photo Editing"],
  "features": ["One-click automatic background removal", "Batch processing for multiple images at once", "Developer API for integrating background removal into apps", "Desktop apps for Windows and Mac", "Photoshop plugin for in-editor background removal", "Support for hair, fur, and fine-edge detail detection"],
@@ -11872,51 +12581,111 @@ CATEGORIES = [
       {"q": "Is there a desktop app, or is it browser-only?", "a": "Slazzer offers native desktop apps for Windows and Mac in addition to its web app."}
     ]
  }},
-            {"name": "Uizard", "tagline": "AI-powered app and web design tool that turns sketches, screenshots, and text into UI mockups", "desc": "Uizard is an AI-driven UI/UX design platform that lets anyone create app and website mockups without traditional design skills. It can convert hand-drawn wireframes, screenshots of existing apps, or plain text prompts into editable, interactive prototypes in minutes.", "pricing": "Free plan for a single project; paid Pro and Business plans starting around $19/month (billed monthly, cheaper annually), plus custom Enterprise pricing", "url": "https://uizard.io/",
- "tags": ["Design", "UI/UX", "Prototyping"],
- "features": ["Text-to-design (Autodesigner) generates full UI mockups from a written prompt", "Screenshot scanning turns photos of hand-drawn wireframes into digital designs", "Design scanning converts screenshots of existing apps/websites into editable mockups", "Drag-and-drop editor with pre-built UI component and theme libraries", "Real-time collaboration for teams working on the same project", "Clickable prototypes for stakeholder walkthroughs and user testing"],
- "pros": ["Extremely fast way to get from idea to a visual mockup, even for non-designers", "Multiple AI entry points (text, sketch, screenshot) fit different workflows", "Approachable interface with a shallow learning curve compared to full design tools"],
- "cons": ["AI-generated designs often need manual cleanup to reach production quality", "Less powerful and flexible than dedicated professional tools like Figma for complex design systems", "Free plan is quite limited, pushing serious users toward paid tiers"],
- "best_for": "Founders, product managers, and early-stage teams who need to quickly visualize an app or website idea without hiring a dedicated designer.",
- "deep": {
-    "overview": "Uizard is a design tool built around the premise that turning an idea into a visual UI mockup should not require deep design expertise. It combines several AI-powered entry points, including generating a design from a text description, scanning a hand-drawn sketch, or importing a screenshot of an existing app, and converts any of these into an editable digital mockup within its drag-and-drop editor.\n\nOnce a design exists, Uizard provides a simplified design environment with prebuilt UI component libraries, themes, and templates, letting users refine layouts, swap in real content, and link screens together into clickable prototypes. This makes it useful not just for the initial concept but for producing something stakeholders or early users can click through.\n\nUizard positions itself between low-fidelity idea-sketching tools and full professional design suites like Figma, aiming primarily at founders, product managers, marketers, and small teams who need to move fast and communicate a product vision visually, rather than at professional UI designers building intricate design systems.",
-    "features_detailed": [
-      {"title": "Autodesigner (Text-to-Design)", "desc": "Generates a multi-screen UI mockup automatically from a written description of the app or product idea."},
-      {"title": "Wireframe Scanning", "desc": "Takes a photo of a hand-drawn wireframe and converts it into an editable digital design."},
-      {"title": "Screenshot-to-Design", "desc": "Imports a screenshot of an existing website or app and turns it into an editable mockup that can be customized."},
-      {"title": "Component and Theme Library", "desc": "Offers ready-made UI elements, templates, and themes to speed up assembling screens."},
-      {"title": "Real-Time Collaboration", "desc": "Multiple team members can edit and comment on the same project simultaneously."},
-      {"title": "Interactive Prototyping", "desc": "Links screens together into a clickable prototype suitable for stakeholder demos or basic usability testing."}
-    ],
-    "pricing_plans": [
-      {"name": "Free", "price": "$0", "billing": "Free forever", "features": ["1 active project", "Access to core editor", "Limited templates and AI generations"]},
-      {"name": "Pro", "price": "From ~$19/month", "billing": "Billed monthly, discounted annually", "features": ["Unlimited projects", "Full AI design generation features", "Expanded template and component library"]},
-      {"name": "Business", "price": "Custom/higher tier", "billing": "Per-seat monthly or annual billing", "features": ["Team collaboration features", "Advanced permissions", "Priority support"]},
-      {"name": "Enterprise", "price": "Custom pricing", "billing": "Contact sales", "features": ["Custom onboarding", "Advanced security and admin controls", "Dedicated account support"]}
-    ],
-    "pros_expanded": [
-      "Dramatically lowers the time and skill barrier to producing a presentable UI mockup from scratch",
-      "Multiple input methods (text prompt, sketch scan, screenshot scan) accommodate different starting points and working styles",
-      "Useful for rapid concept validation with stakeholders or investors before committing design/dev resources",
-      "Template and theme libraries help non-designers avoid starting with a blank canvas"
-    ],
-    "cons_expanded": [
-      "AI-generated layouts frequently require manual polishing to look production-ready or fully on-brand",
-      "Lacks the depth of design-system tooling, plugins, and developer handoff features found in Figma",
-      "Free tier's single-project limit makes it hard to evaluate the tool fully before paying",
-      "Best suited for early concepting rather than pixel-perfect, final UI design work"
-    ],
-    "who_for": "Uizard is best suited for founders, product managers, marketers, and small startup teams who need to quickly turn an idea into a visual, clickable mockup without hiring a designer or learning a complex tool. It is also handy for designers who want a fast first draft to iterate on rather than starting from a blank canvas. Professional UI/UX teams building complex, scalable design systems will likely still prefer a dedicated tool like Figma for final production work.",
-    "faq": [
-      {"q": "Can Uizard generate a design from just a text description?", "a": "Yes, its Autodesigner feature can generate a multi-screen UI mockup from a written prompt describing the app or product."},
-      {"q": "Does Uizard support turning hand-drawn sketches into digital designs?", "a": "Yes, you can photograph a hand-drawn wireframe and Uizard will convert it into an editable digital mockup."},
-      {"q": "Is Uizard a replacement for Figma?", "a": "Not fully; Uizard is better suited for fast concepting and early mockups, while Figma remains stronger for detailed, production-grade design systems."},
-      {"q": "Is there a free plan?", "a": "Yes, Uizard offers a free plan limited to one active project."},
-      {"q": "Can teams collaborate in Uizard?", "a": "Yes, real-time collaboration is supported so multiple people can work on the same project."},
-      {"q": "Can I turn an existing website into an editable design?", "a": "Yes, Uizard's screenshot scanning feature can import and convert existing web or app screens into editable mockups."}
-    ],
-    "reviews": {"g2_rating": "4.3/5", "g2_count": "About 100 reviews", "summary": "Reviewers on G2 generally praise Uizard for how quickly it lets non-designers produce mockups, while noting that output often needs manual refinement and that it isn't a full substitute for professional design tools.", "praise": ["Very fast to go from idea to a visual mockup", "Easy for non-designers to pick up quickly", "Helpful text-to-design and sketch-scanning features for early concepting"], "complaints": ["Generated designs sometimes need significant manual cleanup", "Less flexible than Figma for detailed, complex design work", "Occasional bugs or rough edges in the editor"]}
- }},
+            {'name': 'Uizard',
+ 'tagline': 'AI UI design tool that turns text prompts, screenshots and sketches into editable app and web mockups',
+ 'desc': 'Uizard generates multi-screen, editable prototypes for apps, websites and desktop software from text prompts, and can also '
+         'convert screenshots and hand-drawn wireframes into mockups. It includes templates, theme generation and developer handoff in '
+         'React and CSS on paid plans.',
+ 'pricing': 'Free ($0, 3 AI generations/month, 2 projects); Pro $12/mo billed annually; Business $39/mo billed annually; Enterprise '
+            'custom. Monthly-billing prices are not shown on the pricing page.',
+ 'url': 'https://uizard.io/',
+ 'tags': ['Design', 'UI/UX', 'Prototyping'],
+ 'features': ['Text-to-prototype generation of multi-screen designs',
+              'Autodesigner 2.0 edits selected components from a written description',
+              'Screenshot Scanner and Wireframe Scanner turn images and sketches into editable mockups',
+              'Theme generation and a template library',
+              'Developer handoff in React and CSS on paid plans',
+              'Unlimited free viewers and commenters on every plan'],
+ 'pros': ['Fast route from an idea to a clickable mockup for non-designers',
+          'Several AI entry points: text, screenshot and hand-drawn sketch',
+          'Pro is relatively cheap at $12/mo billed annually'],
+ 'cons': ['Free plan is very small: 3 AI generations a month and 5 screens per project',
+          'Monthly-billing prices are not published, so the $12 and $39 figures assume annual commitment',
+          'Less suited to detailed design systems than a full design tool'],
+ 'best_for': 'Founders, product managers and marketers who need a quick, presentable app or website mockup and have no designer.',
+ 'deep': {'overview': 'Uizard is a good pick for non-designers such as founders, product managers and marketers who want a clickable '
+                      'mockup quickly, and a poor pick for professional UI designers who need fine control or a full design-system '
+                      'workflow. It generates editable multi-screen prototypes from text prompts, and converts screenshots or hand-drawn '
+                      'wireframes into digital designs you can then adjust in its editor. Its website still shows no shutdown notice and '
+                      'sells current plans, but its homepage footer shows a 2024 copyright and third-party sources report that Miro '
+                      'acquired the company, so check roadmap and support expectations before committing a team to it.',
+          'features_detailed': [{'title': 'Prototype generation',
+                                 'desc': 'Creates multi-screen, editable prototypes from a text prompt describing the app, site or desktop '
+                                         'product.'},
+                                {'title': 'Autodesigner 2.0',
+                                 'desc': 'Changes selected components based on a written description of the edit you want. Free accounts '
+                                         'use Autodesigner 1.5; Pro and above use 2.0.'},
+                                {'title': 'Screenshot and Wireframe Scanners',
+                                 'desc': 'Turn a screenshot of an existing interface, or a photo of a hand-drawn wireframe, into an '
+                                         'editable mockup.'},
+                                {'title': 'Themes and templates',
+                                 'desc': 'Generates visual themes for a project and offers a template library (10 templates on Free, the '
+                                         'full library on Pro).'},
+                                {'title': 'Developer handoff', 'desc': 'Pro and above can hand off designs in React and CSS.'},
+                                {'title': 'Collaboration',
+                                 'desc': 'Unlimited creators per organization and unlimited free viewers and commenters on all plans, per '
+                                         'the pricing page.'}],
+          'pricing_plans': [{'name': 'Free',
+                             'price': '$0',
+                             'billing': 'Not stated',
+                             'features': ['3 AI generations per month',
+                                          'Autodesigner 1.5',
+                                          '2 projects, up to 5 screens each',
+                                          '10 templates',
+                                          'Exports at 1x resolution only']},
+                            {'name': 'Pro',
+                             'price': '$12/mo',
+                             'billing': 'Billed annually (monthly-billing price not shown)',
+                             'features': ['500 AI generations per month',
+                                          'Autodesigner 2.0',
+                                          'Up to 100 projects, private projects',
+                                          'Unlimited screens and components',
+                                          'React and CSS developer handoff',
+                                          'Email and live chat support']},
+                            {'name': 'Business',
+                             'price': '$39/mo',
+                             'billing': 'Billed annually (monthly-billing price not shown)',
+                             'features': ['Everything in Pro',
+                                          '5,000 AI generations per month, faster generation',
+                                          'Custom brand kit',
+                                          'Unlimited projects and custom templates',
+                                          'Priority support']},
+                            {'name': 'Enterprise',
+                             'price': 'Custom',
+                             'billing': 'Billed annually; contact sales',
+                             'features': ['Everything in Business',
+                                          'Unlimited AI generations',
+                                          'Design system setup and AI data SLA',
+                                          'SSO and two-factor authentication via sales',
+                                          'Onboarding']}],
+          'pros_expanded': ['Gets a non-designer from a blank page to a presentable, clickable prototype in minutes',
+                            'Text, screenshot and sketch inputs suit different starting points',
+                            'Pro at $12/mo (annual) is inexpensive for 500 AI generations a month',
+                            'Viewers and commenters are free, so stakeholder review costs nothing extra'],
+          'cons_expanded': ['Free tier allows only 3 AI generations a month and 2 projects, which is barely enough to judge the tool',
+                            'Only annual-billing prices are published; the monthly rate, if any, could not be verified',
+                            'AI output generally needs hand editing before it looks finished or on-brand',
+                            'The site carries a 2024 copyright and reported Miro ownership; I could not verify its current roadmap',
+                            'Not built for large design systems or complex handoff workflows'],
+          'who_for': 'Who it is for: founders, product managers, marketers and small teams who need a quick visual prototype to show '
+                     'investors, customers or developers. Who it is not for: professional UI designers who need pixel-level control and '
+                     'design-system tooling, and anyone who wants monthly-only billing without checking the price first.',
+          'faq': [{'q': 'Is Uizard free?',
+                   'a': 'There is a free plan with 3 AI generations a month, 2 projects, up to 5 screens per project and 1x exports. '
+                        'Anything heavier needs Pro or Business.'},
+                  {'q': 'How much does Uizard cost?',
+                   'a': 'Pro is listed at $12 per month and Business at $39 per month, both billed annually. The page does not show '
+                        'monthly-billing prices, and Enterprise is custom.'},
+                  {'q': 'Can it turn a screenshot or sketch into a design?',
+                   'a': 'Yes. The Screenshot Scanner converts screenshots into editable mockups and the Wireframe Scanner converts '
+                        'hand-drawn sketches.'},
+                  {'q': 'Can developers get code from it?',
+                   'a': 'Pro and above list developer handoff in React and CSS. Expect starting-point output, not production code.'},
+                  {'q': 'Is Uizard still actively maintained?',
+                   'a': 'Its site sells plans and promotes Autodesigner 2.0, with no shutdown notice. Third-party sources report Miro '
+                        'acquired it; I could not verify its future plans.'}]},
+ 'last_checked': '2026-10-22',
+ 'alternatives': [{'slug': 'framer-ai', 'why': 'Pick it if your goal is a live, published website rather than an app or UI mockup.'}]},
             {"name": "Vizcom", "tagline": "Turn rough product sketches into photorealistic AI renders in seconds", "desc": "Vizcom is an AI-powered sketch-to-render tool built specifically for industrial and product designers, letting them draw a rough concept sketch and instantly generate photorealistic or stylized renders while keeping the underlying form. It supports iterating on materials, lighting, and style directly from hand sketches, speeding up early-stage concept visualization dramatically.", "pricing": "Free tier with limited monthly renders; paid Pro and Team plans billed monthly or annually with higher render limits and additional features.", "url": "https://www.vizcom.ai",
  "tags": ["Design", "Product Design", "Sketch-to-Render"],
  "features": ["Sketch-to-render AI generation from hand or digital sketches", "Style and material presets for different product categories", "Real-time iteration on lighting, color, and finish", "Layer-based workflow that preserves original sketch geometry", "Team collaboration and shared project libraries", "Import/export support for common design file formats"],
@@ -12063,52 +12832,120 @@ CATEGORIES = [
     ]
  }},
             
-            {"name": "Dify", "tagline": "Open-source platform for visually building, deploying, and operating LLM apps and AI agents.", "desc": "Dify is an open-source LLM application development platform that combines a visual workflow builder, retrieval-augmented generation (RAG) pipelines, agent orchestration, and model management in one interface. Teams can prototype and ship production AI apps with drag-and-drop workflows while still dropping into code where needed, and can self-host or use Dify's managed cloud.", "pricing": "Open-source and free to self-host. Dify Cloud adds a free Sandbox tier plus paid Professional and Team plans billed monthly, with custom Enterprise pricing for larger organizations (see dify.ai/pricing for current tiers).", "url": "https://dify.ai/",
- "tags": ["No-code/Low-code", "AI Agent Builder", "Open Source"],
- "features": ["Visual drag-and-drop workflow/orchestration studio for multi-step AI apps and agents", "Built-in RAG pipeline for indexing and querying private knowledge bases", "Support for 100+ LLM providers and models, including OpenAI, Anthropic, and self-hosted open-source models", "Prompt IDE for iterating on and comparing prompts across models", "Agent framework with tool-calling and function-execution support", "Observability dashboard for logs, usage analytics, and app performance monitoring"],
- "pros": ["Open source and self-hostable, giving teams full control over data and infrastructure", "Broad model support avoids vendor lock-in to a single LLM provider", "Bridges no-code visual building with the option to extend via custom code", "Large, active community and fast-moving open-source project"],
- "cons": ["Advanced workflow and agent features have a real learning curve for non-technical users", "Self-hosting requires DevOps effort (Docker, scaling, upgrades)", "Cloud pricing can add up at higher usage volumes", "Some enterprise-grade features are gated behind higher-priced tiers"],
- "best_for": "Technical teams and developers who want a flexible, self-hostable platform to rapidly prototype and ship LLM-powered apps and agents without building orchestration and RAG infrastructure from scratch, while retaining the option to customize with code.",
- "deep": {
-    "overview": "Dify has become one of the most widely adopted open-source platforms for building LLM applications, positioning itself between fully no-code chatbot builders and raw framework code like LangChain. Its core is a visual canvas where users chain together prompts, knowledge retrieval steps, tool calls, and conditional logic to construct anything from a simple chatbot to a multi-step autonomous agent, without needing to write orchestration code by hand.\n\nWhat sets Dify apart from many no-code AI tools is that it is genuinely open source, meaning teams can self-host the entire stack on their own infrastructure for full data control, or use Dify's managed cloud service for convenience. It also supports a very wide range of model providers — commercial APIs like OpenAI and Anthropic as well as locally-hosted open-source models — so teams aren't locked into a single vendor's ecosystem as their needs evolve.\n\nBeyond the visual builder, Dify ships with a built-in RAG pipeline for connecting proprietary documents and data sources, a prompt IDE for testing and refining prompts, and observability tooling to monitor how deployed apps are performing in production. This combination makes it popular with startups and engineering teams that want the speed of a low-code builder without giving up the flexibility to extend functionality with custom code when the visual tools reach their limits.",
-    "features_detailed": [
-      {"title": "Visual workflow builder", "desc": "A drag-and-drop canvas for chaining prompts, retrieval steps, conditionals, and tool calls into complete AI application workflows."},
-      {"title": "RAG pipeline", "desc": "Upload documents or connect data sources to give apps grounded, up-to-date knowledge via built-in retrieval-augmented generation."},
-      {"title": "Multi-model support", "desc": "Swap between OpenAI, Anthropic, Google, and self-hosted open-source models without rebuilding the app logic."},
-      {"title": "Prompt IDE", "desc": "A dedicated environment for iterating on prompts, comparing outputs across models, and versioning prompt templates."},
-      {"title": "Agent and tool-calling framework", "desc": "Build agents that can call external tools and APIs autonomously as part of a workflow."},
-      {"title": "Observability and analytics", "desc": "Built-in logging, usage dashboards, and performance monitoring for apps once they're deployed."}
-    ],
-    "pricing_plans": [
-      {"name": "Community (self-hosted)", "price": "Free", "billing": "Open source, self-hosted", "features": ["Full core feature set", "Self-managed infrastructure", "Community support"]},
-      {"name": "Sandbox (Cloud)", "price": "Free", "billing": "Dify Cloud free tier", "features": ["Limited usage quota", "Managed hosting", "Good for evaluation/prototyping"]},
-      {"name": "Professional / Team (Cloud)", "price": "Paid", "billing": "Monthly subscription", "features": ["Higher usage limits", "Team collaboration features", "Priority support"]},
-      {"name": "Enterprise", "price": "Custom", "billing": "Contact sales", "features": ["SSO and advanced security", "Dedicated support and SLAs", "Custom deployment options"]}
-    ],
-    "pros_expanded": [
-      "Being open source means no vendor lock-in for the platform itself — organizations can inspect, modify, and self-host the code for compliance or cost reasons.",
-      "Wide multi-model support lets teams switch LLM providers as pricing or capability landscapes change, without re-architecting the app.",
-      "The combination of visual workflows plus code-level extensibility appeals to teams that outgrow purely no-code tools but don't want to build orchestration from scratch.",
-      "Active GitHub community means frequent updates, third-party integrations, and a large base of shared workflow templates.",
-      "Built-in RAG and observability reduce the amount of custom infrastructure teams need to stitch together themselves."
-    ],
-    "cons_expanded": [
-      "Non-technical users may find the workflow builder more complex than simpler consumer-facing no-code chatbot tools.",
-      "Self-hosting a production-grade instance requires real DevOps investment for scaling, monitoring, and upgrades over time.",
-      "Cloud plan costs can scale quickly for high-traffic applications compared to a well-optimized self-hosted deployment.",
-      "Some advanced governance and enterprise security features are reserved for higher-cost tiers, which can be a barrier for smaller teams needing them.",
-      "Rapid open-source development pace means occasional breaking changes between versions that self-hosters need to track."
-    ],
-    "who_for": "Dify is best suited for engineering and product teams building internal or customer-facing AI applications who want more control and flexibility than a purely no-code SaaS builder offers. It fits organizations with data-residency or self-hosting requirements, as well as startups that want to move fast with a visual builder but keep the option to extend with custom code. It's less ideal for a completely non-technical solo user who just wants the simplest possible drag-and-drop chatbot with zero setup.",
-    "faq": [
-      {"q": "Is Dify really free to use?", "a": "The core platform is open source and free to self-host; Dify also offers a managed cloud service with a free Sandbox tier and paid plans for higher usage."},
-      {"q": "Do I need to know how to code to use Dify?", "a": "No coding is required to build basic workflows and chatbots via the visual builder, but coding knowledge helps for advanced customization and self-hosting."},
-      {"q": "Which LLMs does Dify support?", "a": "Dify supports over 100 model providers, including OpenAI, Anthropic, Google, and self-hosted open-source models."},
-      {"q": "Can I connect my own data to a Dify app?", "a": "Yes, Dify includes a built-in RAG pipeline for indexing documents and other data sources so apps can answer using your own knowledge base."},
-      {"q": "Can I self-host Dify instead of using the cloud service?", "a": "Yes, Dify is open source and can be self-hosted via Docker on your own infrastructure."},
-      {"q": "Does Dify support building autonomous agents, not just chatbots?", "a": "Yes, Dify includes an agent framework with tool-calling support for building agents that can take actions, not just respond in chat."}
-    ]
- }},
+            {'name': 'Dify',
+ 'tagline': 'Source-available platform for building, deploying and monitoring LLM apps and agents on a visual canvas.',
+ 'desc': 'Dify lets teams build AI agents and workflows on a visual canvas, ingest documents into a retrieval pipeline, plug in models and '
+         'tools through a plugin marketplace, and publish apps as hosted pages, APIs, embeds or MCP-compatible tools. You can use Dify '
+         'Cloud, self-host the Community Edition with Docker, or run Dify Enterprise in your own cloud.',
+ 'pricing': 'Community Edition is free to self-host. Dify Cloud: Sandbox free (200 message credits), Professional $590 per workspace per '
+            'year, Team $1,590 per workspace per year (annual billing only listed). Enterprise is custom-priced.',
+ 'url': 'https://dify.ai/',
+ 'tags': ['No-code/Low-code', 'AI Agent Builder', 'Open Source'],
+ 'features': ['Visual workflow studio for retrieval, decisions, tool use and human input steps',
+              'Agents built by chat or manual configuration, usable as apps or workflow nodes',
+              'Knowledge pipeline that ingests, chunks, indexes and lets you test retrieval',
+              'Marketplace of model providers, tools, data sources and MCP integrations',
+              'Publish as hosted app, API, embed or MCP tool, with logs, feedback and usage data'],
+ 'pros': ['Self-hostable, so data and infrastructure can stay under your control',
+          'Visual canvas covers agents, RAG and workflows in one product',
+          'Free Community Edition and a free cloud Sandbox for evaluation'],
+ 'cons': ['Cloud pricing is per workspace and annual only on the public page; Team is $1,590 a year',
+          'Community Edition is described as source-available under an Apache-2.0-derivative license, not plain Apache',
+          'Self-hosting and multi-workspace or SSO needs fall to you or to the Enterprise tier'],
+ 'best_for': 'Developers and technical teams who want a visual builder for production RAG apps and agents, with the option to self-host.',
+ 'deep': {'overview': 'Dify is a good fit for technical teams that want to build RAG apps, agents and multi-step LLM workflows visually, '
+                      'and want the choice of self-hosting. It is a weaker fit for non-technical people who want a one-click chatbot, or '
+                      'for teams that need a monthly-billed, per-seat plan. Dify provides a workflow canvas, a knowledge pipeline for '
+                      'ingesting and indexing documents, agents, and a plugin marketplace for models and tools. Finished apps can be '
+                      'published as hosted experiences, APIs, embeds or MCP-compatible tools, with logs and usage data. It is offered as '
+                      'managed Dify Cloud, a self-hosted Community Edition, and an Enterprise edition for your own cloud.',
+          'features_detailed': [{'title': 'Workflow Studio',
+                                 'desc': 'A visual builder showing retrieval, decision, tool-use and human-input steps, which you can test '
+                                         'and debug.'},
+                                {'title': 'Agents',
+                                 'desc': 'Create agents by chatting with the platform or configuring them manually; embed them in sites or '
+                                         'use them as nodes inside workflows.'},
+                                {'title': 'Knowledge Pipeline',
+                                 'desc': 'Ingests files, websites, online documents and drives, then extracts, cleans, chunks and indexes '
+                                         'the content, with retrieval testing before you connect it to an agent.'},
+                                {'title': 'Marketplace and plugins',
+                                 'desc': 'Model providers, tools, data sources and MCP integrations that can be reused across apps.'},
+                                {'title': 'Publish and monitor',
+                                 'desc': 'Ship apps as hosted pages, APIs, embeds or MCP tools and watch logs, feedback, latency and '
+                                         'usage.'},
+                                {'title': 'Enterprise controls',
+                                 'desc': 'The Enterprise edition lists SSO/SAML, role-based access, audit logs, a Kubernetes Helm chart, '
+                                         "and SOC 2 Type II and ISO 27001 compliance (per Dify's site)."}],
+          'pricing_plans': [{'name': 'Community (self-hosted)',
+                             'price': 'Free',
+                             'billing': 'None',
+                             'features': ['All core features in the public repository',
+                                          'Single workspace',
+                                          'Must comply with the Dify open-source license']},
+                            {'name': 'Sandbox (Cloud)',
+                             'price': 'Free',
+                             'billing': 'n/a',
+                             'features': ['200 message credits',
+                                          '1 member, 5 apps',
+                                          '50 knowledge documents (50MB)',
+                                          '30-day log history']},
+                            {'name': 'Professional (Cloud)',
+                             'price': '$590 per workspace per year',
+                             'billing': 'Annual (no monthly price listed)',
+                             'features': ['5,000 message credits/month',
+                                          '3 team members, 50 apps',
+                                          '500 knowledge documents (5GB)',
+                                          'Unlimited log history']},
+                            {'name': 'Team (Cloud)',
+                             'price': '$1,590 per workspace per year',
+                             'billing': 'Annual (no monthly price listed)',
+                             'features': ['10,000 message credits/month',
+                                          '50 team members, 200 apps',
+                                          '1,000 knowledge documents (20GB)',
+                                          'Unlimited triggers, priority workflow execution']},
+                            {'name': 'Enterprise',
+                             'price': 'Custom - contact sales',
+                             'billing': 'Set through sales',
+                             'features': ['Commercial license',
+                                          'Multiple workspaces and enterprise management',
+                                          'SSO, advanced security, official support']}],
+          'pros_expanded': ['You can run it yourself with the free Community Edition and keep data on your own infrastructure.',
+                            'One product covers workflows, agents, knowledge ingestion and publishing, so you stitch together fewer parts.',
+                            'Message credits let you trial hosted models, and you can switch to your own API key once they run out.',
+                            'Apps can be exposed as APIs, embeds or MCP tools, which helps when wiring into existing systems.',
+                            'The free Sandbox and Community Edition allow a real evaluation before paying.'],
+          'cons_expanded': ['The Cloud Professional plan allows only 3 team members; collaboration at scale means the $1,590/year Team '
+                            'plan.',
+                            'The public pricing page shows annual rates only; we could not verify a monthly option.',
+                            'Sandbox is small: 200 message credits, 5 apps and 50 documents.',
+                            'The Community Edition is labeled source-available with a derivative license, so check its terms before '
+                            'commercial or multi-tenant use.',
+                            'Self-hosting means you handle upgrades, scaling and monitoring; multiple workspaces and SSO need Enterprise.'],
+          'who_for': 'Who it is for: developers and technical product teams building RAG assistants, agents or internal AI tools, '
+                     'especially those wanting to self-host. Who it is not for: non-technical users wanting the simplest possible chatbot, '
+                     'teams unwilling to manage infrastructure who also dislike annual commitments, and anyone needing a strict '
+                     'OSI-approved open-source license.',
+          'faq': [{'q': 'Is Dify free?',
+                   'a': 'The Community Edition is free to self-host, and Dify Cloud has a free Sandbox with 200 message credits. '
+                        'Professional ($590/workspace/year) and Team ($1,590/workspace/year) are paid.'},
+                  {'q': 'Is Dify truly open source?',
+                   'a': "Dify's site calls the Community Edition source-available under an Apache-2.0-derivative license. Read the license "
+                        'in the repository before commercial use.'},
+                  {'q': 'Do I need to pay for model usage separately?',
+                   'a': 'Cloud plans include message credits for trying models from providers such as OpenAI and Anthropic. After they run '
+                        'out you can use your own API key, which is billed by the provider.'},
+                  {'q': 'Can I pay monthly?',
+                   'a': 'The pricing page we checked lists only annual rates for Professional and Team. Monthly billing could not be '
+                        'verified.'},
+                  {'q': 'Can I get SSO and audit logs?',
+                   'a': 'Those are listed under Dify Enterprise, which is custom-priced through sales.'}]},
+ 'last_checked': '2026-10-22',
+ 'alternatives': [{'slug': 'stack-ai',
+                   'why': 'Pick this instead if you want a hosted no-code builder for enterprise agents and RAG without self-hosting.'},
+                  {'slug': 'pickaxe',
+                   'why': 'Pick this instead if you want a simpler tool for deploying custom AI apps and chatbots quickly.'},
+                  {'slug': 'buildship',
+                   'why': 'Pick this instead if you are building backends, APIs and automations visually, with AI as one part.'}]},
             {"name": "Draftbit", "tagline": "Build native mobile apps visually with AI coding agents", "desc": "Draftbit is a visual, AI-assisted mobile app builder that combines a drag-and-drop editor with Claude Code and OpenAI Codex agents to generate React Native apps you can publish to iOS, Android, and web.", "pricing": "Free plan (5,000 one-time credits, 1 sandbox); Standard $12/mo; Pro $24/mo (most popular); Team $120/mo (10 seats); Enterprise custom. Annual billing saves 20%; extra editor seats and one-time credit top-ups available on paid plans.", "url": "https://draftbit.com/",
  "tags": ["No-code / Low-code", "Mobile App Builder", "React Native"],
  "features": ["AI agent chat using Claude Code and OpenAI Codex", "Pixel-perfect visual editor on an infinite canvas", "Isolated cloud sandbox environments per project", "One-click publishing to iOS, Android, and web", "Built-in Supabase backend (beta)", "Full code editing, GitHub export, and custom MCP integrations"],
