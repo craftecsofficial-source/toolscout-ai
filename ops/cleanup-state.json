@@ -906,8 +906,8 @@
     "Live; verify pricing",
     "AI music video platform with Kling/Seedance/Runway/SD"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-23"
   },
   {
    "slug": "neural-love",
@@ -926,8 +926,8 @@
     "Live; dated, verify pricing",
     "Animated video apps (Studio mobile/desktop, Story); no pricing on page"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-23"
   },
   {
    "slug": "synthesys-ai-studio",
@@ -966,8 +966,8 @@
     "Live; update features",
     "AI long-to-short clipper with Autopilot, Wish, Social Hub"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-23"
   },
   {
    "slug": "hitpaw-edimakor",
@@ -986,8 +986,8 @@
     "Live; verify pricing",
     "AI video ads and auto-posting to socials"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-23"
   },
   {
    "slug": "github-copilot",
@@ -1126,8 +1126,8 @@
     "Product repositioned; listed plans unverified",
     "Now a sovereign AI lab: Lumen models, CLI, cloud; pricing not shown on homepage"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-23"
   },
   {
    "slug": "diffblue-testing-agent",
@@ -1146,8 +1146,8 @@
     "Live; verify plans, add comparison",
     "Live; Kodezi OS/CLI/Code; $0, $9.99, $59.99 plans seen; footer 2025"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-23"
   },
   {
    "slug": "llamaparse",
@@ -1326,8 +1326,8 @@
     "Listed prices unverified",
     "Live; AI sales agents, demo-only, no prices shown"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-23"
   },
   {
    "slug": "octolane",
@@ -1396,8 +1396,8 @@
     "Live and free",
     "Live; Microsoft free visual assistant for blind users"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-23"
   },
   {
    "slug": "adaptive",
@@ -1556,8 +1556,8 @@
     "AI design agent for logos, graphics, campaigns",
     "AI design agent for logos, graphics, campaigns"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-23"
   },
   {
    "slug": "smartlyq",
@@ -1586,8 +1586,8 @@
     "Repositioned as sales assistant (decks, deal rooms, ABM pages), not just web personalization; listing likely outdated",
     "Repositioned as sales assistant (decks, deal rooms, ABM pages), not just web personalization; listing likely outdated"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-23"
   },
   {
    "slug": "wordlift",
@@ -1596,8 +1596,8 @@
     "AI discovery/structured data SEO platform; pricing on separate page",
     "AI discovery/structured data SEO platform; pricing on separate page"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-23"
   },
   {
    "slug": "clearscope",
@@ -1656,8 +1656,8 @@
     "AI SEO by Single Grain; Free, Essentials $159, Done for You custom",
     "AI SEO by Single Grain; Free, Essentials $159, Done for You custom"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-23"
   },
   {
    "slug": "dashword",
@@ -1666,8 +1666,8 @@
     "Content briefs and scoring, now MCP for agents; free start; prices unverified",
     "Content briefs and scoring, now MCP for agents; free start; prices unverified"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-23"
   },
   {
    "slug": "flair-ai",
@@ -1676,8 +1676,8 @@
     "AI product photo editor for ecommerce; free to try; footer 2025",
     "AI product photo editor for ecommerce; free to try; footer 2025"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-23"
   },
   {
    "slug": "jacquard",
@@ -1696,8 +1696,8 @@
     "Enterprise AI marketing content for regulated industries; Create/Optimize/Automate",
     "Enterprise AI marketing content for regulated industries; Create/Optimize/Automate"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-23"
   },
   {
    "slug": "postnitro",
@@ -3567,6 +3567,10 @@
   {
    "date": "2026-10-22",
    "action": "Fixed 14 pages: datarobot, dify, framer-ai, instantly-ai, julius-ai, marketmuse, profound, recraft, remove-bg, salesloft, scalenut, simplified, uizard, wellsaid-labs. Hume AI proposed for REMOVE (pending approval, page left unchanged). Pricing unverified (stated on page): recraft, remove-bg (plan cards did not load), uizard (monthly), simplified, scalenut (trial), instantly-ai (page contradicts itself), salesloft/datarobot/marketmuse (not public). remove-bg standalone site closes 2026-12-01 - consider REMOVE after that date."
+  },
+  {
+   "date": "2026-10-23",
+   "action": "Fixed 15 pages: wisecut, plotagon, neural-frames, shortgenius, cosine, kodezi, 11x, lovart, mutiny, wordlift, persado, clickflow, dashword, flair-ai, seeing-ai. Pricing unverified (stated on page): 11x (not public), lovart, plotagon, wisecut (annual), neural-frames (free limits), clickflow, flair-ai (higher tiers), seeing-ai (only homepage fetched). Unverified G2/Capterra review blocks dropped. Mutiny pivoted to AI sales assistant."
   }
  ]
 }

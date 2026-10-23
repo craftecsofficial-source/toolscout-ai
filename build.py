@@ -620,91 +620,236 @@ CATEGORIES = [
     ]
  }},
             {'name': 'MiniMax Video (Hailuo AI)', 'tagline': 'AI video and image generator from MiniMax, built around the H3 model', 'desc': "Hailuo AI is MiniMax's web app for generating video and images from text prompts or photos, with templates, an agent, and the MiniMax H3 model.", 'pricing': "Pricing could not be verified: the official subscribe page shows only 'From /mo' with no amounts today. Third-party sources disagree (Standard listed at $7.99/mo in older data vs $14.99/mo on a page checked 2026-08-28). Check hailuoai.video/subscribe.", 'url': 'https://hailuoai.video/', 'tags': ['Video Generation', 'Text-to-Video', 'Image-to-Video'], 'features': ['Create Video and Create Image tools', 'MiniMax H3 model', 'Omni Reference inputs', 'Hailuo Agent', 'Template effects (dance, transformations, ads, etc.)', 'Assets library'], 'pros': ['Many ready-made templates for social-style clips', 'Combines video, image, and reference inputs in one app', 'Subscription tiers (reported by third parties) scale from casual to studio use'], 'cons': ['Official pricing not readable today', 'Third-party pricing reports conflict', 'Credit costs vary by model and mode'], 'best_for': 'Social creators who want template-driven AI video and image generation in one app.', 'deep': {'overview': "Hailuo AI is a good fit for creators making short social clips from prompts, photos, or templates, and it is a weaker choice if you need verified, predictable pricing or tightly controlled long-form output. It is MiniMax's consumer web app for generating video and images, and the homepage currently features the MiniMax H3 model alongside an agent, reference inputs, and many effect templates.", 'who_for': 'Good for social media creators, marketers making short ads, and hobbyists who like template-led generation. Not for people who need confirmed pricing before they start, teams that need long-form or fully controlled edit pipelines, or anyone averse to credit-based billing.', 'features_detailed': [{'title': 'Create Video and Create Image', 'desc': 'Main tools for generating video and images from prompts or uploaded photos.'}, {'title': 'MiniMax H3', 'desc': 'The homepage marks MiniMax H3 as live, describing native multimodal generation and precise editing.'}, {'title': 'Omni Reference', 'desc': 'A reference-input feature that lets you supply guidance material to the generator.'}, {'title': 'Hailuo Agent', 'desc': 'An assistant feature listed on the homepage; we did not test how it works.'}, {'title': 'Templates', 'desc': 'Photo-to-motion, transformation, dance, K-Pop music video, ad, pet, and cinematic style templates are shown on the homepage.'}], 'pricing_plans': [{'name': 'Web subscriptions', 'price': 'Not verified', 'billing': 'Monthly; credit based', 'features': ['Official page showed no amounts on 2026-10-21', 'Third-party pages list Standard, Pro, Master and higher tiers with 1,000, 4,500 and about 10,000 credits, but prices conflict ($7.99 vs $14.99 for Standard)', 'Membership credits reportedly expire monthly']}, {'name': 'API', 'price': 'Not verified', 'billing': 'Usage-based', 'features': ['Per-clip pricing was not checked against the official API page today']}], 'pros_expanded': ['Large template library makes it easy to get a usable clip without careful prompting.', 'One app covers video, images, reference inputs, and an assets library.', 'Backed by an established AI company with active model releases (H3 is featured as live).'], 'cons_expanded': ['We could not read plan prices on the official page, and third-party figures contradict each other, so budget carefully.', 'Credit cost per clip depends on model and mode, making total cost hard to forecast.', 'Features such as native audio, clip length, and resolution were not confirmed on the official site today.', 'Third-party coverage mentions billing and renewal complaints; we did not verify them, so confirm cancellation terms yourself.'], 'faq': [{'q': 'What is Hailuo AI?', 'a': "MiniMax's web app for generating video and images from prompts and photos, currently featuring the H3 model."}, {'q': 'How much does it cost?', 'a': 'We could not verify. The official subscribe page shows no prices today and third-party sources conflict. Check hailuoai.video/subscribe.'}, {'q': 'Is there a free tier?', 'a': 'A free plan is commonly reported, but we could not confirm its credits or limits from the official site.'}, {'q': 'Does it add audio to videos?', 'a': 'Third-party coverage says so for some models, but we did not confirm it on the official site today.'}]}, 'alternatives': [{'slug': 'kling-ai', 'why': 'Kling is a similar prompt-to-video generator, noted for realistic motion; compare outputs and pricing side by side.'}, {'slug': 'runway', 'why': 'Runway adds more editing tools and an API; Hailuo is more template-driven.'}, {'slug': 'luma-dream-machine', 'why': 'Luma focuses on cinematic output and a canvas workflow rather than templates.'}], 'last_checked': '2026-10-21'},
-            {"name": "Neural Frames", "tagline": "Turn songs into AI music videos with audio-reactive visuals", "desc": "Neural Frames is an AI platform that turns a song upload into a full, audio-reactive music video using Autopilot, a frame-by-frame editor, or a text-to-video editor built on models like Kling and Runway.", "pricing": "Free plan renders a 20-second trial clip; paid plans run $26-$199/mo billed annually ($39-$299/mo billed monthly) across three tiers", "url": "https://www.neuralframes.com/",
- "tags": ["Video Generation", "Music Video Generator", "Image to Video"],
- "features": ["Autopilot: full song-to-video in two clicks", "Frame-by-frame editor for precise scene control", "Text-to-video editor with Kling, Seedance, and Runway models", "Audio stem extraction and audioreactive effects", "Lyric and lipsync video generation", "1080p/4K upscaling on every export"],
- "pros": ["Deep creative control without a steep learning curve", "Audio-reactive visuals sync tightly to beat and mood", "Free credits roll over up to 300% of the monthly allocation"],
- "cons": ["Entry-level Knight plan lacks 4K upscaling and isn't ideal for Autopilot", "Video cost scales with song length and chosen AI model, making budgeting tricky", "No blanket refund policy, only case-by-case exceptions"],
- "best_for": "Independent musicians, labels, and visual artists who need a finished, audio-synced music video from a song without hiring a video editor or animator.",
- "deep": {
-    "overview": "Neural Frames is a German AI startup that specializes in generating music videos and animations synchronized to audio. Its core workflow starts with a song upload: the platform's Autopilot mode extracts beats-per-minute, mood, and structural cues from the track and automatically produces a character-consistent, full-length music video, up to 10 minutes and 4K resolution, in a couple of clicks. For creators who want more control, Neural Frames also offers a frame-by-frame editor for precise adjustments to individual scenes and a timeline-based text-to-video editor that integrates third-party video models including Kling, Seedance, and Runway. A dedicated Short-Form Studio further tailors output for TikTok, Instagram Reels, and YouTube Shorts.\n\nWhat differentiates Neural Frames from generic AI video tools is its audio-first architecture: rather than treating music as an afterthought layered onto silent video, the platform builds visuals that pulse, transition, and evolve in response to stems, tempo, and lyrics, including lyric and lipsync video generation. The company describes itself as a small, bootstrapped team without VC funding, focused specifically on the music video niche rather than general-purpose video generation. It has been used to produce over two million videos by tens of thousands of creators, spanning independent musicians, labels such as 1605 Records, and AI visual artists, and it intelligently upscales every export at no extra cost so output looks consistent from phone screens to larger displays.",
-    "features_detailed": [{"title":"Autopilot", "desc":"Automatically generates a complete, character-consistent music video from an uploaded song in just two clicks, analyzing BPM and mood to drive visuals."},
-    {"title":"Frame-by-Frame Editor", "desc":"Gives creators granular control over individual frames, aesthetics, and timing for hand-crafted animation sequences."},
-    {"title":"Text-to-Video Editor", "desc":"A timeline-based editor that taps third-party video generation models including Kling, Seedance, and Runway for scene-level control."},
-    {"title":"Short-Form Studio", "desc":"Purpose-built mode for generating vertical, social-optimized clips for TikTok, Reels, and Shorts."},
-    {"title":"Stem Extraction & Audioreactive Effects", "desc":"Splits uploaded tracks into stems and drives visual effects that pulse and shift with the music in real time."},
-    {"title":"Lyric & Lipsync Generation", "desc":"Produces lyric videos and lipsync-matched vocal performance visuals directly from a song."},
-    {"title":"Upscaling on Export", "desc":"Every video is intelligently upscaled at no extra cost, supporting 1080p on all plans and 4K on higher tiers."},
-    {"title":"AI Assistant", "desc":"Offers smart prompt suggestions to speed up the creative process for less experienced users."}],
-    "pricing_plans": [{"name":"Neural Knight", "price":"$26/mo billed annually ($312/yr) or $39/mo billed monthly", "billing":"Monthly or annual (33% savings annually)", "features":["2,400 credits/mo","7 AI models","Autopilot and Short-Form Studio access","Horizontal-to-vertical conversion","1080p upscaling only (no 4K)","Not recommended for full Autopilot videos"]},
-    {"name":"Neural Ninja (Most Popular)", "price":"$66/mo billed annually ($792/yr) or $99/mo billed monthly", "billing":"Monthly or annual (33% savings annually)", "features":["7,200 credits/mo","10 AI models","Full Autopilot and Short-Form Studio access","1080p and 4K upscaling","Good fit for Autopilot workflows"]},
-    {"name":"Neural Nirvana", "price":"$199/mo billed annually ($2,388/yr) or $299/mo billed monthly", "billing":"Monthly or annual (33% savings annually)", "features":["24,000 credits/mo","10 AI models","1080p and 4K upscaling with Priority Upscaling","Best tier for high-volume Autopilot use","Studio-scale monthly credits"]}],
-    "pros_expanded": ["Autopilot mode reduces what would normally be days of manual editing into a two-click workflow, while still letting advanced users switch to the frame-by-frame or text-to-video editors for full control.", "Audio-reactive effects and stem extraction mean visuals genuinely sync to a song's structure and mood rather than relying on generic looping animations.", "Unused subscription credits roll over up to 300% of a plan's monthly allocation, giving flexibility for creators with uneven release schedules.", "All three paid tiers include 1080p upscaling by default, and the top two tiers add 4K, so output quality scales predictably with plan level.", "Users on Capterra highlight fast rendering and high-quality output, with one review noting the tool is well aligned with brand image and song lyrics for music video work.", "The company positions itself as bootstrapped and creator-focused rather than VC-backed, which shows in features like a stated 'World's Friendliest Customer Service' commitment across all plans."],
-    "cons_expanded": ["The entry-level Neural Knight plan explicitly lacks 4K upscaling and is flagged by the company itself as not ideal for full Autopilot videos, effectively pushing serious users toward the pricier Ninja tier.", "Autopilot video cost varies significantly by song length and chosen AI model, and some plan/model combinations aren't even available on lower tiers, making cost estimation non-trivial without using their calculator.", "Third-party review volume is thin, with only 2 reviews visible on Capterra, limiting how much independent validation is available beyond the vendor's own testimonials.", "There is no blanket refund guarantee; refunds for unhappy first-time users are evaluated case-by-case rather than guaranteed.", "The frame-by-frame and text-to-video editors, while powerful, take considerably longer to produce results than Autopilot, requiring more hands-on time from the user."],
-    "who_for": "Best suited to independent musicians, DJs, labels, and AI visual artists who need a finished, beat-synced music video or lyric video without hiring an animator. It is a weaker fit for non-music video generation needs, budget-conscious hobbyists wanting 4K on the cheapest plan, or teams needing a large volume of independently-verified third-party reviews before committing.",
-    "faq": [{"q":"Which plan is right for me?", "a":"Neural Ninja is recommended for most creators making full-length Autopilot videos, offering 7,200 monthly credits, all 10 AI models, and 4K upscaling; Neural Knight suits lighter or shorter projects, while Neural Nirvana targets high-volume creators needing 24,000 credits and priority upscaling."},
-    {"q":"How do credits work?", "a":"Each plan includes a fresh monthly credit allocation, even on annual billing, and unused credits roll over up to 300% of the plan's monthly amount; additional top-up credits can be purchased anytime."},
-    {"q":"How much does an Autopilot video cost?", "a":"Cost depends heavily on song length and the AI model selected, with cheaper models available alongside more expensive, higher-fidelity options; Neural Frames provides a pricing calculator to estimate cost per song."},
-    {"q":"What's the difference between Autopilot, Short-Form Studio, and the editors?", "a":"Autopilot automates a full, character-consistent music or lyric video; Short-Form Studio optimizes short social clips; the frame-by-frame and text-to-video editors give direct manual control but take longer."},
-    {"q":"Which resolutions are supported on each plan?", "a":"Neural Knight includes only 1080p upscaling, while Neural Ninja and Neural Nirvana include both 1080p and 4K, with Nirvana adding Priority Upscaling during high-demand periods."},
-    {"q":"Do I own the videos I create?", "a":"Yes, users retain full commercial rights to videos created on Neural Frames and may publish, monetize, or use them for client work, though they remain responsible for rights to any uploaded source material."}]
- }},
+            {'name': 'Neural Frames',
+             'tagline': 'Turn songs into AI music videos with audio-reactive visuals',
+             'desc': 'Neural Frames is an AI platform that turns a song upload into a full, audio-reactive music video using '
+                     'Autopilot, a frame-by-frame editor, or a text-to-video editor built on models like Kling and Runway.',
+             'pricing': 'Paid plans only listed: Knight $39/mo ($26/mo billed annually), Ninja $99/mo ($66/mo annually), Nirvana '
+                        '$299/mo ($199/mo annually). A free option is mentioned but its limits could not be verified.',
+             'url': 'https://www.neuralframes.com/',
+             'tags': ['Video Generation', 'Music Video Generator', 'Image to Video'],
+             'features': ['Autopilot: full song-to-video in two clicks',
+                          'Frame-by-frame editor for precise scene control',
+                          'Text-to-video editor with Kling, Seedance, and Runway models',
+                          'Audio stem extraction and audioreactive effects',
+                          'Lyric and lipsync video generation',
+                          '1080p/4K upscaling on every export'],
+             'pros': ['Built specifically for music videos, with audio-reactive visuals',
+                      'Three ways to work: Autopilot, frame-by-frame, text-to-video',
+                      'Failed generations never cost credits'],
+             'cons': ['Cheapest plan has no 4K upscaling',
+                      'Cost depends on song length and model, so budgeting needs their calculator',
+                      'No blanket refund policy; reviewed case by case'],
+             'best_for': 'Independent musicians, labels, and visual artists who need a finished, audio-synced music video from a '
+                         'song without hiring a video editor or animator.',
+             'deep': {'overview': 'Neural Frames is a strong pick for musicians, labels and visual artists who want a finished, '
+                                  'beat-synced music video from a song; skip it if you need general-purpose video generation or a '
+                                  'cheap way to get 4K. You upload a track and Autopilot builds a full video, or you can work by '
+                                  'hand in the frame-by-frame editor or the text-to-video editor that taps third-party models such '
+                                  'as Kling, Seedance and Runway. Visuals respond to the audio, stems and lyrics are supported, '
+                                  'and a Short-Form Studio makes vertical clips. All plans run on monthly credits, so the real '
+                                  'cost depends on song length and the model you choose.',
+                      'features_detailed': [{'title': 'Autopilot',
+                                             'desc': 'Automatically generates a complete, character-consistent music video from an '
+                                                     'uploaded song in just two clicks, analyzing BPM and mood to drive visuals.'},
+                                            {'title': 'Frame-by-Frame Editor',
+                                             'desc': 'Gives creators granular control over individual frames, aesthetics, and '
+                                                     'timing for hand-crafted animation sequences.'},
+                                            {'title': 'Text-to-Video Editor',
+                                             'desc': 'A timeline-based editor that taps third-party video generation models '
+                                                     'including Kling, Seedance, and Runway for scene-level control.'},
+                                            {'title': 'Short-Form Studio',
+                                             'desc': 'Purpose-built mode for generating vertical, social-optimized clips for '
+                                                     'TikTok, Reels, and Shorts.'},
+                                            {'title': 'Stem Extraction & Audioreactive Effects',
+                                             'desc': 'Splits uploaded tracks into stems and drives visual effects that pulse and '
+                                                     'shift with the music in real time.'},
+                                            {'title': 'Lyric & Lipsync Generation',
+                                             'desc': 'Produces lyric videos and lipsync-matched vocal performance visuals directly '
+                                                     'from a song.'},
+                                            {'title': 'Upscaling on Export',
+                                             'desc': 'Every video is intelligently upscaled at no extra cost, supporting 1080p on '
+                                                     'all plans and 4K on higher tiers.'},
+                                            {'title': 'AI Assistant',
+                                             'desc': 'Offers smart prompt suggestions to speed up the creative process for less '
+                                                     'experienced users.'}],
+                      'pricing_plans': [{'name': 'Free',
+                                         'price': 'Could not verify - see https://www.neuralframes.com/pricing',
+                                         'billing': 'n/a',
+                                         'features': ["Site invites you to start for free, but the free plan's credits and limits "
+                                                      'were not shown on pages we could read']},
+                                        {'name': 'Neural Knight',
+                                         'price': '$39/mo monthly or $26/mo billed annually ($312/yr)',
+                                         'billing': 'Monthly or annual',
+                                         'features': ['2,400 credits/mo',
+                                                      '7 AI models',
+                                                      'Autopilot, Short-Form Studio, horizontal to vertical',
+                                                      '1080p upscaling only, no 4K']},
+                                        {'name': 'Neural Ninja',
+                                         'price': '$99/mo monthly or $66/mo billed annually ($792/yr)',
+                                         'billing': 'Monthly or annual',
+                                         'features': ['7,200 credits/mo',
+                                                      '10 AI models',
+                                                      'Autopilot, Short-Form Studio, horizontal to vertical',
+                                                      '1080p and 4K upscaling']},
+                                        {'name': 'Neural Nirvana',
+                                         'price': '$299/mo monthly or $199/mo billed annually ($2,388/yr)',
+                                         'billing': 'Monthly or annual',
+                                         'features': ['24,000 credits/mo',
+                                                      '10 AI models',
+                                                      '1080p and 4K with Priority Upscaling',
+                                                      'Autopilot, Short-Form Studio, horizontal to vertical']}],
+                      'pros_expanded': ['Visuals are driven by the music (tempo, stems, lyrics) rather than a silent clip with '
+                                        'audio pasted on.',
+                                        'Autopilot gets from song to full video in a couple of clicks, with manual editors '
+                                        'available when you want control.',
+                                        'Unused subscription credits roll over up to 300% of the monthly allocation while '
+                                        'subscribed.',
+                                        'Failed generations never cost credits.',
+                                        'Extra credits can be bought any time, and every export is upscaled at no extra charge.'],
+                      'cons_expanded': ['Knight ($39/mo) has no 4K and the vendor frames higher tiers as better for full Autopilot '
+                                        'videos, nudging serious users up.',
+                                        'Cost per video varies with song length and chosen model, so you need their calculator to '
+                                        'estimate it.',
+                                        'Unused credits expire when the subscription ends.',
+                                        'No blanket refund guarantee; only first-time users who made one project may be reviewed '
+                                        'individually.',
+                                        'We could not verify what the free plan includes, and did not check third-party review '
+                                        'scores today.'],
+                      'who_for': 'Good for independent musicians, DJs, labels and AI visual artists making music or lyric videos. '
+                                 'Not for anyone needing general-purpose video generation unrelated to music, people who want 4K '
+                                 'on the cheapest plan, or buyers who need a guaranteed refund.',
+                      'faq': [{'q': 'What does it cost?',
+                               'a': 'Knight is $39/mo ($26/mo billed annually), Ninja $99/mo ($66/mo annually), Nirvana $299/mo '
+                                    '($199/mo annually), per the pricing page today.'},
+                              {'q': 'Is there a free plan?',
+                               'a': "The site invites you to start free, but the free plan's limits were not shown, so check the "
+                                    'pricing page before relying on it.'},
+                              {'q': 'Do credits roll over?',
+                               'a': 'Yes while you stay subscribed, up to 300% of the monthly allocation. Unused credits expire '
+                                    'when the subscription ends.'},
+                              {'q': 'Can I get a refund?',
+                               'a': 'There is no blanket refund guarantee. First-time subscribers who made only one project and '
+                                    'are unhappy can contact support for an individual review.'},
+                              {'q': 'Which plan gets 4K?',
+                               'a': 'Ninja and Nirvana include 4K upscaling; Knight is limited to 1080p.'}]},
+             'last_checked': '2026-10-23',
+             'alternatives': [{'slug': 'runway',
+                               'why': 'General AI video suite; stronger for non-music clips and editing, but not built around '
+                                      'syncing visuals to a song.'},
+                              {'slug': 'kling-ai',
+                               'why': 'One of the video models Neural Frames builds on; use it directly for single-shot clips, '
+                                      'without the music-sync tooling.'},
+                              {'slug': 'luma-dream-machine',
+                               'why': 'Cinematic text and image to video generation; no dedicated song-to-video workflow.'}]},
             {'name': 'Neural.love', 'tagline': 'Browser-based AI toolkit for video enhancement, images, and photo animation', 'desc': 'Neural.love is a browser-based set of AI tools for enhancing video, generating and editing images, creating AI art, and animating photos, paid for from one shared credit balance.', 'pricing': 'Pricing could not be verified: the live pricing page describes subscriptions and pay-as-you-go credits on one shared balance, but its plan table did not load for us on 2026-10-21. Check neural.love/pricing before buying.', 'url': 'https://neural.love/', 'tags': ['Video Enhancement', 'AI Art', 'Photo Restoration'], 'features': ['AI video enhancement', 'Image generation and editing', 'AI art generation', 'Photo animation', 'One shared credit balance across tools (per the pricing page)'], 'pros': ['One credit balance spans image, video, and other tools', 'Pay-as-you-go credits exist alongside subscriptions', 'No need to install anything; it runs in the browser'], 'cons': ['Prices could not be confirmed from the live page today', 'Credit-based billing makes real cost per job hard to predict', 'Not a dedicated text-to-video generator'], 'best_for': 'Hobbyists and small creators who want to upscale old footage, restore photos, and make AI images from one account.', 'deep': {'overview': 'Neural.love suits people who mostly want to clean up or enhance existing media (old video, photos) and make occasional AI images without juggling several subscriptions. Skip it if your main goal is high-end text-to-video generation, where dedicated video models are a better fit. It is a browser-based toolkit covering video enhancement, image generation and editing, AI art, and photo animation, with usage drawn from a shared credit balance that you can top up by subscription or pay-as-you-go.', 'who_for': 'Good for freelancers, photographers, and casual creators who need enhancement and restoration tools in one place. Not for filmmakers or marketers who need controllable text-to-video generation, for high-volume users who need predictable per-job pricing, or for anyone who needs published pricing confirmed before they commit.', 'features_detailed': [{'title': 'Video enhancement', 'desc': "Tools to improve existing video footage in the browser. The site's own description lists video enhancement first."}, {'title': 'Image generation and editing', 'desc': 'Create and edit images and AI art from the same account.'}, {'title': 'Photo animation', 'desc': 'Turns still photos into short animated clips, according to the site description.'}, {'title': 'Shared credits', 'desc': 'The pricing page says one shared balance is used across image, video, and creative AI tools.'}], 'pricing_plans': [{'name': 'Subscriptions', 'price': 'Not verified', 'billing': 'Monthly (per the pricing page description)', 'features': ['Plan table did not load; see neural.love/pricing']}, {'name': 'Pay-as-you-go credits', 'price': 'Not verified', 'billing': 'One-off credit purchase', 'features': ['Credits on the same shared balance as subscriptions']}], 'pros_expanded': ['A single credit balance covers image, video, and creative tools, so you are not buying separate subscriptions for each.', 'Both subscription and pay-as-you-go options are offered, so occasional users are not forced into a monthly plan.', 'Strong fit for enhancing or restoring media you already have, rather than starting from a blank prompt.'], 'cons_expanded': ['We could not read the plan table or prices on the live pricing page today, so cost per credit and plan sizes are unconfirmed.', 'Credit systems make it hard to estimate the cost of a specific video job before you run it.', 'It is positioned as an enhancement and image toolkit, so it will lag dedicated video-generation products for prompt-to-video work.', 'We could not verify independent review data (e.g., current Trustpilot figures) today, so none is shown.'], 'faq': [{'q': 'What can Neural.love do?', 'a': 'According to its site description it enhances video, generates and edits images, creates AI art, and animates photos, all in the browser.'}, {'q': 'How is it priced?', 'a': 'The pricing page describes subscriptions and pay-as-you-go credits sharing one balance. We could not load the actual prices on 2026-10-21, so check the page directly.'}, {'q': 'Is it a text-to-video generator?', 'a': 'Its listed strengths are enhancement and image tools. If prompt-to-video is your main need, compare dedicated generators first.'}, {'q': 'Is there a free option?', 'a': 'We could not confirm free-tier terms from the live site today. Look at the pricing page or sign-up flow before assuming any free credits.'}]}, 'alternatives': [{'slug': 'runway', 'why': 'Runway is a stronger pick for generating and editing video from prompts; Neural.love leans towards enhancing existing media.'}, {'slug': 'topmediai', 'why': 'Also an all-in-one AI studio for video, music, and voice, but with more audio focus and less photo restoration.'}], 'last_checked': '2026-10-21'},
-            {"name": "Plotagon", "tagline": "Turn scripted text into acted-out animated movies", "desc": "Plotagon is a mobile and desktop app that automatically turns a written script into an animated movie, with customizable characters, scenes, voices, and music for storytelling or classroom use.", "pricing": "Free to download with in-app purchases; individual content unlocks range $0.99-$4.99, an all-access Golden Ticket at $49.99, and Bronze/Silver/Gold subscription tiers for scenes, characters, and voices; school/academic pricing around $27/year or $3/month.", "url": "https://www.plotagon.com/",
- "tags": ["Video Generation", "Animation", "Education"],
- "features": ["Script-to-animation engine that auto-animates written dialogue", "Customizable character creator (self, friends, or original avatars)", "Built-in scene library across multiple genres/settings", "Text-to-speech plus custom voice recording for characters", "Camera controls, transitions, and visual filters/effects", "Sound effects and background music library", "Direct export and sharing to YouTube and social apps", "Available as mobile (iOS/Android) and desktop (Windows) apps"],
- "pros": ["No subscription required to start; free scenes and character tools let anyone try it immediately", "Long track record (in market since 2013) with a mature, purpose-built classroom storytelling use case", "Steady stream of free content updates over the years (transitions, filters, camera controls) per its version history"],
- "cons": ["App Store rating is middling (3.5/5 from about 3,900 ratings) with recurring complaints about export crashes on longer videos", "Animation style and character models feel dated next to newer AI video-generation tools", "Content and progress are tied to the device rather than an account login, so users report losing purchases and projects on reinstall"],
- "best_for": "Teachers, students, and hobbyist storytellers who want a low-cost, no-editing-skill way to turn a written script into an acted-out animated short.",
- "deep": {
-    "overview": "Plotagon is an animated storytelling app, published by Swedish studio Plotagon Production AB, that converts a written script into a fully acted, voiced, animated movie without requiring any traditional animation or video-editing skill. The core workflow: pick a pre-built scene, populate it with customizable 3D characters (built from a library of faces, bodies, and outfits, or modeled loosely on real people), then write a script mixing dialogue and stage directions. Plotagon's engine automatically maps that script to character movement, lip-sync, camera framing, and either synthesized or user-recorded voices, then renders it as a shareable video. The product line has evolved from the original desktop app into Plotagon Story (the classic mobile app) and the newer Plotagon Studio, available on both mobile and desktop, adding features like custom transitions, color-grade-style visual effects, and support for user-uploaded background images inside scenes over a decade of updates.\n\nPlotagon differentiates itself from both modern AI video generators and traditional animation software by requiring zero drawing, rigging, or keyframing skill: the entire creative interface is a text/script editor plus a drag-and-drop character and prop picker, making it accessible to children and non-technical educators. Its business model is freemium content-gating rather than subscription-gating a feature set: a base set of scenes, characters, and voices is free, while additional scenes, celebrity-styled voices, outfits, and props are sold as one-off in-app purchases or content-tier subscriptions (Bronze/Silver/Gold), with an all-access 'Golden Ticket' option and discounted school/education pricing. The company markets the tool for fan fiction, original narrative shorts, training material, marketing content, and classroom social-emotional-learning exercises, and it has been referenced in education-technology coverage as a classroom storytelling tool, though its visual style and interface have aged compared to newer AI-native video tools that have emerged since 2023.",
-    "features_detailed": [
-      {"title": "Script-to-film engine", "desc": "Users write a script combining spoken lines and simple stage/camera directions, and Plotagon automatically animates the scene, lip-syncs dialogue, and frames the camera."},
-      {"title": "Character Creator", "desc": "Build custom 3D characters modeled after yourself, friends, or original designs, choosing face, body, hair, and outfit options."},
-      {"title": "Scene Library", "desc": "A catalog of pre-built 3D locations and settings spanning genres, with some scenes free and others unlocked via purchase or subscription."},
-      {"title": "Voice Options", "desc": "Characters can speak via built-in text-to-speech voices (grouped by language) or the user's own recorded voice; premium voice packs are sold separately."},
-      {"title": "Camera & Visual Effects", "desc": "Field-of-view camera controls, four transition styles, and six visual filters (black & white, sepia, blur, bloom, seventies, vignette) for stylizing scenes."},
-      {"title": "Sound & Music", "desc": "Built-in sound effects and music tracks that can be layered into a scene alongside dialogue."},
-      {"title": "Export & Sharing", "desc": "Rendered videos (up to 720p in earlier engine versions) can be saved and shared directly to YouTube and other social platforms."},
-      {"title": "Cross-platform apps", "desc": "Available as Plotagon Story and Plotagon Studio on iOS/Android, plus a classic Plotagon Studio Desktop app for Windows."}
-    ],
-    "pricing_plans": [
-      {"name": "Free (base app)", "price": "$0", "billing": "n/a", "features": ["App download and account-free access", "A selection of free scenes and character creation tools", "Basic voices and props"]},
-      {"name": "Individual content purchases", "price": "$0.99 - $4.99 per item", "billing": "One-time in-app purchase", "features": ["Individual scene, style, or prop packs (e.g., Cute style $0.99, School scene pack $3.99, Cars pack $3.99)", "Bronze subscription content tier ($0.99)", "Silver subscription / Silver voice tier ($2.99)", "Gold subscription / Gold voice tier ($4.99)"]},
-      {"name": "Golden Ticket", "price": "$49.99", "billing": "One-time purchase", "features": ["All-access unlock for scenes, characters, voices, and other premium content in one purchase"]},
-      {"name": "Academic / School", "price": "~$27/year or ~$3/month", "billing": "Annual or monthly", "features": ["Discounted pricing for classroom and education use"]}
-    ],
-    "pros_expanded": [
-      "The free tier is genuinely usable: a base set of scenes, characters, and voices lets new users complete a full animated short before paying anything.",
-      "The product has an unusually long operating history (since 2013) and has kept shipping free engine improvements over the years, including transitions, filters, and camera field-of-view controls, per its official version history.",
-      "Because the entire creative interface is text-and-picker based, it's genuinely accessible to kids and non-technical educators who would be intimidated by timeline-based video editors.",
-      "It has a dedicated education angle covered in edtech press, positioning it for classroom storytelling, digital literacy, and social-emotional-learning assignments beyond pure entertainment use.",
-      "In-app purchases are granular (as low as $0.99), so users aren't forced into a subscription just to unlock one extra scene or voice."
-    ],
-    "cons_expanded": [
-      "The official Apple App Store rating sits at 3.5 out of 5 from roughly 3,900 ratings, with recent reviews citing export crashes on longer projects as a recurring, unresolved pain point.",
-      "Multiple App Store reviewers describe the animation quality as dated compared to current AI video tools, calling the interface clunky and the character movement stiff.",
-      "Progress and purchases are saved to the device rather than a user account for the classic Story app, so reviewers report losing purchased content and finished projects after deleting or reinstalling the app.",
-      "In-app subscription billing, cancellation, and refunds run entirely through Apple/Google's payment systems, so Plotagon itself cannot directly resolve payment disputes; users are redirected to the app store's support flow.",
-      "The content-gating monetization model (dozens of individually priced packs) can make total cost unpredictable compared to a flat subscription, especially for users who want broad access to scenes and voices."
-    ],
-    "who_for": "Plotagon suits teachers, students, and casual hobbyist storytellers who want to turn a written script into a shareable animated video without learning any animation or editing software, and who are fine with content-gated in-app purchases rather than a single all-inclusive subscription. It's a weaker fit for professional creators or marketers who need modern, photorealistic AI video output, or for anyone who needs cloud-saved projects and reliable exports on long-form videos.",
-    "reviews": {
-      "app_store_rating": "3.5/5",
-      "app_store_count": "3.9K ratings",
-      "summary": "Plotagon Story's official Apple App Store rating is 3.5 out of 5 stars from roughly 3,900 ratings. Feedback is polarized: many long-time users, including former childhood fans, praise it as a creative, accessible entry point into storytelling, while a steady stream of recent reviews flags stability issues, particularly around exporting longer videos and losing purchased content after reinstalling the app. No official G2 or Capterra listing exists for Plotagon since it is distributed as a consumer mobile/desktop app rather than enterprise SaaS.",
-      "praise": ["Users describe it as an easy, fun way to make animated movies with minimal learning curve, even for children.", "Long-time users report years of engagement, citing it as where they developed comedic and creative storytelling skills.", "Reviewers appreciate ongoing free feature additions like transitions, filters, and camera controls added over multiple updates."],
-      "complaints": ["Recurring reports of the app crashing specifically when exporting longer or more complex videos.", "Users report losing purchased content and in-progress projects after deleting and reinstalling the app, since there's no account-based cloud save.", "Some reviewers ask for more customization (more than two characters per scene, custom hairstyles/clothing text input) that the app doesn't currently support."]
-    },
-    "faq": [
-      {"q": "Do I need a subscription to use Plotagon?", "a": "No. Plotagon apps are free to download and include some free-to-use scenes and character tools; additional scenes, voices, and characters are unlocked through in-app purchases or subscriptions."},
-      {"q": "Which Plotagon app should I download?", "a": "Plotagon recommends Plotagon Studio Mobile as its newest, most feature-rich app, and Plotagon Studio Desktop as the classic option for PC."},
-      {"q": "Can I use my own voice in a Plotagon video?", "a": "Yes, characters can either use built-in text-to-speech voices or the user's own recorded voice."},
-      {"q": "What happens to my videos if I delete the app?", "a": "Videos and characters saved directly to the device are lost permanently if the app is deleted, since Plotagon has no way to recover locally stored content; only previously downloaded/exported videos remain if saved elsewhere on the device."},
-      {"q": "Is there school/education pricing?", "a": "Yes, Plotagon offers discounted academic pricing, reported at around $27 per year or $3 per month for classroom use."},
-      {"q": "How do I cancel or get a refund for a Plotagon subscription?", "a": "Since payments run through the Apple App Store or Google Play, cancellations and billing disputes must be handled directly through those app marketplaces rather than through Plotagon support."}
-    ]
- }},
+            {'name': 'Plotagon',
+             'tagline': 'Turn a written script into an acted-out 3D animated short',
+             'desc': 'Plotagon is a mobile and Windows app that turns a typed script into a 3D animated scene with characters, '
+                     'voices, camera work and music, aimed at storytellers and classrooms.',
+             'pricing': 'Pricing could not be verified - the official site lists no prices; see the App Store, Google Play or '
+                        'https://www.plotagon.com/ for current in-app prices. A separate Commercial License is sold per named user '
+                        'for 12 months at a fee shown at checkout.',
+             'url': 'https://www.plotagon.com/',
+             'tags': ['Video Generation', 'Animation', 'Education'],
+             'features': ['Script-to-animation engine',
+                          'Customizable stylized actors',
+                          'Over 200 virtual locations',
+                          'Multilingual voices and recorded voices',
+                          'Camera, audio and transition tools',
+                          'Storyboarding',
+                          'Studio Mobile, Story Mobile and Studio Desktop (Windows) apps'],
+             'pros': ['Needs no animation or editing skill',
+                      'Studio Mobile supports more than two actors per scene and has no ads, per the site',
+                      'Long-running, still-maintained product (site shows 2026 copyright)'],
+             'cons': ['Prices are not published on the website, so costs are hard to predict',
+                      'Style is stiff and dated next to newer AI video tools',
+                      'Commercial use needs a separate paid license with limits on broadcast and streaming'],
+             'best_for': 'Students, teachers and hobbyists who want to turn a written script into a simple animated short with no '
+                         'animation skills.',
+             'deep': {'overview': 'Plotagon is a fun, low-barrier choice for students, teachers and hobby storytellers who want a '
+                                  'typed script turned into a 3D animated scene; skip it if you need realistic AI-generated '
+                                  'footage or polished marketing video. You pick a location, add stylized actors, write dialogue '
+                                  'and stage directions, and the app handles movement, lip-sync, camera and voices. The site '
+                                  'currently offers three apps: Studio Mobile (newest, more than two actors per scene, no ads), '
+                                  'Story Mobile (older, with ads) and Studio Desktop for Windows. The website lists no prices, and '
+                                  'commercial use is covered by a separate per-user license.',
+                      'features_detailed': [{'title': 'Script-to-animation',
+                                             'desc': 'You type dialogue and directions and the app animates the actors, lip-sync '
+                                                     'and camera for you.'},
+                                            {'title': 'Actors',
+                                             'desc': 'Customizable stylized actors; Studio Mobile adds independent emotes and more '
+                                                     'than two actors in a scene.'},
+                                            {'title': 'Locations',
+                                             'desc': 'The site cites over 200 virtual locations to set scenes in.'},
+                                            {'title': 'Voices',
+                                             'desc': 'Multilingual voices are built in, and the earlier app versions also let you '
+                                                     'record your own voice.'},
+                                            {'title': 'Camera, audio and transitions',
+                                             'desc': 'Tools to frame shots, add sound and move between scenes, plus '
+                                                     'storyboarding.'},
+                                            {'title': 'Three apps',
+                                             'desc': 'Studio Mobile (newest), Story Mobile (older, with ads) and Studio Desktop '
+                                                     '(older Windows app).'}],
+                      'pricing_plans': [{'name': 'App pricing',
+                                         'price': 'Could not verify - see App Store / Google Play',
+                                         'billing': 'Varies',
+                                         'features': ['The official site lists no prices or tiers',
+                                                      'Earlier listings showed free download with in-app purchases, but we could '
+                                                      'not confirm current amounts']},
+                                        {'name': 'Commercial license',
+                                         'price': 'Fee shown at checkout (not stated on the license page)',
+                                         'billing': '12 months per named user, renewable',
+                                         'features': ['Commercial use allowed except broadcast or streaming via cable, satellite, '
+                                                      'subscription, pay-per-download or OTT unless agreed',
+                                                      'Plotagon is listed as co-author of movies; your scripts and voices stay '
+                                                      'yours',
+                                                      'VAT not included']}],
+                      'pros_expanded': ['No drawing, rigging or keyframing is needed; the whole workflow is script plus pickers.',
+                                        'Studio Mobile adds more than two actors per scene and independent emotes over the older '
+                                        'app.',
+                                        'No ads in Studio Mobile, while the older Story app carries ads, per the site.',
+                                        'Over 200 locations and multilingual voices give plenty of setting variety for a '
+                                        'script-based tool.',
+                                        'The product is still actively promoted and updated (a desktop build 1.11.0 and 2026 '
+                                        'copyright appear on the site).'],
+                      'cons_expanded': ['No prices appear on the official site, so total cost can only be learned inside the app '
+                                        'stores.',
+                                        'The commercial license is separate, limited to one named user for 12 months, and '
+                                        'restricts broadcast and streaming without agreement.',
+                                        'Plotagon is listed as co-author of every movie under the license terms, which some '
+                                        'creators will dislike.',
+                                        'Three overlapping apps (Studio Mobile, Story Mobile, Studio Desktop) with different '
+                                        'features can confuse new users.',
+                                        'We did not verify current store ratings or export reliability today, so older reports of '
+                                        'crashes on long videos are unconfirmed.'],
+                      'who_for': 'Good for classroom projects, fan fiction, simple narrative shorts and anyone who can write but '
+                                 'cannot animate. Not for marketers or professionals wanting modern photorealistic output, anyone '
+                                 'wanting to stream or broadcast results commercially without checking the license terms, or '
+                                 'people who need transparent upfront pricing.',
+                      'faq': [{'q': 'Is Plotagon free?',
+                               'a': 'The website does not list prices. Earlier listings showed a free download with in-app '
+                                    'purchases, but we could not verify current amounts, so check the App Store or Google Play.'},
+                              {'q': 'Which app should I use?',
+                               'a': 'The site presents Studio Mobile as the newest, with more than two actors per scene and no '
+                                    'ads. Story Mobile and Studio Desktop (Windows) are the older apps.'},
+                              {'q': 'Can I use my videos commercially?',
+                               'a': 'Only with the separate Commercial License: one named user, 12 months, renewable. It bars '
+                                    'broadcasting or streaming via cable, satellite, subscription, pay-per-download or OTT unless '
+                                    'agreed.'},
+                              {'q': 'Who owns the movies I make?',
+                               'a': 'Under the license terms Plotagon is listed as co-author of all movies, while your own '
+                                    'scripts, recorded voices and materials remain yours.'},
+                              {'q': 'How is it different from AI video generators?',
+                               'a': 'Plotagon animates pre-built 3D actors from your script rather than generating new footage, '
+                                    'which gives predictable results but a simpler, stylized look.'}]},
+             'last_checked': '2026-10-23',
+             'alternatives': [{'slug': 'vyond',
+                               'why': 'Also builds animated scenes without drawing, but aimed at business and training videos with '
+                                      'a more polished, subscription-based workflow.'},
+                              {'slug': 'simpleshow',
+                               'why': 'Also turns scripts into animated video, but produces 2D explainer-style videos rather than '
+                                      'acted 3D stories.'}]},
             {"name": "Synthesys AI Studio", "tagline": "AI avatars, voices, and UGC video ads in one plan", "desc": "Synthesys AI Studio generates AI avatar videos, voice cloning, UGC-style ads, and product videos using models like Veo 3.1 and Sora 2, all under one credit-based subscription with full commercial rights included.", "pricing": "Indie $20/mo billed annually ($29 monthly), Studio $41/mo ($59 monthly), Agency $83/mo ($119 monthly) — annual billing saves ~30-40%; custom Enterprise pricing available.", "url": "https://synthesys.io/",
  "tags": ["Video Generation", "AI Avatars", "Text-to-Speech"],
  "features": ["AI digital twin & UGC persona avatars", "Voice cloning, design & remix (1,000+ voices, 175+ languages)", "AI VSL (video sales letter) generation", "Video & audio dubbing", "Access to frontier video models (Veo 3.1, Sora 2, Seedance 2.0)", "Recast AI face swap and AI Talking Photos"],
@@ -853,56 +998,136 @@ CATEGORIES = [
       {"q": "What video formats and resolutions does it export?", "a": "All subscriptions include Full HD (1080p) export as MP4 files."}
     ]
  }},
-            {"name": "Wisecut", "tagline": "AI video editor that auto-cuts, captions, and reframes clips", "desc": "Wisecut is an AI video editor that automatically removes silences, adds captions and background music, and reframes long recordings into short, publish-ready clips, cutting typical editing time by up to 90%.", "pricing": "Free (60 min/mo, 360p, watermark); Starter+ $23.25/mo billed annually ($279/yr); Professional+ $83.25/mo billed annually ($999/yr); credit packs and custom Enterprise plans also available.", "url": "https://wisecut.ai/",
- "tags": ["Video Generation", "AI Video Editing", "Auto Captions"],
- "features": ["AI Highlight Detection", "Auto Captions & Translations", "Autocut Silence Removal", "Auto Reframe (vertical/square/landscape)", "Studio Voice enhancement & Background Noise Cancelling", "WISH conversational AI editing + Autopilot auto-publishing"],
- "pros": ["Capterra users rate it 4.7/5 across 65 reviews, with strong praise for time savings", "Cuts a typical 3-4 hour edit down to 15-20 minutes for a 60-minute source video, per reviewers", "Autopilot tier adds automatic social scheduling and multi-account publishing"],
- "cons": ["Not a full manual video editor — limited fine-grained control over color, overlays, and multi-track edits", "Some users report slow uploads/downloads and background-noise handling issues", "Professional+ tier ($83.25/mo) is a steep jump from Starter+ for high-volume users"],
- "best_for": "Podcasters, YouTubers, and solo creators who want fast, largely hands-off editing — auto-cuts, captions, and reframing — without learning a full timeline editor.",
- "deep": {
-    "overview": "Wisecut is an AI-powered video editing platform that automates the repetitive parts of turning raw footage into publish-ready content. Rather than presenting a traditional manual timeline, Wisecut ingests a video, transcribes the audio, and applies automated editing rules: it removes awkward silences and filler pauses, inserts 'punch-in' zoom cuts to add visual rhythm, generates styled captions, adds AI-selected background music with automatic volume ducking, cleans up background noise, and reframes horizontal footage into vertical, square, or landscape formats for different platforms. Its newer 'WISH' feature layers a conversational, prompt-based AI editor on top of this — users can describe an edit in natural language — while 'Autopilot' extends the pipeline further into automatic social scheduling and multi-account publishing through a companion 'Social Hub.'\n\nWisecut's pricing runs on a shared credit system across its Editor, Autopilot, and WISH tools, with credits consumed per processed minute (roughly 1 credit per minute in the Editor, 2 credits per minute in Autopilot). The company markets itself directly against competitors like Opus Clip, Submagic, Descript, VEED, Vizard, Klap, and CapCut, positioning its core differentiation around end-to-end automation depth (auto silence removal plus reframing plus auto-publishing in one subscription) rather than manual editing power. It serves a wide range of audiences per its own site — creators, podcasters, YouTubers, marketing teams, educators, agencies, churches, and broadcasters — and offers both a free tier and an Enterprise plan with API access and custom volume pricing for high-throughput teams.",
-    "features_detailed": [
-      {"title": "AI Highlight Detection", "desc": "Identifies the most engaging moments in raw footage to build a rough cut automatically."},
-      {"title": "Auto Captions & Translations", "desc": "Generates styled, editable captions and can translate them into other languages for wider reach."},
-      {"title": "Autocut Silence Removal", "desc": "Automatically trims awkward pauses and dead air based on voice-recognition analysis of the audio track."},
-      {"title": "Auto Reframe", "desc": "Converts footage between vertical, square, and landscape aspect ratios to fit different social platforms."},
-      {"title": "Auto Punch-in/out", "desc": "Adds automatic zoom cuts at natural points to simulate multi-camera editing rhythm."},
-      {"title": "Studio Voice & Noise Cancelling", "desc": "Enhances vocal clarity and removes background noise without a separate audio tool."},
-      {"title": "WISH", "desc": "A conversational, prompt-based AI editor that lets users describe an edit in natural language and have Wisecut execute it."},
-      {"title": "Autopilot + Social Hub", "desc": "Extends automation into auto-publishing and scheduling across multiple connected social media accounts."}
-    ],
-    "pricing_plans": [
-      {"name": "Free", "price": "$0/mo", "billing": "Always free", "features": ["Wisecut Editor + WISH (limited)", "60 minutes/month processing", "360p resolution", "4GB max file size", "No Autopilot or Social Hub"]},
-      {"name": "Starter+", "price": "$23.25/mo (billed annually at $279/yr, save $60/yr)", "billing": "Annual", "features": ["Editor + WISH + Autopilot", "1080p Full HD, up to 60 min per export", "300 credits/month (~5h Editor or 2.5h Autopilot)", "4GB max file size, unlimited downloads", "Social scheduling and auto-publishing", "Email support"]},
-      {"name": "Professional+", "price": "$83.25/mo (billed annually at $999/yr, save $420/yr)", "billing": "Annual", "features": ["Everything in Starter+", "4K Ultra HD, up to 90 min per export", "1,200 credits/month (~20h Editor or 10h Autopilot)", "5GB max file size", "Up to 3 accounts per social network", "Priority support"]},
-      {"name": "Credit Top-Up Packs", "price": "$25-$429", "billing": "One-time, valid 12 months", "features": ["150 credits for $25 (2.5h Editor / 1h15m Autopilot)", "480 credits for $69", "1,440 credits for $189", "3,600 credits for $429"]},
-      {"name": "Enterprise", "price": "Custom pricing", "billing": "Custom", "features": ["API access", "Custom processing hours", "SLA and dedicated support"]}
-    ],
-    "pros_expanded": [
-      "Capterra rates Wisecut 4.7/5 across 65 verified reviews, with an ease-of-use score of 4.7 and a customer service score of 4.8 — strong marks for a niche AI editing tool.",
-      "Multiple reviewers describe dramatic time savings — one Capterra review from a media production CEO says it 'cut typical editing workflows from 3-4 hours to 15-20 minutes' for a 60-minute source video.",
-      "The automatic silence-removal and 'punch-in' zoom-cut feature is repeatedly singled out by reviewers as feeling like a second camera angle, per multiple 5-star Capterra reviews.",
-      "Automatic subtitle generation and background-music/noise handling let solo creators skip separate captioning and audio tools, cited by reviewers as a major bonus for accessibility and engagement.",
-      "Wisecut's team is shown publicly responding to a critical 2-star Capterra review with a detailed apology and fix explanation, suggesting active follow-up on customer issues."
-    ],
-    "cons_expanded": [
-      "Multiple Capterra reviewers note it 'isn't an all-purpose video editor' — fine-grained manual controls like color correction, multi-track editing, and precise word-by-word caption editing are limited or missing.",
-      "A 2023 review flagged 'fatal video uploading flaws, poor UX and weak customer support' including unreliable uploads and lost files, though Wisecut's team responded that the underlying issue was later resolved.",
-      "Background noise handling, upload, and download speeds are cited as 'extremely slow' in at least one detailed review from a 1-2 year user.",
-      "The jump-cut/punch-in feature isn't fully tunable — one reviewer wanted the ability to manually force specific silences that the AI would otherwise auto-cut.",
-      "Professional+ pricing ($83.25/mo annual, or higher on monthly billing) is a meaningful jump from Starter+, which may be steep for solo creators who don't need 4K or Autopilot's social publishing layer."
-    ],
-    "who_for": "Best fit: podcasters, interview-based YouTubers, coaches, and small marketing teams who want fast, largely automated rough cuts, captions, and reframing without learning a full NLE, and who value auto-publishing via Autopilot. Weak fit: professional editors or teams needing granular manual control (color grading, multi-track composites, frame-accurate edits) — Wisecut is explicitly not a full-purpose editor per its own users' feedback.",
-    "reviews": {"capterra_rating": "4.7/5", "capterra_count": "65 reviews", "summary": "Wisecut's Capterra reviews are overwhelmingly positive, averaging 4.7/5 with particularly high marks for ease of use (4.7) and customer service (4.8). Reviewers consistently highlight massive time savings on repetitive editing tasks, though several note it is not a substitute for a full manual video editor.", "praise": ["Automatic silence removal and subtitle generation repeatedly described as major time-savers", "Cuts a typical 3-4 hour edit down to 15-20 minutes for a 60-minute source video", "Wisecut support team responds directly and substantively to negative reviews to resolve issues"], "complaints": ["Limited manual editing controls; not intended as an all-purpose video editor", "Some users report slow uploads/downloads and occasional background-noise artifacts", "A minority of reviews describe unreliable uploads and weak support responsiveness during high-demand periods"]},
-    "faq": [
-      {"q": "What does Wisecut actually automate?", "a": "It automatically removes silences and filler pauses, adds zoom 'punch-in' cuts, generates and burns in captions, adds background music with auto-ducking, cancels background noise, and reframes footage for different aspect ratios."},
-      {"q": "Is there a free plan?", "a": "Yes — the Free plan includes 60 minutes of processing per month at 360p resolution with a 4GB max file size, but without Autopilot or Social Hub."},
-      {"q": "How do Wisecut Credits work?", "a": "One shared credit balance covers the Editor, Autopilot, and WISH tools; roughly 1 credit equals 1 processed minute in the Editor and 2 credits equal 1 processed minute in Autopilot."},
-      {"q": "What's the difference between Starter+ and Professional+?", "a": "Professional+ adds 4K export (vs. 1080p), longer max export duration, a much larger monthly credit allotment, bigger file size limits, more connected social accounts, and priority support."},
-      {"q": "Can I buy extra credits without upgrading my plan?", "a": "Yes — one-time credit packs from 150 to 3,600 credits can be purchased and remain valid for 12 months without changing your subscription."},
-      {"q": "Does Wisecut publish videos automatically to social media?", "a": "Yes, on the Starter+ and Professional+ plans, the Autopilot and Social Hub features handle social scheduling and auto-posting across connected accounts."}
-    ]
- }},
+            {'name': 'Wisecut',
+             'tagline': 'AI editor that cuts silences, adds captions and reframes long videos into clips',
+             'desc': 'Wisecut is a web video editor that takes a long recording, trims dead air, adds captions and reframes it for '
+                     'vertical or square clips, with an optional layer for scheduling posts.',
+             'pricing': 'Free (30 min/mo, 480p, 3-min exports); Starter+ $33/mo and Professional+ $118/mo billed monthly; annual '
+                        'billing saves up to 30% (annual prices not shown on the pricing page we could read); credit packs '
+                        '$25-$429; Enterprise is custom.',
+             'url': 'https://wisecut.ai/',
+             'tags': ['Video Generation', 'AI Video Editing', 'Auto Captions'],
+             'features': ['Highlight detection for long videos and livestreams',
+                          'Auto captions and translations',
+                          'Silence removal',
+                          'Auto reframe to vertical, square or landscape',
+                          'Wish: describe an edit in plain text',
+                          'Autopilot and Social Hub for scheduling and publishing'],
+             'pros': ['Fast route from a long talking-head recording to short clips',
+                      'Free plan needs no credit card',
+                      'Credit packs let you top up without changing plan'],
+             'cons': ['Free plan is small: 30 min/mo, 480p, 3-minute exports',
+                      'Not a manual timeline editor, so fine control is limited',
+                      'Credits are consumed faster in Autopilot (about 2 per minute) than in the Editor'],
+             'best_for': 'Podcasters, interview-style YouTubers and small marketing teams who want quick clips from long '
+                         'recordings without learning a timeline editor.',
+             'deep': {'overview': 'Wisecut is a good fit for creators who record long talking-style videos and want short, '
+                                  'captioned clips with little hands-on editing; skip it if you need frame-accurate control, '
+                                  'colour work or multi-track timelines. It transcribes your footage, finds highlights, removes '
+                                  'silences, adds captions and reframes to vertical, square or landscape. Wish lets you ask for '
+                                  'edits in plain text, and Autopilot with Social Hub handles scheduling and posting to connected '
+                                  'accounts. All tools draw from one credit balance, so your usable minutes depend on which tool '
+                                  'you run.',
+                      'features_detailed': [{'title': 'AI Highlight Detection',
+                                             'desc': 'Identifies the most engaging moments in raw footage to build a rough cut '
+                                                     'automatically.'},
+                                            {'title': 'Auto Captions & Translations',
+                                             'desc': 'Generates styled, editable captions and can translate them into other '
+                                                     'languages for wider reach.'},
+                                            {'title': 'Autocut Silence Removal',
+                                             'desc': 'Automatically trims awkward pauses and dead air based on voice-recognition '
+                                                     'analysis of the audio track.'},
+                                            {'title': 'Auto Reframe',
+                                             'desc': 'Converts footage between vertical, square, and landscape aspect ratios to '
+                                                     'fit different social platforms.'},
+                                            {'title': 'Auto Punch-in/out',
+                                             'desc': 'Adds automatic zoom cuts at natural points to simulate multi-camera editing '
+                                                     'rhythm.'},
+                                            {'title': 'Studio Voice & Noise Cancelling',
+                                             'desc': 'Enhances vocal clarity and removes background noise without a separate audio '
+                                                     'tool.'},
+                                            {'title': 'WISH',
+                                             'desc': 'A conversational, prompt-based AI editor that lets users describe an edit in '
+                                                     'natural language and have Wisecut execute it.'},
+                                            {'title': 'Autopilot + Social Hub',
+                                             'desc': 'Extends automation into auto-publishing and scheduling across multiple '
+                                                     'connected social media accounts.'}],
+                      'pricing_plans': [{'name': 'Free',
+                                         'price': '$0',
+                                         'billing': 'Always free',
+                                         'features': ['30 credits/month (30 min of Editor time)',
+                                                      '480p, exports up to 3 min',
+                                                      '4 GB max file size',
+                                                      'No watermark per the pricing page',
+                                                      'No Autopilot']},
+                                        {'name': 'Starter+',
+                                         'price': '$33/mo billed monthly',
+                                         'billing': 'Monthly; annual option saves up to 30% (annual price not shown on the page we '
+                                                    'could read)',
+                                         'features': ['300 credits/mo (about 5h Editor or 2.5h Autopilot)',
+                                                      '1080p, exports up to 60 min',
+                                                      '4 GB max file size',
+                                                      '1 account per social network',
+                                                      'Email support']},
+                                        {'name': 'Professional+',
+                                         'price': '$118/mo billed monthly',
+                                         'billing': 'Monthly; annual option saves up to 30% (annual price not shown on the page we '
+                                                    'could read)',
+                                         'features': ['1,200 credits/mo (about 20h Editor or 10h Autopilot)',
+                                                      '4K, exports up to 90 min',
+                                                      '5 GB max file size',
+                                                      'Up to 3 accounts per social network',
+                                                      'Priority support']},
+                                        {'name': 'Credit packs',
+                                         'price': '$25 / $69 / $189 / $429',
+                                         'billing': 'One-time, valid 12 months',
+                                         'features': ['150 credits for $25',
+                                                      '480 credits for $69',
+                                                      '1,440 credits for $189',
+                                                      '3,600 credits for $429']},
+                                        {'name': 'Enterprise',
+                                         'price': 'Pricing not public - contact sales',
+                                         'billing': 'Custom',
+                                         'features': ['Custom volume']}],
+                      'pros_expanded': ['Covers the common repurposing chain in one place: highlights, silence removal, captions '
+                                        'and reframing.',
+                                        'Free tier has no credit card requirement and no watermark listed, so you can test on a '
+                                        'real video.',
+                                        'Wish lets you request edits in plain language instead of hunting through menus.',
+                                        'Top-up credit packs last 12 months, so a plan upgrade is not forced for a busy month.',
+                                        'Social Hub scheduling is built in, saving a separate scheduler for some workflows.'],
+                      'cons_expanded': ['Free plan allows only 30 minutes a month at 480p with 3-minute exports, enough to test '
+                                        'but not to publish regularly.',
+                                        "Autopilot uses roughly twice the credits of the Editor, so the 'hours' in each plan are "
+                                        'halved if you rely on it.',
+                                        'Monthly prices ($33 and $118) are steep for solo creators; the annual discount exists but '
+                                        'we could not verify the annual figures.',
+                                        'It is built around automation, not manual control, so precise edits, colour correction '
+                                        'and layered timelines are not its strength.',
+                                        'We did not verify third-party review scores today, so treat claims of speed savings as '
+                                        'vendor-level, not independently confirmed.'],
+                      'who_for': 'Good for podcasters, coaches, interview-based YouTubers, churches and small teams repurposing '
+                                 'long recordings and livestreams. Not for professional editors who need manual timelines, colour '
+                                 'grading or compositing, or for anyone wanting AI-generated footage rather than editing of '
+                                 'footage they already have.',
+                      'faq': [{'q': 'Is there a free plan?',
+                               'a': 'Yes. The pricing page lists a free plan with 30 credits a month, 480p output, exports up to 3 '
+                                    'minutes and a 4 GB file limit. No credit card is required to try it.'},
+                              {'q': 'How much does it cost?',
+                               'a': 'On monthly billing Starter+ is $33 and Professional+ is $118. The page says annual billing '
+                                    'saves up to 30%, but did not show annual prices when we checked, so confirm at '
+                                    'wisecut.ai/pricing.'},
+                              {'q': 'How do credits work?',
+                               'a': 'One balance covers the Editor, Wish and Autopilot. Roughly 1 credit is 1 processed minute in '
+                                    'the Editor and about 2 in Autopilot. Extra packs ($25 to $429) are valid 12 months.'},
+                              {'q': 'Is it a replacement for a full video editor?',
+                               'a': 'No. It automates cuts, captions and reframing. If you need manual multi-track timelines or '
+                                    'colour grading, use a conventional editor alongside it.'},
+                              {'q': 'Does it publish to social media?',
+                               'a': 'Autopilot and Social Hub schedule and publish to connected accounts on paid plans; Starter+ '
+                                    'allows 1 account per network and Professional+ up to 3.'}]},
+             'last_checked': '2026-10-23',
+             'alternatives': []},
             
                     
             {
@@ -1075,75 +1300,133 @@ CATEGORIES = [
                     ]
                 }
             },
-            {
-    "name": "ShortGenius",
-    "tagline": "Turns a topic or script into an edited short video and posts it to your social accounts on autopilot",
-    "desc": "ShortGenius is an AI content platform that writes scripts, generates faceless/UGC-style short videos with AI voices and avatars, and auto-publishes them on a schedule across TikTok, YouTube, Instagram, Facebook, and X. It's built around a credit-based subscription and also offers an API for teams that want to automate the whole pipeline.",
-    "pricing": "Four paid monthly tiers, no free plan: Standard $39/mo (30 credits, post once/day), Pro $69/mo (60 credits, post twice/day), Growth $99/mo (120 credits, marked 'Most Popular'), and Scale $249/mo (300 credits, highest posting volume). All tiers include the same feature set (voices, avatars, voice cloning, HD/no watermark, cross-posting, commercial use) — the only differences are monthly credits and daily posting caps. Annual billing is advertised as '6+ months free' but the site doesn't display the actual annual price. Verified directly on shortgenius.com/pricing.",
-    "url": "https://shortgenius.com/",
-    "tags": ["Faceless Video", "Auto-Posting", "UGC Ads", "Short-Form Video"],
-    "features": [
-      "AI script generation from a topic, article, or prompt",
-      "Auto-scheduling and cross-posting to TikTok, YouTube, Instagram, Facebook, and X",
-      "Access to 40+ underlying models (Sora, Veo, Luma, FLUX, ElevenLabs, Cartesia, Claude/GPT/Gemini for scripting)",
-      "AI voice cloning and UGC-style avatars for faceless creators",
-      "Built-in editor: trimming, captions, scene swapping, voice replacement, brand kit",
-      "Library of 3,000+ voices and 10,000+ music tracks",
-      "REST API and TypeScript/Python SDKs for bulk or automated pipelines"
-    ],
-    "pros": [
-      "Covers the full loop from idea to published post, not just video export",
-      "Lets you pick from many underlying AI models rather than locking you into one engine",
-      "API/SDK access makes it usable as infrastructure for agencies, not just a point-and-click tool",
-      "Built-in scheduler removes the manual step of exporting and re-uploading to each platform"
-    ],
-    "cons": [
-      "No free plan, and the cheapest tier (30 credits/month) is limited relative to daily posting needs",
-      "All tiers share the same features, so moving up a tier only buys more credits and posting frequency, not more capability",
-      "Annual pricing isn't disclosed on the pricing page, making it hard to compare true yearly cost",
-      "Quality is dependent on which third-party model you select per generation, so results (and cost per generation) can vary a lot between projects"
-    ],
-    "best_for": "Creators, agencies, and marketing teams running recurring faceless or UGC-style short-form channels across multiple platforms who want scripting, generation, and posting handled on a schedule rather than done manually per video.",
-    "deep": {
-      "overview": "ShortGenius is best understood as an automation layer sitting on top of a large stack of third-party AI models, rather than a single video engine with its own distinctive look. You give it a topic, article, or script; it drafts the copy, picks a video/image/voice model from a roster that includes Sora, Veo, Luma, FLUX, and ElevenLabs, assembles a short vertical video with captions and an optional UGC-style avatar or voice clone, and then — this is the part that actually differentiates it — schedules and auto-posts that video to TikTok, YouTube, Instagram, Facebook, and X on a recurring cadence. The company claims over 100,000 users and lists enterprise-scale clients like L'Oréal and Vodafone, which fits its framing as much as a lightweight social operations tool as a creative one.\n\nAgainst <a href=\"fliki.html\">Fliki</a>, the comparison is mostly about what happens after the video is made. Fliki's core strength is taking a written script or existing blog post and narrating it cleanly with a large voice library — it's oriented toward producing one well-finished video you then download and place wherever you want. ShortGenius does the script-to-voice step too, but treats it as one stage in a pipeline whose real product is a standing content calendar: it wants to keep generating and posting on your behalf, day after day, across several accounts at once. Against <a href=\"makeshorts-ai.html\">MakeShorts.ai</a>, the difference is upstream rather than downstream: MakeShorts.ai is fundamentally an editing tool for turning existing long-form footage into short clips, while ShortGenius generates the source video itself from a script or topic and only secondarily offers editing controls like trimming, scene swaps, and voice replacement. If your raw material is already a podcast or webinar recording you want cut into shorts, MakeShorts.ai's job is narrower and probably a better fit; if you're starting from nothing but an idea and want a channel that posts itself, ShortGenius is built for that specific job.\n\nThe honest verdict: this tool makes the most sense for people running a volume content operation — multiple faceless or UGC-style accounts that need a steady drip of short videos without a human manually exporting and uploading each one. The credit system and identical feature set across all four tiers means you're really just paying for throughput (30 to 300 credits and one to several posts a day), which is a sensible model for that audience but a poor one for someone who wants to make one polished video occasionally — there's no free tier and the entry price ($39/month) assumes recurring use. Teams that need tight creative control over a single hero video, or that specifically want strong narration from existing long-form text, are better served by Fliki. Teams whose job is repurposing existing footage into clips rather than generating new video from a script are better served by MakeShorts.ai. ShortGenius earns its place specifically for automated, scheduled, multi-account short-form output — that's a real and fairly specific niche, and it's worth being clear-eyed that the pricing and product are built around it rather than around one-off video creation.",
-      "who_for": "Best suited to social media managers, agencies, and solo creators operating multiple short-form/UGC channels who want scripting, video generation, and cross-platform posting to run on a recurring schedule with minimal manual handling.",
-      "features_detailed": [
-        {"title": "Script and topic-to-video generation", "desc": "Feed it a topic, article, or your own script and it drafts copy and turns it into a short video, using large language models (Claude, GPT, Gemini) for the writing stage."},
-        {"title": "Multi-model video and image generation", "desc": "Generations can be routed through different underlying engines (Sora, Veo, Luma for video; FLUX and Stability for images), so output style varies depending on which model you pick per project."},
-        {"title": "Voice cloning and UGC avatars", "desc": "Clone a voice or use a UGC-style avatar to produce faceless or presenter-style short videos without filming anything yourself."},
-        {"title": "Automated multi-platform scheduling", "desc": "Videos can be queued and auto-posted to TikTok, YouTube, Instagram, Facebook, and X on a set cadence rather than exported and uploaded manually to each app."},
-        {"title": "In-app editing tools", "desc": "Trim clips, add captions, swap scenes, replace voices, and apply a brand kit before a video goes out, so the auto-generated draft isn't a black box."},
-        {"title": "Large voice and music libraries", "desc": "Over 3,000 voice options and 10,000+ music tracks are available to vary the sound of generated videos across a channel."},
-        {"title": "API and SDKs", "desc": "A REST API with TypeScript/JavaScript and Python SDKs lets developers script bulk video generation and publishing outside the web UI, useful for agencies building their own pipelines on top of it."}
-      ],
-      "pricing_plans": [
-        {"name": "Standard", "price": "$39/month", "billing": "Monthly (annual option advertised as '6+ months free', exact annual price not published)", "features": ["30 credits/month", "Post once a day", "AI script writer, editor, cross-posting", "3,000+ voices, voice cloning, UGC avatars, HD/no watermark"]},
-        {"name": "Pro", "price": "$69/month", "billing": "Monthly (annual option advertised as '6+ months free', exact annual price not published)", "features": ["60 credits/month", "Post twice a day", "Same core feature set as Standard", "Commercial use, priority support"]},
-        {"name": "Growth (Most Popular)", "price": "$99/month", "billing": "Monthly (annual option advertised as '6+ months free', exact annual price not published)", "features": ["120 credits/month", "Higher posting volume for scaling", "Same core feature set as Standard/Pro", "30% affiliate commission program"]},
-        {"name": "Scale", "price": "$249/month", "billing": "Monthly (annual option advertised as '6+ months free', exact annual price not published)", "features": ["300 credits/month", "Maximum posting volume", "Same core feature set as lower tiers", "Best suited to agencies/high-volume teams"]}
-      ],
-      "pros_expanded": [
-        "ShortGenius is one of the few tools in this category that treats publishing, not just generation, as a first-class feature — the scheduler and multi-platform auto-posting mean you don't need a separate social media tool to actually get the video live, which saves real operational time for anyone running several channels.",
-        "Giving users a choice among 40+ underlying models (rather than one proprietary engine) means you can chase whichever video or voice model currently produces the best results for your niche, instead of being stuck with a single house style the way many narrower tools are.",
-        "The API and SDKs are a genuine differentiator for agencies: you can build your own automation around ShortGenius's generation and posting capabilities instead of being limited to clicking through a dashboard for every video.",
-        "Feature parity across all four tiers (voice cloning, UGC avatars, commercial use, no watermark are available even on the cheapest plan) means smaller creators aren't locked out of the tool's best features just because they buy the entry tier — they simply get fewer credits."
-      ],
-      "cons_expanded": [
-        "Because pricing scales purely by credits and posting frequency rather than by feature access, there's no cheap way to try the tool for a single project — the $39 entry price and lack of a free plan assume you're committing to recurring, scheduled output, which is a mismatch for someone who wants one video.",
-        "The credit system adds a layer of cost-management overhead: since generation quality and cost vary by which of the 40+ models you pick, it's easy to burn through a month's credits faster than expected if you experiment across engines.",
-        "The site doesn't publish actual annual prices despite advertising a '6+ months free' discount, which makes it hard to do an apples-to-apples yearly cost comparison against competitors without going through checkout.",
-        "It is not built for long-form, heavily narrated content the way Fliki is, nor is it a dedicated editor for repurposing existing long-form footage into shorts the way MakeShorts.ai is — teams with either of those narrower needs will likely find a more focused tool that does that one job better and probably cheaper."
-      ],
-      "faq": [
-        {"q": "Does ShortGenius have a free plan?", "a": "No. The pricing page shows four paid monthly tiers starting at $39/month; there's no free tier, only a 'cancel anytime' policy on paid plans."},
-        {"q": "What do the higher-priced tiers actually add?", "a": "Based on the pricing page, all four tiers (Standard, Pro, Growth, Scale) include the same feature set — voice cloning, UGC avatars, HD/no watermark, commercial use, priority support. The differences are monthly credits (30/60/120/300) and how many times per day you can auto-post."},
-        {"q": "How is ShortGenius different from Fliki?", "a": "Fliki is oriented around narrating an existing script or blog post into one polished video with an AI voice. ShortGenius does that step too, but is built around a recurring pipeline: it also generates the underlying video content from many possible models and auto-posts it on a schedule across multiple social accounts, which Fliki doesn't do."},
-        {"q": "How is ShortGenius different from MakeShorts.ai?", "a": "MakeShorts.ai is focused on editing — turning existing long-form footage into short clips. ShortGenius generates the source video itself from a topic or script rather than starting from footage you already have, and adds auto-posting on top."},
-        {"q": "Can I use my own footage or avatar instead of fully AI-generated video?", "a": "ShortGenius supports AI voice cloning and UGC-style avatars, and its editor allows scene swapping and voice replacement, so there's some room to customize output, though the platform's emphasis is on AI-generated rather than uploaded footage."},
-        {"q": "Is there an API for developers?", "a": "Yes — ShortGenius publishes a REST API (documented at shortgenius.gitbook.io/api) with TypeScript/JavaScript and Python SDKs covering video generation, image generation, text-to-speech, and social channel management, aimed at teams that want to automate bulk content production."}
-      ]
-    }
-},
+            {'name': 'ShortGenius',
+             'tagline': 'Turns a topic or script into a short video and posts it to your social accounts on a schedule',
+             'desc': 'ShortGenius is an AI content platform that writes scripts, generates faceless/UGC-style short videos with AI '
+                     'voices and avatars, and auto-publishes them on a schedule across TikTok, YouTube, Instagram, Facebook, and '
+                     "X. It's built around a credit-based subscription and also offers an API for teams that want to automate the "
+                     'whole pipeline.',
+             'pricing': 'Four paid monthly tiers, no free plan listed: Standard $39/mo (30 credits, one post a day), Pro $69/mo '
+                        '(60 credits, two posts a day), Growth $99/mo (120 credits), Scale $249/mo (300 credits). Yearly billing '
+                        "is advertised as '6+ months free' but yearly prices are not shown. Checked on shortgenius.com/pricing on "
+                        '2026-10-23.',
+             'url': 'https://shortgenius.com/',
+             'tags': ['Faceless Video', 'Auto-Posting', 'UGC Ads', 'Short-Form Video'],
+             'features': ['AI script generation from a topic, article, or prompt',
+                          'Auto-scheduling and cross-posting to TikTok, YouTube, Instagram, Facebook, and X',
+                          'Access to 40+ underlying models (Sora, Veo, Luma, FLUX, ElevenLabs, Cartesia, Claude/GPT/Gemini for '
+                          'scripting)',
+                          'AI voice cloning and UGC-style avatars for faceless creators',
+                          'Built-in editor: trimming, captions, scene swapping, voice replacement, brand kit',
+                          'Library of 3,000+ voices and 10,000+ music tracks',
+                          'REST API and TypeScript/Python SDKs for bulk or automated pipelines'],
+             'pros': ['Covers the full loop from idea to published post, not just video export',
+                      'Lets you pick from many underlying AI models rather than locking you into one engine',
+                      'API/SDK access makes it usable as infrastructure for agencies, not just a point-and-click tool',
+                      'Built-in scheduler removes the manual step of exporting and re-uploading to each platform'],
+             'cons': ['No free plan listed; entry tier is $39/month with 30 credits',
+                      'Higher tiers mainly add credits and posting frequency, not features',
+                      'Yearly prices not published',
+                      'Quality and credit use vary with the third-party model chosen'],
+             'best_for': 'Creators, agencies, and marketing teams running recurring faceless or UGC-style short-form channels '
+                         'across multiple platforms who want scripting, generation, and posting handled on a schedule rather than '
+                         'done manually per video.',
+             'deep': {'overview': 'ShortGenius is a good fit for people who run several faceless or UGC-style short-video channels '
+                                  'and want videos made and posted on a schedule; skip it if you only need an occasional single '
+                                  'video, because there is no free plan and the cheapest tier is $39 a month. It takes a topic, '
+                                  'article or script, writes the copy, generates the video using third-party models, adds voice '
+                                  'and captions, and then auto-posts to TikTok, YouTube, Instagram, Facebook and X. Its credit '
+                                  'allowance is small at the entry level, so heavy experimenting with different video models can '
+                                  'use a month of credits quickly. A REST API and SDKs exist for teams that want to automate the '
+                                  'pipeline.',
+                      'who_for': 'Social media managers, agencies and solo creators who run recurring short-form channels and want '
+                                 'generation plus scheduled posting in one place. Not for people who want one polished video now '
+                                 'and then, anyone who needs a free tier, or teams that mainly want to cut clips from existing '
+                                 'long recordings.',
+                      'features_detailed': [{'title': 'Script and topic-to-video generation',
+                                             'desc': 'Feed it a topic, article, or your own script and it drafts copy and turns it '
+                                                     'into a short video, using large language models (Claude, GPT, Gemini) for '
+                                                     'the writing stage.'},
+                                            {'title': 'Multi-model video and image generation',
+                                             'desc': 'Generations can be routed through different underlying engines (Sora, Veo, '
+                                                     'Luma for video; FLUX and Stability for images), so output style varies '
+                                                     'depending on which model you pick per project.'},
+                                            {'title': 'Voice cloning and UGC avatars',
+                                             'desc': 'Clone a voice or use a UGC-style avatar to produce faceless or '
+                                                     'presenter-style short videos without filming anything yourself.'},
+                                            {'title': 'Automated multi-platform scheduling',
+                                             'desc': 'Videos can be queued and auto-posted to TikTok, YouTube, Instagram, '
+                                                     'Facebook, and X on a set cadence rather than exported and uploaded manually '
+                                                     'to each app.'},
+                                            {'title': 'In-app editing tools',
+                                             'desc': 'Trim clips, add captions, swap scenes, replace voices, and apply a brand kit '
+                                                     "before a video goes out, so the auto-generated draft isn't a black box."},
+                                            {'title': 'Large voice and music libraries',
+                                             'desc': 'Over 3,000 voice options and 10,000+ music tracks are available to vary the '
+                                                     'sound of generated videos across a channel.'},
+                                            {'title': 'API and SDKs',
+                                             'desc': 'A REST API with TypeScript/JavaScript and Python SDKs lets developers script '
+                                                     'bulk video generation and publishing outside the web UI, useful for agencies '
+                                                     'building their own pipelines on top of it.'}],
+                      'pricing_plans': [{'name': 'Standard',
+                                         'price': '$39/month',
+                                         'billing': "Monthly; yearly option advertised as '6+ months free', yearly price not shown",
+                                         'features': ['30 credits/month', 'Post once a day', 'Same feature set as every tier']},
+                                        {'name': 'Pro (labelled Most Popular)',
+                                         'price': '$69/month',
+                                         'billing': "Monthly; yearly option advertised as '6+ months free', yearly price not shown",
+                                         'features': ['60 credits/month', 'Post twice a day', 'Same feature set as every tier']},
+                                        {'name': 'Growth',
+                                         'price': '$99/month',
+                                         'billing': "Monthly; yearly option advertised as '6+ months free', yearly price not shown",
+                                         'features': ['120 credits/month',
+                                                      'Posting limit not stated on the page',
+                                                      'Same feature set as every tier']},
+                                        {'name': 'Scale',
+                                         'price': '$249/month',
+                                         'billing': "Monthly; yearly option advertised as '6+ months free', yearly price not shown",
+                                         'features': ['300 credits/month',
+                                                      "'Maximum posting volume'",
+                                                      'Same feature set as every tier']}],
+                      'pros_expanded': ['Posting is built in: the scheduler cross-posts to five platforms, so you do not need a '
+                                        'separate scheduling tool.',
+                                        'You can choose among many underlying video, image and voice models instead of one house '
+                                        'engine.',
+                                        'An API and SDKs make it usable for agencies building their own pipelines.',
+                                        'Every plan includes voice cloning, avatars, no watermark and commercial use, so the '
+                                        'cheapest tier is not feature-crippled.'],
+                      'cons_expanded': ['No free plan on the pricing page, so you cannot try it on a real project without paying '
+                                        '$39.',
+                                        'Credits are small on the entry tier (30), and cost per video depends on the model you '
+                                        'pick, so spend is hard to predict.',
+                                        "Yearly prices are not published despite the '6+ months free' claim.",
+                                        'The pricing cards include unlabelled numbers, so the exact per-credit limits are unclear '
+                                        'from the page.',
+                                        'Output quality depends on third-party models, so results vary by project.'],
+                      'faq': [{'q': 'Does ShortGenius have a free plan?',
+                               'a': 'The pricing page shows only four paid monthly plans starting at $39/month and no free tier. '
+                                    "Paid plans say 'cancel anytime'. The page's meta text hints at a free start, but no details "
+                                    'are given, so not verified.'},
+                              {'q': 'What do the higher tiers add?',
+                               'a': 'The page lists the same features on every plan (voices, voice cloning, UGC avatars, HD '
+                                    'without watermark, cross-posting, commercial use, priority support). Higher tiers add credits '
+                                    '(30/60/120/300) and, at the lower tiers, more posts per day.'},
+                              {'q': 'What does yearly billing cost?',
+                               'a': "The page says yearly billing gives '6+ months free' but does not show a yearly price. Not "
+                                    'verified; check at checkout.'},
+                              {'q': 'Can I use it only for editing existing footage?',
+                               'a': 'It is built to generate videos from scripts and topics. It has an editor for trimming, '
+                                    'captions and scene swaps, but it is not mainly a clip-cutting tool for long recordings.'},
+                              {'q': 'Is there an API?',
+                               'a': 'Yes, the site documents a REST API with TypeScript and Python SDKs for automating generation '
+                                    'and posting.'}]},
+             'alternatives': [{'slug': 'fliki',
+                               'why': 'Better if you want one well-narrated video from a script or blog post; no scheduled '
+                                      'auto-posting pipeline.'},
+                              {'slug': 'heygen',
+                               'why': 'Stronger for avatar-presenter marketing videos; not built around scheduled multi-platform '
+                                      'posting.'}],
+             'last_checked': '2026-10-23'},
         ],
     },
     {
@@ -1556,53 +1839,128 @@ CATEGORIES = [
             {'name': 'AI21 Studio', 'tagline': 'Jamba language model API from AI21 Labs, now pitched around custom post-training', 'desc': "AI21 Studio is AI21 Labs' developer platform for the Jamba family of hybrid SSM-Transformer language models and the Maestro agent-orchestration system, built for long-document and enterprise agentic workloads.", 'pricing': 'Pay-as-you-go: Jamba Mini $0.2 input / $0.4 output per 1M tokens, Jamba Large $2 / $8 per 1M tokens; $10 free trial credit for 7 days (no card); Custom plan via sales.', 'url': 'https://www.ai21.com/', 'tags': ['Coding & Development', 'LLM API', 'AI Agents', 'Developer Tools'], 'features': ['Jamba Mini and Jamba Large models via API and SDK', 'Usage-based billing per million tokens, unlimited seats', 'Free trial: $10 credit valid 7 days, no credit card', 'Custom plan: volume discounts, premium rate limits, private cloud hosting, priority support', 'Homepage now centers on post-training services (Evaluate, Train, Serve, Improve)', 'Intelligent Gateway product listed on the homepage', "Deployment managed by AI21 or in the customer's VPC or on-premise"], 'pros': ['Clear, low token prices: Jamba Mini at $0.2/$0.4 per 1M tokens', 'Free trial needs no credit card', 'Unlimited seats on the pay-as-you-go plan', 'VPC and on-premise deployment options for enterprises', 'Hybrid SSM-Transformer Jamba design (vendor-described) targets long-context workloads'], 'cons': ['Homepage no longer mentions Jamba or Maestro, so the product roadmap is unclear; confirm what is current before building', 'Free trial is only 7 days', 'Enterprise and Custom plan pricing is not public', 'Smaller ecosystem than the large model providers'], 'best_for': 'Enterprise teams that want a cheap long-context text model API, or a vendor to post-train a model on their own data, and who can confirm current Jamba availability.', 'deep': {'overview': "AI21 Studio suits developers and enterprises that want an inexpensive token-priced model API, or a vendor to custom post-train models, and are fine with a smaller ecosystem. Skip it if you need frontier-level reasoning or coding, a large community and plugin ecosystem, or certainty about a long-term public developer platform, because AI21's homepage now leads with services. AI21 Labs sells API access to its Jamba models, priced per million tokens (Mini and Large). Its homepage as of October 2026 describes a 'lab-as-a-service' model where forward-deployed researchers post-train specialized models for a customer, plus an Intelligent Gateway product, and does not mention Jamba or Maestro, although the pricing page still lists Jamba. We could not confirm from official pages whether Maestro and the earlier Playground tooling remain current.", 'features_detailed': [{'title': 'Jamba models via API', 'desc': 'Jamba Mini and Jamba Large are listed on the pricing page with per-million-token input and output prices, plus an SDK.'}, {'title': 'Post-training service', 'desc': 'The homepage describes a four-stage platform (Evaluate, Train, Serve, Improve) where AI21 researchers post-train specialized models for a task.'}, {'title': 'Intelligent Gateway', 'desc': 'Listed as a product on the homepage; the page content we could read gave no further detail.'}, {'title': 'Flexible deployment', 'desc': "Models can be managed by AI21 or run in the customer's environment, including a VPC or on-premise."}, {'title': 'Custom plan', 'desc': 'Adds volume discounts, premium API rate limits, private cloud hosting, priority support, a dedicated account manager and AI consultancy.'}], 'pricing_plans': [{'name': 'Free trial', 'price': '$10 credit', 'billing': 'valid 7 days, no credit card', 'features': ['Access to foundation model APIs']}, {'name': 'Pay As You Go', 'price': 'Usage-based', 'billing': 'per 1M tokens', 'features': ['Jamba Mini: $0.2 input / $0.4 output', 'Jamba Large: $2 input / $8 output', 'Foundation model APIs and SDK', 'Unlimited seats']}, {'name': 'Custom', 'price': 'pricing not public — contact sales', 'billing': 'custom', 'features': ['Everything in Pay As You Go', 'Volume discounts', 'Premium API rate limits', 'Private cloud hosting', 'Priority support', 'Dedicated account manager', 'Expert AI consultancy']}], 'pros_expanded': ['Token prices are published and low for Jamba Mini ($0.2 input, $0.4 output per 1M tokens), making experiments cheap.', 'Unlimited seats on pay-as-you-go means no per-user cost as a team grows.', 'Free trial requires no credit card.', 'Customers can run models in their own VPC or on-premise, useful for data-sensitive firms.', 'Custom post-training offers a route to a task-specific model rather than prompting a general one.'], 'cons_expanded': ['The homepage emphasis has shifted to post-training services; Jamba and Maestro are not mentioned there, so product direction is unclear.', 'The 7-day, $10 trial is short for serious evaluation.', 'Enterprise and Custom plans have no public prices.', 'We did not benchmark Jamba; earlier claims about 256K context and long-context speed are from AI21 and could not be re-verified from the pages fetched today.', 'Smaller developer community than the biggest model providers, so fewer third-party tutorials and integrations.'], 'who_for': 'Good for enterprises wanting custom-trained models in their own VPC or on-premise, and developers wanting low-cost Jamba tokens. Not for solo hobbyists needing a long free tier, teams that need top-tier reasoning or coding models, or anyone who requires published enterprise pricing.', 'faq': [{'q': 'How much does the AI21 API cost?', 'a': 'As checked on 2026-10-21: Jamba Mini is $0.2 per 1M input tokens and $0.4 per 1M output; Jamba Large is $2 input and $8 output. A Custom plan is available through sales.'}, {'q': 'Is there a free trial?', 'a': 'Yes, $10 in credits valid for 7 days, with no credit card required.'}, {'q': 'Is Maestro still available?', 'a': 'We could not confirm. The current AI21 homepage does not mention Maestro or Jamba. Ask AI21 or check the docs before relying on it.'}, {'q': 'Does AI21 offer private deployment?', 'a': "The homepage says models can run in the customer's VPC or on-premise, and the Custom plan lists private cloud hosting."}, {'q': 'Who should look elsewhere?', 'a': 'Teams needing frontier reasoning or coding performance, a large ecosystem, or fully public enterprise pricing.'}]}, 'alternatives': [{'slug': 'cohere', 'why': 'Also sells enterprise-focused LLM APIs with private deployment; typically a larger ecosystem, but compare model pricing and quality on your own tasks.'}, {'slug': 'fireworks-ai', 'why': 'Hosts many open-source models behind one API, so you get model choice; AI21 instead centers on its own Jamba models and custom post-training.'}], 'last_checked': '2026-10-21'},
             {'name': 'Amazon Q Developer', 'tagline': "AWS's AI coding assistant for IDEs, the CLI and the AWS Console", 'desc': "Amazon Q Developer is AWS's generative AI assistant for coding, with inline suggestions, chat, agentic tasks, security scanning, Java and .NET transformation and help inside the AWS Console. AWS has announced it will end support for its IDE plugins on April 30, 2027 and points users to Kiro.", 'pricing': 'Free: 50 agentic requests/month and 1,000 lines of Java/.NET transformation. Pro: $19/user/month. Pro transformation overage $0.003/line beyond 4,000 pooled lines per user.', 'url': 'https://aws.amazon.com/q/developer/', 'tags': ['Coding & Development', 'AI Code Assistant', 'AWS'], 'features': ['Inline code suggestions, chat and CLI completions', 'Agentic multistep tasks such as features, tests, docs, reviews and refactors', 'Vulnerability scanning with suggested fixes', 'Java upgrades and .NET porting transformation', 'Guidance in the AWS Console, Slack and Microsoft Teams', 'Runs in JetBrains, VS Code, Visual Studio, Eclipse (preview), CLI and GitHub (preview)'], 'pros': ['Free tier with no card-style trial clock (50 agentic requests per month)', 'Knows AWS services, costs and console context better than generic assistants', 'Java and .NET transformation is a distinctive capability', 'Pro adds admin dashboard and IP indemnity at $19/user/month'], 'cons': ['AWS says it will discontinue support for the IDE plugins on April 30, 2027, recommending Kiro', 'Free tier is only 50 agentic requests a month', 'Pro agentic request limits are not given numerically', 'Value drops for teams not on AWS'], 'best_for': 'AWS-centric teams, especially with Java or .NET modernization work, who need an assistant for the next several months and are prepared to plan a move to Kiro or another tool.', 'deep': {'overview': 'Amazon Q Developer is worth using today if your team lives on AWS or has Java and .NET code to upgrade, but it is a risky long-term pick: AWS has announced it will discontinue support for the IDE plugins on April 30, 2027 and recommends Kiro instead. It is a coding assistant with inline suggestions, chat, agentic tasks (features, tests, documentation, reviews, refactoring, upgrades), vulnerability scanning and CLI help, and it also answers cost, architecture and incident questions inside the AWS Console, Slack and Microsoft Teams. It runs in JetBrains, VS Code, Visual Studio and the command line, with Eclipse and GitHub in preview. There is a free tier and a $19 per user per month Pro tier.', 'features_detailed': [{'title': 'Code assistance', 'desc': 'Suggestions from snippets to full functions, inline chat, CLI completions and natural-language-to-bash.'}, {'title': 'Agentic tasks', 'desc': 'Multistep work such as implementing features, writing tests and documentation, code reviews, refactoring and upgrades.'}, {'title': 'Security scanning', 'desc': 'Finds vulnerabilities and suggests fixes, and can generate unit tests.'}, {'title': 'Code transformation', 'desc': 'Java version upgrades and .NET porting from Windows to Linux, metered in lines of code.'}, {'title': 'AWS guidance', 'desc': 'Answers questions on costs, architecture, incidents and networking in the AWS Console, Slack and Microsoft Teams.'}, {'title': 'Private repository context', 'desc': 'Connect your own repositories for more relevant recommendations.'}], 'pricing_plans': [{'name': 'Free Tier', 'price': '$0', 'billing': 'Free', 'features': ['50 agentic chat/coding requests per month', '1,000 lines of Java/.NET transformation per month', 'No admin dashboard or IP indemnity', 'Data collection opt-out available']}, {'name': 'Pro Tier', 'price': '$19 per user per month', 'billing': 'Per user, monthly; cancelling mid-month still charges the full month', 'features': ['Agentic requests included with limits (no number published)', '4,000 lines of transformation per user per month, pooled at payer-account level', 'Overage $0.003 per line submitted', 'Admin dashboard, IP indemnity, automatic data-collection opt-out']}], 'pros_expanded': ['Free tier is permanent, not a time-limited trial', 'Understands AWS accounts, costs and services, so cloud questions get grounded answers', 'Automated Java and .NET transformation targets tedious modernization work', 'Pro tier includes IP indemnity and an admin dashboard for managed teams', 'Works across several IDEs, the CLI, and chat apps like Slack and Teams'], 'cons_expanded': ['AWS states it will end support for Amazon Q Developer IDE plugins on April 30, 2027 and recommends Kiro, so plan a migration', 'Free tier gives only 50 agentic requests a month, little for daily use', 'Pro does not publish a numeric agentic request cap, and limits may be adjusted by AWS', "Transformation overage at $0.003 per line can add up on big codebases (50,000 lines used against a 40,000 pool costs $30 per AWS's example)", 'Least useful for codebases and teams outside AWS'], 'who_for': 'Who it is for: AWS-heavy teams, platform and cloud engineers, and organizations modernizing Java or .NET apps that want an assistant tied to AWS accounts. Who it is NOT for: teams outside AWS, anyone wanting a tool with a clear multi-year IDE roadmap (given the announced 2027 plugin end of support), or heavy daily agentic users who will exceed 50 free requests.', 'faq': [{'q': 'Is Amazon Q Developer free?', 'a': 'Yes, the Free tier gives 50 agentic requests and up to 1,000 lines of transformed code per month at no cost.'}, {'q': 'How much is Pro?', 'a': '$19 per user per month. It adds an admin dashboard, IP indemnity, 4,000 pooled transformation lines per user monthly, and automatic data-collection opt-out.'}, {'q': 'Is Amazon Q Developer being discontinued?', 'a': "AWS's product page says it will discontinue support for the IDE plugins on April 30, 2027 and recommends Kiro. It did not describe what happens to other surfaces such as the Console, so check AWS for details."}, {'q': 'What happens if I exceed the transformation limit?', 'a': 'On Pro, usage beyond the pooled allotment is $0.003 per line submitted. Free tier lists no overage charge.'}, {'q': 'Does it only work for AWS code?', 'a': 'No, it works in general projects, but its Console, cost and account-aware features matter mostly if you use AWS.'}]}, 'alternatives': [{'slug': 'github-copilot', 'why': "Cloud-agnostic IDE assistant with a broader developer base; lacks Amazon Q's AWS account awareness."}, {'slug': 'tabnine', 'why': 'Similar IDE assistant with strong private or self-hosted deployment options; not AWS-specific.'}], 'last_checked': '2026-10-20'},
             
-            {"name": "Cosine", "tagline": "Specialist coding models built for secure, sovereign environments", "desc": "Cosine (formerly known for its Genie coding agent) now builds the Lumen family of specialist code models and coding agents, purpose-built for enterprises that need frontier coding capability inside private or air-gapped environments.", "pricing": "Starter $19/month (4M credits, $6.50 per 1M add-on); Team $199/month (47M credits, $5.00 per 1M add-on); Enterprise $999/month (240M credits, $4.50 per 1M add-on); custom pricing for private/air-gapped deployments.", "url": "https://cosine.sh/",
- "tags": ["Coding & Development", "AI Coding Agent", "Enterprise AI", "Sovereign AI"],
- "features": ["Lumen Scout, Outpost and Sovereign specialist coding models", "Terminal-native CLI with local-to-remote execution and MCP tool access", "Cosine Cloud for running multiple coding tasks in parallel", "Multi-agent orchestration for large, cross-team changes", "Public cloud, managed single-tenant, or fully air-gapped deployment options", "Post-trained on niche and legacy languages (COBOL, Fortran, Verilog, Rust, complex SQL)", "Red Team application for AI-assisted cybersecurity workflows", "Credit top-ups available on all tiers"],
- "pros": ["Strong enterprise and regulated-industry customer base including BAE Systems, HSBC, Lloyds Bank, Deloitte, EY and Vodafone", "Models trained specifically on production code, aiming for less 'AI slop' and more maintainable output than generalist models", "Deployment flexibility spans public cloud to fully air-gapped, fitting defense, finance and telecom compliance needs", "Publishes its own benchmark data (e.g. Niche-Bench) showing competitive cost-per-successful-task versus GPT-5.4 and Gemini"],
- "cons": ["The product and brand have shifted substantially -- the original Genie coding agent has been retired in favor of the Lumen model family, which can confuse past users searching for 'Cosine Genie'", "Credit-based pricing makes cost forecasting harder for teams with unpredictable or heavy agentic usage", "Sovereign/enterprise focus and pricing (Team at $199/mo, Enterprise at $999/mo) make it a poor fit for solo hobbyist developers", "Virtually no independent reviews on G2 or Capterra yet to verify real-world reliability at scale"],
- "best_for": "Regulated enterprises in finance, defense, telecom and government that need an AI coding agent capable of running fully air-gapped or in a private cloud, especially teams working in legacy or niche languages like COBOL or Fortran, rather than individual developers wanting a consumer IDE copilot.",
- "deep": {
-    "overview": "Cosine is a London-based AI company that originally rose to attention with Genie, an autonomous AI software engineer positioned as being able to solve bugs, build new features, and refactor code either fully autonomously or in collaboration with a human developer, with the company claiming it emulated human engineering reasoning rather than just pattern-matching code completions. Genie 2, released in 2025, added more agentic workflows such as reading a Jira ticket, writing the code, running tests, and opening a pull request, and the product posted competitive scores on the SWE-bench coding benchmark that drew comparisons to Cognition's Devin. Through 2026, however, Cosine repositioned itself entirely: it retired the Genie brand and shipped the Lumen model family (Scout, Outpost, and the upcoming Sovereign) in its place, alongside a new company tagline, 'The Sovereign AI Lab.' The current product surface centers on training specialist code models -- post-trained from open bases like Devstral and Kimi K2.6 -- that are optimized purely for writing exceptional, maintainable software rather than being general-purpose assistants, and on deploying those models inside customers' own secure or air-gapped infrastructure via a terminal-native CLI and a parallel-task Cosine Cloud surface.\n\nCosine's current go-to-market leans heavily on regulated, security-conscious enterprises: its published customer and partner logos include BAE Systems, HSBC, Lloyds Bank, Telefonica, Leonardo, LSEG, PwC, Deloitte, Fujitsu, Vodafone, and EY, alongside a research partnership with the Alan Turing Institute. This reflects a broader strategic bet that specialist, narrowly-trained coding models deployed inside a customer's own security perimeter will outperform generalist frontier models for teams that cannot send proprietary or classified code to a shared cloud API. The company raised early funding (including a $2.5M round reported in 2024) to build out Genie, and has since expanded its focus to include a 'Red Team' cybersecurity application and explicit air-gapped and sovereign-AI deployment tracks, positioning Cosine less as a general developer-tools startup and more as an infrastructure and model provider for defense, financial services, and other institutions with strict data-residency requirements.",
-    "features_detailed": [
-      {"title": "Lumen model family", "desc": "Three specialist coding models -- Scout (fast, low-cost, on-device), Outpost (high-quality production implementation), and Sovereign (frontier-scale reasoning, coming soon) -- each targeting a different layer of the dev workflow."},
-      {"title": "Cosine CLI", "desc": "A terminal-native interface with a local-to-remote execution model, external tool access via MCP, and multi-agent orchestration for complex changes."},
-      {"title": "Cosine Cloud", "desc": "Lets teams run multiple coding tasks in parallel and collaborate across engineers, PMs, and stakeholders on large changes in a shared project."},
-      {"title": "Flexible security posture", "desc": "Deployable as fully managed public cloud, a managed single-tenant private environment, or fully air-gapped inside a customer's own perimeter."},
-      {"title": "Niche and legacy language support", "desc": "Models are post-trained specifically for enterprise and niche languages such as COBOL, Fortran, Verilog, Rust, and complex SQL, beyond mainstream web-stack languages."},
-      {"title": "Published benchmarking", "desc": "Cosine publishes its own Niche-Bench, Vibe-Bench, and Slop-Bench results comparing cost-per-successful-task against models like GPT-5.4, Gemini 3.1 Pro, and Kimi K2.6."},
-      {"title": "Red Team application", "desc": "A dedicated application built on Lumen models for AI-assisted cybersecurity and red-teaming workflows."}
-    ],
-    "pricing_plans": [
-      {"name": "Starter", "price": "$19/month", "billing": "monthly, per seat", "features": ["4M credits/month", "$6.50 per 1M add-on credits", "For solo developers and side projects"]},
-      {"name": "Team", "price": "$199/month", "billing": "monthly", "features": ["47M credits/month", "$5.00 per 1M add-on credits", "For growing teams shipping at scale"]},
-      {"name": "Enterprise", "price": "$999/month", "billing": "monthly", "features": ["240M credits/month", "$4.50 per 1M add-on credits", "For highly-regulated industries prioritizing data privacy"]},
-      {"name": "Custom / Air-gapped", "price": "Custom", "billing": "contact sales", "features": ["Managed single-tenant or fully air-gapped deployment", "Tailored infrastructure, support and security terms"]}
-    ],
-    "pros_expanded": [
-      "Cosine has secured a notable roster of large regulated enterprise customers (BAE Systems, HSBC, Lloyds, Deloitte, EY, Vodafone), suggesting real traction with buyers who have strict security and compliance requirements.",
-      "The specialist-model thesis -- training on real production code rather than general web text -- is aimed directly at reducing generic, low-quality 'AI slop' output that plagues many general-purpose coding assistants.",
-      "Deployment flexibility from public cloud all the way to fully air-gapped is a genuine differentiator versus most AI coding tools that are cloud-API-only, making it viable for defense and financial-services buyers.",
-      "The company publishes its own benchmark methodology and cost-per-successful-task comparisons against major frontier models, offering more transparency than vendors who only cite marketing claims.",
-      "Support for niche and legacy languages (COBOL, Fortran, Verilog) addresses a real gap, since most mainstream copilots are heavily optimized for JavaScript/Python and perform noticeably worse on legacy enterprise codebases."
-    ],
-    "cons_expanded": [
-      "The 2026 rebrand from Genie to the Lumen model family and 'Sovereign AI Lab' positioning represents a significant product and messaging pivot, which can be disorienting for anyone evaluating the company based on older Genie coverage or benchmark claims.",
-      "Credit-based consumption pricing (used across all tiers) makes monthly cost less predictable than flat per-seat pricing, particularly for teams running many parallel or long-running agent tasks.",
-      "Pricing tiers jump sharply from $19 to $199 to $999 per month, with limited middle ground for small teams that have outgrown solo use but aren't yet an enterprise buyer.",
-      "As of 2026, Cosine has essentially no reviews on G2, Capterra, or similar platforms, so claims about productivity gains rely mostly on vendor case studies and blog posts rather than independently verifiable user feedback.",
-      "The current positioning is heavily enterprise/security-first, meaning individual developers or small startups without air-gapped requirements may find the pricing and deployment options more complex than they need."
-    ],
-    "who_for": "Cosine is best suited to large, regulated organizations -- banks, defense contractors, telecoms, and government-adjacent enterprises -- that need a coding agent capable of running inside their own secure or air-gapped infrastructure, especially those maintaining legacy or niche-language codebases. It is a poor fit for individual developers or small teams who just want an affordable IDE copilot with a large plugin ecosystem and community track record.",
-    "faq": [
-      {"q": "What happened to Cosine's Genie AI coding agent?", "a": "Genie has been retired; in 2026 Cosine replaced it with the Lumen model family (Scout, Outpost, and the upcoming Sovereign), reflecting a shift toward specialist, security-focused coding models."},
-      {"q": "Can Cosine run fully offline or air-gapped?", "a": "Yes, Cosine offers fully air-gapped deployment for organizations that need the models to run entirely inside their own security perimeter, in addition to public cloud and managed single-tenant options."},
-      {"q": "How is Cosine priced?", "a": "Pricing is credit-based per seat: Starter is $19/month with 4M credits, Team is $199/month with 47M credits, and Enterprise is $999/month with 240M credits, plus add-on credit purchases."},
-      {"q": "What programming languages does Cosine support best?", "a": "Cosine specifically post-trains its models on niche and legacy languages such as COBOL, Fortran, Verilog and Rust, alongside mainstream languages, aiming to outperform generalist models on legacy enterprise codebases."},
-      {"q": "How do I access Cosine's models?", "a": "Through a terminal-native CLI (with MCP tool access) or through Cosine Cloud, which lets teams run and collaborate on multiple coding tasks in parallel."},
-      {"q": "Who are Cosine's typical customers?", "a": "Large regulated enterprises including financial services (HSBC, Lloyds, LSEG), defense (BAE Systems, Leonardo), and professional services firms (Deloitte, EY, PwC), reflecting its focus on secure, compliance-heavy environments."}
-    ]
- }},
+            {'name': 'Cosine',
+             'tagline': 'Specialist coding models built for secure, sovereign environments',
+             'desc': 'Cosine (formerly known for its Genie coding agent) now builds the Lumen family of specialist code models and '
+                     'coding agents, purpose-built for enterprises that need frontier coding capability inside private or '
+                     'air-gapped environments.',
+             'pricing': 'Monthly credit plans: Starter from $19/mo (4M credits, $6.50 per 1M extra), Team $199/mo (47M credits, '
+                        '$5.00 per 1M extra), Enterprise $999/mo (240M credits, $4.50 per 1M extra). Whether prices are per seat '
+                        'is not stated on the page. Private or air-gapped deployments are scoped with sales. Checked on '
+                        'cosine.sh/pricing on 2026-10-23.',
+             'url': 'https://cosine.sh/',
+             'tags': ['Coding & Development', 'AI Coding Agent', 'Enterprise AI', 'Sovereign AI'],
+             'features': ['Lumen Scout, Outpost and Sovereign specialist coding models',
+                          'Terminal-native CLI with local-to-remote execution and MCP tool access',
+                          'Cosine Cloud for running multiple coding tasks in parallel',
+                          'Multi-agent orchestration for large, cross-team changes',
+                          'Public cloud, managed single-tenant, or fully air-gapped deployment options',
+                          'Post-trained on niche and legacy languages (COBOL, Fortran, Verilog, Rust, complex SQL)',
+                          'Red Team application for AI-assisted cybersecurity workflows',
+                          'Credit top-ups available on all tiers'],
+             'pros': ['Deployment options range from public cloud to fully air-gapped',
+                      'Models are tuned for maintainable code and niche languages such as COBOL, Fortran and Verilog',
+                      'Offers CLI, Desktop and Cloud surfaces, with MCP tools and parallel sub-agents in the CLI',
+                      'Publishes cost-per-task benchmark comparisons (company-run)'],
+             'cons': ['Genie coding agent has been replaced by the Lumen models, which can confuse past users',
+                      'Credit-based pricing is hard to forecast for heavy agent use',
+                      'Pricing jumps from $19 to $199 to $999 a month',
+                      'Lumen Sovereign and some apps are marked coming soon',
+                      'Customer logos and benchmark claims are company-published, not independently verified'],
+             'best_for': 'Regulated enterprises in finance, defense, telecom and government that need an AI coding agent capable '
+                         'of running fully air-gapped or in a private cloud, especially teams working in legacy or niche languages '
+                         'like COBOL or Fortran, rather than individual developers wanting a consumer IDE copilot.',
+             'deep': {'overview': 'Cosine is a good fit for regulated organisations, such as banks, defence and telecom firms, '
+                                  'that want a coding agent running in a private or air-gapped setup, particularly for legacy or '
+                                  'niche-language code; solo developers who just want a cheap editor copilot should skip it. The '
+                                  'company dropped its earlier Genie agent and now sells the Lumen family of code models (Scout '
+                                  'and Outpost available, Sovereign marked coming soon) through a CLI, a desktop app and a cloud '
+                                  'surface for delegated tasks. Pricing is credit based, from $19 a month, with private '
+                                  'deployments quoted by sales. Its customer logos and benchmarks are self-published, and we could '
+                                  'not verify them independently.',
+                      'features_detailed': [{'title': 'Lumen model family',
+                                             'desc': 'Three specialist coding models -- Scout (fast, low-cost, on-device), Outpost '
+                                                     '(high-quality production implementation), and Sovereign (frontier-scale '
+                                                     'reasoning, coming soon) -- each targeting a different layer of the dev '
+                                                     'workflow.'},
+                                            {'title': 'Cosine CLI',
+                                             'desc': 'A terminal-native interface with a local-to-remote execution model, external '
+                                                     'tool access via MCP, and multi-agent orchestration for complex changes.'},
+                                            {'title': 'Cosine Cloud',
+                                             'desc': 'Lets teams run multiple coding tasks in parallel and collaborate across '
+                                                     'engineers, PMs, and stakeholders on large changes in a shared project.'},
+                                            {'title': 'Flexible security posture',
+                                             'desc': 'Deployable as fully managed public cloud, a managed single-tenant private '
+                                                     "environment, or fully air-gapped inside a customer's own perimeter."},
+                                            {'title': 'Niche and legacy language support',
+                                             'desc': 'Models are post-trained specifically for enterprise and niche languages such '
+                                                     'as COBOL, Fortran, Verilog, Rust, and complex SQL, beyond mainstream '
+                                                     'web-stack languages.'},
+                                            {'title': 'Published benchmarking',
+                                             'desc': 'Cosine publishes its own Niche-Bench, Vibe-Bench, and Slop-Bench results '
+                                                     'comparing cost-per-successful-task against models like GPT-5.4, Gemini 3.1 '
+                                                     'Pro, and Kimi K2.6.'},
+                                            {'title': 'Red Team application',
+                                             'desc': 'A dedicated application built on Lumen models for AI-assisted cybersecurity '
+                                                     'and red-teaming workflows.'}],
+                      'pricing_plans': [{'name': 'Starter',
+                                         'price': 'From $19/month',
+                                         'billing': 'Monthly; per-seat basis not stated',
+                                         'features': ['4M credits/month', '$6.50 per 1M add-on credits']},
+                                        {'name': 'Team',
+                                         'price': '$199/month',
+                                         'billing': 'Monthly',
+                                         'features': ['47M credits/month', '$5.00 per 1M add-on credits']},
+                                        {'name': 'Enterprise',
+                                         'price': '$999/month',
+                                         'billing': 'Monthly',
+                                         'features': ['240M credits/month', '$4.50 per 1M add-on credits']},
+                                        {'name': 'Private / air-gapped',
+                                         'price': 'Custom',
+                                         'billing': 'Contact sales',
+                                         'features': ['Managed single-tenant or fully air-gapped deployment',
+                                                      'Site lists minimum hardware of 4 H100 GPUs (applicable deployment not '
+                                                      'specified)']}],
+                      'pros_expanded': ['Deployment choice from managed cloud to fully air-gapped is rare among coding agents and '
+                                        'suits strict compliance needs.',
+                                        'Focus on legacy and niche languages (COBOL, Fortran, Verilog, complex SQL) targets a gap '
+                                        'left by mainstream copilots.',
+                                        'Three surfaces (CLI, Desktop, Cloud) cover local work and delegated parallel tasks.',
+                                        'Add-on credit price falls as you move up tiers ($6.50 to $4.50 per 1M).'],
+                      'cons_expanded': ['The Genie to Lumen change means older reviews and benchmarks describe a different '
+                                        'product.',
+                                        'Credits cover agent work, model calls and cloud execution, and the page says usage '
+                                        'depends on task size, model and runtime, so monthly cost is hard to predict.',
+                                        'Big price steps between tiers leave little middle ground for small teams.',
+                                        'Lumen Sovereign, the frontier-scale model, and the Training app are marked coming soon.',
+                                        'Customer logos and benchmark figures are published by Cosine; we did not verify them and '
+                                        'found no independent review data.'],
+                      'who_for': 'Enterprises with strict data-residency or security needs, and teams maintaining legacy or '
+                                 'niche-language codebases. Not for hobbyists or small teams who want a flat-rate, widely reviewed '
+                                 'IDE assistant, or anyone who needs the Sovereign model today since it is marked coming soon.',
+                      'faq': [{'q': 'What happened to Genie?',
+                               'a': 'Cosine now presents the Lumen model family (Scout, Outpost, and Sovereign marked coming soon) '
+                                    'as its product. Treat older Genie coverage as describing a different offering.'},
+                              {'q': 'Can it run air-gapped?',
+                               'a': 'Yes, the site lists a fully air-gapped option that runs inside your own perimeter, plus '
+                                    'managed public cloud and single-tenant cloud. Private deployments are handled through sales, '
+                                    'and the site mentions minimum hardware of 4 H100 GPUs.'},
+                              {'q': 'How much does it cost?',
+                               'a': 'Starter from $19/month with 4M credits, Team $199/month with 47M, Enterprise $999/month with '
+                                    '240M. Extra credits cost $6.50, $5.00 and $4.50 per 1M respectively. Whether these are per '
+                                    'seat is not stated, so confirm before buying.'},
+                              {'q': 'How does it compare with Claude Code or Cursor?',
+                               'a': 'Those are general-purpose tools with large user bases. Cosine competes mainly on private '
+                                    'deployment and niche-language tuning, not on being the cheapest or most widely used.'}]},
+             'alternatives': [{'slug': 'factory',
+                               'why': 'Also sells autonomous coding agents to teams; a more general enterprise agent platform.'},
+                              {'slug': 'claude-code',
+                               'why': 'General-purpose terminal coding agent with a large user base; cloud-hosted models rather '
+                                      'than an air-gapped focus.'},
+                              {'slug': 'ollama',
+                               'why': 'Run open models fully locally for free if you only need offline use without a vendor '
+                                      'agent.'}],
+             'last_checked': '2026-10-23'},
             
             {"name": "Diffblue Testing Agent", "tagline": "Autonomous AI agent that writes verified Java and Python unit tests at scale", "desc": "Diffblue Testing Agent uses reinforcement learning to autonomously generate unit tests across entire codebases, with every test guaranteed to compile, pass, and add real coverage before you're billed for it.", "pricing": "Pay only for net-new coverage: starts at $1,500 for 5,000 lines (~$0.30/line); free Community Edition for students and OSS", "url": "https://www.diffblue.com/",
  "tags": ["Coding & Development", "Unit Testing", "AI Agent", "Test Automation"],
@@ -1654,53 +2012,115 @@ CATEGORIES = [
     ]
  }},
             
-            {"name": "Kodezi", "tagline": "AI coding assistant that auto-fixes, tests and evolves your codebase", "desc": "Kodezi is an AI developer platform that autocorrects code, detects and fixes bugs, generates code from natural language, and — via its Chronos model and Kodezi OS — autonomously debugs and self-heals repositories.", "pricing": "Free tier with daily credits; Pro from $9.99/mo; CLI + OS from $59.99/mo per user", "url": "https://kodezi.com/",
- "tags": ["Coding & Development", "AI Debugging", "Code Review", "Developer Productivity"],
- "features": ["Automated code correction and bug detection with explanations", "Natural-language-to-code generation and documentation generation", "Kodezi Chronos: a debugging-first language model scoring 80.33% on SWE-bench Lite", "Kodezi OS with self-healing, auto-evolution and a Smart PR / Living Docs engine", "Web-based IDE (Kodezi Create) plus a CLI for pipeline and CI/CD integration", "Automated code review that reduces manual PR review effort"],
- "pros": ["Genuinely free entry tier (25 credits/day) lets individual developers try core features with no payment", "Chronos model is purpose-built for debugging and claims state-of-the-art SWE-bench Lite results, a real differentiator versus general-purpose coding assistants", "Covers the full loop — generate, review, test, document, and self-heal — rather than just autocomplete"],
- "cons": ["No independent G2/Capterra/Trustpilot review data available to verify real-world performance claims", "Credit-based free and Pro tiers can throttle heavier daily usage compared to flat-rate competitors", "Some third-party write-ups describe a clunky interface and inconsistent customer support"],
- "best_for": "Individual developers and small dev teams who want an AI assistant that goes beyond autocomplete into autonomous bug detection, test/PR generation and legacy-code maintenance.",
- "deep": {
-    "overview": "Kodezi is an AI developer tools company built around the idea that most 'AI coding assistant' products stop at code generation, while the real time-sink for developers is debugging, reviewing and maintaining existing code. Its product line spans a free web-based IDE (Kodezi Create), a Pro tier with higher usage limits, and a CLI + OS tier aimed at teams that want autonomous infrastructure wired into their existing dev stack. The centerpiece of its differentiation is Chronos, a debugging-first language model (not a general chat model) trained specifically for root-cause analysis and validated fix generation. Chronos uses what Kodezi calls Adaptive Graph-Guided Retrieval and a Persistent Debug Memory to reason across an entire repository rather than a single file, and runs an autonomous fix-test-refine loop in a live execution sandbox — proposing a fix, running tests, analyzing failures, and iterating until the fix validates. Kodezi reports Chronos completes a full debug cycle in about 135 seconds at roughly 65% success rate and $0.89 per validated fix, and cites an SWE-bench Lite score of 80.33%, well above general-purpose coding assistants in their own benchmark comparisons.\n\nOn top of the debugging engine, Kodezi OS adds 'self-healing and auto-evolution' capability, a Smart PR engine that opens pull requests with fixes and documentation attached, Living Docs that stay in sync with code changes, and a Memory API with a Cortex dashboard for visibility into what the system has learned about a codebase. The company markets three tiers: Kodezi Code (free, 25 credits/day, web IDE and CLI access), Kodezi Pro ($9.99/month, 100 credits/day, advanced code models and OS access), and Kodezi CLI + OS ($59.99/month per user, full CLI toolset, Smart PRs and Auto-Healing, described as its 'most popular' plan for autonomous dev teams), with 20% off on annual billing. The company claims over 4 million users on its marketing pages and features testimonials from engineers at companies like Netflix, though these are self-published claims rather than independently audited figures, and Kodezi does not yet have a presence on G2 or Capterra to independently verify satisfaction at scale.",
-    "features_detailed": [
-      {"title": "Autocorrection & Bug Detection", "desc": "Scans code for errors and anti-patterns, auto-corrects issues, and provides explanations for each fix so developers understand the root cause."},
-      {"title": "Natural-Language Code Generation", "desc": "Generates code, documentation, and framework/language translations directly from plain-English instructions."},
-      {"title": "Kodezi Chronos (Debugging LLM)", "desc": "A model purpose-trained for autonomous debugging at repository scale, using graph-guided retrieval and persistent debug memory; claims 80.33% on SWE-bench Lite and 67% real-world fix accuracy."},
-      {"title": "Autonomous Fix-Test-Refine Loop", "desc": "Chronos proposes a fix, runs it in a sandboxed environment, analyzes test failures, and iterates automatically until the fix passes validation."},
-      {"title": "Kodezi OS: Self-Healing & Auto-Evolution", "desc": "An always-on layer that detects issues in a live codebase and applies corrective changes autonomously, aimed at reducing manual maintenance overhead."},
-      {"title": "Smart PR Engine & Living Docs", "desc": "Automatically opens pull requests with generated fixes and keeps documentation synchronized with ongoing code changes."},
-      {"title": "Web IDE, CLI and Integrations", "desc": "Kodezi Create (browser IDE), a CLI for CI/CD and pipeline integration, and support for GitHub, JetBrains, VS Code, Slack and Linear workflows."},
-      {"title": "Memory API & Cortex Dashboard", "desc": "Exposes what the system has learned about a codebase over time via an API and a dashboard, available on the CLI + OS tier."}
-    ],
-    "pricing_plans": [
-      {"name": "Kodezi Code", "price": "$0", "billing": "Free forever", "features": ["Kodezi Create web IDE access", "25 credits/day", "Advanced code models", "Web-based IDE access"]},
-      {"name": "Kodezi Pro", "price": "$9.99", "billing": "Per month (20% off annual)", "features": ["Kodezi Create + Web IDE Pro", "Advanced code models", "100 credits/day", "Kodezi OS access"]},
-      {"name": "Kodezi CLI + OS", "price": "$59.99", "billing": "Per month, per user (20% off annual)", "features": ["Dev stack integration", "Full CLI toolset + Kodezi OS", "Smart PRs & Auto-Healing", "Kodezi OS Intelligence", "Unlimited-tier credits and Kodezi Create access"]}
-    ],
-    "pros_expanded": [
-      "The free Kodezi Code tier (25 credits/day, no payment required) gives genuine hands-on access rather than a time-limited trial, lowering the barrier for individual developers to evaluate the product.",
-      "Chronos is architecturally distinct from wrapper-style AI coding tools — it's trained specifically for debugging with persistent memory and graph-based retrieval, and Kodezi backs this with a published benchmark score (80.33% SWE-bench Lite).",
-      "The product spans the full maintenance lifecycle (bug fix, test, PR, docs) rather than just code completion, which can consolidate multiple point tools into one subscription.",
-      "CLI and CI/CD integration on the higher tier lets teams wire autonomous fixes and PRs directly into existing pipelines rather than only working inside an IDE.",
-      "Third-party write-ups (e.g. Marketing Scoop) corroborate real productivity gains, citing developers spending up to 30% less time on debugging tasks."
-    ],
-    "cons_expanded": [
-      "Kodezi has no discoverable G2 or Capterra review profile, so there is no independent, verifiable satisfaction or reliability data beyond the company's own testimonials.",
-      "Some independent reviews describe a clunky interface and inconsistent customer support, which contrasts with the polish claimed in company marketing.",
-      "Credit-based usage on the Free and Pro tiers (25/day and 100/day respectively) can be limiting for developers doing heavy, continuous debugging sessions.",
-      "The per-user pricing on the CLI + OS tier ($59.99/month/user) is a meaningful cost for small teams compared to flat per-seat pricing at some competitors.",
-      "Headline user and benchmark numbers (4M+ users, SWE-bench scores) are self-reported by Kodezi rather than audited by a neutral third party."
-    ],
-    "who_for": "Kodezi is a good fit for individual developers and small teams dealing with legacy codebases or heavy debugging workloads who want an AI layer that goes beyond autocomplete into automated fixes, tests and PRs. It's a weaker fit for teams that need vendor-verified enterprise references or established third-party review validation before adopting a new AI dev tool.",
-    "faq": [
-      {"q": "Is Kodezi free to use?", "a": "Yes. Kodezi Code is free forever, giving 25 credits per day usable across the Web IDE, CLI, or Kodezi Create, with no payment required."},
-      {"q": "What is Kodezi Chronos?", "a": "Chronos is Kodezi's debugging-first language model, purpose-built for autonomous bug detection, root-cause analysis and validated fix generation at repository scale, reporting an 80.33% score on SWE-bench Lite."},
-      {"q": "How much does Kodezi Pro cost?", "a": "Kodezi Pro costs $9.99 per month and includes 100 credits/day, advanced code models, and access to Kodezi OS, with a 20% discount for annual billing."},
-      {"q": "What does the CLI + OS plan add?", "a": "At $59.99/month per user, the CLI + OS plan adds full dev-stack integration, the complete CLI toolset, Smart PRs, Auto-Healing, and Kodezi OS Intelligence for autonomous team workflows."},
-      {"q": "Does Kodezi integrate with my existing tools?", "a": "Kodezi integrates with GitHub, JetBrains, VS Code, Slack, CI/CD pipelines and Linear, in addition to its own Web IDE and CLI."},
-      {"q": "Is there independent review data for Kodezi?", "a": "As of now, Kodezi does not have an established G2 or Capterra profile with verified ratings; feedback is mostly available through the company's own testimonials and scattered third-party write-ups."}
-    ]
- }},
+            {'name': 'Kodezi',
+             'tagline': 'AI coding assistant that finds and fixes bugs, writes tests and opens PRs',
+             'desc': 'Kodezi is an AI developer platform that fixes bugs, generates code, tests and docs, and offers a CLI and an '
+                     'OS layer with debugging automation. It has a free tier and paid plans from $9.99 a month.',
+             'pricing': 'Kodezi Code free (25 credits/day); Pro $9.99/mo (100 credits/day); CLI + OS $59.99/mo per user (credits '
+                        'not listed). A 20% annual discount is shown but annual prices are not listed. Checked on '
+                        'kodezi.com/pricing on 2026-10-23.',
+             'url': 'https://kodezi.com/',
+             'tags': ['Coding & Development', 'AI Debugging', 'Code Review', 'Developer Productivity'],
+             'features': ['Bug detection and automatic fixes with explanations',
+                          'Code, test and documentation generation from plain English',
+                          'Kodezi Chronos debugging model (vendor-reported SWE-bench Lite 80.33%, unverified)',
+                          'CLI for terminal and pipeline use, with smart PRs and auto-healing on the top tier',
+                          'Web IDE (Kodezi Create)',
+                          'Long-term project memory'],
+             'pros': ['Real free tier (25 credits/day)',
+                      'Debugging-focused rather than only autocomplete',
+                      'Cheap Pro tier at $9.99/mo'],
+             'cons': ['Benchmark and user-count claims are self-reported and not independently verified',
+                      'Credit limits on Free and Pro can throttle heavy use',
+                      'CLI + OS is $59.99 per user per month and its credits are not listed',
+                      'Annual prices not shown on the pricing page'],
+             'best_for': 'Individual developers and small dev teams who want an AI assistant that goes beyond autocomplete into '
+                         'autonomous bug detection, test/PR generation and legacy-code maintenance.',
+             'deep': {'overview': 'Kodezi suits individual developers and small teams who want to try an AI helper focused on '
+                                  'debugging and maintenance without paying upfront, thanks to its free tier; teams that need '
+                                  'independently verified reliability or a mature ecosystem should look elsewhere. It describes '
+                                  "itself as an autonomous 'AI CTO' that finds and fixes bugs, updates docs, checks for "
+                                  'vulnerabilities and generates code and tests, through a web IDE, a CLI and its OS layer. The '
+                                  'paid plans are $9.99 a month (Pro) and $59.99 per user per month (CLI + OS). Its headline '
+                                  'numbers, such as the Chronos benchmark score and user counts, come from Kodezi itself and we '
+                                  'did not verify them.',
+                      'features_detailed': [{'title': 'Autocorrection & Bug Detection',
+                                             'desc': 'Scans code for errors and anti-patterns, auto-corrects issues, and provides '
+                                                     'explanations for each fix so developers understand the root cause.'},
+                                            {'title': 'Natural-Language Code Generation',
+                                             'desc': 'Generates code, documentation, and framework/language translations directly '
+                                                     'from plain-English instructions.'},
+                                            {'title': 'Kodezi Chronos (Debugging LLM)',
+                                             'desc': 'A model purpose-trained for autonomous debugging at repository scale, using '
+                                                     'graph-guided retrieval and persistent debug memory; claims 80.33% on '
+                                                     'SWE-bench Lite and 67% real-world fix accuracy.'},
+                                            {'title': 'Autonomous Fix-Test-Refine Loop',
+                                             'desc': 'Chronos proposes a fix, runs it in a sandboxed environment, analyzes test '
+                                                     'failures, and iterates automatically until the fix passes validation.'},
+                                            {'title': 'Kodezi OS: Self-Healing & Auto-Evolution',
+                                             'desc': 'An always-on layer that detects issues in a live codebase and applies '
+                                                     'corrective changes autonomously, aimed at reducing manual maintenance '
+                                                     'overhead.'},
+                                            {'title': 'Smart PR Engine & Living Docs',
+                                             'desc': 'Automatically opens pull requests with generated fixes and keeps '
+                                                     'documentation synchronized with ongoing code changes.'},
+                                            {'title': 'Web IDE, CLI and Integrations',
+                                             'desc': 'Kodezi Create (browser IDE), a CLI for CI/CD and pipeline integration, and '
+                                                     'support for GitHub, JetBrains, VS Code, Slack and Linear workflows.'},
+                                            {'title': 'Memory API & Cortex Dashboard',
+                                             'desc': 'Exposes what the system has learned about a codebase over time via an API '
+                                                     'and a dashboard, available on the CLI + OS tier.'}],
+                      'pricing_plans': [{'name': 'Kodezi Code',
+                                         'price': '$0',
+                                         'billing': 'Free',
+                                         'features': ['25 credits/day', 'Kodezi Create and web IDE', 'Advanced code models']},
+                                        {'name': 'Kodezi Pro',
+                                         'price': '$9.99/month',
+                                         'billing': 'Monthly; 20% annual discount shown, annual price not listed',
+                                         'features': ['100 credits/day',
+                                                      'Kodezi Create + Web IDE Pro',
+                                                      'Advanced code models',
+                                                      'Kodezi OS']},
+                                        {'name': 'Kodezi CLI + OS',
+                                         'price': '$59.99/month per user',
+                                         'billing': 'Monthly; 20% annual discount shown, annual price not listed',
+                                         'features': ['Full CLI toolset and Kodezi OS',
+                                                      'Smart PRs and auto-healing',
+                                                      'Dev stack integration',
+                                                      'Kodezi OS Intelligence']}],
+                      'pros_expanded': ['The free tier needs no payment and is not time limited, so you can test it on real code.',
+                                        'Focus on debugging and repository maintenance, not just completion.',
+                                        'Pro at $9.99 a month is inexpensive for individual use.',
+                                        'The CLI plan adds smart PRs and auto-healing for pipeline use.'],
+                      'cons_expanded': ['Benchmark scores, success rates and user counts are published by Kodezi; we could not '
+                                        'verify them independently.',
+                                        'Daily credit caps (25 and 100) can limit long debugging sessions.',
+                                        'CLI + OS costs $59.99 per user per month and the page does not list its credit allowance.',
+                                        'Annual pricing is not listed; any figure from the 20% discount is a calculation to '
+                                        'confirm at checkout.',
+                                        'We did not find G2 or Capterra review data to back real-world reliability.'],
+                      'who_for': 'Individual developers and small teams who want a debugging-focused assistant and a free way to '
+                                 'test it. Not for buyers who require independently audited benchmarks or third-party review '
+                                 'evidence, or teams who need a predictable flat-rate price at the top tier.',
+                      'faq': [{'q': 'Is Kodezi free?',
+                               'a': 'Yes, the Kodezi Code plan is free with 25 credits per day, including Kodezi Create and the '
+                                    'web IDE.'},
+                              {'q': 'What does Pro cost?',
+                               'a': '$9.99 per month for 100 credits per day, Pro web IDE and Kodezi OS. A 20% annual discount is '
+                                    'shown but annual prices are not listed.'},
+                              {'q': 'What does CLI + OS add?',
+                               'a': 'At $59.99 per user per month it adds the full CLI toolset, smart PRs, auto-healing and dev '
+                                    'stack integration. Its credit allowance is not listed on the page.'},
+                              {'q': 'Can I trust the benchmark numbers?',
+                               'a': "The Chronos SWE-bench Lite score and success rates come from Kodezi's own materials. We did "
+                                    'not verify them, so test on your own code first.'}]},
+             'alternatives': [{'slug': 'github-copilot',
+                               'why': 'Wider IDE support and a much larger user base; less focused on autonomous bug fixing.'},
+                              {'slug': 'factory',
+                               'why': 'Also runs autonomous agents that write and ship code, aimed at larger teams.'},
+                              {'slug': 'claude-code',
+                               'why': 'General-purpose agentic coding tool for terminal and editors; broader than debugging.'}],
+             'last_checked': '2026-10-23'},
             {'name': 'LlamaParse', 'tagline': 'Turn messy documents into clean, LLM-ready data', 'desc': "LlamaParse is LlamaIndex's cloud document parsing service that converts complex PDFs, scanned files, spreadsheets and images into clean markdown or JSON for RAG and AI agent pipelines.", 'pricing': 'Credit-based: Free $0 (10K credits/mo), Starter $50/mo (40K credits), Pro $500/mo (400K credits), Enterprise custom; 1,000 credits = $1.25.', 'url': 'https://cloud.llamaindex.ai/', 'tags': ['Coding & Development', 'Document Parsing', 'RAG', 'Data Extraction'], 'features': ['Parses PDFs, Office files, spreadsheets and images (vendor claims 90 to 130+ formats)', 'Three parse tiers: Cost Effective, Agentic, Agentic Plus', 'Auto Mode routes each page to a suitable tier (vendor says up to 80% savings)', 'Table, chart and image extraction with layout detection and bounding boxes', 'Output as markdown, text, per-page JSON, XLSX, HTML tables or annotated PDF', 'Extract, Classify and Split products on the same credit system', 'Webhooks, saved parse configs, and cached re-parses at 0 credits', 'SOC 2 Type II, GDPR and HIPAA listed; VPC deployment on higher plans'], 'pros': ['Handles tables, charts and scanned layouts better than plain text extraction', 'Free plan with 10K credits per month, no card needed to try', 'Python and TypeScript SDKs plus an API and UI', 'Per-page tiering lets you pay more only for hard pages', 'Re-parsing an unchanged file is cached and costs 0 credits'], 'cons': ['The pricing page gives no per-page credit numbers for the Agentic tiers, so costs are hard to forecast', 'Credits are pay-as-you-go beyond plan limits, and Free has no pay-as-you-go option', 'Best fit is inside the LlamaIndex stack; it is a hosted service, not a self-run library', 'Low-volume users must choose tiers and tune settings by trial and error'], 'best_for': 'Developers building RAG or document-automation pipelines who need tables, scans and mixed layouts turned into clean markdown or JSON.', 'deep': {'overview': 'LlamaParse is a good pick for developers feeding messy PDFs, scans and spreadsheets into LLM or RAG pipelines and willing to pay per page for better layout and table handling. Skip it if your documents are simple digital text (a free local parser will do), if you cannot send files to a hosted service, or if you need fixed, predictable per-page pricing. It is the hosted document parsing product from LlamaIndex. You upload a file through the UI, API or SDK, choose a parse tier (or let Auto Mode pick per page), and get structured markdown, JSON or other formats back. Tiers range from cheap basic parsing to agentic modes that use vision models for dense tables and charts. LlamaIndex also sells related services on the same credits, such as Extract (schema-based extraction with citations) and Classify/Split. Its homepage also points to LiteParse, a separate local open-source parser.', 'features_detailed': [{'title': 'Parse tiers', 'desc': 'Cost Effective, Agentic and Agentic Plus trade credit cost for accuracy. Basic parsing is listed as low as 1 credit per page; the pricing page does not state per-page costs for the higher tiers.'}, {'title': 'Auto Mode', 'desc': 'Routes each page to a tier based on its complexity. The vendor says this can save up to 80%, which we could not verify.'}, {'title': 'Tables, charts and layout', 'desc': 'Extracts tables, charts and images with layout detection and bounding boxes instead of flattening everything into text.'}, {'title': 'Output formats', 'desc': 'Markdown, plain text, per-page JSON, XLSX, HTML tables and annotated PDF.'}, {'title': 'Extract, Classify and Split', 'desc': 'Sister products for pulling data into a schema with citations and confidence scores, and for sorting or splitting multi-document files.'}, {'title': 'Production features', 'desc': 'Webhooks and API callbacks, saved parse configurations with model versioning, and result caching so re-parses cost 0 credits.'}, {'title': 'Security and deployment', 'desc': 'SOC 2 Type II, GDPR and HIPAA are listed; VPC deployment, SSO and custom BAAs appear in the comparison table, and Enterprise offers SaaS or hybrid deployment.'}], 'pricing_plans': [{'name': 'Free', 'price': '$0', 'billing': 'per month', 'features': ['10K credits/month', 'Community support', '5 concurrent jobs per type', '5 indexes, file upload only', '1 project']}, {'name': 'Starter', 'price': '$50', 'billing': 'per month', 'features': ['40K credits/month', 'Pay-as-you-go extra credits (up to 400K credits)', 'Basic email support', '5 concurrent jobs per type', '50 indexes, 50 external data sources']}, {'name': 'Pro', 'price': '$500', 'billing': 'per month', 'features': ['400K credits/month', 'Pay-as-you-go up to $5,000/month', 'Priority support via Slack Connect', '20 concurrent jobs per type', '100 indexes, 5 projects', 'Limited-time one-time bonus of 800K credits for business email domains']}, {'name': 'Enterprise', 'price': 'Custom', 'billing': 'contact sales', 'features': ['Volume credit discounts', '5x higher rate limits', 'Enterprise SSO', 'SaaS or hybrid cloud deployment', 'Dedicated account manager']}], 'pros_expanded': ['Layout-aware parsing (tables, charts, scanned pages, bounding boxes) is the main reason to pay over a free text extractor.', "The free plan's 10K credits are enough to test real documents before committing. At 1,000 credits = $1.25, that is about $12.50 of usage.", 'Per-page tier choice means a mixed batch does not all have to run at the most expensive setting.', 'Cached re-parses at 0 credits help during development when you re-run the same files.', 'SDKs for Python and TypeScript and webhooks make it straightforward to wire into pipelines.'], 'cons_expanded': ['Cost forecasting is awkward: the pricing page names the tiers but does not list per-page credits for Agentic and Agentic Plus, so you need to test on your own files.', 'Free plan has no pay-as-you-go; once the 10K credits run out you must upgrade to Starter.', 'It is a hosted service; documents leave your environment unless you buy an Enterprise deployment option.', 'Accuracy claims (such as best-in-class across 90+ formats) come from the vendor; we did not benchmark them.', 'Format and language counts differ between LlamaIndex pages (90+ vs 130+ formats; 80+ vs 100+ languages), so check your specific file types.'], 'who_for': 'Good for RAG engineers, data teams and automation builders with complex PDFs, scans, invoices or forms. Not for people who only need to parse clean digital text, teams barred from using cloud APIs without an enterprise deployment, or buyers who want a flat monthly price regardless of page volume.', 'faq': [{'q': 'How much does LlamaParse cost?', 'a': 'As checked on 2026-10-21: Free is $0 with 10K credits per month, Starter is $50 per month with 40K credits, Pro is $500 per month with 400K credits, and Enterprise is custom. Credits cost $1.25 per 1,000.'}, {'q': 'How many credits does a page use?', 'a': 'It depends on the tier. The pricing page says basic parsing is as low as 1 credit per page, but does not publish figures for Agentic tiers. Run a sample of your documents to estimate.'}, {'q': 'Can I use LlamaParse for free?', 'a': 'Yes, the Free plan includes 10K credits per month. It has no pay-as-you-go option, so heavier use needs Starter or above.'}, {'q': 'Is there a local alternative?', 'a': "LlamaIndex's page mentions LiteParse, a separate open-source local parser that does not use vision models. It is a different, simpler product and we did not evaluate it."}, {'q': 'Is it compliant for regulated data?', 'a': 'The pricing page lists SOC 2 Type II, GDPR and HIPAA, with custom BAAs and VPC deployment in the comparison table. Confirm which plans include them with LlamaIndex before sending regulated data.'}]}, 'alternatives': [], 'last_checked': '2026-10-21'},
             {'name': 'MLflow', 'tagline': 'The open-source AI platform for tracking, evaluating and deploying models and agents', 'desc': 'MLflow is a free, open-source platform for tracing, evaluating and deploying LLM apps and agents, and for the classical ML lifecycle of experiment tracking, model registry and deployment.', 'pricing': 'Free and open source (Apache 2.0). Self-hosting costs only your own infrastructure. Managed hosting is offered by Databricks; its pricing could not be verified today.', 'url': 'https://mlflow.org/', 'tags': ['Coding & Development', 'MLOps', 'Open Source', 'LLM Observability'], 'features': ['LLM and agent tracing built on OpenTelemetry', 'Evaluation with 50+ built-in metrics and LLM judges', 'Prompt registry with lineage tracking and automatic prompt optimization', 'AI Gateway: one OpenAI-compatible API in front of multiple LLM providers', 'Agent Server for deploying agents as a FastAPI endpoint', 'Classical ML: experiment tracking, model registry, evaluation and deployment'], 'pros': ['Free under Apache 2.0, with no per-seat or per-trace fees', 'Works across clouds and frameworks (100+ integrations listed)', 'Covers both classic ML tracking and newer LLM/agent observability in one tool'], 'cons': ['You run, scale and secure the server yourself unless you pay for a managed host', 'Broad scope means more to learn than a single-purpose tracing tool', 'Managed hosting pricing is not published on mlflow.org'], 'best_for': 'ML and AI engineering teams that want a free, vendor-neutral tool for tracking experiments and tracing and evaluating LLM apps, and are comfortable running it themselves.', 'deep': {'overview': 'MLflow is a strong pick for engineering teams that want free, self-hostable experiment tracking and LLM observability without vendor lock-in. Skip it if you want a polished hosted product with support and no ops work, or if you only need a quick prompt playground. It started as a classical ML lifecycle tool (tracking runs, registering models, deploying them) and has grown to cover LLM and agent work: OpenTelemetry-based tracing, evaluation with built-in metrics and LLM judges, a prompt registry, an AI Gateway for routing between model providers, and an Agent Server for deployment. The site calls itself Apache 2.0 licensed and Linux Foundation backed, and lists 30M+ monthly package downloads, 20K+ GitHub stars and 900+ contributors (vendor-reported figures).', 'who_for': 'Good for ML engineers, data scientists and platform teams who can run a server and want one system for training experiments and LLM traces. Not for non-technical teams, for people who want a fully managed service with an SLA out of the box, or for anyone who only needs lightweight prompt testing.', 'features_detailed': [{'title': 'LLM and agent tracing', 'desc': 'Records traces of LLM apps and agents using OpenTelemetry, with production monitoring of quality, cost and safety.'}, {'title': 'Evaluation and issue detection', 'desc': 'Runs evaluations with 50+ built-in metrics and LLM judges, and can flag problems found in traces.'}, {'title': 'Prompt registry and optimization', 'desc': 'Versions prompts, tracks lineage, and offers automatic prompt optimization.'}, {'title': 'AI Gateway', 'desc': 'A single OpenAI-compatible API in front of several LLM providers, with rate limits, fallbacks and cost control.'}, {'title': 'Agent Server', 'desc': 'A FastAPI-based way to deploy agents as a production endpoint.'}, {'title': 'Experiment tracking and model registry', 'desc': 'The original core: log parameters, metrics and artifacts per run, compare runs, version and deploy models.'}], 'pricing_plans': [{'name': 'MLflow (open source)', 'price': 'Free', 'billing': 'Apache 2.0; you pay only for your own hosting', 'features': ['All features above', 'Self-hosted, e.g. via the quickstart command shown on the site', 'Python, TypeScript/JS, Java and R support (per the previous listing; not re-verified on the homepage)']}, {'name': 'Managed MLflow (Databricks)', 'price': 'Pricing could not be verified', 'billing': 'The Databricks pricing page could not be fetched today; previously described as billed through Databricks platform usage', 'features': ['Hosted by Databricks', 'Check databricks.com for current terms']}], 'pros_expanded': ['No license cost and no usage meter; the only spend is the servers and storage you choose.', 'Open standards (OpenTelemetry tracing, OpenAI-compatible gateway) reduce lock-in.', 'One tool for both traditional ML runs and LLM/agent traces, so teams do not need two systems.', 'Large community and many integrations, so most frameworks already have a connector.'], 'cons_expanded': ['Self-hosting means you handle upgrades, scaling, backups, authentication and access control.', 'The scope is wide; the UI and concepts can feel heavier than dedicated LLM-tracing tools if that is all you need.', 'Managed hosting is a separate Databricks product, and its pricing was not verifiable from the public MLflow site.', 'Popularity figures on the site are self-reported; no independent review score was verified.'], 'faq': [{'q': 'Is MLflow really free?', 'a': 'The software is free under Apache 2.0 per mlflow.org. You still pay for wherever you run it, such as servers, a database and storage.'}, {'q': 'Does MLflow work for LLM apps, or only classical ML?', 'a': 'Both. It began with experiment tracking and model registry, and now includes tracing, evaluation, a prompt registry and an AI Gateway for LLM apps and agents.'}, {'q': 'Do I need Databricks to use it?', 'a': 'No. The open-source version runs on its own. Databricks sells a managed version, but its current pricing could not be verified here.'}, {'q': 'How do I try it?', 'a': 'The site points to a live demo and a local quickstart; check mlflow.org for the current command.'}]}, 'alternatives': [], 'last_checked': '2026-10-21'},
             
@@ -2534,62 +2954,102 @@ CATEGORIES = [
              }},
             
             {'name': 'Notta', 'tagline': 'AI meeting transcription and notes in 58 languages', 'desc': 'Notta records and transcribes meetings, calls, and audio/video files in real time, then generates AI summaries, action items, and shareable documents across 58+ languages with CRM and calendar integrations.', 'pricing': 'Free plan (120 min/mo, 3 min per recording); Pro $8.17/mo billed annually ($97.99/yr); Business $16.67/mo billed annually ($199.99/yr); Enterprise custom, from 51 seats', 'url': 'https://www.notta.ai/', 'tags': ['Productivity & Automation', 'Meeting Transcription', 'AI Notes & Summaries'], 'features': ['Real-time meeting transcription', 'AI meeting summaries & action items (Notta Brain)', '58+ language transcription and translation', 'Bot and bot-free recording options', 'Speaker identification', 'CRM, Zoom, Slack, Notion, Zapier integrations'], 'pros': ['Broad language support (58+) including simultaneous bilingual transcription', 'Both bot-based and bot-free (on-device) recording modes for privacy-sensitive meetings', 'SOC 2, ISO 27001, GDPR, and HIPAA compliance suit regulated industries'], 'cons': ['Free plan capped at 120 minutes/month with a 3-minute-per-file limit', 'CRM integrations and video meeting recording require Business tier or above', 'AI credit-based add-ons (image/PPT/Excel generation) add cost complexity on top of base plans'], 'best_for': 'Professionals, sales and customer success teams, consultants, and students who need accurate, multilingual meeting transcription with AI-generated summaries synced across their existing tools.', 'deep': {'overview': 'Notta suits people who want cheap, multilingual transcription of calls and uploaded recordings, and it is a good fit for solo professionals, students and small teams. Skip it if you need the free tier for real work (each recording is capped at 3 minutes) or want deep sales-coaching analytics. It transcribes live meetings through a bot that joins Zoom, Meet, Teams or Webex, a bot-free device recorder, or uploaded audio and video, in 58 languages per the vendor. On top of the transcript it produces summaries, action items, cross-meeting Q&A and generated documents using an AI-credit allowance, and paid tiers add exports, custom vocabulary, and (Business) CRM and Zapier links.', 'features_detailed': [{'title': 'Real-time meeting transcription', 'desc': 'Transcribes live speech during meetings and calls as they happen, with support for online meeting bots (Zoom, Meet, Teams, Webex) or bot-free on-device recording.'}, {'title': 'Notta Brain (AI Notes & Summaries)', 'desc': 'Generates AI-powered meeting summaries, action items, and lets users ask questions across their entire meeting history, consuming AI credits per use.'}, {'title': '58+ language transcription & translation', 'desc': 'Supports transcription across dozens of languages plus bilingual transcription (two languages at once) and real-time translation during meetings.'}, {'title': 'Document Builder', 'desc': 'Converts transcripts and meeting content directly into PDF, Word, Excel files, or slide decks using AI credits.'}, {'title': 'Speaker identification', 'desc': 'Automatically distinguishes and labels different speakers within a transcript for easier review and attribution.'}, {'title': 'On-device (privacy mode) transcription', 'desc': "Processes transcription locally on the device so audio content doesn't leave the user's machine, aimed at privacy-sensitive use cases."}, {'title': 'CRM and workflow integrations', 'desc': 'Syncs meeting notes and transcripts to Salesforce, HubSpot, Pipedrive, Zoho CRM, Zendesk Sell, plus Notion, Slack, Google Drive, and Zapier (Business tier and above).'}, {'title': 'Notta Memo hardware', 'desc': 'A companion physical recording device that lets users capture in-person conversations and calls, syncing recordings into the Notta app.'}], 'pricing_plans': [{'name': 'Free', 'price': '$0', 'billing': 'No credit card required', 'features': ['1 seat', '120 transcription minutes/month, no carryover', 'Up to 3 minutes per recording', '50 file uploads/month', '10 AI summaries/month', 'Zoom, Meet, Teams, Webex transcription, Chrome extension, speaker identification']}, {'name': 'Pro', 'price': '$8.17/mo', 'billing': 'Billed annually at $97.99/yr; monthly price not shown on the pricing page', 'features': ['1 seat', '1,800 minutes/month', 'Up to 5 hours per recording', '100 file uploads and 100 AI summaries/month', 'Transcript export, translation, custom vocabulary (200)']}, {'name': 'Business', 'price': '$16.67/mo', 'billing': 'Billed annually at $199.99/yr; monthly price not shown on the pricing page', 'features': ['Unlimited transcription minutes', '200 uploads and 200 AI summaries/month', 'Record web meeting video', 'Advanced data security controls, usage report', 'CRM and Zapier integration']}, {'name': 'Enterprise', 'price': 'Custom', 'billing': 'Starts at 51 seats; quote-based', 'features': ['Everything in Business', 'Unlimited uploads and summaries', 'SAML SSO, audit logs, full data access control', 'Priority support']}], 'pros_expanded': ['Pro at $97.99/year is inexpensive for 1,800 minutes a month and recordings up to 5 hours.', 'Bot-based and bot-free capture are both offered, which helps when a meeting bot is not welcome.', '58-language transcription plus bilingual and translation features (a few free uses monthly, paid add-ons beyond that).', 'Business has unlimited minutes and CRM/Zapier integration at about $16.67 per seat per month on annual billing.'], 'cons_expanded': ['Free plan allows only 3 minutes per recording, so it works as a trial, not a tool.', 'Translation and bilingual transcription are capped at a few free uses per month; more requires paid add-ons ($6-$9/month annual, extra for each).', 'Video recording, CRM and Zapier are Business-only, and Notta Brain AI credits are limited (1,000/month on listed plans) with a separate paid add-on for more.', 'Pricing page does not show monthly-billing prices for Pro or Business, so month-to-month cost could not be verified.'], 'who_for': 'Good for freelancers, students, consultants and small teams who record many calls, especially in more than one language. Not for people hoping to run on the free plan (3 minutes per recording), teams that need CRM sync without paying for Business, or buyers who need a quoted price for under 51 seats on Enterprise.', 'faq': [{'q': 'Is Notta free?', 'a': 'Yes, the free plan gives 120 minutes a month, but each recording is limited to 3 minutes, with 50 uploads and 10 AI summaries monthly.'}, {'q': 'Does Notta need a bot in my meeting?', 'a': 'No. It offers a bot that joins calls on Zoom, Meet, Teams and Webex, and a bot-free option that records from your device.'}, {'q': 'How many languages does it support?', 'a': 'The vendor states 58 languages for transcription and translation. AI content generation is listed for fewer (English, Japanese, Chinese, Spanish, German and others).'}, {'q': 'Which plan do I need for CRM sync?', 'a': 'Business or Enterprise. The pricing page lists CRM and Zapier integration starting at Business.'}, {'q': 'Is it secure enough for regulated work?', 'a': 'Notta lists SOC 2, ISO 27001, GDPR and HIPAA on its site, but we did not review audit reports or the HIPAA terms, so check with the vendor before handling regulated data.'}]}, 'alternatives': [{'slug': 'read-ai', 'why': 'Also records and summarizes meetings, but adds live coaching and email/chat search; its free tier is capped by meeting count (5/month) rather than recording length and it supports fewer languages.'}, {'slug': 'olva', 'why': 'Also aims at meeting help, with a bot-free angle; we did not verify its feature depth against Notta.'}], 'last_checked': '2026-10-21'},
-            {"name": "11x", "tagline": "AI digital workers that prospect, call, and qualify leads", "desc": "11x builds AI 'digital workers' for B2B revenue teams: Alice runs outbound prospecting and multichannel outreach, while Julian answers and qualifies inbound calls, chat, SMS, and WhatsApp in real time.", "pricing": "Alice (outbound) from $3,750/mo billed annually; Julian (inbound) from $2,417/mo chat or $5,333/mo voice; Pro and Enterprise tiers custom-quoted", "url": "https://www.11x.ai/",
-             "tags": ["Productivity & Automation", "AI SDR", "Sales Automation"],
-             "features": ["AI outbound SDR (Alice)", "AI inbound phone/chat agent (Julian)", "Managed mailbox deliverability infrastructure", "Bi-directional CRM sync", "Multi-language outreach (105+ languages)", "Real-time lead qualification and routing"],
-             "pros": ["Covers both outbound prospecting and inbound qualification from one vendor", "Bundles managed email deliverability (domain setup, warmup, rotation) into every plan", "Backed by $70M+ from a16z and Benchmark with SOC 2 Type II compliance"],
-             "cons": ["Entry pricing is high for small teams (~$45K/year for Alice on Growth)", "Pro and Enterprise pricing is not published and requires a sales quote", "Annual contracts are the default, limiting flexibility"],
-             "best_for": "Mid-market to enterprise B2B sales, marketing, and RevOps teams that want to replace or extend SDR/BDR headcount with an AI worker handling outbound prospecting, inbound qualification, or both.",
-             "deep": {
-                "overview": "11x is a San Francisco and London-based startup that sells what it calls 'digital workers' rather than traditional sales software: Alice, an AI Sales Development Representative that researches accounts, personalizes multichannel outreach (email, LinkedIn, and voice), and books meetings; and Julian, an AI phone and chat agent that picks up inbound calls, website chat, SMS, and WhatsApp messages within seconds to qualify leads and route them to reps. The company has raised more than $70 million from investors including a16z and Benchmark, and positions its platform as a consolidated alternative to stacking a dozen point tools for prospecting, data enrichment, sequencing, and inbound routing.\n\nUnlike outreach tools that charge per email sent, 11x prices per lead engaged, arguing this removes the incentive to over-email prospects. Every plan bundles infrastructure that is normally sold separately elsewhere: managed Gmail mailboxes with domain setup, warmup, inbox rotation and deliverability monitoring for Alice, and phone number provisioning, warm-up, and live transfer capability for Julian. The platform includes a real-time company and contact database, signal-based triggers (funding events, job changes, website visits), deep research and AI personalization tools, and bi-directional CRM sync, positioning 11x as a full-funnel GTM layer rather than a single-purpose sequencer.",
-                "features_detailed": [
-                    {"title": "Alice - AI Outbound SDR", "desc": "Identifies target accounts, researches prospects, and runs personalized multichannel sequences (email, LinkedIn, voice) that adapt based on replies, aiming to book qualified meetings without human sequencing."},
-                    {"title": "Julian - AI Phone and Chat Agent", "desc": "Answers inbound calls, website chat, SMS, and WhatsApp messages in real time, qualifies leads against configured criteria, and routes them to the right rep or books a meeting directly."},
-                    {"title": "Managed Mailbox Infrastructure", "desc": "Every Alice plan includes 11x-managed Gmail mailboxes with domain setup, warmup, inbox rotation, and deliverability monitoring, removing a common technical barrier to cold outbound at scale."},
-                    {"title": "Bi-directional CRM Sync", "desc": "Syncs activity, contact records, and deal data both ways with the customer's CRM so reps see AI-driven actions inside their existing system of record."},
-                    {"title": "Multi-language Outreach", "desc": "Supports outbound and inbound conversations in 105+ languages on higher tiers, aimed at globally distributed sales teams."},
-                    {"title": "Signals and Triggers", "desc": "Surfaces buying signals such as funding rounds, job changes, and website visitor activity to prioritize which accounts Alice reaches out to first."},
-                    {"title": "Deep Research and AI Personalization", "desc": "Pulls public company and contact data to generate personalized messaging angles automatically rather than relying on generic templates."},
-                    {"title": "Analytics and Deliverability Dashboards", "desc": "Tracks pipeline generated, reply rates, mailbox health, and call/chat outcomes so teams can monitor performance without exporting data to a separate BI tool."}
-                ],
-                "pricing_plans": [
-                    {"name": "Alice - Growth", "price": "$3,750/mo", "billing": "Billed annually", "features": ["Up to 5 end users", "2,000 new prospects per month", "11x managed Gmail mailboxes with warmup and rotation", "Bi-directional CRM sync", "Standard onboarding and support"]},
-                    {"name": "Alice - Pro", "price": "Custom", "billing": "Billed annually", "features": ["Up to 10 end users", "5,000 new prospects per month", "Multi-language outreach (105+ languages)", "Managed mailbox infrastructure", "Tailored onboarding and support"]},
-                    {"name": "Alice - Enterprise", "price": "Custom", "billing": "Annual or multi-year", "features": ["Unlimited end users", "10,000+ prospects per month", "Custom integrations and API access", "SSO, custom DPA and SLA", "Dedicated CSM and forward deployed engineer"]},
-                    {"name": "Julian - Growth (Chat)", "price": "$2,417/mo", "billing": "Billed annually", "features": ["3,000 chats per month", "2 languages", "Knowledge base included", "CRM integration and API access"]},
-                    {"name": "Julian - Growth (Voice)", "price": "$5,333/mo", "billing": "Billed annually", "features": ["2,000 calls per month", "SMS and WhatsApp included", "CRM integration and API access"]}
-                ],
-                "pros_expanded": [
-                    "Unified outbound-and-inbound coverage means a team can run Alice for prospecting and Julian for inbound qualification from a single vendor and data model instead of stitching together separate SDR and call-routing tools.",
-                    "Managed email deliverability infrastructure (domain setup, warmup, inbox rotation, bounce suppression) is included in every plan, addressing a technical failure point that trips up many DIY cold outbound programs.",
-                    "Per-lead pricing rather than per-send pricing means Alice can run more touchpoints on a prospect without the cost scaling with email volume.",
-                    "SOC 2 Type II compliance and CASA certification support enterprise security reviews, and the company's $70M+ funding from a16z and Benchmark signals staying power relative to smaller AI SDR startups.",
-                    "No separate setup or implementation fees are charged; onboarding (2 to 4 weeks depending on tier) is bundled into the plan price.",
-                    "11x publishes exact Growth-tier pricing on its site rather than hiding all numbers behind a 'contact sales' wall, which is unusual in the AI SDR category."
-                ],
-                "cons_expanded": [
-                    "Entry pricing is steep for small teams: the Growth plan for Alice lists at $3,750/month billed annually (roughly $45,000/year), which exceeds the base salary of many human SDRs before quota attainment is even a factor.",
-                    "Pro and Enterprise pricing for both Alice and Julian is entirely custom-quoted, so buyers cannot compare true costs across vendors without engaging 11x's sales team.",
-                    "Annual billing is the default contract structure, and larger discounts require two- or three-year commitments, reducing flexibility for teams that want to test the product before committing.",
-                    "Third-party pricing analyses report that with add-ons (e.g., adding Julian to Alice, or scaling contact volume), realistic annual spend often lands between $40,000 and $65,000, well above the advertised entry price.",
-                    "11x's review footprint on G2 (around 31 reviews) is thin compared to established sales engagement platforms, making it harder for prospective buyers to independently validate long-term reliability and support quality."
-                ],
-                "who_for": "11x is best suited for venture-backed B2B companies and mid-market to enterprise sales organizations that already have defined ideal customer profiles and want to scale outbound and/or inbound coverage without linearly adding SDR headcount. It is a weak fit for early-stage startups, solo founders, or small sales teams on tight budgets, since the Growth plan alone starts near $45,000 per year and most of the platform's value (multi-language outreach, custom integrations, dedicated CSM) is reserved for the custom-quoted Pro and Enterprise tiers.",
-                "reviews": {
-                    "g2_rating": "4.4/5", "g2_count": "31 reviews",
-                    "summary": "11x holds a 4.4 out of 5 rating on G2 from a relatively small pool of 31 reviews, with users consistently praising ease of use and the quality of Alice's personalized outreach while noting a time-consuming initial setup.",
-                    "praise": ["Ease of use and quick time-to-first-campaign", "Personalized, non-generic outreach messaging from Alice", "Responsive customer support during onboarding"],
-                    "complaints": ["Initial setup and fine-tuning can be time-consuming", "Limited public pricing transparency beyond the Growth tier", "Smaller review sample size than established sales engagement competitors"]
-                },
-                "faq": [
-                    {"q": "How much does 11x cost?", "a": "Alice (outbound) starts at $3,750/month billed annually, roughly $45,000 per year, on the Growth plan. Julian (inbound) starts at $2,417/month for chat or $5,333/month for voice. Pro and Enterprise tiers for both products are custom-quoted based on volume."},
-                    {"q": "What is the difference between Alice and Julian?", "a": "Alice is the outbound AI SDR that researches accounts, personalizes multichannel sequences, and books meetings. Julian is the inbound AI agent that answers phone calls, website chat, SMS, and WhatsApp in real time to qualify leads."},
-                    {"q": "Does 11x require a long-term contract?", "a": "Yes, annual billing is the default for both Alice and Julian, and Pro and Enterprise plans also support two- and three-year commitments in exchange for discounted rates."},
-                    {"q": "Does 11x replace human SDRs entirely?", "a": "It is marketed as a substitute or supplement for SDR headcount on prospecting and qualification tasks, but most customers still rely on human reps for complex conversations, negotiation, and closing."},
-                    {"q": "What CRMs does 11x integrate with?", "a": "11x offers bi-directional CRM sync for common CRMs and adds custom integrations, API, and webhook access on the Pro and Enterprise tiers."},
-                    {"q": "Who backs 11x financially?", "a": "11x has raised more than $70 million from investors including a16z and Benchmark, which it cites as evidence of its ability to invest in product and infrastructure."}
-                ]
-             }},
+            {'name': '11x',
+             'tagline': 'AI sales agents for outbound prospecting and inbound lead handling',
+             'desc': '11x sells AI agents for revenue teams: Alice for outbound prospecting and Julian for answering and '
+                     'qualifying inbound calls and chats. Pricing is sales-led.',
+             'pricing': 'Pricing not public - contact sales via https://www.11x.ai/demo (earlier third-party figures of ~$3,750/mo '
+                        'for Alice could not be verified today)',
+             'url': 'https://www.11x.ai/',
+             'tags': ['Productivity & Automation', 'AI SDR', 'Sales Automation'],
+             'features': ['AI outbound SDR (Alice)',
+                          'AI inbound voice and chat agent (Julian)',
+                          'Email, social, SMS, WhatsApp and dialer channels',
+                          'Lead data, research and personalization',
+                          'CRM, Slack and API integrations',
+                          'Analytics and deliverability tooling'],
+             'pros': ['Covers outbound (Alice) and inbound (Julian) from one vendor',
+                      'Handles voice, chat, email, social, SMS and WhatsApp channels',
+                      'Integrates with CRMs, Slack, G2 and an API'],
+             'cons': ['No pricing published on the site; a demo request is required',
+                      'Likely aimed at larger budgets; entry cost not verifiable',
+                      'Results claims are vendor-reported'],
+             'best_for': 'Mid-market to enterprise B2B sales, marketing, and RevOps teams that want to replace or extend SDR/BDR '
+                         'headcount with an AI worker handling outbound prospecting, inbound qualification, or both.',
+             'deep': {'overview': '11x is a good fit for B2B revenue teams with real budget and a defined pipeline process that '
+                                  'want AI agents to take over prospecting and inbound lead response; small teams and anyone who '
+                                  'needs to see a price before talking to sales should skip it. Its site presents Alice, an '
+                                  'outbound agent working email, social and dialing, and Julian, an inbound agent on voice, chat, '
+                                  'SMS and WhatsApp that qualifies leads and books meetings. It also lists pre-built plays such as '
+                                  'speed-to-lead, lead reactivation and website-visitor retargeting, plus data, research, routing '
+                                  'and analytics modules. Pricing is not shown on the site as of today, so cost comparisons need a '
+                                  'demo.',
+                      'features_detailed': [{'title': 'Alice - AI Outbound SDR',
+                                             'desc': 'Identifies target accounts, researches prospects, and runs personalized '
+                                                     'multichannel sequences (email, LinkedIn, voice) that adapt based on replies, '
+                                                     'aiming to book qualified meetings without human sequencing.'},
+                                            {'title': 'Julian - AI Phone and Chat Agent',
+                                             'desc': 'Answers inbound calls, website chat, SMS, and WhatsApp messages in real '
+                                                     'time, qualifies leads against configured criteria, and routes them to the '
+                                                     'right rep or books a meeting directly.'},
+                                            {'title': 'Managed Mailbox Infrastructure',
+                                             'desc': 'Every Alice plan includes 11x-managed Gmail mailboxes with domain setup, '
+                                                     'warmup, inbox rotation, and deliverability monitoring, removing a common '
+                                                     'technical barrier to cold outbound at scale.'},
+                                            {'title': 'Bi-directional CRM Sync',
+                                             'desc': "Syncs activity, contact records, and deal data both ways with the customer's "
+                                                     'CRM so reps see AI-driven actions inside their existing system of record.'},
+                                            {'title': 'Multi-language Outreach',
+                                             'desc': 'Supports outbound and inbound conversations in 105+ languages on higher '
+                                                     'tiers, aimed at globally distributed sales teams.'},
+                                            {'title': 'Signals and Triggers',
+                                             'desc': 'Surfaces buying signals such as funding rounds, job changes, and website '
+                                                     'visitor activity to prioritize which accounts Alice reaches out to first.'},
+                                            {'title': 'Deep Research and AI Personalization',
+                                             'desc': 'Pulls public company and contact data to generate personalized messaging '
+                                                     'angles automatically rather than relying on generic templates.'},
+                                            {'title': 'Analytics and Deliverability Dashboards',
+                                             'desc': 'Tracks pipeline generated, reply rates, mailbox health, and call/chat '
+                                                     'outcomes so teams can monitor performance without exporting data to a '
+                                                     'separate BI tool.'}],
+                      'pricing_plans': [{'name': 'All plans (Alice, Julian)',
+                                         'price': 'Not public - contact sales',
+                                         'billing': 'Could not verify - see https://www.11x.ai/demo',
+                                         'features': ['The pricing page did not load today and the homepage lists no prices',
+                                                      'Earlier third-party reports of annual-contract pricing are unverified']}],
+                      'pros_expanded': ['One vendor covers both outbound and inbound, so lead data and routing can live in one '
+                                        'system.',
+                                        'Supports many channels (voice, chat, email, social, SMS, WhatsApp, human dialer) rather '
+                                        'than email alone.',
+                                        'Offers ready-made plays for common situations like reactivating old leads and speeding up '
+                                        'inbound response.',
+                                        'Lists CRM, Slack, G2 and API integrations, which matters for fitting into an existing '
+                                        'stack.'],
+                      'cons_expanded': ['No prices are published, so you cannot budget or compare without a sales conversation.',
+                                        'Not verified today: contract length, minimums and per-lead or per-seat terms; ask before '
+                                        'signing.',
+                                        'Outcome claims on the site are vendor-reported; ask for references in your own segment.',
+                                        'AI-led cold outreach and calling carry deliverability and compliance risk (consent rules, '
+                                        'spam filters) that you still own.'],
+                      'who_for': 'Suited to mid-market and enterprise sales or RevOps teams with a clear ideal customer profile '
+                                 'and a CRM, who want to add coverage without hiring more SDRs. Not for solo founders, early-stage '
+                                 'startups or small teams on tight budgets, nor for buyers who want transparent self-serve pricing '
+                                 'or a free trial.',
+                      'faq': [{'q': 'How much does 11x cost?',
+                               'a': 'Pricing is not public and I could not verify any figure today. The site directs buyers to '
+                                    'book a demo at 11x.ai/demo. Older third-party reports cited annual-contract pricing in the '
+                                    'tens of thousands of dollars, but treat that as unconfirmed.'},
+                              {'q': 'What is the difference between Alice and Julian?',
+                               'a': 'Alice is the outbound agent that prospects and runs outreach. Julian handles inbound leads '
+                                    'and customers over voice, chat, SMS and WhatsApp, qualifying them and booking meetings.'},
+                              {'q': 'Is there a free plan or trial?',
+                               'a': 'None is listed on the homepage. The only call to action is a demo request.'},
+                              {'q': 'Will it replace my SDR team?',
+                               'a': 'The vendor frames it as driving revenue at scale, but complex conversations and closing '
+                                    'typically still need people. Pilot it against your current results before reducing '
+                                    'headcount.'}]},
+             'last_checked': '2026-10-23',
+             'alternatives': []},
             {"name": "Octolane", "tagline": "The AI CRM that updates itself and drafts your follow-ups", "desc": "Octolane is an AI-driven CRM that runs a dedicated agent on every account, automatically enriching records, updating pipeline stages, drafting follow-up emails, and prioritizing a rep's day to cut manual data entry.", "pricing": "Best Friend plan from $1,000/mo; Enterprise custom pricing", "url": "https://www.octolane.com/",
              "tags": ["Productivity & Automation", "AI CRM", "Sales Automation"],
              "features": ["AI agent assigned to every account", "Automatic pipeline and deal-stage updates", "AI-drafted follow-up emails", "Predictive lead scoring", "Company and contact enrichment", "Natural-language reporting and forecasting"],
@@ -2823,21 +3283,86 @@ CATEGORIES = [
       {"q": "What happens when I hit a free plan limit?", "a": "Users see an upgrade prompt, but existing work is never lost — limits only block new actions, and free-plan allowances are lifetime credits rather than resetting monthly quotas."}
     ]
  }},
-            {"name": "Seeing AI", "tagline": "A free AI narrator that describes the world for blind users", "desc": "Seeing AI is Microsoft's free mobile app that uses on-device and cloud AI to narrate text, people, objects, products, and scenes aloud, helping blind and low-vision users navigate daily life.", "pricing": "Completely free, no ads, no in-app purchases", "url": "https://www.seeingai.com/",
- "tags": ["Productivity & Automation", "Accessibility", "Computer Vision"],
- "features": ["Read: instant text and document recognition with formatting", "Describe: rich AI photo and scene descriptions with follow-up questions", "Product barcode and QR scanning", "People recognition with age/expression estimates", "Currency and color identification", "Spatial-audio World mode for exploring surroundings"],
- "pros": ["Completely free with no subscription or ads", "Broad feature set covering reading, scene description, and navigation in one app", "Actively maintained by Microsoft with frequent feature updates"],
- "cons": ["iOS only; no first-party iPad-optimized or reliable Android parity at launch (Android version historically limited)", "Some users report inconsistent performance on tasks like reading digital displays", "Settings and channel order can reset between sessions, per user reports"],
- "best_for": "Blind and low-vision individuals who want a free, comprehensive AI visual-assistant app for reading text, identifying products and people, and understanding their surroundings.",
- "deep": {
-    "overview": "Seeing AI is a free iOS app built by Microsoft as an ongoing research project designed with and for the blind and low-vision community. It uses AI-powered computer vision to narrate the visual world in real time: pointing a phone's camera at text, a scene, a product, or a person triggers spoken descriptions delivered through the phone's screen reader and audio channels. The app is organized around task-specific \"channels\" — Read, Describe, Products, People, Currency, Colors, Light, and a spatial-audio World mode for LiDAR-equipped devices — each optimized for a specific daily task like reading mail, identifying canned goods, or recognizing a friend's face.\n\nMicrosoft has continuously expanded Seeing AI since its original release, adding capabilities such as rich image descriptions with follow-up questions, document Q&A, multi-page document scanning, handwriting recognition in multiple languages, video description, PDF recognition, and \"Find My Things\" — a feature letting users teach the app to recognize personal objects using an audio-first training flow. The app is developed by Microsoft Corporation, listed in the Productivity category on the App Store, and localized in 19 languages. It differentiates itself from competitors like Envision AI or Supersense by being entirely free with no subscription tiers, reflecting Microsoft's positioning of it as an accessibility research and goodwill project rather than a commercial product.", "features_detailed": [{"title":"Read", "desc":"Combines short text, document, and handwriting recognition into one channel that reads printed or handwritten text aloud as soon as it's in view, preserving original formatting."}, {"title":"Describe", "desc":"Takes a photo and returns a rich AI-generated description of the scene or people in it; users can ask follow-up questions about specific details."}, {"title":"Products", "desc":"Scans barcodes and accessible QR codes with audio guidance to identify products and surface package information."}, {"title":"People", "desc":"Recognizes saved contacts and estimates age, gender, and expression for people in view or in photos."}, {"title":"World", "desc":"An audio augmented-reality mode using Spatial Audio and LiDAR to announce nearby objects and support indoor navigation between saved routes."}, {"title":"Find My Things", "desc":"Lets users teach the app to recognize personal objects through an audio-first training flow, then locate them later via audio cues."}, {"title":"Currency & Colors", "desc":"Identifies currency notes and colors on demand for everyday tasks like sorting cash or matching clothing."}, {"title":"Cross-App Recognition", "desc":"Users can share photos or videos from Mail, Photos, WhatsApp, and other apps directly into Seeing AI for description."}],
-    "pricing_plans": [{"name":"Free", "price":"$0", "billing":"n/a", "features":["All channels and features included","No ads or in-app purchases","19 supported languages","Regular feature updates from Microsoft"]}],
-    "pros_expanded": ["Completely free with every feature unlocked — no premium tier, subscription, or ads, which is unusual for an app of this feature depth.", "Covers an unusually wide range of daily tasks in one app: reading, scene description, product scanning, people recognition, currency, and indoor navigation.", "Backed by Microsoft's ongoing investment; the app has shipped major updates yearly since launch, including rich image descriptions, video description, and object-teaching via Find My Things.", "App Store reviewers frequently describe it as one of the most useful accessibility apps available, with long-time users citing years of daily reliance on it.", "Supports 19 languages and multiple platforms (iOS natively, with a Microsoft Store version for Windows), extending reach beyond a single ecosystem."],
-    "cons_expanded": ["Holds a 4.3 out of 5 rating from 627 App Store ratings, reflecting a solid but not top-tier consumer score with a meaningful minority of critical reviews.", "Users report recurring bugs, such as settings and channel ordering resetting between app launches, forcing repeated reconfiguration.", "The Short Text/Read channel is described by some long-term users as inconsistent when reading digital displays (e.g., kitchen scales), sometimes taking unusually long to return a result.", "As a research-project app, feature requests (like expiration-date reading or wearable/glasses support) can take years to be addressed, if at all."],
-    "who_for": "Seeing AI is ideal for blind and low-vision users who want a free, all-in-one AI visual assistant for reading, scene description, product identification, and basic indoor navigation on iPhone or iPad. It is not designed for sighted productivity users or business workflow automation — its feature set and Microsoft's stated mission are specifically focused on accessibility for the blind and low-vision community.",
-    "reviews": {"app_store_rating": "4.3/5", "app_store_count": "627 ratings", "summary": "Seeing AI holds a 4.3-star average from 627 App Store ratings. Long-time users often call it one of the most useful accessibility apps they've tried, while critical reviews center on session-to-session bugs and inconsistent performance on specific tasks like reading digital displays.", "praise": ["Users describe it as 'the most useful app on my phone' after years of daily use for tasks like reading mail and identifying groceries.", "Praised as 'the best app for blind and visually impaired' for combining product, text, and description features in one place.", "Long-term users (citing 7+ years of use) say it remains one of the best recognition apps despite trying many alternatives."], "complaints": ["Recurring complaint about settings and channel order resetting between app launches, forcing users to reconfigure and re-dismiss tutorial popups.", "The Short Text channel is described as 'unacceptably inconsistent' when reading digital displays such as kitchen scales, sometimes taking many minutes.", "Some users request hardware-adjacent features like wearable camera/glasses support or a live human-assist option, which aren't part of the current app."]},
-    "faq": [{"q":"Is Seeing AI free?","a":"Yes, Seeing AI is completely free with no subscriptions, ads, or in-app purchases."},{"q":"What platforms does Seeing AI support?","a":"Seeing AI is available on iPhone and iPad via the App Store, with an app also listed on the Google Play Store for Android."},{"q":"Who makes Seeing AI?","a":"Seeing AI is developed by Microsoft Corporation as an ongoing accessibility research project."},{"q":"What is the World channel?","a":"World is an audio augmented-reality mode that uses Spatial Audio and, on LiDAR-equipped devices, announces nearby objects and supports saved indoor navigation routes."},{"q":"Can Seeing AI read handwriting?","a":"Yes, the Read channel includes handwriting recognition, supporting multiple languages including English, Japanese, and Korean."},{"q":"What is Seeing AI's App Store rating?","a":"As of the most recent listing, Seeing AI holds a 4.3 out of 5 rating from 627 ratings on the U.S. App Store."}]
- }},
+            {'name': 'Seeing AI',
+             'tagline': 'A free AI narrator that describes the world for blind users',
+             'desc': "Seeing AI is Microsoft's free app that uses AI to narrate text, photos, products and people aloud for blind "
+                     'and low-vision users.',
+             'pricing': 'Free (per the official site; Microsoft states no price). Details on ads or in-app purchases not verified '
+                        'today.',
+             'url': 'https://www.seeingai.com/',
+             'tags': ['Productivity & Automation', 'Accessibility', 'Computer Vision'],
+             'features': ['Read: instant text and document recognition with formatting',
+                          'Describe: rich AI photo and scene descriptions with follow-up questions',
+                          'Product barcode and QR scanning',
+                          'People recognition with age/expression estimates',
+                          'Currency and color identification',
+                          'Spatial-audio World mode for exploring surroundings'],
+             'pros': ['Completely free with no subscription or ads',
+                      'Broad feature set covering reading, scene description, and navigation in one app',
+                      'Actively maintained by Microsoft with frequent feature updates'],
+             'cons': ['Some long-term users report inconsistent reading of digital displays (unverified today)',
+                      'Reports of settings or channel order resetting (unverified today)',
+                      'Feature requests such as wearable support may take a long time, as it is a research project'],
+             'best_for': 'Blind and low-vision people who want a free AI app to read text, describe photos and identify products.',
+             'deep': {'overview': 'Seeing AI is a strong first app for blind and low-vision people who want a free narrator for '
+                                  'text, photos and products, and is not meant for sighted productivity or business automation. It '
+                                  'is a Microsoft research project built with and for the blind community: you point your phone '
+                                  'camera and it speaks what it sees, organized into channels such as Read, Describe, Products, '
+                                  'People, Currency, Colors and a spatial-audio World mode. The official site lists it as free and '
+                                  'available on the App Store and Google Play. Some capabilities, like World mode, depend on a '
+                                  'LiDAR-capable iPhone.',
+                      'features_detailed': [{'title': 'Read',
+                                             'desc': 'Combines short text, document, and handwriting recognition into one channel '
+                                                     "that reads printed or handwritten text aloud as soon as it's in view, "
+                                                     'preserving original formatting.'},
+                                            {'title': 'Describe',
+                                             'desc': 'Takes a photo and returns a rich AI-generated description of the scene or '
+                                                     'people in it; users can ask follow-up questions about specific details.'},
+                                            {'title': 'Products',
+                                             'desc': 'Scans barcodes and accessible QR codes with audio guidance to identify '
+                                                     'products and surface package information.'},
+                                            {'title': 'People',
+                                             'desc': 'Recognizes saved contacts and estimates age, gender, and expression for '
+                                                     'people in view or in photos.'},
+                                            {'title': 'World',
+                                             'desc': 'An audio augmented-reality mode using Spatial Audio and LiDAR to announce '
+                                                     'nearby objects and support indoor navigation between saved routes.'},
+                                            {'title': 'Find My Things',
+                                             'desc': 'Lets users teach the app to recognize personal objects through an '
+                                                     'audio-first training flow, then locate them later via audio cues.'},
+                                            {'title': 'Currency & Colors',
+                                             'desc': 'Identifies currency notes and colors on demand for everyday tasks like '
+                                                     'sorting cash or matching clothing.'},
+                                            {'title': 'Cross-App Recognition',
+                                             'desc': 'Users can share photos or videos from Mail, Photos, WhatsApp, and other apps '
+                                                     'directly into Seeing AI for description.'}],
+                      'pricing_plans': [{'name': 'Free',
+                                         'price': '$0',
+                                         'billing': 'n/a',
+                                         'features': ['Listed as free on the official site',
+                                                      'Ads or in-app purchases: not verified today']}],
+                      'pros_expanded': ['Free, per the official site.',
+                                        'One app covers reading, scene description, product scanning, people and currency '
+                                        'recognition.',
+                                        'Built by Microsoft with the blind and low-vision community.',
+                                        'Available on iOS and Android per the official site.'],
+                      'cons_expanded': ['World mode and spatial navigation need LiDAR-equipped iPhones.',
+                                        'It is a research project, so feature requests may be slow to arrive.',
+                                        'Accuracy on tricky tasks such as digital displays varies; not verified by us today.',
+                                        'Handwriting and language coverage details could not be verified today.'],
+                      'who_for': 'Ideal for blind and low-vision users who want one free app for reading mail, identifying '
+                                 'products and getting scene descriptions. Not for sighted users looking for productivity '
+                                 'features, teams needing business workflow tools, or anyone needing human-assist or smart-glasses '
+                                 'support, which the app does not offer.',
+                      'faq': [{'q': 'Is Seeing AI free?', 'a': 'The official site describes it as a free app.'},
+                              {'q': 'What platforms does it run on?', 'a': 'The site links to the App Store and Google Play.'},
+                              {'q': 'Who makes it?',
+                               'a': 'Microsoft, as an ongoing research project built with the blind and low-vision community.'},
+                              {'q': 'Who is it not for?',
+                               'a': 'Sighted users wanting productivity features, or people needing human-assisted help or '
+                                    'smart-glasses support.'}]},
+             'alternatives': [],
+             'last_checked': '2026-10-23'},
             
             {"name": "Adaptive", "tagline": "An AI coworker that browses, clicks, and files tasks across your business tools", "desc": "Adaptive is a cloud-based AI agent platform that automates operational work — sales follow-up, research, scheduling, basic app-building — by controlling your connected tools through plain-English instructions instead of code.", "pricing": "Free tier available; paid plans are Personal at $20/month and Pro at $100/month (with usage-based add-ons), plus a custom-priced Enterprise tier for teams needing more capacity and support.", "url": "https://adaptive.ai", "tags": ["AI Agents", "Business Automation", "No-Code", "Virtual Assistant"], "features": ["Autonomous agents for research, outreach, and scheduled tasks", "20+ native integrations (Gmail, Slack, GitHub, Stripe, Notion, Discord)", "Browser automation for navigating and acting on web interfaces", "\"Encoded Memory\" that turns repeated workflows into reusable programs"], "pros": ["Approachable plain-English setup for non-technical founders", "Broad out-of-the-box integration list for a young product", "Free tier lets you test real agent workflows before paying"], "cons": ["Company and product positioning have shifted since its 2025 launch, so some marketing language and case studies may lag the current feature set", "No independent, verifiable review-site rating exists yet for the AI-agent product, so buyers are largely working from vendor claims and early adopter posts"], "best_for": "Solo founders, indie hackers, and small operator-led businesses who want to hand off repetitive digital busywork to an AI agent without hiring or writing code.", "deep": {"overview": "Adaptive (built by Adaptive Computer, Inc.) started life in 2025 as a no-code platform for stitching together small custom apps — think a quiz generator wired to a student tracker — and raised a $7 million seed round led by Pebblebed, with Conviction Partners, Anti Fund, Radical Ventures, and Roblox founder David Baszucki also participating. Co-founder Dennis Xu has been the public face of the company as it evolved. By 2026 the product had repositioned itself more explicitly as an \"AI coworker\": a set of autonomous agents that log into your actual tools — Gmail, Slack, GitHub, Stripe, Notion, and 20-plus others — and carry out multi-step work like following up on sales leads, running market research, or triaging a spreadsheet turned into a lightweight internal app.\n\nWhat separates Adaptive from a plain chatbot wrapper is that it runs as a persistent cloud \"computer\" rather than a single conversation: agents can browse and click through web UIs, keep working after you close the app (including from a locked phone via its iOS client), and rely on human-in-the-loop approvals for anything sensitive, like sending payments or emails. Its most distinctive claim is \"Encoded Memory\" — the idea that a workflow an agent performs manually the first time gets compiled into a reusable, faster program on repeat runs. That puts Adaptive in the same general lane as other 2025-2026 \"agentic coworker\" startups, competing less on any single integration and more on how cheaply and reliably it can turn one-off instructions into standing automations for people without engineering resources.", "who_for": "Non-technical solo founders, small business owners, and people juggling multiple side ventures who want an AI agent to handle recurring operational tasks — outreach, research, basic app logic — without hiring staff or learning to code.", "features_detailed": [{"title": "Autonomous task agents", "desc": "Dedicated agents work in parallel on tasks like research, drafting outreach, following up with leads, and running scheduled jobs, reporting back rather than requiring step-by-step prompting."}, {"title": "Encoded Memory", "desc": "Adaptive records how it solved a task the first time and converts that into a reusable routine, aiming to make repeated workflows faster and cheaper on subsequent runs."}, {"title": "Broad tool integrations", "desc": "Native connections to Gmail, Slack, Google Sheets, GitHub, Stripe, Square, Notion, Discord, and 20+ other services let agents act directly inside the tools a small business already uses."}, {"title": "Browser and computer control", "desc": "Agents can navigate web interfaces, click through forms, and take actions on sites without a dedicated API, extending automation beyond what pure API integrations cover."}, {"title": "Spreadsheet-to-app building", "desc": "Users can turn a spreadsheet into a small operational app, and agents can read and modify connected GitHub repositories for lightweight custom software tasks."}, {"title": "Mobile-native execution", "desc": "A native iOS app lets agents keep running in the background even when the phone is locked, so automations aren't tied to keeping a browser tab open."}], "pricing_plans": [{"name": "Free", "price": "$0/mo", "billing": "No card required", "features": ["Basic agent access", "Limited daily usage and storage", "No payment processing or email sending", "Sign-up welcome usage bonus"]}, {"name": "Personal", "price": "$20/mo", "billing": "Billed monthly; marked \"most popular\"", "features": ["Everything in Free, with higher usage caps", "Increased storage", "Web search and scheduled tasks", "Email sending enabled", "Pay-as-you-go overage option"]}, {"name": "Pro", "price": "$100/mo", "billing": "Billed monthly", "features": ["Everything in Personal", "Access to the higher-tier \"Ultra\" agent", "5x the usage allowance of Personal", "2x the storage of Personal", "Payment processing capability"]}, {"name": "Enterprise", "price": "Custom", "billing": "Contact sales", "features": ["Custom usage capacity", "Dedicated support", "Additional security and compliance options", "Implementation assistance"]}], "pros_expanded": ["The plain-English, no-code setup lowers the barrier for solo operators who aren't developers and don't want to write automation scripts.", "Integration coverage is unusually wide for a young company, spanning communication, payments, dev tools, and productivity apps out of the box.", "Browser-level automation lets agents handle tasks on sites that don't offer a clean API, which pure integration-based tools typically can't touch.", "A genuinely usable free tier means prospective users can validate real agent workflows before committing to a paid plan.", "Backing from investors including Pebblebed and Radical Ventures, plus a public $7M seed round, signals runway to keep iterating on the product."], "cons_expanded": ["The product has repositioned substantially since its 2025 launch (from a no-code app builder toward an 'AI coworker'), so third-party writeups and even some vendor materials may describe an earlier version of the tool.", "There is no independently verifiable star rating on a major review platform (G2, Capterra, TrustRadius) specifically for this AI-agent product as of this writing — a same-named but unrelated construction-bookkeeping company also called 'Adaptive' does have Capterra reviews, which is an easy mix-up.", "Usage-based pricing on the paid tiers means costs can be hard to predict for heavier automation workloads until you've run them.", "Giving an autonomous agent access to email, payments, and code repositories raises real oversight questions; the human-approval controls mitigate but don't eliminate that risk, especially for less technical users setting permissions for the first time."], "faq": [{"q": "How much does Adaptive cost?", "a": "There's a free plan with limited usage, a Personal plan at $20/month, and a Pro plan at $100/month with higher usage and storage limits; larger teams can get custom Enterprise pricing by contacting sales."}, {"q": "What tools does Adaptive integrate with?", "a": "It natively connects to more than 20 apps including Gmail, Slack, Google Sheets, GitHub, Stripe, Square, Notion, and Discord, and can also control web pages directly through browser automation for sites without an API."}, {"q": "Who is Adaptive built for?", "a": "It's aimed at solo founders, small business owners, and non-technical operators who want to automate day-to-day tasks like lead follow-up, research, and simple internal apps without hiring developers."}, {"q": "What's the biggest limitation to know about before signing up?", "a": "The product has changed positioning since its 2025 launch, so expect some rough edges and version drift in documentation, and there's no independently verified review-site rating yet for the AI-agent product specifically — do your own trial on the free tier before committing budget."}, {"q": "How does Adaptive compare to other AI agent or automation platforms?", "a": "Compared to workflow tools like Zapier or Make, Adaptive leans more on autonomous, plain-English-directed agents and browser control rather than pre-built trigger-action recipes; compared to general chat assistants, it persists and keeps working on scheduled or background tasks rather than only responding in a single session."}, {"q": "How do I get started with Adaptive?", "a": "Sign up for the free plan at adaptive.ai, connect the tools you want an agent to use (email, Slack, Stripe, etc.), and describe a task in plain English to see how the agent executes it before deciding whether to upgrade."}]}},
             {"name": "OLVA", "tagline": "Real-time meeting help without a bot in the room", "desc": "OLVA is a desktop and mobile app that listens in on live Zoom, Meet, or Teams calls, transcribing in real time and surfacing answers, fact-checks, and coaching prompts as the conversation happens — all without adding a visible bot to the meeting.", "pricing": "Free Basic plan covers 2 hours/month; Plus is $12.50/mo ($150/yr) for 15 hours with document and calendar features; Pro is $19.99/mo ($239.88/yr) for unlimited meeting time plus Slack, Drive, and Notion integrations; Teams/Enterprise pricing is custom.", "url": "https://olva.ai", "tags": ["Meeting AI", "Sales Enablement", "Live Transcription", "Real-Time Coaching"], "features": ["Real-time transcription across Zoom, Meet, Teams, Webex, and Slack Huddles", "Automatic question detection with instant, document-grounded answers", "Live AI coaching prompts during the call itself", "Bot-free desktop audio capture — no visible meeting participant"], "pros": ["No bot joins the call, sidestepping a common source of meeting-etiquette friction", "Delivers live, in-the-moment answers and coaching, not just an after-the-fact recap", "Generous free tier and sub-$20/month plans compared to enterprise call-intelligence tools"], "cons": ["Local desktop-audio capture means it can only assist on devices where it's installed and running, unlike cloud bots that join from anywhere", "Independent, high-volume user reviews are still scarce, so real-world reliability at scale is hard to verify"], "best_for": "Sales reps, customer success managers, and other professionals who need real-time answers and coaching during live calls rather than a summary afterward.", "deep": {"overview": "OLVA is a meeting-intelligence tool built around a simple pitch: help during the call, not just after it. Instead of the now-familiar bot that joins a Zoom or Google Meet as a visible participant to record and transcribe, OLVA installs as a desktop (and mobile) companion that captures audio directly from the device the user is on. Because it never appears in the participant list, it works across Zoom, Google Meet, Microsoft Teams, Webex, and Slack Huddles without needing host permission to add a bot, and it can even follow in-person conversations through a laptop or phone mic. From that audio stream it produces a live transcript, flags questions as they're asked, and pulls answers from any documents or context the user has connected, alongside prompts meant to nudge the speaker toward stronger framing in the moment.\n\nWhere OLVA differs from note-taking incumbents like Otter.ai and Fathom, and from enterprise revenue-intelligence platforms like Gong, is timing. Otter and Fathom are built primarily for capture-then-review: a bot joins, records, and hands back a transcript and summary once the call ends. Gong goes further into post-call analytics and deal intelligence but is squarely an after-the-fact, enterprise-priced tool. OLVA instead pushes transcription, coaching, and translation into the live moment, positioning itself less as a note-taker and more as a real-time copilot for people who need to think and respond well while still on the call — sales reps fielding objections, support agents answering technical questions, or anyone working across languages. The tradeoff is that it depends on the local device's audio setup rather than a cloud bot, and as a newer product it has a much thinner independent track record than its established competitors.", "who_for": "Best suited to individual sales professionals, customer success and support reps, and small teams who want live, in-call support — translation, answers, coaching — rather than a purely retrospective meeting recorder.", "features_detailed": [{"title": "Live Transcription", "desc": "Real-time speech-to-text covering 87 languages with automatic multilingual detection, so mixed-language meetings get transcribed without manual setup."}, {"title": "Question Detection & Instant Answers", "desc": "OLVA listens for questions as they're asked and answers using connected documents and prior meeting context, surfacing the response on-screen during the call."}, {"title": "Live AI Coach", "desc": "Provides in-the-moment prompts on framing, tone, or missed talking points while the conversation is still happening."}, {"title": "Live Translation", "desc": "Translates the transcript automatically or on demand, aimed at multilingual sales and customer conversations."}, {"title": "Bot-Free Capture", "desc": "Captures audio locally from the device rather than joining as a visible meeting participant, working across Zoom, Meet, Teams, Webex, Slack Huddles, and in-person talks."}, {"title": "Post-Meeting Intelligence", "desc": "After the call, generates summaries, action items, a searchable meeting archive, and can produce a slide-deck recap of the conversation."}], "pricing_plans": [{"name": "Basic", "price": "Free", "billing": "No paid tier required to start", "features": ["2 hours of meeting time per month", "Live transcription & real-time insights", "Automatic question detection", "AI coaching prompts", "Limited meeting history", "No document attachments or calendar integration"]}, {"name": "Plus", "price": "$12.50/mo", "billing": "Billed annually at $150/yr", "features": ["15 hours of meeting time per month", "Unlimited meeting history", "Document attachments for context-aware answers", "Calendar integration", "Live translation & multilingual support", "Post-meeting summaries and action items"]}, {"name": "Pro", "price": "$19.99/mo", "billing": "Billed annually at $239.88/yr", "features": ["Unlimited meeting time", "Slack, Google Drive, and Notion integrations", "Outbound webhooks for developers", "Slide-deck generation from meetings", "Everything in Plus"]}, {"name": "Teams / Enterprise", "price": "Custom", "billing": "Contact sales", "features": ["Volume/team-wide deployment", "Compliance reviews", "Dedicated support", "Custom contract terms"]}], "pros_expanded": ["Skips the bot-in-the-call model entirely, so it doesn't add a visible participant or trigger notifications some organizations restrict or ban outright.", "Delivers help while the meeting is still happening — live answers, coaching, and translation — rather than only a post-call summary.", "Free tier and sub-$20/month paid plans undercut enterprise conversation-intelligence tools like Gong on price.", "Covers a wide range of meeting surfaces (Zoom, Meet, Teams, Webex, Slack Huddles) plus in-person conversations through the same desktop app.", "87-language transcription and live translation are a genuine differentiator for teams doing multilingual sales or support calls."], "cons_expanded": ["Because capture happens locally on the user's device, it can't record or assist in meetings where the app isn't installed and running, unlike cloud-based bots that can be added to any invite.", "Public, high-volume review data is thin — app store and review-aggregator listings currently reflect only a handful of ratings, so broad claims about accuracy or reliability at scale aren't yet independently verifiable.", "Live in-meeting answers depend on the documents and context a user has connected beforehand; without that setup, the 'answers' feature has less to draw on.", "The bot-free design doesn't remove consent obligations — OLVA's own FAQ tells users to give notice and obtain whatever recording consent their meeting requires, so it doesn't sidestep two-party-consent laws."], "faq": [{"q": "How much does OLVA cost?", "a": "OLVA has a free Basic plan (2 hours/month), a Plus plan at $12.50/month ($150 billed annually) with 15 hours plus document and calendar features, a Pro plan at $19.99/month ($239.88 billed annually) with unlimited meeting time and Slack/Drive/Notion integrations, and custom Teams/Enterprise pricing."}, {"q": "Is it legal to use OLVA without telling other meeting participants?", "a": "OLVA doesn't add a visible bot to the call, but that doesn't remove consent requirements — its own FAQ instructs users to give clear notice and get whatever consent their jurisdiction or company policy requires before using it, since many regions mandate all-party consent to record."}, {"q": "Which meeting platforms does OLVA support?", "a": "It works across Zoom, Google Meet, Microsoft Teams, Slack Huddles, and Webex, plus in-person conversations, by capturing audio from the user's own device rather than joining as a participant."}, {"q": "Does OLVA store meeting audio or video?", "a": "According to OLVA's FAQ, it does not store meeting audio or video on its systems; audio is processed for transcription and AI features, and the resulting transcripts and data are handled under its privacy policy."}, {"q": "How is OLVA different from Otter.ai, Fathom, or Gong?", "a": "Otter and Fathom are primarily post-call note-takers that join as a bot and hand back a transcript and summary afterward. Gong is an enterprise revenue-intelligence platform focused on post-call deal analytics. OLVA's focus is the live moment itself — real-time transcription, question answering, coaching, and translation while the meeting is still happening, without a bot in the call."}, {"q": "How do I get started with OLVA?", "a": "Sign up at olva.ai and install the desktop or mobile app; the free Basic plan includes 2 hours of meeting time per month, enough to try live transcription and coaching before deciding whether to upgrade."}]}},
@@ -3132,86 +3657,110 @@ CATEGORIES = [
                     {"q": "Can I cancel anytime?", "a": "Yes, plans are billed monthly with no long-term contract and can be canceled at any time."}
                 ]
              }},
-            {"name": "Lovart", "tagline": "The AI design agent that turns a brief into a complete, on-brand campaign.", "desc": "An AI design agent that creates logos, brand identities, marketing graphics, and video from a text brief on an infinite canvas, keeping every asset editable and on-brand across a campaign.", "pricing": "Free tier with daily credits; paid plans roughly $16-$109/month billed annually (Starter/Basic/Pro/Ultimate), higher on monthly billing", "url": "https://www.lovart.ai/",
-             "tags": ["Marketing & SEO", "AI Design", "Content Creation"],
-             "features": [
-                "Infinite-canvas AI design agent that builds complete campaign kits from one prompt",
-                "\"Mind Chain of Thought\" (MCoT) reasoning engine that plans before generating",
-                "One-click Skills marketplace for repeatable, on-brand creative workflows",
-                "Full post-generation editing — adjust layers, structure, and style",
-                "Access to multiple leading image/video AI models (Nano Banana Pro, Seedance 2.0, Kling, Flux, Veo) in one platform",
-                "Brand Kit for managing consistent visual identity across multiple brands/clients",
-                "Batch generation of up to 40 images in a single run",
-                "Credit-based usage with Fast Generation and Unlimited Relax Generation modes"
-             ],
-             "pros": [
-                "G2 reviewers rate it 4.7/5 across 22 verified reviews, with praise for turning ideas into full campaign-ready visuals quickly",
-                "Combines many leading image/video generation models behind one interface instead of separate subscriptions",
-                "Genuinely iterative/editable workflow (layers, structure edits) rather than single-shot prompt-to-image generation"
-             ],
-             "cons": [
-                "Reviewers consistently flag the credit-based pricing and subscription/cancellation flow as confusing",
-                "Character and detail consistency across multiple images or longer videos is still inconsistent"
-             ],
-             "best_for": "Designers, marketers, and small brand/creative teams who want an AI agent to carry a project from creative brief through polished, on-brand campaign assets, rather than a single-image generator.",
-             "deep": {
-                "overview": "Lovart is an AI design agent, launched in July 2025, that aims to replace parts of a traditional design workflow rather than just generate individual images. Instead of a single prompt producing one output, users describe a creative brief — goals, brand style, campaign requirements — and Lovart works through an infinite canvas, iterating with the user across multiple rounds to produce logos, brand identity systems, social and ad graphics, illustrations, and video, all editable afterward at the layer level. Its 'Mind Chain of Thought' reasoning engine is positioned as the core differentiator: rather than generating an image directly from a prompt, it reasons through audience, brand context, and intent first, producing a plan that shapes the output — which the company argues is why Lovart can output a 'complete campaign kit' (logo, color system, typography, templates, video, brand guidelines) from one input instead of a single asset.\n\nLovart competes with both general AI image tools (Midjourney) and template-based design platforms (Canva), differentiating itself by bundling access to multiple top image/video AI models behind one agentic interface with a Skills marketplace for reusable workflows, rather than requiring users to prompt each model separately. It's built and marketed for designers, marketers, and business owners rather than developers, and monetizes through a tiered, credit-based subscription (Starter through Ultimate) plus a free tier with a limited daily credit allowance.",
-                "features_detailed": [
-                    {"title": "One-Prompt Campaign Kits", "desc": "A single creative brief can generate a full, coordinated set of assets — logo, color system, typography, social templates, video, and brand guidelines — inside one infinite canvas instead of isolated single images."},
-                    {"title": "Mind Chain of Thought (MCoT) Engine", "desc": "Reasons through the brief — audience, brand context, intent — before generating, so outputs reflect a strategic plan rather than a one-shot interpretation of the prompt."},
-                    {"title": "Skills Marketplace", "desc": "Ready-to-use workflows for specific creative tasks (logo creation, poster design, brand identity, social campaigns) that can be reused or saved as custom repeatable Skills for consistent output."},
-                    {"title": "Full Post-Generation Editing", "desc": "Unlike one-shot AI image tools, every generated asset stays editable — adjust layers, swap elements, correct style, or restructure the design after it's created."},
-                    {"title": "Multi-Model Access", "desc": "Integrates leading image and video generation models (Nano Banana Pro, Seedance 2.0, Kling AI, Flux, Veo, Luma AI, and more) so users pick the right model per task without separate subscriptions."},
-                    {"title": "Brand Kit Management", "desc": "Lets agencies and multi-brand users store and apply distinct brand guidelines, letting one account manage consistent creative for dozens of separate brands or clients."},
-                    {"title": "Batch Generation", "desc": "Generates up to 40 images in one batch run, useful for producing multiple campaign variations quickly rather than one asset at a time."},
-                    {"title": "Fast vs. Unlimited Relax Generation", "desc": "Fast Generation draws from a monthly credit balance for immediate results; Unlimited Relax Generation offers unlimited slower, queued generations on eligible plans without consuming fast credits."}
-                ],
-                "pricing_plans": [
-                    {"name": "Free", "price": "$0", "billing": "Limited daily credit allowance", "features": ["Limited daily generation credits", "Access to core canvas and agent workflow", "Good for testing before subscribing"]},
-                    {"name": "Starter", "price": "~$16-19/month", "billing": "Lower on annual billing, higher month-to-month; credits reset each cycle", "features": ["Entry-level monthly credit allowance", "Core design agent and canvas access"]},
-                    {"name": "Basic", "price": "~$27/month", "billing": "Lower on annual billing; credits reset each cycle", "features": ["More credits than Starter", "Suited to freelancers and frequent generation"]},
-                    {"name": "Pro", "price": "~$45-49/month", "billing": "Lower on annual billing, higher month-to-month; credits reset each cycle", "features": ["Higher credit allowance for agencies/teams", "Access to premium models"]},
-                    {"name": "Ultimate", "price": "~$109-149/month", "billing": "Lower on annual billing, higher month-to-month; credits reset each cycle", "features": ["Highest credit allowance", "Priority generation queue", "Best for high-volume production"]},
-                    {"name": "Team", "price": "Custom", "billing": "Contact sales", "features": ["Multi-seat access (individual accounts otherwise limited to 2 desktop + 1 mobile session)", "Centralized billing for teams"]}
-                ],
-                "pros_expanded": [
-                    "Real G2 review data (4.7/5, 22 reviews) backs the core pitch — reviewers specifically praise how it turns rough ideas into full, coherent campaign concepts rather than single disconnected images",
-                    "Bundling multiple top-tier image/video models (Nano Banana Pro, Seedance 2.0, Kling, Veo, Flux) behind one agent avoids paying for and learning several separate tools",
-                    "The MCoT planning step and persistent reference/character sheets specifically help with the historically hard problem of keeping characters and branding consistent across a multi-asset campaign",
-                    "Full post-generation editing (layers, structure) gives more creative control than most one-shot AI image generators",
-                    "A genuinely free daily-credit tier lets users evaluate the agent workflow before committing to a paid plan"
-                ],
-                "cons_expanded": [
-                    "Multiple G2 reviewers specifically call out confusing credit-based pricing and difficulty understanding or canceling subscriptions",
-                    "Consistency issues persist in specific scenarios: transparent-image checkerboard artifacts, character/clothing drift in longer or fast-paced videos, and no native audio tools for video/film work",
-                    "Independent reviews still describe parts of Lovart as 'beta' quality, with occasional model unavailability or slower performance under load",
-                    "Heavy or media-intensive generation (high-res images, video) can burn through monthly credits quickly, pushing users toward slower Relax mode or a higher tier",
-                    "Account sharing is restricted to 2 desktop + 1 mobile session per individual account, so teams need the separate, custom-priced Team plan"
-                ],
-                "who_for": "Lovart is best suited to designers, marketers, and small creative or brand teams who want an AI collaborator that can carry a project from a rough creative brief to a coordinated, editable set of branding or campaign assets — especially logo design, social/ad graphics, and short-form video where character or brand consistency across multiple pieces matters. It's less suited to enterprise teams needing robust multi-seat collaboration out of the box (that requires a separate custom Team plan), or to users who want simple, flat-rate pricing rather than a credit-based system — reviewers consistently flag the credit/subscription mechanics as the platform's most confusing aspect.",
-                "reviews": {
-                    "g2_rating": "4.7/5", "g2_count": "22 reviews",
-                    "summary": "Lovart holds a strong 4.7/5 on G2 from 22 reviews as of mid-2026. Reviewers consistently praise its agentic, canvas-based workflow and ability to maintain character/brand consistency across a production, while the most common criticism is confusion around credit-based pricing and subscription cancellation.",
-                    "praise": [
-                        "Turns rough ideas into complete, coherent campaign concepts rather than single disconnected images",
-                        "Strong character and scene consistency for multi-asset video/design production via persistent reference sheets",
-                        "Access to many leading AI image/video models in one canvas-based, agentic workspace"
-                    ],
-                    "complaints": [
-                        "Credit-based pricing and subscription cancellation flow described as confusing by several reviewers",
-                        "Occasional 'beta feel' — inconsistent output on complex prompts, human hands/faces, or fast-paced video scenes",
-                        "No native audio/sound-design tools, so film-style projects still need a separate editing tool for final assembly"
-                    ]
-                },
-                "faq": [
-                    {"q": "Is Lovart free to use?", "a": "Yes, there's a free tier with a limited daily credit allowance, enough for light use before needing a paid plan."},
-                    {"q": "How does Lovart's credit system work?", "a": "Generations consume credits based on the model, output size/quality, and complexity chosen; monthly subscription credits reset each billing cycle and don't roll over, while separately purchased top-up credits are valid for 366 days."},
-                    {"q": "Can I edit what Lovart generates?", "a": "Yes — unlike single-shot AI image generators, Lovart keeps every asset editable at the layer level after generation (structure, style, individual elements)."},
-                    {"q": "What AI models does Lovart use?", "a": "It integrates multiple third-party leading image and video models (e.g., Nano Banana Pro, Seedance 2.0, Kling AI, Flux, Veo, Luma AI) behind one agent interface, letting users pick the best model per task."},
-                    {"q": "Is Lovart good for ecommerce product photography?", "a": "It can support early-stage campaign concepting and creative ideation, but it's not purpose-built for pixel-consistent product photography at ecommerce/marketplace scale the way dedicated product-image tools are."},
-                    {"q": "Can multiple people share one Lovart account?", "a": "No — individual accounts are limited to 2 simultaneous desktop-web and 1 mobile-web session; teams needing multi-user access must purchase the separate Team plan."}
-                ]
-             }},
+            {'name': 'Lovart',
+             'tagline': 'The AI design agent that turns a brief into a complete, on-brand campaign.',
+             'desc': 'An AI design agent that creates logos, brand identities, marketing graphics, and video from a text brief on '
+                     'an infinite canvas, keeping every asset editable and on-brand across a campaign.',
+             'pricing': 'Could not verify plan prices today - see https://www.lovart.ai/pricing (pricing page shows a Team plan '
+                        'and monthly/annual toggle; credits expire each cycle)',
+             'url': 'https://www.lovart.ai/',
+             'tags': ['Marketing & SEO', 'AI Design', 'Content Creation'],
+             'features': ['Infinite-canvas AI design agent that builds complete campaign kits from one prompt',
+                          '"Mind Chain of Thought" (MCoT) reasoning engine that plans before generating',
+                          'One-click Skills marketplace for repeatable, on-brand creative workflows',
+                          'Full post-generation editing — adjust layers, structure, and style',
+                          'Access to multiple leading image/video AI models (Nano Banana Pro, Seedance 2.0, Kling, Flux, Veo) in '
+                          'one platform',
+                          'Brand Kit for managing consistent visual identity across multiple brands/clients',
+                          'Batch generation of up to 40 images in a single run',
+                          'Credit-based usage with Fast Generation and Unlimited Relax Generation modes'],
+             'pros': ['Brief-to-campaign workflow: logos, social content, packaging and video ads from one conversation',
+                      'Several third-party image and video models in one interface',
+                      'Generated assets stay editable on the canvas'],
+             'cons': ['Credit-based pricing; plan prices could not be verified today',
+                      'Monthly credits expire and do not roll over',
+                      'One account allows only 2 desktop and 1 mobile session'],
+             'best_for': 'Designers, marketers, and small brand/creative teams who want an AI agent to carry a project from '
+                         'creative brief through polished, on-brand campaign assets, rather than a single-image generator.',
+             'deep': {'overview': 'Lovart is a good fit for designers, marketers and small brands who want an AI agent to turn a '
+                                  'written brief into a set of branded assets; skip it if you need flat predictable pricing or '
+                                  'heavy multi-person collaboration without buying the Team plan. The site calls it an AI design '
+                                  'agent that creates logos, packaging, social content and video ads from a conversation, on a '
+                                  'canvas where outputs remain editable. It runs on credits, with fast generation drawing down '
+                                  'credits and a slower queued Relax mode on some plans. I could not load plan prices today, so '
+                                  'check the live pricing page before subscribing.',
+                      'features_detailed': [{'title': 'One-Prompt Campaign Kits',
+                                             'desc': 'A single creative brief can generate a full, coordinated set of assets — '
+                                                     'logo, color system, typography, social templates, video, and brand '
+                                                     'guidelines — inside one infinite canvas instead of isolated single images.'},
+                                            {'title': 'Mind Chain of Thought (MCoT) Engine',
+                                             'desc': 'Reasons through the brief — audience, brand context, intent — before '
+                                                     'generating, so outputs reflect a strategic plan rather than a one-shot '
+                                                     'interpretation of the prompt.'},
+                                            {'title': 'Skills Marketplace',
+                                             'desc': 'Ready-to-use workflows for specific creative tasks (logo creation, poster '
+                                                     'design, brand identity, social campaigns) that can be reused or saved as '
+                                                     'custom repeatable Skills for consistent output.'},
+                                            {'title': 'Full Post-Generation Editing',
+                                             'desc': 'Unlike one-shot AI image tools, every generated asset stays editable — '
+                                                     'adjust layers, swap elements, correct style, or restructure the design after '
+                                                     "it's created."},
+                                            {'title': 'Multi-Model Access',
+                                             'desc': 'Integrates leading image and video generation models (Nano Banana Pro, '
+                                                     'Seedance 2.0, Kling AI, Flux, Veo, Luma AI, and more) so users pick the '
+                                                     'right model per task without separate subscriptions.'},
+                                            {'title': 'Brand Kit Management',
+                                             'desc': 'Lets agencies and multi-brand users store and apply distinct brand '
+                                                     'guidelines, letting one account manage consistent creative for dozens of '
+                                                     'separate brands or clients.'},
+                                            {'title': 'Batch Generation',
+                                             'desc': 'Generates up to 40 images in one batch run, useful for producing multiple '
+                                                     'campaign variations quickly rather than one asset at a time.'},
+                                            {'title': 'Fast vs. Unlimited Relax Generation',
+                                             'desc': 'Fast Generation draws from a monthly credit balance for immediate results; '
+                                                     'Unlimited Relax Generation offers unlimited slower, queued generations on '
+                                                     'eligible plans without consuming fast credits.'}],
+                      'pricing_plans': [{'name': 'Individual plans',
+                                         'price': 'Could not verify - see https://www.lovart.ai/pricing',
+                                         'billing': 'Monthly or annual toggle; credits reset each cycle and do not roll over',
+                                         'features': ['Relax mode tiers named Basic, Pro and Ultimate on the pricing page',
+                                                      'Top-up credits valid 366 days from purchase',
+                                                      'Up to 2 desktop and 1 mobile web session per account']},
+                                        {'name': 'Team plan',
+                                         'price': 'Could not verify - see pricing page',
+                                         'billing': 'Not verified',
+                                         'features': ['Required for multi-user use']}],
+                      'pros_expanded': ['Works from a conversation rather than single prompts, which suits campaign-style jobs '
+                                        'with several assets.',
+                                        'Bundles multiple outside image and video models, so you avoid separate subscriptions.',
+                                        'Outputs stay editable on the canvas instead of being flattened images.',
+                                        'Pricing page documents credit expiry and top-up rules clearly.'],
+                      'cons_expanded': ['Plan prices and credit amounts could not be verified today; the page content I could load '
+                                        'did not show them.',
+                                        'Monthly credits expire each cycle; annual plans issue credits monthly, so you cannot bank '
+                                        'them.',
+                                        'Accounts are for individual use with session limits; teams must buy the Team plan.',
+                                        'Unlimited Relax runs on a fixed timeline, is a one-time benefit per account, and is '
+                                        'queued by tier, so it can be slow.',
+                                        'Quality depends on the underlying third-party models and can vary.'],
+                      'who_for': 'Good for freelancers, in-house marketers and small brand teams producing campaign visuals and '
+                                 'short video. Not for people who want a single fixed price per image, enterprises needing shared '
+                                 'seats on one account (that needs the Team plan), or anyone who needs pixel-exact product '
+                                 'photography.',
+                      'faq': [{'q': 'How much does Lovart cost?',
+                               'a': 'I could not verify current prices today. The pricing page has a monthly/annual toggle and a '
+                                    'Team plan; check https://www.lovart.ai/pricing for exact numbers.'},
+                              {'q': 'Do credits roll over?',
+                               'a': 'No for subscription credits: they reset each billing date, and annual plans issue credits '
+                                    'monthly that expire at month end. Top-up credits last 366 days from purchase.'},
+                              {'q': 'Can a team share one account?',
+                               'a': 'No. Accounts are limited to 2 desktop web sessions and 1 mobile session; multi-user use '
+                                    'requires the Team plan.'},
+                              {'q': 'What is Relax generation?',
+                               'a': 'A slower queued mode that does not use fast credits. Queue priority depends on tier, and the '
+                                    'Unlimited Relax benefit runs on a fixed timeline per account.'}]},
+             'last_checked': '2026-10-23',
+             'alternatives': []},
             {"name": "SmartlyQ", "tagline": "The all-in-one AI marketing platform for content, social, chatbots, and publishing automation.", "desc": "An all-in-one AI marketing platform combining copywriting, social scheduling, chatbots, video editing, a CRM, and funnel tools into one dashboard, aimed at consolidating a typical multi-tool marketing stack.", "pricing": "Pro from €97/month; Business €297/month; Enterprise €497/month (or custom); 20% off on annual billing; 30-day money-back guarantee", "url": "https://smartlyq.com/",
              "tags": ["Marketing & SEO", "Social Media", "Marketing Automation"],
              "features": [
@@ -3372,113 +3921,243 @@ CATEGORIES = [
                   {'q': 'Do unused campaigns roll over?', 'a': 'No. They reset each billing period.'},
                   {'q': 'Can I use it without the Riley agent?',
                    'a': 'Yes. The design, video, writing and scheduling tools work without the agent.'}]}},
-            {"name": "Mutiny", "tagline": "AI agent for personalized B2B website and deal content", "desc": "Mutiny is an AI-native platform, originally built for B2B website personalization, that now generates a full range of customer-facing assets, including 1:1 ABM landing pages, deal rooms, business cases, and pitch decks, tailored to each target account.", "pricing": "Free plan; Business from $50/mo; Enterprise custom, starting around $30k/yr", "url": "https://www.mutinyhq.com/",
-             "tags": ["Marketing & SEO", "Account-Based Marketing", "Website Personalization"],
-             "features": ["No-code 1:1 ABM landing page personalization", "AI-generated deal rooms, business cases, and pitch decks", "Meeting recap & follow-up content generated from call transcripts", "Automatic brand extraction (colors, fonts, style) from your website", "CRM, call recording, and analytics integrations (Salesforce, 6sense, Clearbit, Segment)", "Engagement analytics showing who viewed each asset"],
-             "pros": ["Purpose-built for B2B personalization with deep integrations into Clearbit, 6sense, Segment, and CRM data", "No-code editor lets marketers and sellers launch personalized pages without engineering or design support", "G2 reviewers consistently praise onboarding and support, with near-perfect setup and support scores"],
-             "cons": ["Pricing beyond the Free and entry Business tier isn't transparently published; Enterprise starts around $30k/year", "Reporting and analytics are seen as more limited than dedicated CRO tools like Optimizely or VWO", "Rapid repositioning from website personalization to a broader \"GTM agent\" adds uncertainty about long-term product focus"],
-             "best_for": "B2B marketing and sales teams running account-based marketing who need to personalize landing pages, decks, and deal-stage content for named target accounts without relying on a designer or developer for every asset.",
-             "deep": {
-                "overview": "Mutiny started as a Y Combinator-backed, no-code B2B website personalization platform: it connects to a company's CRM and enrichment data (Clearbit, 6sense, Segment), extracts a site's existing brand styling, and lets marketers build personalized landing pages, banners, and pop-ups targeted by firmographic or behavioral segments without needing an engineer for every change. Customers including Rippling, Snowflake, and BMC have used it at both mid-market and enterprise scale, and the product has historically been positioned as the only personalization platform built exclusively for B2B, rather than a general-purpose experimentation tool serving B2C and B2B alike.\n\nBy 2026, Mutiny expanded well beyond the website into what it calls a \"GTM agent\": in addition to 1:1 ABM landing pages, it now generates deal rooms, business cases, pricing proposals, pitch decks, meeting recaps, and competitive comparisons, grounding each asset in a specific account's CRM data and call transcripts. This puts it in a different competitive set than pure CRO/testing tools (Optimizely, VWO) or sales-enablement content libraries (Highspot, Seismic) — Mutiny doesn't store and surface pre-built collateral the way an enablement library does; it generates account-specific assets on demand. On G2 it holds a 4.7/5 rating from 32 reviews, with particularly strong marks for customer support and ease of setup, and the company reports over 30,000 assets published by customers to date.",
-                "features_detailed": [
-                    {"title": "1:1 ABM Landing Pages", "desc": "Build fully personalized landing pages for named target accounts without code, tailored to the account's industry, use case, and buying committee."},
-                    {"title": "AI Deal Rooms", "desc": "Auto-generates digital deal rooms per account, populated with relevant case studies, collateral, and a business case selected for that buying committee."},
-                    {"title": "Business Case & Pricing Proposal Generation", "desc": "Grounds business cases and pricing proposals in connected CRM and call data so value drivers and proof points are tailored to the specific buyer."},
-                    {"title": "Pitch Deck Generation", "desc": "Produces on-brand, account-specific pitch decks in minutes, designing the layout, writing the copy, and selecting relevant proof points."},
-                    {"title": "Meeting Recap & Follow-Up Content", "desc": "Turns sales call transcripts into a tailored recap, follow-up email, or deal room update grounded in what was actually discussed."},
-                    {"title": "On-Brand Design Extraction", "desc": "Automatically pulls colors, fonts, and visual style from a company's existing website to set guardrails so every generated asset looks consistent."},
-                    {"title": "Engagement Analytics", "desc": "Shows who opened an asset and what they viewed, giving reps visibility into buying-committee engagement even when they're not in the room."},
-                    {"title": "Native Integrations", "desc": "Connects directly to 6sense, Clearbit, Segment, Salesforce, and Slack, pulling intent and CRM data straight into personalization and content generation."}
-                ],
-                "pricing_plans": [
-                    {"name": "Free", "price": "$0/mo", "billing": "no cost, per seat", "features": ["Up to 5 team members", "5 daily credits (up to 30 per month) per seat", "Unlimited skills, 5 templates, routines, and projects per user", "mutiny.app domain and asset analytics", "Unlimited integrations for the first 30 days"]},
-                    {"name": "Business", "price": "From $50/mo", "billing": "priced by team size", "features": ["Everything in Free", "50 credits per month", "Expanded integrations and team collaboration features"]},
-                    {"name": "Enterprise", "price": "Custom, starting around $30,000/yr", "billing": "annual contract", "features": ["Advanced security", "Deep integrations", "Dedicated implementation support", "Blueprint customization", "Brand and compliance guardrails"]}
-                ],
-                "pros_expanded": [
-                    "G2 reviewers rate Mutiny's support a near-perfect 10.0/10 and ease of setup 9.6/10, both notably higher than competitor Insider's 9.1 setup score, reflecting genuinely hands-on onboarding.",
-                    "The platform launches complex personalization (audience segmentation, dynamic content by firmographic or behavioral data) without requiring an engineer, letting lean marketing teams run true 1:1 ABM.",
-                    "Deep native integrations with 6sense, Clearbit, and Segment mean personalization can be driven directly by intent and enrichment data already in a B2B stack.",
-                    "Multiple reviewers report concrete conversion lifts, including one enterprise account citing a 50%+ increase in site conversion rate and 250+ additional leads within six months.",
-                    "The 2026 expansion into deal rooms, business cases, and pitch decks means sales teams, not just marketing, get value from the same platform, extending its use case beyond the website.",
-                    "Named customers including Rippling, Snowflake, and BMC validate it at both mid-market and enterprise scale."
-                ],
-                "cons_expanded": [
-                    "Multiple G2 reviewers flag the cost as a limiting factor for smaller budgets, describing it as \"not a cheap tool\" even though most feel it's worth the price.",
-                    "Reporting and analytics are described by some reviewers as more limited than dedicated CRO/testing platforms, lacking incrementality measurement against a proper holdout group and flexible data export.",
-                    "The visual/WYSIWYG editor has historically struggled with more advanced page changes, like adding new sections or custom JavaScript, often requiring engineering support for bigger builds.",
-                    "Business-tier pricing beyond the Free plan isn't transparently published beyond a \"from $50/month\" starting point, and Enterprise pricing starts around $30k/year, making total cost hard to estimate without a sales conversation.",
-                    "The company's rapid repositioning from \"B2B website personalization tool\" to \"GTM agent for all customer-facing content\" is a significant scope expansion in a short period, so the newer deal-room and pitch-deck features may be less mature than the original personalization core."
-                ],
-                "who_for": "Mutiny is a strong fit for B2B marketing teams running account-based marketing programs who want to personalize landing pages, and now broader deal content, for named target accounts, especially teams already using 6sense, Clearbit, or Segment. It's a weaker fit for B2C companies, teams needing a general-purpose A/B testing or experimentation platform outside the B2B personalization use case, or budget-constrained teams that can't justify a tool scaling from \"$50/month\" up to five-figure enterprise contracts.",
-                "faq": [
-                    {"q": "Does Mutiny have a free plan?", "a": "Yes, a Free plan lets individuals try the assistant with up to 5 team members and daily usage credits before moving to a Business or Enterprise plan."},
-                    {"q": "How much does Mutiny cost?", "a": "Free is $0; Business starts around $50/month priced by team size; Enterprise is custom, typically starting around $30,000/year for advanced security, integrations, and dedicated support."},
-                    {"q": "What is Mutiny used for today?", "a": "Originally a no-code B2B website personalization tool, Mutiny now generates a broader set of customer-facing assets: 1:1 ABM pages, deal rooms, business cases, pitch decks, pricing proposals, meeting recaps, and competitive comparisons."},
-                    {"q": "Does Mutiny require developer support to set up?", "a": "No, it's designed to be no-code; the visual editor lets marketers launch personalized experiences and pages without an engineer, though very advanced customizations can still need code."},
-                    {"q": "What integrations does Mutiny support?", "a": "Native integrations include 6sense, Clearbit, Segment, Salesforce, and Slack, among others, connecting CRM and intent data directly to personalization and content generation."},
-                    {"q": "How long does implementation take?", "a": "Free and Business plans can be active within minutes; Enterprise rollouts typically take 2-6 weeks depending on integration depth and the size of the GTM team adopting the agent."}
-                ],
-                "reviews": {
-                    "g2_rating": "4.7/5", "g2_count": "32 reviews",
-                    "summary": "Mutiny holds a 4.7/5 rating on G2 from 32 reviews, with reviewers consistently praising ease of setup, customer support, and the speed of building personalized assets, while cost is the most common concern.",
-                    "praise": ["Near-perfect G2 scores for customer support (10.0/10) and ease of setup (9.6/10)", "No-code editor lets marketers launch personalized pages and decks without engineering help", "Concrete conversion-rate and pipeline gains reported by multiple reviewers"],
-                    "complaints": ["Pricing is a barrier for smaller marketing budgets", "Reporting and analytics considered more limited than dedicated CRO tools", "Editor has historically struggled with advanced, custom page changes"]
-                }
-             }},
-            {"name": "WordLift", "tagline": "AI knowledge graphs that make brands discoverable to AI", "desc": "WordLift structures a website's content and data into a personalized knowledge graph and automated schema markup, helping brands get discovered and cited by search engines and AI assistants like ChatGPT and Gemini.", "pricing": "Business+ from $879/mo (billed yearly); Enterprise custom", "url": "https://wordlift.io/",
-             "tags": ["Marketing & SEO", "Structured Data", "AI Search Visibility"],
-             "features": ["Automated knowledge graph creation and entity linking", "AI-driven schema markup / structured data generation", "Content optimization and audits", "AI Search & SEO research and analysis, including AI citation monitoring", "WordLift Agent for content and Q&A generation", "CMS integrations for WordPress, Drupal, Shopify, and Magento"],
-             "pros": ["Pioneer and category leader in semantic SEO / knowledge graph tooling, with over a decade of track record", "G2 reviewers consistently cite strong ranking and organic traffic gains, some citing traffic tripling or quadrupling", "Dedicated project manager and strategic support included at the Business+ tier"],
-             "cons": ["Expensive for small businesses; cost is the most repeated complaint in reviews", "Meaningful learning curve to properly build and maintain a knowledge graph", "Most mature on WordPress; integration with other CMS platforms is less intuitive per reviewers"],
-             "best_for": "Content-heavy publishers, e-commerce sites, and enterprise marketing or SEO teams that want to build structured, machine-readable knowledge about their brand and products to improve both traditional search rankings and visibility in AI-generated answers.",
-             "deep": {
-                "overview": "WordLift is an Italian company (WordLift srl, based in Rome) that started as a WordPress plugin for automated schema and structured data, and has since grown into a full AI-powered SEO platform built around Knowledge Graphs, a durable, brand-owned semantic layer connecting a business's entities, products, and concepts. It works by analyzing a site's content, detecting key entities (people, places, products, events), linking them into a personalized knowledge graph, and automatically generating schema.org markup so that both traditional search engines and newer AI systems can understand, retrieve, and cite the content more accurately.\n\nBy 2026, WordLift explicitly frames itself as infrastructure for the transition into \"AI Mode\" search, helping businesses move from classic search and content workflows to a paradigm where AI-driven discovery and automation play a bigger role. Its product line is organized into four solutions: Visibility (knowledge graph and structured data), Product Performance (AI content generation and journey optimization for e-commerce), Agent (WordLift Agent and Customer Agent for brand-customer interactions), and Intelligence (business intelligence and integrations). WordLift emphasizes a human-led methodology and client data ownership rather than black-box automation, with deep vertical expertise in e-commerce, news/media, travel, and legal. On G2 it holds a 4.7/5 rating from 41 reviews spanning 2019 to 2026, with support quality scoring an especially high 9.4/10, while cost is the most consistently repeated criticism.",
-                "features_detailed": [
-                    {"title": "Dynamic Knowledge Graph", "desc": "Builds and maintains a brand-specific knowledge graph connecting entities, products, and concepts across a website's content."},
-                    {"title": "Automated Schema Markup", "desc": "Generates and manages structured data (FAQ, Product, Article, and more) at scale, reducing manual coding of schema.org markup."},
-                    {"title": "WordLift Agent", "desc": "An AI agent for content generation and Q&A that operates grounded in the site's knowledge graph rather than generic prompting."},
-                    {"title": "AI Search & Visibility Tracking", "desc": "Monitors AI citation and mention performance across AI Mode search and chatbot answers, not just traditional Google rankings."},
-                    {"title": "Content Optimization & Audits", "desc": "Identifies content gaps and recommends improvements tied to the entities a page should be covering."},
-                    {"title": "Internal Linking Automation", "desc": "Suggests and helps insert contextual internal links based on entity relationships within the knowledge graph."},
-                    {"title": "CMS Integrations", "desc": "A native WordPress plugin plus support for Drupal, Shopify, Magento, and other platforms via cloud and API-based tools."},
-                    {"title": "Smart Credits System", "desc": "Usage-based credits included with each plan, spent on AI features like Q&A generation, product descriptions, and Agent interactions, with extra credits purchasable."}
-                ],
-                "pricing_plans": [
-                    {"name": "Business+", "price": "$879/month", "billing": "billed yearly ($1,100/month if billed monthly)", "features": ["WordLift Agent and Knowledge Graph", "AI-powered content creation", "AI Search & SEO research and analysis", "Content optimization and audits", "Performance and rank tracking", "Schema markup and data integration tools", "Dedicated project manager and strategy sessions", "2,500 URLs and 5 knowledge graphs included, plus monthly Smart Credits"]},
-                    {"name": "Enterprise", "price": "Custom", "billing": "contact for quote", "features": ["Everything in Business+", "Custom knowledge graph and API integrations", "Bespoke AI-powered content solutions", "Full access to WordLift's Open API", "Dedicated onboarding and support"]}
-                ],
-                "pros_expanded": [
-                    "G2 reviewers repeatedly credit WordLift with measurable ranking and traffic gains — one small-business reviewer reported organic traffic tripling within months, another reported ranked keywords doubling over six months.",
-                    "Support quality scores especially high on G2 (9.4/10), with several reviews specifically calling out a responsive, knowledgeable team across WordLift's India, Spain, and Italy offices.",
-                    "As one of the earliest dedicated knowledge-graph and entity SEO tools, with reviews dating back to 2019-2020, WordLift has a long track record and deep specialization in semantic SEO versus general-purpose SEO suites that added structured data as a side feature.",
-                    "The WordPress plugin integration is described by multiple reviewers as easy to install with real-time entity/tag suggestions while writing, lowering the day-to-day effort of maintaining structured data.",
-                    "Enterprise customers, including EssilorLuxottica per one G2 review, cite a high level of customization and dedicated support for large-scale content and e-commerce catalogs.",
-                    "The 2026 product roadmap adds AI citation monitoring and \"AI Mode\" readiness, positioning it ahead of competitors still focused solely on classic Google rankings."
-                ],
-                "cons_expanded": [
-                    "Cost is the single most repeated complaint on G2 — multiple reviewers explicitly call it expensive for smaller companies, with the current published Business+ tier starting at $879-$1,100/month.",
-                    "There's a real learning curve: several reviewers note that building a knowledge graph properly requires understanding both content strategy and semantic/entity concepts, which isn't a set-and-forget setup.",
-                    "WordLift's plugin works best natively with WordPress; a few reviewers note that using it on non-WordPress platforms is less intuitive, and one lower-rated (2-star) review described ongoing bugs and slow support responsiveness, though WordLift's team responded publicly to address it.",
-                    "The current published pricing shows only two tiers (Business+ and Enterprise custom), both aimed at businesses with meaningful budgets and URL volume, with no visible low-cost entry plan for hobbyists or very small sites.",
-                    "Smart Credits for AI features (Q&A generation, product descriptions, agent interactions) expire monthly or yearly depending on billing cycle, so unused capacity doesn't roll over."
-                ],
-                "who_for": "WordLift is best suited to content-heavy publishers, e-commerce catalogs, and enterprise or agency SEO teams with the budget and technical appetite to build out a genuine knowledge graph and want to improve both classic search rankings and visibility in AI-generated answers. It's a weaker fit for solo bloggers, very small businesses, or anyone wanting a quick, low-cost schema plugin, since current published pricing starts at $879/month and the platform rewards sustained investment in entity and content strategy rather than a plug-and-play setup.",
-                "faq": [
-                    {"q": "What is a WordLift knowledge graph?", "a": "It's a structured, brand-owned network connecting your content's key entities (people, products, places, concepts) so search engines and AI systems can understand and retrieve your content more accurately."},
-                    {"q": "Does WordLift only work with WordPress?", "a": "No, though its plugin integration is most mature on WordPress; WordLift also supports Drupal, Shopify, Magento, and other platforms via its cloud and API-based tools."},
-                    {"q": "How much does WordLift cost?", "a": "The current published plan is Business+ at $879/month billed yearly ($1,100/month billed monthly), including 2,500 URLs and 5 knowledge graphs; Enterprise pricing is custom for larger, more complex deployments."},
-                    {"q": "What are Smart Credits?", "a": "Usage-based tokens included with each plan that are spent on AI features like Q&A generation, product description writing, internal link suggestions, and WordLift Agent interactions; extra credits can be purchased."},
-                    {"q": "Does WordLift help with visibility in ChatGPT and other AI assistants, not just Google?", "a": "Yes, its 2026 product line includes AI Search and SEO research tools and AI citation/visibility tracking aimed specifically at how brands appear in AI-generated answers, not just traditional search results."},
-                    {"q": "Is there a free trial?", "a": "WordLift's current pricing page requires requesting a discovery session rather than offering self-serve signup or a listed free trial, so prospective customers go through a sales conversation first."}
-                ],
-                "reviews": {
-                    "g2_rating": "4.7/5", "g2_count": "41 reviews",
-                    "summary": "WordLift holds a 4.7/5 rating on G2 from 41 reviews spanning 2019-2026, with reviewers consistently praising ranking and traffic gains along with support quality, while cost and onboarding complexity are the most common criticisms.",
-                    "praise": ["Multiple reviewers report measurable organic traffic and ranking gains", "Support quality rated highly (9.4/10 on G2), with hands-on account teams", "Deep semantic SEO specialization compared to generalist SEO suites"],
-                    "complaints": ["Pricing is repeatedly cited as expensive for smaller companies", "Real learning curve to properly build and maintain a knowledge graph", "Best integrated with WordPress; other CMS platforms are less intuitive"]
-                }
-             }},
+            {'name': 'Mutiny',
+             'tagline': 'AI sales assistant for call notes, follow-ups, proposals and deal rooms',
+             'desc': 'Mutiny, once known for B2B website personalization, now presents itself as an AI sales assistant that '
+                     'records calls, drafts follow-ups, builds proposals and decks, and creates deal rooms.',
+             'pricing': 'Free; Business $50/month; Enterprise from $40,000/year',
+             'url': 'https://www.mutinyhq.com/',
+             'tags': ['Marketing & SEO', 'Account-Based Marketing', 'Website Personalization'],
+             'features': ['Call notetaker organized by account',
+                          'Follow-up emails drafted in your voice',
+                          'Pricing proposals and business case decks',
+                          'Shareable deal rooms with asset analytics',
+                          'CRM updates (HubSpot, Salesforce shown)',
+                          'Blueprints and templates for sales stages'],
+             'pros': ['Free plan for up to 5 team members',
+                      'Covers the post-call workflow from notes to proposal in one place',
+                      'Business tier is a low flat $50/month'],
+             'cons': ['Credit-based: Free gives 5 daily credits (30/month) per seat, Business 50 per month',
+                      'Enterprise starts at $40,000/year',
+                      'Pivoted from website personalization, so older ABM use cases are no longer the headline'],
+             'best_for': 'B2B marketing and sales teams running account-based marketing who need to personalize landing pages, '
+                         'decks, and deal-stage content for named target accounts without relying on a designer or developer for '
+                         'every asset.',
+             'deep': {'overview': 'Mutiny is a good fit for B2B sellers who want call notes, follow-ups, proposals and deal rooms '
+                                  'generated from their meetings; teams who still want the old website-personalization product or '
+                                  'a general A/B testing tool should look elsewhere. The homepage now describes a sales assistant: '
+                                  'a notetaker that organizes calls by account, drafts follow-ups in your voice, preps you for '
+                                  'meetings, builds pricing proposals and executive decks, and updates the CRM. Usage is metered '
+                                  'in credits, so heavy use may push you off the cheaper tiers.',
+                      'features_detailed': [{'title': 'Meeting notetaker', 'desc': 'Records calls and organizes notes by account.'},
+                                            {'title': 'Follow-ups and meeting prep',
+                                             'desc': 'Drafts follow-up emails in your voice and researches attendees and past '
+                                                     'calls before intro calls.'},
+                                            {'title': 'Proposals and decks',
+                                             'desc': 'Builds pricing proposals and executive business case decks from call '
+                                                     'details.'},
+                                            {'title': 'Deal rooms',
+                                             'desc': 'Shares customer-ready emails, proposals and deal rooms with buyers, with '
+                                                     'asset analytics.'},
+                                            {'title': 'CRM updates',
+                                             'desc': 'Updates CRM records after calls; HubSpot and Salesforce are shown on the '
+                                                     'site.'},
+                                            {'title': 'Blueprints',
+                                             'desc': 'Templates for prospecting, evaluation, negotiation and expansion.'}],
+                      'pricing_plans': [{'name': 'Free',
+                                         'price': '$0/month',
+                                         'billing': 'For individuals and small teams',
+                                         'features': ['Up to 5 team members',
+                                                      '5 daily credits per seat (up to 30/month)',
+                                                      'Unlimited integrations for 30 days',
+                                                      '5 templates, 5 routines, 5 projects per user',
+                                                      'mutiny.app domain and asset analytics']},
+                                        {'name': 'Business',
+                                         'price': '$50/month',
+                                         'billing': 'Credit dropdown exists; other options not shown',
+                                         'features': ['Everything in Free',
+                                                      '50 credits per month',
+                                                      'Unlimited team members, templates and integrations',
+                                                      '20 routines and 20 projects per user',
+                                                      'Custom subdomain, password-protected assets, Visitor Intelligence '
+                                                      'analytics']},
+                                        {'name': 'Enterprise',
+                                         'price': 'From $40,000/year',
+                                         'billing': 'Annual',
+                                         'features': ['Volume credit discounts and custom per-user limits',
+                                                      'SSO',
+                                                      'Custom MSA and DPA',
+                                                      'Dedicated Growth Strategist and onboarding',
+                                                      'Salesforce integration']}],
+                      'pros_expanded': ['Generous free entry: 5 members and daily credits let a team test before paying.',
+                                        'Covers the whole post-call chain (notes, follow-up, proposal, deal room, CRM update) in '
+                                        'one tool.',
+                                        'Business is a flat $50/month with unlimited team members.',
+                                        'Asset analytics show how buyers engage with shared materials.'],
+                      'cons_expanded': ['Everything is metered in credits; free is capped at 30 per seat per month and Business at '
+                                        '50 per month, which heavy users may exhaust.',
+                                        'Salesforce integration is listed under Enterprise, so Business users on Salesforce should '
+                                        'confirm access.',
+                                        'Enterprise starts at $40,000/year, a big jump from $50/month.',
+                                        'The product has shifted from website personalization to a sales assistant; existing '
+                                        'guides and reviews about the old product may not apply.',
+                                        'Time-saving and meetings-booked figures on the site are vendor-reported.'],
+                      'who_for': 'Suited to account executives and small to mid-size sales teams on HubSpot or Salesforce who '
+                                 'spend lots of time on follow-up and proposal work. Not for marketers primarily wanting website '
+                                 'personalization (the homepage no longer leads with it), B2C teams, or buyers needing Enterprise '
+                                 'features like SSO on a small budget.',
+                      'faq': [{'q': 'Does Mutiny have a free plan?',
+                               'a': 'Yes: $0 for up to 5 team members, with 5 daily credits per seat (up to 30 a month).'},
+                              {'q': 'How much does Mutiny cost?',
+                               'a': 'Business is $50/month with 50 credits per month. Enterprise starts at $40,000/year. A credit '
+                                    'dropdown exists on Business, but its other options were not visible.'},
+                              {'q': 'Is it still a website personalization tool?',
+                               'a': 'The homepage now presents a sales assistant for notes, follow-ups, proposals and deal rooms. '
+                                    'Website personalization is not the headline; confirm with the vendor if you need it.'},
+                              {'q': 'What do I need Enterprise for?',
+                               'a': 'SSO, custom MSA/DPA terms, per-user credit limits, a dedicated strategist, and the Salesforce '
+                                    'integration per the pricing page.'}]},
+             'last_checked': '2026-10-23',
+             'alternatives': [{'slug': 'genpage',
+                               'why': 'Also personalizes landing pages per account, but focused on page generation rather than '
+                                      'call notes, proposals and deal rooms.'}]},
+            {'name': 'WordLift',
+             'tagline': 'Knowledge-graph and schema platform for SEO teams with real budget',
+             'desc': "WordLift builds a knowledge graph from your site's content and generates schema markup, aiming to make a "
+                     'brand easier for search engines and AI assistants to understand and cite. Pricing starts at $879/month '
+                     'billed yearly.',
+             'pricing': 'Business+ $879/mo billed yearly ($1,100/mo billed monthly); Enterprise custom. No free trial listed.',
+             'url': 'https://wordlift.io/',
+             'tags': ['Marketing & SEO', 'Structured Data', 'AI Search Visibility'],
+             'features': ['Dynamic knowledge graph built from your content and entities',
+                          'Automated schema.org markup',
+                          'WordLift Agent for content and Q&A grounded in the graph',
+                          'AI search and SEO research, content audits, rank tracking',
+                          'Smart Credits for AI tasks (Q&A, product descriptions, internal links, Agent chats)',
+                          'WordPress plugin plus developer API; Drupal, Shopify, Magento listed previously (not re-verified)'],
+             'pros': ['Specialised in entity and structured-data SEO rather than treating it as a side feature',
+                      'Dedicated project manager and strategy sessions included',
+                      'Free AI visibility audit and structured data audit tools on the site'],
+             'cons': ['Entry price of $879/mo (yearly) is out of reach for small sites',
+                      'Sales-led: no self-serve signup or free trial listed',
+                      'Smart Credits expire monthly or yearly and do not roll over',
+                      'Setup needs real effort on content and entity strategy'],
+             'best_for': 'Publishers, e-commerce catalogs and enterprise SEO teams that can fund a sustained structured-data '
+                         'programme.',
+             'deep': {'overview': 'WordLift is a strong fit for content-heavy publishers, large e-commerce catalogs and enterprise '
+                                  'SEO teams that want structured data and entities handled as a long-term programme; solo '
+                                  'bloggers and small businesses should skip it on price alone. It analyses your pages, links the '
+                                  'people, products and concepts it finds into a knowledge graph you own, and generates schema '
+                                  'markup from that graph so search engines and AI assistants can read your content more '
+                                  'reliably.\n'
+                                  '\n'
+                                  'The company, which began as a WordPress plugin, now groups its offer into four areas: '
+                                  'visibility (graph and markup), product performance (content generation and page optimisation '
+                                  'for e-commerce), agents (a WordLift Agent and a Customer Agent) and intelligence (analytics and '
+                                  'training). Its marketing makes large traffic claims and cites case studies; these are the '
+                                  "vendor's own figures and we have not independently confirmed them. Pricing is sales-led with "
+                                  'one published tier.',
+                      'features_detailed': [{'title': 'Dynamic Knowledge Graph',
+                                             'desc': 'Builds and maintains a brand-specific knowledge graph connecting entities, '
+                                                     "products, and concepts across a website's content."},
+                                            {'title': 'Automated Schema Markup',
+                                             'desc': 'Generates and manages structured data (FAQ, Product, Article, and more) at '
+                                                     'scale, reducing manual coding of schema.org markup.'},
+                                            {'title': 'WordLift Agent',
+                                             'desc': 'An AI agent for content generation and Q&A that operates grounded in the '
+                                                     "site's knowledge graph rather than generic prompting."},
+                                            {'title': 'AI Search & Visibility Tracking',
+                                             'desc': 'Monitors AI citation and mention performance across AI Mode search and '
+                                                     'chatbot answers, not just traditional Google rankings.'},
+                                            {'title': 'Content Optimization & Audits',
+                                             'desc': 'Identifies content gaps and recommends improvements tied to the entities a '
+                                                     'page should be covering.'},
+                                            {'title': 'Internal Linking Automation',
+                                             'desc': 'Suggests and helps insert contextual internal links based on entity '
+                                                     'relationships within the knowledge graph.'},
+                                            {'title': 'CMS Integrations',
+                                             'desc': 'A native WordPress plugin plus support for Drupal, Shopify, Magento, and '
+                                                     'other platforms via cloud and API-based tools.'},
+                                            {'title': 'Smart Credits System',
+                                             'desc': 'Usage-based credits included with each plan, spent on AI features like Q&A '
+                                                     'generation, product descriptions, and Agent interactions, with extra credits '
+                                                     'purchasable.'}],
+                      'pricing_plans': [{'name': 'Business+',
+                                         'price': '$879/month',
+                                         'billing': 'billed yearly (20% saving); $1,100/month billed monthly',
+                                         'features': ['WordLift Agent and Knowledge Graph',
+                                                      'AI content creation',
+                                                      'AI search and SEO research',
+                                                      'Content audits and rank tracking',
+                                                      'Schema markup and data integration tools',
+                                                      'Dedicated project manager, strategy sessions, guided implementation',
+                                                      '2,500 URLs and 5 knowledge graphs',
+                                                      'Monthly Smart Credits included; extra credits can be bought']},
+                                        {'name': 'Enterprise',
+                                         'price': 'Custom',
+                                         'billing': 'quoted on request',
+                                         'features': ['Everything in Business+',
+                                                      'Custom knowledge graph and API integrations',
+                                                      'Bespoke AI content solutions',
+                                                      'Full Open API access',
+                                                      'Dedicated onboarding and support']},
+                                        {'name': 'Resolve API (developer public beta)',
+                                         'price': 'Free up to 1,000 requests/month',
+                                         'billing': 'usage-based plans promised after beta',
+                                         'features': ['No card or sales call for the free tier',
+                                                      'Roughly 160 articles per month according to WordLift']}],
+                      'pros_expanded': ['Focused on entity and structured-data SEO, so the knowledge graph and markup are the core '
+                                        'product rather than an add-on.',
+                                        'The graph is described as brand-owned data, which matters if you want to keep it outside '
+                                        "any one vendor's black box.",
+                                        'Business+ includes a dedicated project manager and strategy sessions, useful because the '
+                                        'setup is not trivial.',
+                                        'Free AI visibility audit and structured data audit tools let you gauge your gaps before '
+                                        'talking to sales.',
+                                        'Includes AI-search work (visibility research, citation focus), not only classic Google '
+                                        'rankings.',
+                                        'A free developer Resolve API tier (1,000 requests/month) allows technical teams to '
+                                        'experiment without a contract.'],
+                      'cons_expanded': ['Cheapest published paid plan is $879/month on an annual commitment, or $1,100 '
+                                        'month-to-month; there is no low-cost entry tier.',
+                                        'No free trial is listed for Business+; you start with a discovery session.',
+                                        'Business+ caps at 2,500 URLs and 5 knowledge graphs; larger sites must move to custom '
+                                        'Enterprise pricing.',
+                                        'Smart Credits expire at the end of the month (monthly plans) or subscription year (yearly '
+                                        'plans), and buying more in the dashboard was listed as coming soon, otherwise via an '
+                                        'account manager.',
+                                        'Getting value requires content and entity strategy work; it is not a set-and-forget '
+                                        'plugin.',
+                                        'Website had visible staging leftovers (placeholder notification text, local-domain '
+                                        'privacy links) when checked, a minor polish concern.'],
+                      'who_for': 'Good for: enterprise and agency SEO teams, news and media publishers, and e-commerce sites with '
+                                 'large catalogs that want durable, machine-readable brand data and can budget for a sustained '
+                                 'project. Not for: solo bloggers, small businesses, or anyone wanting a cheap one-click schema '
+                                 'plugin or a self-serve trial.',
+                      'faq': [{'q': 'How much does WordLift cost?',
+                               'a': 'Business+ is $879/month billed yearly or $1,100/month billed monthly, per its pricing page on '
+                                    '2026-10-23. Enterprise is quoted on request.'},
+                              {'q': 'Is there a free trial or free plan?',
+                               'a': 'No trial is listed for the paid plans. There are free audit tools and a free-tier developer '
+                                    'Resolve API (1,000 requests/month) in public beta.'},
+                              {'q': 'What are Smart Credits?',
+                               'a': 'Usage credits for AI tasks. One credit covers one of: 25 Q&A pairs, 20 short product '
+                                    'descriptions, 60 internal link suggestions or 10 Agent interactions. They expire at period '
+                                    'end.'},
+                              {'q': 'What are the usage limits on Business+?',
+                               'a': '2,500 URLs and 5 knowledge graphs. Beyond that you need Enterprise.'},
+                              {'q': 'How does it compare with Semrush or Surfer?',
+                               'a': 'Those are general SEO and content tools. WordLift is narrower and deeper on knowledge graphs '
+                                    "and schema, and much pricier than Surfer's entry plans."}]},
+             'last_checked': '2026-10-23',
+             'alternatives': [{'slug': 'surfer-seo',
+                               'why': 'Cheaper, content-editor-first SEO tool; no knowledge graph or entity layer.'},
+                              {'slug': 'semrush',
+                               'why': 'Broad SEO suite with AI-search visibility tracking; far less focused on structured data and '
+                                      'entity graphs.'},
+                              {'slug': 'otterly-ai',
+                               'why': 'Only tracks how your brand appears in AI answers; WordLift also builds the structured data '
+                                      'meant to influence that.'}]},
             {'name': 'Clearscope',
  'tagline': 'Content grading and topic research for SEO and AI search',
  'desc': 'Clearscope helps teams find topics, write and optimize content against top-ranking pages, monitor published content, and track brand visibility in '
@@ -3919,109 +4598,363 @@ CATEGORIES = [
       {"q":"Is Authoritas good for agencies?","a":"Yes, many reviewers are agency users who value the bulk keyword tracking, client project structure, and pricing model that doesn't charge per user."}
     ]
  }},
-            {"name": "ClickFlow", "tagline": "Continuous SEO that plans, writes, and reports for you", "desc": "ClickFlow is an AI-powered SEO platform built by agency Single Grain that analyzes your site and Search Console data, then writes brand-matched content and reports on results automatically.", "pricing": "Free tier (5 AI articles); Essentials $159/month; Done For You custom (agency-managed)", "url": "https://clickflow.com/",
- "tags": ["Marketing & SEO", "Content Marketing", "SEO Automation"],
- "features": ["Content decay reports that flag declining-traffic pages", "Split-testing ('experiments') on titles, meta descriptions and H1s", "AI content editor with keyword, PAA and competitor data", "Topical map and 30-day content roadmap generation", "Automated rank and click reporting against the plan", "CMS publishing integrations for direct posting"],
- "pros": ["Content is trained to match a brand's existing voice rather than sounding generic", "Content decay and experiments features surface exactly which pages to fix", "Built and used by growth agency Single Grain, whose clients include Amazon, Salesforce and Uber"],
- "cons": ["Experiments occasionally fail to register on-page changes and need a manual restart", "Essentials plan at $159/month is steep for solo bloggers or very small sites", "Public review volume on G2 is minimal, making broader trust signals hard to verify"],
- "best_for": "Marketing teams and agencies that want an AI content engine producing on-brand SEO articles and reporting without hiring a full writing team.",
- "deep": {
-    "overview": "ClickFlow is a continuous SEO platform created by Single Grain, the growth marketing agency behind campaigns for Amazon, Uber, Salesforce, Airbnb and Nasdaq. Rather than being a generic AI writing tool, ClickFlow was built specifically to solve a problem Single Grain's own team encountered: most AI content tools produce generic copy that damages brand credibility. The platform connects to a site's Google Search Console data to identify pages that already rank but underperform on click-through rate, then runs structured experiments — testing new titles, meta descriptions, and H1 tags — to recover lost traffic. Its content decay reports visualize which pages are losing rankings over time so teams can prioritize fixes before organic traffic disappears entirely.\n\nBeyond decay recovery, ClickFlow's core loop is Strategy → Writing → Reporting → Repeat. It builds a 30-day content roadmap of pages, posts, and technical fixes prioritized against a site's goals, then generates an SEO-ready draft for every item in that plan using its AI content editor, which surfaces relevant keywords, \"People Also Ask\" questions, and competitor URLs. Drafts are designed to sound like the customer's own team — a claim borne out by client testimonials, including one from product-management software company Gocious praising ClickFlow's output as \"grounded in the real language of product leaders.\" The company reports client results including a 229% increase in conversions for LS Building Products and a 325% CTR increase for client Wine Deals, and publishes case studies rather than relying purely on self-reported claims.",
-    "features_detailed": [
-      {"title": "Content Decay Reports", "desc": "Automatically tracks declining organic traffic on existing pages and visualizes the drop-off in graph form so teams know what to fix first."},
-      {"title": "Experiments (Split Testing)", "desc": "Tests page elements like H1 tags, meta descriptions, or content blocks against a control version and measures the traffic/CTR impact over time."},
-      {"title": "AI Content Editor", "desc": "Generates SEO-ready drafts with an embedded keyword checklist, People Also Ask questions, and competitor ranking URLs for every article in the roadmap."},
-      {"title": "Topical Map & Strategy Roadmap", "desc": "Analyzes the site and Google Search Console data to output a prioritized 30-day plan of pages, posts, and technical fixes."},
-      {"title": "Automated Reporting", "desc": "Tracks rankings and clicks against the original plan and reports what worked, feeding results back into the next cycle."},
-      {"title": "CMS Publishing Integrations", "desc": "Publishes drafts directly to a connected CMS instead of requiring manual copy-paste into a blog platform."},
-      {"title": "Brand Voice Matching", "desc": "Learns a company's existing tone and terminology so AI drafts read as though written by the in-house team, not a generic model."}
-    ],
-    "pricing_plans": [
-      {"name": "Free", "price": "$0", "billing": "forever", "features": ["5 AI blog post articles", "Create AI Blog Post workflow", "Hosted blog on a ClickFlow subdomain", "Roadmap and review queue access"]},
-      {"name": "Essentials", "price": "$159/month", "billing": "monthly", "features": ["Scale brand-aligned content production", "Advanced SEO workflow library", "Analytics and performance reporting", "CMS publishing integrations"]},
-      {"name": "Done For You", "price": "Custom", "billing": "custom contract", "features": ["Dedicated strategist from Single Grain", "Single Grain writes, edits, and publishes — client approves", "Custom roadmap built around client goals", "Weekly reporting and optimization", "Direct Slack access to the Single Grain team"]}
-    ],
-    "pros_expanded": [
-      "Client testimonials specifically call out that ClickFlow's output is indistinguishable from human-written brand content — Gocious's team said colleagues couldn't tell which articles were AI-generated.",
-      "The content decay + experiments workflow is a differentiated mechanic most generic AI writers lack: it targets already-ranking pages losing traffic rather than only producing new content.",
-      "Built and battle-tested internally by Single Grain, an agency managing SEO for large brands (Amazon, Salesforce, Uber, Airbnb, Nasdaq, Logitech, SentinelOne), lending real operational credibility.",
-      "Published case-study results are specific and sourced: 400+ AI citations and +229% conversions for LS Building Products, a 325% CTR increase for Wine Deals, and a 32% lead increase for SmartRent.",
-      "A free tier with 5 real AI-generated articles lets prospective buyers evaluate actual output quality before committing to the $159/month Essentials plan.",
-      "Existing G2 reviewers (though few) rate it highly — 4.5 and 5.0 out of 5 — specifically praising the Content Editor's keyword/PAA/competitor data and the automated decay reporting."
-    ],
-    "cons_expanded": [
-      "One G2 reviewer noted that experiments sometimes don't register on-page changes automatically and need to be manually \"forced\" to start, adding friction to the core workflow.",
-      "At $159/month, Essentials is a meaningful jump from the free tier with no visible mid-tier option for growing teams not ready for the custom Done-For-You plan.",
-      "G2 shows only 2 reviews as of publication, which is too small a sample to confirm broad reliability or support-quality trends.",
-      "As a tool built by an agency, some workflows (like Done For You) intentionally upsell into paid agency services rather than staying fully self-serve.",
-      "UI/UX was flagged by at least one reviewer as needing to be \"smoother,\" suggesting some rough edges in the content editor experience."
-    ],
-    "who_for": "ClickFlow fits marketing teams, SEO managers, and agencies that need to scale content production without sacrificing brand voice, especially teams already tracking Search Console data who want an automated way to recover decaying pages. It's a weaker fit for solo bloggers or very early-stage sites without existing organic traffic to analyze, and for teams wanting a low-cost, self-serve tool under $50/month, since ClickFlow's paid tier starts at $159/month.",
-    "faq": [
-      {"q": "What makes ClickFlow different from other AI content tools?", "a": "ClickFlow combines an AI writer with a content-decay detection and experimentation engine, so it doesn't just generate new articles — it also identifies and fixes already-ranking pages that are losing traffic."},
-      {"q": "Will the content actually sound like my brand?", "a": "ClickFlow is designed to learn a company's existing tone and terminology; client case studies (e.g., Gocious) report output that reads as though written by their own team."},
-      {"q": "How long does it take to get started?", "a": "Signup is self-serve through the free plan, which analyzes a connected site and Search Console data to generate an initial 30-day content roadmap."},
-      {"q": "When will I see results?", "a": "ClickFlow reports track rankings and clicks against the original plan on an ongoing basis; case studies cite measurable traffic and conversion gains within a few months of consistent use."},
-      {"q": "What does ClickFlow cost?", "a": "There's a free tier with 5 AI articles, a $159/month Essentials plan for scaling content and reporting, and a custom Done For You plan where Single Grain's team manages content directly."},
-      {"q": "Do I need SEO experience to use it?", "a": "No — the platform generates the strategy roadmap and keyword guidance automatically, though the Done For You tier exists for teams that want an SEO expert managing the process entirely."}
-    ]
- }},
-            {"name": "Dashword", "tagline": "SEO content briefs and real-time optimization scoring", "desc": "Dashword is an SEO content optimization platform that generates AI content briefs, scores drafts in real time as you write, and monitors published content performance to flag pages needing updates.", "pricing": "Startup $99/mo (30 reports, 5 seats); Business from $349/mo (100 reports, 10 seats, SSO); free first report, no credit card required; 20% off with annual billing.", "url": "https://www.dashword.com/",
- "tags": ["Marketing & SEO", "Content Optimization", "Content Briefs"],
- "features": ["AI-generated content briefs defining tone, structure, and requirements", "Real-time content editor with SEO score, term suggestions, and readability grading", "AI Writer for drafting up to 100,000+ words per month", "Content monitoring with automated weekly keyword performance reports", "Bulk report creation for agencies handling many pages at once", "Free API and MCP server access (Claude, Cursor, custom agents) on every plan"],
- "pros": ["API and MCP server access included on every plan, including free scoring, unlike many competitors that gate APIs behind top tiers", "Straightforward, transparent per-report pricing with a free first report and no credit card required to start", "Content monitoring proactively flags underperforming published pages for updates rather than a one-time optimization check"],
- "cons": ["No independently verifiable G2/Capterra review ratings found at time of research", "Entry Startup plan caps at 30 reports/month, which can be limiting for larger content teams", "Business tier pricing jumps sharply from $99 to $349/month between plans"],
- "best_for": "SEO-focused content teams and agencies that want AI content briefs, real-time optimization scoring, and ongoing content monitoring with developer-friendly API/MCP access.",
- "deep": {
-    "overview": "Dashword is an AI-powered SEO content optimization platform built for content marketing teams who need to plan, write, and maintain search-optimized content at scale. Its core workflow starts with a content brief: Dashword analyzes top-performing pages for a target keyword and uses AI to generate a brief that defines the tone, structure, and specific topics a piece of content should cover, similar in spirit to competitors like Clearscope, Surfer SEO, and MarketMuse. Writers then draft inside Dashword's real-time content editor, which surfaces relevant term suggestions, a live content score, and readability feedback as they type — turning what is typically a post-hoc SEO audit into an in-the-moment feedback loop.\n\nWhat sets Dashword apart in 2026 is its developer-facing positioning: the company has made its API and a native MCP (Model Context Protocol) server available on every plan, including free accounts, explicitly marketing to teams that want to connect Claude, Cursor, or custom AI agents directly to Dashword's brief-building and scoring functions — agents can create a report, read the brief, and score a draft programmatically, with scoring itself unlimited and free (only full reports consume paid credits). Beyond initial optimization, Dashword also offers content monitoring: once a piece is published, Dashword tracks its keyword performance with automated weekly reports and flags underperforming pages that need refreshing, closing the loop between writing and long-term content maintenance. Pricing is straightforward and public (a rarity in this category), starting at $99/month for small teams and scaling to $349+/month for larger content operations needing SSO and bulk report creation.",
-    "features_detailed": [
-      {"title":"Content Briefs", "desc":"AI-generated briefs define the tone, structure, and topic requirements a piece of content should hit, based on analysis of top-ranking competitor pages."},
-      {"title":"Real-Time Content Editor & Scoring", "desc":"Live SEO content score, relevant term suggestions, and readability grading update as the writer types, rather than after the fact."},
-      {"title":"AI Writer", "desc":"Generates AI-assisted draft content, with word allowances starting around 100,000 words/month on the Startup plan and scaling on higher tiers."},
-      {"title":"Content Monitoring", "desc":"Automated weekly keyword performance reports track published content and flag underperforming pages that need updates."},
-      {"title":"Bulk Report Creation", "desc":"Available on the Business plan, letting agencies generate multiple content reports at once for larger content operations."},
-      {"title":"API & MCP Server Access", "desc":"Full API and an MCP server (compatible with Claude, Cursor, and custom code) are included free on every plan, with unlimited free content scoring — only report generation uses credits."},
-      {"title":"Google Docs Add-on", "desc":"A Google Workspace Marketplace add-on brings SEO content optimization directly into the Google Docs writing environment."}
-    ],
-    "pricing_plans": [
-      {"name":"Startup", "price":"$99/mo", "billing":"monthly (20% off annual)", "features":["30 content reports/month (~30 pieces optimized)","5 user seats","Content Briefs","AI Writer (100k words)","API access & MCP server (free unlimited scoring)"]},
-      {"name":"Business", "price":"From $349/mo", "billing":"monthly (20% off annual)", "features":["100 content reports/month (~100 pieces)","10 user seats","Content Briefs","AI Writer","Bulk report creation","API access & MCP server","Single Sign-On (SSO)"]}
-    ],
-    "pros_expanded": [
-      "Dashword includes full API and MCP server access on every plan, including free accounts, with unlimited free content scoring — a notably more open approach than competitors that reserve API access for top-tier plans.",
-      "Pricing is fully public and transparent on the website, with a free first report and no credit card required to start evaluating the tool.",
-      "Content monitoring proactively tracks published pages weekly and flags underperformers, extending value beyond a one-time pre-publish optimization check.",
-      "The real-time editor with live scoring lets writers correct course during drafting rather than after submitting a finished piece for review.",
-      "MCP support specifically targets teams already using AI coding/agent tools like Claude and Cursor, letting them build briefs and score drafts programmatically as part of automated content pipelines."
-    ],
-    "cons_expanded": [
-      "No independently verifiable third-party review platform data (G2 shows the product as not yet reviewed; a Capterra listing was not confirmed) was found at the time of this research, so real-world user sentiment can't be quoted from those sources.",
-      "The Startup plan's 30-report monthly cap can be restrictive for larger content teams or agencies managing many clients simultaneously.",
-      "There's a large price jump between the Startup ($99/mo) and Business (from $349/mo) tiers, without an evident mid-tier option for growing teams.",
-      "As a smaller/newer entrant compared to Surfer SEO or Clearscope, it has less publicly available comparative case-study data on ranking outcomes."
-    ],
-    "who_for": "Dashword suits SEO-focused content teams and agencies that want AI-assisted briefs, real-time draft scoring, and ongoing content monitoring, especially teams already building AI-agent workflows who value its free API/MCP access. It's a weaker fit for buyers who need extensive verified third-party review data before purchasing, or very large enterprises needing a mid-tier plan between 30 and 100 reports/month.",
-    "faq": [
-      {"q":"What does Dashword do?","a":"Dashword is an SEO content optimization tool that generates content briefs, scores drafts in real time as you write, and monitors published content performance to flag pages that need updating."},
-      {"q":"How much does Dashword cost?","a":"The Startup plan is $99/month for 30 content reports and 5 seats; the Business plan starts at $349/month for 100 reports, 10 seats, and SSO, with a 20% discount for annual billing."},
-      {"q":"Does Dashword have a free plan or trial?","a":"Yes, new users get a free first content report with no credit card required, and content scoring itself is free and unlimited on every plan."},
-      {"q":"Does Dashword offer an API or MCP server?","a":"Yes, both the API and a native MCP server (for Claude, Cursor, and custom agents) are included on every plan, including free accounts, with unlimited free scoring."},
-      {"q":"What is content monitoring in Dashword?","a":"It's an automated weekly reporting feature that tracks published content's keyword performance and flags underperforming pages that may need to be refreshed or re-optimized."},
-      {"q":"Is Dashword good for agencies?","a":"Yes, the Business plan adds bulk report creation, 10 user seats, and SSO, which are aimed at agencies and larger teams managing content across many pages or clients."}
-    ]
- }},
-            {"name": "Flair AI", "tagline": "AI product photoshoots without a camera or studio", "desc": "Flair AI is an AI-powered design platform that turns plain product photos into on-model fashion shots, branded ads, and studio-quality lifestyle images in seconds, using drag-and-drop scenes and custom AI models.", "pricing": "Free plan available; paid plans from $8/month, scaling to $138/month, plus custom Enterprise pricing", "url": "https://flair.ai/",
- "tags": ["Marketing & SEO", "AI Product Photography", "Creative & Design"],
- "features": ["Drag-and-drop scene builder with props and 3D assets", "Custom AI model training for on-model fashion shots", "Bulk content generation for product catalogs", "AI product video generation", "Magic Erase, upscale, and image variation editing tools", "Virtual try-on and image extension tools", "Flair API for programmatic image generation", "Real-time team collaboration"],
- "pros": ["Drag-and-drop workflow makes professional-looking product scenes fast to build without a photo studio", "Deep editing toolkit (regenerate product/human, magic erase, upscale, variations) goes beyond simple text-to-image generation", "Low entry price ($8/mo Pro plan) makes it accessible to small brands and solo sellers"],
- "cons": ["Generated image quotas are limited even on paid tiers, and instant generation/ads consume credits 4x faster", "Custom AI model training and higher-volume plans get expensive quickly at the Scale tiers ($38–$138/mo)", "Public third-party review volume is thin, making it hard to verify quality consistency at scale"],
- "best_for": "E-commerce brands, fashion sellers, and small marketing teams who need fast, on-brand product and on-model imagery without booking physical photoshoots.",
- "deep": {
-    "overview": "Flair AI is a browser-based AI design platform built specifically for product photography and marketing visuals. Instead of generating generic AI images from a text prompt, Flair gives users a canvas-style editor where they drag in their actual product photo along with AI-generated backgrounds, props, 3D assets, models, and lighting setups, then let the AI render a cohesive, photorealistic scene around it. The core use case is replacing traditional product photoshoots: a founder or marketer can upload a flat product image and generate on-model fashion shots, lifestyle scenes, or branded ad creative without booking a studio, models, or photographer. Beyond initial generation, Flair includes an editing toolkit — regenerate product, regenerate human, magic erase, upscale, generate variations, extend image dimensions, and virtual try-on — that lets users refine a shot rather than starting over.\n\nFlair AI is aimed squarely at e-commerce and DTC brands across categories like beauty, fashion, jewelry, furniture, tech, handbags, food, and consumer packaged goods, each with its own set of category-specific presets. The company, based in New York and founded in 2022, also offers an API for teams that want to plug AI product photography into their own catalog pipelines, plus custom AI model training and SSO for Enterprise customers. Pricing is structured around 'custom models' (the AI model trained to render a specific product or human consistently) and generated image/video credits, with real-time image generation and ad generation consuming credits at four times the rate of standard generation. The product differentiates itself from generic text-to-image tools by focusing on commercial usability: company commercial licensing is bundled into paid plans from Pro+ upward, and the drag-and-drop composition model gives brands more control over exact product placement than prompt-only competitors.", "features_detailed": [{"title": "Drag-and-drop scene composer", "desc": "Combine your product image with AI-generated backgrounds, props, and 3D assets on a visual canvas rather than relying purely on text prompts."}, {"title": "Custom AI models", "desc": "Train reusable AI models on a specific product or human model so future generations stay visually consistent across a catalog."}, {"title": "On-model fashion photography", "desc": "Generate photos of apparel and accessories worn by AI-rendered models in different poses, settings, and lighting."}, {"title": "AI product videos", "desc": "Turn static product shots into short AI-generated video content for ads and social media, with credits allotted per plan."}, {"title": "Editing toolkit", "desc": "Magic Erase, image upscaling, variation generation, and image extension let users refine a render instead of regenerating from scratch."}, {"title": "Virtual try-on", "desc": "Preview how a product looks on different AI model bodies and skin tones without new physical photography."}, {"title": "Bulk content generation", "desc": "Apply a scene or style across an entire product catalog at once, useful for large SKU counts."}, {"title": "Flair API", "desc": "Programmatic access to Flair's generation engine for teams building product photography into their own internal tools (early access on Scale plans, unlimited on Enterprise)."}], "pricing_plans": [{"name": "Free", "price": "$0", "billing": "forever", "features": ["1 custom model", "5 generated images", "1 video generation", "Instant generation and ads cost 4x the image quota"]}, {"name": "Pro", "price": "$8/month", "billing": "monthly (listed as $10/month at standard rate)", "features": ["2 video generations", "Faster rendering speed", "Image upscales", "Image variations"]}, {"name": "Pro+", "price": "$26/month", "billing": "monthly (listed as $35/month at standard rate)", "features": ["Up to 8 standard or 2 fast custom models", "80 generated images", "3 video generations", "First-priority rendering speed", "Company commercial license"]}, {"name": "Scale Tier 1", "price": "$38/month", "billing": "monthly", "features": ["Up to 15 standard or 4 fast custom models", "150 generated images", "5 video generations", "AI Product Photography API early access", "Priority customer support"]}, {"name": "Scale Tier 2–5", "price": "$52–$138/month", "billing": "monthly", "features": ["Up to 54 standard or 14 fast custom models at the top tier", "200–540 generated images", "7–15 video generations", "Same priority rendering, API access, and support as Tier 1, scaled up"]}, {"name": "Enterprise", "price": "Custom", "billing": "custom", "features": ["Everything in Pro+", "Custom credit amounts", "Unlimited API access", "Custom model training", "SAML-based SSO", "Dedicated success manager and Slack channel"]}],
-    "pros_expanded": ["The drag-and-drop canvas gives brands more control over exact product placement, lighting, and props than prompt-only AI image tools, which matters for consistent catalog imagery.", "The editing toolkit (Magic Erase, regenerate product/human, upscale, variations, extend image) supports iterative refinement rather than forcing a full regeneration for small fixes.", "Category-specific features for beauty, fashion, jewelry, furniture, tech, and food suggest the model presets are tuned per vertical rather than one-size-fits-all.", "Company commercial licensing is included from the Pro+ tier up, which removes a common legal ambiguity around using AI-generated product imagery in paid ads.", "Entry pricing at $8–10/month makes it accessible for solo sellers and small brands to test before committing to higher Scale tiers."], "cons_expanded": ["Generated image quotas are modest even on mid tiers (80 images on Pro+, 150 on Scale Tier 1), and instant/ad generation burns through that quota 4x faster than standard generation.", "Costs scale quickly for teams needing many custom models or high video volume — Scale Tier 5 runs $138/month before any Enterprise-level customization.", "Independent, verifiable review data (G2, Capterra, Trustpilot) is sparse for Flair AI, making it hard to gauge real-world output consistency and support quality at scale from outside the vendor's own site.", "As with most AI image generators, output quality on complex compositions (multiple products, unusual angles) still typically requires manual review and touch-up before use in paid ad campaigns."],
-    "who_for": "Best suited to e-commerce brands, fashion and beauty sellers, and small in-house marketing teams that need frequent, on-brand product and lifestyle imagery without the cost of physical photoshoots. Less suited to enterprises needing guaranteed photorealism at massive catalog scale without human QA, or teams that need extensively documented third-party review data before adopting a newer AI vendor.",
-    "faq": [{"q": "What does Flair AI actually generate?", "a": "Flair generates AI product photography and marketing visuals — on-model fashion shots, lifestyle product scenes, branded ads, and short product videos — built around a user's real product image on a drag-and-drop canvas."}, {"q": "How much does Flair AI cost?", "a": "There's a free forever plan with limited generations. Paid plans start at $8/month (Pro) and scale through Pro+, five Scale tiers up to $138/month, and a custom-priced Enterprise plan."}, {"q": "Can I use Flair AI images in paid advertising?", "a": "Yes — a company commercial license is included starting on the Pro+ plan and above, covering use in ads and other commercial contexts."}, {"q": "Does Flair AI offer an API?", "a": "Yes, an AI Product Photography API is available in early access on Scale plans and with unlimited access on Enterprise."}, {"q": "What is a 'custom model' on Flair AI's pricing?", "a": "A custom model is an AI model trained on a specific product or human so future generations render that same subject consistently across a catalog or campaign."}, {"q": "Who is Flair AI built for?", "a": "It's aimed at e-commerce and DTC brands across categories like fashion, beauty, jewelry, furniture, tech, and food that need fast, consistent product imagery without traditional photoshoots."}]
- }},
+            {'name': 'ClickFlow',
+             'tagline': 'SEO planning, drafting and tracking from the Single Grain agency',
+             'desc': 'ClickFlow, built by the agency Single Grain, reads your site and Search Console data, builds a 30-day SEO '
+                     'plan, drafts articles and tracks rankings. A free plan covers 5 articles; Essentials is $159/month.',
+             'pricing': 'Free ($0, 5 AI articles); Essentials $159/mo; Done For You custom (contact sales)',
+             'url': 'https://clickflow.com/',
+             'tags': ['Marketing & SEO', 'Content Marketing', 'SEO Automation'],
+             'features': ['30-day SEO roadmap from site and Search Console data',
+                          'SEO-ready article drafts with keyword and competitor guidance',
+                          'Publishing to WordPress or a shareable review link',
+                          'Ranking and click tracking against the plan',
+                          'MCP server for use inside Claude, Cursor or Windsurf',
+                          'Done For You agency option from Single Grain'],
+             'pros': ['Free plan lets you test real output with 5 articles',
+                      'Plan, draft and report in one loop',
+                      'Optional done-for-you tier run by an actual SEO agency'],
+             'cons': ['Essentials at $159/month is steep for solo sites',
+                      "Only the free plan's limit is published; Essentials limits are not stated",
+                      'Pricing page could not be loaded; details taken from the homepage',
+                      'Done For You pushes toward paid agency services'],
+             'best_for': 'Marketing teams and small agencies that want an SEO plan and on-brand drafts in one tool, with a free '
+                         'way to try it.',
+             'deep': {'overview': 'ClickFlow suits small marketing teams and agencies that want one tool to plan SEO work, draft '
+                                  'articles and track results, and it is easy to try because of the free plan. Solo bloggers on '
+                                  'tight budgets and teams wanting mature content-scoring tools should look elsewhere. It connects '
+                                  'to your site and Google Search Console, produces a prioritised 30-day list of pages, posts and '
+                                  'fixes, writes drafts for them, and tracks rankings and clicks against that plan.\n'
+                                  '\n'
+                                  'It is made by the growth agency Single Grain. Drafts can go to WordPress or out via a review '
+                                  'link, and an MCP server lets you use it from Claude, Cursor or Windsurf. Earlier descriptions '
+                                  'of content-decay reports and split-testing experiments could not be re-confirmed from the '
+                                  'current homepage, and the dedicated pricing page failed to load, so plan details here come from '
+                                  'the homepage only.',
+                      'features_detailed': [{'title': 'Content Decay Reports',
+                                             'desc': 'Automatically tracks declining organic traffic on existing pages and '
+                                                     'visualizes the drop-off in graph form so teams know what to fix first.'},
+                                            {'title': 'Experiments (Split Testing)',
+                                             'desc': 'Tests page elements like H1 tags, meta descriptions, or content blocks '
+                                                     'against a control version and measures the traffic/CTR impact over time.'},
+                                            {'title': 'AI Content Editor',
+                                             'desc': 'Generates SEO-ready drafts with an embedded keyword checklist, People Also '
+                                                     'Ask questions, and competitor ranking URLs for every article in the '
+                                                     'roadmap.'},
+                                            {'title': 'Topical Map & Strategy Roadmap',
+                                             'desc': 'Analyzes the site and Google Search Console data to output a prioritized '
+                                                     '30-day plan of pages, posts, and technical fixes.'},
+                                            {'title': 'Automated Reporting',
+                                             'desc': 'Tracks rankings and clicks against the original plan and reports what '
+                                                     'worked, feeding results back into the next cycle.'},
+                                            {'title': 'CMS Publishing Integrations',
+                                             'desc': 'Publishes drafts directly to a connected CMS instead of requiring manual '
+                                                     'copy-paste into a blog platform.'},
+                                            {'title': 'Brand Voice Matching',
+                                             'desc': "Learns a company's existing tone and terminology so AI drafts read as though "
+                                                     'written by the in-house team, not a generic model.'}],
+                      'pricing_plans': [{'name': 'Free',
+                                         'price': '$0',
+                                         'billing': 'forever',
+                                         'features': ['5 AI blog post articles',
+                                                      'Create AI Blog Post workflow',
+                                                      'Hosted blog on a ClickFlow subdomain',
+                                                      'Roadmap and review queue access']},
+                                        {'name': 'Essentials',
+                                         'price': '$159/month',
+                                         'billing': 'monthly',
+                                         'features': ['Brand-aligned content production',
+                                                      'Advanced SEO workflow library',
+                                                      'Analytics and performance reporting',
+                                                      'CMS publishing integrations',
+                                                      'Article and seat limits not stated on the page']},
+                                        {'name': 'Done For You',
+                                         'price': 'Pricing not public - contact sales',
+                                         'billing': 'custom',
+                                         'features': ['Dedicated Single Grain strategist',
+                                                      'Agency writes, edits and publishes with your approval',
+                                                      'Custom roadmap',
+                                                      'Weekly reporting and optimization',
+                                                      'Direct Slack access']}],
+                      'pros_expanded': ['The free plan includes 5 real AI articles, so you can judge quality without a card.',
+                                        'It starts from your own Search Console data rather than a blank keyword list.',
+                                        'Planning, writing and reporting sit in one loop, reducing tool switching.',
+                                        'Drafts can be shared via a review link for approvers before publishing to WordPress.',
+                                        'An MCP server allows use from AI coding or chat tools.',
+                                        'Backing by a working SEO agency, with an optional managed tier.'],
+                      'cons_expanded': ['Essentials is $159/month with no visible mid-tier between it and custom pricing.',
+                                        "Only the free plan's 5-article limit is stated; Essentials post and seat limits are "
+                                        'unpublished, so check before committing.',
+                                        'The dedicated pricing page returned an error when we checked, so only homepage pricing '
+                                        'was confirmed.',
+                                        'The free plan hosts your blog on a ClickFlow subdomain, not your own domain.',
+                                        'Done For You is a sales call into agency services, not self-serve.',
+                                        'Public third-party reviews are scarce; we did not verify any today, so quality claims are '
+                                        'unproven.'],
+                      'who_for': 'Good for: in-house marketers, SEO managers and small agencies that want a ready plan and drafts, '
+                                 'and want a free trial of the workflow. Not for: solo bloggers wanting a sub-$50 tool, sites with '
+                                 'no Search Console data, or teams that need published seat and article limits before buying.',
+                      'faq': [{'q': 'Is ClickFlow free?',
+                               'a': 'There is a forever-free plan with 5 AI blog articles and a hosted subdomain blog. More '
+                                    'requires Essentials.'},
+                              {'q': 'How much is the paid plan?',
+                               'a': 'Essentials is $159/month per its homepage on 2026-10-23. Done For You is custom.'},
+                              {'q': 'How many articles does Essentials include?',
+                               'a': 'Not stated on the page we could read. Ask before buying.'},
+                              {'q': 'Do I need Google Search Console?',
+                               'a': 'It builds its plan from your site and Search Console data, so you will get the most from it '
+                                    'with an existing connected site.'},
+                              {'q': 'How does it compare with Surfer SEO?',
+                               'a': 'Surfer is stronger on content scoring and optimisation of drafts; ClickFlow emphasises a '
+                                    'plan-draft-report loop and an agency option.'}]},
+             'last_checked': '2026-10-23',
+             'alternatives': [{'slug': 'surfer-seo',
+                               'why': 'More mature content-scoring editor for SEO teams; ClickFlow adds a planning and reporting '
+                                      'loop.'},
+                              {'slug': 'pilotscribe',
+                               'why': 'Also automates keyword research through publishing; compare autonomy level and price before '
+                                      'choosing.'}]},
+            {'name': 'Dashword',
+             'tagline': 'SEO content briefs and draft scoring, with an API and MCP server on every plan',
+             'desc': 'Dashword researches pages ranking for a keyphrase, builds a content brief, scores your draft in an editor, '
+                     'and tracks published pages with weekly keyword reports. API and MCP access are included on all plans.',
+             'pricing': 'Startup $99/mo (30 reports, 5 seats); Business from $349/mo (100 reports, 10 seats, SSO, bulk reports); '
+                        '20% off annual billing; first report free, no card required; scoring is free and unlimited.',
+             'url': 'https://www.dashword.com/',
+             'tags': ['Marketing & SEO', 'Content Optimization', 'Content Briefs'],
+             'features': ['Content briefs built from pages ranking for your keyphrase (outlines, terms, FAQs)',
+                          'Editor that scores drafts until they are ready to publish',
+                          'AI Writer (100k-word limit on Startup)',
+                          'Weekly keyword reports and ranking tracking for published pages',
+                          'Bulk report creation on Business',
+                          'API and MCP server on every plan, with free unlimited scoring',
+                          'Google Docs add-on'],
+             'pros': ['API and MCP access on every plan, and draft scoring is free and unlimited',
+                      'Public pricing, one free report with no card, cancel anytime',
+                      'Monitors published pages, not just pre-publish optimization'],
+             'cons': ['No permanent free plan; only one free report',
+                      'Startup capped at 30 reports a month',
+                      'Jump from $99 to $349 per month with no middle tier',
+                      "Annual prices are not shown; only a '20% off' note"],
+             'best_for': 'SEO-focused content teams and agencies that want AI content briefs, real-time optimization scoring, and '
+                         'ongoing content monitoring with developer-friendly API/MCP access.',
+             'deep': {'overview': 'Dashword is a good fit for small SEO content teams and agencies that want briefs and draft '
+                                  'scoring at a clear flat price, especially if they plan to wire it into AI agents. Skip it if '
+                                  'you need a free ongoing plan, a mid-sized tier, or a broad all-in-one SEO suite. It researches '
+                                  'the pages ranking for a keyphrase and compiles a brief with competitor outlines, keywords and '
+                                  'FAQs, then scores your draft in an editor until it is ready to publish. After publishing, it '
+                                  'tracks traffic and keyword rankings with weekly reports and can import pages with a crawler. An '
+                                  'API, an MCP server (for Claude, Codex, Cursor, OpenCode) and a Google Docs add-on are '
+                                  'available.',
+                      'features_detailed': [{'title': 'Content briefs',
+                                             'desc': 'Researches pages ranking for a keyphrase and compiles competitor outlines, '
+                                                     'keywords and FAQs into a brief.'},
+                                            {'title': 'Draft scoring editor',
+                                             'desc': 'Scores your draft as you write until it is ready to publish. Scoring is free '
+                                                     'and unlimited on every plan; only reports use credits.'},
+                                            {'title': 'AI Writer',
+                                             'desc': 'Drafts content with AI; Startup has a 100k-word limit and Business lists no '
+                                                     'stated limit.'},
+                                            {'title': 'Content monitoring',
+                                             'desc': 'Tracks traffic and rankings after publishing, sends weekly keyword reports '
+                                                     'and imports pages through a crawler.'},
+                                            {'title': 'Bulk report creation',
+                                             'desc': 'Business plan only; create many reports at once.'},
+                                            {'title': 'API and MCP server',
+                                             'desc': 'Available on every account with a verified email, letting agents research a '
+                                                     'keyphrase and score drafts.'},
+                                            {'title': 'Google Docs add-on',
+                                             'desc': 'Use the optimization workflow inside Google Docs.'}],
+                      'pricing_plans': [{'name': 'Free start',
+                                         'price': '$0',
+                                         'billing': 'one free report, no card',
+                                         'features': ['One free content report', 'Unlimited free draft scoring', 'API access']},
+                                        {'name': 'Startup',
+                                         'price': '$99/mo',
+                                         'billing': 'monthly; 20% off with annual billing (annual price not shown)',
+                                         'features': ['30 reports/month',
+                                                      '5 seats',
+                                                      'Content briefs',
+                                                      'AI Writer (100k words)',
+                                                      'API and MCP server']},
+                                        {'name': 'Business',
+                                         'price': 'From $349/mo',
+                                         'billing': 'monthly; 20% off with annual billing (annual price not shown)',
+                                         'features': ['100 reports/month',
+                                                      '10 seats',
+                                                      'Bulk report creation',
+                                                      'SSO',
+                                                      'AI Writer',
+                                                      'API and MCP server']}],
+                      'pros_expanded': ['API and MCP server access is included on every plan, and scoring costs nothing, so you '
+                                        'can automate scoring without a top-tier plan.',
+                                        'Pricing is public, there is no minimum contract and you can cancel anytime.',
+                                        'It tracks published pages with weekly keyword reports, so it helps with refreshes and not '
+                                        'only first drafts.',
+                                        'Per-report credits are easy to budget: 30 on Startup, 100 on Business.'],
+                      'cons_expanded': ['There is no ongoing free plan, just one free report, so you cannot test at scale before '
+                                        'paying.',
+                                        'Startup is capped at 30 reports a month, which agencies will outgrow quickly.',
+                                        'Business starts at $349, over three times Startup, with nothing in between.',
+                                        'After cancelling you keep your data but cannot generate new keyword reports.',
+                                        'Annual billing is described as 20% off but exact annual prices are not shown on the '
+                                        'pricing page.',
+                                        'We found no verified third-party review ratings, so real-world quality compared with '
+                                        'larger rivals is unproven.'],
+                      'who_for': 'Good for SEO content teams, freelancers and agencies producing roughly 30 to 100 optimized '
+                                 'pieces a month, and for teams building agent workflows around content research. Not for people '
+                                 'who want a permanent free plan (you get one free report), teams needing something between 30 and '
+                                 '100 reports, or anyone who wants backlink, site audit or paid-ads tools in the same product.',
+                      'faq': [{'q': 'How much does Dashword cost?',
+                               'a': 'Startup is $99/month for 30 reports and 5 seats. Business starts at $349/month for 100 '
+                                    'reports, 10 seats, bulk creation and SSO. Annual billing is 20% off.'},
+                              {'q': 'Is there a free plan?',
+                               'a': 'Not a permanent one. New accounts get one free report with no credit card. Draft scoring is '
+                                    'free and unlimited on all plans.'},
+                              {'q': 'Do I need a top plan for API or MCP access?',
+                               'a': 'No. API access is open to any account with a verified email and the MCP server is on every '
+                                    'plan.'},
+                              {'q': 'What happens if I cancel?',
+                               'a': 'No minimum contract. You keep access to your data but cannot generate new keyword reports.'},
+                              {'q': 'How does it compare with Surfer SEO?',
+                               'a': 'Both build briefs and score drafts. Dashword is simpler with two plans and per-report '
+                                    'credits; Surfer is a wider suite. Compare current plans before choosing.'}]},
+             'alternatives': [{'slug': 'surfer-seo',
+                               'why': 'Similar brief and draft-scoring workflow, sold as a broader content and AI search '
+                                      'visibility product.'},
+                              {'slug': 'semrush',
+                               'why': 'All-in-one SEO platform with content tools; much wider scope, heavier and pricier than a '
+                                      'focused brief tool.'}],
+             'last_checked': '2026-10-23'},
+            {'name': 'Flair AI',
+             'tagline': 'AI product photoshoots without a camera or studio',
+             'desc': 'Flair AI is a browser tool for e-commerce product imagery: drop in your product photo, stage it on a '
+                     'drag-and-drop canvas, and generate lifestyle shots, on-model fashion images, ads and short videos.',
+             'pricing': 'Free plan (5 images, 1 video, 1 custom model); Pro $8/mo; Pro+ $26/mo (commercial license); Scale from '
+                        '$38/mo (150 images); Enterprise custom. Verified on flair.ai/pricing, 2026-10-23; only Free, Pro, Pro+, '
+                        'Scale Tier 1 and Enterprise were confirmed.',
+             'url': 'https://flair.ai/',
+             'tags': ['Marketing & SEO', 'AI Product Photography', 'Creative & Design'],
+             'features': ['Drag-and-drop scene builder with props and 3D assets',
+                          'Custom AI model training for on-model fashion shots',
+                          'Bulk content generation for product catalogs',
+                          'AI product video generation',
+                          'Magic Erase, upscale, and image variation editing tools',
+                          'Virtual try-on and image extension tools',
+                          'Flair API for programmatic image generation'],
+             'pros': ['Drag-and-drop workflow makes professional-looking product scenes fast to build without a photo studio',
+                      'Deep editing toolkit (regenerate product/human, magic erase, upscale, variations) goes beyond simple '
+                      'text-to-image generation',
+                      'Low entry price ($8/mo Pro plan) makes it accessible to small brands and solo sellers'],
+             'cons': ['Image quotas are small: 80 on Pro+, 150 on Scale Tier 1',
+                      'Instant and ad generation use 4x the image quota',
+                      'Commercial license only from Pro+ upward',
+                      'Scale tiers above Tier 1 and annual prices could not be verified today'],
+             'best_for': 'E-commerce brands, fashion sellers, and small marketing teams who need fast, on-brand product and '
+                         'on-model imagery without booking physical photoshoots.',
+             'deep': {'overview': 'Flair AI is a good fit for small e-commerce and fashion brands that need many product and '
+                                  'on-model images without a photoshoot, and a poor fit for anyone needing guaranteed photorealism '
+                                  'at large volume without human review. You upload your own product photo, stage it on a '
+                                  'drag-and-drop canvas with props, and the AI renders the scene. It also does on-model images for '
+                                  'clothing and jewelry, ads, short product videos, custom AI human models, and editing tools such '
+                                  'as Magic Erase, Upscale, Virtual Try On and Generate Variations. The free plan is small, and '
+                                  'the image quotas on paid plans are modest, so cost per usable image depends on how many tries '
+                                  'you need.',
+                      'features_detailed': [{'title': 'Drag-and-drop scene composer',
+                                             'desc': 'Combine your product image with AI-generated backgrounds, props, and 3D '
+                                                     'assets on a visual canvas rather than relying purely on text prompts.'},
+                                            {'title': 'Custom AI models',
+                                             'desc': 'Train reusable AI models on a specific product or human model so future '
+                                                     'generations stay visually consistent across a catalog.'},
+                                            {'title': 'On-model fashion photography',
+                                             'desc': 'Generate photos of apparel and accessories worn by AI-rendered models in '
+                                                     'different poses, settings, and lighting.'},
+                                            {'title': 'AI product videos',
+                                             'desc': 'Turn static product shots into short AI-generated video content for ads and '
+                                                     'social media, with credits allotted per plan.'},
+                                            {'title': 'Editing toolkit',
+                                             'desc': 'Magic Erase, image upscaling, variation generation, and image extension let '
+                                                     'users refine a render instead of regenerating from scratch.'},
+                                            {'title': 'Virtual try-on',
+                                             'desc': 'Preview how a product looks on different AI model bodies and skin tones '
+                                                     'without new physical photography.'},
+                                            {'title': 'Bulk content generation',
+                                             'desc': 'Apply a scene or style across an entire product catalog at once, useful for '
+                                                     'large SKU counts.'},
+                                            {'title': 'Flair API',
+                                             'desc': "Programmatic access to Flair's generation engine for teams building product "
+                                                     'photography into their own internal tools (early access on Scale plans, '
+                                                     'unlimited on Enterprise).'}],
+                      'pricing_plans': [{'name': 'Free',
+                                         'price': '$0',
+                                         'billing': 'forever',
+                                         'features': ['1 custom model',
+                                                      '5 generated images',
+                                                      '1 video generation',
+                                                      'Instant and ad generation use 4x the image quota']},
+                                        {'name': 'Pro',
+                                         'price': '$8/mo',
+                                         'billing': 'monthly (annual discount exists; annual price not shown)',
+                                         'features': ['2 video generations',
+                                                      'Faster rendering',
+                                                      'Image upscales',
+                                                      'Image variations',
+                                                      'Image and model quotas not stated']},
+                                        {'name': 'Pro+',
+                                         'price': '$26/mo',
+                                         'billing': 'monthly',
+                                         'features': ['80 generated images',
+                                                      '3 video generations',
+                                                      'Up to 8 Standard or 2 Fast custom models',
+                                                      'Company commercial license']},
+                                        {'name': 'Scale (Tier 1)',
+                                         'price': '$38/mo',
+                                         'billing': 'monthly',
+                                         'features': ['150 generated images',
+                                                      '5 video generations',
+                                                      'Up to 15 Standard or 4 Fast custom models',
+                                                      'Early access to the AI Product Photography API',
+                                                      'Commercial license']},
+                                        {'name': 'Enterprise',
+                                         'price': 'Custom',
+                                         'billing': 'custom',
+                                         'features': ['Custom credit amounts',
+                                                      'Unlimited API access',
+                                                      'Custom model training',
+                                                      'SAML SSO',
+                                                      'Dedicated success manager']}],
+                      'pros_expanded': ['The drag-and-drop canvas gives more control over product placement than prompt-only image '
+                                        'tools.',
+                                        'Editing tools (Magic Erase, Upscale, Variations, Virtual Try On) let you fix a shot '
+                                        'instead of regenerating it.',
+                                        'On-model generation for clothing and jewelry is a core feature, preserving patterns and '
+                                        'logos per the site.',
+                                        'Free plan and an $8 entry tier make testing cheap.',
+                                        'Company commercial license is included from Pro+.'],
+                      'cons_expanded': ['Quotas are small: 80 images on Pro+ and 150 on Scale Tier 1.',
+                                        'Instant and ad generation consume 4x the image quota, so effective output is lower.',
+                                        "Pro's image and custom-model quotas are not stated on the pricing page.",
+                                        'Commercial license starts at Pro+, so the cheap plans may not cover ad use.',
+                                        'Higher Scale tiers and annual prices were not confirmed today; check the pricing page.',
+                                        'Complex scenes still need manual review before use in paid ads.'],
+                      'who_for': 'Good for DTC sellers, fashion and jewelry brands and small marketing teams making frequent '
+                                 'product visuals. Not for teams on the free or Pro plans who need to use images in ads '
+                                 '(commercial license starts at Pro+), high-volume catalogs on a tight budget, or anyone who needs '
+                                 'exact, unretouched product accuracy.',
+                      'faq': [{'q': 'Is there a free plan?',
+                               'a': 'Yes: 1 custom model, 5 generated images and 1 video, with instant and ad generation costing '
+                                    '4x the image quota.'},
+                              {'q': 'How much does Flair AI cost?',
+                               'a': 'Pro $8/mo, Pro+ $26/mo, Scale Tier 1 $38/mo, Enterprise custom. Higher Scale tiers exist but '
+                                    'we could not verify their prices today; see flair.ai/pricing.'},
+                              {'q': 'Can I use the images in ads?',
+                               'a': 'A company commercial license is listed from Pro+ and above. Check the terms of service for '
+                                    'the exact scope.'},
+                              {'q': 'Is there an API?',
+                               'a': 'Early access to the AI Product Photography API is listed on Scale plans, and unlimited API '
+                                    'access on Enterprise.'}]},
+             'alternatives': [],
+             'last_checked': '2026-10-23'},
             
             {"name": "Jacquard", "tagline": "AI-generated, brand-calibrated messaging at enterprise scale", "desc": "Jacquard (formerly Phrasee) is an enterprise AI platform that generates and optimizes brand-compliant email, SMS and push copy at scale, using causal language intelligence trained on 1M+ A/B tests to predict what will convert.", "pricing": "Enterprise-only, custom annual pricing disclosed via demo/contact; no free plan or public tiers.", "url": "https://www.jacquard.com/",
  "tags": ["Marketing & SEO", "Generative AI", "Email Marketing"],
@@ -4075,59 +5008,114 @@ CATEGORIES = [
       {"q": "Which platforms does Jacquard integrate with?", "a": "Native integrations include Salesforce Marketing Cloud, Braze, Iterable, Adobe Campaign and MessageGears, among others."}
     ]
  }},
-            {"name": "Persado", "tagline": "Compliant, AI-generated marketing content for regulated brands", "desc": "Persado is an enterprise generative AI platform that creates, scores and deploys compliance-validated marketing content for regulated industries like banking and insurance, predicting performance against 120,000+ past campaigns before anything goes live.", "pricing": "Enterprise-only, custom annual contracts (typically five/six-figure); a self-service Studio tier is available for the Optimize product, pricing undisclosed. No free trial or published tiers.", "url": "https://www.persado.com/",
- "tags": ["Marketing & SEO", "Generative AI", "Regulated Industries"],
- "features": ["Generates production-ready content for email, direct mail, web, social and SMS from a single brief", "Performance Agent scores every variant against 1M+ A/B tests and 120K+ past campaigns", "Compliance Agent validates content against 20+ regulatory frameworks (UDAAP, TILA, Reg Z, GDPR) before launch", "Brand Agent enforces tone, terminology and style guidelines automatically across every variant", "Deep Market Scan audits existing in-market assets for performance and compliance risk", "Real-time CRM automation selects the best-performing compliant variant per segment at send time"],
- "pros": ["Purpose-built compliance validation embedded at generation time, not bolted on after (case studies cite 90% fewer compliance rejections)", "Backed by a dedicated account team (CSM, campaign manager, content strategist, technical engineer) rather than pure self-service software", "Long track record with major regulated brands (Bank of America, U.S. Bank, Ally, Discover, LendingClub)"],
- "cons": ["Enterprise-only, custom pricing with no published tiers makes it inaccessible for small businesses or freelancers", "Full managed-service model means a longer setup process (roughly 4 weeks onboarding) than self-serve AI writing tools", "G2 reviewers note some lag/latency and occasional subject-line mismatches"],
- "best_for": "Enterprise marketing teams in heavily regulated industries (banking, insurance, fintech, mortgage) that need AI-generated content pre-validated against compliance frameworks before it reaches customers.",
- "deep": {
-    "overview": "Persado is an enterprise generative AI platform built specifically for marketing teams in regulated industries - consumer banking, card issuers, mortgage and lending, insurance, credit unions, and fintech - where content must clear legal and compliance review before it ever reaches a customer. Rather than positioning itself as a general-purpose AI writing tool, Persado frames itself as an \"agentic creative agency\": marketers submit a campaign brief (product, channel, audience, goal, and constraints such as required disclosures or applicable regulations), and the platform generates, scores, and compliance-checks dozens of content variants before producing deployment-ready assets - fully coded HTML email, print-ready direct mail, web banners, social ads, and SMS. The company, founded over a decade ago, says its models are trained on more than 120,000 campaigns and 1 million-plus A/B tests, and its customer base includes Bank of America, U.S. Bank, Ally Financial, Discover, TD Bank, NatWest, and LendingClub.\n\nPersado's core differentiation from generic LLM-based writing tools is its three-agent architecture: a Performance Agent that predicts how a given piece of language will perform based on historical outcome data, a Brand Agent that enforces each client's tone, terminology and style guardrails, and a Compliance Agent that automatically checks output against 20+ regulatory frameworks (UDAAP, TILA, Reg Z, ECOA, GDPR, CAN-SPAM, and more) before content is ever submitted for human approval. Persado's Optimize product includes a \"Deep Market Scan\" that audits a brand's existing, already-approved content library and flags underperforming-but-compliant assets for refresh without re-triggering a full compliance review - the company claims 40-60% of enterprise customers' approved content falls into this category. Rather than pure self-service software, Persado pairs its platform with a dedicated team (a named CSM, campaign manager, content strategist and technical engineer), reflecting its enterprise, high-touch go-to-market model and multi-year customer relationships like the one with Ally Financial, which reported a 2x CTR lift and 57% increase in new accounts.",
-    "features_detailed": [
-      {"title": "Create", "desc": "Generates channel-specific, production-ready content (email, direct mail, web, social, SMS) from a single campaign brief, claimed to outperform human and generic-AI copy 96% of the time."},
-      {"title": "Optimize / Deep Market Scan", "desc": "Ingests an existing content library and dual-scores every asset for performance potential and compliance risk, producing a prioritized refresh plan."},
-      {"title": "Automate", "desc": "Connects to CRM/ESP platforms (Salesforce Marketing Cloud, Adobe Campaign, Braze, Cordial) to auto-select the best-performing compliant variant per segment at send time."},
-      {"title": "Compliance Agent", "desc": "Validates every generated variant against 20+ regulatory frameworks (UDAAP, TILA, Reg Z, ECOA, GDPR, CAN-SPAM) before it reaches human review."},
-      {"title": "Performance Agent", "desc": "Scores and ranks language variants using a proprietary taxonomy built from 120,000+ message elements and 1M+ A/B test outcomes."},
-      {"title": "Brand Agent", "desc": "Enforces brand-specific tone, terminology and regional voice rules automatically so generated content stays on-brand without manual review."},
-      {"title": "Multi-language calibration", "desc": "Generates and calibrates language across dozens of markets, applying performance learnings from one region/language to others."},
-      {"title": "Full audit trail", "desc": "Every generated asset includes explainable rationale and a compliance audit trail for legal and regulatory review."}
-    ],
-    "pricing_plans": [
-      {"name": "Enterprise (managed service)", "price": "Custom", "billing": "annual contract", "features": ["Dedicated CSM, campaign manager, content strategist and technical engineer", "Full Create + Optimize + Automate platform access", "~4-week onboarding", "Custom integration with existing marketing stack"]},
-      {"name": "Studio (self-service Optimize)", "price": "Custom / not publicly disclosed", "billing": "contact sales", "features": ["Self-service access to the Optimize product", "Faster setup than the managed Enterprise tier", "Deep Market Scan for existing content libraries"]}
-    ],
-    "pros_expanded": [
-      "G2 reviewers rate Persado 4.3/5 across 14 reviews, repeatedly citing ease of use and measurable open-rate/engagement lifts.",
-      "Case studies show substantial, verifiable outcomes: Ally Financial reported a 2x CTR lift and 57% increase in new accounts; Vodafone Italy reported a 42% conversion lift across 2,000+ campaigns.",
-      "Compliance-by-design approach reduces legal review cycles - the company states a 90% reduction in compliance rejections across its enterprise portfolio.",
-      "Dedicated account team model means customers get strategic and technical support beyond what self-serve AI writing tools provide.",
-      "Long operating history (10+ years) and large training corpus (120K+ campaigns) versus newer entrants using generic LLMs."
-    ],
-    "cons_expanded": [
-      "Enterprise-only custom pricing, typically five-figure-plus annual contracts, puts it out of reach for SMBs and individual marketers.",
-      "Full managed-service onboarding takes about 4 weeks, slower than self-serve competitors that work out of the box.",
-      "A minority of G2 reviewers note occasional lag and subject lines that don't always match sending context.",
-      "Deep integration with legacy marketing systems can require meaningful implementation time and resources per user reviews.",
-      "Being a \"dedicated team\" model rather than pure software means less transparency into a self-service product roadmap."
-    ],
-    "who_for": "Persado is built for large enterprises in regulated industries - banks, credit unions, insurers, mortgage lenders and fintechs - that need marketing content pre-validated for both performance and compliance before launch. It is a poor fit for small businesses, solo marketers, or any team without the budget for a five/six-figure annual enterprise contract.",
-    "reviews": {
-      "g2_rating": "4.3/5",
-      "g2_count": "14 reviews",
-      "summary": "Persado earns solid, if modest-volume, G2 reviews (4.3/5 across 14 reviews), with reviewers praising ease of use, personalization and open-rate improvements, and citing integration effort and occasional lag as the main friction points.",
-      "praise": ["Easy to use and quick to integrate with existing marketing/email platforms", "Emotion-based subject line testing produces measurable open-rate increases", "Strong personalization and audience-targeting capabilities"],
-      "complaints": ["Integrating with legacy marketing systems can take meaningful time and resources", "Occasional lag and subject lines that don't perfectly match campaign context", "Less creative control/human touch compared to traditional copywriting"]
-    },
-    "faq": [
-      {"q": "How much does Persado cost?", "a": "Persado does not publish pricing; it sells custom, enterprise-only annual contracts typically in the five-to-six-figure range, plus a self-service Studio tier for its Optimize product with pricing available on request."},
-      {"q": "How is Persado different from ChatGPT or Jasper?", "a": "Persado says generic AI tools produce a first draft, while it produces production-ready, compliance-validated, performance-scored assets - coded, QA'd and deployment-ready - drawing on 120,000+ past campaigns and 1M+ A/B tests."},
-      {"q": "Will Persado's content pass compliance review?", "a": "Persado validates content against 20+ regulatory frameworks (UDAAP, TCPA, GDPR and industry-specific rules) during generation, and reports a 90% reduction in compliance rejections for enterprise customers."},
-      {"q": "What channels does Persado support?", "a": "Email (coded, dark-mode tested, Litmus QA'd), direct mail, web banners, social ads and SMS, each produced with performance prediction and a compliance audit trail."},
-      {"q": "How long does onboarding take?", "a": "Typical onboarding for the managed Enterprise tier takes about 4 weeks; the self-service Studio tier for Optimize sets up faster."},
-      {"q": "Can Persado help with content we've already published?", "a": "Yes - its Deep Market Scan ingests an existing asset library and scores each piece for performance potential and compliance risk, producing a prioritized refresh plan; the company says 40-60% of approved enterprise content is typically underperforming."}
-    ]
- }},
+            {'name': 'Persado',
+             'tagline': 'Compliance-checked AI marketing content for banks and insurers',
+             'desc': 'Persado is an enterprise generative AI platform for marketing in regulated industries, mainly financial '
+                     'services. It generates, scores and compliance-checks content, with pricing available only through sales.',
+             'pricing': 'Pricing not public - contact sales (Enterprise managed service; Studio self-service tier for Optimize). '
+                        'No free trial listed.',
+             'url': 'https://www.persado.com/',
+             'tags': ['Marketing & SEO', 'Generative AI', 'Regulated Industries'],
+             'features': ['Generates production-ready content for email, direct mail, web, social and SMS from a single brief',
+                          'Performance Agent scores every variant against 1M+ A/B tests and 120K+ past campaigns',
+                          'Compliance Agent validates content against 20+ regulatory frameworks (UDAAP, TILA, Reg Z, GDPR) before '
+                          'launch',
+                          'Brand Agent enforces tone, terminology and style guidelines automatically across every variant',
+                          'Deep Market Scan audits existing in-market assets for performance and compliance risk',
+                          'Real-time CRM automation selects the best-performing compliant variant per segment at send time'],
+             'pros': ['Compliance checking built into generation for regulated finance',
+                      'Dedicated account team on the Enterprise tier',
+                      'Covers email, direct mail, web, social and SMS from one brief'],
+             'cons': ['No published pricing and no free trial',
+                      'Enterprise onboarding is about 4 weeks',
+                      'Built for large regulated firms; poor fit for small teams',
+                      "Performance and compliance figures are the vendor's own claims"],
+             'best_for': 'Large marketing teams at banks, card issuers, lenders, insurers and fintechs that need AI content '
+                         'pre-checked against regulatory rules.',
+             'deep': {'overview': 'Persado is a good fit for large marketing teams in regulated financial services that need '
+                                  'AI-written copy checked for compliance before legal review; small businesses and '
+                                  'general-purpose content writers should skip it. You submit a campaign brief, and the platform '
+                                  'generates variants for email, direct mail, web, social and SMS, scores them for expected '
+                                  'performance, and checks them against regulatory frameworks.\n'
+                                  '\n'
+                                  'Its site describes three modules: Create (generation), Optimize (scanning existing assets for '
+                                  'stronger alternatives) and Automate (choosing message variants at send time via integrations '
+                                  'such as Salesforce Marketing Cloud, Adobe Campaign and Braze). Figures such as 20+ frameworks, '
+                                  "120K+ campaigns and 1M+ A/B tests are Persado's own and unverified here. Enterprise comes with "
+                                  'a dedicated team and about four weeks of onboarding.',
+                      'features_detailed': [{'title': 'Create',
+                                             'desc': 'Generates channel-specific, production-ready content (email, direct mail, '
+                                                     'web, social, SMS) from a single campaign brief, claimed to outperform human '
+                                                     'and generic-AI copy 96% of the time.'},
+                                            {'title': 'Optimize / Deep Market Scan',
+                                             'desc': 'Ingests an existing content library and dual-scores every asset for '
+                                                     'performance potential and compliance risk, producing a prioritized refresh '
+                                                     'plan.'},
+                                            {'title': 'Automate',
+                                             'desc': 'Connects to CRM/ESP platforms (Salesforce Marketing Cloud, Adobe Campaign, '
+                                                     'Braze, Cordial) to auto-select the best-performing compliant variant per '
+                                                     'segment at send time.'},
+                                            {'title': 'Compliance Agent',
+                                             'desc': 'Validates every generated variant against 20+ regulatory frameworks (UDAAP, '
+                                                     'TILA, Reg Z, ECOA, GDPR, CAN-SPAM) before it reaches human review.'},
+                                            {'title': 'Performance Agent',
+                                             'desc': 'Scores and ranks language variants using a proprietary taxonomy built from '
+                                                     '120,000+ message elements and 1M+ A/B test outcomes.'},
+                                            {'title': 'Brand Agent',
+                                             'desc': 'Enforces brand-specific tone, terminology and regional voice rules '
+                                                     'automatically so generated content stays on-brand without manual review.'},
+                                            {'title': 'Multi-language calibration',
+                                             'desc': 'Generates and calibrates language across dozens of markets, applying '
+                                                     'performance learnings from one region/language to others.'},
+                                            {'title': 'Full audit trail',
+                                             'desc': 'Every generated asset includes explainable rationale and a compliance audit '
+                                                     'trail for legal and regulatory review.'}],
+                      'pricing_plans': [{'name': 'Enterprise (managed service)',
+                                         'price': 'Pricing not public - contact sales',
+                                         'billing': 'custom contract',
+                                         'features': ['Dedicated customer success lead, campaign manager, content strategist and '
+                                                      'technical engineer',
+                                                      'Create, Optimize and Automate modules',
+                                                      'About 4 weeks onboarding',
+                                                      'Integration with existing marketing stack']},
+                                        {'name': 'Studio (self-service Optimize)',
+                                         'price': 'Pricing not public - contact sales',
+                                         'billing': 'not disclosed',
+                                         'features': ['Self-service access to Optimize', 'Faster setup than Enterprise']}],
+                      'pros_expanded': ['Compliance checking happens during generation, which can shorten the loop with legal '
+                                        'reviewers.',
+                                        'Focused on regulated finance, so the rules and examples are relevant rather than generic.',
+                                        'Optimize can audit your existing content library, useful if you have a lot of approved '
+                                        'copy.',
+                                        'Enterprise tier includes a named dedicated team, not just software.',
+                                        'Integrations with major marketing platforms (Salesforce Marketing Cloud, Adobe Campaign, '
+                                        'Braze) are listed for send-time variant selection.',
+                                        'Multi-channel output from one brief reduces duplicate drafting.'],
+                      'cons_expanded': ['No published pricing; you must go through a demo or audit request.',
+                                        'No free trial mentioned on the site.',
+                                        'Enterprise onboarding is roughly four weeks, slower than self-serve writing tools.',
+                                        'Headline numbers (compliance frameworks, campaigns, A/B tests) come from the vendor and '
+                                        'could not be verified independently.',
+                                        'Managed-service model means less control than pure software; you rely on the vendor team.',
+                                        'Narrow focus: outside regulated industries its main selling point matters less.'],
+                      'who_for': 'Good for: banks, credit unions, card issuers, mortgage lenders, insurers and fintechs with '
+                                 'compliance review bottlenecks and enterprise budgets. Not for: small businesses, freelancers, '
+                                 'startups, or anyone wanting self-serve signup, a free trial or published pricing.',
+                      'faq': [{'q': 'How much does Persado cost?',
+                               'a': 'It does not publish pricing. Both Enterprise and Studio are quote-based; request a demo or '
+                                    'portfolio audit.'},
+                              {'q': 'Is there a free trial?', 'a': 'None is listed on its site as of 2026-10-23.'},
+                              {'q': 'How is it different from ChatGPT or Jasper?',
+                               'a': 'Persado adds performance scoring from its own campaign history and compliance checks aimed at '
+                                    'regulated finance, and sells a managed team. General tools are cheaper and self-serve but '
+                                    'lack those controls.'},
+                              {'q': 'What is the difference between Enterprise and Studio?',
+                               'a': 'Enterprise is a managed service with a dedicated team and about four weeks of onboarding. '
+                                    'Studio is a self-service tier for the Optimize product with faster setup.'},
+                              {'q': 'Which channels does it cover?',
+                               'a': 'Email, direct mail, web, social and SMS, per its site.'}]},
+             'last_checked': '2026-10-23',
+             'alternatives': []},
             {"name": "PostNitro", "tagline": "Turn any topic into a ready-to-post carousel in minutes", "desc": "PostNitro is an AI-powered carousel maker that turns a topic, URL, article, or Twitter thread into branded, ready-to-publish carousel posts for LinkedIn, Instagram, TikTok, X, and Threads, with built-in scheduling.", "pricing": "Free plan available; paid plans from $15/month (Starter) up to $50/month (Team), with ~17-20% off on annual billing", "url": "https://postnitro.ai/",
  "tags": ["Marketing & SEO", "Social Media", "Content Creation"],
  "features": ["AI carousel content generator (GPT and Claude models)", "100+ customizable carousel templates", "Article, URL, and Twitter-thread-to-carousel conversion", "Brand kits with custom fonts, colors, and logos", "Multi-platform export (LinkedIn, Instagram, TikTok, X, Threads)", "Built-in social media scheduling and publishing", "Team workspaces and collaboration", "Zapier and public API/embed SDK integrations"],
