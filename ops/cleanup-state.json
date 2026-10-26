@@ -1846,8 +1846,8 @@
     "robots blocked fetch",
     "robots blocked fetch"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-26"
   },
   {
    "slug": "harpa-ai",
@@ -1856,8 +1856,8 @@
     "Chrome extension with multi-model AI and web automation; S plan $12/mo annual",
     "Chrome extension with multi-model AI and web automation; S plan $12/mo annual"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-26"
   },
   {
    "slug": "bardeen",
@@ -1866,8 +1866,8 @@
     "GTM automation/lead sourcing platform; pricing on separate page",
     "GTM automation/lead sourcing platform; pricing on separate page"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-26"
   },
   {
    "slug": "superwhisper",
@@ -2026,8 +2026,8 @@
     "Live; verify cloud pricing",
     "Open-source MIT private AI app; free download"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-26"
   },
   {
    "slug": "crystalsound",
@@ -2146,8 +2146,8 @@
     "Live; listed pricing outdated",
     "LANDR Studio suite; plans from $8.25/mo vs listed $4/mo"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-26"
   },
   {
    "slug": "async",
@@ -2646,8 +2646,8 @@
     "Live; outreach.io redirects to outreach.ai, update URL",
     "302 to www.outreach.ai"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-26"
   },
   {
    "slug": "people-ai",
@@ -2686,8 +2686,8 @@
     "Live cold email tool; $39/$94/$174/$379 confirmed",
     "Live cold email tool; $39/$94/$174/$379 confirmed"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-26"
   },
   {
    "slug": "tabscanner",
@@ -2786,8 +2786,8 @@
     "Live; refresh",
     "Live; free up to 50 credits"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-26"
   },
   {
    "slug": "inventive-ai",
@@ -2816,8 +2816,8 @@
     "Live; positioning changed",
     "Live; now pitched at media agencies/data providers"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-26"
   },
   {
    "slug": "base44",
@@ -2876,8 +2876,8 @@
     "Live; refresh",
     "Live company"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-26"
   },
   {
    "slug": "hebbia",
@@ -3126,8 +3126,8 @@
     "Live; verify purchase prices",
     "Live; free to design"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-26"
   },
   {
    "slug": "perception",
@@ -3314,8 +3314,8 @@
    "issues": [
     "Live; listing needs verified details and comparison."
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-26"
   },
   {
    "slug": "stack-ai",
@@ -3324,8 +3324,8 @@
     "Live; listing needs verified details and comparison.",
     "Live; banner says Asana acquired StackAI; domain now stackai.com."
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-26"
   },
   {
    "slug": "tooljet",
@@ -3399,8 +3399,8 @@
     "Live; listing needs verified details and comparison.",
     "No free plan; credit-based, free credits for 3 slides."
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-26"
   },
   {
    "slug": "magicslides-ai-ppt-maker",
@@ -3473,8 +3473,8 @@
    "issues": [
     "Live; listing needs verified details and comparison."
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-26"
   },
   {
    "slug": "ai-presentation-maker-by-slidemodel",
@@ -3571,6 +3571,10 @@
   {
    "date": "2026-10-23",
    "action": "Fixed 15 pages: wisecut, plotagon, neural-frames, shortgenius, cosine, kodezi, 11x, lovart, mutiny, wordlift, persado, clickflow, dashword, flair-ai, seeing-ai. Pricing unverified (stated on page): 11x (not public), lovart, plotagon, wisecut (annual), neural-frames (free limits), clickflow, flair-ai (higher tiers), seeing-ai (only homepage fetched). Unverified G2/Capterra review blocks dropped. Mutiny pivoted to AI sales assistant."
+  },
+  {
+   "date": "2026-10-26",
+   "action": "Fixed 15 pages: akkio, anythingllm, bardeen, decktopus, h2o-ai, harpa-ai, landr, looka, outreach, poe, seamless-ai, skyvern, slidebean, smartlead, stack-ai. Pricing unverified (stated on page): poe (site blocks fetch), landr (tier prices), looka (no amounts shown), seamless-ai (paid), harpa-ai (USD), h2o-ai (not public), outreach (not public), stack-ai (paid tiers). Unverified review blocks dropped. StackAI joining Asana noted. URLs updated: stack-ai, outreach."
   }
  ]
 }
