@@ -726,8 +726,8 @@
     "Live; Pixlr-owned, update description",
     "Now run by Pixlr; vector editor with AI tools"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-27"
   },
   {
    "slug": "simpleshow",
@@ -736,8 +736,8 @@
     "Live; note D-ID acquisition",
     "Now part of D-ID after acquisition; explainer video tool"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-27"
   },
   {
    "slug": "runway",
@@ -936,8 +936,8 @@
     "Live; repositioned, update",
     "Now AI video agent combining several models; ~$0.50/video cited"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-27"
   },
   {
    "slug": "topmediai",
@@ -946,8 +946,8 @@
     "Live; verify pricing",
     "All-in-one AI video, music, voiceover platform"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-27"
   },
   {
    "slug": "videoscribe",
@@ -956,8 +956,8 @@
     "Live; weak AI angle, verify pricing",
     "Whiteboard animation software, not strongly AI; 7-day trial"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-27"
   },
   {
    "slug": "wisecut",
@@ -976,8 +976,8 @@
     "Live; verify pricing",
     "AI video editor desktop/online; 30 free credits"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-27"
   },
   {
    "slug": "shortgenius",
@@ -1136,8 +1136,8 @@
     "Live and real; update details",
     "Live; orchestrates Copilot/Claude Code to write Java/Python tests, per-line outcome pricing"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-27"
   },
   {
    "slug": "kodezi",
@@ -1196,8 +1196,8 @@
     "Live; verify license in repo",
     "Live; open-source Chrome extension, BYO LLM key; license not stated on page"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-27"
   },
   {
    "slug": "summer-engine",
@@ -1226,8 +1226,8 @@
     "Live; needs honest comparison",
     "Live; AI security and governance, SOC 2; no acquisition noted"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-27"
   },
   {
    "slug": "odin-ai",
@@ -1356,8 +1356,8 @@
     "Unverifiable here; verify later",
     "Fetch blocked by robots"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-27"
   },
   {
    "slug": "bulkgpt",
@@ -1376,8 +1376,8 @@
     "Pivoted from ML testing; update",
     "Now AI document automation for real estate/finance; 2-week trial"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-27"
   },
   {
    "slug": "scholarly",
@@ -1386,8 +1386,8 @@
     "Live; pricing needs update",
     "Live; AI study workspace; team prices differ from listing"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-27"
   },
   {
    "slug": "seeing-ai",
@@ -1436,8 +1436,8 @@
     "Live; verify pricing",
     "Live; teacher differentiation tool; prices on separate page"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-27"
   },
   {
    "slug": "hive-inspect",
@@ -1466,8 +1466,8 @@
     "Amazon/Google ads optimization dashboard plus managed service; Algorithm Studio; Meta/Kaufland planned",
     "Amazon/Google ads optimization dashboard plus managed service; Algorithm Studio; Meta/Kaufland planned"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-27"
   },
   {
    "slug": "groas",
@@ -1476,8 +1476,8 @@
     "Redirects to groas.com; now sells 90-day sprints (paid ads or SEO/AI search) and agency resale; no public prices; listed pricing outdated",
     "Redirects to groas.com; now sells 90-day sprints (paid ads or SEO/AI search) and agency resale; no public prices; listed pricing outdated"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-27"
   },
   {
    "slug": "genpage",
@@ -3575,6 +3575,10 @@
   {
    "date": "2026-10-26",
    "action": "Fixed 15 pages: akkio, anythingllm, bardeen, decktopus, h2o-ai, harpa-ai, landr, looka, outreach, poe, seamless-ai, skyvern, slidebean, smartlead, stack-ai. Pricing unverified (stated on page): poe (site blocks fetch), landr (tier prices), looka (no amounts shown), seamless-ai (paid), harpa-ai (USD), h2o-ai (not public), outreach (not public), stack-ai (paid tiers). Unverified review blocks dropped. StackAI joining Asana noted. URLs updated: stack-ai, outreach."
+  },
+  {
+   "date": "2026-10-27",
+   "action": "Fixed 15 pages: adfixer, autonoma, diffblue-testing-agent, diffit, firetail, groas, hitpaw-edimakor, kolena, nanobrowser, scholarly, simpleshow, synthesys-ai-studio, topmediai, vectr, videoscribe. Pricing unverified (stated on page): hitpaw-edimakor, topmediai (prices), simpleshow (all plans), vectr, kolena, firetail (not public), autonoma (cloud pricing; url now getautonoma.com), diffit (school prices), adfixer (trial terms), diffblue (free tiers dropped). groas is now a done-for-you service at $1,499/mo per service. Unverified review blocks dropped. Deepsolv (partner, pinned) skipped this run - lives outside CATEGORIES literal; needs special handling."
   }
  ]
 }
