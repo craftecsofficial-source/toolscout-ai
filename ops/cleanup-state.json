@@ -1876,8 +1876,8 @@
     "Voice-to-text app on Mac/Windows/iOS/Android; free tier, Pro, lifetime",
     "Voice-to-text app on Mac/Windows/iOS/Android; free tier, Pro, lifetime"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-29"
   },
   {
    "slug": "memoryplugin",
@@ -2256,8 +2256,8 @@
     "Live; pricing billing note needs fixing",
     "AEO platform; monthly prices $32.50/$65.83/$107.50 confirmed (monthly billing, annual totals differ)"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-29"
   },
   {
    "slug": "geordy",
@@ -2326,8 +2326,8 @@
     "Live enterprise SEO/AEO platform; verify pricing tiers and compare",
     "Live enterprise SEO/AEO platform; verify pricing tiers and compare"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-29"
   },
   {
    "slug": "brightedge",
@@ -2336,8 +2336,8 @@
     "Live AI SEO/AEO platform; verify credit pricing claims",
     "Live AI SEO/AEO platform; verify credit pricing claims"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-29"
   },
   {
    "slug": "llmrefs",
@@ -2396,8 +2396,8 @@
     "Live; SoundHound AI acquisition noted on site; update listing",
     "Site notes SoundHound AI has acquired LivePerson"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-29"
   },
   {
    "slug": "kommunicate",
@@ -2416,8 +2416,8 @@
     "Live AI support chatbot; free plan confirmed",
     "Live AI support chatbot; free plan confirmed"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-29"
   },
   {
    "slug": "docsbot-ai",
@@ -2426,8 +2426,8 @@
     "Live; now credit-metered AI assistants; update pricing wording",
     "Live; now credit-metered AI assistants; update pricing wording"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-29"
   },
   {
    "slug": "wonderchat",
@@ -2606,8 +2606,8 @@
     "Live; now broader GTM revenue platform",
     "Live; now broader GTM revenue platform"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-29"
   },
   {
    "slug": "fishbowl",
@@ -2656,8 +2656,8 @@
     "Rebranded to Backstory; update name and URL",
     "people.ai redirects to backstory.ai; \"People.ai is now Backstory\""
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-29"
   },
   {
    "slug": "regie-ai",
@@ -2666,8 +2666,8 @@
     "Live; now RegieGO agentic workspace at $49/mo",
     "Live; now RegieGO agentic workspace at $49/mo"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-29"
   },
   {
    "slug": "salesloft",
@@ -2946,8 +2946,8 @@
     "Acquired by Superhuman; update status",
     "Banner: Rows joined Superhuman; site still live"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-29"
   },
   {
    "slug": "syntho",
@@ -3036,8 +3036,8 @@
     "Live; pricing confirmed",
     "Live; Free 720p, Pro $5/mo or $36/yr, ClipDrop Pro"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-29"
   },
   {
    "slug": "colormind",
@@ -3238,8 +3238,8 @@
     "Live; listing needs verified details and comparison.",
     "Domain moved to durable.com; pricing page shows Launch $25/mo."
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-29"
   },
   {
    "slug": "frontly",
@@ -3417,8 +3417,8 @@
    "issues": [
     "Live; listing needs verified details and comparison."
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-29"
   },
   {
    "slug": "plus-ai",
@@ -3426,8 +3426,8 @@
    "issues": [
     "Live; listing needs verified details and comparison."
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-29"
   },
   {
    "slug": "popai",
@@ -3579,6 +3579,10 @@
   {
    "date": "2026-10-27",
    "action": "Fixed 15 pages: adfixer, autonoma, diffblue-testing-agent, diffit, firetail, groas, hitpaw-edimakor, kolena, nanobrowser, scholarly, simpleshow, synthesys-ai-studio, topmediai, vectr, videoscribe. Pricing unverified (stated on page): hitpaw-edimakor, topmediai (prices), simpleshow (all plans), vectr, kolena, firetail (not public), autonoma (cloud pricing; url now getautonoma.com), diffit (school prices), adfixer (trial terms), diffblue (free tiers dropped). groas is now a done-for-you service at $1,499/mo per service. Unverified review blocks dropped. Deepsolv (partner, pinned) skipped this run - lives outside CATEGORIES literal; needs special handling."
+  },
+  {
+   "date": "2026-10-29",
+   "action": "Fixed 15 pages: brightedge, chatling, cleanup-pictures, common-room, conductor, docsbot-ai, durable, liveperson, napkin, people-ai, plus-ai, regie-ai, rows-ai, superwhisper, surgegraph. Unverified/notes: superwhisper Pro price unverifiable (pricing page failed); brightedge/conductor/liveperson/people-ai pricing not public; plus-ai has no free plan (trial only); common-room acquired by Zoom (Jul 2026), free plan gone; people-ai now Backstory (url updated); liveperson acquired by SoundHound; durable url now durable.com; rows-ai joined Superhuman. Unverified review blocks dropped. Deepsolv still pending special handling."
   }
  ]
 }
