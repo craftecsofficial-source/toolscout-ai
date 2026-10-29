@@ -696,8 +696,8 @@
     "Live; verify pricing",
     "AI artistic QR generator; free plan, paid memberships"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-29"
   },
   {
    "slug": "thinkdiffusion",
@@ -716,8 +716,8 @@
     "Live; verify pricing",
     "AI SVG vector generator; free tier plus paid"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-29"
   },
   {
    "slug": "vectr",
@@ -786,8 +786,8 @@
     "Live; repositioned, update description",
     "Now cold outreach personalization (emails/video/images/landing pages)"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-29"
   },
   {
    "slug": "luma-dream-machine",
@@ -846,8 +846,8 @@
     "Live; verify pricing",
     "Text/PDF/podcast to narrated video; free to start"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-29"
   },
   {
    "slug": "faceswap",
@@ -856,8 +856,8 @@
     "Free open-source; liveness unconfirmed",
     "Open source deepfake software; fetch returned stale 2024 metadata; Patreon notice"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-29"
   },
   {
    "slug": "flixier",
@@ -886,8 +886,8 @@
     "Live; clarify discount vs regular prices",
     "YouTube-to-shorts clipper; Free, Lite $6, Plus $9.75, Pro $19.75 annual"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-29"
   },
   {
    "slug": "minimax-video-hailuo-ai",
@@ -1036,8 +1036,8 @@
     "Live; verify pricing",
     "AI test agents for web/mobile/API/ERP; free trial"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-29"
   },
   {
    "slug": "factory",
@@ -1186,8 +1186,8 @@
     "Pricing differs from listing; add ethics caveat",
     "Live; trial 10 msgs; sale $39/mo, $90/3mo (reg $59/$149) vs listing; conflicts with interview rules"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-29"
   },
   {
    "slug": "nanobrowser",
@@ -1206,8 +1206,8 @@
     "Live; verify tier prices",
     "Live; AI game engine, free download, MCP; plans on separate page"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-29"
   },
   {
    "slug": "trent-ai",
@@ -1216,8 +1216,8 @@
     "Live; clarify pricing",
     "Live; agentic security platform, Request Access, pricing page exists"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-29"
   },
   {
    "slug": "firetail",
@@ -1236,8 +1236,8 @@
     "Live; verify Pro $20 seat price",
     "Live; enterprise agent platform; $15k Accelerator program on page"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-29"
   },
   {
    "slug": "notion-ai",
@@ -1296,8 +1296,8 @@
     "Early-bird price deadline passed; update",
     "Public beta; $49 early-bird ended Feb 28 2026 per page"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-29"
   },
   {
    "slug": "trevor-ai",
@@ -1306,8 +1306,8 @@
     "Live; add Executive plan note",
     "Live; Free and Pro $5/$6 matches"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-29"
   },
   {
    "slug": "notta",
@@ -1336,8 +1336,8 @@
     "Product pivoted; listed price unverified",
     "Live; OctoRevenue per-account agents, demo only, no pricing"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-29"
   },
   {
    "slug": "tubeonai",
@@ -1346,8 +1346,8 @@
     "Live; Enterprise $29 unverified",
     "Live; Starter free 400 credits, Pro $19/mo seen"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-29"
   },
   {
    "slug": "autonoma",
@@ -3583,6 +3583,10 @@
   {
    "date": "2026-10-29",
    "action": "Fixed 15 pages: brightedge, chatling, cleanup-pictures, common-room, conductor, docsbot-ai, durable, liveperson, napkin, people-ai, plus-ai, regie-ai, rows-ai, superwhisper, surgegraph. Unverified/notes: superwhisper Pro price unverifiable (pricing page failed); brightedge/conductor/liveperson/people-ai pricing not public; plus-ai has no free plan (trial only); common-room acquired by Zoom (Jul 2026), free plan gone; people-ai now Backstory (url updated); liveperson acquired by SoundHound; durable url now durable.com; rows-ai joined Superhuman. Unverified review blocks dropped. Deepsolv still pending special handling."
+  },
+  {
+   "date": "2026-10-29",
+   "action": "Fixed 15 pages (run 2): quickqr-art, vectorart-ai, repliq, adori-ai, faceswap, makeshorts-ai, sofy, interview-solver, summer-engine, trent-ai, odin-ai, ishi, trevor-ai, octolane, tubeonai. Pricing unverified (stated on page): quickqr-art (all paid/API), repliq (credit-tier prices), ishi (Pro price; $49 beta expired), makeshorts-ai (monthly prices; url now makeshorts.ai), trevor-ai, tubeonai (Enterprise limits), trent-ai/odin-ai (partly not public), sofy, interview-solver (Mobile plan). octolane dropped $1,000/mo plan; now Business $79/seat/mo. Unverified review blocks dropped. Deepsolv still pending special handling. Pending REMOVE proposals: supermaven, hume-ai (approval needed)."
   }
  ]
 }
