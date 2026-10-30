@@ -1756,8 +1756,8 @@
     "Free carousel maker, PRO plan; no prices on page",
     "Free carousel maker, PRO plan; no prices on page"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-30"
   },
   {
    "slug": "blaze",
@@ -1766,8 +1766,8 @@
     "Marketing platform and service; $79 software, $999 done-for-you",
     "Marketing platform and service; $79 software, $999 done-for-you"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-30"
   },
   {
    "slug": "chatgpt",
@@ -1816,8 +1816,8 @@
     "AI voice/text agents and workflow automation; Free, $99, $499, $1,499",
     "AI voice/text agents and workflow automation; Free, $99, $499, $1,499"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-30"
   },
   {
    "slug": "leadster",
@@ -1826,8 +1826,8 @@
     "Conversational marketing chatbot; free up to 30 leads; Starter $37 on page vs $47 in listing",
     "Conversational marketing chatbot; free up to 30 leads; Starter $37 on page vs $47 in listing"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-30"
   },
   {
    "slug": "newmode-algomo",
@@ -1836,8 +1836,8 @@
     "newmode.ai serves Algomo (AI sales/pipeline agent), from $200/mo; naming confusing",
     "newmode.ai serves Algomo (AI sales/pipeline agent), from $200/mo; naming confusing"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-30"
   },
   {
    "slug": "poe",
@@ -1886,8 +1886,8 @@
     "Shared memory across AI tools; Core $89/yr, Pro $180/yr",
     "Shared memory across AI tools; Core $89/yr, Pro $180/yr"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-30"
   },
   {
    "slug": "apex-vision-ai",
@@ -1896,8 +1896,8 @@
     "AI study helper extension and apps; free 30 requests; $7.99-$19.99",
     "AI study helper extension and apps; free 30 requests; $7.99-$19.99"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-30"
   },
   {
    "slug": "coachvox-ai",
@@ -1906,8 +1906,8 @@
     "AI clone for coaches; $83/mo annual; 14-day trial with card",
     "AI clone for coaches; $83/mo annual; 14-day trial with card"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-30"
   },
   {
    "slug": "flot-ai",
@@ -1916,8 +1916,8 @@
     "Live; pricing unverified from homepage",
     "Live; page content thin, no pricing seen on homepage"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-30"
   },
   {
    "slug": "juma",
@@ -1926,8 +1926,8 @@
     "Live; refresh details and comparison",
     "AI marketing workspace, 700+ Flows; Free, Pro from $49/mo confirmed"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-30"
   },
   {
    "slug": "mybot-chat",
@@ -1936,8 +1936,8 @@
     "Live; prices not verified on homepage",
     "No-code chatbot from site content/files; pricing on separate page"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-30"
   },
   {
    "slug": "outbound-ai",
@@ -1946,8 +1946,8 @@
     "Live; healthcare voice AI, enterprise-only",
     "Healthcare phone AI agents; demo only, no pricing"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-30"
   },
   {
    "slug": "r2-copilot",
@@ -1956,8 +1956,8 @@
     "Live; pricing tiers now known, update",
     "Multi-model AI in M365/Workspace; Pro $29/seat, Team $249, Business $999, Enterprise from $2,559"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-30"
   },
   {
    "slug": "studymonkey",
@@ -1966,8 +1966,8 @@
     "Live; verify plans",
     "AI homework tutor; pricing on separate page"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-30"
   },
   {
    "slug": "talksmart-ai",
@@ -1976,8 +1976,8 @@
     "Live; confirmed pricing, update page",
     "AI employee answering calls; Essential $297/mo confirmed"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-30"
   },
   {
    "slug": "tripsora",
@@ -3591,6 +3591,10 @@
   {
    "date": "2026-10-30",
    "action": "Fixed 15 pages: bulkgpt, adaptive, olva, hive-inspect, genpage, nytro-seo, pilotscribe, smartlyq, article-fiesta, authoritas, jacquard, postnitro, ranked-ai, topic, topicmojo. Pricing unverified: topicmojo (limits/annual mismatch), smartlyq annual, pilotscribe (pricing page failed, homepage only), jacquard (not public). olva prices rose (Plus $14.99, Pro $24.99). Topic joined CafeMedia (pages look dated). Unverified review blocks dropped. Deepsolv still pending special handling. Pending REMOVE proposals: supermaven, hume-ai (approval needed)."
+  },
+  {
+   "date": "2026-10-30",
+   "action": "Fixed 15 pages (run 2): aicarousels, blaze, dapta-ai, leadster, newmode-algomo, memoryplugin, apex-vision-ai, coachvox-ai, flot-ai, juma, mybot-chat, outbound-ai, r2-copilot, studymonkey, talksmart-ai. Unverified: aicarousels (pricing page failed; prices unconfirmed), flot-ai (site is Framer; fetch returned metadata only; old prices marked last known; needs browser re-check), outbound-ai (no public pricing), newmode-algomo (no per-plan prices), leadster (price range could not be verified; Starter $37), memoryplugin (lifetime price not shown), coachvox-ai (monthly price not shown), r2-copilot (prices from homepage only), talksmart-ai (limits unpublished). blaze Done For You now All-In-One $999/mo. Unverified review blocks dropped. Deepsolv still pending special handling. Pending REMOVE proposals: supermaven, hume-ai (approval needed)."
   }
  ]
 }
