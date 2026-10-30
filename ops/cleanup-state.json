@@ -1366,8 +1366,8 @@
     "Live; verify prices",
     "Live; 200 free tasks; paid prices not shown"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-30"
   },
   {
    "slug": "kolena",
@@ -1406,8 +1406,8 @@
     "Live; verify pricing",
     "Live; AI agents for sales/marketing, iOS app"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-30"
   },
   {
    "slug": "olva",
@@ -1416,8 +1416,8 @@
     "Pricing differs; update",
     "Live; plans Plus $14.99, Pro $24.99, Ultra $99.99 differ from listing"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-30"
   },
   {
    "slug": "read-ai",
@@ -1446,8 +1446,8 @@
     "Niche but live; matches listing",
     "Live; home inspection reports $99/mo, $999/yr matches"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-30"
   },
   {
    "slug": "deepsolv",
@@ -1486,8 +1486,8 @@
     "AI personalized landing pages for ads; free sign-up; status page up",
     "AI personalized landing pages for ads; free sign-up; status page up"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-30"
   },
   {
    "slug": "nytro-seo",
@@ -1496,8 +1496,8 @@
     "Automatic on-page SEO/AEO meta rewriting via JS snippet; live",
     "Automatic on-page SEO/AEO meta rewriting via JS snippet; live"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-30"
   },
   {
    "slug": "surfer-seo",
@@ -1546,8 +1546,8 @@
     "Automated SEO article writing/publishing with GSC-driven refreshes; $39-$299",
     "Automated SEO article writing/publishing with GSC-driven refreshes; $39-$299"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-30"
   },
   {
    "slug": "lovart",
@@ -1566,8 +1566,8 @@
     "All-in-one AI marketing platform, from EUR97/mo, 30-day guarantee",
     "All-in-one AI marketing platform, from EUR97/mo, 30-day guarantee"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-30"
   },
   {
    "slug": "simplified",
@@ -1636,8 +1636,8 @@
     "AI SEO article writer; first 2 articles free; plan prices unverified",
     "AI SEO article writer; first 2 articles free; plan prices unverified"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-30"
   },
   {
    "slug": "authoritas",
@@ -1646,8 +1646,8 @@
     "SEO and AI visibility platform; free tier; prices on separate page",
     "SEO and AI visibility platform; free tier; prices on separate page"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-30"
   },
   {
    "slug": "clickflow",
@@ -1686,8 +1686,8 @@
     "Agentic creative intelligence for marketing copy; formerly Phrasee; enterprise demo-based",
     "Agentic creative intelligence for marketing copy; formerly Phrasee; enterprise demo-based"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-30"
   },
   {
    "slug": "persado",
@@ -1706,8 +1706,8 @@
     "Social carousel/post designer with scheduling and MCP; free plan, paid from $15",
     "Social carousel/post designer with scheduling and MCP; free plan, paid from $15"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-30"
   },
   {
    "slug": "ranked-ai",
@@ -1716,8 +1716,8 @@
     "Managed AI SEO/PPC service; Standard $99, Plus $198, Enterprise $349; listing missing Plus tier",
     "Managed AI SEO/PPC service; Standard $99, Plus $198, Enterprise $349; listing missing Plus tier"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-30"
   },
   {
    "slug": "scalenut",
@@ -1736,8 +1736,8 @@
     "Content brief tool; page shows 2021 footer and CafeMedia acquisition; stale info, status uncertain",
     "Content brief tool; page shows 2021 footer and CafeMedia acquisition; stale info, status uncertain"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-30"
   },
   {
    "slug": "topicmojo",
@@ -1746,8 +1746,8 @@
     "Topic research tool; footer 2024; from $10/mo per page vs $99 in listing; stale",
     "Topic research tool; footer 2024; from $10/mo per page vs $99 in listing; stale"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-30"
   },
   {
    "slug": "aicarousels",
@@ -3587,6 +3587,10 @@
   {
    "date": "2026-10-29",
    "action": "Fixed 15 pages (run 2): quickqr-art, vectorart-ai, repliq, adori-ai, faceswap, makeshorts-ai, sofy, interview-solver, summer-engine, trent-ai, odin-ai, ishi, trevor-ai, octolane, tubeonai. Pricing unverified (stated on page): quickqr-art (all paid/API), repliq (credit-tier prices), ishi (Pro price; $49 beta expired), makeshorts-ai (monthly prices; url now makeshorts.ai), trevor-ai, tubeonai (Enterprise limits), trent-ai/odin-ai (partly not public), sofy, interview-solver (Mobile plan). octolane dropped $1,000/mo plan; now Business $79/seat/mo. Unverified review blocks dropped. Deepsolv still pending special handling. Pending REMOVE proposals: supermaven, hume-ai (approval needed)."
+  },
+  {
+   "date": "2026-10-30",
+   "action": "Fixed 15 pages: bulkgpt, adaptive, olva, hive-inspect, genpage, nytro-seo, pilotscribe, smartlyq, article-fiesta, authoritas, jacquard, postnitro, ranked-ai, topic, topicmojo. Pricing unverified: topicmojo (limits/annual mismatch), smartlyq annual, pilotscribe (pricing page failed, homepage only), jacquard (not public). olva prices rose (Plus $14.99, Pro $24.99). Topic joined CafeMedia (pages look dated). Unverified review blocks dropped. Deepsolv still pending special handling. Pending REMOVE proposals: supermaven, hume-ai (approval needed)."
   }
  ]
 }
