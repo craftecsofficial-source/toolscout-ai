@@ -1986,8 +1986,8 @@
     "Live; listing pricing outdated vs site",
     "AI travel agent; site shows 2 free questions then one-time GBP4.99 for 10 more, conflicting with listed pricing"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-31"
   },
   {
    "slug": "vocalo",
@@ -1996,8 +1996,8 @@
     "Live; pricing confirmed, fix description",
     "English speaking practice; Free 1 session, $15 and $25/mo confirmed"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-31"
   },
   {
    "slug": "thetawise",
@@ -2006,8 +2006,8 @@
     "Live; verify pricing",
     "STEM study AI; free, 1-week trial, Pro on separate page"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-31"
   },
   {
    "slug": "legesgpt",
@@ -2016,8 +2016,8 @@
     "Live; pricing confirmed",
     "AI legal assistant; $19.99/$49.99/$99.99 confirmed, 3-day $1 trial"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-31"
   },
   {
    "slug": "anythingllm",
@@ -2036,8 +2036,8 @@
     "Live; pricing unverified",
     "Noise cancelling app, recorder, meeting minutes; footer 2025, no prices on page"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-31"
   },
   {
    "slug": "elevenlabs",
@@ -2086,8 +2086,8 @@
     "Live; app pricing unverified",
     "Real-time call translation app, 150+ languages, free trial"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-31"
   },
   {
    "slug": "midi-agent",
@@ -2096,8 +2096,8 @@
     "Live; pricing confirmed",
     "MIDI generation plugin; $49 lifetime, Pro $20/mo confirmed"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-31"
   },
   {
    "slug": "suno",
@@ -2136,8 +2136,8 @@
     "Live; confirmed starter price",
     "AI voice/music tools; paid from $10/mo; footer 2025"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-31"
   },
   {
    "slug": "landr",
@@ -2156,8 +2156,8 @@
     "Live; reposition as video editor",
     "Chat-based AI video editor; page lists no prices"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-31"
   },
   {
    "slug": "audio-enhancer-ai",
@@ -2166,8 +2166,8 @@
     "Live; pricing differs from listing",
     "Audio enhancer; free 3 credits/day, Premium $14.99/mo"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-31"
   },
   {
    "slug": "audiostack",
@@ -2176,8 +2176,8 @@
     "Live; enterprise-only pricing",
     "AI audio production platform and APIs; demo-based pricing"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-31"
   },
   {
    "slug": "musicfy",
@@ -2186,8 +2186,8 @@
     "Live; verify pricing",
     "AI voice cover/text-to-music generator, free start"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-31"
   },
   {
    "slug": "podnotes",
@@ -2196,8 +2196,8 @@
     "Live; pricing confirmed",
     "Podcast transcripts and content repurposing; $29-$199/mo confirmed"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-31"
   },
   {
    "slug": "voicedub",
@@ -2206,8 +2206,8 @@
     "Live; pricing differs from listing",
     "Voice covers/cloning/TTS; $2.99/wk, $4.99/mo, $49.99/mo (not $99.99)"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-31"
   },
   {
    "slug": "voicegenie",
@@ -2216,8 +2216,8 @@
     "Live; pricing unverified",
     "AI voice agents for calls; no prices on page, 2025 footer"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-10-31"
   },
   {
    "slug": "voicemaker",
@@ -3595,6 +3595,10 @@
   {
    "date": "2026-10-30",
    "action": "Fixed 15 pages (run 2): aicarousels, blaze, dapta-ai, leadster, newmode-algomo, memoryplugin, apex-vision-ai, coachvox-ai, flot-ai, juma, mybot-chat, outbound-ai, r2-copilot, studymonkey, talksmart-ai. Unverified: aicarousels (pricing page failed; prices unconfirmed), flot-ai (site is Framer; fetch returned metadata only; old prices marked last known; needs browser re-check), outbound-ai (no public pricing), newmode-algomo (no per-plan prices), leadster (price range could not be verified; Starter $37), memoryplugin (lifetime price not shown), coachvox-ai (monthly price not shown), r2-copilot (prices from homepage only), talksmart-ai (limits unpublished). blaze Done For You now All-In-One $999/mo. Unverified review blocks dropped. Deepsolv still pending special handling. Pending REMOVE proposals: supermaven, hume-ai (approval needed)."
+  },
+  {
+   "date": "2026-10-31",
+   "action": "Fixed 15 pages: tripsora, vocalo, thetawise, legesgpt, crystalsound, ai-phone, midi-agent, kits-ai, async, audio-enhancer-ai, audiostack, musicfy, podnotes, voicedub, voicegenie. Pricing unverified: tripsora (/pricing errored; homepage only), vocalo (yearly/lifetime), crystalsound (Premium), ai-phone (no prices public), async (paid $ not shown), audiostack (no rates), musicfy (sale pricing inconsistent), voicedub (post-intro prices), others annual prices. Unverified review blocks dropped. Deepsolv still pending special handling. Pending REMOVE proposals: supermaven, hume-ai (approval needed)."
   }
  ]
 }
