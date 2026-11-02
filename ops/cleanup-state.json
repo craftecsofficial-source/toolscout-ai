@@ -2226,8 +2226,8 @@
     "Live; confirmed starter price",
     "TTS 2,000+ voices, 130 languages; Starter $5/mo"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-02"
   },
   {
    "slug": "verbatik-ai",
@@ -2236,8 +2236,8 @@
     "Live; broaden description",
     "All-in-one TTS/cloning/video/music platform; plan prices not on homepage"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-02"
   },
   {
    "slug": "podcast-transcript-ai",
@@ -2246,8 +2246,8 @@
     "Live; pricing unverified",
     "Podcast-to-text with summaries; free, Pro link"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-02"
   },
   {
    "slug": "surgegraph",
@@ -2266,8 +2266,8 @@
     "Live; verify paid pricing",
     "AI-readable page copies via link tag; free tier, Growth tier"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-02"
   },
   {
    "slug": "profound",
@@ -2286,8 +2286,8 @@
     "Live; AXP is new",
     "AI search visibility plus Agent Experience Platform; 7-day trial"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-02"
   },
   {
    "slug": "athenahq",
@@ -2296,8 +2296,8 @@
     "Live; pricing unverified",
     "AEO/GEO platform; no pricing on page"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-02"
   },
   {
    "slug": "pagelens-ai",
@@ -2316,8 +2316,8 @@
     "Live; rename needed",
     "Renamed Adobe Brand Visibility (formerly LLM Optimizer); demo-only"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-02"
   },
   {
    "slug": "conductor",
@@ -2346,8 +2346,8 @@
     "Live; $79/mo All in One with 7-day trial confirmed",
     "Site says limited-time offer $79/mo, 7-day free trial"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-02"
   },
   {
    "slug": "finseo",
@@ -2356,8 +2356,8 @@
     "Live AI visibility tracker; pricing on separate page, unverified here",
     "Live AI visibility tracker; pricing on separate page, unverified here"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-02"
   },
   {
    "slug": "contentoptima",
@@ -2366,8 +2366,8 @@
     "Live; pricing free/$29/$79 confirmed; 34 pass/fail checks",
     "Live; pricing free/$29/$79 confirmed; 34 pass/fail checks"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-02"
   },
   {
    "slug": "talkeasy",
@@ -2406,8 +2406,8 @@
     "Live AI support platform; 30-day trial confirmed; verify prices",
     "Live AI support platform; 30-day trial confirmed; verify prices"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-02"
   },
   {
    "slug": "chatling",
@@ -2436,8 +2436,8 @@
     "Live AI support agent builder; pricing page unverified",
     "Live AI support agent builder; pricing page unverified"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-02"
   },
   {
    "slug": "bolddesk",
@@ -2446,8 +2446,8 @@
     "Live helpdesk with AI agents (Support, Background, Assist)",
     "Live helpdesk with AI agents (Support, Background, Assist)"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-02"
   },
   {
    "slug": "coveo",
@@ -2456,8 +2456,8 @@
     "Live AI search/personalization platform; enterprise",
     "Live AI search/personalization platform; enterprise"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-02"
   },
   {
    "slug": "mavenoid",
@@ -2466,8 +2466,8 @@
     "Live multimodal AI product support platform",
     "Live multimodal AI product support platform"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-02"
   },
   {
    "slug": "my-askai",
@@ -3599,6 +3599,10 @@
   {
    "date": "2026-10-31",
    "action": "Fixed 15 pages: tripsora, vocalo, thetawise, legesgpt, crystalsound, ai-phone, midi-agent, kits-ai, async, audio-enhancer-ai, audiostack, musicfy, podnotes, voicedub, voicegenie. Pricing unverified: tripsora (/pricing errored; homepage only), vocalo (yearly/lifetime), crystalsound (Premium), ai-phone (no prices public), async (paid $ not shown), audiostack (no rates), musicfy (sale pricing inconsistent), voicedub (post-intro prices), others annual prices. Unverified review blocks dropped. Deepsolv still pending special handling. Pending REMOVE proposals: supermaven, hume-ai (approval needed)."
+  },
+  {
+   "date": "2026-11-02",
+   "action": "Fixed 15 pages: adobe-llm-optimizer, athenahq, bolddesk, contentoptima, coveo, finseo, geordy, kommunicate, llmrefs, mavenoid, podcast-transcript-ai, scrunch-ai, verbatik-ai, voicemaker, wonderchat. Pricing unverified: voicemaker (Teams/Business credits, API), verbatik-ai (annual, Pro tiers), podcast-transcript-ai (monthly price; /pricing errors), mavenoid (pricing page errored; contact sales), adobe-llm-optimizer (no public pricing). Unverified review blocks dropped; scrunch-ai/athenahq keep G2 rating. Deepsolv, pagelens-ai, talkeasy, groweasy, arka-inventory still pending special handling. Pending REMOVE proposals: supermaven, hume-ai (approval needed)."
   }
  ]
 }
