@@ -2476,8 +2476,8 @@
     "Live; site shows Pro from $199/mo, listing pricing outdated",
     "Site: 30-day trial, Pro $199/mo for 1000 tickets, $0.10 extra; listing says $19.99-$299"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-02"
   },
   {
    "slug": "zendesk-ai-agents",
@@ -2496,8 +2496,8 @@
     "Live AI healthcare receptionist; $349/mo confirmed",
     "Live AI healthcare receptionist; $349/mo confirmed"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-02"
   },
   {
    "slug": "language-i-o",
@@ -2506,8 +2506,8 @@
     "Live AI translation for support teams, 150+ languages",
     "Live AI translation for support teams, 150+ languages"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-02"
   },
   {
    "slug": "xtopia",
@@ -2516,8 +2516,8 @@
     "Live AI agent builder; starter from RM500; limited info",
     "Live AI agent builder; starter from RM500; limited info"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-02"
   },
   {
    "slug": "lacy-ai",
@@ -2526,8 +2526,8 @@
     "Live AI phone agent for service businesses; pricing page unverified",
     "Live AI phone agent for service businesses; pricing page unverified"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-02"
   },
   {
    "slug": "owlbot",
@@ -2536,8 +2536,8 @@
     "Live; pricing is $19/$39/$59 not matching listing detail",
     "Starter $19, Small business $39, Enterprise $59"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-02"
   },
   {
    "slug": "groweasy",
@@ -2556,8 +2556,8 @@
     "Live AI for private markets and banks; pricing unpublished",
     "Live AI for private markets and banks; pricing unpublished"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-02"
   },
   {
    "slug": "trustible",
@@ -2566,8 +2566,8 @@
     "Live AI governance platform; pricing unpublished",
     "Live AI governance platform; pricing unpublished"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-02"
   },
   {
    "slug": "apollo-io",
@@ -2586,8 +2586,8 @@
     "Live; Artisan AI BDR Ava",
     "Live; Artisan AI BDR Ava"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-02"
   },
   {
    "slug": "clay",
@@ -2616,8 +2616,8 @@
     "Live inventory software with Fishbowl AI features; borderline AI tool",
     "Live inventory software with Fishbowl AI features; borderline AI tool"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-02"
   },
   {
    "slug": "gong",
@@ -2696,8 +2696,8 @@
     "Live receipt OCR API; pricing differs slightly from listing",
     "Live receipt OCR API; pricing differs slightly from listing"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-02"
   },
   {
    "slug": "urbint",
@@ -2716,8 +2716,8 @@
     "Live visitor identification; pricing page not verified",
     "Live visitor identification; pricing page not verified"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-02"
   },
   {
    "slug": "metaview",
@@ -2726,8 +2726,8 @@
     "Live agentic recruiting platform; pricing on separate page",
     "Live agentic recruiting platform; pricing on separate page"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-02"
   },
   {
    "slug": "qualifier-ai",
@@ -2736,8 +2736,8 @@
     "Live; needs verified pricing and comparison",
     "Live B2B sales automation; pricing page separate"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-02"
   },
   {
    "slug": "kopernicus",
@@ -3603,6 +3603,10 @@
   {
    "date": "2026-11-02",
    "action": "Fixed 15 pages: adobe-llm-optimizer, athenahq, bolddesk, contentoptima, coveo, finseo, geordy, kommunicate, llmrefs, mavenoid, podcast-transcript-ai, scrunch-ai, verbatik-ai, voicemaker, wonderchat. Pricing unverified: voicemaker (Teams/Business credits, API), verbatik-ai (annual, Pro tiers), podcast-transcript-ai (monthly price; /pricing errors), mavenoid (pricing page errored; contact sales), adobe-llm-optimizer (no public pricing). Unverified review blocks dropped; scrunch-ai/athenahq keep G2 rating. Deepsolv, pagelens-ai, talkeasy, groweasy, arka-inventory still pending special handling. Pending REMOVE proposals: supermaven, hume-ai (approval needed)."
+  },
+  {
+   "date": "2026-11-02",
+   "action": "Fixed 14 pages (run 2): my-askai, medreceptionist, language-i-o, xtopia, lacy-ai, owlbot, plural, trustible, ava-by-artisan, fishbowl, tabscanner, warmly, metaview, qualifier-ai. Pricing unverified: plural, trustible (not public), ava-by-artisan (no $ shown), xtopia (RM500 period unclear), language-i-o (higher tiers), warmly (free tier unconfirmed), metaview (platform pricing), medreceptionist (annual), owlbot (annual/overage), fishbowl (AI Insights), lacy-ai (trial). my-askai pricing changed completely (Pro $199, Scale $499). New REMOVE proposal: urbint (acquired by Itron; site redirects, standalone product gone) - approval needed. Pending REMOVE proposals: supermaven, hume-ai, urbint. Deepsolv, pagelens-ai, talkeasy, groweasy, arka-inventory still pending special handling."
   }
  ]
 }
