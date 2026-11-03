@@ -2746,8 +2746,8 @@
     "Live; update details",
     "Live AI procurement/vendor discovery platform"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "ideatwister",
@@ -2756,8 +2756,8 @@
     "Live; pricing confirmed",
     "Live; $9/$29/$59 per run, $349 business"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "prospectoo",
@@ -2766,8 +2766,8 @@
     "Live; refresh page",
     "Live B2B data + AI SDR"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "vea-ai",
@@ -2776,8 +2776,8 @@
     "Live; pricing updated needs fixing",
     "Live; $30/$50/$150/$597 monthly (annual $25/$40/$120/$497)"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "seamless-ai",
@@ -2796,8 +2796,8 @@
     "Live; description should focus on RFP",
     "Live; AI for RFP responses (not generic sales)"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "booleanmaths",
@@ -2806,8 +2806,8 @@
     "Live; verify AI claim, fix description",
     "Live Shopify attribution/server-side tracking; weak AI angle"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "akkio",
@@ -2846,8 +2846,8 @@
     "Live; refresh",
     "Live customer feedback platform"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "fraud-net",
@@ -2856,8 +2856,8 @@
     "Live; refresh",
     "Live fraud detection/compliance"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "graphlit",
@@ -2886,8 +2886,8 @@
     "Live; refresh",
     "Live AI finance research platform"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "julius-ai",
@@ -2906,8 +2906,8 @@
     "Maintenance notice; pricing unverified",
     "Page showed maintenance notice; finance-focused web data pipelines"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "logicmonitor",
@@ -2916,8 +2916,8 @@
     "Live; check AI relevance",
     "Live IT infrastructure monitoring"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "monterey-ai",
@@ -2926,8 +2926,8 @@
     "Live; acquisition note, pricing unverified",
     "Now part of Reforge Insight Analytics after acquisition"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "polymer",
@@ -2936,8 +2936,8 @@
     "Pivoted to embedded analytics; listing outdated",
     "Now embedded analytics API from $500/mo, 7-day trial"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "rows-ai",
@@ -2956,8 +2956,8 @@
     "Live; refresh",
     "Live synthetic data platform"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "mljar-studio",
@@ -3607,6 +3607,10 @@
   {
    "date": "2026-11-02",
    "action": "Fixed 14 pages (run 2): my-askai, medreceptionist, language-i-o, xtopia, lacy-ai, owlbot, plural, trustible, ava-by-artisan, fishbowl, tabscanner, warmly, metaview, qualifier-ai. Pricing unverified: plural, trustible (not public), ava-by-artisan (no $ shown), xtopia (RM500 period unclear), language-i-o (higher tiers), warmly (free tier unconfirmed), metaview (platform pricing), medreceptionist (annual), owlbot (annual/overage), fishbowl (AI Insights), lacy-ai (trial). my-askai pricing changed completely (Pro $199, Scale $499). New REMOVE proposal: urbint (acquired by Itron; site redirects, standalone product gone) - approval needed. Pending REMOVE proposals: supermaven, hume-ai, urbint. Deepsolv, pagelens-ai, talkeasy, groweasy, arka-inventory still pending special handling."
+  },
+  {
+   "date": "2026-11-03",
+   "action": "Fixed 14 pages: kopernicus, ideatwister, prospectoo, vea-ai, inventive-ai, booleanmaths, enterpret, fraud-net, hebbia, kadoa, logicmonitor, monterey-ai, polymer, syntho. Pricing unverified: kopernicus (Creator price), ideatwister (business tier, bundle math), prospectoo (all prices), vea-ai (guarantee terms), inventive-ai (platform fee), booleanmaths (trial length/Enterprise price differ between site and Shopify), enterpret/fraud-net/hebbia (not public), kadoa (no amounts), logicmonitor (add-ons), monterey-ai (acquired by Reforge; not public), polymer (pricing page shows conflicting plan sets), syntho (not public). Unverified review blocks dropped. New REMOVE proposal: graphlit (winding down, signups closed) - approval needed. Pending REMOVE proposals: supermaven, hume-ai, urbint, graphlit. Deepsolv, pagelens-ai, talkeasy, groweasy, arka-inventory still pending special handling."
   }
  ]
 }
