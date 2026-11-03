@@ -1456,8 +1456,8 @@
     "Creative intelligence platform for Meta ad teams; ranked weekly test plan; demo-only pricing; \"+500 brands\" claim",
     "Creative intelligence platform for Meta ad teams; ranked weekly test plan; demo-only pricing; \"+500 brands\" claim"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "adfixer",
@@ -2306,8 +2306,8 @@
     "Live; protected, FIX",
     "AI search visibility across 7 engines; prices on separate page"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "adobe-llm-optimizer",
@@ -2376,8 +2376,8 @@
     "Live AI business phone app; Pro Rs999+GST confirmed (protected)",
     "Live AI business phone app; Pro Rs999+GST confirmed (protected)"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "gorgias",
@@ -2546,8 +2546,8 @@
     "Live AI CRM; site lists no prices here (protected)",
     "Live AI CRM; site lists no prices here (protected)"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "plural",
@@ -3518,8 +3518,8 @@
    "issues": [
     "Live; listing needs verified details and comparison."
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   }
  ],
  "keep": [],
@@ -3615,6 +3615,10 @@
   {
    "date": "2026-11-03",
    "action": "Fixed 44 pages (runs 2-4 of day): mljar-studio, impact-analytics, datasaur, webscrape-ai, rio-sustainability-platform, newtattoo-ai, autodraw, colormind, designlens-ai, designs-ai, fontjoy, imagecolorizer, khroma, let-s-enhance, perception, reimagine-home-ai, slazzer, vizcom, b12, buildship, draftbit, frontly, fronty, genexus, hocoos-ai-website-builder, locofy-ai, makelanding, pickaxe, tooljet, magic-loops, rocket, genppt, aippt, autoppt, deckrobot, magicslides-ai-ppt-maker, popai, powerpresent-ai, presentations-ai, prezent-ai, ai-presentation-maker-by-slidemodel, slidespilot, text2infographic, business-pitch. Many prices unverifiable (JS-rendered/failed pricing pages) and marked as such; unverified review blocks dropped. Remaining: partner pages deepsolv, pagelens-ai, talkeasy, groweasy, arka-inventory (need Mayank decision) and REMOVE proposals supermaven, hume-ai, urbint, graphlit (approval needed)."
+  },
+  {
+   "date": "2026-11-03",
+   "action": "Fixed 5 partner/founder pages: deepsolv, pagelens-ai, talkeasy, groweasy, arka-inventory (labels stay off per owner decision of Oct 2026; in-house reviews dropped). Pricing updated: pagelens-ai (Launch $299, Growth $699, Enterprise from $1,499), groweasy (4 plans Rs999-79,999), arka-inventory (Basic $199, Advance $499). Unverified: vendor claims (500+ brands Deepsolv, 2,000+ GrowEasy, 2500+ TalkEasy). Remaining: urbint, graphlit (REMOVE proposals) plus supermaven, hume-ai - all awaiting Mayank approval."
   }
  ]
 }
