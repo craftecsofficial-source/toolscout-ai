@@ -2966,8 +2966,8 @@
     "Live; refresh",
     "Live desktop AI notebook; pricing page separate"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "impact-analytics",
@@ -2976,8 +2976,8 @@
     "Live; refresh",
     "Live retail AI agents"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "datasaur",
@@ -2986,8 +2986,8 @@
     "Live; verify pricing",
     "Live; no acquisition mentioned"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "webscrape-ai",
@@ -2996,8 +2996,8 @@
     "Live; pricing confirmed",
     "Live; Free $0, Hobby $19, Startup $79"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "rio-sustainability-platform",
@@ -3006,8 +3006,8 @@
     "Live; refresh",
     "Live sustainability consultancy and software"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "newtattoo-ai",
@@ -3016,8 +3016,8 @@
     "Live; Pro price unverified",
     "Live; free start, Pro price not stated"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "autodraw",
@@ -3026,8 +3026,8 @@
     "Status unconfirmed; likely static legacy tool",
     "Page described as ML drawing tool; status not confirmed"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "cleanup-pictures",
@@ -3046,8 +3046,8 @@
     "Likely live; verify API",
     "Page content loads; status not confirmed"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "designlens-ai",
@@ -3056,8 +3056,8 @@
     "Live; refresh",
     "Live Chrome extension for UI/UX analysis"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "designs-ai",
@@ -3066,8 +3066,8 @@
     "Live; positioning changed",
     "Live; now agent-based creative platform"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "fontjoy",
@@ -3076,8 +3076,8 @@
     "Live; refresh",
     "Live font pairing tool"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "framer-ai",
@@ -3096,8 +3096,8 @@
     "Live; pricing unverified",
     "Live; free credits, pricing separate"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "khroma",
@@ -3106,8 +3106,8 @@
     "Live; refresh",
     "Live AI color tool; copyright 2025"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "let-s-enhance",
@@ -3116,8 +3116,8 @@
     "Live; pricing unverified",
     "Live; free to start"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "looka",
@@ -3136,8 +3136,8 @@
     "Live; refresh",
     "Live; palette generator, Studio subscription"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "recraft",
@@ -3154,8 +3154,8 @@
    "issues": [
     "Live; listing needs verified details and comparison."
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "remove-bg",
@@ -3173,8 +3173,8 @@
    "issues": [
     "Live; listing needs verified details and comparison."
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "uizard",
@@ -3192,8 +3192,8 @@
     "Live; listing needs verified details and comparison.",
     "Domain moved to vizcom.com."
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "b12",
@@ -3201,8 +3201,8 @@
    "issues": [
     "Live; listing needs verified details and comparison."
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "buildship",
@@ -3210,8 +3210,8 @@
    "issues": [
     "Live; listing needs verified details and comparison."
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "dify",
@@ -3228,8 +3228,8 @@
    "issues": [
     "Live; listing needs verified details and comparison."
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "durable",
@@ -3248,8 +3248,8 @@
     "Live; listing needs verified details and comparison.",
     "Plans: Free, Basic $30, Pro $100."
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "fronty",
@@ -3257,8 +3257,8 @@
    "issues": [
     "Live; listing needs verified details and comparison."
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "genexus",
@@ -3266,8 +3266,8 @@
    "issues": [
     "Live; listing needs verified details and comparison."
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "hocoos-ai-website-builder",
@@ -3276,8 +3276,8 @@
     "Live; listing needs verified details and comparison.",
     "Premium $15/mo or $150/yr, 14-day trial; listing price outdated."
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "locofy-ai",
@@ -3286,8 +3286,8 @@
     "Live; listing needs verified details and comparison.",
     "Live marketing page, pricing not shown."
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "makelanding",
@@ -3296,8 +3296,8 @@
     "Live; listing needs verified details and comparison.",
     "No free preview; $9/$19/$29 monthly."
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "pickaxe",
@@ -3305,8 +3305,8 @@
    "issues": [
     "Live; listing needs verified details and comparison."
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "skyvern",
@@ -3333,8 +3333,8 @@
    "issues": [
     "Live; listing needs verified details and comparison."
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "magic-loops",
@@ -3343,8 +3343,8 @@
     "Live; listing needs verified details and comparison.",
     "Professional now $20/mo."
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "rocket",
@@ -3352,8 +3352,8 @@
    "issues": [
     "Live; listing needs verified details and comparison."
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "genppt",
@@ -3361,8 +3361,8 @@
    "issues": [
     "Live; listing needs verified details and comparison."
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "aippt",
@@ -3370,8 +3370,8 @@
    "issues": [
     "Live; listing needs verified details and comparison."
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "autoppt",
@@ -3380,8 +3380,8 @@
     "Live; listing needs verified details and comparison.",
     "Live, 2025 footer."
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "deckrobot",
@@ -3389,8 +3389,8 @@
    "issues": [
     "Live; listing needs verified details and comparison."
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "decktopus",
@@ -3408,8 +3408,8 @@
    "issues": [
     "Live; listing needs verified details and comparison."
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "napkin",
@@ -3435,8 +3435,8 @@
    "issues": [
     "Live; listing needs verified details and comparison."
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "powerpresent-ai",
@@ -3445,8 +3445,8 @@
     "Live; listing needs verified details and comparison.",
     "Pricing: free, PAYG $1/credit, $9/29/49 monthly, $499 lifetime."
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "presentations-ai",
@@ -3454,8 +3454,8 @@
    "issues": [
     "Live; listing needs verified details and comparison."
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "prezent-ai",
@@ -3464,8 +3464,8 @@
     "Live; listing needs verified details and comparison.",
     "Now Prezent Vivo, life sciences focused."
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "slidebean",
@@ -3482,8 +3482,8 @@
    "issues": [
     "Live; listing needs verified details and comparison."
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "slidespilot",
@@ -3491,8 +3491,8 @@
    "issues": [
     "Live; listing needs verified details and comparison."
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "text2infographic",
@@ -3500,8 +3500,8 @@
    "issues": [
     "Live; listing needs verified details and comparison."
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "business-pitch",
@@ -3509,8 +3509,8 @@
    "issues": [
     "Live; listing needs verified details and comparison."
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-03"
   },
   {
    "slug": "arka-inventory",
@@ -3611,6 +3611,10 @@
   {
    "date": "2026-11-03",
    "action": "Fixed 14 pages: kopernicus, ideatwister, prospectoo, vea-ai, inventive-ai, booleanmaths, enterpret, fraud-net, hebbia, kadoa, logicmonitor, monterey-ai, polymer, syntho. Pricing unverified: kopernicus (Creator price), ideatwister (business tier, bundle math), prospectoo (all prices), vea-ai (guarantee terms), inventive-ai (platform fee), booleanmaths (trial length/Enterprise price differ between site and Shopify), enterpret/fraud-net/hebbia (not public), kadoa (no amounts), logicmonitor (add-ons), monterey-ai (acquired by Reforge; not public), polymer (pricing page shows conflicting plan sets), syntho (not public). Unverified review blocks dropped. New REMOVE proposal: graphlit (winding down, signups closed) - approval needed. Pending REMOVE proposals: supermaven, hume-ai, urbint, graphlit. Deepsolv, pagelens-ai, talkeasy, groweasy, arka-inventory still pending special handling."
+  },
+  {
+   "date": "2026-11-03",
+   "action": "Fixed 44 pages (runs 2-4 of day): mljar-studio, impact-analytics, datasaur, webscrape-ai, rio-sustainability-platform, newtattoo-ai, autodraw, colormind, designlens-ai, designs-ai, fontjoy, imagecolorizer, khroma, let-s-enhance, perception, reimagine-home-ai, slazzer, vizcom, b12, buildship, draftbit, frontly, fronty, genexus, hocoos-ai-website-builder, locofy-ai, makelanding, pickaxe, tooljet, magic-loops, rocket, genppt, aippt, autoppt, deckrobot, magicslides-ai-ppt-maker, popai, powerpresent-ai, presentations-ai, prezent-ai, ai-presentation-maker-by-slidemodel, slidespilot, text2infographic, business-pitch. Many prices unverifiable (JS-rendered/failed pricing pages) and marked as such; unverified review blocks dropped. Remaining: partner pages deepsolv, pagelens-ai, talkeasy, groweasy, arka-inventory (need Mayank decision) and REMOVE proposals supermaven, hume-ai, urbint, graphlit (approval needed)."
   }
  ]
 }
