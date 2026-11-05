@@ -3619,6 +3619,10 @@
   {
    "date": "2026-11-03",
    "action": "Fixed 5 partner/founder pages: deepsolv, pagelens-ai, talkeasy, groweasy, arka-inventory (labels stay off per owner decision of Oct 2026; in-house reviews dropped). Pricing updated: pagelens-ai (Launch $299, Growth $699, Enterprise from $1,499), groweasy (4 plans Rs999-79,999), arka-inventory (Basic $199, Advance $499). Unverified: vendor claims (500+ brands Deepsolv, 2,000+ GrowEasy, 2500+ TalkEasy). Remaining: urbint, graphlit (REMOVE proposals) plus supermaven, hume-ai - all awaiting Mayank approval."
+  },
+  {
+   "date": "2026-11-05",
+   "action": "Checked state: all FIX pages done except urbint and graphlit, which are REMOVE proposals awaiting approval (with supermaven, hume-ai). No changes to site. Phase stays FIX until Mayank approves/rejects these 4. Note: Hume AI APIs sunset 2026-11-13."
   }
  ]
 }
