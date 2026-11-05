@@ -3641,6 +3641,10 @@
   {
    "date": "2026-11-05",
    "action": "Mayank approved removal of supermaven, hume-ai, urbint, graphlit; applied (moved to REMOVED_TOOLS, html deleted, 301s added). All FIX done -> phase MONITOR."
+  },
+  {
+   "date": "2026-11-05",
+   "action": "MONITOR: refreshed homepage Latest AI insights (6 items, Oct 29-Nov 5). Pricing recheck skipped: all pages checked within last ~3 weeks. Live redirect for removed tools verified."
   }
  ]
 }
