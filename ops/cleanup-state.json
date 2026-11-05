@@ -1,5 +1,5 @@
 {
- "phase": "FIX",
+ "phase": "MONITOR",
  "audit_date": "2026-10-15",
  "trust_fixes_done": true,
  "removal_approved": true,
@@ -289,13 +289,25 @@
    "slug": "supermaven",
    "name": "Supermaven",
    "reason": "Reported sunset of standalone service after Cursor/Anysphere acquisition; official site still lists plans. Awaiting Mayank approval.",
-   "approved": false
+   "approved": true
   },
   {
    "slug": "hume-ai",
    "name": "Hume AI",
    "reason": "Hume is sunsetting its TTS (Octave) and EVI APIs; access ends 2026-11-13. hume.ai now sells evaluation tooling by request only. Awaiting Mayank approval.",
-   "approved": false
+   "approved": true
+  },
+  {
+   "slug": "urbint",
+   "name": "Urbint",
+   "reason": "Acquired/winding down",
+   "approved": true
+  },
+  {
+   "slug": "graphlit",
+   "name": "Graphlit",
+   "reason": "Acquired/winding down",
+   "approved": true
   }
  ],
  "fix": [
@@ -2706,8 +2718,9 @@
     "Live AI risk platform for utilities",
     "Live AI risk platform for utilities"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-05",
+   "removed": true
   },
   {
    "slug": "warmly",
@@ -2866,8 +2879,9 @@
     "Live; positioning updated",
     "Live; context layer for AI agents"
    ],
-   "done": false,
-   "fixed_on": null
+   "done": true,
+   "fixed_on": "2026-11-05",
+   "removed": true
   },
   {
    "slug": "h2o-ai",
@@ -3623,6 +3637,10 @@
   {
    "date": "2026-11-05",
    "action": "Checked state: all FIX pages done except urbint and graphlit, which are REMOVE proposals awaiting approval (with supermaven, hume-ai). No changes to site. Phase stays FIX until Mayank approves/rejects these 4. Note: Hume AI APIs sunset 2026-11-13."
+  },
+  {
+   "date": "2026-11-05",
+   "action": "Mayank approved removal of supermaven, hume-ai, urbint, graphlit; applied (moved to REMOVED_TOOLS, html deleted, 301s added). All FIX done -> phase MONITOR."
   }
  ]
 }

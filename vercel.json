@@ -299,6 +299,26 @@
    "source": "/blog/uizard-vs-framer-ai-vs-galileo-ai.html",
    "destination": "/blog/",
    "permanent": true
+  },
+  {
+   "source": "/tools/supermaven.html",
+   "destination": "/categories/coding-development.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/hume-ai.html",
+   "destination": "/categories/audio-voice.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/urbint.html",
+   "destination": "/categories/business-sales.html",
+   "permanent": true
+  },
+  {
+   "source": "/tools/graphlit.html",
+   "destination": "/categories/data-analysis.html",
+   "permanent": true
   }
  ]
 }
