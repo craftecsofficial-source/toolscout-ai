@@ -3645,6 +3645,10 @@
   {
    "date": "2026-11-05",
    "action": "MONITOR: refreshed homepage Latest AI insights (6 items, Oct 29-Nov 5). Pricing recheck skipped: all pages checked within last ~3 weeks. Live redirect for removed tools verified."
+  },
+  {
+   "date": "2026-11-06",
+   "action": "MONITOR: rechecked pricing on 10 oldest pages (checked 2026-10-15). No price changes. last_checked bumped for Jasper, Midjourney, GitHub Copilot, Cursor, Claude, Google Gemini, ElevenLabs. Unverifiable (JS-rendered/blocked pages, left unchanged): Grammarly, ChatGPT, Perplexity. Homepage insights not refreshed (done Nov 5)."
   }
  ]
 }
