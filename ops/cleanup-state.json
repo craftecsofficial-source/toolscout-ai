@@ -3649,6 +3649,10 @@
   {
    "date": "2026-11-06",
    "action": "MONITOR: rechecked pricing on 10 oldest pages (checked 2026-10-15). No price changes. last_checked bumped for Jasper, Midjourney, GitHub Copilot, Cursor, Claude, Google Gemini, ElevenLabs. Unverifiable (JS-rendered/blocked pages, left unchanged): Grammarly, ChatGPT, Perplexity. Homepage insights not refreshed (done Nov 5)."
+  },
+  {
+   "date": "2026-11-07",
+   "action": "MONITOR: refreshed homepage Latest AI insights (6 items, Nov 5-6). Rechecked pricing on 8 of the oldest pages: no price changes; last_checked bumped for Adobe Firefly, Base44, Clearscope, Descript. Left unchanged (pricing page partly unreadable): Apollo.io, Clay (conflicting figures), ClickUp AI (AI add-on tiers not visible, credits $10/10k shown), Copy.ai (no free plan visible, only Try for free). ChatGPT/Grammarly/Perplexity still unverifiable."
   }
  ]
 }
