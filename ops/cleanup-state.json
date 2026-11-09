@@ -3653,6 +3653,10 @@
   {
    "date": "2026-11-07",
    "action": "MONITOR: refreshed homepage Latest AI insights (6 items, Nov 5-6). Rechecked pricing on 8 of the oldest pages: no price changes; last_checked bumped for Adobe Firefly, Base44, Clearscope, Descript. Left unchanged (pricing page partly unreadable): Apollo.io, Clay (conflicting figures), ClickUp AI (AI add-on tiers not visible, credits $10/10k shown), Copy.ai (no free plan visible, only Try for free). ChatGPT/Grammarly/Perplexity still unverifiable."
+  },
+  {
+   "date": "2026-11-09",
+   "action": "MONITOR: refreshed homepage Latest AI insights (6 items, Nov 6-7). Rechecked pricing on oldest pages: Frase, HeyGen, Krisp, Gong, Claude Code, Notion AI match live pages, last_checked bumped. Ideogram left unchanged (live page shows Plus $15/mo, Pro $42/mo, differs from listing - needs a human look). Murf AI (JS-only page) and Gorgias (plan prices not shown) unverifiable. ChatGPT/Grammarly/Perplexity still unverifiable."
   }
  ]
 }
