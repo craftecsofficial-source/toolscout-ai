@@ -3661,6 +3661,10 @@
   {
    "date": "2026-11-10",
    "action": "MONITOR: homepage insights not refreshed (no new substantive items since Nov 9 refresh). Rechecked pricing: Otter.ai, Runway, Suno, Surfer SEO, Wordtune match live pages; Synthesia Starter updated $29 -> $19/mo (Pro $89; first-month promos $9/$49). last_checked bumped for all six. ChatGPT/Grammarly/Perplexity, Apollo.io, Clay, ClickUp AI, Copy.ai, Gorgias, Ideogram, Murf AI still need a human look/unverifiable."
+  },
+  {
+   "date": "2026-11-10",
+   "action": "Pricing pass from Mayank-supplied pricing URLs. Updated: Ideogram (Plus $15, credits 1,000/3,500/1,500), ClickUp AI (Core $9, Business $17, Max $100 annual; Brain included in all plans, separate AI add-on prices no longer listed; credits $10/10K), Murf AI (Creator $19 / Business $66 yearly verified via browser; API from $0.01/1K chars), Copy.ai (no free plan listed). Matched live, last_checked bumped: Grammarly (Pro $12, billing period not stated), Perplexity (Pro $17 / Max $167 annual), Clay. Still unverifiable: ChatGPT (page shows INR for India, no USD), Apollo.io (no prices on page), Gorgias (no plan prices on page)."
   }
  ]
 }
