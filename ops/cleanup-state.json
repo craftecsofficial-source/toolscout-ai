@@ -3657,6 +3657,10 @@
   {
    "date": "2026-11-09",
    "action": "MONITOR: refreshed homepage Latest AI insights (6 items, Nov 6-7). Rechecked pricing on oldest pages: Frase, HeyGen, Krisp, Gong, Claude Code, Notion AI match live pages, last_checked bumped. Ideogram left unchanged (live page shows Plus $15/mo, Pro $42/mo, differs from listing - needs a human look). Murf AI (JS-only page) and Gorgias (plan prices not shown) unverifiable. ChatGPT/Grammarly/Perplexity still unverifiable."
+  },
+  {
+   "date": "2026-11-10",
+   "action": "MONITOR: homepage insights not refreshed (no new substantive items since Nov 9 refresh). Rechecked pricing: Otter.ai, Runway, Suno, Surfer SEO, Wordtune match live pages; Synthesia Starter updated $29 -> $19/mo (Pro $89; first-month promos $9/$49). last_checked bumped for all six. ChatGPT/Grammarly/Perplexity, Apollo.io, Clay, ClickUp AI, Copy.ai, Gorgias, Ideogram, Murf AI still need a human look/unverifiable."
   }
  ]
 }
