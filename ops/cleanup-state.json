@@ -3677,6 +3677,10 @@
   {
    "date": "2026-11-11",
    "action": "Per Mayank (\"remove it if any tool has been removed from our end\"): deleted stale blog/replit-ai-vs-windsurf-vs-supermaven.html (Supermaven removed), added 301 to /categories/coding-development.html (plus a precautionary 301 for the never-published gong-vs-chorus-ai-vs-clari URL). build.py now auto-deletes any comparison post that features a removed tool. Scan of all other blog posts: no links to removed tools (Apollo/Outreach/Salesloft post only mentions the Clari merger as a fact about Salesloft)."
+  },
+  {
+   "date": "2026-11-11",
+   "action": "MONITOR (run 2 of day): rechecked pricing on 10 oldest verifiable pages. Updated: SummarizingTool (pricing page now loads: Pro $4.99/mo or $49.99/yr), Dzine (free tier now 100 signup credits, no daily reset; Creator $24.99/mo; new Master Pro $149.99/mo; yearly prices added), Cohere (Model Vault now priced per GPU-hour, promo $1-$10/hr to Mar 31 2027). Matched, last_checked bumped: WordHero, Amazon Q Developer, BgEraser, DiffusionBee, Fireworks AI, Factory (official URL now factory.com, updated). Craiyon unverifiable (site would not load). Homepage insights not refreshed (already done earlier today)."
   }
  ]
 }
