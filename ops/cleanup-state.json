@@ -3673,6 +3673,10 @@
   {
    "date": "2026-11-11",
    "action": "MONITOR: refreshed homepage Latest AI insights (6 items, Nov 9-10; none GEO-related, no PageLens mention). Rechecked pricing on the 10 oldest verifiable pages. Updated: Lavender (prices now public: Basic free/5 analyses, Starter $27, Pro $45, Team $89/seat annual; Ora $500/agent/mo), NovelAI (full tiers: Paper trial, Tablet $10, Scroll $15, Opus $25), Rewording.io (free use is credit-based, 1 guest + 50 on verify; paid prices still unpublished), Originality.ai (free plan now includes plagiarism etc.; shareable reports now in Pro; free-credit figures inconsistent on page). Matched, last_checked bumped: LanguageTool, Sapling, AIPRM, Contents.com, MovableType.ai (14-day trial length not restated on homepage), NeuralWriter. Skipped repeat-unverifiable: ChatGPT, Apollo.io, Gorgias, Keyword Caddy. Note: orphan blog page blog/replit-ai-vs-windsurf-vs-supermaven.html still exists for removed tool Supermaven (not linked from anywhere) - left for Mayank to decide."
+  },
+  {
+   "date": "2026-11-11",
+   "action": "Per Mayank (\"remove it if any tool has been removed from our end\"): deleted stale blog/replit-ai-vs-windsurf-vs-supermaven.html (Supermaven removed), added 301 to /categories/coding-development.html (plus a precautionary 301 for the never-published gong-vs-chorus-ai-vs-clari URL). build.py now auto-deletes any comparison post that features a removed tool. Scan of all other blog posts: no links to removed tools (Apollo/Outreach/Salesloft post only mentions the Clari merger as a fact about Salesloft)."
   }
  ]
 }

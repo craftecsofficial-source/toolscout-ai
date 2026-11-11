@@ -9230,6 +9230,7 @@ def build_multi_comparison(cat_slug, names):
     return {"slug": slug, "cat": cat, "tools": tools, "title": title, "meta_description": meta_description, "dek": dek, "faq": None}
 
 _removed_names = {_t["name"] for _t in REMOVED_TOOLS}
+_DROPPED_COMPARISON_SLUGS = ["-vs-".join(slugify(n) for n in names) for cs, names in MULTI_COMPARISONS_SPEC if set(names) & _removed_names]
 MULTI_COMPARISONS_SPEC = [(cs, names) for cs, names in MULTI_COMPARISONS_SPEC if not (set(names) & _removed_names)]
 MULTI_COMPARISONS = [build_multi_comparison(cs, names) for cs, names in MULTI_COMPARISONS_SPEC]
 
@@ -9382,6 +9383,13 @@ for comp in MULTI_COMPARISONS:
     body = multi_compare_body(comp, depth=1)
     with open(os.path.join(BLOG_DIR, f"{comp['slug']}.html"), "w") as f:
         f.write(page(comp["title"], comp["meta_description"], body, depth=1, extra_head=multi_compare_jsonld(comp), url_path=f"blog/{comp['slug']}.html"))
+
+# Comparison posts that feature a removed tool are no longer generated; delete any
+# stale copy left from an earlier build (vercel.json 301-redirects the old URL).
+for _dead in _DROPPED_COMPARISON_SLUGS:
+    _dead_path = os.path.join(BLOG_DIR, f"{_dead}.html")
+    if os.path.exists(_dead_path):
+        os.remove(_dead_path)
 
 def blog_index_body(depth=1):
     prefix = "../" if depth else ""

@@ -319,6 +319,11 @@
    "source": "/tools/graphlit.html",
    "destination": "/categories/data-analysis.html",
    "permanent": true
+  },
+  {
+   "source": "/blog/replit-ai-vs-windsurf-vs-supermaven.html",
+   "destination": "/categories/coding-development.html",
+   "permanent": true
   }
  ]
 }
