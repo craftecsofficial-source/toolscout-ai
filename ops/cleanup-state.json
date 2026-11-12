@@ -3685,6 +3685,10 @@
   {
    "date": "2026-11-12",
    "action": "MONITOR: refreshed homepage Latest AI insights (6 items, Nov 10-11, TechCrunch/VentureBeat/Engadget/The Decoder; one GEO story - OpenAI ChatGPT business profiles - carries a PageLens.ai founder disclosure). Rechecked pricing on 10 oldest pages. Updated: Hedra (plans replaced: no free plan; Basic $20, Pro $50, Ultra from $100, Teams $75, monthly only; FAQ/pros/cons fixed), Imagen AI (Limitless now $129/mo yearly or $165 monthly; PAYG color correction from $0.05, culling add-on from $12), Flixier (prices unchanged, added AI credits per plan and extra-credit pack). Matched, last_checked bumped: Fliki, Imagga, ImgGen AI, Luma Dream Machine, MailMaestro, Langflow. Kling AI unverifiable (script-rendered pricing)."
+  },
+  {
+   "date": "2026-11-12",
+   "action": "MONITOR (run 2 of day): rechecked pricing on the 10 oldest verifiable pages. Updated: Topaz Labs (regular prices up: Studio $79/mo or $499/yr; Studio Pro $799/yr, $79/mo on annual commitment, cloud export cap 256 MP; web plans Image $19/$199, Video $29/$299, Pro $59/$599; Black Friday sale prices noted separately), Ollama (cloud Free plan replaced by $0 pay-as-you-go with no included credits, 3 concurrent requests), Modelia (free Starter: 50 welcome credits then 20/month), Rask AI (voice cloning now 57 languages). Matched, last_checked bumped: Meshy (added $35 first-month Studio offer), Pebblely, PhotoPacks.AI, Scenario, Stable Fast 3D. Paperpal unverifiable (pricing page shows no plans/prices). Skipped repeat-unverifiable: ChatGPT, Apollo.io, Gorgias, Keyword Caddy, Craiyon, Kling AI. Homepage insights not refreshed (already done earlier today)."
   }
  ]
 }
