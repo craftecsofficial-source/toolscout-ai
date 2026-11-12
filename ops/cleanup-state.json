@@ -3681,6 +3681,10 @@
   {
    "date": "2026-11-11",
    "action": "MONITOR (run 2 of day): rechecked pricing on 10 oldest verifiable pages. Updated: SummarizingTool (pricing page now loads: Pro $4.99/mo or $49.99/yr), Dzine (free tier now 100 signup credits, no daily reset; Creator $24.99/mo; new Master Pro $149.99/mo; yearly prices added), Cohere (Model Vault now priced per GPU-hour, promo $1-$10/hr to Mar 31 2027). Matched, last_checked bumped: WordHero, Amazon Q Developer, BgEraser, DiffusionBee, Fireworks AI, Factory (official URL now factory.com, updated). Craiyon unverifiable (site would not load). Homepage insights not refreshed (already done earlier today)."
+  },
+  {
+   "date": "2026-11-12",
+   "action": "MONITOR: refreshed homepage Latest AI insights (6 items, Nov 10-11, TechCrunch/VentureBeat/Engadget/The Decoder; one GEO story - OpenAI ChatGPT business profiles - carries a PageLens.ai founder disclosure). Rechecked pricing on 10 oldest pages. Updated: Hedra (plans replaced: no free plan; Basic $20, Pro $50, Ultra from $100, Teams $75, monthly only; FAQ/pros/cons fixed), Imagen AI (Limitless now $129/mo yearly or $165 monthly; PAYG color correction from $0.05, culling add-on from $12), Flixier (prices unchanged, added AI credits per plan and extra-credit pack). Matched, last_checked bumped: Fliki, Imagga, ImgGen AI, Luma Dream Machine, MailMaestro, Langflow. Kling AI unverifiable (script-rendered pricing)."
   }
  ]
 }
